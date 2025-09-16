@@ -48,7 +48,12 @@
             background-color: #2a78e8;
         }
 
-        
+        .filter-btn img {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
     </style>
 </head>
 <body>
@@ -105,7 +110,7 @@
 
             // Add "All" button
             var allButton = document.createElement('button');
-            allButton.innerHTML = 'Semua';
+            allButton.innerHTML = '<img src="assets/icon/Lainnya.png" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;"> Semua';
             allButton.className = 'filter-btn active';
             allButton.addEventListener('click', function() {
                 if (activeCategories.size === categories.length) {
@@ -120,7 +125,12 @@
             // Add category buttons
             categories.forEach(function(cat) {
                 var button = document.createElement('button');
-                button.innerHTML = cat;
+                var iconUrl = iconMapping[cat] ? iconMapping[cat].options.iconUrl : '';
+                if (iconUrl) {
+                    button.innerHTML = `<img src="${iconUrl}" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;"> ${cat}`;
+                } else {
+                    button.innerHTML = cat;
+                }
                 button.className = 'filter-btn';
                 button.dataset.category = cat;
                 button.addEventListener('click', function() {
