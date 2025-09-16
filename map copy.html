@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Peta Lokasi Baubau</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+    <style>
+        #map { height: 100vh; }
+        #filter-buttons {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            z-index: 1000;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            max-width: 300px;
+        }
+        .filter-btn {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 15px;
+            padding: 6px 12px;
+            cursor: pointer;
+            font-size: 12px;
+            outline: none;
+            transition: all 0.2s ease;
+        }
+        .filter-btn.active {
+            background-color: #3388ff;
+            color: white;
+            border-color: #3388ff;
+        }
+        .filter-btn:hover {
+            background-color: #f4f4f4;
+        }
+        .filter-btn.active:hover {
+            background-color: #2a78e8;
+        }
+
+        .filter-btn img {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="map"></div>
+<div id="filter-buttons"></div>
+
+<script>
+    var map = L.map('map').setView([-5.47, 122.6], 13);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    var layersByCategory = {};
+    var activeCategories = new Set();
+
+    // Define icons for each category
+    const iconBasePath = 'assets/icon/';
+    const categoriesWithIcons = ['Badan', 'Dinas', 'Inspektorat', 'Kecamatan', 'Kelurahan', 'Kesehatan', 'Lembaga Lain', 'Pendidikan', 'Lainnya'];
+    const iconMapping = {};
+    categoriesWithIcons.forEach(cat => {
+        iconMapping[cat] = L.icon({
+            iconUrl: iconBasePath + cat + '.png',
+            iconSize: [32, 32],
+            iconAnchor: [16, 32],
+            popupAnchor: [0, -32]
+        });
+    });
+
+    fetch('./File/kotabaubau.json')
+        .then(response => response.json())
+        .then(data => {
+            data.forEach(function(point) {
+                if (point.Y && point.X) {
+                    var category = point.kategori || 'Lainnya';
+                    var marker;
+                    if (iconMapping[category]) {
+                        marker = L.marker([point.Y, point.X], { icon: iconMapping[category] });
+                    } else {
+                        marker = L.marker([point.Y, point.X]); // Default icon for categories without one
+                    }
+                    marker.bindPopup("<b>" + point.Name + "</b><br>Kategori: " + category);
+
+                    if (!layersByCategory[category]) {
+                        layersByCategory[category] = L.layerGroup();
+                    }
+                    layersByCategory[category].addLayer(marker);
+                }
+            });
+
+            var filterButtons = document.getElementById('filter-buttons');
+            var categories = Object.keys(layersByCategory).sort();
+
+            // Add "All" button
+            var allButton = document.createElement('button');
+            allButton.innerHTML = '<img src="assets/icon/Lainnya.png" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;"> Semua';
+            allButton.className = 'filter-btn active';
+            allButton.addEventListener('click', function() {
+                if (activeCategories.size === categories.length) {
+                    activeCategories.clear();
+                } else {
+                    categories.forEach(cat => activeCategories.add(cat));
+                }
+                updateMapAndButtons();
+            });
+            filterButtons.appendChild(allButton);
+
+            // Add category buttons
+            categories.forEach(function(cat) {
+                var button = document.createElement('button');
+                var iconUrl = iconMapping[cat] ? iconMapping[cat].options.iconUrl : '';
+                if (iconUrl) {
+                    button.innerHTML = `<img src="${iconUrl}" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;"> ${cat}`;
+                } else {
+                    button.innerHTML = cat;
+                }
+                button.className = 'filter-btn';
+                button.dataset.category = cat;
+                button.addEventListener('click', function() {
+                    if (activeCategories.has(cat)) {
+                        activeCategories.delete(cat);
+                    } else {
+                        activeCategories.add(cat);
+                    }
+                    updateMapAndButtons();
+                });
+                filterButtons.appendChild(button);
+                activeCategories.add(cat); // Initially all active
+            });
+
+            updateMapAndButtons(); // Initial draw
+
+            function updateMapAndButtons() {
+                categories.forEach(function(cat) {
+                    var button = document.querySelector('.filter-btn[data-category="' + cat + '"]');
+                    if (activeCategories.has(cat)) {
+                        if (!map.hasLayer(layersByCategory[cat])) {
+                            map.addLayer(layersByCategory[cat]);
+                        }
+                        if(button) button.classList.add('active');
+                    } else {
+                        if (map.hasLayer(layersByCategory[cat])) {
+                            map.removeLayer(layersByCategory[cat]);
+                        }
+                        if(button) button.classList.remove('active');
+                    }
+                });
+                allButton.classList.toggle('active', activeCategories.size === categories.length);
+            }
+        })
+        .catch(error => console.error('Error loading the JSON file:', error));
+</script>
+
+</body>
+</html>

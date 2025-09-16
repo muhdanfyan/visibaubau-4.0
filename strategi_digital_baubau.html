@@ -1,170 +1,406 @@
-
 <!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Strategi Transformasi Digital Kota Baubau 2025-2035</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-        }
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@700&display=swap');
-        h1, h2, h3 {
-            font-family: 'Poppins', sans-serif;
-        }
-    </style>
-</head>
-<body class="bg-gray-50 text-gray-800">
+<html class="no-js" lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Strategi Digital - Transformasi Digital Kota Baubau 4.0</title>
+    <meta name="description" content="Strategi Transformasi Digital Kota Baubau Menuju Kota 4.0 (2025-2035)" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap-5.0.0-alpha-2.min.css" />
+    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css"/>
+    <link rel="stylesheet" href="assets/css/animate.css"/>
+    <link rel="stylesheet" href="assets/css/lindy-uikit.css"/>
+  </head>
+  <body>
+    <!-- ========================= preloader start ========================= -->
+    <div class="preloader">
+      <div class="loader">
+        <div class="spinner">
+          <div class="spinner-container">
+            <div class="spinner-rotator">
+              <div class="spinner-left">
+                <div class="spinner-circle"></div>
+              </div>
+              <div class="spinner-right">
+                <div class="spinner-circle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ========================= preloader end ========================= -->
 
-    <div class="container mx-auto p-4 sm:p-6 md:p-8">
+    <!-- ========================= header-2 start ========================= -->
+    <header class="header header-2">
+      <div class="navbar-area">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-12">
+              <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="index.html">
+                  <img src="assets/img/logo/logo.svg" alt="Logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="toggler-icon"></span>
+                  <span class="toggler-icon"></span>
+                  <span class="toggler-icon"></span>
+                </button>
 
-        <!-- Header -->
-        <header class="text-center py-12 bg-white shadow-lg rounded-xl mb-12 border border-gray-200">
-            <h1 class="text-4xl md:text-5xl font-bold text-blue-600">Strategi Transformasi Digital Kota Baubau</h1>
-            <p class="text-xl md:text-2xl text-gray-600 mt-2">Menuju Kota 4.0 (2025-2035)</p>
-        </header>
-
-        <main class="space-y-12">
-
-            <!-- Ringkasan Eksekutif -->
-            <section class="bg-white p-8 rounded-xl shadow-md border border-gray-100">
-                <h2 class="text-3xl font-bold mb-4 text-gray-900">Ringkasan Eksekutif</h2>
-                <div class="space-y-4 text-lg text-gray-700 leading-relaxed">
-                    <p>Dokumen strategis ini menguraikan visi ambisius Diskominfo Kota Baubau untuk periode 2025-2035, melampaui konsep "kota pintar" konvensional dengan mengadopsi kerangka kerja "Kota 4.0." Kerangka ini mengintegrasikan teknologi digital, data besar, dan kolaborasi partisipatif antara pemerintah sebagai fasilitator dan masyarakat sebagai co-creator.</p>
-                    <p>Fondasi legal dari inisiatif ini sangat kuat, didukung oleh kerangka kerja nasional Sistem Pemerintahan Berbasis Elektronik (SPBE). Rencana transformasi ini didasarkan pada empat pilar utama: <strong>Infrastruktur Jaringan, Command Center, Aplikasi Satu Data, dan Data Center</strong>, di mana Data Center berfungsi sebagai inti strategis dari seluruh ekosistem.</p>
-                    <p>Keberhasilan rencana ini akan sangat bergantung pada kemampuan untuk mengatasi tantangan kritis seperti tata kelola data, keamanan siber, dan manajemen perubahan untuk mendorong partisipasi warga dan aparatur pemerintah.</p>
+                <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent2">
+                  <ul id="nav2" class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="map.html">Peta</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="active" href="strategi_digital_baubau.html">Strategi Digital</a>
+                    </li>
+                  </ul>
                 </div>
-            </section>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ========================= header-2 end ========================= -->
 
-            <!-- 1.0 Pendahuluan -->
-            <section>
-                <h2 class="text-3xl font-bold mb-6 border-l-4 border-blue-500 pl-4">1.0 Pendahuluan: Visi Kota 4.0</h2>
-                <div class="grid md:grid-cols-2 gap-8">
-                    <div class="bg-white p-6 rounded-lg shadow-sm">
-                        <h3 class="text-2xl font-bold mb-3">1.1 Melampaui Paradigma Kota Pintar</h3>
-                        <p class="text-gray-700 leading-loose">Konsep Kota 4.0 didefinisikan sebagai integrasi teknologi digital dan data besar dengan pendekatan kolaboratif. Peran pemerintah bertransformasi dari penyedia layanan menjadi fasilitator, sementara warga didorong menjadi co-creator dalam menyelesaikan masalah kota. Ini menuntut perubahan budaya menuju literasi data dan keterlibatan aktif.</p>
-                    </div>
-                    <div class="bg-white p-6 rounded-lg shadow-sm">
-                        <h3 class="text-2xl font-bold mb-3">1.2 Tujuan Strategis Ganda</h3>
-                        <p class="text-gray-700 leading-loose">Inisiatif ini bertujuan untuk menciptakan kota yang lebih cerdas dan inovatif melalui peningkatan kualitas layanan publik, sekaligus bertujuan untuk meningkatkan Pendapatan Asli Daerah (PAD) melalui efisiensi dan transparansi dalam pengumpulan pendapatan.</p>
+    <!-- ========================= page-title-section start ========================= -->
+    <section class="page-title-section bg-white pt-150 pb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 mx-auto">
+                    <div class="page-title-content text-center">
+                        <h2 class="mb-15">Strategi Transformasi Digital</h2>
+                        <p>Rencana strategis Kota Baubau dibangun di atas empat pilar teknologi utama yang saling terkait dan saling bergantung, didukung oleh kerangka hukum yang kuat dan kesiapan sumber daya manusia.</p>
                     </div>
                 </div>
-            </section>
+            </div>
+        </div>
+    </section>
+    <!-- ========================= page-title-section end ========================= -->
 
-            <!-- 2.0 Kerangka Dasar SPBE -->
-            <section>
-                <h2 class="text-3xl font-bold mb-6 border-l-4 border-blue-500 pl-4">2.0 Kerangka Dasar: Sistem Pemerintahan Berbasis Elektronik (SPBE)</h2>
-                <div class="bg-white p-8 rounded-xl shadow-md border border-gray-100">
-                    <h3 class="text-2xl font-bold mb-4">2.1 Landasan Hukum</h3>
-                    <p class="mb-6 text-gray-700">Penyelenggaraan tata kelola digital di Kota Baubau didasarkan pada kerangka hukum nasional yang komprehensif, memberikan validitas dan legitimasi yang kuat. Berikut adalah peraturan kunci yang menjadi fondasi inisiatif ini:</p>
-                    <div class="overflow-x-auto">
-                        <table class="min-w-full bg-white border border-gray-200">
-                            <thead class="bg-blue-50">
+    <!-- ========================= about style-3 start ========================= -->
+    <section id="visi" class="about-section about-style-3">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="about-image wow fadeInLeft" data-wow-delay=".2s">
+              <img src="assets/img/about/about-3/about-img.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-content-wrapper">
+              <div class="section-title mb-40">
+                <h3 class="mb-25 wow fadeInUp" data-wow-delay=".2s">1.0 Pendahuluan: Visi Kota 4.0 dan Diskominfo 4.0</h3>
+                <p class="wow fadeInUp" data-wow-delay=".4s">Visi strategis ini mewakili pergeseran paradigmatik dalam tata kelola perkotaan. Konsep Kota 4.0 adalah evolusi dari smart city, di mana fokusnya diperluas dari sekadar teknologi menjadi pembangunan ekosistem kolaboratif. Pemerintah bertransformasi dari penyedia layanan menjadi fasilitator, sementara warga didorong menjadi co-creator dalam mengatasi permasalahan kota.</p>
+                <p class="wow fadeInUp" data-wow-delay=".5s">Sejalan dengan itu, Diskominfo Kota Baubau bertransformasi menjadi "Diskominfo 4.0" untuk memimpin dan memfasilitasi transformasi digital di seluruh perangkat daerah dan masyarakat.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========================= about style-3 end ========================= -->
+
+    <!-- ========================= SPBE Section start ========================= -->
+    <section id="spbe" class="about-section about-style-3 bg-white pt-100 pb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title text-center mb-60">
+                        <h3 class="mb-25 wow fadeInUp" data-wow-delay=".2s">2.0 Kerangka Dasar: Sistem Pemerintahan Berbasis Elektronik (SPBE)</h3>
+                        <p class="wow fadeInUp" data-wow-delay=".4s">Tata kelola digital di Kota Baubau didasarkan pada kerangka hukum nasional yang komprehensif, memberikan validitas dan legitimasi yang kuat.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="table-responsive wow fadeInUp" data-wow-delay=".6s">
+                        <table class="table table-striped">
+                            <thead>
                                 <tr>
-                                    <th class="py-3 px-4 border-b text-left text-sm font-semibold text-gray-600 uppercase">Nama Peraturan</th>
-                                    <th class="py-3 px-4 border-b text-left text-sm font-semibold text-gray-600 uppercase">Tahun</th>
-                                    <th class="py-3 px-4 border-b text-left text-sm font-semibold text-gray-600 uppercase">Singkatan</th>
+                                    <th>Nama Peraturan</th>
+                                    <th>Tahun</th>
+                                    <th>Kontribusi Khusus</th>
                                 </tr>
                             </thead>
-                            <tbody class="text-gray-700">
-                                <tr><td class="py-3 px-4 border-b">UU tentang Informasi dan Transaksi Elektronik</td><td class="py-3 px-4 border-b">2008</td><td class="py-3 px-4 border-b">UU ITE (No. 11/2008)</td></tr>
-                                <tr class="bg-gray-50"><td class="py-3 px-4 border-b">UU tentang Keterbukaan Informasi Publik</td><td class="py-3 px-4 border-b">2008</td><td class="py-3 px-4 border-b">UU KIP (No. 14/2008)</td></tr>
-                                <tr><td class="py-3 px-4 border-b">Perpres tentang Sistem Pemerintahan Berbasis Elektronik</td><td class="py-3 px-4 border-b">2018</td><td class="py-3 px-4 border-b">Perpres SPBE (No. 95/2018)</td></tr>
-                                <tr class="bg-gray-50"><td class="py-3 px-4 border-b">Perpres tentang Arsitektur SPBE Nasional</td><td class="py-3 px-4 borderb">2022</td><td class="py-3 px-4 border-b">Perpres Arsitektur SPBE (No. 132/2022)</td></tr>
-                                <tr><td class="py-3 px-4 border-b">Perpres tentang Percepatan Transformasi Digital</td><td class="py-3 px-4 border-b">2023</td><td class="py-3 px-4 border-b">Perpres Percepatan Transformasi (No. 82/2023)</td></tr>
+                            <tbody>
+                                <tr>
+                                    <td>UU tentang Informasi dan Transaksi Elektronik</td>
+                                    <td>2008</td>
+                                    <td>Mengatur penggunaan teknologi informasi dan transaksi elektronik.</td>
+                                </tr>
+                                <tr>
+                                    <td>UU tentang Keterbukaan Informasi Publik</td>
+                                    <td>2008</td>
+                                    <td>Mengatur hak masyarakat untuk memperoleh informasi publik.</td>
+                                </tr>
+                                <tr>
+                                    <td>Perpres tentang Sistem Pemerintahan Berbasis Elektronik</td>
+                                    <td>2018</td>
+                                    <td>Menjadi pedoman utama dalam penyelenggaraan SPBE.</td>
+                                </tr>
+                                <tr>
+                                    <td>Perpres tentang Arsitektur SPBE Nasional</td>
+                                    <td>2022</td>
+                                    <td>Mengatur kerangka dasar dan arah kebijakan SPBE nasional.</td>
+                                </tr>
+                                <tr>
+                                    <td>Perpres tentang Percepatan Transformasi Digital</td>
+                                    <td>2023</td>
+                                    <td>Mempercepat transformasi dan mengintegrasikan layanan digital nasional.</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
                 </div>
-            </section>
+            </div>
+        </div>
+    </section>
+    <!-- ========================= SPBE Section end ========================= -->
 
-            <!-- 3.0 Pilar-Pilar Transformasi -->
-            <section>
-                <h2 class="text-3xl font-bold mb-6 border-l-4 border-blue-500 pl-4">3.0 Pilar-Pilar Transformasi Digital</h2>
-                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                    <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300">
-                        <h3 class="text-xl font-bold mb-2 text-blue-600">Infrastruktur Jaringan</h3>
-                        <p>Mengintegrasikan jaringan internet OPD, memusatkan pengelolaan bandwidth, dan menyediakan Wi-Fi gratis di ruang publik.</p>
-                    </div>
-                    <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300">
-                        <h3 class="text-xl font-bold mb-2 text-blue-600">Command Center</h3>
-                        <p>Pusat kendali terpadu untuk memantau, mengkoordinasikan, dan menanggapi layanan publik secara real-time.</p>
-                    </div>
-                    <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300">
-                        <h3 class="text-xl font-bold mb-2 text-blue-600">Aplikasi Satu Data</h3>
-                        <p>Mengintegrasikan data statistik dari berbagai OPD untuk menyediakan data yang akurat, mutakhir, dan mudah diakses.</p>
-                    </div>
-                    <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300 bg-blue-50 border-blue-200 border">
-                        <h3 class="text-xl font-bold mb-2 text-blue-700">Data Center</h3>
-                        <p>Fasilitas terpusat untuk menyimpan, mengelola, dan mengamankan semua data digital. Merupakan fondasi terpenting dari keseluruhan rencana.</p>
+    <!-- ========================= feature style-2 start ========================= -->
+    <section id="pilar" class="feature-section feature-style-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col-xl-7 col-lg-10 col-md-9">
+                <div class="section-title mb-60">
+                  <h3 class="mb-15 wow fadeInUp" data-wow-delay=".2s">3.0 Pilar-Pilar Transformasi Digital</h3>
+                  <p class="wow fadeInUp" data-wow-delay=".4s">Rencana strategis Kota Baubau dibangun di atas empat pilar teknologi utama yang saling terkait dan saling bergantung.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
+                  <div class="icon"><i class="lni lni-world-alt"></i></div>
+                  <div class="content">
+                    <h5 class="mb-25">Infrastruktur Jaringan</h5>
+                    <p>Menciptakan sistem Pelayanan Internet Satu Pintu untuk mengintegrasikan jaringan OPD, memusatkan pengelolaan bandwidth, dan pemerataan akses internet publik.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
+                  <div class="icon"><i class="lni lni-display-alt"></i></div>
+                  <div class="content">
+                    <h5 class="mb-25">Command Center</h5>
+                    <p>Pusat kendali terpadu untuk memantau, mengkoordinasikan, dan menanggapi berbagai insiden atau layanan publik secara real-time.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
+                  <div class="icon"><i class="lni lni-database"></i></div>
+                  <div class="content">
+                    <h5 class="mb-25">Aplikasi Satu Data</h5>
+                    <p>Mengintegrasikan data statistik dari berbagai OPD untuk menyediakan data yang akurat, mutakhir, terpadu, dan mudah diakses.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="single-feature wow fadeInUp" data-wow-delay=".8s">
+                  <div class="icon"><i class="lni lni-server"></i></div>
+                  <div class="content">
+                    <h5 class="mb-25">Data Center</h5>
+                    <p>Fasilitas terpusat untuk menyimpan, mengelola, dan mengamankan semua data digital yang terkait dengan layanan publik dan administrasi.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="feature-img wow fadeInLeft" data-wow-delay=".2s">
+        <img src="assets/img/feature/feature-2-1.svg" alt="">
+      </div>
+    </section>
+		<!-- ========================= feature style-2 end ========================= -->
+
+    <!-- ========================= Studi Kasus Section start ========================= -->
+    <section id="studi-kasus" class="about-section about-style-3 bg-white pt-100 pb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title text-center mb-60">
+                        <h3 class="mb-25 wow fadeInUp" data-wow-delay=".2s">5.0 Studi Kasus: Implementasi Praktis</h3>
+                        <p class="wow fadeInUp" data-wow-delay=".4s">Contoh konkret bagaimana inisiatif ini berhubungan dengan tujuan strategis untuk meningkatkan Pendapatan Asli Daerah (PAD) dan layanan kesehatan.</p>
                     </div>
                 </div>
-            </section>
-
-            <!-- 6.0 Kesiapan SDM -->
-            <section>
-                <h2 class="text-3xl font-bold mb-6 border-l-4 border-blue-500 pl-4">6.0 Kesiapan Sumber Daya Manusia (SDM)</h2>
-                <div class="bg-white p-8 rounded-xl shadow-md border border-gray-100">
-                    <p class="text-lg text-gray-700 mb-6">Keberhasilan implementasi sangat bergantung pada ekosistem talenta lokal yang kompeten, yang terdiri dari:</p>
-                    <ul class="list-disc list-inside space-y-3 text-gray-700">
-                        <li><strong>Lembaga Pendidikan:</strong> Pondok Informatika sebagai sumber SDM terampil.</li>
-                        <li><strong>Organisasi Komunitas:</strong> Komunitas Programmer Baubau sebagai wadah kolaborasi dan inovasi.</li>
-                        <li><strong>Korporasi:</strong> CV Ghonim (pengembangan Smart City) dan CV Sarjana Komputer (penyedia SDM IT).</li>
-                        <li><strong>Praktisi dan Akademisi:</strong> Keterlibatan para ahli seperti Irvan (Network Expert), Muhdan Fyan Syah Sofian (Komunitas), Hermawan Safrin (Backend Developer), dan akademisi dari UM Buton.</li>
-                    </ul>
-                </div>
-            </section>
-
-            <!-- 7.0 Rekomendasi -->
-            <section>
-                <h2 class="text-3xl font-bold mb-6 border-l-4 border-blue-500 pl-4">7.0 Rekomendasi Strategis</h2>
-                <div class="bg-yellow-50 border border-yellow-200 p-8 rounded-xl">
-                    <ul class="space-y-4">
-                        <li class="flex items-start"><span class="text-yellow-600 mr-3">&#10003;</span> <span><strong>Tata Kelola Data Komprehensif:</strong> Menetapkan kerangka kerja kualitas, standarisasi, dan keamanan data.</span></li>
-                        <li class="flex items-start"><span class="text-yellow-600 mr-3">&#10003;</span> <span><strong>Mitigasi Risiko Siber:</strong> Mengembangkan strategi keamanan dan rencana pemulihan bencana yang terperinci.</span></li>
-                        <li class="flex items-start"><span class="text-yellow-600 mr-3">&#10003;</span> <span><strong>Manajemen Perubahan:</strong> Melakukan pelatihan dan edukasi publik untuk mendorong partisipasi aktif.</span></li>
-                        <li class="flex items-start"><span class="text-yellow-600 mr-3">&#10003;</span> <span><strong>Metrik Kinerja:</strong> Menetapkan sistem pelacakan kinerja dan ROI yang jelas, terutama terkait peningkatan PAD.</span></li>
-                        <li class="flex items-start"><span class="text-yellow-600 mr-3">&#10003;</span> <span><strong>Kolaborasi antar Lembaga:</strong> Menjalin komunikasi berkelanjutan dengan entitas nasional untuk memastikan interoperabilitas.</span></li>
-                    </ul>
-                </div>
-            </section>
-
-            <!-- Sumber Referensi -->
-            <section>
-                <h2 class="text-3xl font-bold mb-6 border-l-4 border-blue-500 pl-4">Sumber Referensi</h2>
-                <div class="bg-white p-8 rounded-xl shadow-md border border-gray-100">
-                    <p class="text-lg text-gray-700 mb-6">Dokumen dan data pendukung yang menjadi acuan dalam strategi ini:</p>
-                    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                        <a href="File/KOMINFO KOTA BAUABU 2025 - 2035.pdf" target="_blank" class="block p-4 border rounded-lg hover:bg-gray-50 hover:shadow-sm transition-all">
-                            <p class="font-semibold text-blue-600">Rencana Induk Diskominfo 2025-2035</p>
-                            <p class="text-sm text-gray-500">Dokumen PDF</p>
-                        </a>
-                        <a href="File/CCTV DAN WIFI RUANG PUBLIK KOTA BAUBAU.kmz" target="_blank" class="block p-4 border rounded-lg hover:bg-gray-50 hover:shadow-sm transition-all">
-                            <p class="font-semibold text-blue-600">Data Titik CCTV & WiFi</p>
-                            <p class="text-sm text-gray-500">File KMZ</p>
-                        </a>
-                        <a href="File/Perencanaan dan Pemasangan CCTV dan Free Wi lapangan merdeka dan taman segitiga.docx" target="_blank" class="block p-4 border rounded-lg hover:bg-gray-50 hover:shadow-sm transition-all">
-                            <p class="font-semibold text-blue-600">Dokumen Perencanaan CCTV</p>
-                            <p class="text-sm text-gray-500">Dokumen Word</p>
-                        </a>
-                        <a href="File/SISTEM INFORMASI KEPEGAWAIAN (1).pdf" target="_blank" class="block p-4 border rounded-lg hover:bg-gray-50 hover:shadow-sm transition-all">
-                            <p class="font-semibold text-blue-600">Contoh Sistem Informasi</p>
-                            <p class="text-sm text-gray-500">Dokumen PDF</p>
-                        </a>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-10">
+                    <div class="single-pricing wow fadeInUp" data-wow-delay=".2s" style="padding: 30px;">
+                        <h4>Aplikasi Satu Data untuk Dispenda</h4>
+                        <p>Mengintegrasikan data penerimaan daerah, mencakup modul pajak (PBJT, PBB-P2, BPHTB, MBLB) dan retribusi (parkir, sampah, pasar) yang dapat diakses online dan offline untuk meningkatkan efisiensi dan transparansi koleksi PAD.</p>
                     </div>
                 </div>
-            </section>
+                <div class="col-lg-6 col-md-10">
+                    <div class="single-pricing wow fadeInUp" data-wow-delay=".4s" style="padding: 30px;">
+                        <h4>Sistem Terintegrasi untuk Dinkes</h4>
+                        <p>Menghubungkan data dari Puskesmas, BPJS, RSUD, dan Kemenkes ke dalam satu Data Center. Keberhasilannya bergantung pada interoperabilitas dengan lembaga dan sistem di tingkat nasional untuk pertukaran data yang mulus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========================= Studi Kasus Section end ========================= -->
 
-        </main>
+		<!-- ========================= team style-1 start ========================= -->
+		<section id="sdm" class="team-section team-style-1">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xxl-5 col-xl-5 col-lg-7 col-md-10">
+            <div class="section-title text-center mb-60">
+              <h3 class="mb-15 wow fadeInUp" data-wow-delay=".2s">6.0 Kesiapan Sumber Daya Manusia (SDM)</h3>
+              <p class="wow fadeInUp" data-wow-delay=".4s">Keberhasilan implementasi visi Kota 4.0 sangat bergantung pada ketersediaan dan kemampuan SDM yang kompeten dari berbagai sektor.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row justify-content-center">
+          <div class="col-xl-3 col-md-6 col-sm-10">
+            <div class="single-team wow fadeInUp" data-wow-delay=".2s">
+              <div class="image"><img src="assets/img/team/team-1/team-1.png" alt=""></div>
+              <div class="info"><h6>Irvan</h6><p>Network Expert</p></div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 col-sm-10">
+            <div class="single-team wow fadeInUp" data-wow-delay=".4s">
+              <div class="image"><img src="assets/img/team/team-1/team-2.png" alt=""></div>
+              <div class="info"><h6>Muhdan Fyan Syah Sofian</h6><p>Komunitas & Pondok Informatika</p></div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 col-sm-10">
+            <div class="single-team wow fadeInUp" data-wow-delay=".6s">
+              <div class="image"><img src="assets/img/team/team-1/team-3.png" alt=""></div>
+              <div class="info"><h6>Hermawan Safrin</h6><p>Backend Developer</p></div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 col-sm-10">
+            <div class="single-team wow fadeInUp" data-wow-delay=".8s">
+              <div class="image"><img src="assets/img/team/team-1/team-4.png" alt=""></div>
+              <div class="info"><h6>Muh. Awaluddin, M.Kom.</h6><p>Linux, Server, DevOps Expert</p></div>
+            </div>
+          </div>
+        </div>
 
-        <!-- Footer -->
-        <footer class="text-center py-8 mt-12 border-t">
-            <p class="text-gray-500">Dihasilkan secara otomatis berdasarkan dokumen strategi Diskominfo Kota Baubau.</p>
-        </footer>
+      </div>
+    </section>
+    <!-- ========================= team style-1 end ========================= -->
 
-    </div>
+    <!-- ========================= Rekomendasi start ========================= -->
+    <section id="rekomendasi" class="contact-section contact-style-6">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="left-wrapper">
+              <div class="section-title mb-40 text-center">
+                <h3 class="mb-15 wow fadeInUp" data-wow-delay=".2s">7.0 Rekomendasi Strategis</h3>
+                <p class="wow fadeInUp" data-wow-delay=".4s">Rekomendasi kunci untuk memastikan keberhasilan implementasi rencana transformasi digital Kota Baubau.</p>
+              </div>
+              <div class="row">
+                <div class="col-lg-6 col-md-6">
+                  <div class="single-item wow fadeInUp" data-wow-delay=".3s">
+                    <div class="icon"><i class="lni lni-protection"></i></div>
+                    <div class="text"><h6>Tata Kelola Data</h6><p>Menetapkan kerangka kerja tata kelola data yang komprehensif.</p></div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="single-item wow fadeInUp" data-wow-delay=".4s">
+                    <div class="icon"><i class="lni lni-shield"></i></div>
+                    <div class="text"><h6>Mitigasi Risiko Siber</h6><p>Mengembangkan strategi keamanan siber dan rencana pemulihan bencana.</p></div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="single-item wow fadeInUp" data-wow-delay=".5s">
+                    <div class="icon"><i class="lni lni-users"></i></div>
+                    <div class="text"><h6>Manajemen Perubahan</h6><p>Program pelatihan dan edukasi publik untuk mendorong partisipasi.</p></div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="single-item wow fadeInUp" data-wow-delay=".6s">
+                    <div class="icon"><i class="lni lni-stats-up"></i></div>
+                    <div class="text"><h6>Metrik Kinerja</h6><p>Menetapkan sistem pelacakan kinerja dan ROI yang jelas.</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========================= Rekomendasi end ========================= -->
 
-</body>
+    <!-- ========================= footer style-1 start ========================= -->
+    <footer class="footer footer-style-1">
+      <div class="container">
+        <div class="widget-wrapper">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6">
+              <div class="footer-widget wow fadeInUp" data-wow-delay=".2s">
+                <div class="logo">
+                  <a href="#0"> <img src="assets/img/logo/logo.svg" alt=""> </a>
+                </div>
+                <p class="desc">Website ini menjabarkan Rencana Strategis Diskominfo Kota Baubau 2025-2035, sebuah cetak biru visioner untuk transformasi digital menuju "Kota 4.0" yang kolaboratif dan terintegrasi.</p>
+              </div>
+            </div>
+            <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-6 col-sm-6">
+              <div class="footer-widget wow fadeInUp" data-wow-delay=".3s">
+                <h6>Navigasi</h6>
+                <ul class="links">
+                  <li> <a href="index.html">Beranda</a> </li>
+                  <li> <a href="map.html">Peta</a> </li>
+                  <li> <a href="strategi_digital_baubau.html">Strategi Digital</a> </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
+              <div class="footer-widget wow fadeInUp" data-wow-delay=".4s">
+                <h6>Pilar Utama</h6>
+                <ul class="links">
+                  <li> <a href="#pilar">Infrastruktur</a> </li>
+                  <li> <a href="#pilar">Command Center</a> </li>
+                  <li> <a href="#pilar">Aplikasi Satu Data</a> </li>
+                  <li> <a href="#pilar">Data Center</a> </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6">
+              <div class="footer-widget wow fadeInUp" data-wow-delay=".5s">
+                <h6>Kontak</h6>
+                <ul class="links">
+                  <li> <a href="#">Diskominfo Baubau</a> </li>
+                  <li> <a href="#">Pemerintah Kota Baubau</a> </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright-wrapper wow fadeInUp" data-wow-delay=".2s">
+          <p>Dibuat untuk Pemerintah Kota Baubau | Desain oleh <a href="https://uideck.com" rel="nofollow" target="_blank">UIdeck</a> & <a href="https://rebrand.ly/lindy-ui" rel="nofollow" target="_blank">Lindy UI</a></p>
+        </div>
+      </div>
+    </footer>
+    <!-- ========================= footer style-1 end ========================= -->
+
+    <!-- ========================= scroll-top start ========================= -->
+    <a href="#" class="scroll-top"> <i class="lni lni-chevron-up"></i> </a>
+    <!-- ========================= scroll-top end ========================= -->
+		
+    <!-- ========================= JS here ========================= -->
+    <script src="assets/js/bootstrap.5.0.0.alpha-2-min.js"></script>
+    <script src="assets/js/count-up.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
