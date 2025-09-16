@@ -1,0 +1,858 @@
+[
+  {
+    "X": 122.5920368,
+    "Y": -5.483488262,
+    "Z": 0,
+    "Name": "RUMAH SAKIT PALAGIMATA",
+    "field_5": "",
+    "kategori": "Kesehatan"
+  },
+  {
+    "X": 122.5925306,
+    "Y": -5.458722222,
+    "Z": 0,
+    "Name": "KEC.BATUPORA",
+    "field_5": "",
+    "kategori": "Kecamatan"
+  },
+  {
+    "X": 122.6319167,
+    "Y": -5.385383333,
+    "Z": 0,
+    "Name": "KEC. LEA LEA",
+    "field_5": "",
+    "kategori": "Kecamatan"
+  },
+  {
+    "X": 122.5977917,
+    "Y": -5.467138889,
+    "Z": 0,
+    "Name": "KEC. MURHUM",
+    "field_5": "",
+    "kategori": "Kecamatan"
+  },
+  {
+    "X": 122.6534694,
+    "Y": -5.431988889,
+    "Z": 0,
+    "Name": "KEC KOKALUKUNA",
+    "field_5": "",
+    "kategori": "Kecamatan"
+  },
+  {
+    "X": 122.66745,
+    "Y": -5.389386111,
+    "Z": 0,
+    "Name": "KEC BUNGI",
+    "field_5": "",
+    "kategori": "Kecamatan"
+  },
+  {
+    "X": 122.6941111,
+    "Y": -5.482419444,
+    "Z": 0,
+    "Name": "KEC. SORAWOLIO",
+    "field_5": "",
+    "kategori": "Kecamatan"
+  },
+  {
+    "X": 122.614,
+    "Y": -5.462547222,
+    "Z": 0,
+    "Name": "KEC. WOLIO",
+    "field_5": "",
+    "kategori": "Kecamatan"
+  },
+  {
+    "X": 122.58595,
+    "Y": -5.47185,
+    "Z": 0,
+    "Name": "KEC. BETOAMBARI",
+    "field_5": "",
+    "kategori": "Kecamatan"
+  },
+  {
+    "X": 122.5905583,
+    "Y": -5.465372222,
+    "Z": 0,
+    "Name": "KEL. BONE-BONE",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.5978083,
+    "Y": -5.458208333,
+    "Z": 0,
+    "Name": "KEL.KAOBULA",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.5991889,
+    "Y": -5.458666667,
+    "Z": 0,
+    "Name": "KEL. LANTO",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.6044278,
+    "Y": -5.459958333,
+    "Z": 0,
+    "Name": "KEL. NGANGANAUMALA",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.5932278,
+    "Y": -5.461466667,
+    "Z": 0,
+    "Name": "KEL. TARAFU",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.5942694,
+    "Y": -5.458480556,
+    "Z": 0,
+    "Name": "KEL. WAMEO",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.6283194,
+    "Y": -5.390186111,
+    "Z": 0,
+    "Name": "KEL. KALIA-LIA",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.644075,
+    "Y": -5.391888889,
+    "Z": 0,
+    "Name": "KEL. KANTALAI",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.6202722,
+    "Y": -5.402911111,
+    "Z": 0,
+    "Name": "KEL. KOLESE",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.6288194,
+    "Y": -5.407775,
+    "Z": 0,
+    "Name": "KEL. LOWU-LOWU",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.6640361,
+    "Y": -5.327375,
+    "Z": 0,
+    "Name": "KEL. PALABUSA",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.6010056,
+    "Y": -5.477508333,
+    "Z": 0,
+    "Name": "KEL. BAADIA",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.5989472,
+    "Y": -5.468288889,
+    "Z": 0,
+    "Name": "KEL. LAMANGGA",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.6027167,
+    "Y": -5.472338889,
+    "Z": 0,
+    "Name": "KEL. MELAI",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.5933639,
+    "Y": -5.470033333,
+    "Z": 0,
+    "Name": "KEL. TANGANAPADA",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.6016,
+    "Y": -5.464786111,
+    "Z": 0,
+    "Name": "KEL. WAJO",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.6214861,
+    "Y": -5.463355556,
+    "Z": 0,
+    "Name": "KEL. KADOLO",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.6243833,
+    "Y": -5.459938889,
+    "Z": 0,
+    "Name": "KEL. KADOLOMOKO",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.6518361,
+    "Y": -5.419494444,
+    "Z": 0,
+    "Name": "KEL. LAKOLOGOU",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.6301028,
+    "Y": -5.425394444,
+    "Z": 0,
+    "Name": "KEL. LIWUTO",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.6241583,
+    "Y": -5.425411111,
+    "Z": 0,
+    "Name": "KEL. SUKANAEYO",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.6501056,
+    "Y": -5.430583333,
+    "Z": 0,
+    "Name": "KEL. WARURUMA",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.6943611,
+    "Y": -5.340769444,
+    "Z": 0,
+    "Name": "KEL. KAMPOENAHO",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.6626528,
+    "Y": -5.4086,
+    "Z": 0,
+    "Name": "KEL. LIABUKU",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.6901528,
+    "Y": -5.366658333,
+    "Z": 0,
+    "Name": "KEL. NGKARING KARING",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.6779111,
+    "Y": -5.341458333,
+    "Z": 0,
+    "Name": "KEL. TAMPUNA",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.6736139,
+    "Y": -5.397194444,
+    "Z": 0,
+    "Name": "KEL. WALIABUKU",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.7040028,
+    "Y": -5.486888889,
+    "Z": 0,
+    "Name": "KEL. BUGI",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.7292028,
+    "Y": -5.476669444,
+    "Z": 0,
+    "Name": "KEL. GONDA BARU",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.6889833,
+    "Y": -5.474486111,
+    "Z": 0,
+    "Name": "KEL. KAISABU BARU",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.6993444,
+    "Y": -5.486438889,
+    "Z": 0,
+    "Name": "KEL. KARYA BARU",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.6073389,
+    "Y": -5.463488889,
+    "Z": 0,
+    "Name": "KEL. BATARAGURU",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.6134472,
+    "Y": -5.458933333,
+    "Z": 0,
+    "Name": "KEL. BATULO",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.6171944,
+    "Y": -5.469913889,
+    "Z": 0,
+    "Name": "KEL. BUKIT WOLIO INDAH",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.6371611,
+    "Y": -5.467294444,
+    "Z": 0,
+    "Name": "KEL. KADOLO KATAPI",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.60715,
+    "Y": -5.458819444,
+    "Z": 0,
+    "Name": "KEL. TOMBA",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.6047694,
+    "Y": -5.454083333,
+    "Z": 0,
+    "Name": "KEL. WALE",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.6149528,
+    "Y": -5.463130556,
+    "Z": 0,
+    "Name": "KEL. WANGKANAPI",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.5860722,
+    "Y": -5.471980556,
+    "Z": 0,
+    "Name": "KEL. KATOBENGKE",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.5990194,
+    "Y": -5.51645,
+    "Z": 0,
+    "Name": "KEL. LABALAWA",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.5882167,
+    "Y": -5.479088889,
+    "Z": 0,
+    "Name": "KEL. LIPU",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.5598361,
+    "Y": -5.503386111,
+    "Z": 0,
+    "Name": "KEL. SULAA",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.5951,
+    "Y": -5.495597222,
+    "Z": 0,
+    "Name": "KEL. WABOROBO",
+    "field_5": "",
+    "kategori": "Kelurahan"
+  },
+  {
+    "X": 122.5905056,
+    "Y": -5.465161111,
+    "Z": 0,
+    "Name": "SDN 1 BONE-BONE",
+    "field_5": "",
+    "kategori": "Pendidikan"
+  },
+  {
+    "X": 122.5994472,
+    "Y": -5.459633333,
+    "Z": 0,
+    "Name": "SDN 1 KAOBULA",
+    "field_5": "",
+    "kategori": "Pendidikan"
+  },
+  {
+    "X": 122.59965,
+    "Y": -5.457002778,
+    "Z": 0,
+    "Name": "SDN 1 NGANGANAUMALA",
+    "field_5": "",
+    "kategori": "Pendidikan"
+  },
+  {
+    "X": 122.5932167,
+    "Y": -5.460275,
+    "Z": 0,
+    "Name": "SDN 1 WAMEO",
+    "field_5": "",
+    "kategori": "Pendidikan"
+  },
+  {
+    "X": 122.5903306,
+    "Y": -5.466061111,
+    "Z": 0,
+    "Name": "SDN 2 BONE-BONE",
+    "field_5": "",
+    "kategori": "Pendidikan"
+  },
+  {
+    "X": 122.5982917,
+    "Y": -5.458830556,
+    "Z": 0,
+    "Name": "SDN 2 KAOBULA",
+    "field_5": "",
+    "kategori": "Pendidikan"
+  },
+  {
+    "X": 122.5991167,
+    "Y": -5.459833333,
+    "Z": 0,
+    "Name": "SDN 2 NGANGANAUMALA",
+    "field_5": "",
+    "kategori": "Pendidikan"
+  },
+  {
+    "X": 122.5968528,
+    "Y": -5.458091667,
+    "Z": 0,
+    "Name": "SDN 2 WAMEO",
+    "field_5": "",
+    "kategori": "Pendidikan"
+  },
+  {
+    "X": 122.6038472,
+    "Y": -5.460305556,
+    "Z": 0,
+    "Name": "SDN 3 NGANGANAUMALA",
+    "field_5": "",
+    "kategori": "Pendidikan"
+  },
+  {
+    "X": 122.5924194,
+    "Y": -5.464119444,
+    "Z": 0,
+    "Name": "SDN 3 WAMEO",
+    "field_5": "",
+    "kategori": "Pendidikan"
+  },
+  {
+    "X": 122.628825,
+    "Y": -5.389925,
+    "Z": 0,
+    "Name": "SDN KALIALIA",
+    "field_5": "",
+    "kategori": "Pendidikan"
+  },
+  {
+    "X": 122.6497583,
+    "Y": -5.352786111,
+    "Z": 0,
+    "Name": "SDN KECIL KOLAGANA",
+    "field_5": "",
+    "kategori": "Pendidikan"
+  },
+  {
+    "X": 122.65595,
+    "Y": -5.397672222,
+    "Z": 0,
+    "Name": "SDN KECIL WAMEMBE",
+    "field_5": "",
+    "kategori": "Pendidikan"
+  },
+  {
+    "X": 122.6498056,
+    "Y": -5.353191667,
+    "Z": 0,
+    "Name": "SMPN 16 BAUBAU",
+    "field_5": "",
+    "kategori": "Pendidikan"
+  },
+  {
+    "X": 122.6944556,
+    "Y": -5.342066667,
+    "Z": 0,
+    "Name": "SDN 2 WONCO",
+    "field_5": "",
+    "kategori": "Pendidikan"
+  },
+  {
+    "X": 122.6881556,
+    "Y": -5.338863889,
+    "Z": 0,
+    "Name": "SDN WONCO",
+    "field_5": "",
+    "kategori": "Pendidikan"
+  },
+  {
+    "X": 122.681575,
+    "Y": -5.341013889,
+    "Z": 0,
+    "Name": "SMPN 11 BAUBAU",
+    "field_5": "",
+    "kategori": "Pendidikan"
+  },
+  {
+    "X": 122.6624361,
+    "Y": -5.404780556,
+    "Z": 0,
+    "Name": "SMPS DARUSSALAM",
+    "field_5": "",
+    "kategori": "Pendidikan"
+  },
+  {
+    "X": 122.6305389,
+    "Y": -5.467213889,
+    "Z": 0,
+    "Name": "SMPS INTEGRAL HIDAYATULLAH",
+    "field_5": "",
+    "kategori": "Pendidikan"
+  },
+  {
+    "X": 122.66045,
+    "Y": -5.403263889,
+    "Z": 0,
+    "Name": "SMAS DARUSSALAM",
+    "field_5": "",
+    "kategori": "Pendidikan"
+  },
+  {
+    "X": 122.6909222,
+    "Y": -5.348277778,
+    "Z": 0,
+    "Name": "SMKN 6 BAUBAU",
+    "field_5": "",
+    "kategori": "Pendidikan"
+  },
+  {
+    "X": 122.7002917,
+    "Y": -5.4917,
+    "Z": 0,
+    "Name": "SDN 2 BUGI",
+    "field_5": "",
+    "kategori": "Pendidikan"
+  },
+  {
+    "X": 122.7222778,
+    "Y": -5.479275,
+    "Z": 0,
+    "Name": "SD GONDA",
+    "field_5": "",
+    "kategori": "Pendidikan"
+  },
+  {
+    "X": 122.6966722,
+    "Y": -5.486694444,
+    "Z": 0,
+    "Name": "SMPN 10 BAUBAU",
+    "field_5": "",
+    "kategori": "Pendidikan"
+  },
+  {
+    "X": 122.7190806,
+    "Y": -5.480925,
+    "Z": 0,
+    "Name": "SMPN 13 BAUBAU",
+    "field_5": "",
+    "kategori": "Pendidikan"
+  },
+  {
+    "X": 122.6735389,
+    "Y": -5.480466667,
+    "Z": 0,
+    "Name": "SMPN 19 BAUBAU",
+    "field_5": "",
+    "kategori": "Pendidikan"
+  },
+  {
+    "X": 122.731775,
+    "Y": -5.478722222,
+    "Z": 0,
+    "Name": "SMKN 5 BAUBAU",
+    "field_5": "",
+    "kategori": "Pendidikan"
+  },
+  {
+    "X": 122.5675,
+    "Y": -5.498697222,
+    "Z": 0,
+    "Name": "SMPN 14 BAUBAU",
+    "field_5": "",
+    "kategori": "Pendidikan"
+  },
+  {
+    "X": 122.5775222,
+    "Y": -5.483997222,
+    "Z": 0,
+    "Name": "BKPSDM",
+    "field_5": "",
+    "kategori": "Badan"
+  },
+  {
+    "X": 122.6083722,
+    "Y": -5.456941667,
+    "Z": 0,
+    "Name": "KESBANGPOL",
+    "field_5": "",
+    "kategori": "Lembaga Lain"
+  },
+  {
+    "X": 122.6141111,
+    "Y": -5.473163889,
+    "Z": 0,
+    "Name": "BPBD",
+    "field_5": "",
+    "kategori": "Badan"
+  },
+  {
+    "X": 122.5836222,
+    "Y": -5.486661111,
+    "Z": 0,
+    "Name": "BAPPEDA",
+    "field_5": "",
+    "kategori": "Badan"
+  },
+  {
+    "X": 122.6121611,
+    "Y": -5.456244444,
+    "Z": 0,
+    "Name": "BADAN PENELITIAN DAN PENGEMBANGAN",
+    "field_5": "",
+    "kategori": "Badan"
+  },
+  {
+    "X": 122.5830389,
+    "Y": -5.487108333,
+    "Z": 0,
+    "Name": "BPKAPD",
+    "field_5": "",
+    "kategori": "Badan"
+  },
+  {
+    "X": 122.6016111,
+    "Y": -5.462758333,
+    "Z": 0,
+    "Name": "BPS KOTA BAUBAU",
+    "field_5": "",
+    "kategori": "Badan"
+  },
+  {
+    "X": 122.5943472,
+    "Y": -5.468938889,
+    "Z": 0,
+    "Name": "Dinas Kelautan dan Perikanan",
+    "field_5": "",
+    "kategori": "Dinas"
+  },
+  {
+    "X": 122.6107417,
+    "Y": -5.473108333,
+    "Z": 0,
+    "Name": "DINKES",
+    "field_5": "",
+    "kategori": "Kesehatan"
+  },
+  {
+    "X": 122.6122822,
+    "Y": -5.457444965,
+    "Z": 0,
+    "Name": "DISKOMINFO",
+    "field_5": "",
+    "kategori": "Lainnya"
+  },
+  {
+    "X": 122.6083056,
+    "Y": -5.457319444,
+    "Z": 0,
+    "Name": "Dinas Koperasi dan UMKM",
+    "field_5": "",
+    "kategori": "Dinas"
+  },
+  {
+    "X": 122.6180028,
+    "Y": -5.464236111,
+    "Z": 0,
+    "Name": "Dinas Lingkungan Hidup",
+    "field_5": "",
+    "kategori": "Dinas"
+  },
+  {
+    "X": 122.6169944,
+    "Y": -5.460672222,
+    "Z": 0,
+    "Name": "Dinas Parawisata",
+    "field_5": "",
+    "kategori": "Dinas"
+  },
+  {
+    "X": 122.5816167,
+    "Y": -5.480497222,
+    "Z": 0,
+    "Name": "Dinas Pekerjaan Umum dan Penataan Ruang",
+    "field_5": "",
+    "kategori": "Dinas"
+  },
+  {
+    "X": 122.6104778,
+    "Y": -5.460308333,
+    "Z": 0,
+    "Name": "Dinas Pemadam Kebakaran dan Penyelamat",
+    "field_5": "",
+    "kategori": "Dinas"
+  },
+  {
+    "X": 122.6123806,
+    "Y": -5.456725,
+    "Z": 0,
+    "Name": "Dinas Pemberdayaan Perempuan dan Perlindungan Anak",
+    "field_5": "",
+    "kategori": "Dinas"
+  },
+  {
+    "X": 122.6106083,
+    "Y": -5.457138889,
+    "Z": 0,
+    "Name": "DISPORA",
+    "field_5": "",
+    "kategori": "Lainnya"
+  },
+  {
+    "X": 122.5780083,
+    "Y": -5.48465,
+    "Z": 0,
+    "Name": "Dinas Pendidikan dan Kebudayan",
+    "field_5": "",
+    "kategori": "Dinas"
+  },
+  {
+    "X": 122.6081,
+    "Y": -5.456294444,
+    "Z": 0,
+    "Name": "Dinas Perdagangan dan Perindsutrian",
+    "field_5": "",
+    "kategori": "Dinas"
+  },
+  {
+    "X": 122.6148167,
+    "Y": -5.456861111,
+    "Z": 0,
+    "Name": "Dinas Perhubungan",
+    "field_5": "",
+    "kategori": "Dinas"
+  },
+  {
+    "X": 122.5785833,
+    "Y": -5.482680556,
+    "Z": 0,
+    "Name": "Dinas Perpustakaan dan Kearsipan",
+    "field_5": "",
+    "kategori": "Dinas"
+  },
+  {
+    "X": 122.5798028,
+    "Y": -5.481575,
+    "Z": 0,
+    "Name": "Dinas Pertanian dan Ketahanan Pangan",
+    "field_5": "",
+    "kategori": "Dinas"
+  },
+  {
+    "X": 122.5980333,
+    "Y": -5.469338889,
+    "Z": 0,
+    "Name": "Dinas Perumahan Kawasan Pemukiman dan Pertanahan",
+    "field_5": "",
+    "kategori": "Dinas"
+  },
+  {
+    "X": 122.5798139,
+    "Y": -5.481613889,
+    "Z": 0,
+    "Name": "Dinas Sosial",
+    "field_5": "",
+    "kategori": "Dinas"
+  },
+  {
+    "X": 122.6067361,
+    "Y": -5.456313889,
+    "Z": 0,
+    "Name": "Dinas Tenaga Kerja",
+    "field_5": "",
+    "kategori": "Dinas"
+  },
+  {
+    "X": 122.5848833,
+    "Y": -5.485257903,
+    "Z": 0,
+    "Name": "Inspektorat",
+    "field_5": "",
+    "kategori": "Inspektorat"
+  },
+  {
+    "X": 122.6043806,
+    "Y": -5.459041667,
+    "Z": 0,
+    "Name": "BKKBN",
+    "field_5": "",
+    "kategori": "Lembaga Lain"
+  }
+]
