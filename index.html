@@ -19,6 +19,40 @@
         height: 50px;
         width: auto;
       }
+      #pendahuluan {
+        background-image: linear-gradient(rgba(50, 52, 80, 0.7), rgba(50, 52, 80, 0.7)), url('assets/img/feature/pendahuluan.png');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+        color: #ffffff; /* Make text white for better contrast */
+      }
+      #pendahuluan h3, #pendahuluan h5 {
+        color: #ffffff; /* Ensure headings are also white */
+      }
+
+      /* Custom styles for 4 Pilar Utama dropdown */
+      .header.header-2 .navbar-nav .nav-item.dropdown .dropdown-menu {
+        margin-top: 0; /* Remove default Bootstrap margin-top */
+        border-radius: 0; /* Match existing sub-menu style */
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1); /* Match existing sub-menu style */
+        border: none; /* Remove default Bootstrap border */
+        padding: 10px 0; /* Add some vertical padding to the menu itself */
+      }
+
+      .header.header-2 .navbar-nav .nav-item.dropdown .dropdown-item {
+        padding: 8px 20px; /* Match existing sub-menu item padding */
+        color: #585978; /* Match existing nav-item color */
+        font-size: 16px; /* Match existing nav-item font size */
+        font-weight: 500; /* Match existing nav-item font weight */
+        transition: all 0.3s ease-out 0s;
+      }
+
+      .header.header-2 .navbar-nav .nav-item.dropdown .dropdown-item:hover,
+      .header.header-2 .navbar-nav .nav-item.dropdown .dropdown-item.active {
+        background-color: transparent; /* Remove default Bootstrap hover background */
+        color: #2F80ED; /* Match existing nav-item hover color */
+        padding-left: 25px; /* Add slight indent on hover/active */
+      }
     </style>
   </head>
   <body>
@@ -43,54 +77,7 @@
 
     <!-- ========================= hero-section-wrapper-2 start ========================= -->
     <section id="home" class="hero-section-wrapper-2">
-      <!-- ========================= header-2 start ========================= -->
-      <header class="header header-2">
-        <div class="navbar-area">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-lg-12">
-                <nav class="navbar navbar-expand-lg">
-                  <a class="navbar-brand" href="index.html">
-                    <img src="assets/img/logo/logobaubau4.0.png" alt="Logo" height="50px"/> Baubau4.0
-                  </a>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="toggler-icon"></span>
-                    <span class="toggler-icon"></span>
-                    <span class="toggler-icon"></span>
-                  </button>
-
-                  <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent2">
-                    <ul id="nav2" class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                      <a href="index.html">Beranda</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="map.html">Peta Aset</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="map-cctv.html">Peta CCTV</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="internet_satu_kota.html">Internet Satu Kota</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="command_center.html">Command Center</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="aplikasi_satu_data.html">Aplikasi Satu Data</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="data_center.html">Data Center</a>
-                    </li>
-                  </ul>
-                  </div>
-                </nav>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-      <!-- ========================= header-2 end ========================= -->
+      <div id="header-placeholder"></div>
 
       <!-- ========================= hero-2 start ========================= -->
       <div class="hero-section hero-style-2">
@@ -116,7 +103,66 @@
     </section>
     <!-- ========================= hero-section-wrapper-2 end ========================= -->
 
-<!-- ========================= about style-3 start ========================= -->
+    </section>
+
+    <!-- ========================= 4 Pilar Utama Section Start ========================= -->
+    <section id="pilar-utama" class="feature-section feature-style-2"> <!-- Reusing feature-style-2 for consistent styling -->
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center mb-60">
+              <h3 class="mb-15 wow fadeInUp" data-wow-delay=".2s">4 Pilar Utama Transformasi Digital</h3>
+              <p class="wow fadeInUp" data-wow-delay=".4s">Transformasi digital Kota Baubau didukung oleh empat pilar strategis yang saling terintegrasi, membentuk ekosistem digital yang kokoh untuk pelayanan publik yang lebih baik dan tata kelola pemerintahan yang efisien.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
+              <div class="icon"><i class="lni lni-world-alt"></i></div> <!-- Using a relevant icon -->
+              <div class="content">
+                <h5 class="mb-25">Infrastruktur Jaringan: Internet Satu Kota</h5>
+                <p>Penyediaan jaringan internet yang terintegrasi dan merata di seluruh wilayah kota, menjadi tulang punggung konektivitas digital.</p>
+                <a href="internet_satu_kota.html" class="button-sm border-button mt-20">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
+              <div class="icon"><i class="lni lni-display-alt"></i></div> <!-- Using a relevant icon -->
+              <div class="content">
+                <h5 class="mb-25">Command Center</h5>
+                <p>Pusat kendali terpadu untuk pemantauan real-time, koordinasi insiden, dan pengambilan keputusan berbasis data untuk keamanan dan layanan publik.</p>
+                <a href="command_center.html" class="button-sm border-button mt-20">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
+              <div class="icon"><i class="lni lni-mobile"></i></div> <!-- Using a relevant icon --> <!-- Using a relevant icon -->
+              <div class="content">
+                <h5 class="mb-25">Aplikasi Satu Data</h5>
+                <p>Platform integrasi data statistik dari berbagai OPD, memastikan ketersediaan data yang akurat, mutakhir, dan mudah diakses untuk perencanaan dan kebijakan.</p>
+                <a href="aplikasi_satu_data.html" class="button-sm border-button mt-20">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="single-feature wow fadeInUp" data-wow-delay=".8s">
+              <div class="icon"><i class="lni lni-server"></i></div> <!-- Using a relevant icon -->
+              <div class="content">
+                <h5 class="mb-25">Data Center</h5>
+                <p>Fasilitas terpusat untuk penyimpanan, pengelolaan, dan pengamanan seluruh data digital kota, sebagai fondasi utama ekosistem digital.</p>
+                <a href="data_center.html" class="button-sm border-button mt-20">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========================= 4 Pilar Utama Section End ========================= -->
+
+    <!-- ========================= about style-3 start ========================= -->
     <section id="ringkasan" class="about-section about-style-3">
       <div class="container">
         <div class="row align-items-center">
@@ -130,7 +176,13 @@
               <div class="section-title mb-40">
                 <h3 class="mb-25 wow fadeInUp" data-wow-delay=".2s">Ringkasan Eksekutif</h3>
                 <p class="wow fadeInUp" data-wow-delay=".4s">Dokumen strategis yang menguraikan visi Dinas Komunikasi dan Informatika (Diskominfo) Kota Baubau untuk periode 2025-2035 menggarisbawahi komitmen terhadap transformasi digital yang ambisius. Rencana ini melampaui konsep "kota pintar" konvensional dengan mengadopsi kerangka kerja "Kota 4.0," yang secara fundamental mengintegrasikan teknologi digital, data besar, dan kolaborasi partisipatif antara pemerintah sebagai fasilitator dan masyarakat sebagai co-creator.</p>
-                <p class="wow fadeInUp" data-wow-delay=".5s">Fondasi legal dari inisiatif ini sangat kuat, didukung oleh kerangka kerja nasional Sistem Pemerintahan Berbasis Elektronik (SPBE). Rencana transformasi ini didasarkan pada empat pilar utama: Infrastruktur Jaringan, Command Center, Aplikasi Satu Data, dan Data Center. Keberhasilan implementasi akan sangat bergantung pada kemampuan untuk mengatasi tantangan kritis, seperti pengembangan strategi tata kelola data yang kuat, mitigasi risiko keamanan siber, dan implementasi program manajemen perubahan yang efektif.</p>
+                <p class="wow fadeInUp" data-wow-delay=".5s">Fondasi legal dari inisiatif ini sangat kuat, didukung oleh kerangka kerja nasional Sistem Pemerintahan Berbasis Elektronik (SPBE). Rencana transformasi ini didasarkan pada empat pilar utama: 
+                  <ol>
+                    <li>Infrastruktur Jaringan : Internet Satu Kota</li>
+                    <li>Command Center</li>
+                    <li>Aplikasi Satu Data</li>
+                    <li>Data Center</li>
+                  </ol>Keberhasilan implementasi akan sangat bergantung pada kemampuan untuk mengatasi tantangan kritis, seperti pengembangan strategi tata kelola data yang kuat, mitigasi risiko keamanan siber, dan implementasi program manajemen perubahan yang efektif.</p>
               </div>
             </div>
           </div>
@@ -142,18 +194,17 @@
     <!-- ========================= feature style-2 start ========================= -->
     <section id="pendahuluan" class="feature-section feature-style-2">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-8">
+        <div class="row align-items-center">
             <div class="row">
-              <div class="col-xl-7 col-lg-10 col-md-9">
-                <div class="section-title mb-60">
+              <div class="col-xl-12">
+                <div class="section-title mb-60 text-center">
                   <h3 class="mb-15 wow fadeInUp" data-wow-delay=".2s">1.0 Pendahuluan: Visi Kota 4.0 dan Diskominfo 4.0</h3>
-                  <p class="wow fadeInUp" data-wow-delay=".4s">Visi strategis yang diusung oleh Diskominfo Kota Baubau untuk periode 2025-2035 mewakili pergeseran paradigmatik dalam tata kelola perkotaan. Alih-alih hanya berfokus pada penerapan teknologi untuk efisiensi, konsep Kota 4.0 didefinisikan sebagai integrasi teknologi digital dan data besar dengan pendekatan kolaboratif antara pemerintah dan masyarakat.</p>
+                  <p class="wow fadeInUp" data-wow-delay=".4s">Visi strategis yang diusung oleh Diskominfo Kota Baubau untuk periode 2025-2035 mewakili pergeseran paradigmatik dalam tata kelola perkotaan. Alih-alih hanya berfokus pada penerapan teknologi untuk efisiensi, konsep Kota 4.0 didefinisikan sebagai integrasi teknologi digital, data besar, dan kolaborasi partisipatif antara pemerintah dan masyarakat.</p>
                 </div>
               </div>
             </div>
 
-            <div class="row">
+            <div class="row align-items-center">
               <div class="col-md-6">
                 <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
                   <div class="icon">
@@ -199,75 +250,17 @@
                 </div>
               </div>
             </div>
-
-          </div>
+          
         </div>
-      </div>
-      <div class="feature-img wow fadeInLeft" data-wow-delay=".2s">
-        <img src="assets/img/feature/pendahuluan.png" alt="">
       </div>
     </section>
-		<!-- ========================= feature style-2 end ========================= -->    <!-- ========================= footer style-1 start ========================= -->
-    <footer class="footer footer-style-1">
-      <div class="container">
-        <div class="widget-wrapper">
-          <div class="row">
-            <div class="col-xl-4 col-lg-4 col-md-6">
-              <div class="footer-widget wow fadeInUp" data-wow-delay=".2s">
-                <div class="logo">
-                  <a href="#0"> <img src="assets/img/logo/logobaubau4.0.png" alt="" height="60px"> </a>
-                </div>
-                <p class="desc">Website ini menjabarkan Rencana Strategis Diskominfo Kota Baubau 2025-2035, sebuah cetak biru visioner untuk transformasi digital menuju "Kota 4.0" yang kolaboratif dan terintegrasi.</p>
-              </div>
-            </div>
-            <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-6 col-sm-6">
-              <div class="footer-widget wow fadeInUp" data-wow-delay=".3s">
-                <h6>Navigasi</h6>
-                <ul class="links">
-                  <li> <a href="#home">Beranda</a> </li>
-                  <li> <a href="#visi">Visi</a> </li>
-                  <li> <a href="#pilar">Pilar</a> </li>
-                  <li> <a href="#sdm">Tim SDM</a> </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
-              <div class="footer-widget wow fadeInUp" data-wow-delay=".4s">
-                <h6>Pilar Utama</h6>
-                <ul class="links">
-                  <li> <a href="#pilar">Infrastruktur</a> </li>
-                  <li> <a href="#pilar">Command Center</a> </li>
-                  <li> <a href="#pilar">Aplikasi Satu Data</a> </li>
-                  <li> <a href="#pilar">Data Center</a> </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6">
-              <div class="footer-widget wow fadeInUp" data-wow-delay=".5s">
-                <h6>Kontak</h6>
-                <ul class="links">
-                  <li> <a href="#">Diskominfo Baubau</a> </li>
-                  <li> <a href="#">Pemerintah Kota Baubau</a> </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="copyright-wrapper wow fadeInUp" data-wow-delay=".2s">
-          <p>Dibuat untuk Pemerintah Kota Baubau | Desain oleh <a href="https://uideck.com" rel="nofollow" target="_blank">UIdeck</a> & <a href="https://rebrand.ly/lindy-ui" rel="nofollow" target="_blank">Lindy UI</a></p>
-        </div>
-      </div>
-    </footer>
-    <!-- ========================= footer style-1 end ========================= -->
+		<!-- ========================= feature style-2 end ========================= -->    <div id="footer-placeholder"></div>
 
-    <!-- ========================= scroll-top start ========================= -->
-    <a href="#" class="scroll-top"> <i class="lni lni-chevron-up"></i> </a>
-    <!-- ========================= scroll-top end ========================= -->
-		
     <!-- ========================= JS here ========================= -->
     <script src="assets/js/bootstrap.5.0.0.alpha-2-min.js"></script>
     <script src="assets/js/count-up.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/templating.js"></script>
   </body>
 </html>
