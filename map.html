@@ -89,74 +89,15 @@
     </div>
     <!-- ========================= preloader end ========================= -->
 
-    <!-- ========================= header-2 start ========================= -->
-    <header class="header header-2">
-      <div class="navbar-area">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-12">
-              <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="index.html">
-                  <img src="assets/img/logo/logobaubau4.0.png" alt="Logo" />
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="toggler-icon"></span>
-                  <span class="toggler-icon"></span>
-                  <span class="toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent2">
-                  <ul id="nav2" class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                      <a href="index.html">Beranda</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="active" href="map.html">Peta Aset</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="map-cctv.html">Peta CCTV</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="internet_satu_kota.html">Internet Satu Kota</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="command_center.html">Command Center</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="aplikasi_satu_data.html">Aplikasi Satu Data</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="data_center.html">Data Center</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!-- ========================= header-2 end ========================= -->
+    <div id="header-placeholder"></div>
 
     <section class="map-section">
         <div id="map"></div>
         <div id="filter-buttons"></div>
     </section>
 
-    <!-- ========================= footer style-1 start ========================= -->
-    <footer class="footer footer-style-1" style="position: absolute; bottom: 0; width: 100%; z-index: 1001;">
-      <div class="container">
-        <div class="copyright-wrapper wow fadeInUp" data-wow-delay=".2s">
-          <p>Dibuat untuk Pemerintah Kota Baubau | Desain oleh <a href="https://uideck.com" rel="nofollow" target="_blank">UIdeck</a> & <a href="https://rebrand.ly/lindy-ui" rel="nofollow" target="_blank">Lindy UI</a></p>
-        </div>
-      </div>
-    </footer>
-    <!-- ========================= footer style-1 end ========================= -->
+    <div id="footer-placeholder"></div>
 
-    <!-- ========================= scroll-top start ========================= -->
-    <a href="#" class="scroll-top"> <i class="lni lni-chevron-up"></i> </a>
-    <!-- ========================= scroll-top end ========================= -->
-		
     <!-- ========================= JS here ========================= -->
     <script src="assets/js/bootstrap.5.0.0.alpha-2-min.js"></script>
     <script src="assets/js/count-up.min.js"></script>
@@ -165,112 +106,112 @@
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
         integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
         crossorigin=""></script>
+    <script src="assets/js/templating.js"></script>
     <script>
-        var map = L.map('map').setView([-5.47, 122.6], 13);
+    var map = L.map('map').setView([-5.47, 122.6], 13);
 
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(map);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
 
-        var layersByCategory = {};
-        var activeCategories = new Set();
+    var layersByCategory = {};
+    var activeCategories = new Set();
 
-        // Define icons for each category
-        const iconBasePath = 'assets/icon/';
-        const categoriesWithIcons = ['Badan', 'Dinas', 'Inspektorat', 'Kecamatan', 'Kelurahan', 'Kesehatan', 'Lembaga Lain', 'Pendidikan', 'Lainnya'];
-        const iconMapping = {};
-        categoriesWithIcons.forEach(cat => {
-            iconMapping[cat] = L.icon({
-                iconUrl: iconBasePath + cat + '.png',
-                iconSize: [32, 32],
-                iconAnchor: [16, 32],
-                popupAnchor: [0, -32]
-            });
+    // Define icons for each category
+    const iconBasePath = 'assets/icon/';
+    const categoriesWithIcons = ['Badan', 'Dinas', 'Inspektorat', 'Kecamatan', 'Kelurahan', 'Kesehatan', 'Lembaga Lain', 'Pendidikan', 'Lainnya'];
+    const iconMapping = {};
+    categoriesWithIcons.forEach(cat => {
+        iconMapping[cat] = L.icon({
+            iconUrl: iconBasePath + cat + '.png',
+            iconSize: [32, 32],
+            iconAnchor: [16, 32],
+            popupAnchor: [0, -32]
         });
+    });
 
-        fetch('./File/kotabaubau.json')
-            .then(response => response.json())
-            .then(data => {
-                data.forEach(function(point) {
-                    if (point.Y && point.X) {
-                        var category = point.kategori || 'Lainnya';
-                        var marker;
-                        if (iconMapping[category]) {
-                            marker = L.marker([point.Y, point.X], { icon: iconMapping[category] });
-                        } else {
-                            marker = L.marker([point.Y, point.X]); // Default icon for categories without one
-                        }
-                        marker.bindPopup("<b>" + point.Name + "</b><br>Kategori: " + category);
-
-                        if (!layersByCategory[category]) {
-                            layersByCategory[category] = L.layerGroup();
-                        }
-                        layersByCategory[category].addLayer(marker);
-                    }
-                });
-
-                var filterButtons = document.getElementById('filter-buttons');
-                var categories = Object.keys(layersByCategory).sort();
-
-                // Add "All" button
-                var allButton = document.createElement('button');
-                allButton.innerHTML = '<img src="assets/icon/Lainnya.png" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;"> Semua';
-                allButton.className = 'filter-btn active';
-                allButton.addEventListener('click', function() {
-                    if (activeCategories.size === categories.length) {
-                        activeCategories.clear();
+    fetch('./File/kotabaubau.json')
+        .then(response => response.json())
+        .then(data => {
+            data.forEach(function(point) {
+                if (point.Y && point.X) {
+                    var category = point.kategori || 'Lainnya';
+                    var marker;
+                    if (iconMapping[category]) {
+                        marker = L.marker([point.Y, point.X], { icon: iconMapping[category] });
                     } else {
-                        categories.forEach(cat => activeCategories.add(cat));
+                        marker = L.marker([point.Y, point.X]); // Default icon for categories without one
+                    }
+                    marker.bindPopup("<b>" + point.Name + "</b><br>Kategori: " + category);
+
+                    if (!layersByCategory[category]) {
+                        layersByCategory[category] = L.layerGroup();
+                    }
+                    layersByCategory[category].addLayer(marker);
+                }
+            });
+
+            var filterButtons = document.getElementById('filter-buttons');
+            var categories = Object.keys(layersByCategory).sort();
+
+            // Add "All" button
+            var allButton = document.createElement('button');
+            allButton.innerHTML = '<img src="assets/icon/Lainnya.png" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;"> Semua';
+            allButton.className = 'filter-btn active';
+            allButton.addEventListener('click', function() {
+                if (activeCategories.size === categories.length) {
+                    activeCategories.clear();
+                } else {
+                    categories.forEach(cat => activeCategories.add(cat));
+                }
+                updateMapAndButtons();
+            });
+            filterButtons.appendChild(allButton);
+
+            // Add category buttons
+            categories.forEach(function(cat) {
+                var button = document.createElement('button');
+                var iconUrl = iconMapping[cat] ? iconMapping[cat].options.iconUrl : '';
+                if (iconUrl) {
+                    button.innerHTML = `<img src="${iconUrl}" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;"> ${cat}`;
+                } else {
+                    button.innerHTML = cat;
+                }
+                button.className = 'filter-btn';
+                button.dataset.category = cat;
+                button.addEventListener('click', function() {
+                    if (activeCategories.has(cat)) {
+                        activeCategories.delete(cat);
+                    } else {
+                        activeCategories.add(cat);
                     }
                     updateMapAndButtons();
                 });
-                filterButtons.appendChild(allButton);
+                filterButtons.appendChild(button);
+                activeCategories.add(cat); // Initially all active
+            });
 
-                // Add category buttons
+            updateMapAndButtons(); // Initial draw
+
+            function updateMapAndButtons() {
                 categories.forEach(function(cat) {
-                    var button = document.createElement('button');
-                    var iconUrl = iconMapping[cat] ? iconMapping[cat].options.iconUrl : '';
-                    if (iconUrl) {
-                        button.innerHTML = `<img src="${iconUrl}" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;"> ${cat}`;
+                    var button = document.querySelector('.filter-btn[data-category="' + cat + '"]');
+                    if (activeCategories.has(cat)) {
+                        if (!map.hasLayer(layersByCategory[cat])) {
+                            map.addLayer(layersByCategory[cat]);
+                        }
+                        if(button) button.classList.add('active');
                     } else {
-                        button.innerHTML = cat;
+                        if (map.hasLayer(layersByCategory[cat])) {
+                            map.removeLayer(layersByCategory[cat]);
+                        }
+                        if(button) button.classList.remove('active');
                     }
-                    button.className = 'filter-btn';
-                    button.dataset.category = cat;
-                    button.addEventListener('click', function() {
-                        if (activeCategories.has(cat)) {
-                            activeCategories.delete(cat);
-                        } else {
-                            activeCategories.add(cat);
-                        }
-                        updateMapAndButtons();
-                    });
-                    filterButtons.appendChild(button);
-                    activeCategories.add(cat); // Initially all active
                 });
-
-                updateMapAndButtons(); // Initial draw
-
-                function updateMapAndButtons() {
-                    categories.forEach(function(cat) {
-                        var button = document.querySelector('.filter-btn[data-category="' + cat + '"]');
-                        if (activeCategories.has(cat)) {
-                            if (!map.hasLayer(layersByCategory[cat])) {
-                                map.addLayer(layersByCategory[cat]);
-                            }
-                            if(button) button.classList.add('active');
-                        } else {
-                            if (map.hasLayer(layersByCategory[cat])) {
-                                map.removeLayer(layersByCategory[cat]);
-                            }
-                            if(button) button.classList.remove('active');
-                        }
-                    });
-                    allButton.classList.toggle('active', activeCategories.size === categories.length);
-                }
-            })
-            .catch(error => console.error('Error loading the JSON file:', error));
-    </script>
-
+                allButton.classList.toggle('active', activeCategories.size === categories.length);
+            }
+        })
+        .catch(error => console.error('Error loading the JSON file:', error));
+</script>
   </body>
 </html>
