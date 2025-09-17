@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Peta Lokasi Baubau - Transformasi Digital Kota Baubau 4.0</title>
-    <meta name="description" content="Peta Lokasi Aset Digital Pemerintah Kota Baubau" />
+    <title>Peta CCTV Baubau - Transformasi Digital Kota Baubau 4.0</title>
+    <meta name="description" content="Peta Lokasi CCTV dan Jaringan Wifi Pemerintah Kota Baubau" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- ========================= CSS here ========================= -->
     <link rel="stylesheet" href="assets/css/bootstrap-5.0.0-alpha-2.min.css" />
@@ -102,10 +102,10 @@
                       <a href="index.html">Beranda</a>
                     </li>
                     <li class="nav-item">
-                      <a class="active" href="map.html">Peta Aset</a>
+                      <a href="map.html">Peta Aset</a>
                     </li>
                     <li class="nav-item">
-                      <a href="map-cctv.html">Peta CCTV</a>
+                      <a class="active" href="map-cctv.html">Peta CCTV</a>
                     </li>
                     <li class="nav-item">
                       <a href="internet_satu_kota.html">Internet Satu Kota</a>
@@ -168,18 +168,20 @@
 
         // Define icons for each category
         const iconBasePath = 'assets/icon/';
-        const categoriesWithIcons = ['Badan', 'Dinas', 'Inspektorat', 'Kecamatan', 'Kelurahan', 'Kesehatan', 'Lembaga Lain', 'Pendidikan', 'Lainnya'];
-        const iconMapping = {};
-        categoriesWithIcons.forEach(cat => {
-            iconMapping[cat] = L.icon({
-                iconUrl: iconBasePath + cat + '.png',
-                iconSize: [32, 32],
-                iconAnchor: [16, 32],
-                popupAnchor: [0, -32]
-            });
-        });
+        const iconMapping = {
+            'Infrastruktur': L.icon({ iconUrl: iconBasePath + 'cctv.png', iconSize: [32, 32], iconAnchor: [16, 32], popupAnchor: [0, -32] }),
+            'Dinas': L.icon({ iconUrl: iconBasePath + 'Dinas.png', iconSize: [32, 32], iconAnchor: [16, 32], popupAnchor: [0, -32] }),
+            'Pendidikan': L.icon({ iconUrl: iconBasePath + 'Pendidikan.png', iconSize: [32, 32], iconAnchor: [16, 32], popupAnchor: [0, -32] }),
+            'Kelurahan': L.icon({ iconUrl: iconBasePath + 'Kelurahan.png', iconSize: [32, 32], iconAnchor: [16, 32], popupAnchor: [0, -32] }),
+            'Lainnya': L.icon({ iconUrl: iconBasePath + 'Lainnya.png', iconSize: [32, 32], iconAnchor: [16, 32], popupAnchor: [0, -32] }),
+            'Badan': L.icon({ iconUrl: iconBasePath + 'Badan.png', iconSize: [32, 32], iconAnchor: [16, 32], popupAnchor: [0, -32] }),
+            'Inspektorat': L.icon({ iconUrl: iconBasePath + 'Inspektorat.png', iconSize: [32, 32], iconAnchor: [16, 32], popupAnchor: [0, -32] }),
+            'Kecamatan': L.icon({ iconUrl: iconBasePath + 'Kecamatan.png', iconSize: [32, 32], iconAnchor: [16, 32], popupAnchor: [0, -32] }),
+            'Kesehatan': L.icon({ iconUrl: iconBasePath + 'Kesehatan.png', iconSize: [32, 32], iconAnchor: [16, 32], popupAnchor: [0, -32] }),
+            'Lembaga Lain': L.icon({ iconUrl: iconBasePath + 'Lembaga Lain.png', iconSize: [32, 32], iconAnchor: [16, 32], popupAnchor: [0, -32] })
+        };
 
-        fetch('./File/kotabaubau.json')
+        fetch('./File/cctv-kotabaubau.json')
             .then(response => response.json())
             .then(data => {
                 data.forEach(function(point) {
