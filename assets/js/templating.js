@@ -33,32 +33,18 @@ document.addEventListener("DOMContentLoaded", function() {
           console.warn('Bootstrap Collapse component not found. Ensure bootstrap.bundle.min.js is loaded correctly.');
         }
 
+        // Manually initialize Bootstrap Dropdown for the dynamically loaded header
+        const dropdownToggle = headerPlaceholder.querySelector('.nav-item.dropdown .dropdown-toggle');
+        if (dropdownToggle && typeof bootstrap !== 'undefined' && bootstrap.Dropdown) {
+          new bootstrap.Dropdown(dropdownToggle);
+        } else if (typeof bootstrap === 'undefined') {
+          console.warn('Bootstrap is not defined. Ensure bootstrap.bundle.min.js is loaded.');
+        } else if (!bootstrap.Dropdown) {
+          console.warn('Bootstrap Dropdown component not found. Ensure bootstrap.bundle.min.js is loaded correctly.');
+        }
+
         // Set active navigation link
         const navContainer = headerPlaceholder.querySelector('#nav2');
-        if (navContainer) {
-          const currentPage = window.location.pathname.split('/').pop() || 'index.html';
-          let dropdownParentActive = false; // Flag to check if any dropdown item is active
-
-          const navLinks = navContainer.querySelectorAll('.nav-item a');
-          navLinks.forEach(link => {
-            const linkPage = link.getAttribute('href').split('/').pop();
-            if (linkPage === currentPage) {
-              link.classList.add('active');
-              // Check if this active link is inside a dropdown
-              if (link.closest('.dropdown-menu')) {
-                dropdownParentActive = true;
-              }
-            }
-          });
-
-          // If any dropdown item is active, set the parent dropdown toggle to active
-          if (dropdownParentActive) {
-            const dropdownToggle = navContainer.querySelector('.nav-item.dropdown .dropdown-toggle');
-            if (dropdownToggle) {
-              dropdownToggle.classList.add('active');
-            }
-          }
-        }
         if (navContainer) {
           const currentPage = window.location.pathname.split('/').pop() || 'index.html';
           let dropdownParentActive = false; // Flag to check if any dropdown item is active
