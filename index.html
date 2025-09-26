@@ -110,6 +110,53 @@
       .hero-section-wrapper-2 .hero-style-2 .hero-image {
         margin-bottom: 50px;
       }
+
+      /* 4 Pilar Card Styles */
+      .pilar-card {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 35px;
+        margin-bottom: 30px;
+        border: 1px solid #eee;
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s ease-out 0s;
+        text-align: center;
+        height: 100%;
+      }
+
+      .pilar-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0px 15px 40px rgba(47, 128, 237, 0.1);
+      }
+
+      .pilar-card .icon {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background-color: rgba(47, 128, 237, 0.1);
+        color: #2F80ED;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 25px;
+        transition: all 0.3s ease-out 0s;
+      }
+
+      .pilar-card:hover .icon {
+        background-color: #2F80ED;
+        color: #fff;
+      }
+
+      .pilar-card .content h5 {
+        font-size: 18px;
+        font-weight: 600;
+      }
+
+      .pilar-card .content p {
+        color: #585978;
+        margin-bottom: 25px;
+      }
     </style>
   </head>
   <body>
@@ -163,54 +210,54 @@
     </section>
 
     <!-- ========================= 4 Pilar Utama Section Start ========================= -->
-    <section id="pilar-utama" class="feature-section feature-style-2"> <!-- Reusing feature-style-2 for consistent styling -->
+    <section id="pilar-utama" class="feature-section pt-120 pb-90">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8">
             <div class="section-title text-center mb-60">
               <h3 class="mb-15 wow fadeInUp" data-wow-delay=".2s">4 Pilar Utama Transformasi Digital</h3>
-              <p class="wow fadeInUp" data-wow-delay=".4s">Transformasi digital Kota Baubau didukung oleh empat pilar strategis yang saling terintegrasi, membentuk ekosistem digital yang kokoh untuk pelayanan publik yang lebih baik dan tata kelola pemerintahan yang efisien.</p>
+              <p class="wow fadeInUp" data-wow-delay=".4s">Transformasi digital Kota Baubau didukung oleh empat pilar strategis yang saling terintegrasi, membentuk ekosistem digital yang kokoh untuk pelayanan publik dan tata kelola pemerintahan yang efisien.</p>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-6 col-md-6">
-            <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
-              <div class="icon"><i class="lni lni-world-alt"></i></div> <!-- Using a relevant icon -->
+          <div class="col-lg-3 col-md-6">
+            <div class="pilar-card wow fadeInUp" data-wow-delay=".2s">
+              <div class="icon"><i class="lni lni-world-alt"></i></div>
               <div class="content">
-                <h5 class="mb-25">Infrastruktur Jaringan: Internet Satu Kota</h5>
-                <p>Penyediaan jaringan internet yang terintegrasi dan merata di seluruh wilayah kota, menjadi tulang punggung konektivitas digital.</p>
-                <a href="internet_satu_kota.html" class="button-sm border-button mt-20">Selengkapnya</a>
+                <h5 class="mb-20">Internet Satu Kota</h5>
+                <p>Konektivitas terintegrasi yang menjadi tulang punggung digital.</p>
+                <a href="internet_satu_kota.html" class="button-sm border-button">Selengkapnya</a>
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6">
-            <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
-              <div class="icon"><i class="lni lni-display-alt"></i></div> <!-- Using a relevant icon -->
+          <div class="col-lg-3 col-md-6">
+            <div class="pilar-card wow fadeInUp" data-wow-delay=".4s">
+              <div class="icon"><i class="lni lni-display-alt"></i></div>
               <div class="content">
-                <h5 class="mb-25">Command Center</h5>
-                <p>Pusat kendali terpadu untuk pemantauan real-time, koordinasi insiden, dan pengambilan keputusan berbasis data untuk keamanan dan layanan publik.</p>
-                <a href="command_center.html" class="button-sm border-button mt-20">Selengkapnya</a>
+                <h5 class="mb-20">Command Center</h5>
+                <p>Pusat kendali terpadu untuk keputusan berbasis data yang cepat.</p>
+                <a href="command_center.html" class="button-sm border-button">Selengkapnya</a>
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6">
-            <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
-              <div class="icon"><i class="lni lni-mobile"></i></div> <!-- Using a relevant icon --> <!-- Using a relevant icon -->
+          <div class="col-lg-3 col-md-6">
+            <div class="pilar-card wow fadeInUp" data-wow-delay=".6s">
+              <div class="icon"><i class="lni lni-mobile"></i></div>
               <div class="content">
-                <h5 class="mb-25">Aplikasi Satu Data</h5>
-                <p>Platform integrasi data statistik dari berbagai OPD, memastikan ketersediaan data yang akurat, mutakhir, dan mudah diakses untuk perencanaan dan kebijakan.</p>
-                <a href="aplikasi_satu_data.html" class="button-sm border-button mt-20">Selengkapnya</a>
+                <h5 class="mb-20">Aplikasi Satu Data</h5>
+                <p>Platform integrasi data untuk menjamin ketersediaan informasi akurat.</p>
+                <a href="aplikasi_satu_data.html" class="button-sm border-button">Selengkapnya</a>
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6">
-            <div class="single-feature wow fadeInUp" data-wow-delay=".8s">
-              <div class="icon"><i class="lni lni-server"></i></div> <!-- Using a relevant icon -->
+          <div class="col-lg-3 col-md-6">
+            <div class="pilar-card wow fadeInUp" data-wow-delay=".8s">
+              <div class="icon"><i class="lni lni-server"></i></div>
               <div class="content">
-                <h5 class="mb-25">Data Center</h5>
-                <p>Fasilitas terpusat untuk penyimpanan, pengelolaan, dan pengamanan seluruh data digital kota, sebagai fondasi utama ekosistem digital.</p>
-                <a href="data_center.html" class="button-sm border-button mt-20">Selengkapnya</a>
+                <h5 class="mb-20">Data Center</h5>
+                <p>Fasilitas penyimpanan terpusat sebagai fondasi utama ekosistem digital.</p>
+                <a href="data_center.html" class="button-sm border-button">Selengkapnya</a>
               </div>
             </div>
           </div>
@@ -232,9 +279,49 @@
             <div class="about-content-wrapper">
               <div class="section-title mb-40">
                 <h3 class="mb-25 wow fadeInUp" data-wow-delay=".2s">Definisi dan Filosofi Kota 4.0</h3>
-                <p class="wow fadeInUp" data-wow-delay=".4s">Visi Baubau 4.0 adalah evolusi dari konsep 'smart city'. Tujuannya bukan sekadar mengimplementasikan teknologi, melainkan memberdayakan warga untuk menyelesaikan masalah kota melalui data besar dan kolaborasi. Peran pemerintah bertransformasi dari penyedia layanan menjadi fasilitator, sementara masyarakat didorong menjadi co-creator.</p>
-                <p class="wow fadeInUp" data-wow-delay=".5s">Pergeseran filosofis ini menandakan perubahan dari model tata kelola top-down menjadi model yang lebih horizontal dan partisipatif, menumbuhkan budaya literasi data dan keterlibatan aktif di kalangan warga serta birokrat untuk mencapai dua tujuan strategis: peningkatan layanan publik dan optimalisasi Pendapatan Asli Daerah (PAD).</p>
-                <a href="strategi_digital_baubau.html" class="button-sm border-button mt-20">Selengkapnya</a>
+                <p class="wow fadeInUp" data-wow-delay=".4s">Visi Baubau 4.0 adalah evolusi dari konsep 'smart city'. Tujuannya bukan sekadar mengimplementasikan teknologi, melainkan memberdayakan warga untuk menyelesaikan masalah kota melalui data besar dan kolaborasi.</p>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                    <div class="single-feature wow fadeInUp" data-wow-delay=".5s">
+                        <div class="icon"><i class="lni lni-layers"></i></div>
+                        <div class="content">
+                            <h6>Pemerintah Fasilitator</h6>
+                            <p>Bertransformasi dari penyedia layanan menjadi fasilitator inovasi.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
+                        <div class="icon"><i class="lni lni-users"></i></div>
+                        <div class="content">
+                            <h6>Masyarakat Co-Creator</h6>
+                            <p>Warga didorong untuk berperan aktif dalam menyelesaikan masalah kota.</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="counter-up-wrapper mt-30 wow fadeInUp" data-wow-delay=".7s">
+                  <div class="row">
+                      <div class="col-sm-4">
+                          <div class="single-counter">
+                              <h3 class="countup" count="4">4</h3>
+                              <p>Pilar Utama</p>
+                          </div>
+                      </div>
+                      <div class="col-sm-4">
+                          <div class="single-counter">
+                              <h3 class="countup" count="2">2</h3>
+                              <p>Tujuan Strategis</p>
+                          </div>
+                      </div>
+                      <div class="col-sm-4">
+                          <div class="single-counter">
+                              <h3 class="countup" count="10">10</h3>
+                              <p>Tahun Visi</p>
+                          </div>
+                      </div>
+                  </div>
               </div>
             </div>
           </div>
@@ -308,7 +395,7 @@
     </section>
 		<!-- ========================= Video Modal Start ========================= -->
     <div class="modal fade modal-video" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-dialog modal-dialog-centered modal-fullscreen">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
