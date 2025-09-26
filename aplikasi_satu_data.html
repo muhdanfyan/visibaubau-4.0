@@ -20,6 +20,30 @@
         height: 50px;
         width: auto;
       }
+
+      /* Custom styles for 4 Pilar Utama dropdown */
+      .header.header-2 .navbar-nav .nav-item.dropdown .dropdown-menu {
+        margin-top: 0; /* Remove default Bootstrap margin-top */
+        border-radius: 0; /* Match existing sub-menu style */
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1); /* Match existing sub-menu style */
+        border: none; /* Remove default Bootstrap border */
+        padding: 10px 0; /* Add some vertical padding to the menu itself */
+      }
+
+      .header.header-2 .navbar-nav .nav-item.dropdown .dropdown-item {
+        padding: 8px 20px; /* Match existing sub-menu item padding */
+        color: #585978; /* Match existing nav-item color */
+        font-size: 16px; /* Match existing nav-item font size */
+        font-weight: 500; /* Match existing nav-item font weight */
+        transition: all 0.3s ease-out 0s;
+      }
+
+      .header.header-2 .navbar-nav .nav-item.dropdown .dropdown-item:hover,
+      .header.header-2 .navbar-nav .nav-item.dropdown .dropdown-item.active {
+        background-color: transparent; /* Remove default Bootstrap hover background */
+        color: #2F80ED; /* Match existing nav-item hover color */
+        padding-left: 25px; /* Add slight indent on hover/active */
+      }
     </style>
   </head>
   <body>

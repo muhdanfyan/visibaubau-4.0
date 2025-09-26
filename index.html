@@ -54,6 +54,59 @@
         color: #2F80ED; /* Match existing nav-item hover color */
         padding-left: 25px; /* Add slight indent on hover/active */
       }
+
+      /* Video Play Button Styles */
+      .hero-image {
+        position: relative;
+        /* overflow: hidden; */ /* Removed to prevent image cutoff */
+      }
+      .hero-image img {
+        transition: transform 0.4s ease;
+      }
+      .hero-image:hover img {
+        transform: scale(1.05);
+      }
+      .video-play-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: rgba(47, 128, 237, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 30px;
+        opacity: 0;
+        transition: opacity 0.4s ease, transform 0.4s ease;
+        z-index: 20; /* Increased z-index */
+      }
+      .hero-image:hover .video-play-button {
+        opacity: 1;
+        transform: translate(-50%, -60%);
+      }
+      .modal-video .modal-dialog {
+        max-width: 1140px;
+        margin: 1.75rem auto;
+      }
+      .modal-video .modal-content {
+        background-color: transparent;
+        border: none;
+      }
+      .modal-video .btn-close {
+        position: absolute;
+        top: -25px;
+        right: 0;
+        background-color: white;
+        border-radius: 50%;
+        opacity: 1;
+      }
+      .hero-section-wrapper-2 .hero-style-2 .hero-content-wrapper {
+        padding: 50px 0;
+      }
     </style>
   </head>
   <body>
@@ -84,10 +137,13 @@
       <div class="hero-section hero-style-2">
         <div class="container">
           <div class="row">
-            <div class="col-lg-10 mx-auto">
-              <div class="hero-content-wrapper text-center">
-                <div class="hero-image mb-30">
-                  <img src="assets/img/baubau-4.0-main-concept-graphic.png" alt="Konsep Utama Baubau 4.0" class="wow fadeInDown" data-wow-delay=".2s" style="max-width: 600px; margin-left: auto; margin-right: auto;">
+            <div class="col-lg-10 mx-auto px-4 py-5">
+              <div class="hero-content-wrapper text-center" style="position: relative; z-index: 1;">
+                <div class="hero-image mb-30 wow fadeInDown" data-wow-delay=".2s" style="position: relative; cursor: pointer;" data-bs-toggle="modal" data-bs-target="#videoModal">
+                  <img src="assets/img/baubau-4.0-main-concept-graphic.png" alt="Konsep Utama Baubau 4.0" style="max-width: 600px; margin: auto; display: block;">
+                  <div class="video-play-button">
+                    <i class="lni lni-play"></i>
+                  </div>
                 </div>
                 <h4 class="wow fadeInUp" data-wow-delay=".2s">Visi Baubau Kota 4.0</h4>
                 <h2 class="mb-30 wow fadeInUp" data-wow-delay=".4s">Mewujudkan Ekosistem Kolaboratif Berbasis Data dan Inovasi</h2>
@@ -247,6 +303,23 @@
         </div>
       </div>
     </section>
+		<!-- ========================= Video Modal Start ========================= -->
+    <div class="modal fade modal-video" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="ratio ratio-16x9">
+              <iframe id="youtubeVideo" src="https://www.youtube.com/embed/4S68eZGFue8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ========================= Video Modal End ========================= -->
+
 		<!-- ========================= feature style-2 end ========================= -->    <div id="footer-placeholder"></div>
 
     <!-- ========================= JS here ========================= -->
@@ -255,5 +328,21 @@
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/templating.js"></script>
+
+    <script>
+      const videoModal = document.getElementById('videoModal');
+      const youtubeVideo = document.getElementById('youtubeVideo');
+      const originalVideoSrc = youtubeVideo.src;
+
+      videoModal.addEventListener('shown.bs.modal', () => {
+        // Append autoplay parameter when modal is shown
+        youtubeVideo.src = originalVideoSrc + "?autoplay=1";
+      });
+
+      videoModal.addEventListener('hide.bs.modal', () => {
+        // Remove autoplay parameter when modal is hidden to stop the video
+        youtubeVideo.src = originalVideoSrc;
+      });
+    </script>
   </body>
 </html>
