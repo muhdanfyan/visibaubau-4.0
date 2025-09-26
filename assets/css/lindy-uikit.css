@@ -45,7 +45,7 @@ button {
   display: none;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #ffffff;
   border-radius: 5px;
   position: fixed;
@@ -227,31 +227,31 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 80px;
+  font-size: 5rem;
   letter-spacing: .7px;
 }
 
 h2, .h2 {
-  font-size: 60px;
+  font-size: 3.75rem;
   letter-spacing: .7px;
 }
 
 h3, .h3 {
-  font-size: 40px;
+  font-size: 2.5rem;
   letter-spacing: .4px;
 }
 
 h4, .h4 {
-  font-size: 30px;
+  font-size: 1.875rem;
   letter-spacing: .35px;
 }
 
 h5, .h5 {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 h6, .h6 {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .font-weight-bold {
@@ -275,23 +275,23 @@ h6, .h6 {
 }
 
 .body-font-size {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .font-size-sm {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .font-size-xs {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .caption-font-size {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 p {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
   margin-bottom: 0px;
 }
@@ -301,7 +301,7 @@ p {
 ================================ */
 .button {
   height: 44px;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 500;
   box-sizing: border-box;
   line-height: 1;
@@ -361,7 +361,7 @@ p {
 
 .button-sm {
   height: 34px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
 }
 
@@ -476,7 +476,7 @@ p {
 }
 
 .header.header-2 .navbar-nav .nav-item a {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   color: #585978;
   transition: all 0.3s ease-out 0s;
@@ -614,7 +614,7 @@ p {
     top: 0;
     background: none;
     color: #000000;
-    font-size: 18px;
+    font-size: 1.125rem;
     border: 0;
     width: 30px;
     height: 30px;
@@ -629,7 +629,7 @@ p {
     top: 0;
     background: none;
     color: #000000;
-    font-size: 18px;
+    font-size: 1.125rem;
     border: 0;
     width: 30px;
     height: 30px;
@@ -741,34 +741,34 @@ p {
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .hero-section-wrapper-2 .hero-style-2 .hero-content-wrapper h2 {
-    font-size: 55px;
+    font-size: 3.4375rem;
     line-height: 65px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero-section-wrapper-2 .hero-style-2 .hero-content-wrapper h2 {
-    font-size: 47px;
+    font-size: 2.9375rem;
     line-height: 58px;
   }
 }
 
 @media (max-width: 767px) {
   .hero-section-wrapper-2 .hero-style-2 .hero-content-wrapper h2 {
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 50px;
   }
 }
 
 @media only screen and (min-width: 575px) and (max-width: 767px) {
   .hero-section-wrapper-2 .hero-style-2 .hero-content-wrapper h2 {
-    font-size: 47px;
+    font-size: 2.9375rem;
     line-height: 58px;
   }
 }
 
 .hero-section-wrapper-2 .hero-style-2 .hero-content-wrapper p {
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 30px;
 }
 
@@ -809,7 +809,7 @@ p {
 .hero-section-wrapper-2 .hero-style-2 .hero-content-wrapper .buttons .video-button {
   display: flex;
   align-items: center;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 500;
   color: #323450;
 }
@@ -891,7 +891,7 @@ p {
   border-radius: 20px;
   background: #2F80ED;
   color: #ffffff;
-  font-size: 45px;
+  font-size: 2.8125rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1046,7 +1046,7 @@ p {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .pricing-style-1 .single-pricing h6 {
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
 
@@ -1057,7 +1057,7 @@ p {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .pricing-style-1 .single-pricing h4 {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 }
 
@@ -1073,7 +1073,7 @@ p {
 .pricing-style-1 .single-pricing ul li {
   display: flex;
   align-items: center;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 34px;
   margin-bottom: 12px;
 }
@@ -1166,7 +1166,7 @@ p {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px), (max-width: 767px) {
   .about-style-3 .about-content-wrapper .counter-up-wrapper .single-counter h4 {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 }
 
@@ -1177,7 +1177,7 @@ p {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px), (max-width: 767px) {
   .about-style-3 .about-content-wrapper .counter-up-wrapper .single-counter h6 {
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
 
@@ -1252,7 +1252,7 @@ p {
   border-radius: 50%;
   background: #ffffff;
   margin: auto;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #323450;
 }
 
@@ -1304,7 +1304,7 @@ p {
 }
 
 .testimonial-style-1 .single-testimonial .content-wrapper .content p {
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 30px;
   color: #ffffff;
 }
@@ -1316,7 +1316,7 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(180deg);
-  font-size: 120px;
+  font-size: 7.5rem;
   line-height: 1;
   color: rgba(255, 255, 255, 0.05);
   z-index: -1;
@@ -1347,7 +1347,7 @@ p {
 }
 
 .testimonial-style-1 .single-testimonial .content-wrapper .info .text p {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 /* ============================= 
@@ -1457,7 +1457,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 /* ============================= 
@@ -1490,7 +1490,7 @@ p {
   margin-right: 10px;
   width: 44px;
   height: 44px;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .footer-style-1 .widget-wrapper .footer-widget .socials li a:hover {
@@ -1505,7 +1505,7 @@ p {
 }
 
 .footer-style-1 .widget-wrapper .footer-widget .links li a {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 32px;
   color: #585978;
 }
@@ -1520,7 +1520,7 @@ p {
 }
 
 .footer-style-1 .copyright-wrapper p {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
   text-align: center;
   color: rgba(88, 89, 120, 0.6);

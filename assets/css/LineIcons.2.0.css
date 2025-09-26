@@ -35,10 +35,10 @@ Author: lineicons.com
 }
 /* absolute units */
 .lni-16 {
-  font-size: 16px;
+  font-size: 1rem;
 }
 .lni-32 {
-  font-size: 32px;
+  font-size: 2rem;
 }
 /*----------------------------------
   add a square/circle background
