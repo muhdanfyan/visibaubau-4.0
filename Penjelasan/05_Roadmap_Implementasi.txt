@@ -1,0 +1,45 @@
+# Roadmap Implementasi Menuju Smart City (2025-2035)
+
+Strategi implementasi Visi Baubau 4.0 akan dilaksanakan dalam tiga tahap utama, berfokus pada pembangunan bertahap dan berkelanjutan untuk memastikan setiap pilar terbangun dengan fondasi yang kuat.
+
+## 9.1 Tahap I (2025-2028): Fondasi Digital
+
+Tahap ini berfokus pada pembangunan infrastruktur dasar dan peletakan fondasi digital yang kuat untuk mendukung keseluruhan ekosistem.
+
+-   **Aktivitas Utama:**
+    -   **Pembangunan Infrastruktur Jaringan:** Pembangunan jaringan fiber optik *backbone* di kantor OPD, sekolah, dan puskesmas.
+    -   **Penyusunan Regulasi:** Pembuatan Peraturan Daerah (Perda) atau Peraturan Wali Kota (Perwali) terkait SPBE.
+    -   **Pengembangan Aplikasi Pilot Project:** Peluncuran *pilot project* Aplikasi Smart Office di beberapa OPD percontohan.
+    -   **Peningkatan Kapasensi SDM:** Pelatihan dasar dan sertifikasi untuk pegawai di bidang digitalisasi dan *cybersecurity*.
+
+-   **Target:**
+    -   Minimal 70% kantor OPD, sekolah, dan puskesmas terhubung dengan jaringan fiber optik.
+    -   Minimal 50% layanan administrasi internal didigitalisasi.
+
+## 9.2 Tahap II (2029-2032): Integrasi dan Layanan Publik
+
+Setelah fondasi digital terbentuk, tahap ini berfokus pada integrasi sistem dan perluasan layanan digital untuk masyarakat.
+
+-   **Aktivitas Utama:**
+    -   **Pembangunan dan Fungsionalisasi Command Center:** Pembangunan dan aktivasi Command Center sebagai pusat monitoring data *real-time*.
+    -   **Integrasi Data:** Penggabungan data dari berbagai OPD ke dalam platform Aplikasi Satu Data.
+    -   **Peluncuran Aplikasi Publik:** Peluncuran aplikasi layanan publik digital untuk masyarakat, seperti perizinan *online*, pengaduan masyarakat, dan informasi publik.
+    -   **Pembangunan Data Center:** Pembangunan Data Center lokal sesuai standar Tier-2.
+
+-   **Target:**
+    -   Tercapainya *interoperabilitas* data antar-OPD.
+    -   Minimal 50% layanan publik esensial tersedia secara *online*.
+
+## 9.3 Tahap III (2033-2035): Transformasi Menyeluruh dan Inovasi
+
+Tahap akhir ini bertujuan untuk mewujudkan visi *smart city* secara menyeluruh melalui pemanfaatan teknologi canggih dan mendorong inovasi.
+
+-   **Aktivitas Utama:**
+    -   **Pemanfaatan Big Data dan AI:** Implementasi analitik data untuk pengambilan keputusan yang lebih prediktif dan berbasis data.
+    -   **Pengembangan Layanan Berbasis IOT:** Pemasangan sensor IOT untuk *smart lighting*, manajemen sampah, dan *public safety*.
+    -   **Penguatan Kemitraan:** Mendorong kolaborasi yang lebih erat dengan sektor swasta, akademisi, dan komunitas untuk menciptakan inovasi *startup* digital lokal.
+    -   **Pengembangan Layanan Publik Partisipatif:** Mendorong partisipasi masyarakat dalam proses perencanaan dan evaluasi pembangunan melalui platform digital.
+
+-   **Target:**
+    -   Visi Kota Baubau sebagai *smart city* berbasis data terwujud.
+    -   Adanya ekosistem digital yang berkelanjutan dan mendorong pertumbuhan ekonomi lokal.

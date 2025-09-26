@@ -1,0 +1,28 @@
+# Visi dan Konsep: Menuju Kota 4.0
+
+Dokumen strategis Diskominfo Kota Baubau untuk periode 2025-2035 (atau 2026-2036) menguraikan sebuah transformasi digital yang ambisius dengan kerangka kerja **“Kota 4.0”**. Konsep ini merupakan evolusi dari “smart city” konvensional, dengan fokus yang diperluas dari sekadar teknologi menjadi pembangunan **ekosistem kolaboratif** yang berbasis data dan inovasi.
+
+## 1.1. Definisi dan Filosofi Kota 4.0
+
+Visi Baubau 4.0 didasarkan pada tiga elemen utama:
+
+1.  **Evolusi dari Smart City:** Tujuan akhirnya bukan sekadar mengimplementasikan teknologi, melainkan menggunakan teknologi dan data besar untuk memberdayakan warga dalam menyelesaikan masalah kota.
+2.  **Pencapaian melalui Empat Program Utama:** Visi ini diwujudkan melalui empat pilar utama yang menjadi fondasi transformasi digital.
+3.  **Mengejar Target SPBE 4.0:** Inisiatif ini merupakan upaya lokal untuk mengejar dan memenuhi standar Sistem Pemerintahan Berbasis Elektronik (SPBE) yang ditetapkan oleh pemerintah pusat, yang secara strategis dikenal sebagai target SPBE 4.0.
+
+Pergeseran filosofis yang paling fundamental adalah perubahan peran:
+-   **Pemerintah:** Bertransformasi dari penyedia layanan menjadi **fasilitator**.
+-   **Masyarakat:** Didorong untuk mengambil peran sebagai **co-creator** dalam mengatasi permasalahan kota.
+
+Ini menandakan pergeseran dari model tata kelola vertikal (top-down) menjadi model yang lebih horizontal dan partisipatif. Keberhasilan inisiatif ini tidak hanya bergantung pada kualitas teknis infrastruktur, tetapi juga pada kemampuan menumbuhkan budaya literasi data dan keterlibatan aktif di kalangan warga dan birokrat.
+
+## 1.2. Tujuan Strategis Ganda
+
+Rencana ini memiliki dua tujuan utama yang saling melengkapi:
+
+1.  **Peningkatan Pelayanan Publik:** Menciptakan kota yang lebih cerdas dan inovatif melalui peningkatan kualitas layanan publik yang didukung oleh teknologi.
+2.  **Peningkatan Pendapatan Asli Daerah (PAD):** Digitalisasi proses layanan, seperti yang dicontohkan pada Dinas Pendapatan, dirancang untuk meningkatkan efisiensi dan transparansi dalam pengumpulan pendapatan, yang pada akhirnya berkontribusi pada kesehatan fiskal kota.
+
+## 1.3. Transformasi Internal Diskominfo
+
+Sejalan dengan visi Kota 4.0, Diskominfo Kota Baubau juga memposisikan diri untuk bertransformasi menjadi **"Diskominfo 4.0"**. Sebagai instansi yang berada di garis depan era digitalisasi, transformasi internal ini adalah prasyarat agar Diskominfo dapat secara efektif memimpin dan memfasilitasi transformasi digital di seluruh perangkat daerah dan lapisan masyarakat.

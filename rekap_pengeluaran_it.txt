@@ -1,0 +1,6 @@
+Rekapitulasi Pengeluaran Terkait IT/Digital
+
+Catatan: Ekstraksi data dari file teks tidak terstruktur mungkin tidak 100% akurat.
+
+Nama Pengerjaan                                    Bidang               Institusi/Dinas                                              File Sumber                                                                      Waktu Pengerjaan               Anggaran (Rp.)       Penanggung Jawab    
+========================================================================================================================================================================================================================================================================================

@@ -1,0 +1,34 @@
+# Info Tambahan: Proyek Pendukung Transformasi Digital
+
+Selain empat pilar utama, rencana transformasi digital Kota Baubau juga mencakup beberapa proyek pendukung yang spesifik untuk meningkatkan layanan internal pemerintah dan keamanan publik.
+
+## 1. Pengembangan Layanan Digital untuk Aparatur Sipil Negara (ASN)
+
+Rencana ini mencakup pengembangan sistem informasi kepegawaian terintegrasi dengan konsep *single sign-on*, di mana satu akun dapat digunakan untuk mengakses berbagai layanan.
+
+Fitur-fitur utamanya meliputi:
+-   **Absensi Online:** Sistem presensi dengan verifikasi lokasi (*geolocation*) dan identifikasi wajah (*face recognition*) untuk memantau kedisiplinan pegawai. Data kehadiran dapat direkapitulasi secara otomatis.
+-   **Smart Office:** Sistem pengelolaan dokumen dan persuratan digital (*e-office*) untuk mengurangi penggunaan kertas, serta fitur manajemen tugas dan kalender kegiatan terintegrasi.
+-   **E-Kinerja:** Pegawai dapat mengisi Laporan Kinerja Harian (LKH) secara digital. Sistem ini terintegrasi dengan data absensi untuk menghitung Tambahan Penghasilan Pegawai (TPP) secara otomatis.
+-   **SPPD (Surat Perintah Perjalanan Dinas):** Fitur untuk mengajukan dan memantau permohonan perjalanan dinas secara daring.
+
+## 2. Proyek Pemasangan CCTV dan Wi-Fi Gratis di Ruang Publik
+
+Proyek ini dilatarbelakangi oleh meningkatnya angka kriminalitas dan kurangnya akses internet di ruang publik. Tujuannya adalah untuk meningkatkan keamanan dan aksesibilitas informasi.
+
+-   **Lokasi Awal:** Pemasangan akan difokuskan di **Lapangan Merdeka** dan **Taman Segitiga**.
+-   **Lingkup Teknis:**
+    -   Pemasangan **lima unit kamera CCTV jenis PTZ (Pan-Tilt-Zoom)** dengan kualitas gambar baik yang terhubung ke pusat monitoring di kantor pemerintah daerah.
+    -   Pemasangan jaringan **Wi-Fi dengan kecepatan 300 Mbps**.
+-   **Anggaran:** Total anggaran untuk proyek ini diperkirakan sebesar **Rp 195.859.500**.
+-   **Rencana Pengembangan:** Pemasangan akan dilakukan secara berkelanjutan di lokasi-lokasi lain, seperti Pantai Kamali, Kotamara, Benteng Keraton, Stadion Betoambari, dan lainnya.
+
+## 3. Data Kondisi Telekomunikasi
+
+Analisis data telekomunikasi menunjukkan variasi konektivitas di berbagai lokasi di Kota Baubau.
+
+-   **Layanan Pemerintah Daerah:** Seluruh 31 instansi Dinas yang terdata memiliki status konektivitas "BAGUS".
+-   **Fasilitas Kesehatan:** Dari 17 Puskesmas, sebagian besar memiliki konektivitas "BAGUS," namun Puskesmas Kampeonaho di wilayah Bungi tercatat memiliki status "KURANG BAGUS".
+-   **Sekolah dan Lembaga Pendidikan:** Sebagian besar sekolah memiliki koneksi "BAGUS". Namun, beberapa sekolah masih menghadapi masalah konektivitas dengan status "KURANG BAGUS" atau "TIDAK ADA" sinyal, termasuk:
+    -   SD Negeri Kecil Kolagana, SD Negeri Kecil Wamembe, SMP Negeri 16 Baubau, SMPS Darussalam, SD Negeri 2 Wonco, SMAS Darusalam, SMKN 6 Baubau, SMP Negeri 14 Baubau (Sulaa), dan SMP Negeri 19 Baubau.
+-   **Wilayah Administratif:** Sebagian besar kantor Kecamatan dan Kelurahan memiliki konektivitas "BAGUS". Namun, beberapa desa masih menjadi *blankspot* atau "KURANG BAGUS," seperti Desa Palabusa di Kecamatan Lea-Lea dan Waborobo di Kecamatan Betoambari.

@@ -1,0 +1,15823 @@
+MONITORING, PELAPORAN, EVALUASI PELAKSANAAN PROGRAM/KEGIATAN/SUB KEGIATAN
+DINAS KESEHATAN KOTA BAUBAU
+SAMPAI DENGAN 30 JUNI 2025
+Anggaran
+
+Kode
+
+Fisik
+
+Program / Kegiatan / Subkegiatan
+Target Pagu 1
+Tahun (Rp.)
+
+Target Kas s/d
+Bulan ini (Rp.)
+
+Realisasi (Rp.)
+
+Persentase
+Realisasi
+Terhadap
+Target Kas
+Bulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Pagu 1
+Tahun(%)
+
+Indikator
+
+Target Fisik 1 Tahun
+
+Target Fisik s/d Bulan
+ini
+
+Realisasi Fisik
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik
+Bulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik 1
+Tahun(%)
+
+Penanggung
+Jawab
+(jabatan
+&
+nama)
+
+1.02.0.00.0.00.01.0000
+
+DINAS KESEHATAN
+
+1.02.01
+
+PROGRAM PENUNJANG URUSAN PEMERINTAHAN DAERAH KABUPATEN/KOTA
+
+1.02.01.2.01
+
+Perencanaan, Penganggaran, dan Evaluasi Kinerja Perangkat Daerah
+
+1.02.01.2.01.0001
+
+Penyusunan Dokumen Perencanaan Perangkat
+Daerah
+
+30.000.000
+
+30.000.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Perencanaan Perangkat Daerah
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Sekretaris
+
+1.02.01.2.01.0002
+
+Koordinasi dan Penyusunan Dokumen RKASKPD
+
+15.000.000
+
+1.600.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen RKA-SKPD dan Laporan Hasil
+Koordinasi Penyusunan Dokumen RKA-SKPD
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Sekretaris
+
+1.02.01.2.01.0003
+
+Koordinasi dan Penyusunan Dokumen Perubahan
+RKA-SKPD
+
+15.000.000
+
+8.382.000
+
+3.840.000
+
+45,81
+
+25,60
+
+Jumlah Dokumen Perubahan RKA-SKPD dan
+Laporan Hasil Koordinasi Penyusunan Dokumen
+Perubahan RKA-SKPD
+
+2
+
+Dokumen
+
+2
+
+Dokumen
+
+0.512
+
+Dokumen
+
+25,60
+
+25,60
+
+Sekretaris
+
+1.02.01.2.01.0004
+
+Koordinasi dan Penyusunan DPA-SKPD
+
+15.000.000
+
+15.000.000
+
+7.955.200
+
+53,03
+
+53,03
+
+Jumlah Dokumen DPA-SKPD dan Laporan Hasil
+Koordinasi Penyusunan Dokumen DPA-SKPD
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0.53034666666667
+
+Dokumen
+
+53,03
+
+53,03
+
+Sekretaris
+
+1.02.01.2.01.0005
+
+Koordinasi dan Penyusunan Perubahan DPASKPD
+
+15.000.000
+
+1.000.000
+
+4.520.000
+
+452,00
+
+30,13
+
+Jumlah Dokumen Perubahan DPA-SKPD dan
+Laporan Hasil Koordinasi Penyusunan Dokumen
+Perubahan DPA-SKPD
+
+2
+
+Dokumen
+
+2
+
+Dokumen
+
+0.60266666666667
+
+Dokumen
+
+30,13
+
+30,13
+
+Sekretaris
+
+1.02.01.2.01.0006
+
+Koordinasi dan Penyusunan Laporan Capaian
+Kinerja dan Ikhtisar Realisasi Kinerja SKPD
+
+15.000.000
+
+15.000.000
+
+9.688.000
+
+64,59
+
+64,59
+
+Jumlah Laporan Capaian Kinerja dan Ikhtisar
+Realisasi Kinerja SKPD dan Laporan Hasil
+Koordinasi Penyusunan Laporan Capaian Kinerja
+dan Ikhtisar Realisasi Kinerja SKPD
+
+2
+
+Laporan
+
+2
+
+Laporan
+
+1.2917333333333
+
+Laporan
+
+64,59
+
+64,59
+
+Sekretaris
+
+1.02.01.2.01.0007
+
+Evaluasi Kinerja Perangkat Daerah
+
+27.000.000
+
+13.576.000
+
+2.170.000
+
+15,98
+
+8,04
+
+Jumlah Laporan Evaluasi Kinerja Perangkat
+Daerah
+
+2
+
+Laporan
+
+2
+
+Laporan
+
+0.16074074074074
+
+Laporan
+
+8,04
+
+8,04
+
+Sekretaris
+
+1.02.01.2.02
+
+Administrasi Keuangan Perangkat Daerah
+
+1.02.01.2.02.0001
+
+Penyediaan Gaji dan Tunjangan ASN
+
+49.283.216.000
+
+49.283.216.000
+
+30.682.017.393
+
+62,26
+
+62,26
+
+Jumlah Orang yang Menerima Gaji dan Tunjangan
+ASN
+
+557
+
+OB
+
+557
+
+OB
+
+557
+
+OB
+
+100,00
+
+100,00
+
+Sekretaris
+
+1.02.01.2.02.0002
+
+Penyediaan Administrasi Pelaksanaan Tugas ASN
+
+197.406.000
+
+105.606.000
+
+12.750.000
+
+12,07
+
+6,46
+
+Jumlah Dokumen Hasil Penyediaan Administrasi
+Pelaksanaan Tugas ASN
+
+3
+
+Dokumen
+
+3
+
+Dokumen
+
+1
+
+Dokumen
+
+33,33
+
+33,33
+
+Sekretaris
+
+1.02.01.2.02.0005
+
+Koordinasi dan Penyusunan Laporan Keuangan
+Akhir Tahun SKPD
+
+7.822.000
+
+7.822.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Laporan Keuangan Akhir Tahun SKPD
+dan Laporan Hasil Koordinasi Penyusunan
+Laporan Keuangan Akhir Tahun SKPD
+
+1
+
+Laporan
+
+1
+
+Laporan
+
+0
+
+Laporan
+
+0,00
+
+0,00
+
+Sekretaris
+
+1.02.01.2.02.0007
+
+Koordinasi dan Penyusunan Laporan Keuangan
+Bulanan/ Triwulanan/ Semesteran SKPD
+
+29.592.000
+
+18.756.000
+
+5.598.000
+
+29,85
+
+18,92
+
+Jumlah Laporan Keuangan Bulanan/ Triwulanan/
+Semesteran SKPD dan Laporan Koordinasi
+Penyusunan Laporan Keuangan
+Bulanan/Triwulanan/Semesteran SKPD
+
+12
+
+Laporan
+
+6
+
+Laporan
+
+6
+
+Laporan
+
+100,00
+
+50,00
+
+Sekretaris
+
+1.02.01.2.05
+
+Administrasi Kepegawaian Perangkat Daerah
+
+1.02.01.2.05.0009
+
+Pendidikan dan Pelatihan Pegawai Berdasarkan
+Tugas dan Fungsi
+
+45.616.000
+
+45.616.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Pegawai Berdasarkan Tugas dan Fungsi
+yang Mengikuti Pendidikan dan Pelatihan
+
+3
+
+Orang
+
+3
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Sekretaris
+
+1.02.01.2.05.0011
+
+Bimbingan Teknis Implementasi Peraturan
+Perundang-Undangan
+
+20.643.000
+
+20.643.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang yang Mengikuti Bimbingan Teknis
+Implementasi Peraturan Perundang-Undangan
+
+25
+
+Orang
+
+25
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Sekretaris
+
+Anggaran
+
+Kode
+
+Fisik
+
+Program / Kegiatan / Subkegiatan
+Target Pagu 1
+Tahun (Rp.)
+
+Target Kas s/d
+Bulan ini (Rp.)
+
+Realisasi (Rp.)
+
+Persentase
+Realisasi
+Terhadap
+Target Kas
+Bulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Pagu 1
+Tahun(%)
+
+Indikator
+
+Target Fisik 1 Tahun
+
+Target Fisik s/d Bulan
+ini
+
+Realisasi Fisik
+
+Persentase
+Realisasi
+Terhadap
+Target
+FisikBulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik 1
+Tahun(%)
+
+Penanggung
+Jawab
+(jabatan
+&nama)
+
+1.02.01.2.06
+
+Administrasi Umum Perangkat Daerah
+
+1.02.01.2.06.0002
+
+Penyediaan Peralatan dan Perlengkapan Kantor
+
+52.995.000
+
+44.995.000
+
+7.655.300
+
+17,01
+
+14,45
+
+Jumlah Paket Peralatan dan Perlengkapan Kantor
+yang Disediakan
+
+3
+
+Paket
+
+1
+
+Paket
+
+1
+
+Paket
+
+100,00
+
+33,33
+
+Sekretaris
+
+1.02.01.2.06.0005
+
+Penyediaan Barang Cetakan dan Penggandaan
+
+25.000.000
+
+15.000.000
+
+7.500.000
+
+50,00
+
+30,00
+
+Jumlah Paket Barang Cetakan dan Penggandaan
+yang Disediakan
+
+2
+
+Paket
+
+1
+
+Paket
+
+0.6
+
+Paket
+
+60,00
+
+30,00
+
+Sekretaris
+
+1.02.01.2.06.0008
+
+Fasilitasi Kunjungan Tamu
+
+32.304.000
+
+17.704.000
+
+6.164.000
+
+34,82
+
+19,08
+
+Jumlah Laporan Fasilitasi Kunjungan Tamu
+
+12
+
+Laporan
+
+6
+
+Laporan
+
+6
+
+Laporan
+
+100,00
+
+50,00
+
+Sekretaris
+
+1.02.01.2.06.0009
+
+Penyelenggaraan Rapat Koordinasi dan Konsultasi
+SKPD
+
+500.000.000
+
+375.000.000
+
+190.996.898
+
+50,93
+
+38,20
+
+Jumlah Laporan Penyelenggaraan Rapat
+Koordinasi dan Konsultasi SKPD
+
+12
+
+Laporan
+
+6
+
+Laporan
+
+6
+
+Laporan
+
+100,00
+
+50,00
+
+Sekretaris
+
+1.02.01.2.07
+
+Pengadaan Barang Milik Daerah Penunjang Urusan Pemerintah Daerah
+
+1.02.01.2.07.0002
+
+Pengadaan Kendaraan Dinas Operasional atau
+Lapangan
+
+3.533.440.000
+
+93.913.604
+
+0
+
+0,00
+
+0,00
+
+Jumlah Unit Kendaraan Dinas Operasional atau
+Lapangan yang Disediakan
+
+8
+
+Unit
+
+6
+
+Unit
+
+6
+
+Unit
+
+100,00
+
+75,00
+
+Sekretaris
+
+1.02.01.2.07.0011
+
+Pengadaan Sarana dan Prasarana Pendukung
+Gedung Kantor atau Bangunan Lainnya
+
+3.900.000
+
+0
+
+0
+
+0,00
+
+0,00
+
+Jumlah Unit Sarana dan Prasarana Pendukung
+Gedung Kantor atau Bangunan Lainnya yang
+Disediakan
+
+6
+
+Unit
+
+0
+
+Unit
+
+0
+
+Unit
+
+0,00
+
+0,00
+
+Sekretaris
+
+1.02.01.2.08
+
+Penyediaan Jasa Penunjang Urusan Pemerintahan Daerah
+
+1.02.01.2.08.0001
+
+Penyediaan Jasa Surat Menyurat
+
+50.000.000
+
+20.000.000
+
+300.000
+
+1,50
+
+0,60
+
+Jumlah Laporan Penyediaan Jasa Surat Menyurat
+
+12
+
+Laporan
+
+6
+
+Laporan
+
+6
+
+Laporan
+
+100,00
+
+50,00
+
+Sekretaris
+
+1.02.01.2.08.0002
+
+Penyediaan Jasa Komunikasi, Sumber Daya Air
+dan Listrik
+
+463.116.000
+
+236.058.000
+
+182.934.436
+
+77,50
+
+39,50
+
+Jumlah Laporan Penyediaan Jasa Komunikasi,
+Sumber Daya Air dan Listrik yang Disediakan
+
+12
+
+Laporan
+
+6
+
+Laporan
+
+6
+
+Laporan
+
+100,00
+
+50,00
+
+Sekretaris
+
+1.02.01.2.08.0004
+
+Penyediaan Jasa Pelayanan Umum Kantor
+
+2.683.000.000
+
+1.351.500.000
+
+570.650.000
+
+42,22
+
+21,27
+
+Jumlah Laporan Penyediaan Jasa Pelayanan
+Umum Kantor yang Disediakan
+
+12
+
+Laporan
+
+6
+
+Laporan
+
+6
+
+Laporan
+
+100,00
+
+50,00
+
+Sekretaris
+
+1.02.01.2.09
+
+Pemeliharaan Barang Milik Daerah Penunjang Urusan Pemerintahan Daerah
+
+1.02.01.2.09.0001
+
+Penyediaan Jasa Pemeliharaan, Biaya
+Pemeliharaan, dan Pajak Kendaraan Perorangan
+Dinas atau Kendaraan Dinas Jabatan
+
+109.300.000
+
+109.300.000
+
+43.028.244
+
+39,37
+
+39,37
+
+Jumlah Kendaraan Perorangan Dinas atau
+Kendaraan Dinas Jabatan yang Dipelihara dan
+dibayarkan Pajaknya
+
+3
+
+Unit
+
+3
+
+Unit
+
+3
+
+Unit
+
+100,00
+
+100,00
+
+Sekretaris
+
+1.02.01.2.09.0006
+
+Pemeliharaan Peralatan dan Mesin Lainnya
+
+59.620.000
+
+45.522.000
+
+12.185.000
+
+26,77
+
+20,44
+
+Jumlah Peralatan dan Mesin Lainnya yang
+Dipelihara
+
+106
+
+Unit
+
+53
+
+Unit
+
+53
+
+Unit
+
+100,00
+
+50,00
+
+Sekretaris
+
+1.02.01.2.09.0009
+
+Pemeliharaan/Rehabilitasi Gedung Kantor dan
+Bangunan Lainnya
+
+500.120.000
+
+500.120.000
+
+50.250.000
+
+10,05
+
+10,05
+
+Jumlah Gedung Kantor dan Bangunan Lainnya
+yang Dipelihara/Direhabilitasi
+
+2
+
+Unit
+
+1
+
+Unit
+
+1
+
+Unit
+
+100,00
+
+50,00
+
+Sekretaris
+
+1.02.02
+
+PROGRAM PEMENUHAN UPAYA KESEHATAN PERORANGAN DAN UPAYA KESEHATAN MASYARAKAT
+
+1.02.02.2.01
+
+Penyediaan Fasilitas Pelayanan Kesehatan untuk UKM dan UKP Kewenangan Daerah Kabupaten/Kota
+
+1.02.02.2.01.0003
+
+Pembangunan Fasilitas Kesehatan Lainnya
+
+1.502.150.000
+
+472.500.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Fasilitas Kesehatan Lainnya yang
+Dibangun
+
+1
+
+Unit
+
+1
+
+Unit
+
+0
+
+Unit
+
+0,00
+
+0,00
+
+Sekretaris
+
+1.02.02.2.01.0007
+
+Pengembangan Fasilitas Kesehatan Lainnya
+
+3.404.150.000
+
+1.069.200.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Fasilitas Kesehatan Lainnya yang
+Ditingkatkan Sarana, Prasarana, Alat Kesehatan
+dan SDM agar Sesuai Standar
+
+1
+
+Unit
+
+1
+
+Unit
+
+0
+
+Unit
+
+0,00
+
+0,00
+
+Sekretaris
+
+1.02.02.2.01.0014
+
+Pengadaan Alat Kesehatan/Alat Penunjang Medik
+Fasilitas Pelayanan Kesehatan
+
+366.500.000
+
+366.500.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Alat Kesehatan/Alat Penunjang Medik
+Fasilitas Pelayanan Kesehatan yang Disediakan
+
+11
+
+Unit
+
+11
+
+Unit
+
+0
+
+Unit
+
+0,00
+
+0,00
+
+Kabid.
+Pelayanan
+dan
+SDMK
+
+1.02.02.2.01.0020
+
+Pemeliharaan Rutin dan Berkala Alat
+Kesehatan/Alat Penunjang Medik Fasilitas
+Pelayanan Kesehatan
+
+55.254.000
+
+0
+
+0
+
+0,00
+
+0,00
+
+Jumlah Alat Kesehatan/Alat Penunjang Medik
+Fasilitas Layanan Kesehatan yang Terpelihara
+Sesuai Standar
+
+1
+
+Unit
+
+0
+
+Unit
+
+0
+
+Unit
+
+0,00
+
+0,00
+
+Kabid.
+Pelayanan
+dan
+SDMK
+
+Anggaran
+
+Kode
+
+Fisik
+
+Program / Kegiatan / Subkegiatan
+
+Persentase
+Realisasi
+Terhadap
+Target Kas
+Bulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Pagu 1
+Tahun(%)
+
+Target Pagu 1
+Tahun (Rp.)
+
+Target Kas s/d
+Bulan ini (Rp.)
+
+Realisasi (Rp.)
+
+1.960.681.644
+
+1.960.681.644
+
+0
+
+0,00
+
+0,00
+
+7.887.000
+
+7.887.000
+
+0
+
+0,00
+
+Persentase
+Realisasi
+Terhadap
+Target
+FisikBulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik 1
+Tahun(%)
+
+Penanggung
+Jawab
+(jabatan
+&nama)
+
+Target Fisik 1 Tahun
+
+Target Fisik s/d Bulan
+ini
+
+Jumlah Obat, Bahan Habis Pakai, Bahan Medis
+Habis Pakai, Vaksin, Makanan dan Minuman di
+Fasilitas Kesehatan yang disediakan
+
+10
+
+Paket
+
+10
+
+Paket
+
+0
+
+Paket
+
+0,00
+
+0,00
+
+Kabid.
+Pelayanan
+dan
+SDMK
+
+0,00
+
+Jumlah distribusi Alat Kesehatan, Obat, Bahan
+Habis Pakai, Bahan Medis Habis Pakai, Vaksin,
+Makanan ke Fasilitas Kesehatan
+
+51
+
+Paket
+
+51
+
+Paket
+
+0
+
+Paket
+
+0,00
+
+0,00
+
+Kabid.
+Pelayanan
+dan
+SDMK
+
+Indikator
+
+Realisasi Fisik
+
+1.02.02.2.01.0023
+
+Pengadaan Obat, Bahan Habis Pakai, Bahan Medis
+Habis Pakai,, Vaksin, Makanan dan Minuman di
+Fasilitas Kesehatan
+
+1.02.02.2.01.0026
+
+Distribusi Alat Kesehatan, Obat, Bahan Habis
+Pakai, Bahan Medis Habis Pakai, Vaksin,
+Makanan dan Minuman ke Fasilitas Kesehatan
+
+1.02.02.2.02
+
+Penyediaan Layanan Kesehatan untuk UKM dan UKP Rujukan Tingkat Daerah Kabupaten/Kota
+
+1.02.02.2.02.0001
+
+Pengelolaan Pelayanan Kesehatan Ibu Hamil
+
+179.400.000
+
+166.318.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Ibu Hamil yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+3610
+
+Orang
+
+3610
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kabid.
+Kesehatan
+masyarakat
+
+1.02.02.2.02.0002
+
+Pengelolaan Pelayanan Kesehatan Ibu Bersalin
+
+14.540.000
+
+14.540.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Ibu Bersalin yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+3446
+
+Orang
+
+3446
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kabid.
+Kesehatan
+masyarakat
+
+1.02.02.2.02.0003
+
+Pengelolaan Pelayanan Kesehatan Bayi Baru Lahir
+
+130.327.000
+
+95.827.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Bayi Baru Lahir yang Mendapatkan
+Pelayanan Kesehatan Sesuai Standar
+
+3282
+
+Orang
+
+3282
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kabid.
+Kesehatan
+masyarakat
+
+1.02.02.2.02.0004
+
+Pengelolaan Pelayanan Kesehatan Balita
+
+35.223.900
+
+22.330.100
+
+0
+
+0,00
+
+0,00
+
+Jumlah Balita yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+12629
+
+Orang
+
+12629
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kabid.
+Kesehatan
+masyarakat
+
+1.02.02.2.02.0005
+
+Pengelolaan Pelayanan Kesehatan pada Usia
+Pendidikan Dasar
+
+4.680.000
+
+0
+
+0
+
+0,00
+
+0,00
+
+Jumlah Anak Usia Pendidikan Dasar yang
+Mendapatkan Pelayanan Kesehatan Sesuai Standar
+
+27937
+
+Orang
+
+27937
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kabid.
+Kesehatan
+masyarakat
+
+1.02.02.2.02.0006
+
+Pengelolaan Pelayanan Kesehatan pada Usia
+Produktif
+
+13.592.000
+
+13.592.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Penduduk Usia Produktif yang
+Mendapatkan Pelayanan Kesehatan Sesuai Standar
+
+117632
+
+Orang
+
+117632
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kabid.
+Kesehatan
+masyarakat
+
+1.02.02.2.02.0007
+
+Pengelolaan Pelayanan Kesehatan pada Usia
+Lanjut
+
+7.411.000
+
+7.411.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Penduduk Usia Lanjut yang Mendapatkan
+Pelayanan Kesehatan Sesuai Standar
+
+15400
+
+Orang
+
+15400
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kabid.
+Kesehatan
+masyarakat
+
+1.02.02.2.02.0008
+
+Pengelolaan Pelayanan Kesehatan Penderita
+Hipertensi
+
+22.093.000
+
+20.543.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Penderita Hipertensi yang Mendapatkan
+Pelayanan Kesehatan Sesuai Standar
+
+50
+
+Orang
+
+50
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kabid.
+P2P
+
+1.02.02.2.02.0009
+
+Pengelolaan Pelayanan Kesehatan Penderita
+Diabetes Melitus
+
+216.759.634
+
+215.209.634
+
+5.338.000
+
+2,48
+
+2,46
+
+Jumlah Penderita Diabetes Melitus yang
+Mendapatkan Pelayanan Kesehatan Sesuai Standar
+
+450
+
+Orang
+
+450
+
+Orang
+
+11.081860379964
+
+Orang
+
+2,46
+
+2,46
+
+Kabid.
+P2P
+
+1.02.02.2.02.0010
+
+Pengelolaan Pelayanan Kesehatan Orang dengan
+Gangguan Jiwa Berat
+
+82.371.000
+
+22.191.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang yang Mendapatkan Pelayanan
+Kesehatan Orang dengan Gangguan Jiwa Berat
+Sesuai Standar
+
+227
+
+Orang
+
+227
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kabid.
+P2P
+
+1.02.02.2.02.0011
+
+Pengelolaan Pelayanan Kesehatan Orang Terduga
+Tuberkulosis
+
+241.802.000
+
+216.382.000
+
+10.871.000
+
+5,02
+
+4,50
+
+Jumlah Orang Terduga Menderita Tuberkulosis
+yang Mendapatkan Pelayanan Sesuai Standar
+
+1739
+
+Orang
+
+1739
+
+Orang
+
+78.182434388467
+
+Orang
+
+4,50
+
+4,50
+
+Kabid.
+P2P
+
+1.02.02.2.02.0012
+
+Pengelolaan Pelayanan Kesehatan Orang dengan
+Risiko Terinfeksi HIV
+
+117.322.776
+
+87.960.776
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita HIV yang
+Mendapatkan Pelayanan Sesuai Standar
+
+1500
+
+Orang
+
+1500
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kabid.
+P2P
+
+1.02.02.2.02.0015
+
+Pengelolaan Pelayanan Kesehatan Gizi
+Masyarakat
+
+271.120.000
+
+164.588.000
+
+8.800.500
+
+5,35
+
+3,25
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Gizi Masyarakat
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0.032459796400118
+
+Dokumen
+
+3,25
+
+3,25
+
+Kabid.
+Kesehatan
+masyarakat
+
+1.02.02.2.02.0016
+
+Pengelolaan Pelayanan Kesehatan Kerja dan
+Olahraga
+
+37.666.000
+
+37.666.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Kerja dan Olahraga
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kabid.
+Kesehatan
+masyarakat
+
+1.02.02.2.02.0017
+
+Pengelolaan Pelayanan Kesehatan Lingkungan
+
+479.442.000
+
+417.326.000
+
+2.480.000
+
+0,59
+
+0,52
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Lingkungan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0.0051726799070586
+
+Dokumen
+
+0,52
+
+0,52
+
+Kabid.
+P2P
+
+Anggaran
+
+Kode
+
+Fisik
+
+Program / Kegiatan / Subkegiatan
+Target Pagu 1
+Tahun (Rp.)
+
+Target Kas s/d
+Bulan ini (Rp.)
+
+Realisasi (Rp.)
+
+Persentase
+Realisasi
+Terhadap
+Target Kas
+Bulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Pagu 1
+Tahun(%)
+
+Indikator
+
+Target Fisik 1 Tahun
+
+Target Fisik s/d Bulan
+ini
+
+Realisasi Fisik
+
+Persentase
+Realisasi
+Terhadap
+Target
+FisikBulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik 1
+Tahun(%)
+
+Penanggung
+Jawab
+(jabatan
+&nama)
+
+1.02.02.2.02.0018
+
+Pengelolaan Pelayanan Promosi Kesehatan
+
+341.212.000
+
+137.495.400
+
+5.270.000
+
+3,83
+
+1,54
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Promosi Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0.015444943319696
+
+Dokumen
+
+1,54
+
+1,54
+
+Kabid.
+Kesehatan
+masyarakat
+
+1.02.02.2.02.0020
+
+Pengelolaan Surveilans Kesehatan
+
+232.883.000
+
+127.833.000
+
+8.989.000
+
+7,03
+
+3,86
+
+Jumlah Dokumen Hasil Pengelolaan Surveilans
+Kesehatan
+
+2
+
+Dokumen
+
+2
+
+Dokumen
+
+0.07719756272463
+
+Dokumen
+
+3,86
+
+3,86
+
+Kabid.
+Kesehatan
+masyarakat
+
+1.02.02.2.02.0022
+
+Pengelolaan Pelayanan Kesehatan Jiwa dan
+NAPZA
+
+45.484.000
+
+39.874.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Penyalahguna NAPZA yang Mendapatkan
+Pelayanan Kesehatan
+
+150
+
+Orang
+
+150
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kabid.
+Kesehatan
+masyarakat
+
+1.02.02.2.02.0024
+
+Pengelolaan Upaya Pengurangan Risiko Krisis
+Kesehatan dan Pasca Krisis Kesehatan
+
+48.739.000
+
+34.289.000
+
+4.602.000
+
+13,42
+
+9,44
+
+Jumlah Dokumen Hasil Pengelolaan Upaya
+Pengurangan Risiko Krisis Kesehatan dan Pasca
+Krisis Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0.094421305320175
+
+Dokumen
+
+9,44
+
+9,44
+
+Kabid.
+P2P
+
+1.02.02.2.02.0025
+
+Pelayanan Kesehatan Penyakit Menular dan Tidak
+Menular
+
+704.178.946
+
+485.001.946
+
+22.666.300
+
+4,67
+
+3,22
+
+Jumlah Dokumen Hasil Pelayanan Kesehatan
+Penyakit Menular dan Tidak Menular
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0.032188267099937
+
+Dokumen
+
+3,22
+
+3,22
+
+Kabid.
+P2P
+
+1.02.02.2.02.0026
+
+Pengelolaan Jaminan Kesehatan Masyarakat
+
+16.090.096.700
+
+9.647.296.700
+
+7.579.169.782
+
+78,56
+
+47,10
+
+Jumlah Dokumen Hasil Pengelolaan Jaminan
+Kesehatan Masyarakat
+
+51500
+
+Dokumen
+
+51500
+
+Dokumen
+
+24258.850089633
+
+Dokumen
+
+47,10
+
+47,10
+
+Kabid.
+Kesehatan
+masyarakat
+
+1.02.02.2.02.0029
+
+Penyelenggaraan Kabupaten/Kota Sehat
+
+219.709.600
+
+161.183.350
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Penyelenggaraan
+Kabupaten/Kota Sehat
+
+9
+
+Dokumen
+
+9
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kabid.
+Kesehatan
+masyarakat
+
+1.02.02.2.02.0030
+
+Penyediaan Telemedicine di Fasilitas Pelayanan
+Kesehatan
+
+17.663.000
+
+17.663.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Fasilitas Pelayanan Kesehatan (Fasyankes)
+yang Melayani Konsultasi Jarak Jauh antar
+Fasyankes Melalui Pelayanan Telemedicine untuk
+Mendapatkan Akses Pelayanan Kesehatan yang
+Berkualitas
+
+17
+
+Unit
+
+17
+
+Unit
+
+0
+
+Unit
+
+0,00
+
+0,00
+
+Kabid.
+P2P
+
+1.02.02.2.02.0033
+
+Operasional Pelayanan Puskesmas
+
+103.908.000
+
+69.272.000
+
+192.574.000
+
+278,00
+
+185,33
+
+Jumlah Dokumen Operasional Pelayanan
+Puskesmas
+
+5
+
+Dokumen
+
+5
+
+Dokumen
+
+9.2665627285676
+
+Dokumen
+
+185,33
+
+185,33
+
+Sekretaris
+
+1.02.02.2.02.0034
+
+Operasional Pelayanan Fasilitas Kesehatan
+Lainnya
+
+44.472.000
+
+0
+
+5.006.000
+
+0,00
+
+11,26
+
+Jumlah Dokumen Operasional Pelayanan Fasilitas
+Kesehatan Lainnya
+
+2
+
+Dokumen
+
+2
+
+Dokumen
+
+0.22513041914013
+
+Dokumen
+
+11,26
+
+11,26
+
+Sekretaris
+
+1.02.02.2.02.0035
+
+Pelaksanaan Akreditasi Fasilitas Kesehatan di
+Kabupaten/Kota
+
+550.148.800
+
+550.148.800
+
+409.957.300
+
+74,52
+
+74,52
+
+Jumlah Fasilitas Kesehatan yang Terakreditasi di
+Kabupaten/Kota
+
+17
+
+Unit
+
+17
+
+Unit
+
+12.667980190087
+
+Unit
+
+74,52
+
+74,52
+
+Kabid.
+Pelayanan
+dan
+SDMK
+
+1.02.02.2.02.0036
+
+Investigasi Awal Kejadian Tidak Diharapkan
+(Kejadian Ikutan Pasca Imunisasi dan Pemberian
+Obat Massal)
+
+9.900.000
+
+5.940.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Kejadian Ikutan Pasca Imunisasi dan
+Pemberian Obat Massal
+
+15
+
+Kejadian
+
+15
+
+Kejadian
+
+0
+
+Kejadian
+
+0,00
+
+0,00
+
+Kabid.
+P2P
+
+1.02.02.2.02.0038
+
+Penyediaan dan Pengelolaan Sistem Penanganan
+Gawat Darurat Terpadu (SPGDT)
+
+42.025.000
+
+42.025.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Public Safety Center (PSC 119)
+Tersediaan, Terkelolaan dan Terintegrasi Dengan
+Rumah Sakit Dalam Satu Sistem Penanganan
+Gawat Darurat Terpadu (SPGDT)
+
+1
+
+Unit
+
+1
+
+Unit
+
+0
+
+Unit
+
+0,00
+
+0,00
+
+Kabid.
+Pelayanan
+dan
+SDMK
+
+1.02.02.2.02.0040
+
+Pengelolaan pelayanan kesehatan orang dengan
+Tuberkulosis
+
+24.517.000
+
+13.413.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan Tuberkulosis yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+450
+
+Orang
+
+450
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kabid.
+P2P
+
+1.02.02.2.02.0041
+
+Pengelolaan pelayanan kesehatan orang dengan
+HIV (ODHIV)
+
+16.183.000
+
+8.548.000
+
+4.339.000
+
+50,76
+
+26,81
+
+Jumlah orang dengan HIV $ODHIV% yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+10
+
+Orang
+
+10
+
+Orang
+
+2.6812086757709
+
+Orang
+
+26,81
+
+26,81
+
+Kabid.
+P2P
+
+1.02.02.2.02.0042
+
+Pengelolaan pelayanan kesehatan Malaria
+
+28.507.000
+
+25.407.000
+
+1.603.000
+
+6,31
+
+5,62
+
+Jumlah orang yang mendapatkan pelayanan
+kesehatan malaria
+
+20
+
+Orang
+
+20
+
+Orang
+
+1.1246360543025
+
+Orang
+
+5,62
+
+5,62
+
+Kabid.
+P2P
+
+1.02.02.2.02.0046
+
+Pengelolaan upaya kesehatan Ibu dan Anak
+
+86.790.000
+
+6.087.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah dokumen hasil pengelolaan upaya
+kesehatan ibu dan anak
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kabid.
+Kesehatan
+masyarakat
+
+Anggaran
+
+Kode
+
+Fisik
+
+Program / Kegiatan / Subkegiatan
+Target Pagu 1
+Tahun (Rp.)
+
+Target Kas s/d
+Bulan ini (Rp.)
+
+Realisasi (Rp.)
+
+54.196.000
+
+19.520.000
+
+1.02.02.2.03
+
+Penyelenggaraan Sistem Informasi Kesehatan Secara Terintegrasi
+
+1.02.02.2.03.0002
+
+Pengelolaan Sistem Informasi Kesehatan
+
+1.02.02.2.04
+
+Penerbitan Izin Rumah Sakit Kelas C, D dan Fasilitas Pelayanan Kesehatan Tingkat Daerah Kabupaten/Kota
+
+1.02.02.2.04.0001
+
+Pengendalian dan Pengawasan serta Tindak Lanjut
+Pengawasan Perizinan Rumah Sakit Kelas C, D
+dan Fasilitas Pelayanan Kesehatan Lainnya
+
+61.000.000
+
+26.661.000
+
+10.000.000
+
+26.661.000
+
+10.000.000
+
+0
+
+0
+
+Persentase
+Realisasi
+Terhadap
+Target Kas
+Bulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Pagu 1
+Tahun(%)
+
+36,02
+
+32,00
+
+Jumlah Dokumen Hasil Pengelolaan Sistem
+Informasi Kesehatan
+
+0,00
+
+Jumlah Rumah Sakit Kelas C, D dan Fasilitas
+Pelayanan Kesehatan yang Dikendalikan, Diawasi
+dan Ditindaklanjuti Perizinannya
+
+0,00
+
+Jumlah Fasilitas Kesehatan yang Dilakukan
+Pengukuran Indikator Nasional Mutu (INM)
+Pelayanan kesehatan
+
+0,00
+
+1.02.02.2.04.0003
+
+Peningkatan Mutu Pelayanan Fasilitas Kesehatan
+
+0,00
+
+1.02.03
+
+PROGRAM PENINGKATAN KAPASITAS SUMBER DAYA MANUSIA KESEHATAN
+
+1.02.03.2.02
+
+Perencanaan Kebutuhan dan Pendayagunaan Sumber Daya Manusia Kesehatan untuk UKP dan UKM di Wilayah Kabupaten/Kota
+
+Indikator
+
+Target Fisik 1 Tahun
+
+Target Fisik s/d Bulan
+ini
+
+3
+
+3
+
+25
+
+1
+
+Dokumen
+
+Unit
+
+Unit
+
+25
+
+1
+
+Dokumen
+
+Unit
+
+Unit
+
+Realisasi Fisik
+
+0.96
+
+0
+
+0
+
+Dokumen
+
+Unit
+
+Unit
+
+Penanggung
+Jawab
+(jabatan
+&nama)
+
+Persentase
+Realisasi
+Terhadap
+Target
+FisikBulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik 1
+Tahun(%)
+
+32,00
+
+32,00
+
+Sekretaris
+
+0,00
+
+Labkesda
+dan
+Pelayanan
+dan
+SDMK
+
+0,00
+
+Kabid.
+Pelayanan
+dan
+SDMK,
+kesehatan
+masyarakat,dan
+P2P
+
+0,00
+
+0,00
+
+1.02.03.2.02.0002
+
+Pemenuhan Kebutuhan Sumber Daya Manusia
+Kesehatan Sesuai Standar
+
+12.079.000
+
+12.079.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Sumber Daya Manusia Kesehatan yang
+Memenuhi Standar di Fasilitas Pelayanan
+Kesehatan (Fasyankes)
+
+100
+
+Orang
+
+100
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kabid.
+Pelayanan
+dan
+SDMK,
+kesehatan
+masyarakat
+dan P2P
+
+1.02.03.2.02.0003
+
+Pembinaan dan Pengawasan Sumber Daya
+Manusia Kesehatan
+
+114.398.000
+
+83.271.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pembinaan dan
+Pengawasan Sumber Daya Manusia Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kabid.
+Pelayanan
+dan
+SDMK
+
+1.02.03.2.03
+
+Pengembangan Mutu dan Peningkatan Kompetensi Teknis Sumber Daya Manusia Kesehatan Tingkat Daerah Kabupaten/Kota
+
+1.02.03.2.03.0001
+
+Pengembangan Mutu dan Peningkatan Kompetensi
+Teknis Sumber Daya Manusia Kesehatan Tingkat
+Daerah Kabupaten/Kota
+
+1.02.04
+
+PROGRAM SEDIAAN FARMASI, ALAT KESEHATAN DAN MAKANAN MINUMAN
+
+1.02.04.2.01
+
+Pemberian Izin Apotek, Toko Obat, Toko Alat Kesehatan dan Optikal, Usaha Mikro Obat Tradisional (UMOT)
+
+1.02.04.2.01.0001
+
+Pengendalian dan Pengawasan serta Tindak Lanjut
+Pengawasan Perizinan Apotek, Toko Obat, Toko
+Alat Kesehatan, dan Optikal, Usaha Mikro Obat
+Tradisional (UMOT)
+
+1.02.04.2.03
+
+Penerbitan Sertifikat Produksi Pangan Industri Rumah Tangga dan Nomor P-IRT sebagai Izin Produksi, untuk Produk Makanan Minuman Tertentu yang Dapat Diproduksi oleh Industri Rumah Tangga
+
+1.02.04.2.03.0001
+
+Pengendalian dan Pengawasan serta Tindak Lanjut
+Pengawasan Sertifikat Produksi Pangan Industri
+Rumah Tangga dan Nomor P-IRT sebagai Izin
+Produksi, untuk Produk Makanan Minuman
+Tertentu yang Dapat Diproduksi oleh Industri
+Rumah Tangga
+
+1.02.04.2.06
+
+Pemeriksaan dan Tindak Lanjut Hasil Pemeriksaan Post Market pada Produksi dan Produk Makanan Minuman Industri Rumah Tangga
+
+1.051.979.750
+
+60.261.000
+
+85.397.200
+
+604.493.750
+
+60.261.000
+
+74.237.200
+
+0
+
+0,00
+
+0,00
+
+Jumlah Sumber Daya Manusia Kesehatan Tingkat
+Daerah Kabupaten/Kota yang Ditingkatkan Mutu
+dan Kompetensinya
+
+100
+
+Orang
+
+100
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kabid.
+Pelayanan
+dan
+SDMK
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengendalian dan
+Pengawasan serta Tindak Lanjut Pengawasan
+Perizinan Apotek, Toko Obat, Toko Alat
+Kesehatan, dan Optikal, Usaha Mikro Obat
+Tradisional (UMOT)
+
+3
+
+Dokumen
+
+3
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kabid.
+Pelayanan
+dan
+SDMK
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kabid.
+Pelayanan
+dan
+SDMK
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengendalian dan
+Pengawasan serta Tindak Lanjut Pengawasan
+Sertifikat Produksi Pangan Industri Rumah Tangga
+dan Nomor P-IRT sebagai Izin Produksi, untuk
+Produk Makanan Minuman Tertentu yang Dapat
+Diproduksi oleh Industri Rumah Tangga
+
+Anggaran
+
+Kode
+
+Fisik
+
+Program / Kegiatan / Subkegiatan
+Target Pagu 1
+Tahun (Rp.)
+
+Target Kas s/d
+Bulan ini (Rp.)
+
+Realisasi (Rp.)
+
+4.864.000
+
+0
+
+Persentase
+Realisasi
+Terhadap
+Target Kas
+Bulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Pagu 1
+Tahun(%)
+
+Indikator
+
+0,00
+
+0,00
+
+Persentase
+Realisasi
+Terhadap
+Target
+FisikBulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik 1
+Tahun(%)
+
+Penanggung
+Jawab
+(jabatan
+&nama)
+
+Target Fisik 1 Tahun
+
+Target Fisik s/d Bulan
+ini
+
+Jumlah Produk dan Sarana Produksi MakananMinuman Industri Rumah Tangga Beredar yang
+Dilakukan Pemeriksaan Post Market dalam rangka
+Tindak Lanjut Pengawasan
+
+2
+
+Unit
+
+2
+
+Unit
+
+0
+
+Unit
+
+0,00
+
+0,00
+
+Kabid.
+Pelayanan
+dan
+SDMK
+
+0,00
+
+Jumlah Dokumen Promosi Kesehatan, Advokasi,
+Kemitraan dan Pemberdayaan Masyarakat
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kabid.
+Kesehatan
+masyarakat
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Bimbingan Teknis dan
+Supervisi Upaya Kesehatan Bersumber Daya
+Masyarakat (UKBM)
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kabid.
+Pelayanan
+dan
+SDMK
+
+Realisasi Fisik
+
+1.02.04.2.06.0001
+
+Pemeriksaan Post Market pada Produk MakananMinuman Industri Rumah Tangga yang Beredar
+dan Pengawasan serta Tindak Lanjut Pengawasan
+
+1.02.05
+
+PROGRAM PEMBERDAYAAN MASYARAKAT BIDANG KESEHATAN
+
+1.02.05.2.01
+
+Advokasi, Pemberdayaan, Kemitraan, Peningkatan Peran serta Masyarakat dan Lintas Sektor Tingkat Daerah Kabupaten/Kota
+
+1.02.05.2.01.0001
+
+Peningkatan Upaya Promosi Kesehatan, Advokasi,
+Kemitraan dan Pemberdayaan Masyarakat
+
+1.02.05.2.03
+
+Pengembangan dan Pelaksanaan Upaya Kesehatan Bersumber Daya Masyarakat (UKBM) Tingkat Daerah Kabupaten/Kota
+
+1.02.05.2.03.0001
+
+Bimbingan Teknis dan Supervisi Pengembangan
+dan Pelaksanaan Upaya Kesehatan Bersumber
+Daya Masyarakat (UKBM)
+
+1.02.0.00.0.00.01.0021
+
+PUSKESMAS LAKOLOGOU
+
+1.02.02
+
+PROGRAM PEMENUHAN UPAYA KESEHATAN PERORANGAN DAN UPAYA KESEHATAN MASYARAKAT
+
+1.02.02.2.02
+
+Penyediaan Layanan Kesehatan untuk UKM dan UKP Rujukan Tingkat Daerah Kabupaten/Kota
+
+1.02.02.2.02.0001
+
+Pengelolaan Pelayanan Kesehatan Ibu Hamil
+
+14.944.000
+
+7.472.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Ibu Hamil yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+17
+
+Orang
+
+17
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Lakologou
+
+1.02.02.2.02.0002
+
+Pengelolaan Pelayanan Kesehatan Ibu Bersalin
+
+6.276.000
+
+4.976.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Ibu Bersalin yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+48
+
+Orang
+
+48
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Lakologou
+
+1.02.02.2.02.0005
+
+Pengelolaan Pelayanan Kesehatan pada Usia
+Pendidikan Dasar
+
+67.760.000
+
+38.000.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Anak Usia Pendidikan Dasar yang
+Mendapatkan Pelayanan Kesehatan Sesuai Standar
+
+56
+
+Orang
+
+56
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Lakologou
+
+1.02.02.2.02.0011
+
+Pengelolaan Pelayanan Kesehatan Orang Terduga
+Tuberkulosis
+
+17.160.000
+
+9.240.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita Tuberkulosis
+yang Mendapatkan Pelayanan Sesuai Standar
+
+156
+
+Orang
+
+156
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Lakologou
+
+1.02.02.2.02.0015
+
+Pengelolaan Pelayanan Kesehatan Gizi
+Masyarakat
+
+225.944.000
+
+97.588.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Gizi Masyarakat
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Lakologou
+
+1.02.02.2.02.0017
+
+Pengelolaan Pelayanan Kesehatan Lingkungan
+
+12.760.000
+
+6.930.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Lingkungan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Lakologou
+
+1.02.02.2.02.0020
+
+Pengelolaan Surveilans Kesehatan
+
+3.080.000
+
+1.760.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Surveilans
+Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Lakologou
+
+1.02.02.2.02.0025
+
+Pelayanan Kesehatan Penyakit Menular dan Tidak
+Menular
+
+137.060.000
+
+67.000.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pelayanan Kesehatan
+Penyakit Menular dan Tidak Menular
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Lakologou
+
+1.02.02.2.02.0026
+
+Pengelolaan Jaminan Kesehatan Masyarakat
+
+564.283.000
+
+307.511.500
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Jaminan
+Kesehatan Masyarakat
+
+1234
+
+Dokumen
+
+1234
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Lakologou
+
+1.02.02.2.02.0033
+
+Operasional Pelayanan Puskesmas
+
+109.474.000
+
+59.313.500
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan
+Puskesmas
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Lakologou
+
+1.02.02.2.02.0034
+
+Operasional Pelayanan Fasilitas Kesehatan
+Lainnya
+
+7.662.000
+
+2.610.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan Fasilitas
+Kesehatan Lainnya
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Lakologou
+
+1.02.02.2.02.0036
+
+Investigasi Awal Kejadian Tidak Diharapkan
+(Kejadian Ikutan Pasca Imunisasi dan Pemberian
+Obat Massal)
+
+6.600.000
+
+3.300.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Kejadian Ikutan Pasca Imunisasi dan
+Pemberian Obat Massal
+
+5
+
+Kejadian
+
+5
+
+Kejadian
+
+0
+
+Kejadian
+
+0,00
+
+0,00
+
+Kapus.
+Lakologou
+
+1.02.02.2.02.0040
+
+Pengelolaan pelayanan kesehatan orang dengan
+Tuberkulosis
+
+5.940.000
+
+3.520.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan Tuberkulosis yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+54
+
+Orang
+
+54
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Lakologou
+
+165.014.000
+
+39.078.900
+
+68.216.000
+
+21.188.900
+
+45.069.000
+
+0
+
+0
+
+0,00
+
+Anggaran
+
+Kode
+
+Fisik
+
+Program / Kegiatan / Subkegiatan
+Target Pagu 1
+Tahun (Rp.)
+
+Target Kas s/d
+Bulan ini (Rp.)
+
+Realisasi (Rp.)
+
+Persentase
+Realisasi
+Terhadap
+Target Kas
+Bulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Pagu 1
+Tahun(%)
+
+Indikator
+
+Target Fisik 1 Tahun
+
+Target Fisik s/d Bulan
+ini
+
+Realisasi Fisik
+
+Persentase
+Realisasi
+Terhadap
+Target
+FisikBulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik 1
+Tahun(%)
+
+Penanggung
+Jawab
+(jabatan
+&nama)
+
+1.02.02.2.02.0041
+
+Pengelolaan pelayanan kesehatan orang dengan
+HIV (ODHIV)
+
+4.620.000
+
+2.420.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan HIV (ODHIV) yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+42
+
+Orang
+
+42
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Lakologou
+
+1.02.02.2.02.0044
+
+Pengelolaan Pelayanan Kesehatan Reproduksi
+
+10.560.000
+
+5.280.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan kesehatan reproduksi yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+96
+
+Orang
+
+96
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Lakologou
+
+1.02.02.2.02.0046
+
+Pengelolaan upaya kesehatan Ibu dan Anak
+
+102.944.000
+
+56.412.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah dokumen hasil pengelolaan upaya
+kesehatan ibu dan anak
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Lakologou
+
+1.02.02.2.03
+
+Penyelenggaraan Sistem Informasi Kesehatan Secara Terintegrasi
+
+1.02.02.2.03.0002
+
+Pengelolaan Sistem Informasi Kesehatan
+
+4.557.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Sistem
+Informasi Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Lakologou
+
+1.02.0.00.0.00.01.0022
+
+PUSKESMAS BETOAMBARI
+
+1.02.02
+
+PROGRAM PEMENUHAN UPAYA KESEHATAN PERORANGAN DAN UPAYA KESEHATAN MASYARAKAT
+
+1.02.02.2.02
+
+Penyediaan Layanan Kesehatan untuk UKM dan UKP Rujukan Tingkat Daerah Kabupaten/Kota
+
+1.02.02.2.02.0001
+
+Pengelolaan Pelayanan Kesehatan Ibu Hamil
+
+8.320.000
+
+6.240.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Ibu Hamil yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+32
+
+Orang
+
+32
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Betoambari
+
+1.02.02.2.02.0002
+
+Pengelolaan Pelayanan Kesehatan Ibu Bersalin
+
+5.370.000
+
+5.370.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Ibu Bersalin yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+50
+
+Orang
+
+50
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Betoambari
+
+1.02.02.2.02.0005
+
+Pengelolaan Pelayanan Kesehatan pada Usia
+Pendidikan Dasar
+
+66.880.000
+
+37.620.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Anak Usia Pendidikan Dasar yang
+Mendapatkan Pelayanan Kesehatan Sesuai Standar
+
+608
+
+Orang
+
+304
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Betoambari
+
+1.02.02.2.02.0011
+
+Pengelolaan Pelayanan Kesehatan Orang Terduga
+Tuberkulosis
+
+7.260.000
+
+3.960.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita Tuberkulosis
+yang Mendapatkan Pelayanan Sesuai Standar
+
+66
+
+Orang
+
+66
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Betoambari
+
+1.02.02.2.02.0012
+
+Pengelolaan Pelayanan Kesehatan Orang dengan
+Risiko Terinfeksi HIV
+
+2.200.000
+
+2.200.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita HIV yang
+Mendapatkan Pelayanan Sesuai Standar
+
+20
+
+Orang
+
+20
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Betoambari
+
+1.02.02.2.02.0015
+
+Pengelolaan Pelayanan Kesehatan Gizi
+Masyarakat
+
+255.999.000
+
+149.999.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Gizi Masyarakat
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Betoambari
+
+1.02.02.2.02.0017
+
+Pengelolaan Pelayanan Kesehatan Lingkungan
+
+18.260.000
+
+10.340.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Lingkungan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Betoambari
+
+1.02.02.2.02.0020
+
+Pengelolaan Surveilans Kesehatan
+
+26.668.000
+
+18.088.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Surveilans
+Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Betoambari
+
+1.02.02.2.02.0025
+
+Pelayanan Kesehatan Penyakit Menular dan Tidak
+Menular
+
+135.080.000
+
+95.480.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pelayanan Kesehatan
+Penyakit Menular dan Tidak Menular
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Betoambari
+
+1.02.02.2.02.0026
+
+Pengelolaan Jaminan Kesehatan Masyarakat
+
+844.919.000
+
+429.081.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Jaminan
+Kesehatan Masyarakat
+
+8054
+
+Dokumen
+
+8054
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Betoambari
+
+1.02.02.2.02.0033
+
+Operasional Pelayanan Puskesmas
+
+112.743.000
+
+79.420.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan
+Puskesmas
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Betoambari
+
+1.02.02.2.02.0034
+
+Operasional Pelayanan Fasilitas Kesehatan
+Lainnya
+
+9.200.000
+
+9.200.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan Fasilitas
+Kesehatan Lainnya
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Betoambari
+
+1.02.02.2.02.0036
+
+Investigasi Awal Kejadian Tidak Diharapkan
+(Kejadian Ikutan Pasca Imunisasi dan Pemberian
+Obat Massal)
+
+2.640.000
+
+1.320.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Kejadian Ikutan Pasca Imunisasi dan
+Pemberian Obat Massal
+
+24
+
+Kejadian
+
+24
+
+Kejadian
+
+0
+
+Kejadian
+
+0,00
+
+0,00
+
+Kapus.
+Betoambari
+
+1.02.02.2.02.0040
+
+Pengelolaan pelayanan kesehatan orang dengan
+Tuberkulosis
+
+660.000
+
+660.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan Tuberkulosis yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+6
+
+Orang
+
+6
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Betoambari
+
+1.02.02.2.02.0041
+
+Pengelolaan pelayanan kesehatan orang dengan
+HIV (ODHIV)
+
+2.640.000
+
+1.320.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan HIV (ODHIV) yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+24
+
+Orang
+
+24
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Betoambari
+
+10.557.000
+
+Anggaran
+
+Kode
+
+Fisik
+
+Program / Kegiatan / Subkegiatan
+Target Pagu 1
+Tahun (Rp.)
+
+Target Kas s/d
+Bulan ini (Rp.)
+
+Realisasi (Rp.)
+
+Persentase
+Realisasi
+Terhadap
+Target Kas
+Bulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Pagu 1
+Tahun(%)
+
+Indikator
+
+Target Fisik 1 Tahun
+
+Target Fisik s/d Bulan
+ini
+
+Realisasi Fisik
+
+Persentase
+Realisasi
+Terhadap
+Target
+FisikBulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik 1
+Tahun(%)
+
+Penanggung
+Jawab
+(jabatan
+&nama)
+
+1.02.02.2.02.0044
+
+Pengelolaan Pelayanan Kesehatan Reproduksi
+
+12.320.000
+
+8.360.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan kesehatan reproduksi yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+112
+
+Orang
+
+112
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Betoambari
+
+1.02.02.2.02.0046
+
+Pengelolaan upaya kesehatan Ibu dan Anak
+
+88.080.000
+
+63.080.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah dokumen hasil pengelolaan upaya
+kesehatan ibu dan anak
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Betoambari
+
+1.02.02.2.03
+
+Penyelenggaraan Sistem Informasi Kesehatan Secara Terintegrasi
+
+1.02.02.2.03.0002
+
+Pengelolaan Sistem Informasi Kesehatan
+
+6.274.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Sistem
+Informasi Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Betoambari
+
+1.02.0.00.0.00.01.0024
+
+PUSKESMAS BATARAGURU
+
+1.02.02
+
+PROGRAM PEMENUHAN UPAYA KESEHATAN PERORANGAN DAN UPAYA KESEHATAN MASYARAKAT
+
+1.02.02.2.02
+
+Penyediaan Layanan Kesehatan untuk UKM dan UKP Rujukan Tingkat Daerah Kabupaten/Kota
+
+1.02.02.2.02.0001
+
+Pengelolaan Pelayanan Kesehatan Ibu Hamil
+
+8.784.000
+
+2.928.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Ibu Hamil yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+18
+
+Orang
+
+18
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Bataraguru
+
+1.02.02.2.02.0002
+
+Pengelolaan Pelayanan Kesehatan Ibu Bersalin
+
+5.070.000
+
+5.070.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Ibu Bersalin yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+6
+
+Orang
+
+6
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Bataraguru
+
+1.02.02.2.02.0005
+
+Pengelolaan Pelayanan Kesehatan pada Usia
+Pendidikan Dasar
+
+94.380.000
+
+47.190.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Anak Usia Pendidikan Dasar yang
+Mendapatkan Pelayanan Kesehatan Sesuai Standar
+
+858
+
+Orang
+
+858
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Bataraguru
+
+1.02.02.2.02.0011
+
+Pengelolaan Pelayanan Kesehatan Orang Terduga
+Tuberkulosis
+
+5.940.000
+
+3.960.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita Tuberkulosis
+yang Mendapatkan Pelayanan Sesuai Standar
+
+54
+
+Orang
+
+54
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Bataraguru
+
+1.02.02.2.02.0012
+
+Pengelolaan Pelayanan Kesehatan Orang dengan
+Risiko Terinfeksi HIV
+
+1.760.000
+
+880.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita HIV yang
+Mendapatkan Pelayanan Sesuai Standar
+
+16
+
+Orang
+
+16
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Bataraguru
+
+1.02.02.2.02.0015
+
+Pengelolaan Pelayanan Kesehatan Gizi
+Masyarakat
+
+231.274.000
+
+116.567.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Gizi Masyarakat
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Bataraguru
+
+1.02.02.2.02.0017
+
+Pengelolaan Pelayanan Kesehatan Lingkungan
+
+13.640.000
+
+6.820.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Lingkungan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Bataraguru
+
+1.02.02.2.02.0020
+
+Pengelolaan Surveilans Kesehatan
+
+14.090.000
+
+7.045.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Surveilans
+Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Bataraguru
+
+1.02.02.2.02.0025
+
+Pelayanan Kesehatan Penyakit Menular dan Tidak
+Menular
+
+146.520.000
+
+73.260.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pelayanan Kesehatan
+Penyakit Menular dan Tidak Menular
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Bataraguru
+
+1.02.02.2.02.0026
+
+Pengelolaan Jaminan Kesehatan Masyarakat
+
+1.641.584.623
+
+820.809.821
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Jaminan
+Kesehatan Masyarakat
+
+9513
+
+Dokumen
+
+9513
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Bataraguru
+
+1.02.02.2.02.0033
+
+Operasional Pelayanan Puskesmas
+
+108.774.000
+
+54.387.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan
+Puskesmas
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Bataraguru
+
+1.02.02.2.02.0034
+
+Operasional Pelayanan Fasilitas Kesehatan
+Lainnya
+
+9.020.000
+
+4.510.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan Fasilitas
+Kesehatan Lainnya
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Bataraguru
+
+1.02.02.2.02.0036
+
+Investigasi Awal Kejadian Tidak Diharapkan
+(Kejadian Ikutan Pasca Imunisasi dan Pemberian
+Obat Massal)
+
+3.520.000
+
+1.760.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Kejadian Ikutan Pasca Imunisasi dan
+Pemberian Obat Massal
+
+32
+
+Kejadian
+
+32
+
+Kejadian
+
+0
+
+Kejadian
+
+0,00
+
+0,00
+
+Kapus.
+Bataraguru
+
+1.02.02.2.02.0040
+
+Pengelolaan pelayanan kesehatan orang dengan
+Tuberkulosis
+
+1.320.000
+
+660.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan Tuberkulosis yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+12
+
+Orang
+
+12
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Bataraguru
+
+1.02.02.2.02.0041
+
+Pengelolaan pelayanan kesehatan orang dengan
+HIV (ODHIV)
+
+880.000
+
+440.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan HIV (ODHIV) yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+8
+
+Orang
+
+8
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Bataraguru
+
+1.02.02.2.02.0044
+
+Pengelolaan Pelayanan Kesehatan Reproduksi
+
+18.480.000
+
+9.240.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan kesehatan reproduksi yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+168
+
+Orang
+
+168
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Bataraguru
+
+9.274.000
+
+Anggaran
+
+Kode
+
+Fisik
+
+Program / Kegiatan / Subkegiatan
+Target Pagu 1
+Tahun (Rp.)
+
+66.204.000
+
+Persentase
+Realisasi
+Terhadap
+Target Kas
+Bulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Pagu 1
+Tahun(%)
+
+Target Kas s/d
+Bulan ini (Rp.)
+
+Realisasi (Rp.)
+
+31.968.000
+
+0
+
+0,00
+
+0,00
+
+3.184.000
+
+0
+
+0,00
+
+Persentase
+Realisasi
+Terhadap
+Target
+FisikBulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik 1
+Tahun(%)
+
+Penanggung
+Jawab
+(jabatan
+&nama)
+
+Target Fisik 1 Tahun
+
+Target Fisik s/d Bulan
+ini
+
+Jumlah dokumen hasil pengelolaan upaya
+kesehatan ibu dan anak
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Bataraguru
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Sistem
+Informasi Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Bataraguru
+
+Indikator
+
+Realisasi Fisik
+
+1.02.02.2.02.0046
+
+Pengelolaan upaya kesehatan Ibu dan Anak
+
+1.02.02.2.03
+
+Penyelenggaraan Sistem Informasi Kesehatan Secara Terintegrasi
+
+1.02.02.2.03.0002
+
+Pengelolaan Sistem Informasi Kesehatan
+
+1.02.0.00.0.00.01.0025
+
+PUSKESMAS KADOLOMOKO
+
+1.02.02
+
+PROGRAM PEMENUHAN UPAYA KESEHATAN PERORANGAN DAN UPAYA KESEHATAN MASYARAKAT
+
+1.02.02.2.02
+
+Penyediaan Layanan Kesehatan untuk UKM dan UKP Rujukan Tingkat Daerah Kabupaten/Kota
+
+1.02.02.2.02.0001
+
+Pengelolaan Pelayanan Kesehatan Ibu Hamil
+
+10.200.000
+
+5.100.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Ibu Hamil yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+24
+
+Orang
+
+24
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Kadolomoko
+
+1.02.02.2.02.0002
+
+Pengelolaan Pelayanan Kesehatan Ibu Bersalin
+
+4.720.000
+
+4.720.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Ibu Bersalin yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+44
+
+Orang
+
+44
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Kadolomoko
+
+1.02.02.2.02.0005
+
+Pengelolaan Pelayanan Kesehatan pada Usia
+Pendidikan Dasar
+
+69.960.000
+
+33.880.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Anak Usia Pendidikan Dasar yang
+Mendapatkan Pelayanan Kesehatan Sesuai Standar
+
+636
+
+Orang
+
+636
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Kadolomoko
+
+1.02.02.2.02.0011
+
+Pengelolaan Pelayanan Kesehatan Orang Terduga
+Tuberkulosis
+
+9.240.000
+
+4.400.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita Tuberkulosis
+yang Mendapatkan Pelayanan Sesuai Standar
+
+84
+
+Orang
+
+84
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Kadolomoko
+
+1.02.02.2.02.0012
+
+Pengelolaan Pelayanan Kesehatan Orang dengan
+Risiko Terinfeksi HIV
+
+1.760.000
+
+660.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita HIV yang
+Mendapatkan Pelayanan Sesuai Standar
+
+16
+
+Orang
+
+16
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Kadolomoko
+
+1.02.02.2.02.0015
+
+Pengelolaan Pelayanan Kesehatan Gizi
+Masyarakat
+
+241.525.000
+
+145.735.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Gizi Masyarakat
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Kadolomoko
+
+1.02.02.2.02.0017
+
+Pengelolaan Pelayanan Kesehatan Lingkungan
+
+11.550.000
+
+6.490.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Lingkungan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Kadolomoko
+
+1.02.02.2.02.0020
+
+Pengelolaan Surveilans Kesehatan
+
+12.664.000
+
+6.160.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Surveilans
+Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Kadolomoko
+
+1.02.02.2.02.0025
+
+Pelayanan Kesehatan Penyakit Menular dan Tidak
+Menular
+
+137.500.000
+
+63.690.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pelayanan Kesehatan
+Penyakit Menular dan Tidak Menular
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Kadolomoko
+
+1.02.02.2.02.0026
+
+Pengelolaan Jaminan Kesehatan Masyarakat
+
+723.536.000
+
+392.475.800
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Jaminan
+Kesehatan Masyarakat
+
+9513
+
+Dokumen
+
+9513
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Kadolomoko
+
+1.02.02.2.02.0033
+
+Operasional Pelayanan Puskesmas
+
+107.586.000
+
+52.263.750
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan
+Puskesmas
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Kadolomoko
+
+1.02.02.2.02.0034
+
+Operasional Pelayanan Fasilitas Kesehatan
+Lainnya
+
+7.576.000
+
+5.016.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan Fasilitas
+Kesehatan Lainnya
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Kadolomoko
+
+1.02.02.2.02.0036
+
+Investigasi Awal Kejadian Tidak Diharapkan
+(Kejadian Ikutan Pasca Imunisasi dan Pemberian
+Obat Massal)
+
+7.920.000
+
+3.960.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Kejadian Ikutan Pasca Imunisasi dan
+Pemberian Obat Massal
+
+32
+
+Kejadian
+
+32
+
+Kejadian
+
+0
+
+Kejadian
+
+0,00
+
+0,00
+
+Kapus.
+Kadolomoko
+
+1.02.02.2.02.0040
+
+Pengelolaan pelayanan kesehatan orang dengan
+Tuberkulosis
+
+4.400.000
+
+2.200.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan Tuberkulosis yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+40
+
+Orang
+
+40
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Kadolomoko
+
+1.02.02.2.02.0041
+
+Pengelolaan pelayanan kesehatan orang dengan
+HIV (ODHIV)
+
+880.000
+
+440.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan HIV (ODHIV) yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+8
+
+Orang
+
+8
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Kadolomoko
+
+1.02.02.2.02.0044
+
+Pengelolaan Pelayanan Kesehatan Reproduksi
+
+22.880.000
+
+9.680.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan kesehatan reproduksi yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+208
+
+Orang
+
+208
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Kadolomoko
+
+1.02.02.2.02.0046
+
+Pengelolaan upaya kesehatan Ibu dan Anak
+
+70.360.000
+
+33.940.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah dokumen hasil pengelolaan upaya
+kesehatan ibu dan anak
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Kadolomoko
+
+9.184.000
+
+Anggaran
+
+Kode
+
+Fisik
+
+Program / Kegiatan / Subkegiatan
+Target Pagu 1
+Tahun (Rp.)
+
+Target Kas s/d
+Bulan ini (Rp.)
+
+Realisasi (Rp.)
+
+3.000.000
+
+0
+
+Persentase
+Realisasi
+Terhadap
+Target Kas
+Bulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Pagu 1
+Tahun(%)
+
+0,00
+
+0,00
+
+Persentase
+Realisasi
+Terhadap
+Target
+FisikBulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik 1
+Tahun(%)
+
+Penanggung
+Jawab
+(jabatan
+&nama)
+
+Target Fisik 1 Tahun
+
+Target Fisik s/d Bulan
+ini
+
+Jumlah Dokumen Hasil Pengelolaan Sistem
+Informasi Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Kadolomoko
+
+Indikator
+
+Realisasi Fisik
+
+1.02.02.2.03
+
+Penyelenggaraan Sistem Informasi Kesehatan Secara Terintegrasi
+
+1.02.02.2.03.0002
+
+Pengelolaan Sistem Informasi Kesehatan
+
+1.02.0.00.0.00.01.0026
+
+PUSKESMAS WAJO
+
+1.02.02
+
+PROGRAM PEMENUHAN UPAYA KESEHATAN PERORANGAN DAN UPAYA KESEHATAN MASYARAKAT
+
+1.02.02.2.02
+
+Penyediaan Layanan Kesehatan untuk UKM dan UKP Rujukan Tingkat Daerah Kabupaten/Kota
+
+1.02.02.2.02.0001
+
+Pengelolaan Pelayanan Kesehatan Ibu Hamil
+
+20.400.000
+
+10.200.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Ibu Hamil yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+48
+
+Orang
+
+48
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Wajo
+
+1.02.02.2.02.0005
+
+Pengelolaan Pelayanan Kesehatan pada Usia
+Pendidikan Dasar
+
+103.620.000
+
+51.810.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Anak Usia Pendidikan Dasar yang
+Mendapatkan Pelayanan Kesehatan Sesuai Standar
+
+942
+
+Orang
+
+942
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Wajo
+
+1.02.02.2.02.0011
+
+Pengelolaan Pelayanan Kesehatan Orang Terduga
+Tuberkulosis
+
+7.920.000
+
+2.640.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita Tuberkulosis
+yang Mendapatkan Pelayanan Sesuai Standar
+
+72
+
+Orang
+
+72
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Wajo
+
+1.02.02.2.02.0012
+
+Pengelolaan Pelayanan Kesehatan Orang dengan
+Risiko Terinfeksi HIV
+
+990.000
+
+0
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita HIV yang
+Mendapatkan Pelayanan Sesuai Standar
+
+6
+
+Orang
+
+6
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Wajo
+
+1.02.02.2.02.0015
+
+Pengelolaan Pelayanan Kesehatan Gizi
+Masyarakat
+
+283.140.000
+
+142.011.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Gizi Masyarakat
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Wajo
+
+1.02.02.2.02.0017
+
+Pengelolaan Pelayanan Kesehatan Lingkungan
+
+15.400.000
+
+7.700.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Lingkungan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Wajo
+
+1.02.02.2.02.0020
+
+Pengelolaan Surveilans Kesehatan
+
+26.840.000
+
+13.420.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Surveilans
+Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Wajo
+
+1.02.02.2.02.0025
+
+Pelayanan Kesehatan Penyakit Menular dan Tidak
+Menular
+
+154.330.000
+
+77.165.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pelayanan Kesehatan
+Penyakit Menular dan Tidak Menular
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Wajo
+
+1.02.02.2.02.0026
+
+Pengelolaan Jaminan Kesehatan Masyarakat
+
+2.626.698.567
+
+1.291.148.973
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Jaminan
+Kesehatan Masyarakat
+
+20443
+
+Dokumen
+
+20443
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Wajo
+
+1.02.02.2.02.0033
+
+Operasional Pelayanan Puskesmas
+
+126.848.000
+
+62.299.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan
+Puskesmas
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Wajo
+
+1.02.02.2.02.0034
+
+Operasional Pelayanan Fasilitas Kesehatan
+Lainnya
+
+10.190.000
+
+5.095.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan Fasilitas
+Kesehatan Lainnya
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Wajo
+
+1.02.02.2.02.0040
+
+Pengelolaan pelayanan kesehatan orang dengan
+Tuberkulosis
+
+4.620.000
+
+2.310.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan Tuberkulosis yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+42
+
+Orang
+
+42
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Wajo
+
+1.02.02.2.02.0041
+
+Pengelolaan pelayanan kesehatan orang dengan
+HIV (ODHIV)
+
+3.960.000
+
+1.980.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan HIV (ODHIV) yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+36
+
+Orang
+
+36
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Wajo
+
+1.02.02.2.02.0046
+
+Pengelolaan upaya kesehatan Ibu dan Anak
+
+85.300.000
+
+42.650.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah dokumen hasil pengelolaan upaya
+kesehatan ibu dan anak
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Wajo
+
+1.02.02.2.03
+
+Penyelenggaraan Sistem Informasi Kesehatan Secara Terintegrasi
+
+1.02.02.2.03.0002
+
+Pengelolaan Sistem Informasi Kesehatan
+
+2.000.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Sistem
+Informasi Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Wajo
+
+1.02.0.00.0.00.01.0027
+
+PUSKESMAS WOLIO
+
+1.02.02
+
+PROGRAM PEMENUHAN UPAYA KESEHATAN PERORANGAN DAN UPAYA KESEHATAN MASYARAKAT
+
+1.02.02.2.02
+
+Penyediaan Layanan Kesehatan untuk UKM dan UKP Rujukan Tingkat Daerah Kabupaten/Kota
+
+10.588.000
+
+9.251.000
+
+Anggaran
+
+Kode
+
+Fisik
+
+Program / Kegiatan / Subkegiatan
+Target Pagu 1
+Tahun (Rp.)
+
+Target Kas s/d
+Bulan ini (Rp.)
+
+Realisasi (Rp.)
+
+Persentase
+Realisasi
+Terhadap
+Target Kas
+Bulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Pagu 1
+Tahun(%)
+
+Indikator
+
+Target Fisik 1 Tahun
+
+Target Fisik s/d Bulan
+ini
+
+Realisasi Fisik
+
+Persentase
+Realisasi
+Terhadap
+Target
+FisikBulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik 1
+Tahun(%)
+
+Penanggung
+Jawab
+(jabatan
+&nama)
+
+1.02.02.2.02.0001
+
+Pengelolaan Pelayanan Kesehatan Ibu Hamil
+
+6.720.000
+
+3.360.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Ibu Hamil yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+48
+
+Orang
+
+48
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Wolio
+
+1.02.02.2.02.0005
+
+Pengelolaan Pelayanan Kesehatan pada Usia
+Pendidikan Dasar
+
+62.150.000
+
+57.750.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Anak Usia Pendidikan Dasar yang
+Mendapatkan Pelayanan Kesehatan Sesuai Standar
+
+942
+
+Orang
+
+942
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Wolio
+
+1.02.02.2.02.0011
+
+Pengelolaan Pelayanan Kesehatan Orang Terduga
+Tuberkulosis
+
+10.560.000
+
+7.040.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita Tuberkulosis
+yang Mendapatkan Pelayanan Sesuai Standar
+
+72
+
+Orang
+
+72
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Wolio
+
+1.02.02.2.02.0012
+
+Pengelolaan Pelayanan Kesehatan Orang dengan
+Risiko Terinfeksi HIV
+
+4.400.000
+
+3.520.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita HIV yang
+Mendapatkan Pelayanan Sesuai Standar
+
+6
+
+Orang
+
+6
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Wolio
+
+1.02.02.2.02.0015
+
+Pengelolaan Pelayanan Kesehatan Gizi
+Masyarakat
+
+226.661.000
+
+129.720.500
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Gizi Masyarakat
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Wolio
+
+1.02.02.2.02.0017
+
+Pengelolaan Pelayanan Kesehatan Lingkungan
+
+10.560.000
+
+5.280.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Lingkungan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Wolio
+
+1.02.02.2.02.0020
+
+Pengelolaan Surveilans Kesehatan
+
+6.490.000
+
+5.060.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Surveilans
+Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Wolio
+
+1.02.02.2.02.0025
+
+Pelayanan Kesehatan Penyakit Menular dan Tidak
+Menular
+
+126.170.000
+
+86.348.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pelayanan Kesehatan
+Penyakit Menular dan Tidak Menular
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Wolio
+
+1.02.02.2.02.0026
+
+Pengelolaan Jaminan Kesehatan Masyarakat
+
+847.063.900
+
+460.314.500
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Jaminan
+Kesehatan Masyarakat
+
+1234
+
+Dokumen
+
+1234
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Wolio
+
+1.02.02.2.02.0033
+
+Operasional Pelayanan Puskesmas
+
+101.019.000
+
+53.556.100
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan
+Puskesmas
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Wolio
+
+1.02.02.2.02.0034
+
+Operasional Pelayanan Fasilitas Kesehatan
+Lainnya
+
+8.660.000
+
+8.660.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan Fasilitas
+Kesehatan Lainnya
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Wolio
+
+1.02.02.2.02.0036
+
+Investigasi Awal Kejadian Tidak Diharapkan
+(Kejadian Ikutan Pasca Imunisasi dan Pemberian
+Obat Massal)
+
+3.960.000
+
+2.200.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Kejadian Ikutan Pasca Imunisasi dan
+Pemberian Obat Massal
+
+36
+
+Kejadian
+
+36
+
+Kejadian
+
+0
+
+Kejadian
+
+0,00
+
+0,00
+
+Kapus.
+Wolio
+
+1.02.02.2.02.0040
+
+Pengelolaan pelayanan kesehatan orang dengan
+Tuberkulosis
+
+5.280.000
+
+2.640.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan Tuberkulosis yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+48
+
+Orang
+
+48
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Wolio
+
+1.02.02.2.02.0041
+
+Pengelolaan pelayanan kesehatan orang dengan
+HIV (ODHIV)
+
+5.280.000
+
+2.640.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan HIV (ODHIV) yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+48
+
+Orang
+
+48
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Wolio
+
+1.02.02.2.02.0044
+
+Pengelolaan Pelayanan Kesehatan Reproduksi
+
+18.480.000
+
+10.560.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan kesehatan reproduksi yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+168
+
+Orang
+
+168
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Wolio
+
+1.02.02.2.02.0046
+
+Pengelolaan upaya kesehatan Ibu dan Anak
+
+84.600.000
+
+61.770.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah dokumen hasil pengelolaan upaya
+kesehatan ibu dan anak
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Wolio
+
+1.02.02.2.03
+
+Penyelenggaraan Sistem Informasi Kesehatan Secara Terintegrasi
+
+1.02.02.2.03.0002
+
+Pengelolaan Sistem Informasi Kesehatan
+
+6.142.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Sistem
+Informasi Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Wolio
+
+1.02.05
+
+PROGRAM PEMBERDAYAAN MASYARAKAT BIDANG KESEHATAN
+
+1.02.05.2.03
+
+Pengembangan dan Pelaksanaan Upaya Kesehatan Bersumber Daya Masyarakat (UKBM) Tingkat Daerah Kabupaten/Kota
+
+1.02.05.2.03.0001
+
+Bimbingan Teknis dan Supervisi Pengembangan
+dan Pelaksanaan Upaya Kesehatan Bersumber
+Daya Masyarakat (UKBM)
+
+0,00
+
+Jumlah Dokumen Hasil Bimbingan Teknis dan
+Supervisi Upaya Kesehatan Bersumber Daya
+Masyarakat (UKBM)
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Wolio
+
+1.02.0.00.0.00.01.0028
+
+PUSKESMAS SORAWOLIO
+
+1.02.02
+
+PROGRAM PEMENUHAN UPAYA KESEHATAN PERORANGAN DAN UPAYA KESEHATAN MASYARAKAT
+
+9.142.000
+
+400.000
+
+400.000
+
+0
+
+0,00
+
+Anggaran
+
+Kode
+
+Fisik
+
+Program / Kegiatan / Subkegiatan
+Target Pagu 1
+Tahun (Rp.)
+
+Target Kas s/d
+Bulan ini (Rp.)
+
+Realisasi (Rp.)
+
+Persentase
+Realisasi
+Terhadap
+Target Kas
+Bulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Pagu 1
+Tahun(%)
+
+Indikator
+
+Target Fisik 1 Tahun
+
+Target Fisik s/d Bulan
+ini
+
+Realisasi Fisik
+
+Persentase
+Realisasi
+Terhadap
+Target
+FisikBulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik 1
+Tahun(%)
+
+Penanggung
+Jawab
+(jabatan
+&nama)
+
+1.02.02.2.02
+
+Penyediaan Layanan Kesehatan untuk UKM dan UKP Rujukan Tingkat Daerah Kabupaten/Kota
+
+1.02.02.2.02.0001
+
+Pengelolaan Pelayanan Kesehatan Ibu Hamil
+
+8.960.000
+
+4.480.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Ibu Hamil yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+32
+
+Orang
+
+32
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Sorawolio
+
+1.02.02.2.02.0002
+
+Pengelolaan Pelayanan Kesehatan Ibu Bersalin
+
+11.320.000
+
+5.660.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Ibu Bersalin yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+90
+
+Orang
+
+90
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Sorawolio
+
+1.02.02.2.02.0005
+
+Pengelolaan Pelayanan Kesehatan pada Usia
+Pendidikan Dasar
+
+54.120.000
+
+27.720.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Anak Usia Pendidikan Dasar yang
+Mendapatkan Pelayanan Kesehatan Sesuai Standar
+
+492
+
+Orang
+
+492
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Sorawolio
+
+1.02.02.2.02.0011
+
+Pengelolaan Pelayanan Kesehatan Orang Terduga
+Tuberkulosis
+
+20.240.000
+
+20.240.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita Tuberkulosis
+yang Mendapatkan Pelayanan Sesuai Standar
+
+184
+
+Orang
+
+184
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Sorawolio
+
+1.02.02.2.02.0012
+
+Pengelolaan Pelayanan Kesehatan Orang dengan
+Risiko Terinfeksi HIV
+
+8.800.000
+
+8.800.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita HIV yang
+Mendapatkan Pelayanan Sesuai Standar
+
+80
+
+Orang
+
+80
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Sorawolio
+
+1.02.02.2.02.0015
+
+Pengelolaan Pelayanan Kesehatan Gizi
+Masyarakat
+
+254.406.000
+
+254.406.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Gizi Masyarakat
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Sorawolio
+
+1.02.02.2.02.0017
+
+Pengelolaan Pelayanan Kesehatan Lingkungan
+
+2.200.000
+
+2.200.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Lingkungan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Sorawolio
+
+1.02.02.2.02.0020
+
+Pengelolaan Surveilans Kesehatan
+
+11.126.000
+
+11.126.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Surveilans
+Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Sorawolio
+
+1.02.02.2.02.0025
+
+Pelayanan Kesehatan Penyakit Menular dan Tidak
+Menular
+
+154.330.000
+
+92.598.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pelayanan Kesehatan
+Penyakit Menular dan Tidak Menular
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Sorawolio
+
+1.02.02.2.02.0026
+
+Pengelolaan Jaminan Kesehatan Masyarakat
+
+1.039.109.000
+
+482.459.800
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Jaminan
+Kesehatan Masyarakat
+
+7760
+
+Dokumen
+
+7760
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Sorawolio
+
+1.02.02.2.02.0033
+
+Operasional Pelayanan Puskesmas
+
+119.414.000
+
+103.986.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan
+Puskesmas
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Sorawolio
+
+1.02.02.2.02.0036
+
+Investigasi Awal Kejadian Tidak Diharapkan
+(Kejadian Ikutan Pasca Imunisasi dan Pemberian
+Obat Massal)
+
+2.640.000
+
+2.640.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Kejadian Ikutan Pasca Imunisasi dan
+Pemberian Obat Massal
+
+24
+
+Kejadian
+
+24
+
+Kejadian
+
+0
+
+Kejadian
+
+0,00
+
+0,00
+
+Kapus.
+Sorawolio
+
+1.02.02.2.02.0040
+
+Pengelolaan pelayanan kesehatan orang dengan
+Tuberkulosis
+
+10.560.000
+
+10.560.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan Tuberkulosis yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+96
+
+Orang
+
+96
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Sorawolio
+
+1.02.02.2.02.0044
+
+Pengelolaan Pelayanan Kesehatan Reproduksi
+
+37.620.000
+
+15.840.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan kesehatan reproduksi yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+342
+
+Orang
+
+342
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Sorawolio
+
+1.02.02.2.02.0046
+
+Pengelolaan upaya kesehatan Ibu dan Anak
+
+90.880.000
+
+53.888.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah dokumen hasil pengelolaan upaya
+kesehatan ibu dan anak
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Sorawolio
+
+1.02.02.2.03
+
+Penyelenggaraan Sistem Informasi Kesehatan Secara Terintegrasi
+
+1.02.02.2.03.0002
+
+Pengelolaan Sistem Informasi Kesehatan
+
+3.083.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Sistem
+Informasi Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Sorawolio
+
+1.02.0.00.0.00.01.0029
+
+PUSKESMAS LOWU-LOWU
+
+1.02.02
+
+PROGRAM PEMENUHAN UPAYA KESEHATAN PERORANGAN DAN UPAYA KESEHATAN MASYARAKAT
+
+1.02.02.2.02
+
+Penyediaan Layanan Kesehatan untuk UKM dan UKP Rujukan Tingkat Daerah Kabupaten/Kota
+
+1.02.02.2.02.0001
+
+Pengelolaan Pelayanan Kesehatan Ibu Hamil
+
+0,00
+
+0,00
+
+Jumlah Ibu Hamil yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+60
+
+Orang
+
+60
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+LowuLowu
+
+9.083.000
+
+28.020.000
+
+18.680.000
+
+0
+
+Anggaran
+
+Kode
+
+Fisik
+
+Program / Kegiatan / Subkegiatan
+Target Pagu 1
+Tahun (Rp.)
+
+Target Kas s/d
+Bulan ini (Rp.)
+
+Realisasi (Rp.)
+
+Persentase
+Realisasi
+Terhadap
+Target Kas
+Bulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Pagu 1
+Tahun(%)
+
+Indikator
+
+Target Fisik 1 Tahun
+
+Target Fisik s/d Bulan
+ini
+
+Realisasi Fisik
+
+Persentase
+Realisasi
+Terhadap
+Target
+FisikBulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik 1
+Tahun(%)
+
+Penanggung
+Jawab
+(jabatan
+&nama)
+
+1.02.02.2.02.0002
+
+Pengelolaan Pelayanan Kesehatan Ibu Bersalin
+
+10.630.000
+
+4.340.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Ibu Bersalin yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+8
+
+Orang
+
+8
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+LowuLowu
+
+1.02.02.2.02.0005
+
+Pengelolaan Pelayanan Kesehatan pada Usia
+Pendidikan Dasar
+
+56.100.000
+
+20.020.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Anak Usia Pendidikan Dasar yang
+Mendapatkan Pelayanan Kesehatan Sesuai Standar
+
+510
+
+Orang
+
+510
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+LowuLowu
+
+1.02.02.2.02.0011
+
+Pengelolaan Pelayanan Kesehatan Orang Terduga
+Tuberkulosis
+
+4.840.000
+
+1.980.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita Tuberkulosis
+yang Mendapatkan Pelayanan Sesuai Standar
+
+44
+
+Orang
+
+44
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+LowuLowu
+
+1.02.02.2.02.0015
+
+Pengelolaan Pelayanan Kesehatan Gizi
+Masyarakat
+
+208.816.000
+
+87.472.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Gizi Masyarakat
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+LowuLowu
+
+1.02.02.2.02.0017
+
+Pengelolaan Pelayanan Kesehatan Lingkungan
+
+5.500.000
+
+2.420.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Lingkungan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+LowuLowu
+
+1.02.02.2.02.0020
+
+Pengelolaan Surveilans Kesehatan
+
+3.030.000
+
+1.490.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Surveilans
+Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+LowuLowu
+
+1.02.02.2.02.0025
+
+Pelayanan Kesehatan Penyakit Menular dan Tidak
+Menular
+
+163.350.000
+
+76.560.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pelayanan Kesehatan
+Penyakit Menular dan Tidak Menular
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+LowuLowu
+
+1.02.02.2.02.0026
+
+Pengelolaan Jaminan Kesehatan Masyarakat
+
+769.166.000
+
+386.963.100
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Jaminan
+Kesehatan Masyarakat
+
+7638
+
+Dokumen
+
+7638
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+LowuLowu
+
+1.02.02.2.02.0033
+
+Operasional Pelayanan Puskesmas
+
+108.716.000
+
+53.148.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan
+Puskesmas
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+LowuLowu
+
+1.02.02.2.02.0036
+
+Investigasi Awal Kejadian Tidak Diharapkan
+(Kejadian Ikutan Pasca Imunisasi dan Pemberian
+Obat Massal)
+
+550.000
+
+220.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Kejadian Ikutan Pasca Imunisasi dan
+Pemberian Obat Massal
+
+5
+
+Kejadian
+
+5
+
+Kejadian
+
+0
+
+Kejadian
+
+0,00
+
+0,00
+
+Kapus.
+LowuLowu
+
+1.02.02.2.02.0040
+
+Pengelolaan pelayanan kesehatan orang dengan
+Tuberkulosis
+
+7.040.000
+
+3.520.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan Tuberkulosis yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+64
+
+Orang
+
+64
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+LowuLowu
+
+1.02.02.2.02.0041
+
+Pengelolaan pelayanan kesehatan orang dengan
+HIV (ODHIV)
+
+440.000
+
+440.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan HIV (ODHIV) yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+4
+
+Orang
+
+4
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+LowuLowu
+
+1.02.02.2.02.0046
+
+Pengelolaan upaya kesehatan Ibu dan Anak
+
+123.500.000
+
+50.820.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah dokumen hasil pengelolaan upaya
+kesehatan ibu dan anak
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+LowuLowu
+
+1.02.02.2.03
+
+Penyelenggaraan Sistem Informasi Kesehatan Secara Terintegrasi
+
+1.02.02.2.03.0002
+
+Pengelolaan Sistem Informasi Kesehatan
+
+3.216.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Sistem
+Informasi Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+LowuLowu
+
+1.02.0.00.0.00.01.0030
+
+PUSKESMAS KATOBENGKE
+
+1.02.02
+
+PROGRAM PEMENUHAN UPAYA KESEHATAN PERORANGAN DAN UPAYA KESEHATAN MASYARAKAT
+
+1.02.02.2.02
+
+Penyediaan Layanan Kesehatan untuk UKM dan UKP Rujukan Tingkat Daerah Kabupaten/Kota
+
+1.02.02.2.02.0001
+
+Pengelolaan Pelayanan Kesehatan Ibu Hamil
+
+0,00
+
+0,00
+
+Jumlah Ibu Hamil yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+48
+
+Orang
+
+48
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Katobengke
+
+9.216.000
+
+19.392.000
+
+12.928.000
+
+0
+
+Anggaran
+
+Kode
+
+Fisik
+
+Program / Kegiatan / Subkegiatan
+Target Pagu 1
+Tahun (Rp.)
+
+Target Kas s/d
+Bulan ini (Rp.)
+
+Realisasi (Rp.)
+
+Persentase
+Realisasi
+Terhadap
+Target Kas
+Bulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Pagu 1
+Tahun(%)
+
+Indikator
+
+Target Fisik 1 Tahun
+
+Target Fisik s/d Bulan
+ini
+
+Realisasi Fisik
+
+Persentase
+Realisasi
+Terhadap
+Target
+FisikBulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik 1
+Tahun(%)
+
+Penanggung
+Jawab
+(jabatan
+&nama)
+
+1.02.02.2.02.0005
+
+Pengelolaan Pelayanan Kesehatan pada Usia
+Pendidikan Dasar
+
+92.070.000
+
+47.685.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Anak Usia Pendidikan Dasar yang
+Mendapatkan Pelayanan Kesehatan Sesuai Standar
+
+1209
+
+Orang
+
+1209
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Katobengke
+
+1.02.02.2.02.0011
+
+Pengelolaan Pelayanan Kesehatan Orang Terduga
+Tuberkulosis
+
+6.600.000
+
+4.400.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita Tuberkulosis
+yang Mendapatkan Pelayanan Sesuai Standar
+
+60
+
+Orang
+
+60
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Katobengke
+
+1.02.02.2.02.0012
+
+Pengelolaan Pelayanan Kesehatan Orang dengan
+Risiko Terinfeksi HIV
+
+6.600.000
+
+6.600.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita HIV yang
+Mendapatkan Pelayanan Sesuai Standar
+
+60
+
+Orang
+
+60
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Katobengke
+
+1.02.02.2.02.0015
+
+Pengelolaan Pelayanan Kesehatan Gizi
+Masyarakat
+
+245.469.000
+
+123.669.500
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Gizi Masyarakat
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Katobengke
+
+1.02.02.2.02.0017
+
+Pengelolaan Pelayanan Kesehatan Lingkungan
+
+19.360.000
+
+9.680.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Lingkungan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Katobengke
+
+1.02.02.2.02.0020
+
+Pengelolaan Surveilans Kesehatan
+
+42.624.000
+
+22.824.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Surveilans
+Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Katobengke
+
+1.02.02.2.02.0025
+
+Pelayanan Kesehatan Penyakit Menular dan Tidak
+Menular
+
+114.400.000
+
+57.280.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pelayanan Kesehatan
+Penyakit Menular dan Tidak Menular
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Katobengke
+
+1.02.02.2.02.0026
+
+Pengelolaan Jaminan Kesehatan Masyarakat
+
+1.111.765.173
+
+574.058.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Jaminan
+Kesehatan Masyarakat
+
+1234
+
+Dokumen
+
+1234
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Katobengke
+
+1.02.02.2.02.0033
+
+Operasional Pelayanan Puskesmas
+
+116.841.000
+
+75.308.700
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan
+Puskesmas
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Katobengke
+
+1.02.02.2.02.0034
+
+Operasional Pelayanan Fasilitas Kesehatan
+Lainnya
+
+7.970.000
+
+4.050.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan Fasilitas
+Kesehatan Lainnya
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Katobengke
+
+1.02.02.2.02.0036
+
+Investigasi Awal Kejadian Tidak Diharapkan
+(Kejadian Ikutan Pasca Imunisasi dan Pemberian
+Obat Massal)
+
+4.400.000
+
+2.200.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Kejadian Ikutan Pasca Imunisasi dan
+Pemberian Obat Massal
+
+40
+
+Kejadian
+
+40
+
+Kejadian
+
+0
+
+Kejadian
+
+0,00
+
+0,00
+
+Kapus.
+Katobengke
+
+1.02.02.2.02.0040
+
+Pengelolaan pelayanan kesehatan orang dengan
+Tuberkulosis
+
+8.470.000
+
+6.640.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan Tuberkulosis yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+77
+
+Orang
+
+77
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Katobengke
+
+1.02.02.2.02.0041
+
+Pengelolaan pelayanan kesehatan orang dengan
+HIV (ODHIV)
+
+660.000
+
+660.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan HIV (ODHIV) yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+6
+
+Orang
+
+6
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Katobengke
+
+1.02.02.2.02.0044
+
+Pengelolaan Pelayanan Kesehatan Reproduksi
+
+15.840.000
+
+7.920.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan kesehatan reproduksi yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+144
+
+Orang
+
+144
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Katobengke
+
+1.02.02.2.02.0046
+
+Pengelolaan upaya kesehatan Ibu dan Anak
+
+77.980.000
+
+38.990.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah dokumen hasil pengelolaan upaya
+kesehatan ibu dan anak
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Katobengke
+
+1.02.02.2.03
+
+Penyelenggaraan Sistem Informasi Kesehatan Secara Terintegrasi
+
+1.02.02.2.03.0002
+
+Pengelolaan Sistem Informasi Kesehatan
+
+4.246.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Sistem
+Informasi Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Katobengke
+
+1.02.0.00.0.00.01.0031
+
+PUSKESMAS KAMPEONAHO
+
+1.02.02
+
+PROGRAM PEMENUHAN UPAYA KESEHATAN PERORANGAN DAN UPAYA KESEHATAN MASYARAKAT
+
+1.02.02.2.02
+
+Penyediaan Layanan Kesehatan untuk UKM dan UKP Rujukan Tingkat Daerah Kabupaten/Kota
+
+1.02.02.2.02.0001
+
+Pengelolaan Pelayanan Kesehatan Ibu Hamil
+
+6.880.000
+
+3.440.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Ibu Hamil yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+16
+
+Orang
+
+16
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Kampeonaho
+
+1.02.02.2.02.0002
+
+Pengelolaan Pelayanan Kesehatan Ibu Bersalin
+
+200.000
+
+0
+
+0
+
+0,00
+
+0,00
+
+Jumlah Ibu Bersalin yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+4
+
+Orang
+
+4
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Kampeonaho
+
+1.02.02.2.02.0005
+
+Pengelolaan Pelayanan Kesehatan pada Usia
+Pendidikan Dasar
+
+69.300.000
+
+29.700.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Anak Usia Pendidikan Dasar yang
+Mendapatkan Pelayanan Kesehatan Sesuai Standar
+
+630
+
+Orang
+
+630
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Kampeonaho
+
+10.246.000
+
+Anggaran
+
+Kode
+
+Fisik
+
+Program / Kegiatan / Subkegiatan
+Target Pagu 1
+Tahun (Rp.)
+
+Target Kas s/d
+Bulan ini (Rp.)
+
+Realisasi (Rp.)
+
+Persentase
+Realisasi
+Terhadap
+Target Kas
+Bulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Pagu 1
+Tahun(%)
+
+Indikator
+
+Target Fisik 1 Tahun
+
+Target Fisik s/d Bulan
+ini
+
+Realisasi Fisik
+
+Persentase
+Realisasi
+Terhadap
+Target
+FisikBulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik 1
+Tahun(%)
+
+Penanggung
+Jawab
+(jabatan
+&nama)
+
+1.02.02.2.02.0011
+
+Pengelolaan Pelayanan Kesehatan Orang Terduga
+Tuberkulosis
+
+14.520.000
+
+7.920.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita Tuberkulosis
+yang Mendapatkan Pelayanan Sesuai Standar
+
+132
+
+Orang
+
+132
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Kampeonaho
+
+1.02.02.2.02.0015
+
+Pengelolaan Pelayanan Kesehatan Gizi
+Masyarakat
+
+230.114.000
+
+52.354.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Gizi Masyarakat
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Kampeonaho
+
+1.02.02.2.02.0017
+
+Pengelolaan Pelayanan Kesehatan Lingkungan
+
+10.120.000
+
+4.400.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Lingkungan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Kampeonaho
+
+1.02.02.2.02.0020
+
+Pengelolaan Surveilans Kesehatan
+
+15.290.000
+
+6.820.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Surveilans
+Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Kampeonaho
+
+1.02.02.2.02.0025
+
+Pelayanan Kesehatan Penyakit Menular dan Tidak
+Menular
+
+119.240.000
+
+56.100.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pelayanan Kesehatan
+Penyakit Menular dan Tidak Menular
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Kampeonaho
+
+1.02.02.2.02.0026
+
+Pengelolaan Jaminan Kesehatan Masyarakat
+
+281.811.000
+
+126.875.504
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Jaminan
+Kesehatan Masyarakat
+
+2700
+
+Dokumen
+
+2700
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Kampeonaho
+
+1.02.02.2.02.0033
+
+Operasional Pelayanan Puskesmas
+
+102.851.000
+
+51.650.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan
+Puskesmas
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Kampeonaho
+
+1.02.02.2.02.0036
+
+Investigasi Awal Kejadian Tidak Diharapkan
+(Kejadian Ikutan Pasca Imunisasi dan Pemberian
+Obat Massal)
+
+7.920.000
+
+2.640.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Kejadian Ikutan Pasca Imunisasi dan
+Pemberian Obat Massal
+
+72
+
+Kejadian
+
+72
+
+Kejadian
+
+0
+
+Kejadian
+
+0,00
+
+0,00
+
+Kapus.
+Kampeonaho
+
+1.02.02.2.02.0040
+
+Pengelolaan pelayanan kesehatan orang dengan
+Tuberkulosis
+
+8.800.000
+
+4.400.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan Tuberkulosis yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+80
+
+Orang
+
+80
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Kampeonaho
+
+1.02.02.2.02.0044
+
+Pengelolaan Pelayanan Kesehatan Reproduksi
+
+9.240.000
+
+4.620.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan kesehatan reproduksi yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+84
+
+Orang
+
+84
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Kampeonaho
+
+1.02.02.2.02.0046
+
+Pengelolaan upaya kesehatan Ibu dan Anak
+
+89.580.000
+
+41.710.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah dokumen hasil pengelolaan upaya
+kesehatan ibu dan anak
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Kampeonaho
+
+1.02.02.2.03
+
+Penyelenggaraan Sistem Informasi Kesehatan Secara Terintegrasi
+
+1.02.02.2.03.0002
+
+Pengelolaan Sistem Informasi Kesehatan
+
+3.000.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Sistem
+Informasi Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Kampeonaho
+
+1.02.0.00.0.00.01.0032
+
+PUSKESMAS LIWUTO
+
+1.02.02
+
+PROGRAM PEMENUHAN UPAYA KESEHATAN PERORANGAN DAN UPAYA KESEHATAN MASYARAKAT
+
+1.02.02.2.02
+
+Penyediaan Layanan Kesehatan untuk UKM dan UKP Rujukan Tingkat Daerah Kabupaten/Kota
+
+1.02.02.2.02.0001
+
+Pengelolaan Pelayanan Kesehatan Ibu Hamil
+
+7.472.000
+
+3.736.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Ibu Hamil yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+16
+
+Orang
+
+16
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Liwuto
+
+1.02.02.2.02.0002
+
+Pengelolaan Pelayanan Kesehatan Ibu Bersalin
+
+2.910.000
+
+200.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Ibu Bersalin yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+25
+
+Orang
+
+25
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Liwuto
+
+1.02.02.2.02.0005
+
+Pengelolaan Pelayanan Kesehatan pada Usia
+Pendidikan Dasar
+
+96.140.000
+
+49.060.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Anak Usia Pendidikan Dasar yang
+Mendapatkan Pelayanan Kesehatan Sesuai Standar
+
+874
+
+Orang
+
+874
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Liwuto
+
+1.02.02.2.02.0011
+
+Pengelolaan Pelayanan Kesehatan Orang Terduga
+Tuberkulosis
+
+7.920.000
+
+4.400.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita Tuberkulosis
+yang Mendapatkan Pelayanan Sesuai Standar
+
+72
+
+Orang
+
+72
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Liwuto
+
+1.02.02.2.02.0015
+
+Pengelolaan Pelayanan Kesehatan Gizi
+Masyarakat
+
+202.278.000
+
+102.810.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Gizi Masyarakat
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Liwuto
+
+1.02.02.2.02.0017
+
+Pengelolaan Pelayanan Kesehatan Lingkungan
+
+11.660.000
+
+5.830.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Lingkungan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Liwuto
+
+1.02.02.2.02.0020
+
+Pengelolaan Surveilans Kesehatan
+
+25.800.000
+
+12.790.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Surveilans
+Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Liwuto
+
+9.180.000
+
+Anggaran
+
+Kode
+
+Fisik
+
+Program / Kegiatan / Subkegiatan
+Target Pagu 1
+Tahun (Rp.)
+
+Target Kas s/d
+Bulan ini (Rp.)
+
+Realisasi (Rp.)
+
+Persentase
+Realisasi
+Terhadap
+Target Kas
+Bulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Pagu 1
+Tahun(%)
+
+Indikator
+
+Target Fisik 1 Tahun
+
+Target Fisik s/d Bulan
+ini
+
+Realisasi Fisik
+
+Persentase
+Realisasi
+Terhadap
+Target
+FisikBulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik 1
+Tahun(%)
+
+Penanggung
+Jawab
+(jabatan
+&nama)
+
+1.02.02.2.02.0025
+
+Pelayanan Kesehatan Penyakit Menular dan Tidak
+Menular
+
+110.000.000
+
+49.280.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pelayanan Kesehatan
+Penyakit Menular dan Tidak Menular
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Liwuto
+
+1.02.02.2.02.0026
+
+Pengelolaan Jaminan Kesehatan Masyarakat
+
+643.743.100
+
+356.416.300
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Jaminan
+Kesehatan Masyarakat
+
+4820
+
+Dokumen
+
+4820
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Liwuto
+
+1.02.02.2.02.0033
+
+Operasional Pelayanan Puskesmas
+
+93.060.000
+
+44.639.600
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan
+Puskesmas
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Liwuto
+
+1.02.02.2.02.0036
+
+Investigasi Awal Kejadian Tidak Diharapkan
+(Kejadian Ikutan Pasca Imunisasi dan Pemberian
+Obat Massal)
+
+7.480.000
+
+3.300.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Kejadian Ikutan Pasca Imunisasi dan
+Pemberian Obat Massal
+
+68
+
+Kejadian
+
+68
+
+Kejadian
+
+0
+
+Kejadian
+
+0,00
+
+0,00
+
+Kapus.
+Liwuto
+
+1.02.02.2.02.0040
+
+Pengelolaan pelayanan kesehatan orang dengan
+Tuberkulosis
+
+4.400.000
+
+1.760.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan Tuberkulosis yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+40
+
+Orang
+
+40
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Liwuto
+
+1.02.02.2.02.0041
+
+Pengelolaan pelayanan kesehatan orang dengan
+HIV (ODHIV)
+
+440.000
+
+220.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan HIV (ODHIV) yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+4
+
+Orang
+
+4
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Liwuto
+
+1.02.02.2.02.0044
+
+Pengelolaan Pelayanan Kesehatan Reproduksi
+
+17.820.000
+
+8.910.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan kesehatan reproduksi yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+162
+
+Orang
+
+162
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Liwuto
+
+1.02.02.2.02.0046
+
+Pengelolaan upaya kesehatan Ibu dan Anak
+
+35.852.000
+
+14.960.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah dokumen hasil pengelolaan upaya
+kesehatan ibu dan anak
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Liwuto
+
+1.02.02.2.03
+
+Penyelenggaraan Sistem Informasi Kesehatan Secara Terintegrasi
+
+1.02.02.2.03.0002
+
+Pengelolaan Sistem Informasi Kesehatan
+
+3.233.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Sistem
+Informasi Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Liwuto
+
+1.02.0.00.0.00.01.0033
+
+PUSKESMAS BUNGI
+
+1.02.02
+
+PROGRAM PEMENUHAN UPAYA KESEHATAN PERORANGAN DAN UPAYA KESEHATAN MASYARAKAT
+
+1.02.02.2.02
+
+Penyediaan Layanan Kesehatan untuk UKM dan UKP Rujukan Tingkat Daerah Kabupaten/Kota
+
+1.02.02.2.02.0001
+
+Pengelolaan Pelayanan Kesehatan Ibu Hamil
+
+11.040.000
+
+11.040.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Ibu Hamil yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+48
+
+Orang
+
+48
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Bungi
+
+1.02.02.2.02.0005
+
+Pengelolaan Pelayanan Kesehatan pada Usia
+Pendidikan Dasar
+
+88.330.000
+
+88.330.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Anak Usia Pendidikan Dasar yang
+Mendapatkan Pelayanan Kesehatan Sesuai Standar
+
+803
+
+Orang
+
+803
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Bungi
+
+1.02.02.2.02.0011
+
+Pengelolaan Pelayanan Kesehatan Orang Terduga
+Tuberkulosis
+
+18.480.000
+
+18.480.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita Tuberkulosis
+yang Mendapatkan Pelayanan Sesuai Standar
+
+168
+
+Orang
+
+168
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Bungi
+
+1.02.02.2.02.0012
+
+Pengelolaan Pelayanan Kesehatan Orang dengan
+Risiko Terinfeksi HIV
+
+1.100.000
+
+1.100.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita HIV yang
+Mendapatkan Pelayanan Sesuai Standar
+
+10
+
+Orang
+
+10
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Bungi
+
+1.02.02.2.02.0015
+
+Pengelolaan Pelayanan Kesehatan Gizi
+Masyarakat
+
+200.321.000
+
+139.330.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Gizi Masyarakat
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Bungi
+
+1.02.02.2.02.0017
+
+Pengelolaan Pelayanan Kesehatan Lingkungan
+
+10.780.000
+
+10.780.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Lingkungan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Bungi
+
+1.02.02.2.02.0020
+
+Pengelolaan Surveilans Kesehatan
+
+7.810.000
+
+7.810.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Surveilans
+Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Bungi
+
+1.02.02.2.02.0025
+
+Pelayanan Kesehatan Penyakit Menular dan Tidak
+Menular
+
+115.500.000
+
+115.500.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pelayanan Kesehatan
+Penyakit Menular dan Tidak Menular
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Bungi
+
+1.02.02.2.02.0026
+
+Pengelolaan Jaminan Kesehatan Masyarakat
+
+641.395.000
+
+306.427.500
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Jaminan
+Kesehatan Masyarakat
+
+5707
+
+Dokumen
+
+5707
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Bungi
+
+1.02.02.2.02.0033
+
+Operasional Pelayanan Puskesmas
+
+98.267.000
+
+79.641.750
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan
+Puskesmas
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Bungi
+
+9.233.000
+
+Anggaran
+
+Kode
+
+Fisik
+
+Program / Kegiatan / Subkegiatan
+Target Pagu 1
+Tahun (Rp.)
+
+Target Kas s/d
+Bulan ini (Rp.)
+
+Realisasi (Rp.)
+
+Persentase
+Realisasi
+Terhadap
+Target Kas
+Bulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Pagu 1
+Tahun(%)
+
+Indikator
+
+Target Fisik 1 Tahun
+
+Target Fisik s/d Bulan
+ini
+
+Realisasi Fisik
+
+Persentase
+Realisasi
+Terhadap
+Target
+FisikBulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik 1
+Tahun(%)
+
+Penanggung
+Jawab
+(jabatan
+&nama)
+
+1.02.02.2.02.0036
+
+Investigasi Awal Kejadian Tidak Diharapkan
+(Kejadian Ikutan Pasca Imunisasi dan Pemberian
+Obat Massal)
+
+3.960.000
+
+3.960.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Kejadian Ikutan Pasca Imunisasi dan
+Pemberian Obat Massal
+
+36
+
+Kejadian
+
+36
+
+Kejadian
+
+0
+
+Kejadian
+
+0,00
+
+0,00
+
+Kapus.
+Bungi
+
+1.02.02.2.02.0040
+
+Pengelolaan pelayanan kesehatan orang dengan
+Tuberkulosis
+
+6.930.000
+
+6.930.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan Tuberkulosis yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+63
+
+Orang
+
+63
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Bungi
+
+1.02.02.2.02.0041
+
+Pengelolaan pelayanan kesehatan orang dengan
+HIV (ODHIV)
+
+3.960.000
+
+3.960.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan HIV (ODHIV) yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+36
+
+Orang
+
+36
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Bungi
+
+1.02.02.2.02.0044
+
+Pengelolaan Pelayanan Kesehatan Reproduksi
+
+21.120.000
+
+21.120.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan kesehatan reproduksi yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+192
+
+Orang
+
+192
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Bungi
+
+1.02.02.2.02.0046
+
+Pengelolaan upaya kesehatan Ibu dan Anak
+
+68.020.000
+
+68.020.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah dokumen hasil pengelolaan upaya
+kesehatan ibu dan anak
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Bungi
+
+1.02.02.2.03
+
+Penyelenggaraan Sistem Informasi Kesehatan Secara Terintegrasi
+
+1.02.02.2.03.0002
+
+Pengelolaan Sistem Informasi Kesehatan
+
+9.042.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Sistem
+Informasi Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Bungi
+
+1.02.0.00.0.00.01.0034
+
+PUSKESMAS MEO-MEO
+
+1.02.02
+
+PROGRAM PEMENUHAN UPAYA KESEHATAN PERORANGAN DAN UPAYA KESEHATAN MASYARAKAT
+
+1.02.02.2.02
+
+Penyediaan Layanan Kesehatan untuk UKM dan UKP Rujukan Tingkat Daerah Kabupaten/Kota
+
+1.02.02.2.02.0001
+
+Pengelolaan Pelayanan Kesehatan Ibu Hamil
+
+13.760.000
+
+10.320.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Ibu Hamil yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+64
+
+Orang
+
+64
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+MeoMeo
+
+1.02.02.2.02.0005
+
+Pengelolaan Pelayanan Kesehatan pada Usia
+Pendidikan Dasar
+
+64.680.000
+
+34.650.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Anak Usia Pendidikan Dasar yang
+Mendapatkan Pelayanan Kesehatan Sesuai Standar
+
+588
+
+Orang
+
+588
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+MeoMeo
+
+1.02.02.2.02.0011
+
+Pengelolaan Pelayanan Kesehatan Orang Terduga
+Tuberkulosis
+
+4.180.000
+
+2.090.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita Tuberkulosis
+yang Mendapatkan Pelayanan Sesuai Standar
+
+38
+
+Orang
+
+38
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+MeoMeo
+
+1.02.02.2.02.0012
+
+Pengelolaan Pelayanan Kesehatan Orang dengan
+Risiko Terinfeksi HIV
+
+1.320.000
+
+660.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita HIV yang
+Mendapatkan Pelayanan Sesuai Standar
+
+12
+
+Orang
+
+12
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+MeoMeo
+
+1.02.02.2.02.0015
+
+Pengelolaan Pelayanan Kesehatan Gizi
+Masyarakat
+
+248.938.000
+
+124.903.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Gizi Masyarakat
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+MeoMeo
+
+1.02.02.2.02.0017
+
+Pengelolaan Pelayanan Kesehatan Lingkungan
+
+13.200.000
+
+8.800.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Lingkungan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+MeoMeo
+
+1.02.02.2.02.0020
+
+Pengelolaan Surveilans Kesehatan
+
+12.320.000
+
+6.160.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Surveilans
+Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+MeoMeo
+
+1.02.02.2.02.0025
+
+Pelayanan Kesehatan Penyakit Menular dan Tidak
+Menular
+
+152.240.000
+
+76.890.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pelayanan Kesehatan
+Penyakit Menular dan Tidak Menular
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+MeoMeo
+
+1.02.02.2.02.0026
+
+Pengelolaan Jaminan Kesehatan Masyarakat
+
+1.524.546.000
+
+789.048.600
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Jaminan
+Kesehatan Masyarakat
+
+10630
+
+Dokumen
+
+10630
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+MeoMeo
+
+1.02.02.2.02.0033
+
+Operasional Pelayanan Puskesmas
+
+110.936.000
+
+55.468.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan
+Puskesmas
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+MeoMeo
+
+9.042.000
+
+Anggaran
+
+Kode
+
+Fisik
+
+Program / Kegiatan / Subkegiatan
+Target Pagu 1
+Tahun (Rp.)
+
+Persentase
+Realisasi
+Terhadap
+Target Kas
+Bulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Pagu 1
+Tahun(%)
+
+Indikator
+
+Target Kas s/d
+Bulan ini (Rp.)
+
+Realisasi (Rp.)
+
+9.130.000
+
+6.080.000
+
+0
+
+0,00
+
+0,00
+
+Persentase
+Realisasi
+Terhadap
+Target
+FisikBulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik 1
+Tahun(%)
+
+Penanggung
+Jawab
+(jabatan
+&nama)
+
+Target Fisik 1 Tahun
+
+Target Fisik s/d Bulan
+ini
+
+Jumlah Dokumen Operasional Pelayanan Fasilitas
+Kesehatan Lainnya
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+MeoMeo
+
+Realisasi Fisik
+
+1.02.02.2.02.0034
+
+Operasional Pelayanan Fasilitas Kesehatan
+Lainnya
+
+1.02.02.2.02.0036
+
+Investigasi Awal Kejadian Tidak Diharapkan
+(Kejadian Ikutan Pasca Imunisasi dan Pemberian
+Obat Massal)
+
+330.000
+
+330.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Kejadian Ikutan Pasca Imunisasi dan
+Pemberian Obat Massal
+
+3
+
+Kejadian
+
+3
+
+Kejadian
+
+0
+
+Kejadian
+
+0,00
+
+0,00
+
+Kapus.
+MeoMeo
+
+1.02.02.2.02.0040
+
+Pengelolaan pelayanan kesehatan orang dengan
+Tuberkulosis
+
+2.640.000
+
+1.320.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan Tuberkulosis yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+24
+
+Orang
+
+24
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+MeoMeo
+
+1.02.02.2.02.0041
+
+Pengelolaan pelayanan kesehatan orang dengan
+HIV (ODHIV)
+
+2.640.000
+
+1.320.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan HIV (ODHIV) yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+24
+
+Orang
+
+24
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+MeoMeo
+
+1.02.02.2.02.0044
+
+Pengelolaan Pelayanan Kesehatan Reproduksi
+
+55.440.000
+
+27.720.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan kesehatan reproduksi yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+504
+
+Orang
+
+504
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+MeoMeo
+
+1.02.02.2.02.0046
+
+Pengelolaan upaya kesehatan Ibu dan Anak
+
+51.490.000
+
+29.105.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah dokumen hasil pengelolaan upaya
+kesehatan ibu dan anak
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+MeoMeo
+
+1.02.02.2.03
+
+Penyelenggaraan Sistem Informasi Kesehatan Secara Terintegrasi
+
+1.02.02.2.03.0002
+
+Pengelolaan Sistem Informasi Kesehatan
+
+3.077.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Sistem
+Informasi Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+MeoMeo
+
+1.02.0.00.0.00.01.0036
+
+PUSKESMAS BUKIT WOLIO INDAH
+
+1.02.02
+
+PROGRAM PEMENUHAN UPAYA KESEHATAN PERORANGAN DAN UPAYA KESEHATAN MASYARAKAT
+
+1.02.02.2.02
+
+Penyediaan Layanan Kesehatan untuk UKM dan UKP Rujukan Tingkat Daerah Kabupaten/Kota
+
+1.02.02.2.02.0001
+
+Pengelolaan Pelayanan Kesehatan Ibu Hamil
+
+8.000.000
+
+4.000.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Ibu Hamil yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+32
+
+Orang
+
+32
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Bukit
+Wolio
+Indah
+
+1.02.02.2.02.0002
+
+Pengelolaan Pelayanan Kesehatan Ibu Bersalin
+
+5.120.000
+
+5.120.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Ibu Bersalin yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+52
+
+Orang
+
+52
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Bukit
+Wolio
+Indah
+
+1.02.02.2.02.0005
+
+Pengelolaan Pelayanan Kesehatan pada Usia
+Pendidikan Dasar
+
+97.900.000
+
+46.970.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Anak Usia Pendidikan Dasar yang
+Mendapatkan Pelayanan Kesehatan Sesuai Standar
+
+890
+
+Orang
+
+890
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Bukit
+Wolio
+Indah
+
+1.02.02.2.02.0011
+
+Pengelolaan Pelayanan Kesehatan Orang Terduga
+Tuberkulosis
+
+7.260.000
+
+3.630.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita Tuberkulosis
+yang Mendapatkan Pelayanan Sesuai Standar
+
+66
+
+Orang
+
+66
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Bukit
+Wolio
+Indah
+
+1.02.02.2.02.0012
+
+Pengelolaan Pelayanan Kesehatan Orang dengan
+Risiko Terinfeksi HIV
+
+1.760.000
+
+1.320.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita HIV yang
+Mendapatkan Pelayanan Sesuai Standar
+
+16
+
+Orang
+
+16
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Bukit
+Wolio
+Indah
+
+1.02.02.2.02.0015
+
+Pengelolaan Pelayanan Kesehatan Gizi
+Masyarakat
+
+250.888.000
+
+171.942.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Gizi Masyarakat
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Bukit
+Wolio
+Indah
+
+9.077.000
+
+Anggaran
+
+Kode
+
+Fisik
+
+Program / Kegiatan / Subkegiatan
+Target Pagu 1
+Tahun (Rp.)
+
+Target Kas s/d
+Bulan ini (Rp.)
+
+Realisasi (Rp.)
+
+Persentase
+Realisasi
+Terhadap
+Target Kas
+Bulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Pagu 1
+Tahun(%)
+
+Indikator
+
+Target Fisik 1 Tahun
+
+Target Fisik s/d Bulan
+ini
+
+Realisasi Fisik
+
+Persentase
+Realisasi
+Terhadap
+Target
+FisikBulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik 1
+Tahun(%)
+
+Penanggung
+Jawab
+(jabatan
+&nama)
+
+1.02.02.2.02.0017
+
+Pengelolaan Pelayanan Kesehatan Lingkungan
+
+7.040.000
+
+4.400.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Lingkungan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Bukit
+Wolio
+Indah
+
+1.02.02.2.02.0020
+
+Pengelolaan Surveilans Kesehatan
+
+23.920.000
+
+13.690.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Surveilans
+Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Bukit
+Wolio
+Indah
+
+1.02.02.2.02.0025
+
+Pelayanan Kesehatan Penyakit Menular dan Tidak
+Menular
+
+156.200.000
+
+72.050.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pelayanan Kesehatan
+Penyakit Menular dan Tidak Menular
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Bukit
+Wolio
+Indah
+
+1.02.02.2.02.0026
+
+Pengelolaan Jaminan Kesehatan Masyarakat
+
+760.733.000
+
+349.179.729
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Jaminan
+Kesehatan Masyarakat
+
+7598
+
+Dokumen
+
+7598
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Bukit
+Wolio
+Indah
+
+1.02.02.2.02.0033
+
+Operasional Pelayanan Puskesmas
+
+117.390.000
+
+58.945.002
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan
+Puskesmas
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Bukit
+Wolio
+Indah
+
+1.02.02.2.02.0034
+
+Operasional Pelayanan Fasilitas Kesehatan
+Lainnya
+
+9.428.000
+
+4.384.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan Fasilitas
+Kesehatan Lainnya
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Bukit
+Wolio
+Indah
+
+1.02.02.2.02.0036
+
+Investigasi Awal Kejadian Tidak Diharapkan
+(Kejadian Ikutan Pasca Imunisasi dan Pemberian
+Obat Massal)
+
+1.650.000
+
+440.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Kejadian Ikutan Pasca Imunisasi dan
+Pemberian Obat Massal
+
+15
+
+Kejadian
+
+15
+
+Kejadian
+
+0
+
+Kejadian
+
+0,00
+
+0,00
+
+Kapus.
+Bukit
+Wolio
+Indah
+
+1.02.02.2.02.0040
+
+Pengelolaan pelayanan kesehatan orang dengan
+Tuberkulosis
+
+1.100.000
+
+550.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan Tuberkulosis yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+10
+
+Orang
+
+10
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Bukit
+Wolio
+Indah
+
+1.02.02.2.02.0041
+
+Pengelolaan pelayanan kesehatan orang dengan
+HIV (ODHIV)
+
+1.100.000
+
+660.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan HIV (ODHIV) yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+10
+
+Orang
+
+10
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Bukit
+Wolio
+Indah
+
+1.02.02.2.02.0044
+
+Pengelolaan Pelayanan Kesehatan Reproduksi
+
+39.460.000
+
+21.160.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan kesehatan reproduksi yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+400
+
+Orang
+
+400
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Bukit
+Wolio
+Indah
+
+1.02.02.2.02.0046
+
+Pengelolaan upaya kesehatan Ibu dan Anak
+
+52.960.000
+
+28.280.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah dokumen hasil pengelolaan upaya
+kesehatan ibu dan anak
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Bukit
+Wolio
+Indah
+
+1.02.02.2.03
+
+Penyelenggaraan Sistem Informasi Kesehatan Secara Terintegrasi
+
+1.02.02.2.03.0002
+
+Pengelolaan Sistem Informasi Kesehatan
+
+3.177.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Sistem
+Informasi Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Bukit
+Wolio
+Indah
+
+1.02.05
+
+PROGRAM PEMBERDAYAAN MASYARAKAT BIDANG KESEHATAN
+
+1.02.05.2.03
+
+Pengembangan dan Pelaksanaan Upaya Kesehatan Bersumber Daya Masyarakat (UKBM) Tingkat Daerah Kabupaten/Kota
+
+9.177.000
+
+Anggaran
+
+Kode
+
+Fisik
+
+Program / Kegiatan / Subkegiatan
+Target Pagu 1
+Tahun (Rp.)
+
+Target Kas s/d
+Bulan ini (Rp.)
+
+Realisasi (Rp.)
+
+2.400.000
+
+0
+
+Persentase
+Realisasi
+Terhadap
+Target Kas
+Bulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Pagu 1
+Tahun(%)
+
+0,00
+
+0,00
+
+Persentase
+Realisasi
+Terhadap
+Target
+FisikBulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik 1
+Tahun(%)
+
+Penanggung
+Jawab
+(jabatan
+&nama)
+
+Target Fisik 1 Tahun
+
+Target Fisik s/d Bulan
+ini
+
+Jumlah Dokumen Hasil Bimbingan Teknis dan
+Supervisi Upaya Kesehatan Bersumber Daya
+Masyarakat (UKBM)
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Bukit
+Wolio
+Indah
+
+Indikator
+
+Realisasi Fisik
+
+1.02.05.2.03.0001
+
+Bimbingan Teknis dan Supervisi Pengembangan
+dan Pelaksanaan Upaya Kesehatan Bersumber
+Daya Masyarakat (UKBM)
+
+1.02.0.00.0.00.01.0037
+
+PUSKESMAS MELAI
+
+1.02.02
+
+PROGRAM PEMENUHAN UPAYA KESEHATAN PERORANGAN DAN UPAYA KESEHATAN MASYARAKAT
+
+1.02.02.2.02
+
+Penyediaan Layanan Kesehatan untuk UKM dan UKP Rujukan Tingkat Daerah Kabupaten/Kota
+
+1.02.02.2.02.0001
+
+Pengelolaan Pelayanan Kesehatan Ibu Hamil
+
+3.400.000
+
+1.700.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Ibu Hamil yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+8
+
+Orang
+
+8
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Melai
+
+1.02.02.2.02.0005
+
+Pengelolaan Pelayanan Kesehatan pada Usia
+Pendidikan Dasar
+
+55.660.000
+
+27.830.002
+
+0
+
+0,00
+
+0,00
+
+Jumlah Anak Usia Pendidikan Dasar yang
+Mendapatkan Pelayanan Kesehatan Sesuai Standar
+
+506
+
+Orang
+
+506
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Melai
+
+1.02.02.2.02.0011
+
+Pengelolaan Pelayanan Kesehatan Orang Terduga
+Tuberkulosis
+
+7.920.000
+
+3.960.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita Tuberkulosis
+yang Mendapatkan Pelayanan Sesuai Standar
+
+48
+
+Orang
+
+48
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Melai
+
+1.02.02.2.02.0012
+
+Pengelolaan Pelayanan Kesehatan Orang dengan
+Risiko Terinfeksi HIV
+
+1.760.000
+
+880.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita HIV yang
+Mendapatkan Pelayanan Sesuai Standar
+
+16
+
+Orang
+
+16
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Melai
+
+1.02.02.2.02.0015
+
+Pengelolaan Pelayanan Kesehatan Gizi
+Masyarakat
+
+191.220.000
+
+187.260.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Gizi Masyarakat
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Melai
+
+1.02.02.2.02.0017
+
+Pengelolaan Pelayanan Kesehatan Lingkungan
+
+11.660.000
+
+6.600.002
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Lingkungan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Melai
+
+1.02.02.2.02.0020
+
+Pengelolaan Surveilans Kesehatan
+
+8.360.000
+
+4.180.002
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Surveilans
+Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Melai
+
+1.02.02.2.02.0025
+
+Pelayanan Kesehatan Penyakit Menular dan Tidak
+Menular
+
+117.920.000
+
+58.960.002
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pelayanan Kesehatan
+Penyakit Menular dan Tidak Menular
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Melai
+
+1.02.02.2.02.0026
+
+Pengelolaan Jaminan Kesehatan Masyarakat
+
+723.815.000
+
+383.495.314
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Jaminan
+Kesehatan Masyarakat
+
+4089
+
+Dokumen
+
+4089
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Melai
+
+1.02.02.2.02.0033
+
+Operasional Pelayanan Puskesmas
+
+95.987.000
+
+45.940.496
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan
+Puskesmas
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Melai
+
+1.02.02.2.02.0034
+
+Operasional Pelayanan Fasilitas Kesehatan
+Lainnya
+
+0
+
+0
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan Fasilitas
+Kesehatan Lainnya
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Melai
+
+1.02.02.2.02.0036
+
+Investigasi Awal Kejadian Tidak Diharapkan
+(Kejadian Ikutan Pasca Imunisasi dan Pemberian
+Obat Massal)
+
+7.920.000
+
+3.960.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Kejadian Ikutan Pasca Imunisasi dan
+Pemberian Obat Massal
+
+72
+
+Kejadian
+
+72
+
+Kejadian
+
+0
+
+Kejadian
+
+0,00
+
+0,00
+
+Kapus.
+Melai
+
+1.02.02.2.02.0040
+
+Pengelolaan pelayanan kesehatan orang dengan
+Tuberkulosis
+
+9.680.000
+
+5.280.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan Tuberkulosis yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+40
+
+Orang
+
+40
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Melai
+
+1.02.02.2.02.0041
+
+Pengelolaan pelayanan kesehatan orang dengan
+HIV (ODHIV)
+
+880.000
+
+440.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan HIV (ODHIV) yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+8
+
+Orang
+
+8
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Melai
+
+1.02.02.2.02.0044
+
+Pengelolaan Pelayanan Kesehatan Reproduksi
+
+39.380.000
+
+19.689.999
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan kesehatan reproduksi yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+64
+
+Orang
+
+64
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Melai
+
+1.02.02.2.02.0046
+
+Pengelolaan upaya kesehatan Ibu dan Anak
+
+87.600.000
+
+42.840.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah dokumen hasil pengelolaan upaya
+kesehatan ibu dan anak
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Melai
+
+1.02.02.2.03
+
+Penyelenggaraan Sistem Informasi Kesehatan Secara Terintegrasi
+
+1.02.02.2.03.0002
+
+Pengelolaan Sistem Informasi Kesehatan
+
+9.000.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Sistem
+Informasi Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Melai
+
+2.400.000
+
+11.485.000
+
+Anggaran
+
+Kode
+
+Fisik
+
+Program / Kegiatan / Subkegiatan
+Target Pagu 1
+Tahun (Rp.)
+
+Target Kas s/d
+Bulan ini (Rp.)
+
+Realisasi (Rp.)
+
+Persentase
+Realisasi
+Terhadap
+Target Kas
+Bulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Pagu 1
+Tahun(%)
+
+Indikator
+
+Target Fisik 1 Tahun
+
+Target Fisik s/d Bulan
+ini
+
+Realisasi Fisik
+
+Persentase
+Realisasi
+Terhadap
+Target
+FisikBulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik 1
+Tahun(%)
+
+Penanggung
+Jawab
+(jabatan
+&nama)
+
+1.02.0.00.0.00.01.0038
+
+PUSKESMAS WABOROBO
+
+1.02.02
+
+PROGRAM PEMENUHAN UPAYA KESEHATAN PERORANGAN DAN UPAYA KESEHATAN MASYARAKAT
+
+1.02.02.2.02
+
+Penyediaan Layanan Kesehatan untuk UKM dan UKP Rujukan Tingkat Daerah Kabupaten/Kota
+
+1.02.02.2.02.0001
+
+Pengelolaan Pelayanan Kesehatan Ibu Hamil
+
+11.040.000
+
+5.520.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Ibu Hamil yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+48
+
+Orang
+
+48
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Waborobo
+
+1.02.02.2.02.0002
+
+Pengelolaan Pelayanan Kesehatan Ibu Bersalin
+
+2.386.000
+
+1.193.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Ibu Bersalin yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+3
+
+Orang
+
+3
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Waborobo
+
+1.02.02.2.02.0005
+
+Pengelolaan Pelayanan Kesehatan pada Usia
+Pendidikan Dasar
+
+47.740.000
+
+23.940.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Anak Usia Pendidikan Dasar yang
+Mendapatkan Pelayanan Kesehatan Sesuai Standar
+
+434
+
+Orang
+
+434
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Waborobo
+
+1.02.02.2.02.0011
+
+Pengelolaan Pelayanan Kesehatan Orang Terduga
+Tuberkulosis
+
+7.700.000
+
+3.900.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita Tuberkulosis
+yang Mendapatkan Pelayanan Sesuai Standar
+
+70
+
+Orang
+
+70
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Waborobo
+
+1.02.02.2.02.0012
+
+Pengelolaan Pelayanan Kesehatan Orang dengan
+Risiko Terinfeksi HIV
+
+1.760.000
+
+880.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita HIV yang
+Mendapatkan Pelayanan Sesuai Standar
+
+16
+
+Orang
+
+16
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Waborobo
+
+1.02.02.2.02.0015
+
+Pengelolaan Pelayanan Kesehatan Gizi
+Masyarakat
+
+210.351.000
+
+105.823.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Gizi Masyarakat
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Waborobo
+
+1.02.02.2.02.0017
+
+Pengelolaan Pelayanan Kesehatan Lingkungan
+
+23.540.000
+
+11.880.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Lingkungan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Waborobo
+
+1.02.02.2.02.0020
+
+Pengelolaan Surveilans Kesehatan
+
+16.340.000
+
+8.450.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Surveilans
+Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Waborobo
+
+1.02.02.2.02.0025
+
+Pelayanan Kesehatan Penyakit Menular dan Tidak
+Menular
+
+104.830.000
+
+52.140.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pelayanan Kesehatan
+Penyakit Menular dan Tidak Menular
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Waborobo
+
+1.02.02.2.02.0026
+
+Pengelolaan Jaminan Kesehatan Masyarakat
+
+333.979.800
+
+165.979.300
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Jaminan
+Kesehatan Masyarakat
+
+123
+
+Dokumen
+
+123
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Waborobo
+
+1.02.02.2.02.0033
+
+Operasional Pelayanan Puskesmas
+
+94.480.000
+
+48.285.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan
+Puskesmas
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Waborobo
+
+1.02.02.2.02.0036
+
+Investigasi Awal Kejadian Tidak Diharapkan
+(Kejadian Ikutan Pasca Imunisasi dan Pemberian
+Obat Massal)
+
+7.040.000
+
+3.520.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Kejadian Ikutan Pasca Imunisasi dan
+Pemberian Obat Massal
+
+64
+
+Kejadian
+
+64
+
+Kejadian
+
+0
+
+Kejadian
+
+0,00
+
+0,00
+
+Kapus.
+Waborobo
+
+1.02.02.2.02.0040
+
+Pengelolaan pelayanan kesehatan orang dengan
+Tuberkulosis
+
+4.400.000
+
+2.200.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan Tuberkulosis yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+40
+
+Orang
+
+40
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Waborobo
+
+1.02.02.2.02.0044
+
+Pengelolaan Pelayanan Kesehatan Reproduksi
+
+16.720.000
+
+8.580.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan kesehatan reproduksi yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+152
+
+Orang
+
+152
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus.
+Waborobo
+
+1.02.02.2.02.0046
+
+Pengelolaan upaya kesehatan Ibu dan Anak
+
+84.120.000
+
+42.060.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah dokumen hasil pengelolaan upaya
+kesehatan ibu dan anak
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Waborobo
+
+1.02.02.2.03
+
+Penyelenggaraan Sistem Informasi Kesehatan Secara Terintegrasi
+
+1.02.02.2.03.0002
+
+Pengelolaan Sistem Informasi Kesehatan
+
+4.068.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Sistem
+Informasi Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus.
+Waborobo
+
+1.02.0.00.0.00.01.0039
+
+PUSKESMAS SULAA
+
+1.02.02
+
+PROGRAM PEMENUHAN UPAYA KESEHATAN PERORANGAN DAN UPAYA KESEHATAN MASYARAKAT
+
+1.02.02.2.02
+
+Penyediaan Layanan Kesehatan untuk UKM dan UKP Rujukan Tingkat Daerah Kabupaten/Kota
+
+1.02.02.2.02.0001
+
+Pengelolaan Pelayanan Kesehatan Ibu Hamil
+
+0,00
+
+0,00
+
+Jumlah Ibu Hamil yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+24
+
+Orang
+
+24
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus
+Sulaa
+
+9.068.000
+
+9.696.000
+
+4.848.000
+
+0
+
+Anggaran
+
+Kode
+
+Fisik
+
+Program / Kegiatan / Subkegiatan
+Target Pagu 1
+Tahun (Rp.)
+
+Target Kas s/d
+Bulan ini (Rp.)
+
+Realisasi (Rp.)
+
+Persentase
+Realisasi
+Terhadap
+Target Kas
+Bulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Pagu 1
+Tahun(%)
+
+Indikator
+
+Target Fisik 1 Tahun
+
+Target Fisik s/d Bulan
+ini
+
+Realisasi Fisik
+
+Persentase
+Realisasi
+Terhadap
+Target
+FisikBulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik 1
+Tahun(%)
+
+Penanggung
+Jawab
+(jabatan
+&nama)
+
+1.02.02.2.02.0002
+
+Pengelolaan Pelayanan Kesehatan Ibu Bersalin
+
+2.742.000
+
+2.742.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Ibu Bersalin yang Mendapatkan Pelayanan
+Kesehatan Sesuai Standar
+
+21
+
+Orang
+
+21
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus
+Sulaa
+
+1.02.02.2.02.0005
+
+Pengelolaan Pelayanan Kesehatan pada Usia
+Pendidikan Dasar
+
+44.000.000
+
+23.560.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Anak Usia Pendidikan Dasar yang
+Mendapatkan Pelayanan Kesehatan Sesuai Standar
+
+400
+
+Orang
+
+400
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus
+Sulaa
+
+1.02.02.2.02.0011
+
+Pengelolaan Pelayanan Kesehatan Orang Terduga
+Tuberkulosis
+
+6.820.000
+
+6.820.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita Tuberkulosis
+yang Mendapatkan Pelayanan Sesuai Standar
+
+61
+
+Orang
+
+61
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus
+Sulaa
+
+1.02.02.2.02.0012
+
+Pengelolaan Pelayanan Kesehatan Orang dengan
+Risiko Terinfeksi HIV
+
+13.200.000
+
+6.600.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Orang Terduga Menderita HIV yang
+Mendapatkan Pelayanan Sesuai Standar
+
+120
+
+Orang
+
+120
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus
+Sulaa
+
+1.02.02.2.02.0015
+
+Pengelolaan Pelayanan Kesehatan Gizi
+Masyarakat
+
+210.611.000
+
+106.811.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Gizi Masyarakat
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus
+Sulaa
+
+1.02.02.2.02.0017
+
+Pengelolaan Pelayanan Kesehatan Lingkungan
+
+19.800.000
+
+6.600.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Pelayanan
+Kesehatan Lingkungan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus
+Sulaa
+
+1.02.02.2.02.0020
+
+Pengelolaan Surveilans Kesehatan
+
+23.600.000
+
+14.200.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Surveilans
+Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus
+Sulaa
+
+1.02.02.2.02.0025
+
+Pelayanan Kesehatan Penyakit Menular dan Tidak
+Menular
+
+95.480.000
+
+47.900.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pelayanan Kesehatan
+Penyakit Menular dan Tidak Menular
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus
+Sulaa
+
+1.02.02.2.02.0026
+
+Pengelolaan Jaminan Kesehatan Masyarakat
+
+281.358.230
+
+134.980.500
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Jaminan
+Kesehatan Masyarakat
+
+2228
+
+Dokumen
+
+2228
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus
+Sulaa
+
+1.02.02.2.02.0033
+
+Operasional Pelayanan Puskesmas
+
+97.229.000
+
+52.200.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan
+Puskesmas
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus
+Sulaa
+
+1.02.02.2.02.0034
+
+Operasional Pelayanan Fasilitas Kesehatan
+Lainnya
+
+8.484.000
+
+6.034.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan Fasilitas
+Kesehatan Lainnya
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus
+Sulaa
+
+1.02.02.2.02.0036
+
+Investigasi Awal Kejadian Tidak Diharapkan
+(Kejadian Ikutan Pasca Imunisasi dan Pemberian
+Obat Massal)
+
+3.960.000
+
+1.000.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Kejadian Ikutan Pasca Imunisasi dan
+Pemberian Obat Massal
+
+36
+
+Kejadian
+
+36
+
+Kejadian
+
+0
+
+Kejadian
+
+0,00
+
+0,00
+
+Kapus
+Sulaa
+
+1.02.02.2.02.0040
+
+Pengelolaan pelayanan kesehatan orang dengan
+Tuberkulosis
+
+13.200.000
+
+5.500.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan Tuberkulosis yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+120
+
+Orang
+
+120
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus
+Sulaa
+
+1.02.02.2.02.0041
+
+Pengelolaan pelayanan kesehatan orang dengan
+HIV (ODHIV)
+
+550.000
+
+550.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan HIV (ODHIV) yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+5
+
+Orang
+
+5
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus
+Sulaa
+
+1.02.02.2.02.0044
+
+Pengelolaan Pelayanan Kesehatan Reproduksi
+
+19.760.000
+
+10.360.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan kesehatan reproduksi yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+136
+
+Orang
+
+136
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Kapus
+Sulaa
+
+1.02.02.2.02.0046
+
+Pengelolaan upaya kesehatan Ibu dan Anak
+
+88.092.000
+
+12.250.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah dokumen hasil pengelolaan upaya
+kesehatan ibu dan anak
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus
+Sulaa
+
+1.02.02.2.03
+
+Penyelenggaraan Sistem Informasi Kesehatan Secara Terintegrasi
+
+1.02.02.2.03.0002
+
+Pengelolaan Sistem Informasi Kesehatan
+
+9.000.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Sistem
+Informasi Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Kapus
+Sulaa
+
+1.02.0.00.0.00.01.0041
+
+LABORATORIUM KESEHATAN DAERAH
+
+1.02.01
+
+PROGRAM PENUNJANG URUSAN PEMERINTAHAN DAERAH KABUPATEN/KOTA
+
+1.02.01.2.06
+
+Administrasi Umum Perangkat Daerah
+
+1.02.01.2.06.0002
+
+Penyediaan Peralatan dan Perlengkapan Kantor
+
+0
+
+0,00
+
+0,00
+
+Jumlah Paket Peralatan dan Perlengkapan Kantor
+yang Disediakan
+
+1
+
+Paket
+
+1
+
+Paket
+
+0
+
+Paket
+
+0,00
+
+0,00
+
+Ka.
+UPTD
+Labkesda
+
+9.686.000
+
+23.453.100
+
+19.023.500
+
+Anggaran
+
+Kode
+
+Fisik
+
+Program / Kegiatan / Subkegiatan
+Target Pagu 1
+Tahun (Rp.)
+
+Persentase
+Realisasi
+Terhadap
+Target Kas
+Bulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Pagu 1
+Tahun(%)
+
+Target Kas s/d
+Bulan ini (Rp.)
+
+Realisasi (Rp.)
+
+47.555.000
+
+0
+
+0,00
+
+0,00
+
+3.660.000
+
+0
+
+0,00
+
+0
+
+Persentase
+Realisasi
+Terhadap
+Target
+FisikBulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik 1
+Tahun(%)
+
+Penanggung
+Jawab
+(jabatan
+&nama)
+
+Target Fisik 1 Tahun
+
+Target Fisik s/d Bulan
+ini
+
+Jumlah Laporan Penyelenggaraan Rapat
+Koordinasi dan Konsultasi SKPD
+
+1
+
+Laporan
+
+1
+
+Laporan
+
+0
+
+Laporan
+
+0,00
+
+0,00
+
+Ka.
+UPTD
+Labkesda
+
+0,00
+
+Jumlah Peralatan dan Mesin Lainnya yang
+Dipelihara
+
+1
+
+Unit
+
+1
+
+Unit
+
+0
+
+Unit
+
+0,00
+
+0,00
+
+Ka.
+UPTD
+Labkesda
+
+0,00
+
+0,00
+
+Jumlah Obat, Bahan Habis Pakai, Bahan Medis
+Habis Pakai, Vaksin, Makanan dan Minuman di
+Fasilitas Kesehatan yang disediakan
+
+1
+
+Paket
+
+1
+
+Paket
+
+0
+
+Paket
+
+0,00
+
+0,00
+
+Ka.
+UPTD
+Labkesda
+
+Indikator
+
+Realisasi Fisik
+
+1.02.01.2.06.0009
+
+Penyelenggaraan Rapat Koordinasi dan Konsultasi
+SKPD
+
+1.02.01.2.09
+
+Pemeliharaan Barang Milik Daerah Penunjang Urusan Pemerintahan Daerah
+
+1.02.01.2.09.0006
+
+Pemeliharaan Peralatan dan Mesin Lainnya
+
+1.02.02
+
+PROGRAM PEMENUHAN UPAYA KESEHATAN PERORANGAN DAN UPAYA KESEHATAN MASYARAKAT
+
+1.02.02.2.01
+
+Penyediaan Fasilitas Pelayanan Kesehatan untuk UKM dan UKP Kewenangan Daerah Kabupaten/Kota
+
+1.02.02.2.01.0023
+
+Pengadaan Obat, Bahan Habis Pakai, Bahan Medis
+Habis Pakai,, Vaksin, Makanan dan Minuman di
+Fasilitas Kesehatan
+
+1.02.02.2.02
+
+Penyediaan Layanan Kesehatan untuk UKM dan UKP Rujukan Tingkat Daerah Kabupaten/Kota
+
+1.02.02.2.02.0020
+
+Pengelolaan Surveilans Kesehatan
+
+21.729.000
+
+9.105.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Hasil Pengelolaan Surveilans
+Kesehatan
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Ka.
+UPTD
+Labkesda
+
+1.02.02.2.02.0034
+
+Operasional Pelayanan Fasilitas Kesehatan
+Lainnya
+
+603.600.000
+
+301.800.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan Fasilitas
+Kesehatan Lainnya
+
+2
+
+Dokumen
+
+2
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Ka.
+UPTD
+Labkesda
+
+1.02.02.2.04
+
+Penerbitan Izin Rumah Sakit Kelas C, D dan Fasilitas Pelayanan Kesehatan Tingkat Daerah Kabupaten/Kota
+
+1.02.02.2.04.0003
+
+Peningkatan Mutu Pelayanan Fasilitas Kesehatan
+
+0
+
+0,00
+
+0,00
+
+Jumlah Fasilitas Kesehatan yang Dilakukan
+Pengukuran Indikator Nasional Mutu (INM)
+Pelayanan kesehatan
+
+1
+
+Unit
+
+1
+
+Unit
+
+0
+
+Unit
+
+0,00
+
+0,00
+
+Ka.
+UPTD
+Labkesda
+
+1.02.0.00.0.00.01.0042
+
+INSTALASI FARMASI DINAS KESEHATAN
+
+1.02.01
+
+PROGRAM PENUNJANG URUSAN PEMERINTAHAN DAERAH KABUPATEN/KOTA
+
+1.02.01.2.06
+
+Administrasi Umum Perangkat Daerah
+
+1.02.01.2.06.0009
+
+Penyelenggaraan Rapat Koordinasi dan Konsultasi
+SKPD
+
+0
+
+0,00
+
+0,00
+
+Jumlah Laporan Penyelenggaraan Rapat
+Koordinasi dan Konsultasi SKPD
+
+3
+
+Laporan
+
+3
+
+Laporan
+
+0
+
+Laporan
+
+0,00
+
+0,00
+
+Ka.
+UPTD
+Instalasi
+Farmasi
+
+1.02.02
+
+PROGRAM PEMENUHAN UPAYA KESEHATAN PERORANGAN DAN UPAYA KESEHATAN MASYARAKAT
+
+1.02.02.2.01
+
+Penyediaan Fasilitas Pelayanan Kesehatan untuk UKM dan UKP Kewenangan Daerah Kabupaten/Kota
+
+1.02.02.2.01.0026
+
+Distribusi Alat Kesehatan, Obat, Bahan Habis
+Pakai, Bahan Medis Habis Pakai, Vaksin,
+Makanan dan Minuman ke Fasilitas Kesehatan
+
+0
+
+0,00
+
+0,00
+
+Jumlah distribusi Alat Kesehatan, Obat, Bahan
+Habis Pakai, Bahan Medis Habis Pakai, Vaksin,
+Makanan ke Fasilitas Kesehatan
+
+1
+
+Paket
+
+1
+
+Paket
+
+0
+
+Paket
+
+0,00
+
+0,00
+
+Ka.
+UPTD
+Instalasi
+Farmasi
+
+1.02.02.2.02
+
+Penyediaan Layanan Kesehatan untuk UKM dan UKP Rujukan Tingkat Daerah Kabupaten/Kota
+
+1.02.02.2.02.0034
+
+Operasional Pelayanan Fasilitas Kesehatan
+Lainnya
+
+0
+
+0,00
+
+0,00
+
+Jumlah Dokumen Operasional Pelayanan Fasilitas
+Kesehatan Lainnya
+
+18
+
+Dokumen
+
+18
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Ka.
+UPTD
+Instalasi
+Farmasi
+
+1.02.0.00.0.00.02.0043
+
+RSUD KOTA BAUBAU
+
+1.02.01
+
+PROGRAM PENUNJANG URUSAN PEMERINTAHAN DAERAH KABUPATEN/KOTA
+
+47.555.000
+
+3.660.000
+
+131.973.737
+
+9.407.800
+
+26.643.000
+
+104.249.600
+
+86.644.100
+
+126.939.637
+
+7.237.800
+
+26.643.000
+
+47.417.700
+
+17.256.000
+
+Anggaran
+
+Kode
+
+Fisik
+
+Target Pagu 1
+Tahun (Rp.)
+
+Target Kas s/d
+Bulan ini (Rp.)
+
+Realisasi (Rp.)
+
+Persentase
+Realisasi
+Terhadap
+Target Kas
+Bulan
+ini(%)
+
+34.945.506.000
+
+19.378.433.589
+
+10.867.753.639
+
+56,08
+
+31,10
+
+4.000.000.000
+
+4.000.000.000
+
+2.800.449.298
+
+70,01
+
+Program / Kegiatan / Subkegiatan
+
+Persentase
+Realisasi
+Terhadap
+Target
+Pagu 1
+Tahun(%)
+
+Indikator
+
+Persentase
+Realisasi
+Terhadap
+Target
+FisikBulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik 1
+Tahun(%)
+
+Penanggung
+Jawab
+(jabatan
+&nama)
+
+Target Fisik 1 Tahun
+
+Target Fisik s/d Bulan
+ini
+
+Jumlah Orang yang Menerima Gaji dan Tunjangan
+ASN
+
+323
+
+OB
+
+323
+
+OB
+
+100.13
+
+OB
+
+31,00
+
+31,00
+
+Direktur
+BLUD
+RSUD
+
+70,01
+
+Jumlah BLUD yang Menyediakan Pelayanan dan
+Penunjang Pelayanan
+
+1
+
+Unit
+
+1
+
+Unit
+
+0.7
+
+Unit
+
+70,00
+
+70,00
+
+Direktur
+BLUD
+RSUD
+
+Realisasi Fisik
+
+1.02.01.2.02
+
+Administrasi Keuangan Perangkat Daerah
+
+1.02.01.2.02.0001
+
+Penyediaan Gaji dan Tunjangan ASN
+
+1.02.01.2.10
+
+Peningkatan Pelayanan BLUD
+
+1.02.01.2.10.0001
+
+Pelayanan dan Penunjang Pelayanan BLUD
+
+1.02.02
+
+PROGRAM PEMENUHAN UPAYA KESEHATAN PERORANGAN DAN UPAYA KESEHATAN MASYARAKAT
+
+1.02.02.2.01
+
+Penyediaan Fasilitas Pelayanan Kesehatan untuk UKM dan UKP Kewenangan Daerah Kabupaten/Kota
+
+1.02.02.2.01.0003
+
+Pembangunan Fasilitas Kesehatan Lainnya
+
+1.296.520.000
+
+1.296.520.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Fasilitas Kesehatan Lainnya yang
+Dibangun
+
+2
+
+Unit
+
+2
+
+Unit
+
+1.4
+
+Unit
+
+70,00
+
+70,00
+
+Direktur
+BLUD
+RSUD
+
+1.02.02.2.01.0014
+
+Pengadaan Alat Kesehatan/Alat Penunjang Medik
+Fasilitas Pelayanan Kesehatan
+
+1.996.393.200
+
+1.996.393.200
+
+0
+
+0,00
+
+0,00
+
+Jumlah Alat Kesehatan/Alat Penunjang Medik
+Fasilitas Pelayanan Kesehatan yang Disediakan
+
+29
+
+Unit
+
+29
+
+Unit
+
+20.3
+
+Unit
+
+70,00
+
+70,00
+
+Direktur
+BLUD
+RSUD
+
+1.02.02.2.01.0023
+
+Pengadaan Obat, Bahan Habis Pakai, Bahan Medis
+Habis Pakai,, Vaksin, Makanan dan Minuman di
+Fasilitas Kesehatan
+
+550.000.000
+
+275.000.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah Obat, Bahan Habis Pakai, Bahan Medis
+Habis Pakai, Vaksin, Makanan dan Minuman di
+Fasilitas Kesehatan yang disediakan
+
+1
+
+Paket
+
+1
+
+Paket
+
+0.7
+
+Paket
+
+70,00
+
+70,00
+
+Direktur
+BLUD
+RSUD
+
+1.02.02.2.02
+
+Penyediaan Layanan Kesehatan untuk UKM dan UKP Rujukan Tingkat Daerah Kabupaten/Kota
+
+1.02.02.2.02.0032
+
+Operasional Pelayanan Rumah Sakit
+
+1.02.02.2.02.0040
+
+1.02.02.2.02.0041
+
+50.565.994.158
+
+27.046.994.158
+
+22.466.472.568
+
+83,06
+
+44,43
+
+Jumlah Dokumen Operasional Pelayanan Rumah
+Sakit
+
+21
+
+Dokumen
+
+21
+
+Dokumen
+
+9.24
+
+Dokumen
+
+44,00
+
+44,00
+
+Direktur
+BLUD
+RSUD
+
+Pengelolaan pelayanan kesehatan orang dengan
+Tuberkulosis
+
+52.932.000
+
+52.932.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan Tuberkulosis yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+80
+
+Orang
+
+80
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Direktur
+BLUD
+RSUD
+
+Pengelolaan pelayanan kesehatan orang dengan
+HIV (ODHIV)
+
+100.548.000
+
+100.548.000
+
+0
+
+0,00
+
+0,00
+
+Jumlah orang dengan HIV (ODHIV) yang
+mendapatkan pelayanan kesehatan sesuai standar
+
+300
+
+Orang
+
+300
+
+Orang
+
+0
+
+Orang
+
+0,00
+
+0,00
+
+Direktur
+BLUD
+RSUD
+
+209.435.764.938
+
+139.536.410.534
+
+76.216.063.858
+
+54,62
+
+36,39
+
+6,90
+
+6,89
+
+Total :
+
+Kabag. Adm. Pembangunan Kota Baubau,
+
+Super Admin
+NIP. 1234567890
+
+

@@ -110,8 +110,9 @@
     <script>
     var map = L.map('map').setView([-5.47, 122.6], 13);
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    // Use Esri World Imagery for satellite view
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
     }).addTo(map);
 
     var layersByCategory = {};
@@ -133,21 +134,32 @@
     fetch('./File/kotabaubau.json')
         .then(response => response.json())
         .then(data => {
+            // Create all layer groups first
             data.forEach(function(point) {
-                if (point.Y && point.X) {
-                    var category = point.kategori || 'Lainnya';
-                    var marker;
-                    if (iconMapping[category]) {
-                        marker = L.marker([point.Y, point.X], { icon: iconMapping[category] });
-                    } else {
-                        marker = L.marker([point.Y, point.X]); // Default icon for categories without one
-                    }
-                    marker.bindPopup("<b>" + point.Name + "</b><br>Kategori: " + category);
+                var category = point.kategori || 'Lainnya';
+                if (!layersByCategory[category]) {
+                    layersByCategory[category] = L.layerGroup();
+                }
+            });
 
-                    if (!layersByCategory[category]) {
-                        layersByCategory[category] = L.layerGroup();
-                    }
-                    layersByCategory[category].addLayer(marker);
+            // Add markers with animation
+            data.forEach(function(point, index) {
+                if (point.Y && point.X) {
+                    setTimeout(function() {
+                        var category = point.kategori || 'Lainnya';
+                        var marker;
+                        if (iconMapping[category]) {
+                            marker = L.marker([point.Y, point.X], { icon: iconMapping[category] });
+                        } else {
+                            marker = L.marker([point.Y, point.X]);
+                        }
+                        marker.bindPopup("<b>" + point.Name + "</b><br>Kategori: " + category);
+                        
+                        // Add marker to the correct layer group
+                        if (layersByCategory[category]) {
+                            layersByCategory[category].addLayer(marker);
+                        }
+                    }, index * 50); // Staggered delay for animation
                 }
             });
 

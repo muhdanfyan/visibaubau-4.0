@@ -1,0 +1,24 @@
+# Landasan Hukum: Sistem Pemerintahan Berbasis Elektronik (SPBE)
+
+Penyelenggaraan tata kelola digital di Kota Baubau tidak berdiri sendiri, melainkan didasarkan pada kerangka hukum yang komprehensif di tingkat nasional. Kepatuhan terhadap dasar hukum ini memberikan validitas dan legitimasi yang kuat bagi seluruh inisiatif yang diusulkan. Landasan hukum utama SPBE secara kolektif membentuk arsitektur tata kelola digital nasional.
+
+## 2.1. Peraturan Perundang-undangan Kunci
+
+Berikut adalah rangkuman peraturan kunci yang menjadi fondasi bagi inisiatif transformasi digital di Kota Baubau:
+
+| Nama Peraturan                                                                              | Tahun | Singkatan                             | Kontribusi Khusus terhadap SPBE                                                                                             |
+| ------------------------------------------------------------------------------------------- | ----- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Undang-Undang tentang Informasi dan Transaksi Elektronik                                    | 2008  | UU ITE (No. 11/2008)                  | Mengatur penggunaan teknologi informasi dan transaksi elektronik dalam berbagai aspek, termasuk penyelenggaraan pemerintahan. |
+| Undang-Undang tentang Keterbukaan Informasi Publik                                          | 2008  | UU KIP (No. 14/2008)                  | Mengatur hak masyarakat untuk memperoleh informasi publik, yang esensial untuk transparansi dan partisipasi publik.        |
+| Peraturan Presiden tentang Sistem Pemerintahan Berbasis Elektronik                          | 2018  | Perpres SPBE (No. 95/2018)            | Menjadi pedoman utama dalam penyelenggaraan SPBE di seluruh instansi pemerintah.                                            |
+| Peraturan Presiden tentang Arsitektur SPBE Nasional                                         | 2022  | Perpres Arsitektur SPBE (No. 132/2022) | Mengatur kerangka dasar, arah kebijakan, dan strategi penerapan SPBE di tingkat nasional.                                 |
+| Peraturan Presiden tentang Percepatan Transformasi Digital dan Keterpaduan Layanan Digital Nasional | 2023  | Perpres Percepatan Transformasi (No. 82/2023) | Bertujuan untuk mempercepat transformasi digital dan mengintegrasikan layanan digital secara nasional.                      |
+| Peraturan Menteri Pendayagunaan Aparatur Negara dan Reformasi Birokrasi                     | Beragam | PermenPANRB                             | Menyediakan pedoman spesifik, seperti manajemen risiko dan pemantauan/evaluasi SPBE.                                     |
+
+## 2.2. Tujuan dan Implikasi Kerangka SPBE
+
+Penyelenggaraan SPBE bertujuan untuk meningkatkan efisiensi, efektivitas, transparansi, dan akuntabilitas pelayanan publik. Keterikatan rencana Kota Baubau pada mandat nasional ini memiliki implikasi ganda yang signifikan:
+
+-   **Dukungan Kuat:** Di satu sisi, ini memberikan dukungan yang kuat dari segi hukum dan politik, berpotensi memfasilitasi pendanaan dan dukungan teknis dari pemerintah pusat. Hal ini juga memastikan inisiatif lokal selaras dengan standar nasional, yang penting untuk interoperabilitas di masa depan.
+
+-   **Lapisan Kompleksitas:** Di sisi lain, ini menimbulkan lapisan kompleksitas. Rencana lokal harus sesuai dengan arsitektur dan pedoman yang ditetapkan oleh pemerintah pusat (seperti Perpres 132/2022). Keberhasilan proyek akan sangat bergantung pada kemampuan Diskominfo Baubau untuk menavigasi dan mengelola koordinasi vertikal ini secara efektif, memastikan proyek tidak hanya memenuhi persyaratan hukum, tetapi juga benar-benar melayani kebutuhan unik kota.

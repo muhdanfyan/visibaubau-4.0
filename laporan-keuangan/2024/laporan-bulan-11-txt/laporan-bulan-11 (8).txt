@@ -1,0 +1,1703 @@
+MONITORING, PELAPORAN, EVALUASI PELAKSANAAN PROGRAM/KEGIATAN/SUB KEGIATAN
+DINAS PERHUBUNGAN KOTA BAUBAU
+SAMPAI DENGAN 30 NOVEMBER 2025
+Anggaran
+
+Kode
+
+Fisik
+
+Program / Kegiatan / Subkegiatan
+Target Pagu 1
+Tahun (Rp.)
+
+Target Kas s/d
+Bulan ini (Rp.)
+
+Realisasi (Rp.)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Kas Bulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Pagu 1
+Tahun(%)
+
+Indikator
+
+Target Fisik 1 Tahun
+
+Target Fisik s/d Bulan ini
+
+Realisasi Fisik
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik
+Bulan
+ini(%)
+
+Penanggung
+Persentase Jawab
+Realisasi (jabatan
+&
+Terhadap
+nama)
+Target
+Fisik 1
+Tahun(%)
+
+2.15.0.00.0.00.01.0000
+
+DINAS PERHUBUNGAN
+
+2.15.01
+
+PROGRAM PENUNJANG URUSAN PEMERINTAHAN DAERAH KABUPATEN/KOTA
+
+2.15.01.2.01
+
+Perencanaan, Penganggaran dan Evaluasi Kinerja Perangkat Daerah
+
+2.15.01.2.01.0001
+
+Penyusunan Dokumen Perencanaan Perangkat
+Daerah
+
+15.640.000
+
+15.640.000
+
+15.632.800
+
+99,95
+
+99,95
+
+Jumlah dokumen perencanaan perangkat daerah
+
+3
+
+Dokumen
+
+3
+
+Dokumen
+
+2.9986189258312
+
+Dokumen
+
+99,95
+
+99,95
+
+Sekretaris
+
+2.15.01.2.01.0002
+
+Koordinasi dan Penyusunan Dokumen RKA
+SKPD
+
+7.319.998
+
+7.319.998
+
+7.306.800
+
+99,82
+
+99,82
+
+Jumlah dokumen RKA-SKPD dan laporan hasil
+koordinasi penyusunan dokumen RKA-SKPD
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0.99819699404289
+
+Dokumen
+
+99,82
+
+99,82
+
+Sekretaris
+
+2.15.01.2.01.0003
+
+Koordinasi dan Penyusunan Dokumen Perubahan
+RKA SKPD
+
+7.099.980
+
+7.099.980
+
+7.081.900
+
+99,75
+
+99,75
+
+Jumlah dokumen perubahan RKA-SKPD dan
+laporan hasil koordinasi penyusunan dokumen
+perubahan RKA-SKPD
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0.99745351395356
+
+Dokumen
+
+99,75
+
+99,75
+
+Sekretaris
+
+2.15.01.2.01.0004
+
+Koordinasi dan Penyusunan DPA SKPD
+
+6.174.800
+
+0
+
+0
+
+0,00
+
+0,00
+
+Jumlah dokumen DPA-SKPD dan laporan hasil
+koordinasi penyusunan dokumen DPA-SKPD
+
+1
+
+Dokumen
+
+0
+
+Dokumen
+
+0
+
+Dokumen
+
+0,00
+
+0,00
+
+Sekretaris
+
+2.15.01.2.01.0005
+
+Koordinasi dan Penyusunan Perubahan DPA
+SKPD
+
+7.605.000
+
+7.605.000
+
+7.303.000
+
+96,03
+
+96,03
+
+Jumlah dokumen perubahan DPA-SKPD dan
+laporan hasil koordinasi penyusunan dokumen
+perubahan DPA-SKPD
+
+1
+
+Dokumen
+
+1
+
+Dokumen
+
+0.96028928336621
+
+Dokumen
+
+96,03
+
+96,03
+
+Sekretaris
+
+2.15.01.2.01.0006
+
+Koordinasi dan Penyusunan Laporan Capaian
+Kinerja dan Ikhtisar Realisasi Kinerja SKPD
+
+7.776.000
+
+7.776.000
+
+7.752.000
+
+99,69
+
+99,69
+
+Jumlah laporan capaian kinerja dan ikhtisar
+realisasi kinerja SKPD dan laporan hasil
+koordinasi penyusunan laporan capaian kinerja
+dan ikhtisar realisasi kinerja SKPD
+
+1
+
+Laporan
+
+1
+
+Laporan
+
+0.99691358024691
+
+Laporan
+
+99,69
+
+99,69
+
+Sekretaris
+
+2.15.01.2.01.0007
+
+Evaluasi Kinerja Perangkat Daerah
+
+12.696.000
+
+12.696.000
+
+6.413.000
+
+50,51
+
+50,51
+
+Jumlah laporan evaluasi kinerja perangkat daerah
+
+1
+
+Laporan
+
+1
+
+Laporan
+
+0.50511972274732
+
+Laporan
+
+50,51
+
+50,51
+
+Sekretaris
+
+2.15.01.2.02
+
+Administrasi Keuangan Perangkat Daerah
+
+2.15.01.2.02.0001
+
+Penyediaan Gaji dan Tunjangan ASN
+
+4.946.062.429
+
+3.634.568.165
+
+4.348.978.674
+
+119,66
+
+87,93
+
+Jumlah orang yang menerima gaji dan tunjangan
+ASN
+
+12
+
+orang/bulan
+
+8.8180888547373
+
+orang/bulan
+
+10.551371891711
+
+orang/bulan
+
+119,66
+
+87,93
+
+Sekretaris
+
+2.15.01.2.02.0002
+
+Penyediaan Administrasi Pelaksanaan Tugas ASN
+
+87.029.000
+
+79.881.500
+
+47.906.000
+
+59,97
+
+55,05
+
+Jumlah dokumen hasil penyediaan administrasi
+pelaksanaan tugas ASN
+
+12
+
+Dokumen
+
+11.01446644222
+
+Dokumen
+
+6.6055222971653
+
+Dokumen
+
+59,97
+
+55,05
+
+Sekretaris
+
+2.15.01.2.02.0007
+
+Koordinasi dan Penyusunan Laporan Keuangan
+Bulanan/ Triwulanan/ Semesteran SKPD
+
+36.181.000
+
+36.181.000
+
+28.703.000
+
+79,33
+
+79,33
+
+Jumlah laporan keuangan
+Bulanan/Triwulanan/Semesteran SKPD dan
+laporan koordinasi penyusunan laporan keuangan
+Bulanan/Triwulanan/Semesteran SKPD
+
+14
+
+Laporan
+
+14
+
+Laporan
+
+11.106437080235
+
+Laporan
+
+79,33
+
+79,33
+
+Sekretaris
+
+2.15.01.2.03
+
+Administrasi Barang Milik Daerah pada Perangkat Daerah
+
+2.15.01.2.03.0001
+
+Penyusunan Perencanaan Kebutuhan Barang Milik
+Daerah SKPD
+
+34.988.000
+
+34.848.000
+
+34.981.500
+
+100,38
+
+99,98
+
+Jumlah rencana kebutuhan barang milik daerah
+pada SKPD
+
+12
+
+Dokumen
+
+11.951983537213
+
+Dokumen
+
+11.997770664228
+
+Dokumen
+
+100,38
+
+99,98
+
+Sekretaris
+
+2.15.01.2.04
+
+Administrasi Pendapatan Daerah Kewenangan Perangkat Daerah
+
+2.15.01.2.04.0004
+
+Pendataan dan Pendaftaran Objek Retribusi
+Daerah
+
+15.180.000
+
+8.470.000
+
+8.426.000
+
+99,48
+
+55,51
+
+Jumlah data objek, subjek, dan wajib retribusi
+daerah
+
+2
+
+Dokumen
+
+1.1159420289855
+
+Dokumen
+
+1.1101449275362
+
+Dokumen
+
+99,48
+
+55,51
+
+Sekretaris
+
+2.15.01.2.04.0007
+
+Pelaporan Pengelolaan Retribusi Daerah
+
+13.170.500
+
+13.170.500
+
+13.066.000
+
+99,21
+
+99,21
+
+Jumlah laporan pengelolaan retribusi daerah
+
+12
+
+Dokumen
+
+12
+
+Dokumen
+
+11.904787485019
+
+Dokumen
+
+99,21
+
+99,21
+
+Sekretaris
+
+Anggaran
+
+Kode
+
+Fisik
+
+Program / Kegiatan / Subkegiatan
+Target Pagu 1
+Tahun (Rp.)
+
+Target Kas s/d
+Bulan ini (Rp.)
+
+Realisasi (Rp.)
+
+Persentase
+Realisasi
+Terhadap
+TargetKas
+Bulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Pagu 1
+Tahun(%)
+
+Indikator
+
+Target Fisik 1 Tahun
+
+Target Fisik s/d Bulan ini
+
+Realisasi Fisik
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik
+Bulan
+ini(%)
+
+Penanggung
+Persentase Jawab
+Realisasi (jabatan
+&
+Terhadap
+nama)
+Target
+Fisik 1
+Tahun(%)
+
+2.15.01.2.06
+
+Administrasi Umum Perangkat Daerah
+
+2.15.01.2.06.0002
+
+Penyediaan Peralatan dan Perlengkapan Kantor
+
+60.217.500
+
+60.217.500
+
+54.558.350
+
+90,60
+
+90,60
+
+Jumlah paket peralatan dan perlengkapan kantor
+yang disediakan
+
+8
+
+Paket
+
+8
+
+Paket
+
+7.2481720430108
+
+Paket
+
+90,60
+
+90,60
+
+Sekretaris
+
+2.15.01.2.06.0005
+
+Penyediaan Barang Cetakan dan Penggandaan
+
+31.805.900
+
+31.805.900
+
+22.893.800
+
+71,98
+
+71,98
+
+Jumlah paket barang cetakan dan penggandaan
+yang disediakan
+
+1
+
+Paket
+
+1
+
+Paket
+
+0.71979727031777
+
+Paket
+
+71,98
+
+71,98
+
+Sekretaris
+
+2.15.01.2.06.0006
+
+Penyediaan Bahan Bacaan dan Peraturan
+Perundang-undangan
+
+2.400.000
+
+2.200.000
+
+1.880.000
+
+85,45
+
+78,33
+
+Jumlah dokumen bahan bacaan dan peratura
+perundang-undangan yang disediakan
+
+1
+
+Dokumen
+
+0.91666666666667
+
+Dokumen
+
+0.78333333333333
+
+Dokumen
+
+85,45
+
+78,33
+
+Sekretaris
+
+2.15.01.2.06.0008
+
+Fasilitasi Kunjungan Tamu
+
+22.700.000
+
+22.700.000
+
+16.717.700
+
+73,65
+
+73,65
+
+Jumlah laporan fasilitasi kunjungan tamu
+
+12
+
+Laporan
+
+12
+
+Laporan
+
+8.837550660793
+
+Laporan
+
+73,65
+
+73,65
+
+Sekretaris
+
+2.15.01.2.06.0009
+
+Penyelenggaraan Rapat Koordinasi dan Konsultasi
+SKPD
+
+473.850.000
+
+423.850.000
+
+358.988.416
+
+84,70
+
+75,76
+
+Jumlah laporan penyelenggaraan rapat koordinasi
+dan konsultasi SKPD
+
+30
+
+Laporan
+
+26.834441278886
+
+Laporan
+
+22.727978220956
+
+Laporan
+
+84,70
+
+75,76
+
+Sekretaris
+
+2.15.01.2.07
+
+Pengadaan Barang Milik Daerah Penunjang Urusan Pemerintah Daerah
+
+2.15.01.2.07.0006
+
+Pengadaan Peralatan dan Mesin Lainnya
+
+26.249.850
+
+26.249.850
+
+0
+
+0,00
+
+0,00
+
+Jumlah Unit Peralatan dan Mesin Lainnya yang
+Disediakan
+
+4
+
+Unit
+
+4
+
+Unit
+
+0
+
+Unit
+
+0,00
+
+0,00
+
+Sekretaris
+
+2.15.01.2.08
+
+Penyediaan Jasa Penunjang Urusan Pemerintahan Daerah
+
+2.15.01.2.08.0001
+
+Penyediaan Jasa Surat Menyurat
+
+3.000.000
+
+3.000.000
+
+2.040.000
+
+68,00
+
+68,00
+
+Jumlah laporan penyediaan jasa surat menyurat
+
+4120
+
+Laporan
+
+4120
+
+Laporan
+
+2801.6
+
+Laporan
+
+68,00
+
+68,00
+
+Sekretaris
+
+2.15.01.2.08.0002
+
+Penyediaan Jasa Komunikasi, Sumber Daya Air
+dan Listrik
+
+4.970.764.850
+
+4.894.237.257
+
+4.433.881.055
+
+90,59
+
+89,20
+
+Jumlah laporan penyediaan jasa komunikasi,
+sumber daya air dan listrik yang disediakan
+
+8
+
+Laporan
+
+7.8768357058773
+
+Laporan
+
+7.1359337064597
+
+Laporan
+
+90,59
+
+89,20
+
+Sekretaris
+
+2.15.01.2.08.0003
+
+Penyediaan Jasa Peralatan dan Perlengkapan
+Kantor
+
+25.500.000
+
+25.500.000
+
+25.500.000
+
+100,00
+
+100,00
+
+Jumlah laporan penyediaan jasa peralatan dan
+perlengkapan kantor yang disediakan
+
+12
+
+Laporan
+
+12
+
+Laporan
+
+12
+
+Laporan
+
+100,00
+
+100,00
+
+Sekretaris
+
+2.15.01.2.08.0004
+
+Penyediaan Jasa Pelayanan Umum Kantor
+
+1.140.874.000
+
+1.019.784.000
+
+929.150.000
+
+91,11
+
+81,44
+
+Jumlah laporan penyediaan jasa pelayanan umum
+kantor yang disediakan
+
+12
+
+Laporan
+
+10.72634488997
+
+Laporan
+
+9.7730336566527
+
+Laporan
+
+91,11
+
+81,44
+
+Sekretaris
+
+2.15.01.2.09.0002
+
+Penyediaan Jasa Pemeliharaan, Biaya
+Pemeliharaan, Pajak dan Perizinan Kendaraan
+Dinas Operasional atau Lapangan
+
+300.418.386
+
+300.418.386
+
+200.810.956
+
+66,84
+
+66,84
+
+Jumlah kendaraan dinas operasiona atau lapangan
+yang dipelihara dan dibayarkan pajak dan
+perizinannya
+
+58
+
+Unit
+
+58
+
+Unit
+
+38.769383001028
+
+Unit
+
+66,84
+
+66,84
+
+Sekretaris
+
+2.15.01.2.09
+
+Pemeliharaan Barang Milik Daerah Penunjang Urusan Pemerintahan Daerah
+
+2.15.01.2.09.0006
+
+Pemeliharaan Peralatan dan Mesin Lainnya
+
+13.890.000
+
+13.890.000
+
+4.600.000
+
+33,12
+
+33,12
+
+Jumlah peralatan dan mesin lainnya yang
+dipelihara
+
+58
+
+Unit
+
+58
+
+Unit
+
+19.208063354932
+
+Unit
+
+33,12
+
+33,12
+
+Sekretaris
+
+2.15.01.2.09.0009
+
+Pemeliharaan/Rehabilitasi Gedung Kantor dan
+Bangunan Lainnya
+
+147.618.000
+
+147.618.000
+
+135.350.500
+
+91,69
+
+91,69
+
+Jumlah gedung kantor dan bangunan lainnya yang
+dipelihara/direhabilitasi
+
+3
+
+Unit
+
+3
+
+Unit
+
+2.7506909726456
+
+Unit
+
+91,69
+
+91,69
+
+Sekretaris
+
+2.15.02
+
+PROGRAM PENYELENGGARAAN LALU LINTAS DAN ANGKUTAN JALAN (LLAJ)
+
+2.15.02.2.01
+
+Penetapan Rencana Induk Jaringan LLAJ Kabupaten/Kota
+
+2.15.02.2.01.0001
+
+Pelaksanaan Penyusunan Rencana Induk Jaringan
+LLAJ Kabupaten/Kota
+
+12
+
+Dokumen
+
+12
+
+Dokumen
+
+4.9297994034994
+
+Dokumen
+
+41,08
+
+41,08
+
+Kabid.
+Lalu
+Lintas
+dan
+Angkutan
+Jalan
+
+2.15.02.2.02
+
+Penyediaan Perlengkapan Jalan di Jalan Kabupaten/Kota
+
+2.15.02.2.02.0002
+
+Penyediaan Perlengkapan Jalan di Jalan
+Kabupaten/Kota
+
+5
+
+Unit
+
+5
+
+Unit
+
+1.2985878503621
+
+Unit
+
+25,97
+
+25,97
+
+Kabid.
+Prasarana
+dan
+PJU
+
+183.403.000
+
+183.403.000
+
+75.345.000
+
+41,08
+
+41,08
+
+Jumlah dokumen penyusunan rencana induk
+jaringan LLAJ Kabupaten/Kota
+
+3.266.948.400
+
+3.266.948.400
+
+848.483.900
+
+25,97
+
+25,97
+
+Jumlah perlengkapan jalan dijalan Kabupaten/Kota
+yang tersedia
+
+Anggaran
+
+Kode
+
+Fisik
+
+Program / Kegiatan / Subkegiatan
+Target Pagu 1
+Tahun (Rp.)
+
+524.733.300
+
+Target Kas s/d
+Bulan ini (Rp.)
+
+Indikator
+
+64,93
+
+62,26
+
+Jumlah perlengkapan jalan yang terehabilitasi dan
+terpelihara
+
+67,46
+
+Jumlah kendaraan wajib uji berkala kendaraan
+bermotor yang terdaftar
+
+0,00
+
+Jumlah sarana dan prasarana pengujian berkala
+kendaraan bermotor yang terpelihara
+
+12
+
+Laporan
+
+12
+
+Laporan
+
+9.5569518642566
+
+Laporan
+
+12
+
+Laporan
+
+12
+
+Laporan
+
+3.1631725553438
+
+Target Fisik 1 Tahun
+
+Rehabilitasi dan Pemeliharaan Perlengkapan Jalan
+
+2.15.02.2.05
+
+Pengujian Berkala Kendaraan Bermotor
+
+2.15.02.2.05.0003
+
+Registrasi Kendaraan Wajib Uji Berkala
+Kendaraan Bermotor
+
+2.15.02.2.05.0007
+
+Pemeliharaan Sarana dan Prasarana Pengujian
+Berkala Kendaraan Bermotor
+
+2.15.02.2.06
+
+Pelaksanaan Manajemen dan Rekayasa Lalu Lintas untuk Jaringan Jalan Kabupaten/Kota
+
+2.15.02.2.06.0015
+
+Forum Lalu Lintas dan Angkutan Jalan untuk
+Jaringan Jalan Kabupaten/Kota
+
+2.15.02.2.08
+
+Audit dan Inspeksi Keselamatan LLAJ di Jalan
+
+2.15.02.2.08.0003
+
+Pelaksanaan Inspeksi, Audit dan Pemantauan
+Terminal
+
+2.15.03
+
+PROGRAM PENGELOLAAN PELAYARAN
+
+2.15.03.2.06
+
+Penetapan Lintas Penyeberangan Dan Persetujuanpengoperasian Kapal Dalam Daerah Kabupaten/Kota Yang Terletakpada Jaringan Jalan Kabupaten/Kota Dan/Atau Jaringan Jalur Keretaapi Kabupaten/Kota
+
+2.15.03.2.06.0003
+
+Penyediaan Data dan Informasi Jaringan Trayek
+Sungai, Danau dan Penyeberangan dan
+Persetujuan Pengoperasian Angkutan Sungai,
+Danau dan Penyeberangan dalam Daerah
+Kabupaten/Kota yang Terletak pada Jaringan Jalan
+Kabupaten/Kota dan/atau Jaringan Jalur Kereta
+Api Kabupaten/Kota dalam Daerah
+Kabupaten/Kota
+
+2.15.03.2.07
+
+Penetapan Lintas Penyeberangan dan Persetujuan Pengoperasian untuk Kapal yang Melayani Penyeberangan dalam Daerah Kabupaten/Kota
+
+2.15.03.2.07.0004
+
+Pengendalian dan Pengawasan Jaringan Trayek
+Sungai, Danau dan Penyeberangan dan
+Persetujuan Pengoperasian untuk Angkutan
+Sungai, Danau dan Penyeberangan dalam Daerah
+Kabupaten/Kota
+
+2.15.03.2.12
+
+Pembangunan, Penerbitan Izin Pembangunan Dan pengoperasian Pelabuhan Pengumpan Lokal
+
+2.15.03.2.12.0003
+
+Pengoperasian dan Pemeliharaan Pelabuhan
+Pengumpan Lokal
+
+70.000.000
+
+75.170.000
+
+70.000.000
+
+326.721.000
+
+Persentase
+Realisasi
+Terhadap
+Target
+Pagu 1
+Tahun(%)
+
+2.15.02.2.02.0004
+
+75.170.000
+
+503.189.300
+
+Realisasi (Rp.)
+
+Persentase
+Realisasi
+Terhadap
+TargetKas
+Bulan
+ini(%)
+
+50.710.000
+
+0
+
+67,46
+
+0,00
+
+108.381.000
+
+108.381.000
+
+86.316.000
+
+79,64
+
+79,64
+
+Jumlah laporan forum lalu lintas dan angkutan
+jalan untuk jaringan jalan Kabupaten/Kota
+
+13.642.000
+
+13.642.000
+
+3.596.000
+
+26,36
+
+26,36
+
+Jumlah laporan inspeksi, audit, dan pemantauan
+terminal
+
+45.867.028
+
+17.589.500
+
+112.590.000
+
+45.867.028
+
+17.589.500
+
+112.590.000
+
+35.803.000
+
+78,06
+
+78,06
+
+80
+
+860
+
+7
+
+Unit
+
+Unit
+
+Unit
+
+Target Fisik s/d Bulan ini
+
+76.715436203496
+
+860
+
+7
+
+Unit
+
+Unit
+
+Unit
+
+Realisasi Fisik
+
+49.811361314405
+
+580.15963815352
+
+0
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik
+Bulan
+ini(%)
+
+Penanggung
+Persentase Jawab
+Realisasi (jabatan
+&
+Terhadap
+nama)
+Target
+Fisik 1
+Tahun(%)
+
+62,26
+
+Kabid.
+Prasarana
+dan
+PJU
+
+67,46
+
+Kabid.
+Lalu
+Lintas
+dan
+Angkutan
+Jalan
+
+0,00
+
+Kabid.
+Lalu
+Lintas
+dan
+Angkutan
+Jalan
+
+79,64
+
+79,64
+
+Kabid.
+Lalu
+Lintas
+dan
+Angkutan
+Jalan
+
+Laporan
+
+26,36
+
+26,36
+
+Kabid.
+Kepelabuhanan
+dan
+Terminal
+
+Unit
+
+Unit
+
+Unit
+
+64,93
+
+67,46
+
+0,00
+
+Jumlah dokumen pemenuhan persyaratan
+perolehan izin usaha penyelenggaraan angkutan
+penyeberangan sesuai dengan domisili badan
+usaha kewenangan Kabupaten/Kota dalam sistem
+pelayanan perizinan berusaha terintegrasi secara
+elektronik
+
+12
+
+Dokumen
+
+12
+
+Dokumen
+
+9.3669901612112
+
+Dokumen
+
+78,06
+
+78,06
+
+Kabid.
+Kepelabuhanan
+dan
+Terminal
+
+16.379.500
+
+93,12
+
+93,12
+
+Jumlah data dan informasi jaringan lintas
+penyeberangan dan disetujuinya pengoperasian
+untuk kapal yang melayani penyeberangan dalam
+daerah Kabupaten/Kota
+
+12
+
+Laporan
+
+12
+
+Laporan
+
+11.17450751869
+
+Laporan
+
+93,12
+
+93,12
+
+Kabid.
+Kepelabuhanan
+dan
+Terminal
+
+112.520.500
+
+99,94
+
+99,94
+
+Jumlah pelabuhan pengumpan lokal yang
+beroperasi dan terpelihara
+
+4
+
+Unit
+
+4
+
+Unit
+
+3.9975308641975
+
+Unit
+
+99,94
+
+99,94
+
+Kabid.
+Kepelabuhanan
+dan
+Terminal
+
+Anggaran
+
+Kode
+
+Program / Kegiatan / Subkegiatan
+Target Pagu 1
+Tahun (Rp.)
+
+2.15.03.2.12.0004
+
+Target Kas s/d
+Bulan ini (Rp.)
+
+Realisasi (Rp.)
+
+Fisik
+
+Persentase
+Realisasi
+Terhadap
+TargetKas
+Bulan
+ini(%)
+
+Persentase
+Realisasi
+Terhadap
+Target
+Pagu 1
+Tahun(%)
+
+Pengawasan Pengoperasian Pelabuhan Pengumpan
+Lokal
+
+65.464.000
+
+65.464.000
+
+19.342.000
+
+29,55
+
+29,55
+
+Total :
+
+16.899.999.420
+
+15.298.971.263
+
+12.295.138.351
+
+80,37
+
+72,75
+
+Indikator
+
+Jumlah laporan pengawasan pengoperasian
+pelabuhan pengumpan lokal
+
+Target Fisik 1 Tahun
+
+1
+
+Laporan
+
+Target Fisik s/d Bulan ini
+
+1
+
+Laporan
+
+Realisasi Fisik
+
+1
+
+Laporan
+
+Persentase
+Realisasi
+Terhadap
+Target
+Fisik
+Bulan
+ini(%)
+
+Penanggung
+Persentase Jawab
+Realisasi (jabatan
+&
+Terhadap
+nama)
+Target
+Fisik 1
+Tahun(%)
+
+100,00
+
+100,00
+
+67,87
+
+67,69
+
+Kabid.
+Kepelabuhanan
+dan
+Terminal
+
+Kabag. Adm. Pembangunan Kota Baubau,
+
+Super Admin
+NIP. 1234567890
+
+
