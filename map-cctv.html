@@ -184,17 +184,11 @@
     var layersByCategory = {};
     var activeCategories = new Set();
 
-    // Define icons for each category
-    const iconBasePath = 'assets/icon/';
-    const categoriesWithIcons = ['CCTV'];
-    const iconMapping = {};
-    categoriesWithIcons.forEach(cat => {
-        iconMapping[cat] = L.icon({
-            iconUrl: iconBasePath + cat.toLowerCase() + '.png',
-            iconSize: [32, 32],
-            iconAnchor: [16, 32],
-            popupAnchor: [0, -32]
-        });
+    const cctvIcon = L.icon({
+        iconUrl: 'assets/icon/cctv.png',
+        iconSize: [32, 32],
+        iconAnchor: [16, 32],
+        popupAnchor: [0, -32]
     });
 
     fetch('./File/cctv-kotabaubau.json')
@@ -203,12 +197,7 @@
             data.forEach(function(point) {
                 if (point.Y && point.X) {
                     var category = point.kategori || 'CCTV';
-                    var marker;
-                    if (iconMapping[category]) {
-                        marker = L.marker([point.Y, point.X], { icon: iconMapping[category] });
-                    } else {
-                        marker = L.marker([point.Y, point.X]); // Default icon for categories without one
-                    }
+                    var marker = L.marker([point.Y, point.X], { icon: cctvIcon });
                     marker.bindPopup("<b>" + point.Name + "</b><br>Kategori: " + category);
 
                     if (!layersByCategory[category]) {
@@ -218,10 +207,10 @@
                 }
             });
 
+            // --- Filter button logic ---
             var filterButtons = document.getElementById('filter-buttons');
             var categories = Object.keys(layersByCategory).sort();
 
-            // Add "All" button
             var allButton = document.createElement('button');
             allButton.innerHTML = '<img src="assets/icon/cctv.png" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;"> Semua';
             allButton.className = 'filter-btn active';
@@ -235,15 +224,10 @@
             });
             filterButtons.appendChild(allButton);
 
-            // Add category buttons
             categories.forEach(function(cat) {
                 var button = document.createElement('button');
-                var iconUrl = iconMapping[cat] ? iconMapping[cat].options.iconUrl : '';
-                if (iconUrl) {
-                    button.innerHTML = `<img src="${iconUrl}" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;"> ${cat}`;
-                } else {
-                    button.innerHTML = cat;
-                }
+                var iconUrl = 'assets/icon/cctv.png';
+                button.innerHTML = `<img src="${iconUrl}" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;"> ${cat}`;
                 button.className = 'filter-btn';
                 button.dataset.category = cat;
                 button.addEventListener('click', function() {
@@ -255,10 +239,10 @@
                     updateMapAndButtons();
                 });
                 filterButtons.appendChild(button);
-                activeCategories.add(cat); // Initially all active
+                activeCategories.add(cat);
             });
 
-            updateMapAndButtons(); // Initial draw
+            updateMapAndButtons();
 
             function updateMapAndButtons() {
                 categories.forEach(function(cat) {
