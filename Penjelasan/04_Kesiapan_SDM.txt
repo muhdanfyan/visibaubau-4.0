@@ -20,6 +20,8 @@ Keahlian individual dari para praktisi memberikan dukungan teknis dan manajerial
 -   **Muhdan Fyan Syah Sofian:** Perwakilan dari Komunitas dan Pondok Informatika, serta owner dari CV. Sarjana Komputer Indonesia.
 -   **Hermawan Safrin:** Seorang Backend Developer dengan lebih dari 5 tahun pengalaman membangun Scalable RESTful APIs, dengan pengalaman di perusahaan internasional.
 -   **Ahmad Dahsan:** Seorang Frontend Developer dengan pengalaman dalam pengembangan aplikasi dan juga penanggung jawab akademik di Pondok Informatika.
+-   **Arif Rizal:** Seorang Backend Developer dengan pengalaman dalam pengembangan aplikasi berbasis RESTful API, serta pengguna teknologi seperti Node.js, Express.js, dan MongoDB.
+
 
 ### 5. Akademisi
 Keterlibatan akademisi memastikan bahwa inisiatif ini didukung oleh landasan teoretis dan keahlian teknis tingkat tinggi.
