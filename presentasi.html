@@ -51,6 +51,28 @@
         color: #2F80ED; /* Match existing nav-item hover color */
         padding-left: 25px; /* Add slight indent on hover/active */
       }
+      .page-title-overlay {
+        position: relative;
+        background-image: url('assets/img/about/aplikasi_satu_data.png');
+        background-size: cover;
+        background-position: center;
+        padding: 120px 0;
+        z-index: 1;
+      }
+      .page-title-overlay::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(50, 52, 80, 0.7);
+        z-index: -1;
+      }
+      .page-title-overlay .page-title-content h2,
+      .page-title-overlay .page-title-content p {
+        color: #ffffff;
+      }
     </style>
   </head>
   <body>
@@ -102,7 +124,7 @@
     <!-- ========================= Video Embed Section End ========================= -->
 
     <!-- ========================= page-title-section start ========================= -->
-    <section class="page-title-section bg-white pt-150 pb-100">
+    <section class="page-title-section page-title-overlay">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 mx-auto">

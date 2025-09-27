@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html class="no-js" lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Roadmap Implementasi - Transformasi Digital Kota Baubau 4.0</title>
+    <meta name="description" content="Roadmap Implementasi Transformasi Digital Kota Baubau Menuju Kota 4.0 (2025-2035)" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap-5.0.0-alpha-2.min.css" />
+    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css"/>
+    <link rel="stylesheet" href="assets/css/animate.css"/>
+    <link rel="stylesheet" href="assets/css/lindy-uikit.css"/>
+    <link rel="icon" href="assets/img/logo/logobaubau4.0.png" type="image/png">
+    <style>
+      .header.header-2 .navbar-brand img {
+        height: 50px;
+        width: auto;
+      }
+      .roadmap-section {
+        padding: 120px 0;
+        background-color: #f8f9fa;
+      }
+      .timeline {
+        position: relative;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .timeline::after {
+        content: '';
+        position: absolute;
+        width: 6px;
+        background-color: #2F80ED;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        margin-left: -3px;
+        border-radius: 3px;
+      }
+      .timeline-item {
+        padding: 10px 40px;
+        position: relative;
+        background-color: inherit;
+        width: 50%;
+      }
+      .timeline-item.left {
+        left: 0;
+      }
+      .timeline-item.right {
+        left: 50%;
+      }
+      .timeline-item::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        right: -17px;
+        background-color: white;
+        border: 4px solid #2F80ED;
+        top: 30px;
+        border-radius: 50%;
+        z-index: 1;
+      }
+      .timeline-item.right::after {
+        left: -16px;
+      }
+      .timeline-content {
+        padding: 30px;
+        background-color: white;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.07);
+        border: 1px solid #eee;
+        transition: all 0.3s ease-out 0s;
+      }
+      .timeline-content:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 15px 40px rgba(47, 128, 237, 0.1);
+      }
+      .timeline-item.left {
+        padding-right: 30px;
+      }
+      .timeline-item.right {
+        padding-left: 30px;
+      }
+      .timeline-content h3 {
+        font-size: 1.75rem;
+        color: #2F80ED;
+        margin-bottom: 15px;
+        font-weight: 700;
+      }
+      .timeline-content h4 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        color: #323450;
+      }
+      .timeline-content ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .timeline-content ul li {
+        padding: 8px 0;
+        color: #585978;
+        display: flex;
+        align-items: flex-start;
+      }
+      .timeline-content ul li i {
+        margin-right: 12px;
+        color: #2F80ED;
+        font-size: 1.2em;
+        margin-top: 4px;
+      }
+
+      @media screen and (max-width: 768px) {
+        .timeline::after {
+          left: 31px;
+        }
+        .timeline-item {
+          width: 100%;
+          padding-left: 70px;
+          padding-right: 25px;
+        }
+        .timeline-item.left, .timeline-item.right {
+          left: 0%;
+        }
+        .timeline-item::after {
+          left: 18px;
+        }
+        .timeline-item.right::after {
+          left: 18px;
+        }
+      }
+      .page-title-overlay {
+        position: relative;
+        background-image: url('assets/img/about/aplikasi_satu_data.png');
+        background-size: cover;
+        background-position: center;
+        padding: 120px 0;
+        z-index: 1;
+      }
+      .page-title-overlay::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(50, 52, 80, 0.7);
+        z-index: -1;
+      }
+      .page-title-overlay .page-title-content h2,
+      .page-title-overlay .page-title-content p {
+        color: #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ========================= preloader start ========================= -->
+    <div class="preloader">
+      <div class="loader">
+        <div class="spinner">
+          <div class="spinner-container">
+            <div class="spinner-rotator">
+              <div class="spinner-left">
+                <div class="spinner-circle"></div>
+              </div>
+              <div class="spinner-right">
+                <div class="spinner-circle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ========================= preloader end ========================= -->
+
+    <div id="header-placeholder"></div>
+
+    <!-- ========================= page-title-section start ========================= -->
+    <section class="page-title-section page-title-overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 mx-auto">
+                    <div class="page-title-content text-center wow fadeInUp" data-wow-delay=".2s">
+                        <h2 class="mb-15">Roadmap Implementasi (2025-2035)</h2>
+                        <p>Strategi implementasi Visi Baubau 4.0 akan dilaksanakan dalam tiga tahap utama, berfokus pada pembangunan bertahap dan berkelanjutan untuk memastikan setiap pilar terbangun dengan fondasi yang kuat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========================= page-title-section end ========================= -->
+
+    <!-- ========================= Roadmap Section Start ========================= -->
+    <section id="roadmap" class="roadmap-section">
+      <div class="container">
+        <div class="timeline">
+
+          <!-- Tahap I -->
+          <div class="timeline-item left wow fadeInUp" data-wow-delay=".3s">
+            <div class="timeline-content">
+              <h3>Tahap I (2025-2028): Fondasi Digital</h3>
+              <h4>Aktivitas Utama:</h4>
+              <ul>
+                <li><i class="lni lni-apartment"></i>Pembangunan infrastruktur jaringan fiber optik backbone di kantor OPD, sekolah, dan puskesmas.</li>
+                <li><i class="lni lni-scroll-alt"></i>Penyusunan regulasi (Perda/Perwali) terkait SPBE sebagai landasan hukum.</li>
+                <li><i class="lni lni-grid-alt"></i>Pengembangan aplikasi pilot project Smart Office di beberapa OPD percontohan.</li>
+                <li><i class="lni lni-users"></i>Peningkatan kapabilitas SDM melalui pelatihan dasar dan sertifikasi digital.</li>
+              </ul>
+              <h4>Target:</h4>
+              <ul>
+                <li><i class="lni lni-target-revenue"></i>Minimal 70% kantor OPD, sekolah, dan puskesmas terhubung jaringan fiber optik.</li>
+                <li><i class="lni lni-target-revenue"></i>Minimal 50% layanan administrasi internal pemerintah telah didigitalisasi.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Tahap II -->
+          <div class="timeline-item right wow fadeInUp" data-wow-delay=".4s">
+            <div class="timeline-content">
+              <h3>Tahap II (2029-2032): Integrasi dan Layanan Publik</h3>
+              <h4>Aktivitas Utama:</h4>
+              <ul>
+                <li><i class="lni lni-display-alt"></i>Pembangunan dan fungsionalisasi Command Center sebagai pusat monitoring data real-time.</li>
+                <li><i class="lni lni-database"></i>Integrasi data dari berbagai OPD ke dalam platform Aplikasi Satu Data.</li>
+                <li><i class="lni lni-mobile"></i>Peluncuran aplikasi layanan publik digital untuk masyarakat (perizinan, pengaduan, dll).</li>
+                <li><i class="lni lni-server"></i>Pembangunan Data Center lokal yang memenuhi standar keamanan dan keandalan (Tier-2).</li>
+              </ul>
+              <h4>Target:</h4>
+              <ul>
+                <li><i class="lni lni-target-revenue"></i>Tercapainya interoperabilitas data yang mulus antar-OPD.</li>
+                <li><i class="lni lni-target-revenue"></i>Minimal 50% layanan publik esensial bagi masyarakat tersedia secara online.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Tahap III -->
+          <div class="timeline-item left wow fadeInUp" data-wow-delay=".5s">
+            <div class="timeline-content">
+              <h3>Tahap III (2033-2035): Transformasi & Inovasi</h3>
+              <h4>Aktivitas Utama:</h4>
+              <ul>
+                <li><i class="lni lni-stats-up"></i>Pemanfaatan Big Data dan AI untuk pengambilan keputusan yang lebih prediktif.</li>
+                <li><i class="lni lni-bulb"></i>Pengembangan layanan berbasis IoT (smart lighting, manajemen sampah, public safety).</li>
+                <li><i class="lni lni-handshake"></i>Penguatan kemitraan dengan swasta, akademisi, dan komunitas untuk inovasi startup digital.</li>
+                <li><i class="lni lni-comments-alt"></i>Pengembangan platform digital untuk partisipasi masyarakat dalam perencanaan pembangunan.</li>
+              </ul>
+              <h4>Target:</h4>
+              <ul>
+                <li><i class="lni lni-target-revenue"></i>Visi Kota Baubau sebagai smart city berbasis data dan inovasi kolaboratif terwujud.</li>
+                <li><i class="lni lni-target-revenue"></i>Terbentuknya ekosistem digital yang berkelanjutan dan mendorong pertumbuhan ekonomi lokal.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- ========================= Roadmap Section End ========================= -->
+
+    <div id="footer-placeholder"></div>
+
+    <!-- ========================= JS here ========================= -->
+    <script src="assets/js/bootstrap.5.0.0.alpha-2-min.js"></script>
+    <script src="assets/js/count-up.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/templating.js"></script>
+  </body>
+</html>
