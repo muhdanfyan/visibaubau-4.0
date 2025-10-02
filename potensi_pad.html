@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html class="no-js" lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Potensi Peningkatan PAD - Visi Baubau 4.0</title>
+    <meta name="description" content="Infografis Potensi dan Strategi Peningkatan Pendapatan Asli Daerah (PAD) Kota Baubau." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- ========== Open Graph/Facebook Meta Tags ========== -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://visibaubau4.netlify.app/potensi_pad.html">
+    <meta property="og:title" content="Potensi Peningkatan PAD - Visi Baubau 4.0">
+    <meta property="og:description" content="Infografis Potensi dan Strategi Peningkatan Pendapatan Asli Daerah (PAD) Kota Baubau.">
+    <meta property="og:image" content="https://visibaubau4.netlify.app/assets/img/baubau-4.0-hero-graphic-light.png">
+
+    <!-- ========== Twitter Meta Tags ========== -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://visibaubau4.netlify.app/potensi_pad.html">
+    <meta property="twitter:title" content="Potensi Peningkatan PAD - Visi Baubau 4.0">
+    <meta property="twitter:description" content="Infografis Potensi dan Strategi Peningkatan Pendapatan Asli Daerah (PAD) Kota Baubau.">
+    <meta property="twitter:image" content="https://visibaubau4.netlify.app/assets/img/baubau-4.0-hero-graphic-light.png">
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap-5.0.0-alpha-2.min.css" />
+    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css"/>
+    <link rel="stylesheet" href="assets/css/animate.css"/>
+    <link rel="stylesheet" href="assets/css/lindy-uikit.css"/>
+    <link rel="icon" href="assets/img/logo/logobaubau4.0.png" type="image/png">
+    <style>
+      .header.header-2 .navbar-brand {
+        padding: 0;
+      }
+      .header.header-2 .navbar-brand img {
+        height: 50px;
+        width: auto;
+      }
+      .pilar-card {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 35px;
+        margin-bottom: 30px;
+        border: 1px solid #eee;
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s ease-out 0s;
+        text-align: center;
+        height: 100%;
+      }
+      .pilar-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0px 15px 40px rgba(47, 128, 237, 0.1);
+      }
+      .pilar-card .icon {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background-color: rgba(47, 128, 237, 0.1);
+        color: #2F80ED;
+        font-size: 1.875rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 25px;
+        transition: all 0.3s ease-out 0s;
+      }
+      .pilar-card:hover .icon {
+        background-color: #2F80ED;
+        color: #fff;
+      }
+      .pilar-card .content h5 {
+        font-size: 1.125rem;
+        font-weight: 600;
+      }
+      .about-section .about-image img {
+        transition: transform 0.4s ease;
+        border-radius: 10px;
+        box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+      }
+      .about-section .about-image:hover img {
+        transform: scale(1.05);
+      }
+      .hero-section-wrapper-3 {
+        position: relative;
+        color: white;
+        background-size: cover;
+        background-position: center center;
+      }
+      .hero-section-wrapper-3::before {
+        content: '';
+        position: absolute;
+        top: 0; left: 0; right: 0; bottom: 0;
+        background-color: rgba(50, 52, 80, 0.85);
+      }
+      .hero-section-wrapper-3 .hero-content h1 {
+        color: #fff !important;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+      }
+      .hero-section-wrapper-3 .hero-content p {
+        text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+      }
+      .hero-section-wrapper-3 .hero-content {
+        position: relative;
+        z-index: 1;
+        padding: 180px 0;
+      }
+      .progress-bar-label {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+        font-weight: 500;
+      }
+      .accordion-button:not(.collapsed) {
+        color: #fff;
+        background-color: #4a6cf7;
+      }
+      .accordion-button i {
+          margin-right: 15px;
+          font-size: 20px;
+      }
+      .opd-card {
+        background: #fff;
+        border-radius: 10px;
+        padding: 30px;
+        margin-bottom: 30px;
+        border: 1px solid #eee;
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s ease-out 0s;
+        height: 100%;
+      }
+      .opd-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 15px 40px rgba(47, 128, 237, 0.1);
+      }
+      .opd-card .header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      .opd-card .header .icon {
+        font-size: 40px;
+        color: #2F80ED;
+        margin-right: 20px;
+      }
+      .opd-card .header h5 {
+        margin-bottom: 0;
+        font-size: 1.2rem;
+      }
+      .opd-card .content p {
+        margin-bottom: 15px;
+      }
+      .opd-card .content strong {
+        color: #333;
+        font-weight: 600;
+      }
+      .strategy-feature {
+        background: #f9f9f9;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        transition: all 0.3s ease;
+      }
+      .strategy-feature:hover {
+        background: #fff;
+        box-shadow: 0px 10px 20px rgba(0,0,0,0.08);
+        transform: translateX(5px);
+      }
+      .strategy-feature .icon {
+        font-size: 28px;
+        color: #2F80ED;
+        margin-right: 15px;
+      }
+      .strategy-feature .content h6 {
+        margin-bottom: 0;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ========================= preloader start ========================= -->
+    <div class="preloader">
+      <div class="loader">
+        <div class="spinner">
+          <div class="spinner-container">
+            <div class="spinner-rotator">
+              <div class="spinner-left">
+                <div class="spinner-circle"></div>
+              </div>
+              <div class="spinner-right">
+                <div class="spinner-circle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ========================= preloader end ========================= -->
+
+    <div id="header-placeholder"></div>
+
+    <!-- ========================= hero-section start ========================= -->
+    <section id="home" class="hero-section-wrapper-3" style="background-image: url('assets/img/baubau-night-view-with-network.png');">
+      <div class="hero-content">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="hero-content-wrapper text-center">
+                <h1 class="wow fadeInUp" data-wow-delay=".2s">Potensi Peningkatan PAD</h1>
+                <p class="wow fadeInUp" data-wow-delay=".4s">Infografis potensi dan strategi peningkatan Pendapatan Asli Daerah (PAD) Kota Baubau.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========================= hero-section end ========================= -->
+
+    <!-- ========================= 4 Sumber PAD Section Start ========================= -->
+    <section id="sumber-pad" class="feature-section pt-120 pb-90">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center mb-60">
+              <h3 class="mb-15 wow fadeInUp" data-wow-delay=".2s">4 Sumber Utama PAD</h3>
+              <p class="wow fadeInUp" data-wow-delay=".4s">Pendapatan Asli Daerah (PAD) bersumber dari empat kelompok utama yang menjadi fondasi keuangan daerah.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="pilar-card wow fadeInUp" data-wow-delay=".2s">
+              <div class="icon"><i class="lni lni-revenue"></i></div>
+              <div class="content">
+                <h5>Pajak Daerah</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="pilar-card wow fadeInUp" data-wow-delay=".4s">
+              <div class="icon"><i class="lni lni-ticket-alt"></i></div>
+              <div class="content">
+                <h5>Retribusi Daerah</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="pilar-card wow fadeInUp" data-wow-delay=".6s">
+              <div class="icon"><i class="lni lni-diamond-alt"></i></div>
+              <div class="content">
+                <h5>Kekayaan Daerah</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="pilar-card wow fadeInUp" data-wow-delay=".8s">
+              <div class="icon"><i class="lni lni-files"></i></div>
+              <div class="content">
+                <h5>Lain-lain PAD Sah</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========================= 4 Sumber PAD Section End ========================= -->
+
+    <!-- ========================= about style-3 start ========================= -->
+    <section id="strategi" class="about-section about-style-3">
+      <div class="container">
+        <!-- Intensifikasi -->
+        <div class="row align-items-center mb-80">
+          <div class="col-lg-6">
+            <div class="about-image wow fadeInLeft" data-wow-delay=".2s">
+              <img src="assets/img/data-center-concept-illustration.png" alt="Intensifikasi PAD">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-content-wrapper">
+              <div class="section-title mb-40">
+                <h3 class="mb-25 wow fadeInUp" data-wow-delay=".2s">Strategi Intensifikasi</h3>
+                <p class="wow fadeInUp" data-wow-delay=".4s">Mengoptimalkan sumber pendapatan yang sudah ada dengan pengelolaan yang lebih baik, transparan, dan berbasis digital.</p>
+              </div>
+              <div class="strategy-feature wow fadeInUp" data-wow-delay=".5s">
+                  <div class="icon"><i class="lni lni-laptop-phone"></i></div>
+                  <div class="content"><h6>Digitalisasi Layanan Pajak & Retribusi</h6></div>
+              </div>
+              <div class="strategy-feature wow fadeInUp" data-wow-delay=".6s">
+                  <div class="icon"><i class="lni lni-user-follow"></i></div>
+                  <div class="content"><h6>Peningkatan Kepatuhan Wajib Pajak</h6></div>
+              </div>
+              <div class="strategy-feature wow fadeInUp" data-wow-delay=".7s">
+                  <div class="icon"><i class="lni lni-cogs"></i></div>
+                  <div class="content"><h6>Efisiensi Pengelolaan Aset Daerah</h6></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Ekstensifikasi -->
+        <div class="row align-items-center">
+          <div class="col-lg-6 order-lg-last">
+            <div class="about-image wow fadeInRight" data-wow-delay=".2s">
+              <img src="assets/img/command-center-illustration.png" alt="Ekstensifikasi PAD">
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="about-content-wrapper">
+              <div class="section-title mb-40">
+                <h3 class="mb-25 wow fadeInUp" data-wow-delay=".2s">Strategi Ekstensifikasi</h3>
+                <p class="wow fadeInUp" data-wow-delay=".4s">Mencari dan mengembangkan sumber-sumber pendapatan baru yang potensial untuk mendorong pertumbuhan ekonomi daerah.</p>
+              </div>
+              <div class="strategy-feature wow fadeInUp" data-wow-delay=".5s">
+                  <div class="icon"><i class="lni lni-map-marker"></i></div>
+                  <div class="content"><h6>Pengembangan Potensi Pariwisata</h6></div>
+              </div>
+              <div class="strategy-feature wow fadeInUp" data-wow-delay=".6s">
+                  <div class="icon"><i class="lni lni-shopping-basket"></i></div>
+                  <div class="content"><h6>Mendorong Sektor Perdagangan & Jasa</h6></div>
+              </div>
+              <div class="strategy-feature wow fadeInUp" data-wow-delay=".7s">
+                  <div class="icon"><i class="lni lni-investment"></i></div>
+                  <div class="content"><h6>Menarik Investasi & Optimalisasi BUMD</h6></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========================= about style-3 end ========================= -->
+
+    <!-- ========================= Sektor Utama PAD START ========================= -->
+    <section class="feature-section feature-style-2 bg-light pt-120 pb-120">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center mb-60">
+              <h3 class="mb-15 wow fadeInUp" data-wow-delay=".2s">Sektor Penyumbang PAD Terbanyak</h3>
+              <p class="wow fadeInUp" data-wow-delay=".4s">Visualisasi kontributor utama PAD Kota Baubau berdasarkan realisasi anggaran pada umumnya.</p>
+            </div>
+          </div>
+        </div>
+        <div class="wow fadeInUp" data-wow-delay=".5s">
+          <div class="progress-bar-label"><span>Pajak Daerah (BPHTB, PPJ, PBB)</span><span>Sangat Tinggi</span></div>
+          <div class="progress mb-4" style="height: 25px;">
+            <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+          </div>
+
+          <div class="progress-bar-label"><span>Pendapatan Lain-lain yang Sah</span><span>Tinggi</span></div>
+          <div class="progress mb-4" style="height: 25px;">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+          </div>
+
+          <div class="progress-bar-label"><span>Hasil Kekayaan Daerah (BUMD)</span><span>Signifikan</span></div>
+          <div class="progress mb-4" style="height: 25px;">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+          </div>
+          
+          <div class="progress-bar-label"><span>Retribusi Daerah (Pasar, Parkir)</span><span>Cukup Besar</span></div>
+          <div class="progress mb-4" style="height: 25px;">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========================= Sektor Utama PAD ENDS ========================= -->
+
+    <!-- ========================= PERAN OPD START ========================= -->
+    <section class="pt-120 pb-90">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center mb-60">
+              <h3 class="mb-15 wow fadeInUp" data-wow-delay=".2s">Peran OPD dalam Peningkatan PAD</h3>
+              <p class="wow fadeInUp" data-wow-delay=".4s">Setiap OPD memiliki tanggung jawab dalam mengelola sumber pendapatan daerah, terutama dari sektor retribusi.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="opd-card wow fadeInUp" data-wow-delay=".3s">
+              <div class="header">
+                <div class="icon"><i class="lni lni-briefcase"></i></div>
+                <h5>Bapenda</h5>
+              </div>
+              <div class="content">
+                <p><strong>Potensi:</strong> Seluruh jenis Pajak Daerah (PBB, BPHTB, Hotel, Restoran, dll).</p>
+                <p><strong>Peningkatan:</strong> Pengawasan, penagihan aktif, dan digitalisasi layanan.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="opd-card wow fadeInUp" data-wow-delay=".4s">
+              <div class="header">
+                <div class="icon"><i class="lni lni-shopping-basket"></i></div>
+                <h5>Disperindag</h5>
+              </div>
+              <div class="content">
+                <p><strong>Potensi:</strong> Retribusi Pelayanan Pasar (Los, Kios, Pelataran).</p>
+                <p><strong>Peningkatan:</strong> Modernisasi pasar dan optimalisasi kontrak kios.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="opd-card wow fadeInUp" data-wow-delay=".5s">
+              <div class="header">
+                <div class="icon"><i class="lni lni-car-alt"></i></div>
+                <h5>Dishub</h5>
+              </div>
+              <div class="content">
+                <p><strong>Potensi:</strong> Retribusi Parkir, Jasa Kepelabuhanan, dan Terminal.</p>
+                <p><strong>Peningkatan:</strong> Parkir otomatis dan optimalisasi retribusi pelabuhan.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="opd-card wow fadeInUp" data-wow-delay=".3s">
+              <div class="header">
+                <div class="icon"><i class="lni lni-map-marker"></i></div>
+                <h5>Disparbud</h5>
+              </div>
+              <div class="content">
+                <p><strong>Potensi:</strong> Retribusi Tempat Rekreasi dan Olahraga.</p>
+                <p><strong>Peningkatan:</strong> Inovasi wisata, promosi masif, dan e-ticketing.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="opd-card wow fadeInUp" data-wow-delay=".4s">
+              <div class="header">
+                <div class="icon"><i class="lni lni-construction"></i></div>
+                <h5>Dinas PUPR</h5>
+              </div>
+              <div class="content">
+                <p><strong>Potensi:</strong> Retribusi Izin Mendirikan Bangunan (IMB/PBG).</p>
+                <p><strong>Peningkatan:</strong> Percepatan layanan perizinan dan pengawasan.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="opd-card wow fadeInUp" data-wow-delay=".5s">
+              <div class="header">
+                <div class="icon"><i class="lni lni-hospital"></i></div>
+                <h5>Dinkes / RSUD</h5>
+              </div>
+              <div class="content">
+                <p><strong>Potensi:</strong> Retribusi Jasa Umum (Layanan Kesehatan).</p>
+                <p><strong>Peningkatan:</strong> Peningkatan mutu layanan dan efisiensi manajemen BLUD.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========================= PERAN OPD ENDS ========================= -->
+
+    <div id="footer-placeholder"></div>
+
+    <!-- ========================= JS here ========================= -->
+    <script src="assets/js/bootstrap.5.0.0.alpha-2-min.js"></script>
+    <script src="assets/js/count-up.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/templating.js"></script>
+  </body>
+</html>
