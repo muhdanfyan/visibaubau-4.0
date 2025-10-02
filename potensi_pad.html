@@ -200,6 +200,40 @@
         margin-right: 15px;
         width: 30px;
       }
+      .case-study-section {
+        background-color: #fff;
+      }
+      .flow-box {
+        padding: 25px;
+        border: 1px solid #eee;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        position: relative;
+      }
+      .flow-box h5 {
+        font-weight: 600;
+        margin-bottom: 15px;
+      }
+      .flow-step {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+      }
+      .flow-step .icon {
+        font-size: 22px;
+        color: #2F80ED;
+        margin-right: 15px;
+        width: 25px;
+        text-align: center;
+      }
+      .flow-box.before {
+        border-color: #f5a623;
+      }
+      .flow-box.after {
+        border-color: #2F80ED;
+      }
+      .flow-box.before h5 { color: #f5a623; }
+      .flow-box.after h5 { color: #2F80ED; }
     </style>
   </head>
   <body>
@@ -404,7 +438,72 @@
     </section>
     <!-- ========================= Connection Section End ========================= -->
 
-    <!-- ========================= Sektor Utama PAD START ========================= -->
+    </section>
+    <!-- ========================= Connection Section End ========================= -->
+
+    <!-- ========================= Case Study Section Start ========================= -->
+    <section id="studi-kasus" class="case-study-section pt-120 pb-120">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center mb-60">
+              <h3 class="mb-15 wow fadeInUp" data-wow-delay=".2s">Studi Kasus: Digitalisasi Pembayaran PBB</h3>
+              <p class="wow fadeInUp" data-wow-delay=".4s">Gambaran nyata bagaimana pilar Baubau 4.0 mentransformasi layanan publik dan meningkatkan PAD melalui studi kasus pembayaran Pajak Bumi dan Bangunan (PBB).</p>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-4">
+            <div class="flow-box before wow fadeInLeft" data-wow-delay=".5s">
+              <h5>Proses Manual (Sebelumnya)</h5>
+              <div class="flow-step">
+                <div class="icon"><i class="lni lni-users"></i></div>
+                <p>Warga datang & antre di kantor Bapenda.</p>
+              </div>
+              <div class="flow-step">
+                <div class="icon"><i class="lni lni-ticket"></i></div>
+                <p>Ambil slip pembayaran manual.</p>
+              </div>
+              <div class="flow-step">
+                <div class="icon"><i class="lni lni-bank"></i></div>
+                <p>Antre lagi di teller bank untuk membayar.</p>
+              </div>
+              <div class="flow-step">
+                <div class="icon"><i class="lni lni-spinner-arrow"></i></div>
+                <p>Rekonsiliasi data oleh staf memakan waktu.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="about-image wow fadeInUp" data-wow-delay=".3s">
+              <img src="assets/img/satu-data-app-case-study.png" alt="Aplikasi Satu Data">
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="flow-box after wow fadeInRight" data-wow-delay=".5s">
+              <h5>Proses Digital (Baubau 4.0)</h5>
+              <div class="flow-step">
+                <div class="icon"><i class="lni lni-laptop-phone"></i></div>
+                <p>Warga cek tagihan via <strong>Aplikasi Satu Data</strong>.</p>
+              </div>
+              <div class="flow-step">
+                <div class="icon"><i class="lni lni-credit-cards"></i></div>
+                <p>Bayar langsung di aplikasi (e-wallet, VA).</p>
+              </div>
+              <div class="flow-step">
+                <div class="icon"><i class="lni lni-checkmark-circle"></i></div>
+                <p>Notifikasi pembayaran real-time.</p>
+              </div>
+              <div class="flow-step">
+                <div class="icon"><i class="lni lni-display-alt"></i></div>
+                <p>Data otomatis masuk ke <strong>Command Center</strong>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========================= Case Study Section End ========================= -->
     <section class="feature-section feature-style-2 bg-light pt-120 pb-120">
       <div class="container">
         <div class="row justify-content-center">
