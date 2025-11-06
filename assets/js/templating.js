@@ -92,4 +92,22 @@ document.addEventListener("DOMContentLoaded", function() {
         footerPlaceholder.innerHTML = '<p style="color:red;">Error loading footer.</p>';
       });
   }
+
+  const additionalSectionsPlaceholder = document.getElementById('additional-sections-placeholder');
+  if (additionalSectionsPlaceholder) {
+    fetch('templates/_additional_sections.html')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok ' + response.statusText);
+        }
+        return response.text();
+      })
+      .then(data => {
+        additionalSectionsPlaceholder.innerHTML = data;
+      })
+      .catch(error => {
+        console.error('Error fetching additional sections:', error);
+        additionalSectionsPlaceholder.innerHTML = '<p style="color:red;">Error loading additional sections.</p>';
+      });
+  }
 });
