@@ -73,6 +73,23 @@
       .page-title-overlay .page-title-content p {
         color: #ffffff;
       }
+
+      @media (max-width: 576px) {
+        #download .content {
+          flex-direction: column;
+          align-items: flex-start !important;
+        }
+        #download .content .file-info {
+          margin-bottom: 15px;
+        }
+        #download .content .file-info h5 {
+          font-size: 1rem; /* Slightly smaller font */
+        }
+        #download .content .button-group {
+          width: 100%;
+          text-align: right;
+        }
+      }
     </style>
   </head>
   <body>
@@ -178,8 +195,8 @@
                     <h5 class="mb-0">Diskominfo_ Visi Baubau4.0 Transformasi Digital Kota Baubau.docx.pdf</h5>
                   </div>
                   <div class="button-group">
-                    <a href="dokumen/Diskominfo_ Visi Baubau4.0 Transformasi Digital Kota Baubau.docx.pdf" target="_blank" class="button button-sm border-button"><i class="lni lni-eye"></i> View</a>
-                    <a href="dokumen/Diskominfo_ Visi Baubau4.0 Transformasi Digital Kota Baubau.docx.pdf" download class="button button-sm"><i class="lni lni-download"></i> Download</a>
+                    <a href="dokumen/Diskominfo_ Visi Baubau4.0 Transformasi Digital Kota Baubau.docx.pdf" target="_blank" class="button button-sm border-button"><i class="lni lni-eye"></i></a>
+                    <a href="dokumen/Diskominfo_ Visi Baubau4.0 Transformasi Digital Kota Baubau.docx.pdf" download class="button button-sm"><i class="lni lni-download"></i></a>
                   </div>
                 </div>
               </li>
@@ -190,8 +207,8 @@
                     <h5 class="mb-0">Doc Baubau4.0_compressed.pdf</h5>
                   </div>
                   <div class="button-group">
-                    <a href="dokumen/Doc Baubau4.0_compressed.pdf" target="_blank" class="button button-sm border-button"><i class="lni lni-eye"></i> View</a>
-                    <a href="dokumen/Doc Baubau4.0_compressed.pdf" download class="button button-sm"><i class="lni lni-download"></i> Download</a>
+                    <a href="dokumen/Doc Baubau4.0_compressed.pdf" target="_blank" class="button button-sm border-button"><i class="lni lni-eye"></i></a>
+                    <a href="dokumen/Doc Baubau4.0_compressed.pdf" download class="button button-sm"><i class="lni lni-download"></i></a>
                   </div>
                 </div>
               </li>
@@ -202,8 +219,8 @@
                     <h5 class="mb-0">analisis-anggaran-efisiensi.html</h5>
                   </div>
                   <div class="button-group">
-                    <a href="dokumen/analisis-anggaran-efisiensi.html" target="_blank" class="button button-sm border-button"><i class="lni lni-eye"></i> View</a>
-                    <button onclick="printPage('dokumen/analisis-anggaran-efisiensi.html')" class="button button-sm"><i class="lni lni-printer"></i> Print</button>
+                    <a href="dokumen/analisis-anggaran-efisiensi.html" target="_blank" class="button button-sm border-button"><i class="lni lni-eye"></i></a>
+                    <button onclick="printPage('dokumen/analisis-anggaran-efisiensi.html')" class="button button-sm"><i class="lni lni-printer"></i></button>
                   </div>
                 </div>
               </li>
@@ -214,8 +231,8 @@
                     <h5 class="mb-0">digitalisasi-pad.html</h5>
                   </div>
                   <div class="button-group">
-                    <a href="dokumen/digitalisasi-pad.html" target="_blank" class="button button-sm border-button"><i class="lni lni-eye"></i> View</a>
-                    <button onclick="printPage('dokumen/digitalisasi-pad.html')" class="button button-sm"><i class="lni lni-printer"></i> Print</button>
+                    <a href="dokumen/digitalisasi-pad.html" target="_blank" class="button button-sm border-button"><i class="lni lni-eye"></i></a>
+                    <button onclick="printPage('dokumen/digitalisasi-pad.html')" class="button button-sm"><i class="lni lni-printer"></i></button>
                   </div>
                 </div>
               </li>
@@ -226,8 +243,8 @@
                     <h5 class="mb-0">laporan-kesiapan-sdm-kolaborasi.html</h5>
                   </div>
                   <div class="button-group">
-                    <a href="dokumen/laporan-kesiapan-sdm-kolaborasi.html" target="_blank" class="button button-sm border-button"><i class="lni lni-eye"></i> View</a>
-                    <button onclick="printPage('dokumen/laporan-kesiapan-sdm-kolaborasi.html')" class="button button-sm"><i class="lni lni-printer"></i> Print</button>
+                    <a href="dokumen/laporan-kesiapan-sdm-kolaborasi.html" target="_blank" class="button button-sm border-button"><i class="lni lni-eye"></i></a>
+                    <button onclick="printPage('dokumen/laporan-kesiapan-sdm-kolaborasi.html')" class="button button-sm"><i class="lni lni-printer"></i></button>
                   </div>
                 </div>
               </li>
@@ -238,8 +255,8 @@
                     <h5 class="mb-0">laporan-lengkap.html</h5>
                   </div>
                   <div class="button-group">
-                    <a href="dokumen/laporan-lengkap.html" target="_blank" class="button button-sm border-button"><i class="lni lni-eye"></i> View</a>
-                    <button onclick="printPage('dokumen/laporan-lengkap.html')" class="button button-sm"><i class="lni lni-printer"></i> Print</button>
+                    <a href="dokumen/laporan-lengkap.html" target="_blank" class="button button-sm border-button"><i class="lni lni-eye"></i></a>
+                    <button onclick="printPage('dokumen/laporan-lengkap.html')" class="button button-sm"><i class="lni lni-printer"></i></button>
                   </div>
                 </div>
               </li>
@@ -250,8 +267,8 @@
                     <h5 class="mb-0">laporan-teknis-infrastruktur-digital.html</h5>
                   </div>
                   <div class="button-group">
-                    <a href="dokumen/laporan-teknis-infrastruktur-digital.html" target="_blank" class="button button-sm border-button"><i class="lni lni-eye"></i> View</a>
-                    <button onclick="printPage('dokumen/laporan-teknis-infrastruktur-digital.html')" class="button button-sm"><i class="lni lni-printer"></i> Print</button>
+                    <a href="dokumen/laporan-teknis-infrastruktur-digital.html" target="_blank" class="button button-sm border-button"><i class="lni lni-eye"></i></a>
+                    <button onclick="printPage('dokumen/laporan-teknis-infrastruktur-digital.html')" class="button button-sm"><i class="lni lni-printer"></i></button>
                   </div>
                 </div>
               </li>
@@ -262,8 +279,8 @@
                     <h5 class="mb-0">master-plan-keamanan-jaringan.html</h5>
                   </div>
                   <div class="button-group">
-                    <a href="dokumen/master-plan-keamanan-jaringan.html" target="_blank" class="button button-sm border-button"><i class="lni lni-eye"></i> View</a>
-                    <button onclick="printPage('dokumen/master-plan-keamanan-jaringan.html')" class="button button-sm"><i class="lni lni-printer"></i> Print</button>
+                    <a href="dokumen/master-plan-keamanan-jaringan.html" target="_blank" class="button button-sm border-button"><i class="lni lni-eye"></i></a>
+                    <button onclick="printPage('dokumen/master-plan-keamanan-jaringan.html')" class="button button-sm"><i class="lni lni-printer"></i></button>
                   </div>
                 </div>
               </li>
@@ -274,8 +291,8 @@
                     <h5 class="mb-0">panduan-layanan-publik-digital.html</h5>
                   </div>
                   <div class="button-group">
-                    <a href="dokumen/panduan-layanan-publik-digital.html" target="_blank" class="button button-sm border-button"><i class="lni lni-eye"></i> View</a>
-                    <button onclick="printPage('dokumen/panduan-layanan-publik-digital.html')" class="button button-sm"><i class="lni lni-printer"></i> Print</button>
+                    <a href="dokumen/panduan-layanan-publik-digital.html" target="_blank" class="button button-sm border-button"><i class="lni lni-eye"></i></a>
+                    <button onclick="printPage('dokumen/panduan-layanan-publik-digital.html')" class="button button-sm"><i class="lni lni-printer"></i></button>
                   </div>
                 </div>
               </li>
@@ -286,8 +303,8 @@
                     <h5 class="mb-0">strategi_digital_baubau.html</h5>
                   </div>
                   <div class="button-group">
-                    <a href="dokumen/strategi_digital_baubau.html" target="_blank" class="button button-sm border-button"><i class="lni lni-eye"></i> View</a>
-                    <button onclick="printPage('dokumen/strategi_digital_baubau.html')" class="button button-sm"><i class="lni lni-printer"></i> Print</button>
+                    <a href="dokumen/strategi_digital_baubau.html" target="_blank" class="button button-sm border-button"><i class="lni lni-eye"></i></a>
+                    <button onclick="printPage('dokumen/strategi_digital_baubau.html')" class="button button-sm"><i class="lni lni-printer"></i></button>
                   </div>
                 </div>
               </li>
@@ -298,8 +315,8 @@
                     <h5 class="mb-0">studi-kelayakan-e-retribusi.html</h5>
                   </div>
                   <div class="button-group">
-                    <a href="dokumen/studi-kelayakan-e-retribusi.html" target="_blank" class="button button-sm border-button"><i class="lni lni-eye"></i> View</a>
-                    <button onclick="printPage('dokumen/studi-kelayakan-e-retribusi.html')" class="button button-sm"><i class="lni lni-printer"></i> Print</button>
+                    <a href="dokumen/studi-kelayakan-e-retribusi.html" target="_blank" class="button button-sm border-button"><i class="lni lni-eye"></i></a>
+                    <button onclick="printPage('dokumen/studi-kelayakan-e-retribusi.html')" class="button button-sm"><i class="lni lni-printer"></i></button>
                   </div>
                 </div>
               </li>
@@ -310,8 +327,8 @@
                     <h5 class="mb-0">visi-roadmap-baubau-4.0.html</h5>
                   </div>
                   <div class="button-group">
-                    <a href="dokumen/visi-roadmap-baubau-4.0.html" target="_blank" class="button button-sm border-button"><i class="lni lni-eye"></i> View</a>
-                    <button onclick="printPage('dokumen/visi-roadmap-baubau-4.0.html')" class="button button-sm"><i class="lni lni-printer"></i> Print</button>
+                    <a href="dokumen/visi-roadmap-baubau-4.0.html" target="_blank" class="button button-sm border-button"><i class="lni lni-eye"></i></a>
+                    <button onclick="printPage('dokumen/visi-roadmap-baubau-4.0.html')" class="button button-sm"><i class="lni lni-printer"></i></button>
                   </div>
                 </div>
               </li>
