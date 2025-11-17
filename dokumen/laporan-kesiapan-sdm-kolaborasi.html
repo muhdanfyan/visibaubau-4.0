@@ -111,6 +111,36 @@
             text-align: center;
             color: #777;
         }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .info-card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #3B5998;
+            display: flex;
+            align-items: center;
+        }
+        .info-card .icon {
+            font-size: 2rem;
+            color: #3B5998;
+            margin-right: 12px;
+        }
+        .info-card h5 {
+            font-weight: 700;
+            color: #3B5998;
+            margin-bottom: 5px;
+            font-size: 11pt;
+            border-bottom: none;
+        }
+        .info-card p {
+            font-size: 10pt;
+            margin-bottom: 0;
+        }
 
         @media print {
             body { background: white; }
@@ -133,7 +163,7 @@
         <div class="page-footer">Laporan Kesiapan SDM & Kolaborasi</div>
     </div>
 
-    <!-- Page 1: Pentingnya SDM -->
+    <!-- Page 1: Urgensi Peningkatan Kualitas SDM -->
     <div class="page">
         <h1>Bab 1: Urgensi Peningkatan Kualitas SDM</h1>
         <p>Keberhasilan implementasi visi Kota 4.0 sangat bergantung pada ketersediaan dan kemampuan Sumber Daya Manusia (SDM) yang kompeten. Hal ini sejalan dengan Misi Pertama Kota Baubau: "Meningkatkan Kualitas Sumber Daya Manusia untuk Membentuk Insan Seutuhnya (Cerdas, Sehat, & Berakhlak)".</p>
@@ -158,7 +188,7 @@
         <div class="page-footer">Halaman 2</div>
     </div>
 
-    <!-- Page 3: Profil Tim Inti -->
+    <!-- Page 3: Profil Tim Inti (Praktisi & Akademisi) -->
     <div class="page">
         <h1>Bab 3: Profil Tim Inti (Praktisi & Akademisi)</h1>
         <p>Berikut adalah beberapa figur kunci dari kalangan praktisi dan akademisi yang menjadi tulang punggung keahlian dalam tim transformasi digital.</p>
@@ -193,6 +223,16 @@
                 <h5>Arif Rizal</h5>
                 <p>Backend Developer</p>
             </div>
+            <div class="team-card">
+                <img src="../assets/img/sdm/Muhdan Fyan Syah Sofian.png" alt="Muhdan Fyan Syah Sofian">
+                <h5>Muhdan Fyan Syah Sofian</h5>
+                <p>Project Strategist</p>
+            </div>
+            <div class="team-card">
+                <img src="../assets/img/sdm/Lalu rahman.png" alt="Lalu Abdurrahman">
+                <h5>Lalu Abdurrahman</h5>
+                <p>Lead Developer & Academic</p>
+            </div>
         </div>
         <div class="page-footer">Halaman 3</div>
     </div>
@@ -214,13 +254,48 @@
                 <p>Menjadi wadah bagi para talenta IT lokal untuk berkolaborasi, bertukar pengetahuan, dan mengembangkan inovasi-inovasi berbasis teknologi dari akar rumput. Komunitas ini adalah motor penggerak semangat kolaborasi.</p>
             </div>
         </div>
-        <div class="info-card">
+        <div class="info-card" style="margin-bottom: 20px;">
             <div>
-                <h5>Korporasi Lokal (CV Ghonim & CV Sarjana Komputer)</h5>
+                <h5>Korporasi Lokal (CV Ghonim)</h5>
                 <p>Menyediakan dukungan korporasi, pengalaman dalam implementasi proyek Smart City, dan penyediaan SDM IT yang siap mendukung inisiatif transformasi digital.</p>
             </div>
         </div>
+        <div class="info-card">
+            <div>
+                <h5>Korporasi Lokal (CV Sarjana Komputer)</h5>
+                <p>Penyedia solusi IT terpercaya, mendukung pengadaan dan pemeliharaan infrastruktur.</p>
+            </div>
+        </div>
         <div class="page-footer">Halaman 4</div>
+    </div>
+
+    <!-- Page 5: Birokrasi (Pemerintah) -->
+    <div class="page">
+        <h1>Bab 5: Birokrasi (Pemerintah)</h1>
+        <p>Aparatur Sipil Negara dari Diskominfo Kota Baubau yang menjadi motor penggerak utama dari sisi pemerintah.</p>
+        <div class="card-grid-3-col">
+            <div class="team-card">
+                <img src="../assets/img/sdm/diskominfo/H. La Ode Yakin Nugraha SE.,M,Si.png" alt="H. La Ode Yakin Nugraha">
+                <h5>H. La Ode Yakin Nugraha SE.,M,Si</h5>
+                <p>Fungsional Sandiman Ahli Muda</p>
+            </div>
+            <div class="team-card">
+                <img src="../assets/img/sdm/diskominfo/A. Fadil Mainaka, S.Kom., M.Si.png" alt="A. Fadil Mainaka">
+                <h5>A. Fadil Mainaka, S.Kom., M.Si</h5>
+                <p>Fungsional Sandiman Ahli Muda</p>
+            </div>
+            <div class="team-card">
+                <img src="../assets/img/sdm/diskominfo/Ari Herman, S.Kep., M.M.png" alt="Ari Herman">
+                <h5>Ari Herman, S.Kep., M.M</h5>
+                <p>Pranata Humas Ahli Muda</p>
+            </div>
+            <div class="team-card">
+                <img src="../assets/img/sdm/diskominfo/Hamrizal, S.sos.png" alt="Hamrizal, S.sos">
+                <h5>Hamrizal, S.sos</h5>
+                <p>Analisis Konten Media Sosial</p>
+            </div>
+        </div>
+        <div class="page-footer">Halaman 5</div>
     </div>
 
     <div class="print-fab" onclick="window.print()">
