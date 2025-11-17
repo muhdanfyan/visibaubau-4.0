@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studi Kelayakan E-Retribusi</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap-5.0.0-alpha-2.min.css" />
+    <link rel="stylesheet" href="../assets/css/LineIcons.2.0.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Garamond:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: #e0e0e0;
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+        }
+        .page {
+            width: 21cm;
+            min-height: 29.7cm;
+            padding: 1.5cm;
+            margin: 1.5cm auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+            position: relative;
+            page-break-after: always;
+        }
+        .page-cover {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .page-cover .logo {
+            width: 120px;
+            margin-bottom: 30px;
+        }
+        .page-cover h1 {
+            font-family: 'Garamond', serif;
+            font-size: 2.8rem;
+            color: #1a237e;
+            margin-bottom: 15px;
+        }
+        .page-cover h2 {
+            font-size: 1.4rem;
+            color: #555;
+            font-weight: 400;
+        }
+        .page-footer {
+            position: absolute;
+            bottom: 1cm;
+            left: 1.5cm;
+            right: 1.5cm;
+            text-align: center;
+            font-size: 9pt;
+            color: #999;
+        }
+        h1, h2, h3, h4 {
+            font-weight: 700;
+            color: #1a237e;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #dfe3ee;
+            padding-bottom: 6px;
+        }
+        h1 { font-size: 22pt; }
+        h2 { font-size: 18pt; }
+        h3 { font-size: 15pt; }
+        h4 { font-size: 13pt; border-bottom: 1px solid #eee; }
+        p, li {
+            font-size: 11pt;
+            line-height: 1.5;
+            text-align: justify;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 10px;
+        }
+        .content-img {
+            max-width: 75%;
+            margin: 15px auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .info-card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #3B5998;
+        }
+        .info-card h5 {
+            font-weight: 700;
+            color: #3B5998;
+            margin-bottom: 5px;
+            font-size: 11pt;
+            border-bottom: none;
+        }
+        .info-card p {
+            font-size: 10pt;
+            margin-bottom: 0;
+        }
+        .problem-list li {
+            position: relative;
+            padding-left: 22px;
+            margin-bottom: 8px;
+        }
+        .problem-list li::before {
+            content: '❌';
+            position: absolute;
+            left: 0;
+            color: #E53935;
+            font-size: 12px;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #dfe3ee;
+            padding: 10px 12px;
+            font-size: 10pt;
+            text-align: left;
+        }
+        th {
+            background-color: #f1f3f8;
+            font-weight: 700;
+        }
+
+        @media print {
+            body { background: white; }
+            .page { width: auto; min-height: auto; margin: 0; padding: 1.5cm; box-shadow: none; border: none; page-break-after: always; }
+            .page-footer { position: fixed; }
+            .print-fab { display: none; }
+        }
+
+        .print-fab { position: fixed; bottom: 40px; right: 40px; width: 60px; height: 60px; background-color: #3B5998; color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 28px; box-shadow: 0 5px 15px rgba(0,0,0,0.2); cursor: pointer; z-index: 1000; }
+        .print-fab:hover { background-color: #2c487d; }
+    </style>
+</head>
+<body>
+
+    <!-- Cover Page -->
+    <div class="page page-cover">
+        <img src="../assets/img/logo/logobaubau4.0.png" alt="Logo Baubau 4.0" class="logo">
+        <h1>Studi Kelayakan E-Retribusi</h1>
+        <h2>Proposal Pengembangan Aplikasi Retribusi Digital Terintegrasi</h2>
+        <div class="page-footer">Studi Kelayakan E-Retribusi</div>
+    </div>
+
+    <!-- Page 1: Latar Belakang dan Masalah -->
+    <div class="page">
+        <h1>Bab 1: Latar Belakang dan Analisis Masalah</h1>
+        <h2>1.1. Latar Belakang</h2>
+        <p>Pengelolaan retribusi daerah di Kota Baubau saat ini menghadapi tantangan signifikan, termasuk proses manual yang rentan kesalahan, kurangnya transparansi, dan rendahnya efisiensi. Sistem yang ada (Sipanda 1.0) memiliki keterbatasan fungsionalitas dan teknis yang menghambat optimalisasi Pendapatan Asli Daerah (PAD). Untuk menjawab tantangan ini dan sejalan dengan Perda No 1 Tahun 2024, diusulkan pengembangan aplikasi E-Retribusi yang modern dan terintegrasi.</p>
+
+        <h2>1.2. Analisis Permasalahan Sistem Existing (Sipanda 1.0)</h2>
+        <div class="info-card" style="margin-bottom: 15px;">
+            <div>
+                <h5>Fitur & Tampilan Minim</h5>
+                <ul class="problem-list" style="padding-left: 0; margin-top: 10px;">
+                    <li>Fitur terbatas hanya pada pembayaran dasar tanpa integrasi.</li>
+                    <li>Pengalaman pengguna yang buruk dengan navigasi rumit dan desain tidak responsif.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="info-card" style="margin-bottom: 15px;">
+            <div>
+                <h5>Masalah Akses dan Kepemilikan</h5>
+                <ul class="problem-list" style="padding-left: 0; margin-top: 10px;">
+                    <li>Ketergantungan pada vendor (vendor lock-in) di mana akses superadmin dikuasai pihak eksternal.</li>
+                    <li>Kurangnya transparansi dan kontrol pemerintah untuk memonitor performa sistem.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="info-card">
+            <div>
+                <h5>Fondasi Teknis Rapuh</h5>
+                <ul class="problem-list" style="padding-left: 0; margin-top: 10px;">
+                    <li>Arsitektur yang tidak dapat diskalakan untuk penambahan fitur di masa depan.</li>
+                    <li>Database terisolasi dan tidak terintegrasi dengan sistem OPD lain.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="page-footer">Halaman 1</div>
+    </div>
+
+    <!-- Page 2: Solusi yang Diusulkan -->
+    <div class="page">
+        <h1>Bab 2: Solusi yang Diusulkan</h1>
+        <h2>2.1. Aplikasi E-Retribusi Terintegrasi</h2>
+        <p>Solusi yang diusulkan adalah membangun sebuah aplikasi E-Retribusi baru yang berfungsi sebagai platform terpusat untuk semua jenis retribusi daerah. Aplikasi ini akan dirancang dengan arsitektur modern (microservices) yang memungkinkan skalabilitas, keamanan, dan kemudahan integrasi.</p>
+        <img src="../assets/img/baubau-4.0-hero-graphic-transparent-duplicate.png" alt="Konsep E-Retribusi" class="content-img" style="max-height: 250px;">
+
+        <h2>2.2. Tujuan Proyek</h2>
+        <ul>
+            <li>Membangun sistem terintegrasi untuk mengoptimalkan penerimaan retribusi.</li>
+            <li>Meningkatkan kepatuhan wajib retribusi melalui kemudahan pembayaran.</li>
+            <li>Menciptakan tata kelola yang transparan dan akuntabel.</li>
+            <li>Memberikan pemerintah kontrol penuh atas sistem dan data retribusi.</li>
+        </ul>
+        <div class="page-footer">Halaman 2</div>
+    </div>
+
+    <!-- Page 3: Ruang Lingkup & Arsitektur -->
+    <div class="page">
+        <h1>Bab 3: Ruang Lingkup dan Arsitektur</h1>
+        <h2>3.1. Ruang Lingkup Retribusi</h2>
+        <p>Aplikasi akan mengintegrasikan berbagai jenis retribusi dari OPD terkait secara bertahap. Fase awal akan mencakup OPD dengan potensi PAD terbesar dan kesiapan teknis.</p>
+        <div class="card-grid">
+            <div class="info-card"><p><strong>DPMPTSP:</strong> IMB/PBG, Reklame</p></div>
+            <div class="info-card"><p><strong>Dishub:</strong> Parkir, Terminal</p></div>
+            <div class="info-card"><p><strong>Disperindag:</strong> Pelayanan Pasar</p></div>
+            <div class="info-card"><p><strong>Dinas PUPR:</strong> Sewa Alat Berat</p></div>
+            <div class="info-card"><p><strong>DLH:</strong> Persampahan</p></div>
+            <div class="info-card"><p><strong>Disparekraf:</strong> Tempat Rekreasi</p></div>
+        </div>
+
+        <h2 style="margin-top: 30px;">3.2. Arsitektur Teknis</h2>
+        <p>Aplikasi akan dibangun di atas fondasi teknis yang modern, robust, dan skalabel untuk mendukung pertumbuhan jangka panjang dan integrasi yang mulus dengan sistem lain.</p>
+        <img src="../File/PAD dan BAPENDA/Fondasi Aplikasi E-Retribusi.png" alt="Arsitektur Aplikasi" class="content-img full-width-img">
+        <div class="page-footer">Halaman 3</div>
+    </div>
+
+    <!-- Page 4: Analisis Kelayakan -->
+    <div class="page">
+        <h1>Bab 4: Analisis Kelayakan</h1>
+        <h2>4.1. Kelayakan Teknis</h2>
+        <p>Secara teknis, proyek ini sangat layak. Arsitektur microservices yang diusulkan adalah standar industri untuk aplikasi kompleks, memungkinkan pengembangan modular dan skalabilitas. Penggunaan teknologi cross-platform seperti React Native akan mempercepat pengembangan untuk Android dan iOS. Integrasi dengan payment gateway (Bank Sultra) juga merupakan praktik umum yang dapat diimplementasikan dengan baik.</p>
+
+        <h2>4.2. Kelayakan Operasional</h2>
+        <p>Aplikasi ini akan menyederhanakan proses kerja bagi petugas di OPD dan Bapenda. Dashboard admin akan memudahkan monitoring penerimaan secara real-time. Bagi masyarakat, aplikasi ini menyediakan alur pembayaran yang jauh lebih mudah dan transparan dibandingkan proses manual, sehingga diharapkan dapat meningkatkan adopsi dan kepatuhan.</p>
+
+        <h2>4.3. Kelayakan Ekonomi</h2>
+        <p>Dengan investasi awal sebesar **Rp 100.000.000**, proyek ini memiliki potensi pengembalian investasi (ROI) yang tinggi. Peningkatan PAD dari pengurangan kebocoran, peningkatan kepatuhan, dan efisiensi penagihan diperkirakan dapat menutupi biaya investasi dalam waktu singkat. Selain itu, data yang terkumpul dapat digunakan untuk analisis potensi pendapatan baru di masa depan.</p>
+        <div class="page-footer">Halaman 4</div>
+    </div>
+
+    <!-- Page 5: RAB -->
+    <div class="page">
+        <h1>Bab 5: Rencana Anggaran Biaya (RAB)</h1>
+        <p>Estimasi biaya pengembangan aplikasi E-Retribusi dengan total anggaran **Rp 100.000.000**, disusun secara realistis untuk implementasi tahun 2025.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Kategori</th>
+                    <th>Deskripsi</th>
+                    <th>Biaya</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Pengembangan Aplikasi (55%)</strong></td>
+                    <td>Pembangunan Frontend & Backend, integrasi Payment Gateway, dan modul untuk 7 OPD.</td>
+                    <td><strong>Rp 55.000.000</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Desain UI/UX (10%)</strong></td>
+                    <td>Perancangan antarmuka dan alur kerja yang intuitif.</td>
+                    <td><strong>Rp 10.000.000</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Pengujian & QA (10%)</strong></td>
+                    <td>Pengujian fungsionalitas, keamanan, dan kompatibilitas.</td>
+                    <td><strong>Rp 10.000.000</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Infrastruktur Awal (15%)</strong></td>
+                    <td>Biaya hosting, server, domain (.go.id), dan SSL untuk tahun pertama.</td>
+                    <td><strong>Rp 15.000.000</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Manajemen & Pelatihan (10%)</strong></td>
+                    <td>Koordinasi proyek, dokumentasi teknis, dan pelatihan untuk admin OPD.</td>
+                    <td><strong>Rp 10.000.000</strong></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><strong>Total Anggaran</strong></td>
+                    <td><strong>Rp 100.000.000</strong></td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h2 style="margin-top: 30px;">Biaya Operasional Tahunan</h2>
+        <p>Setelah aplikasi diluncurkan, perlu dialokasikan biaya operasional dan pemeliharaan tahunan sekitar **15-20%** dari biaya pengembangan awal (sekitar **Rp 15-20 juta per tahun**) untuk pemeliharaan, server, dan dukungan teknis.</p>
+        <div class="page-footer">Halaman 5</div>
+    </div>
+
+    <div class="print-fab" onclick="window.print()">
+        <i class="lni lni-printer"></i>
+    </div>
+
+</body>
+</html>

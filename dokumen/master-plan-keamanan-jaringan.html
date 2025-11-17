@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Plan Keamanan & Jaringan Kota</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap-5.0.0-alpha-2.min.css" />
+    <link rel="stylesheet" href="../assets/css/LineIcons.2.0.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Garamond:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: #e0e0e0;
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+        }
+        .page {
+            width: 21cm;
+            min-height: 29.7cm;
+            padding: 1.5cm;
+            margin: 1.5cm auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+            position: relative;
+            page-break-after: always;
+        }
+        .page-cover {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .page-cover .logo {
+            width: 120px;
+            margin-bottom: 30px;
+        }
+        .page-cover h1 {
+            font-family: 'Garamond', serif;
+            font-size: 2.8rem;
+            color: #1a237e;
+            margin-bottom: 15px;
+        }
+        .page-cover h2 {
+            font-size: 1.4rem;
+            color: #555;
+            font-weight: 400;
+        }
+        .page-footer {
+            position: absolute;
+            bottom: 1cm;
+            left: 1.5cm;
+            right: 1.5cm;
+            text-align: center;
+            font-size: 9pt;
+            color: #999;
+        }
+        h1, h2, h3, h4 {
+            font-weight: 700;
+            color: #1a237e;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #dfe3ee;
+            padding-bottom: 6px;
+        }
+        h1 { font-size: 22pt; }
+        h2 { font-size: 18pt; }
+        h3 { font-size: 15pt; }
+        h4 { font-size: 13pt; border-bottom: 1px solid #eee; }
+        p, li {
+            font-size: 11pt;
+            line-height: 1.5;
+            text-align: justify;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 10px;
+        }
+        .content-img {
+            max-width: 75%;
+            margin: 15px auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .info-card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #3B5998;
+        }
+        .info-card h5 {
+            font-weight: 700;
+            color: #3B5998;
+            margin-bottom: 5px;
+            font-size: 11pt;
+            border-bottom: none;
+        }
+        .info-card p {
+            font-size: 10pt;
+            margin-bottom: 0;
+        }
+
+        @media print {
+            body { background: white; }
+            .page { width: auto; min-height: auto; margin: 0; padding: 1.5cm; box-shadow: none; border: none; page-break-after: always; }
+            .page-footer { position: fixed; }
+            .print-fab { display: none; }
+        }
+
+        .print-fab { position: fixed; bottom: 40px; right: 40px; width: 60px; height: 60px; background-color: #3B5998; color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 28px; box-shadow: 0 5px 15px rgba(0,0,0,0.2); cursor: pointer; z-index: 1000; }
+        .print-fab:hover { background-color: #2c487d; }
+    </style>
+</head>
+<body>
+
+    <!-- Cover Page -->
+    <div class="page page-cover">
+        <img src="../assets/img/logo/logobaubau4.0.png" alt="Logo Baubau 4.0" class="logo">
+        <h1>Master Plan Keamanan & Jaringan Kota</h1>
+        <h2>Membangun Fondasi Digital yang Aman dan Andal</h2>
+        <div class="page-footer">Master Plan Keamanan & Jaringan Kota</div>
+    </div>
+
+    <!-- Page 1: Arsitektur Jaringan Terpusat -->
+    <div class="page">
+        <h1>Bab 1: Arsitektur Jaringan Terpusat</h1>
+        <h2>1.1. Konsep Internet Satu Kota</h2>
+        <p>Pilar "Internet Satu Kota" bertujuan menciptakan sistem pelayanan internet satu pintu yang terpusat. Ini berarti mengintegrasikan seluruh jaringan internet Organisasi Perangkat Daerah (OPD), memusatkan pengelolaan bandwidth, dan menyeragamkan penyedia layanan internet (ISP) di bawah kendali Diskominfo. Tujuannya adalah menciptakan efisiensi, standardisasi, dan keamanan yang lebih kuat.</p>
+        <img src="../assets/img/city-aerial-view-with-network-overlay.png" alt="Jaringan Kota" class="content-img">
+
+        <h2>1.2. Keuntungan dari Sisi Keamanan</h2>
+        <div class="card-grid">
+            <div class="info-card"><div><h5>Arsitektur Terpantau</h5><p>Memudahkan pemantauan kinerja jaringan, deteksi anomali, dan pemeliharaan proaktif untuk mencegah insiden keamanan.</p></div></div>
+            <div class="info-card"><div><h5>Keamanan Siber Terpusat</h5><p>Mendorong pengembangan arsitektur keamanan siber yang komprehensif, termasuk firewall terpusat, sistem deteksi intrusi, dan kebijakan keamanan yang seragam.</p></div></div>
+        </div>
+        <div class="page-footer">Halaman 1</div>
+    </div>
+
+    <!-- Page 2: Keamanan Data Center -->
+    <div class="page">
+        <h1>Bab 2: Keamanan Data Center</h1>
+        <p>Data Center adalah fasilitas terpusat yang berfungsi untuk menyimpan, mengelola, dan mengamankan semua data digital pemerintah. Perannya sebagai inti strategis dari seluruh ekosistem digital menuntut tingkat keamanan tertinggi.</p>
+        <img src="../assets/img/data-center-concept-illustration.png" alt="Konsep Data Center" class="content-img">
+        
+        <h2>Protokol Keamanan Data Center</h2>
+        <ul>
+            <li><strong>Keamanan Fisik:</strong> Kontrol akses biometrik, pengawasan CCTV 24/7, dan sistem pencegah kebakaran untuk melindungi perangkat keras dari akses tidak sah dan bencana.</li>
+            <li><strong>Keamanan Jaringan:</strong> Implementasi firewall canggih, segmentasi jaringan, dan sistem pencegahan intrusi (IPS) untuk melindungi dari serangan siber.</li>
+            <li><strong>Keamanan Data:</strong> Enkripsi data baik saat transit (in-transit) maupun saat disimpan (at-rest) untuk melindungi informasi sensitif.</li>
+            <li><strong>Redundansi dan Pencadangan:</strong> Sistem catu daya tak terputus (UPS), generator cadangan, dan prosedur pencadangan data rutin untuk memastikan ketersediaan layanan dan pemulihan data.</li>
+        </ul>
+        <div class="page-footer">Halaman 2</div>
+    </div>
+
+    <!-- Page 3: Keamanan Command Center -->
+    <div class="page">
+        <h1>Bab 3: Keamanan Command Center</h1>
+        <p>Command Center berfungsi sebagai "sistem saraf" kota yang mengintegrasikan data dari berbagai sumber. Keamanan dalam pengumpulan, pengolahan, dan penyajian data adalah prioritas utama.</p>
+        <img src="../assets/img/command-center-workstations-gradient.png" alt="Workstation Command Center" class="content-img">
+
+        <h2>Aspek Keamanan Operasional</h2>
+        <div class="card-grid">
+            <div class="info-card"><div><h5>Kontrol Akses Berbasis Peran</h5><p>Setiap operator hanya memiliki akses ke data dan sistem yang relevan dengan tugasnya, meminimalkan risiko penyalahgunaan data.</p></div></div>
+            <div class="info-card"><div><h5>Jalur Komunikasi Aman</h5><p>Semua data yang masuk ke Command Center, baik dari CCTV, sensor, maupun aplikasi, wajib dienkripsi menggunakan protokol HTTPS/TLS 1.2+.</p></div></div>
+            <div class="info-card"><div><h5>Audit Trail</h5><p>Setiap aktivitas yang dilakukan di dalam sistem Command Center dicatat secara otomatis untuk keperluan audit dan investigasi jika terjadi insiden.</p></div></div>
+            <div class="info-card"><div><h5>Ruang Fisik Aman</h5><p>Ruang Command Center sendiri merupakan area terbatas yang hanya dapat diakses oleh personel yang berwenang.</p></div></div>
+        </div>
+        <div class="page-footer">Halaman 3</div>
+    </div>
+
+    <!-- Page 4: Jaringan CCTV -->
+    <div class="page">
+        <h1>Bab 4: Jaringan CCTV dan Pengawasan Publik</h1>
+        <p>Pemasangan CCTV di ruang publik bertujuan untuk meningkatkan keamanan dengan mencegah tindak kriminalitas dan memungkinkan penanganan insiden yang cepat. Jaringan ini akan terhubung langsung ke Command Center untuk pemantauan real-time.</p>
+
+        <h2>Rencana Sebaran Titik CCTV</h2>
+        <p>Berikut adalah beberapa area prioritas untuk pemasangan CCTV dan WiFi publik berdasarkan dokumen perencanaan:</p>
+        <ul>
+            <li>Titik 1-10: Area Lapangan Merdeka dan sekitarnya.</li>
+            <li>Titik 11-15: Area Taman Segitiga dan jalan protokol terkait.</li>
+            <li>Titik 16-18: Area lain yang dianggap strategis.</li>
+            <li>Titik 19-22: Titik tambahan di sekitar pusat kota.</li>
+            <li>Titik 23-29: Pengembangan di area Palabusa dan Topa.</li>
+            <li>Titik 30-32: Titik tambahan untuk pengawasan intensif.</li>
+        </ul>
+        <p>Total lebih dari 50 titik CCTV dan jalur distribusi jaringan telah dipetakan untuk memastikan cakupan yang luas dan efektif di seluruh kota.</p>
+        <div class="page-footer">Halaman 4</div>
+    </div>
+
+    <!-- Page 5: Mitigasi Risiko -->
+    <div class="page">
+        <h1>Bab 5: Strategi Mitigasi Risiko Siber</h1>
+        <p>Sentralisasi infrastruktur pada pilar "Internet Satu Kota" dan "Data Center" menciptakan risiko "titik tunggal kegagalan" (single point of failure). Untuk mengatasi ini, diperlukan strategi mitigasi yang kuat dan berlapis.</p>
+
+        <h2>Rekomendasi Utama Mitigasi Risiko</h2>
+        <div class="info-card" style="margin-bottom: 15px;">
+            <div>
+                <h5>1. Rencana Pemulihan Bencana (Disaster Recovery Plan)</h5>
+                <p>Menyiapkan prosedur dan infrastruktur cadangan (baik di lokasi yang sama atau berbeda) untuk memulihkan layanan dengan cepat jika terjadi kegagalan sistem utama.</p>
+            </div>
+        </div>
+        <div class="info-card" style="margin-bottom: 15px;">
+            <div>
+                <h5>2. Rencana Kesinambungan Layanan (Business Continuity Plan)</h5>
+                <p>Memastikan layanan publik yang krusial tetap dapat berjalan (meskipun dengan kapasitas terbatas) saat terjadi gangguan pada sistem utama.</p>
+            </div>
+        </div>
+        <div class="info-card" style="margin-bottom: 15px;">
+            <div>
+                <h5>3. Arsitektur Keamanan Siber Terpusat</h5>
+                <p>Menerapkan kontrol akses berbasis peran yang ketat, di mana setiap pengguna hanya dapat mengakses data dan fungsionalitas sesuai dengan kewenangannya.</p>
+            </div>
+        </div>
+        <div class="info-card">
+            <div>
+                <h5>4. Simulasi Gangguan Berkala</h5>
+                <p>Melakukan pengujian dan simulasi serangan siber atau kegagalan sistem secara berkala untuk menguji ketahanan infrastruktur dan kesiapan tim dalam menghadapi insiden.</p>
+            </div>
+        </div>
+        <div class="page-footer">Halaman 5</div>
+    </div>
+
+    <div class="print-fab" onclick="window.print()">
+        <i class="lni lni-printer"></i>
+    </div>
+
+</body>
+</html>

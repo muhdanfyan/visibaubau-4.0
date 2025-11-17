@@ -232,6 +232,57 @@
             color: #fff;
             border-color: var(--primary-color);
         }
+
+        .problem-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            padding: 30px;
+            border-radius: var(--border-radius);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            height: 100%;
+            width: 100%;
+            transition: all 0.3s ease;
+        }
+        .problem-card:hover {
+            border-color: var(--primary-color);
+            transform: translateY(-5px);
+        }
+        .problem-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 15px;
+        }
+        .problem-header i {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-right: 15px;
+        }
+        .problem-header h4 {
+            margin: 0;
+            font-size: 1.1rem;
+            color: var(--primary-color);
+        }
+        .problem-card ul {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 0;
+        }
+        .problem-card ul li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 25px;
+            font-size: 0.95rem;
+        }
+        .problem-card ul li::before {
+            content: '❌';
+            position: absolute;
+            left: 0;
+            top: 2px;
+            color: #E53935;
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
@@ -292,6 +343,97 @@
                             <h4>Arsitektur Teknis</h4>
                             <p>Penguatan arsitektur untuk mendukung skalabilitas, keamanan, dan integrasi layanan di masa depan.</p>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="analisis-existing" class="pt-120 pb-90">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-9 text-center wow fadeInUp" data-wow-delay=".2s">
+                    <div class="section-title">
+                        <span class="text-primary">Analisis Kondisi Existing</span>
+                        <h2>🚨 Permasalahan Strategis Sipanda 1.0</h2>
+                        <p>Analisis mendalam terhadap versi awal Sipanda mengidentifikasi lima masalah utama yang menghambat efektivitas, adopsi, dan keberlanjutan sistem.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5 justify-content-center">
+                <!-- Card 1 -->
+                <div class="col-lg-4 col-md-6 d-flex mb-4">
+                    <div class="problem-card wow fadeInUp" data-wow-delay=".3s">
+                        <div class="problem-header">
+                            <i class="lni lni-display-alt"></i>
+                            <h4>1. FITUR & TAMPILAN</h4>
+                        </div>
+                        <ul>
+                            <li><strong>Fitur Terbatas:</strong> Hanya pembayaran dasar tanpa integrasi komprehensif.</li>
+                            <li><strong>User Experience Buruk:</strong> Navigasi rumit, loading lambat, dan desain tidak responsif.</li>
+                            <li><strong>Fitur Hilang:</strong> Tidak ada dashboard analitik, pelaporan, atau pemantauan real-time.</li>
+                            <li><strong>Tidak Ramah Seluler:</strong> Tampilan tidak optimal untuk perangkat seluler.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-lg-4 col-md-6 d-flex mb-4">
+                    <div class="problem-card wow fadeInUp" data-wow-delay=".4s">
+                        <div class="problem-header">
+                            <i class="lni lni-lock-alt"></i>
+                            <h4>2. AKSES & KEPEMILIKAN</h4>
+                        </div>
+                        <ul>
+                            <li><strong>Vendor Lock-in:</strong> Akses superadmin dikuasai vendor, pemerintah tidak punya kontrol.</li>
+                            <li><strong>Biaya Tidak Wajar:</strong> Beban biaya layanan administrasi yang tidak transparan.</li>
+                            <!-- <li><strong>Ketergantungan Tinggi:</strong> Setiap perubahan harus melalui vendor dengan biaya tambahan.</li> -->
+                            <li><strong>Kurang Transparan:</strong> Pemerintah tidak bisa memonitor performa sistem secara independen.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-lg-4 col-md-6 d-flex mb-4">
+                    <div class="problem-card wow fadeInUp" data-wow-delay=".5s">
+                        <div class="problem-header">
+                            <i class="lni lni-database"></i>
+                            <h4>3. FONDASI TEKNIS</h4>
+                        </div>
+                        <ul>
+                            <li><strong>Arsitektur Rapuh:</strong> Tidak dapat diskalakan untuk penambahan fitur baru di masa depan.</li>
+                            <li><strong>Database Terisolasi:</strong> Tidak terintegrasi dengan sistem OPD atau pemerintah lainnya.</li>
+                            <li><strong>API Terbatas:</strong> Tidak mendukung integrasi dengan bank dan sistem eksternal.</li>
+                            <li><strong>Keamanan Lemah:</strong> Keamanan data dan riwayat transaksi tidak terjamin.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col-lg-4 col-md-6 d-flex mb-4">
+                    <div class="problem-card wow fadeInUp" data-wow-delay=".6s">
+                        <div class="problem-header">
+                            <i class="lni lni-users"></i>
+                            <h4>4. MINAT MASYARAKAT</h4>
+                        </div>
+                        <ul>
+                            <li><strong>Manfaat Tidak Jelas:</strong> Tidak memberikan nilai tambah yang signifikan bagi pengguna.</li>
+                            <li><strong>Proses Rumit:</strong> Proses pembayaran terasa lebih sulit daripada membayar langsung.</li>
+                            <li><strong>Masalah Kepercayaan:</strong> Masyarakat masih ragu dengan keamanan sistem digital.</li>
+                            <li><strong>Sosialisasi Rendah:</strong> Kurangnya pengenalan dan edukasi kepada masyarakat.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="col-lg-4 col-md-6 d-flex mb-4">
+                    <div class="problem-card wow fadeInUp" data-wow-delay=".7s">
+                        <div class="problem-header">
+                            <i class="lni lni-vector"></i>
+                            <h4>5. INFRASTRUKTUR</h4>
+                        </div>
+                        <ul>
+                            <li><strong>Tanpa Blueprint:</strong> Tidak ada arsitektur atau blueprint sistem yang komprehensif.</li>
+                            <li><strong>Celah Integrasi:</strong> Tidak terhubung dengan SIKD, BPKAD, dan sistem pemerintah lainnya.</li>
+                            <li><strong>Data Silo:</strong> Data terfragmentasi dan tidak terpusat antar OPD.</li>
+                            <li><strong>Tidak Future-Proof:</strong> Tidak ada roadmap pengembangan jangka panjang yang jelas.</li>
+                        </ul>
                     </div>
                 </div>
             </div>

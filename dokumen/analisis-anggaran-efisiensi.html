@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisis Anggaran dan Potensi Efisiensi</title>
+    <link rel="stylesheet" href="../../assets/css/bootstrap-5.0.0-alpha-2.min.css" />
+    <link rel="stylesheet" href="../../assets/css/LineIcons.2.0.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Garamond:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: #e0e0e0;
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+        }
+        .page {
+            width: 21cm;
+            min-height: 29.7cm;
+            padding: 1.5cm;
+            margin: 1.5cm auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+            position: relative;
+            page-break-after: always;
+        }
+        .page-cover {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .page-cover .logo {
+            width: 120px;
+            margin-bottom: 30px;
+        }
+        .page-cover h1 {
+            font-family: 'Garamond', serif;
+            font-size: 2.8rem;
+            color: #1a237e;
+            margin-bottom: 15px;
+        }
+        .page-cover h2 {
+            font-size: 1.4rem;
+            color: #555;
+            font-weight: 400;
+        }
+        .page-footer {
+            position: absolute;
+            bottom: 1cm;
+            left: 1.5cm;
+            right: 1.5cm;
+            text-align: center;
+            font-size: 9pt;
+            color: #999;
+        }
+        h1, h2, h3, h4 {
+            font-weight: 700;
+            color: #1a237e;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #dfe3ee;
+            padding-bottom: 6px;
+        }
+        h1 { font-size: 22pt; }
+        h2 { font-size: 18pt; }
+        h3 { font-size: 15pt; }
+        h4 { font-size: 13pt; border-bottom: 1px solid #eee; }
+        p, li {
+            font-size: 11pt;
+            line-height: 1.5;
+            text-align: justify;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 10px;
+        }
+        .content-img {
+            max-width: 75%;
+            margin: 15px auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .full-width-img {
+            max-width: 100%;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .info-card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #3B5998;
+            display: flex;
+            align-items: center;
+        }
+        .info-card .icon {
+            font-size: 2rem;
+            color: #3B5998;
+            margin-right: 12px;
+        }
+        .info-card h5 {
+            font-weight: 700;
+            color: #3B5998;
+            margin-bottom: 5px;
+            font-size: 11pt;
+            border-bottom: none;
+        }
+        .info-card p {
+            font-size: 10pt;
+            margin-bottom: 0;
+        }
+        .two-column-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            align-items: center;
+            margin-top: 15px;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #dfe3ee;
+            padding: 10px 12px;
+            font-size: 10pt;
+            text-align: left;
+        }
+        th {
+            background-color: #f1f3f8;
+            font-weight: 700;
+        }
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        @media print {
+            body {
+                background: white;
+            }
+            .page {
+                width: auto;
+                min-height: auto;
+                margin: 0;
+                padding: 1.5cm;
+                box-shadow: none;
+                border: none;
+                page-break-after: always;
+            }
+            .page-footer {
+                position: fixed;
+            }
+            .print-fab {
+                display: none;
+            }
+        }
+
+        .print-fab {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            width: 60px;
+            height: 60px;
+            background-color: #3B5998;
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+        .print-fab:hover {
+            background-color: #2c487d;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cover Page -->
+    <div class="page page-cover">
+        <img src="../assets/img/logo/logobaubau4.0.png" alt="Logo Baubau 4.0" class="logo">
+        <h1>Analisis Anggaran dan Potensi Efisiensi</h1>
+        <h2>Optimalisasi Keuangan Daerah Melalui Transformasi Digital</h2>
+        <div class="page-footer">Analisis Anggaran dan Potensi Efisiensi</div>
+    </div>
+
+    <!-- Page 1: Potensi Peningkatan PAD -->
+    <div class="page">
+        <h1>Bab 1: Strategi Peningkatan PAD</h1>
+        <p>Peningkatan Pendapatan Asli Daerah (PAD) akan dicapai melalui dua strategi utama yang diperkuat oleh digitalisasi: intensifikasi untuk mengoptimalkan sumber yang ada, dan ekstensifikasi untuk menggali potensi baru.</p>
+        
+        <h2>1.1. Strategi Intensifikasi Digital</h2>
+        <p>Fokus pada optimalisasi sumber pendapatan yang sudah ada dengan pengelolaan yang lebih baik, transparan, dan berbasis digital.</p>
+        <div class="card-grid">
+            <div class="info-card"><div><h5>Implementasi e-Tax & e-Retribusi</h5><p>Mempermudah pembayaran, meningkatkan kepatuhan, dan mengurangi kebocoran pendapatan.</p></div></div>
+            <div class="info-card"><div><h5>Optimalisasi Pengawasan Berbasis Data</h5><p>Menggunakan data untuk melakukan pendataan objek pajak dan retribusi yang lebih akurat.</p></div></div>
+        </div>
+
+        <h2 style="margin-top: 30px;">1.2. Strategi Ekstensifikasi Digital</h2>
+        <p>Mencari dan mengembangkan sumber-sumber pendapatan baru yang potensial untuk mendorong pertumbuhan ekonomi daerah.</p>
+        <div class="card-grid">
+            <div class="info-card"><div><h5>Pengembangan Pariwisata dengan e-Ticketing</h5><p>Menerapkan e-Ticketing di objek wisata untuk transparansi dan peningkatan retribusi.</p></div></div>
+            <div class="info-card"><div><h5>Layanan e-Perizinan untuk Menarik Investasi</h5><p>Menyediakan layanan perizinan yang cepat dan transparan untuk menarik investor baru.</p></div></div>
+        </div>
+        <img src="../assets/img/case-studyapp.png" alt="Potensi PAD" class="content-img" style="max-width: 60%; margin-top: 40px;">
+        <div class="page-footer">Halaman 1</div>
+    </div>
+
+    <!-- Page 2: Analisis Anggaran IT Saat Ini -->
+    <div class="page">
+        <h1>Bab 2: Analisis Anggaran IT Saat Ini</h1>
+        <p>Berdasarkan analisis terhadap laporan realisasi anggaran IT, teridentifikasi beberapa pola belanja yang menunjukkan adanya ruang untuk efisiensi signifikan.</p>
+        
+        <h2>2.1. Komposisi Anggaran IT (Tahun 2024)</h2>
+        <p>Anggaran IT saat ini didominasi oleh belanja infrastruktur komunikasi dan listrik, dengan alokasi minim untuk pengembangan aplikasi atau perangkat lunak baru.</p>
+        <ul>
+            <li>**85%** untuk belanja infrastruktur (internet, listrik, dll).</li>
+            <li>Fokus utama pada **pemeliharaan** sistem yang sudah ada, bukan inovasi.</li>
+            <li>Realisasi fisik yang rendah mengindikasikan adanya **kendala implementasi** di lapangan.</li>
+            <li>Tidak ada anggaran khusus untuk **pengembangan aplikasi baru**.</li>
+        </ul>
+
+        <h2>2.2. Duplikasi dan Inefisiensi</h2>
+        <p>Pola anggaran saat ini menunjukkan adanya duplikasi dan inefisiensi yang signifikan di berbagai OPD. Setiap OPD cenderung menganggarkan kebutuhan IT secara terpisah, yang menyebabkan pemborosan sumber daya.</p>
+        <div class="info-card">
+            <p>Setiap OPD menganggarkan sendiri untuk internet, sistem informasi, dan pelatihan, yang menciptakan duplikasi dan biaya yang lebih tinggi secara keseluruhan.</p>
+        </div>
+        <div class="page-footer">Halaman 2</div>
+    </div>
+
+    <!-- Page 3: Potensi Efisiensi -->
+    <div class="page">
+        <h1>Bab 3: Potensi Efisiensi Melalui 4 Pilar</h1>
+        <p>Dengan menerapkan 4 Pilar Baubau 4.0, efisiensi anggaran yang signifikan dapat dicapai melalui konsolidasi infrastruktur, integrasi sistem, dan penghapusan duplikasi.</p>
+
+        <h2>Estimasi Total Penghematan Tahunan</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Jenis Penghematan</th>
+                    <th>Perkiraan Penghematan per Tahun (Rp)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Penghematan Internet Terpusat (Internet Satu Kota)</td>
+                    <td>3 – 4 Miliar</td>
+                </tr>
+                <tr>
+                    <td>Penghematan Pengembangan Aplikasi (Aplikasi Satu Data)</td>
+                    <td>500 – 700 juta</td>
+                </tr>
+                <tr>
+                    <td>Penghematan Pemeliharaan Server (Data Center)</td>
+                    <td>200 – 300 juta</td>
+                </tr>
+                <tr>
+                    <td>Penghematan Operasional Pemantauan (Command Center)</td>
+                    <td>100 – 150 juta</td>
+                </tr>
+                <tr>
+                    <td><strong>Total Estimasi Penghematan</strong></td>
+                    <td><strong>± Rp 3,8 – 5,15 Miliar/tahun</strong></td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="margin-top: 20px;">Efisiensi ini dapat dicapai dengan cara menghapus duplikasi anggaran internet, mengintegrasikan sistem aplikasi ke dalam satu platform, memusatkan infrastruktur server, dan mengoptimalkan proses pemantauan melalui Command Center.</p>
+        <div class="page-footer">Halaman 3</div>
+    </div>
+
+    <!-- Page 4: RAB E-Retribusi -->
+    <div class="page">
+        <h1>Bab 4: Rencana Anggaran Biaya (RAB) E-Retribusi</h1>
+        <p>Berikut adalah Rencana Anggaran Biaya (RAB) untuk pengembangan aplikasi E-Retribusi Kota Baubau dengan total anggaran **Rp 100.000.000**. RAB ini disusun secara realistis dengan mempertimbangkan kompleksitas aplikasi dan harga standar pengembangan software tahun 2025.</p>
+
+        <h2>Rincian Alokasi Anggaran</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Kategori</th>
+                    <th>Deskripsi & Alokasi</th>
+                    <th>Total Biaya</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Pengembangan Aplikasi (55%)</strong></td>
+                    <td>Biaya inti untuk tim developer (Frontend & Backend), integrasi Payment Gateway, dan modul untuk 7 OPD terkait.</td>
+                    <td><strong>Rp 55.000.000</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Desain UI/UX (10%)</strong></td>
+                    <td>Perancangan antarmuka pengguna yang intuitif dan mudah digunakan.</td>
+                    <td><strong>Rp 10.000.000</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Pengujian & QA (10%)</strong></td>
+                    <td>Pengujian fungsionalitas, keamanan, dan kompatibilitas.</td>
+                    <td><strong>Rp 10.000.000</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Infrastruktur & Keamanan Awal (15%)</strong></td>
+                    <td>Biaya hosting, server, domain (.go.id), dan sertifikat SSL untuk tahun pertama.</td>
+                    <td><strong>Rp 15.000.000</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Manajemen Proyek & Pelatihan (10%)</strong></td>
+                    <td>Koordinasi proyek, dokumentasi teknis, dan pelatihan untuk admin OPD.</td>
+                    <td><strong>Rp 10.000.000</strong></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><strong>Total Anggaran</strong></td>
+                    <td><strong>Rp 100.000.000</strong></td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h2 style="margin-top: 30px;">Biaya Operasional Tahunan</h2>
+        <p>Setelah aplikasi diluncurkan, perlu dialokasikan biaya operasional dan pemeliharaan tahunan sekitar **15-20%** dari total biaya pengembangan awal, yaitu sekitar **Rp 15-20 juta per tahun**.</p>
+        <div class="page-footer">Halaman 4</div>
+    </div>
+
+    <div class="print-fab" onclick="window.print()">
+        <i class="lni lni-printer"></i>
+    </div>
+
+</body>
+</html>

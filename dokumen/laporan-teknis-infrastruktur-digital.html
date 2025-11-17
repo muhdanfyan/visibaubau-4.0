@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Teknis Infrastruktur Digital</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap-5.0.0-alpha-2.min.css" />
+    <link rel="stylesheet" href="../assets/css/LineIcons.2.0.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Garamond:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: #e0e0e0;
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+        }
+        .page {
+            width: 21cm;
+            min-height: 29.7cm;
+            padding: 1.5cm;
+            margin: 1.5cm auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+            position: relative;
+            page-break-after: always;
+        }
+        .page-cover {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .page-cover .logo {
+            width: 120px;
+            margin-bottom: 30px;
+        }
+        .page-cover h1 {
+            font-family: 'Garamond', serif;
+            font-size: 2.8rem;
+            color: #1a237e;
+            margin-bottom: 15px;
+        }
+        .page-cover h2 {
+            font-size: 1.4rem;
+            color: #555;
+            font-weight: 400;
+        }
+        .page-footer {
+            position: absolute;
+            bottom: 1cm;
+            left: 1.5cm;
+            right: 1.5cm;
+            text-align: center;
+            font-size: 9pt;
+            color: #999;
+        }
+        h1, h2, h3, h4 {
+            font-weight: 700;
+            color: #1a237e;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #dfe3ee;
+            padding-bottom: 6px;
+        }
+        h1 { font-size: 22pt; }
+        h2 { font-size: 18pt; }
+        h3 { font-size: 15pt; }
+        h4 { font-size: 13pt; border-bottom: 1px solid #eee; }
+        p, li {
+            font-size: 11pt;
+            line-height: 1.5;
+            text-align: justify;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 10px;
+        }
+        .content-img {
+            max-width: 75%;
+            margin: 15px auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .full-width-img {
+            max-width: 100%;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .info-card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #3B5998;
+            display: flex;
+            align-items: center;
+        }
+        .info-card .icon {
+            font-size: 2rem;
+            color: #3B5998;
+            margin-right: 12px;
+        }
+        .info-card h5 {
+            font-weight: 700;
+            color: #3B5998;
+            margin-bottom: 5px;
+            font-size: 11pt;
+            border-bottom: none;
+        }
+        .info-card p {
+            font-size: 10pt;
+            margin-bottom: 0;
+        }
+        .two-column-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            align-items: center;
+            margin-top: 15px;
+        }
+
+        @media print {
+            body {
+                background: white;
+            }
+            .page {
+                width: auto;
+                min-height: auto;
+                margin: 0;
+                padding: 1.5cm;
+                box-shadow: none;
+                border: none;
+                page-break-after: always;
+            }
+            .page-footer {
+                position: fixed;
+            }
+            .print-fab {
+                display: none;
+            }
+        }
+
+        .print-fab {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            width: 60px;
+            height: 60px;
+            background-color: #3B5998;
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+        .print-fab:hover {
+            background-color: #2c487d;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cover Page -->
+    <div class="page page-cover">
+        <img src="../assets/img/logo/logobaubau4.0.png" alt="Logo Baubau 4.0" class="logo">
+        <h1>Laporan Teknis Infrastruktur Digital</h1>
+        <h2>Kerangka Fondasi Baubau Kota 4.0</h2>
+        <div class="page-footer">Laporan Teknis Infrastruktur Digital</div>
+    </div>
+
+    <!-- Page 1: Pilar Infrastruktur -->
+    <div class="page">
+        <h1>Bab 1: Tiga Pilar Infrastruktur Digital</h1>
+        <p>Fondasi transformasi digital Kota Baubau ditopang oleh tiga pilar infrastruktur utama yang bekerja secara sinergis: Jaringan Internet Terpusat, Command Center sebagai pusat kendali, dan Data Center sebagai inti penyimpanan data. Ketiganya membentuk ekosistem yang memungkinkan layanan digital berjalan secara efisien, aman, dan andal.</p>
+        <img src="../assets/img/project-elements-collage.png" alt="Pilar Infrastruktur" class="content-img">
+        <div class="card-grid">
+            <div class="info-card"><div><h5>Internet Satu Kota</h5><p>Mengintegrasikan seluruh jaringan internet OPD untuk efisiensi, standardisasi, dan pemerataan akses.</p></div></div>
+            <div class="info-card"><div><h5>Command Center</h5><p>Pusat kendali terpadu untuk monitoring, koordinasi, dan pengambilan keputusan berbasis data secara real-time.</p></div></div>
+            <div class="info-card"><div><h5>Data Center</h5><p>Fasilitas terpusat yang aman untuk menyimpan, mengelola, dan mengamankan seluruh aset data digital pemerintah.</p></div></div>
+        </div>
+        <div class="page-footer">Halaman 1</div>
+    </div>
+
+    <!-- Page 2: Internet Satu Kota -->
+    <div class="page">
+        <h1>Bab 2: Internet Satu Kota</h1>
+        <h2>2.1. Konsep Pelayanan Internet Satu Pintu</h2>
+        <p>Pilar ini bertujuan menciptakan sistem pelayanan internet terpusat yang mengintegrasikan seluruh jaringan internet Organisasi Perangkat Daerah (OPD), memusatkan pengelolaan bandwidth di bawah kendali Diskominfo, dan mewujudkan pemerataan akses internet di ruang publik, termasuk penyediaan Wi-Fi gratis.</p>
+        <img src="../assets/img/city-aerial-view-with-network-overlay.png" alt="Jaringan Internet Kota" class="content-img">
+
+        <h2>2.2. Keuntungan Strategis</h2>
+        <div class="card-grid">
+            <div class="info-card"><div><h5>Efisiensi Biaya & Standar</h5><p>Sentralisasi menciptakan kerangka kerja yang lebih efisien dan konsisten.</p></div></div>
+            <div class="info-card"><div><h5>Efisiensi Operasional</h5><p>Mengurangi biaya operasional, duplikasi pekerjaan, dan meningkatkan koordinasi.</p></div></div>
+            <div class="info-card"><div><h5>Arsitektur Terpantau</h5><p>Memudahkan pemantauan kinerja jaringan, deteksi anomali, dan pemeliharaan proaktif.</p></div></div>
+            <div class="info-card"><div><h5>Keamanan Lebih Kuat</h5><p>Mendorong pengembangan arsitektur keamanan siber yang terpusat dan komprehensif.</p></div></div>
+        </div>
+        <div class="page-footer">Halaman 2</div>
+    </div>
+
+    <!-- Page 3: Command Center -->
+    <div class="page">
+        <h1>Bab 3: Command Center</h1>
+        <h2>3.1. Pusat Saraf Pengambilan Keputusan</h2>
+        <p>Command Center berfungsi sebagai "sistem saraf" atau pusat kendali terpadu kota. Fasilitas ini memungkinkan pemerintah untuk memantau, mengkoordinasikan, dan menanggapi berbagai insiden atau layanan publik secara real-time. Ini adalah komponen vital untuk penanggulangan bencana, layanan darurat, dan pengawasan kota yang proaktif.</p>
+        <img src="../assets/img/command-center-illustration-duplicate.png" alt="Ilustrasi Command Center" class="content-img">
+
+        <h2>3.2. Manfaat Multi-Dimensi</h2>
+        <div class="card-grid">
+            <div class="info-card"><div><h5>Operasional</h5><p>Pemantauan real-time, koordinasi lintas layanan, dan tata kelola proaktif berbasis data.</p></div></div>
+            <div class="info-card"><div><h5>Fiskal & Sumber Daya</h5><p>Optimisasi alokasi sumber daya, efisiensi biaya respons, dan pemanfaatan data historis.</p></div></div>
+            <div class="info-card"><div><h5>Sosial & Publik</h5><p>Peningkatan layanan publik, keamanan kota, serta transparansi dan akuntabilitas.</p></div></div>
+            <div class="info-card"><div><h5>Teknis</h5><p>Integrasi sumber data beragam (sensor, CCTV) dan dukungan keputusan berbasis skenario.</p></div></div>
+        </div>
+        <div class="page-footer">Halaman 3</div>
+    </div>
+
+    <!-- Page 4: Data Center -->
+    <div class="page">
+        <h1>Bab 4: Data Center</h1>
+        <h2>4.1. Fondasi Utama Ekosistem Digital</h2>
+        <p>Data Center adalah fasilitas terpusat yang berfungsi untuk menyimpan, mengelola, dan mengamankan semua data digital. Pilar ini merupakan fondasi yang paling penting dari keseluruhan rencana transformasi digital. Ini bukan hanya sebuah repositori, melainkan inti strategis dari seluruh ekosistem.</p>
+        <img src="../assets/img/data-center-concept-illustration.png" alt="Konsep Data Center" class="content-img">
+
+        <h2>4.2. Peran Kritis dalam Ekosistem</h2>
+        <p>Keberhasilan dan keberlanjutan seluruh inisiatif digital sangat bergantung pada keandalan, keamanan, dan integritas fasilitas Data Center. Tanpa Data Center yang andal, pilar-pilar lain tidak dapat berfungsi secara efektif.</p>
+        <div class="two-column-layout">
+            <div class="info-card">
+                <div>
+                    <h5>Aplikasi Satu Data</h5>
+                    <p>Tanpa data yang terkelola di Data Center, Aplikasi Satu Data akan menjadi kosong dan tidak berguna.</p>
+                </div>
+            </div>
+            <div class="info-card">
+                <div>
+                    <h5>Command Center</h5>
+                    <p>Command Center bergantung pada aliran data real-time dari Data Center untuk melakukan pemantauan dan analisis.</p>
+                </div>
+            </div>
+        </div>
+        <div class="page-footer">Halaman 4</div>
+    </div>
+
+    <!-- Page 5: Rencana Jaringan CCTV & WiFi -->
+    <div class="page">
+        <h1>Bab 5: Rencana Jaringan CCTV & WiFi</h1>
+        <h2>5.1. Tujuan Pemasangan</h2>
+        <p>Tujuan utama dari proyek pemasangan CCTV di ruang publik adalah untuk meningkatkan keamanan dengan mencegah dan meminimalkan tindak kriminalitas. Sistem ini akan terhubung dengan Command Center untuk memungkinkan pemantauan dan penanganan yang cepat. Selain itu, beberapa titik akan dilengkapi dengan WiFi gratis untuk mendukung pemerataan akses internet.</p>
+
+        <h2>5.2. Daftar Sebaran Titik CCTV & WiFi</h2>
+        <p>Berikut adalah daftar sebaran titik pemasangan yang direncanakan di berbagai lokasi strategis di Kota Baubau:</p>
+        <div class="card-grid">
+            <div class="info-card"><div><h5>Area Lapangan Merdeka</h5><p>Meliputi beberapa titik di sekitar Lapangan Merdeka untuk pengawasan area publik.</p></div></div>
+            <div class="info-card"><div><h5>Area Taman Segitiga</h5><p>Mencakup titik-titik strategis di Taman Segitiga untuk keamanan dan kenyamanan pengunjung.</p></div></div>
+            <div class="info-card"><div><h5>Jalan Protokol</h5><p>Pemasangan di sepanjang jalan-jalan utama untuk memantau lalu lintas dan keamanan.</p></div></div>
+            <div class="info-card"><div><h5>Area Publik Lainnya</h5><p>Termasuk di dalamnya area perkantoran, sekolah, dan fasilitas umum lainnya.</p></div></div>
+        </div>
+        <p style="font-size: 9pt; text-align: center; margin-top: 15px;"><i>Data lokasi detail diekstrak dari dokumen perencanaan dan file JSON geospasial.</i></p>
+        <div class="page-footer">Halaman 5</div>
+    </div>
+
+    <div class="print-fab" onclick="window.print()">
+        <i class="lni lni-printer"></i>
+    </div>
+
+</body>
+</html>
