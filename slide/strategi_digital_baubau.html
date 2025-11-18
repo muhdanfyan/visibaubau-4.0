@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dokumen Strategi Digitalisasi Baubau - Slides</title>
+    <link rel="stylesheet" href="../../assets/css/bootstrap-5.0.0-alpha-2.min.css" />
+    <link rel="stylesheet" href="../../assets/css/LineIcons.2.0.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Garamond:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0f0f0;
+        }
+        .slide-container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+        .slide {
+            width: 90%; /* Adjust as needed */
+            height: 90%; /* Adjust as needed */
+            background: white;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            border-radius: 8px;
+            padding: 20px;
+            box-sizing: border-box;
+            overflow-y: auto; /* Enable scrolling for long content */
+            display: none; /* Hidden by default */
+        }
+        .slide.active {
+            display: block; /* Show active slide */
+        }
+        /* Original page styles, adapted for slide */
+        .page-cover {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 100%; /* Make cover fill slide */
+        }
+        .page-cover .logo {
+            width: 150px; /* Larger logo for slide */
+            margin-bottom: 40px;
+        }
+        .page-cover h1 {
+            font-family: 'Garamond', serif;
+            font-size: 3.5rem; /* Larger title */
+            color: #1a237e;
+            margin-bottom: 20px;
+        }
+        .page-cover h2 {
+            font-size: 1.8rem; /* Larger subtitle */
+            color: #555;
+            font-weight: 400;
+        }
+        h1, h2, h3, h4 {
+            font-weight: 700;
+            color: #1a237e;
+            margin-top: 20px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #dfe3ee;
+            padding-bottom: 8px;
+        }
+        h1 { font-size: 2.2rem; }
+        h2 { font-size: 1.8rem; }
+        h3 { font-size: 1.5rem; }
+        h4 { font-size: 1.3rem; border-bottom: 1px solid #eee; }
+        p, li {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            text-align: justify;
+            margin-bottom: 10px;
+        }
+        ul {
+            padding-left: 25px;
+            margin-bottom: 15px;
+        }
+        .content-img {
+            max-width: 80%; /* Adjust image size for slide */
+            max-height: 40vh; /* Limit image height */
+            object-fit: contain;
+            margin: 20px auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .card-grid-3-col {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .team-card {
+            text-align: center;
+            padding: 15px;
+            border: 1px solid #eee;
+            border-radius: 8px;
+            background-color: #fdfdfd;
+        }
+        .team-card img {
+            width: 120px; /* Larger team images */
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 4px solid #dfe3ee;
+        }
+        .team-card h5 {
+            font-size: 1.2rem;
+            border-bottom: none;
+            margin-bottom: 5px;
+        }
+        .team-card p {
+            font-size: 0.95rem;
+            text-align: center;
+            color: #777;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .info-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 5px solid #3B5998;
+            display: flex;
+            align-items: flex-start; /* Align content to top */
+        }
+        .info-card .icon {
+            font-size: 2.5rem;
+            color: #3B5998;
+            margin-right: 15px;
+        }
+        .info-card h5 {
+            font-weight: 700;
+            color: #3B5998;
+            margin-bottom: 8px;
+            font-size: 1.2rem;
+            border-bottom: none;
+        }
+        .info-card p {
+            font-size: 1rem;
+            margin-bottom: 0;
+        }
+        .navigation-buttons {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 15px;
+            z-index: 100;
+        }
+        .nav-button {
+            background-color: #3B5998;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+        .nav-button:hover {
+            background-color: #2c487d;
+        }
+        .page-footer {
+            display: none; /* Hide original page footers */
+        }
+        .two-column-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            align-items: center;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide" id="slide-1">
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dokumen Strategi Digitalisasi Baubau</title>
+    <link rel="stylesheet" href="../../assets/css/bootstrap-5.0.0-alpha-2.min.css" />
+    <link rel="stylesheet" href="../../assets/css/LineIcons.2.0.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Garamond:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: #e0e0e0;
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+        }
+        .page {
+            width: 21cm;
+            min-height: 29.7cm;
+            padding: 1.5cm;
+            margin: 1.5cm auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+            position: relative;
+            page-break-after: always;
+        }
+        .page-cover {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .page-cover .logo {
+            width: 120px;
+            margin-bottom: 30px;
+        }
+        .page-cover h1 {
+            font-family: 'Garamond', serif;
+            font-size: 2.8rem;
+            color: #1a237e;
+            margin-bottom: 15px;
+        }
+        .page-cover h2 {
+            font-size: 1.4rem;
+            color: #555;
+            font-weight: 400;
+        }
+        .page-footer {
+            position: absolute;
+            bottom: 1cm;
+            left: 1.5cm;
+            right: 1.5cm;
+            text-align: center;
+            font-size: 9pt;
+            color: #999;
+        }
+        h1, h2, h3, h4 {
+            font-weight: 700;
+            color: #1a237e;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #dfe3ee;
+            padding-bottom: 6px;
+        }
+        h1 { font-size: 22pt; }
+        h2 { font-size: 18pt; }
+        h3 { font-size: 15pt; }
+        h4 { font-size: 13pt; border-bottom: 1px solid #eee; }
+        p, li {
+            font-size: 11pt;
+            line-height: 1.5;
+            text-align: justify;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 10px;
+        }
+        .content-img {
+            max-width: 75%;
+            margin: 15px auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .info-card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #3B5998;
+        }
+        .info-card h5 {
+            font-weight: 700;
+            color: #3B5998;
+            margin-bottom: 5px;
+            font-size: 11pt;
+            border-bottom: none;
+        }
+        .info-card p {
+            font-size: 10pt;
+            margin-bottom: 0;
+        }
+
+        @media print {
+            body { background: white; }
+            .page { width: auto; min-height: auto; margin: 0; padding: 1.5cm; box-shadow: none; border: none; page-break-after: always; }
+            .page-footer { position: fixed; }
+            .print-fab { display: none; }
+        }
+
+        .print-fab { position: fixed; bottom: 40px; right: 40px; width: 60px; height: 60px; background-color: #3B5998; color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 28px; box-shadow: 0 5px 15px rgba(0,0,0,0.2); cursor: pointer; z-index: 1000; }
+        .print-fab:hover { background-color: #2c487d; }
+    </style>
+</head>
+<body>
+
+    <!-- Cover Page -->
+    <div class="page page-cover">
+        <img src="../../assets/img/logo/logobaubau4.0.png" alt="Logo Baubau 4.0" class="logo">
+        <h1>Dokumen Strategi Digitalisasi Baubau</h1>
+        <h2>Menuju Kota 4.0 yang Kolaboratif, Inovatif, dan Berkelanjutan</h2>
+        <div class="page-footer">Dokumen Strategi Digitalisasi Baubau</div>
+    </div>
+
+    <!-- Page 1: Ringkasan Eksekutif -->
+    <div class="page">
+        <h1>Bab 1: Ringkasan Eksekutif</h1>
+        <h2>1.1. Visi Kota 4.0</h2>
+        <p>Visi Baubau 4.0 adalah evolusi dari konsep 'smart city' konvensional. Tujuannya bukan sekadar mengimplementasikan teknologi, melainkan memberdayakan warga untuk menyelesaikan masalah kota melalui data besar dan kolaborasi. Ini adalah pergeseran filosofis di mana pemerintah bertindak sebagai <strong>fasilitator</strong> dan masyarakat menjadi <strong>co-creator</strong>.</p>
+        <img src="../../assets/img/smart-city-vision-with-officials.png" alt="Visi Smart City" class="content-img">
+
+        <h2>1.2. Tujuan Strategis Ganda</h2>
+        <div class="card-grid">
+            <div class="info-card"><div><h5>Peningkatan Pelayanan Publik</h5><p>Menciptakan kota yang lebih cerdas dan inovatif melalui layanan publik yang didukung teknologi.</p></div></div>
+            <div class="info-card"><div><h5>Peningkatan Pendapatan Asli Daerah (PAD)</h5><p>Digitalisasi proses layanan untuk meningkatkan efisiensi dan transparansi dalam pengumpulan pendapatan.</p></div></div>
+        </div>
+        <div class="page-footer">Halaman 1</div>
+    </div>
+
+    <!-- Page 2: Empat Pilar Transformasi -->
+    <div class="page">
+        <h1>Bab 2: Empat Pilar Transformasi Digital</h1>
+        <p>Rencana strategis ini dibangun di atas empat pilar teknologi utama yang saling terkait dan saling bergantung untuk membentuk ekosistem digital yang kokoh.</p>
+        <div class="info-card" style="margin-bottom: 15px;">
+            <div><h5>1. Infrastruktur Jaringan Internet Satu Kota</h5><p>Mengintegrasikan seluruh jaringan internet OPD dan menyediakan akses merata di ruang publik untuk efisiensi, standardisasi, dan keamanan.</p></div>
+        </div>
+        <div class="info-card" style="margin-bottom: 15px;">
+            <div><h5>2. Command Center</h5><p>Pusat kendali terpadu untuk memantau, mengoordinasikan, dan merespons berbagai insiden atau layanan publik secara real-time.</p></div>
+        </div>
+        <div class="info-card" style="margin-bottom: 15px;">
+            <div><h5>3. Aplikasi Satu Data</h5><p>Platform Super App yang mengintegrasikan data dari berbagai OPD untuk menyediakan informasi yang akurat dan mudah diakses oleh publik dan pemerintah.</p></div>
+        </div>
+        <div class="info-card">
+            <div><h5>4. Data Center</h5><p>Fasilitas terpusat yang aman untuk menyimpan, mengelola, dan mengamankan seluruh aset data digital pemerintah, menjadi fondasi terpenting dari ekosistem.</p></div>
+        </div>
+        <div class="page-footer">Halaman 2</div>
+    </div>
+
+    <!-- Page 3: Roadmap Implementasi -->
+    <div class="page">
+        <h1>Bab 3: Roadmap Implementasi (2025-2035)</h1>
+        <p>Implementasi Visi Baubau 4.0 akan dilaksanakan dalam tiga tahap utama, berfokus pada pembangunan bertahap dan berkelanjutan.</p>
+        
+        <h2>Tahap I (2025-2028): Fondasi Digital</h2>
+        <p>Fokus pada pembangunan infrastruktur dasar dan peletakan fondasi digital yang kuat.</p>
+        <ul>
+            <li>Pembangunan jaringan fiber optik backbone di kantor OPD, sekolah, dan puskesmas.</li>
+            <li>Penyusunan regulasi (Perda/Perwali) terkait SPBE.</li>
+            <li>Pengembangan aplikasi pilot project dan peningkatan kapabilitas SDM.</li>
+        </ul>
+        
+        <h2>Tahap II (2029-2032): Integrasi dan Layanan Publik</h2>
+        <p>Fokus pada integrasi sistem dan perluasan layanan digital untuk masyarakat.</p>
+        <ul>
+            <li>Pembangunan dan fungsionalisasi Command Center dan Data Center.</li>
+            <li>Integrasi data dari berbagai OPD ke dalam Aplikasi Satu Data.</li>
+            <li>Peluncuran aplikasi layanan publik digital untuk masyarakat.</li>
+        </ul>
+
+        <h2>Tahap III (2033-2035): Transformasi & Inovasi</h2>
+        <p>Mewujudkan visi smart city secara menyeluruh melalui pemanfaatan teknologi canggih.</p>
+        <ul>
+            <li>Pemanfaatan Big Data, AI, dan layanan berbasis IoT.</li>
+            <li>Penguatan kemitraan dengan swasta, akademisi, dan komunitas.</li>
+            <li>Pengembangan platform partisipasi masyarakat dalam pembangunan.</li>
+        </ul>
+        <div class="page-footer">Halaman 3</div>
+    </div>
+
+    <!-- Page 4: Kesimpulan dan Rekomendasi -->
+    <div class="page">
+        <h1>Bab 4: Kesimpulan dan Rekomendasi</h1>
+        <h2>Kesimpulan</h2>
+        <p>Rencana strategis ini adalah cetak biru yang visioner dan komprehensif untuk transformasi digital Kota Baubau. Potensi inisiatif ini sangat besar untuk meningkatkan tata kelola pemerintahan, kualitas layanan publik, dan vitalitas ekonomi, dengan syarat bahwa tantangan seperti keamanan siber dan kualitas data ditangani secara proaktif.</p>
+
+        <h2>Rekomendasi Strategis Utama</h2>
+        <div class="info-card" style="margin-bottom: 15px;"><div><h5>Tata Kelola Data Komprehensif</h5><p>Menetapkan kerangka kerja tata kelola data yang mencakup kualitas, standarisasi, kepemilikan, dan keamanan data.</p></div></div>
+        <div class="info-card" style="margin-bottom: 15px;"><div><h5>Mitigasi Risiko Siber</h5><p>Mengembangkan strategi keamanan siber dan rencana pemulihan bencana yang terperinci untuk melindungi infrastruktur terpusat.</p></div></div>
+        <div class="info-card" style="margin-bottom: 15px;"><div><h5>Manajemen Perubahan</h5><p>Melaksanakan program manajemen perubahan yang kuat, termasuk pelatihan ASN dan edukasi publik, untuk memastikan partisipasi aktif.</p></div></div>
+        <div class="info-card" style="margin-bottom: 15px;"><div><h5>Metrik Kinerja yang Jelas</h5><p>Menetapkan sistem untuk melacak kinerja dan laba atas investasi (ROI), terutama untuk inisiatif yang berkaitan dengan pendapatan.</p></div></div>
+        <div class="info-card"><div><h5>Kolaborasi antar Lembaga</h5><p>Membangun komunikasi yang berkelanjutan dengan entitas nasional (seperti BPJS/Kemenkes) untuk memastikan interoperabilitas.</p></div></div>
+        <div class="page-footer">Halaman 4</div>
+    </div>
+
+    <div class="print-fab" onclick="window.print()">
+        <i class="lni lni-printer"></i>
+    </div>
+
+</body>
+</html>
+</div>
+<div class="slide" id="slide-2">
+    <h1>Bab 1: Ringkasan Eksekutif</h1>
+    <h2>1.1. Visi Kota 4.0</h2>
+    <p>Visi Baubau 4.0 adalah evolusi dari konsep 'smart city' konvensional. Tujuannya bukan sekadar mengimplementasikan teknologi, melainkan memberdayakan warga untuk menyelesaikan masalah kota melalui data besar dan kolaborasi. Ini adalah pergeseran filosofis di mana pemerintah bertindak sebagai <strong>fasilitator</strong> dan masyarakat menjadi <strong>co-creator</strong>.</p>
+    <img src="../../assets/img/smart-city-vision-with-officials.png" alt="Visi Smart City" class="content-img">
+
+    <h2>1.2. Tujuan Strategis Ganda</h2>
+    <div class="card-grid">
+        <div class="info-card"><div><h5>Peningkatan Pelayanan Publik</h5><p>Menciptakan kota yang lebih cerdas dan inovatif melalui layanan publik yang didukung teknologi.</p></div></div>
+        <div class="info-card"><div><h5>Peningkatan Pendapatan Asli Daerah (PAD)</h5><p>Digitalisasi proses layanan untuk meningkatkan efisiensi dan transparansi dalam pengumpulan pendapatan.</p></div></div>
+    </div>
+    <div class="page-footer">Halaman 1</div>
+</div>
+<div class="slide" id="slide-3">
+    <h1>Bab 2: Empat Pilar Transformasi Digital</h1>
+    <p>Rencana strategis ini dibangun di atas empat pilar teknologi utama yang saling terkait dan saling bergantung untuk membentuk ekosistem digital yang kokoh.</p>
+    <div class="info-card" style="margin-bottom: 15px;">
+        <div><h5>1. Infrastruktur Jaringan Internet Satu Kota</h5><p>Mengintegrasikan seluruh jaringan internet OPD dan menyediakan akses merata di ruang publik untuk efisiensi, standardisasi, dan keamanan.</p></div>
+    </div>
+    <div class="info-card" style="margin-bottom: 15px;">
+        <div><h5>2. Command Center</h5><p>Pusat kendali terpadu untuk memantau, mengoordinasikan, dan merespons berbagai insiden atau layanan publik secara real-time.</p></div>
+    </div>
+    <div class="info-card" style="margin-bottom: 15px;">
+        <div><h5>3. Aplikasi Satu Data</h5><p>Platform Super App yang mengintegrasikan data dari berbagai OPD untuk menyediakan informasi yang akurat dan mudah diakses oleh publik dan pemerintah.</p></div>
+    </div>
+    <div class="info-card">
+        <div><h5>4. Data Center</h5><p>Fasilitas terpusat yang aman untuk menyimpan, mengelola, dan mengamankan seluruh aset data digital pemerintah, menjadi fondasi terpenting dari ekosistem.</p></div>
+    </div>
+    <div class="page-footer">Halaman 2</div>
+</div>
+<div class="slide" id="slide-4">
+    <h1>Bab 3: Roadmap Implementasi (2025-2035)</h1>
+    <p>Implementasi Visi Baubau 4.0 akan dilaksanakan dalam tiga tahap utama, berfokus pada pembangunan bertahap dan berkelanjutan.</p>
+    
+    <h2>Tahap I (2025-2028): Fondasi Digital</h2>
+    <p>Fokus pada pembangunan infrastruktur dasar dan peletakan fondasi digital yang kuat.</p>
+    <ul>
+        <li>Pembangunan jaringan fiber optik backbone di kantor OPD, sekolah, dan puskesmas.</li>
+        <li>Penyusunan regulasi (Perda/Perwali) terkait SPBE.</li>
+        <li>Pengembangan aplikasi pilot project dan peningkatan kapabilitas SDM.</li>
+    </ul>
+    
+    <h2>Tahap II (2029-2032): Integrasi dan Layanan Publik</h2>
+    <p>Fokus pada integrasi sistem dan perluasan layanan digital untuk masyarakat.</p>
+    <ul>
+        <li>Pembangunan dan fungsionalisasi Command Center dan Data Center.</li>
+        <li>Integrasi data dari berbagai OPD ke dalam Aplikasi Satu Data.</li>
+        <li>Peluncuran aplikasi layanan publik digital untuk masyarakat.</li>
+    </ul>
+
+    <h2>Tahap III (2033-2035): Transformasi & Inovasi</h2>
+    <p>Mewujudkan visi smart city secara menyeluruh melalui pemanfaatan teknologi canggih.</p>
+    <ul>
+        <li>Pemanfaatan Big Data, AI, dan layanan berbasis IoT.</li>
+        <li>Penguatan kemitraan dengan swasta, akademisi, dan komunitas.</li>
+        <li>Pengembangan platform partisipasi masyarakat dalam pembangunan.</li>
+    </ul>
+    <div class="page-footer">Halaman 3</div>
+</div>
+<div class="slide" id="slide-5">
+    <h1>Bab 4: Kesimpulan dan Rekomendasi</h1>
+    <h2>Kesimpulan</h2>
+    <p>Rencana strategis ini adalah cetak biru yang visioner dan komprehensif untuk transformasi digital Kota Baubau. Potensi inisiatif ini sangat besar untuk meningkatkan tata kelola pemerintahan, kualitas layanan publik, dan vitalitas ekonomi, dengan syarat bahwa tantangan seperti keamanan siber dan kualitas data ditangani secara proaktif.</p>
+
+    <h2>Rekomendasi Strategis Utama</h2>
+    <div class="info-card" style="margin-bottom: 15px;"><div><h5>Tata Kelola Data Komprehensif</h5><p>Menetapkan kerangka kerja tata kelola data yang mencakup kualitas, standarisasi, kepemilikan, dan keamanan data.</p></div></div>
+    <div class="info-card" style="margin-bottom: 15px;"><div><h5>Mitigasi Risiko Siber</h5><p>Mengembangkan strategi keamanan siber dan rencana pemulihan bencana yang terperinci untuk melindungi infrastruktur terpusat.</p></div></div>
+    <div class="info-card" style="margin-bottom: 15px;"><div><h5>Manajemen Perubahan</h5><p>Melaksanakan program manajemen perubahan yang kuat, termasuk pelatihan ASN dan edukasi publik, untuk memastikan partisipasi aktif.</p></div></div>
+    <div class="info-card" style="margin-bottom: 15px;"><div><h5>Metrik Kinerja yang Jelas</h5><p>Menetapkan sistem untuk melacak kinerja dan laba atas investasi (ROI), terutama untuk inisiatif yang berkaitan dengan pendapatan.</p></div></div>
+    <div class="info-card"><div><h5>Kolaborasi antar Lembaga</h5><p>Membangun komunikasi yang berkelanjutan dengan entitas nasional (seperti BPJS/Kemenkes) untuk memastikan interoperabilitas.</p></div></div>
+    <div class="page-footer">Halaman 4</div>
+</div>
+    </div>
+
+    <div class="navigation-buttons">
+        <button class="nav-button" id="prevBtn">Previous</button>
+        <button class="nav-button" id="nextBtn">Next</button>
+    </div>
+
+    <script>
+        const slides = document.querySelectorAll('.slide');
+        let currentSlide = 0;
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.remove('active');
+                if (i === index) {
+                    slide.classList.add('active');
+                }
+            });
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % slides.length;
+            showSlide(currentSlide);
+        }
+
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+            showSlide(currentSlide);
+        }
+
+        document.getElementById('nextBtn').addEventListener('click', nextSlide);
+        document.getElementById('prevBtn').addEventListener('click', prevSlide);
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight') {
+                nextSlide();
+            } else if (e.key === 'ArrowLeft') {
+                prevSlide();
+            }
+        });
+
+        showSlide(currentSlide); // Show the first slide initially
+    </script>
+</body>
+</html>

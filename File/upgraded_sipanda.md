@@ -80,10 +80,14 @@ Kami mengusulkan model kemitraan yang mengedepankan keberlanjutan:
 
 #### **Model Investasi yang Transparan**
 
-- **Development Cost**: Investasi pengembangan sistem enhanced
-- **Knowledge Transfer Fee**: Biaya pelatihan dan dokumentasi
-- **Maintenance & Support**: Layanan pemeliharaan dengan model yang jelas
+Rincian lengkap mengenai alokasi biaya pengembangan diuraikan dalam dokumen terpisah.
+
+- **Development Cost**: Investasi pengembangan sistem enhanced.
+- **Knowledge Transfer Fee**: Biaya pelatihan dan dokumentasi.
+- **Maintenance & Support**: Layanan pemeliharaan dengan model yang jelas.
 - **Performance-based Pricing**: Bagian dari biaya terkait dengan pencapaian target
+
+*Untuk rincian detail Rencana Anggaran Biaya (RAB), silakan merujuk ke file [**RAB Sipanda v2.0**](./RAB_Sipanda_v2.md).*
 
 ### 🎯 **FOKUS PENINGKATAN UTAMA**
 
