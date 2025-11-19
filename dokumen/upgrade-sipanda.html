@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposal Upgrade Sipanda 2.0</title>
+    <link rel="stylesheet" href="../../assets/css/bootstrap-5.0.0-alpha-2.min.css" />
+    <link rel="stylesheet" href="../../assets/css/LineIcons.2.0.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Garamond:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: #e0e0e0;
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+        }
+        .page {
+            width: 21cm;
+            min-height: 29.7cm;
+            padding: 1.5cm;
+            margin: 1.5cm auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+            position: relative;
+            page-break-after: always;
+        }
+        .page-cover {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .page-cover .logo {
+            width: 120px;
+            margin-bottom: 30px;
+        }
+        .page-cover h1 {
+            font-family: 'Garamond', serif;
+            font-size: 2.8rem;
+            color: #1a237e;
+            margin-bottom: 15px;
+        }
+        .page-cover h2 {
+            font-size: 1.4rem;
+            color: #555;
+            font-weight: 400;
+        }
+        .page-footer {
+            position: absolute;
+            bottom: 1cm;
+            left: 1.5cm;
+            right: 1.5cm;
+            text-align: center;
+            font-size: 9pt;
+            color: #999;
+        }
+        h1, h2, h3, h4 {
+            font-weight: 700;
+            color: #1a237e;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #dfe3ee;
+            padding-bottom: 6px;
+        }
+        h1 { font-size: 22pt; }
+        h2 { font-size: 18pt; }
+        h3 { font-size: 15pt; }
+        h4 { font-size: 13pt; border-bottom: 1px solid #eee; }
+        p, li {
+            font-size: 11pt;
+            line-height: 1.5;
+            text-align: justify;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 10px;
+        }
+        .content-img {
+            max-width: 75%;
+            margin: 15px auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .full-width-img {
+            max-width: 100%;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .info-card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-left: 4px solid #3B5998;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+        }
+        .info-card .icon {
+            font-size: 2rem;
+            color: #3B5998;
+            margin-right: 12px;
+        }
+        .info-card h5 {
+            font-weight: 700;
+            color: #3B5998;
+            margin-bottom: 5px;
+            font-size: 11pt;
+            border-bottom: none;
+        }
+        .info-card p {
+            font-size: 10pt;
+            margin-bottom: 0;
+        }
+        .two-column-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            align-items: center;
+            margin-top: 15px;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid */
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .image-grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+        .image-grid img:hover {
+            transform: scale(1.03);
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #dfe3ee;
+            padding: 10px 12px;
+            font-size: 10pt;
+            text-align: left;
+        }
+        th {
+            background-color: #f1f3f8;
+            font-weight: 700;
+        }
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+
+        @media print {
+            body {
+                background: white;
+            }
+            .page {
+                width: auto;
+                min-height: auto;
+                margin: 0;
+                padding: 1.5cm;
+                box-shadow: none;
+                border: none;
+                page-break-after: always;
+            }
+            .page-footer {
+                position: fixed;
+            }
+            .print-fab {
+                display: none;
+            }
+        }
+
+        .print-fab {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            width: 60px;
+            height: 60px;
+            background-color: #3B5998;
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+        .print-fab:hover {
+            background-color: #2c487d;
+            transform: scale(1.05);
+        }
+        .mermaid-diagram {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cover Page -->
+    <div class="page page-cover">
+        <img src="../../assets/img/logo/logobaubau4.0.png" alt="Logo Baubau 4.0" class="logo">
+        <h1>Proposal Upgrade Sipanda 2.0</h1>
+        <h2>Evolusi Sistem Manajemen Retribusi Digital Menuju Baubau Smart City</h2>
+        <div class="page-footer">Proposal Upgrade Sipanda 2.0</div>
+    </div>
+
+    <!-- Bab 1: Tinjauan Kritis -->
+    <div class="page">
+        <h1>Bab 1: Tinjauan Kritis & Peluang Peningkatan Sipanda 1.0</h1>
+        <p>Evaluasi sistem yang ada mengidentifikasi beberapa area kunci untuk penyempurnaan, yang menjadi landasan bagi evolusi ke versi 2.0.</p>
+        
+        <h2>1.1. Peluang Peningkatan</h2>
+        <div class="card-grid">
+            <div class="info-card"><div><h5>Antarmuka & Fungsionalitas</h5><p>Peningkatan UX/UI untuk kenyamanan dan adopsi yang lebih luas oleh masyarakat dan petugas.</p></div></div>
+            <div class="info-card"><div><h5>Kemandirian Sistem</h5><p>Mengurangi ketergantungan pada pihak eksternal untuk fleksibilitas dan kontrol penuh atas sistem.</p></div></div>
+            <div class="info-card"><div><h5>Arsitektur Teknis</h5><p>Penguatan arsitektur untuk mendukung skalabilitas, keamanan, dan integrasi layanan di masa depan.</p></div></div>
+        </div>
+
+        <h2>1.2. Permasalahan Strategis Sipanda 1.0</h2>
+        <p>Analisis mendalam terhadap versi awal Sipanda mengidentifikasi lima masalah utama yang menghambat efektivitas, adopsi, dan keberlanjutan sistem.</p>
+        <div class="card-grid">
+            <div class="info-card"><div><h5>FITUR & TAMPILAN</h5><p>Fitur terbatas, UX buruk, tidak ramah seluler.</p></div></div>
+            <div class="info-card"><div><h5>AKSES & KEPEMILIKAN</h5><p>Vendor lock-in, biaya tidak wajar, kurang transparan.</p></div></div>
+            <div class="info-card"><div><h5>FONDASI TEKNIS</h5><p>Arsitektur rapuh, database terisolasi, keamanan lemah.</p></div></div>
+            <div class="info-card"><div><h5>MINAT MASYARAKAT</h5><p>Manfaat tidak jelas, proses rumit, sosialisasi rendah.</p></div></div>
+            <div class="info-card"><div><h5>INFRASTRUKTUR</h5><p>Tanpa blueprint, celah integrasi, data silo.</p></div></div>
+        </div>
+        <div class="page-footer">Halaman 1</div>
+    </div>
+
+    <!-- Bab 2: Roadmap Evolusi Sistem -->
+    <div class="page">
+        <h1>Bab 2: Roadmap Evolusi Sistem</h1>
+        <p>Sipanda 2.0 dirancang sebagai evolusi sistem melalui pendekatan bertahap untuk memastikan stabilitas, pengayaan fitur, dan inovasi berkelanjutan.</p>
+        
+        <h2>2.1. Fase Pengembangan</h2>
+        <ul>
+            <li><strong>FASE 1: Konsolidasi & Stabilisasi (Bulan 1-3)</strong><br>Memperkuat fondasi teknis, melakukan migrasi, dan menstabilkan sistem inti untuk operasional yang handal.</li>
+            <li><strong>FASE 2: Pengayaan Fitur & Integrasi (Bulan 4-6)</strong><br>Menambah fitur baru berdasarkan prioritas dan memulai integrasi dengan sistem eksternal seperti data kependudukan.</li>
+            <li><strong>FASE 3: Optimisasi & Skalabilitas (Bulan 7-9)</strong><br>Meningkatkan performa, keamanan, dan mempersiapkan infrastruktur sistem untuk pertumbuhan pengguna.</li>
+            <li><strong>FASE 4: Inovasi & Ekspansi (Bulan 10-12)</strong><br>Mengembangkan fitur inovatif seperti analitik prediktif dan memperluas cakupan layanan retribusi baru.</li>
+        </ul>
+
+        <h2>2.2. Fondasi Teknis Sipanda 2.0</h2>
+        <p>Mengusulkan arsitektur microservices yang modern, robust, dan skalabel untuk mendukung pertumbuhan jangka panjang dan integrasi yang mulus.</p>
+        <div class="mermaid-diagram">
+            <pre class="mermaid">
+graph LR
+    subgraph Frontend Channels
+        direction LR
+        WebApp([fa:fa-desktop Web App])
+        MobileApp([fa:fa-mobile-alt Mobile App])
+    end
+
+    subgraph Backend Services
+        direction TB
+        API_Gateway(fa:fa-door-open API Gateway)
+
+        subgraph Core Microservices
+            direction LR
+            AuthService(fa:fa-user-shield Auth Service)
+            PaymentService(fa:fa-credit-card Payment Service)
+            NotificationService(fa:fa-bell Notification Service)
+        end
+
+        subgraph Data & Analytics
+            direction LR
+            ReportingService(fa:fa-chart-bar Reporting)
+            AnalyticsService(fa:fa-cogs Predictive Analytics)
+        end
+    end
+
+    subgraph External Integrations
+        direction TB
+        Bank(fa:fa-university Bank BPD Sultra)
+        Dukcapil(fa:fa-id-card DUKCAPIL)
+        OPD(fa:fa-building Sistem OPD)
+    end
+
+    WebApp & MobileApp --> API_Gateway
+    API_Gateway --> AuthService
+    API_Gateway --> PaymentService
+    API_Gateway --> NotificationService
+    API_Gateway --> ReportingService
+    API_Gateway --> AnalyticsService
+    
+    PaymentService --> Bank
+    AuthService --> Dukcapil
+    API_Gateway --> OPD
+
+    classDef frontend fill:#8B9DC3,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef backend fill:#3B5998,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef services fill:#5e7ab8,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef data fill:#7c99d4,stroke:#fff,stroke-width:2px,color:#fff;
+    classDef external fill:#dfe3ee,stroke:#fff,stroke-width:2px,color:#333;
+
+    class WebApp,MobileApp frontend;
+    class API_Gateway backend;
+    class AuthService,PaymentService,NotificationService services;
+    class ReportingService,AnalyticsService data;
+    class Bank,Dukcapil,OPD external;
+            </pre>
+        </div>
+        <div class="page-footer">Halaman 2</div>
+    </div>
+
+    <!-- Bab 3: Peningkatan Kapabilitas & Perbandingan Antarmuka -->
+    <div class="page">
+        <h1>Bab 3: Peningkatan Kapabilitas & Perbandingan Antarmuka</h1>
+        <p>Pengembangan berfokus pada penyempurnaan pengalaman pengguna dan penguatan fitur administrasi untuk efisiensi maksimal.</p>
+
+        <h2>3.1. Fokus Pengembangan Sistem</h2>
+        <div class="card-grid">
+            <div class="info-card"><div><h5>Penyempurnaan Pengalaman Pengguna (UX)</h5><p>Unified Dashboard, Simplified Navigation, Progressive Enhancement.</p></div></div>
+            <div class="info-card"><div><h5>Penguatan Sisi Administrasi</h5><p>Enhanced Management Console, Multi-tenant Architecture, Advanced Reporting.</p></div></div>
+        </div>
+
+        <h2>3.2. Evolusi Desain: Sipanda 1.0 vs 2.0</h2>
+        <p>Perubahan signifikan pada desain antarmuka untuk meningkatkan pengalaman pengguna dan efisiensi kerja. Berikut adalah galeri perbandingan tampilan:</p>
+        
+        <h3>Sipanda 1.0 (Versi Lama)</h3>
+        <div class="image-grid">
+            <img src="../../File/image/upgraded_sipanda/sipanda v.1 - yang lama/WhatsApp Image 2025-11-20 at 00.59.20 (1).jpeg" alt="Sipanda v1 - 1">
+            <img src="../../File/image/upgraded_sipanda/sipanda v.1 - yang lama/WhatsApp Image 2025-11-20 at 00.59.20.jpeg" alt="Sipanda v1 - 2">
+            <img src="../../File/image/upgraded_sipanda/sipanda v.1 - yang lama/WhatsApp Image 2025-11-20 at 00.59.21 (1).jpeg" alt="Sipanda v1 - 3">
+            <img src="../../File/image/upgraded_sipanda/sipanda v.1 - yang lama/WhatsApp Image 2025-11-20 at 00.59.21 (2).jpeg" alt="Sipanda v1 - 4">
+            <img src="../../File/image/upgraded_sipanda/sipanda v.1 - yang lama/WhatsApp Image 2025-11-20 at 00.59.21.jpeg" alt="Sipanda v1 - 5">
+            <img src="../../File/image/upgraded_sipanda/sipanda v.1 - yang lama/WhatsApp Image 2025-11-20 at 00.59.22 (1).jpeg" alt="Sipanda v1 - 6">
+            <img src="../../File/image/upgraded_sipanda/sipanda v.1 - yang lama/WhatsApp Image 2025-11-20 at 00.59.22.jpeg" alt="Sipanda v1 - 7">
+            <img src="../../File/image/upgraded_sipanda/sipanda v.1 - yang lama/WhatsApp Image 2025-11-20 at 00.59.23 (1).jpeg" alt="Sipanda v1 - 8">
+            <img src="../../File/image/upgraded_sipanda/sipanda v.1 - yang lama/WhatsApp Image 2025-11-20 at 00.59.23 (2).jpeg" alt="Sipanda v1 - 9">
+            <img src="../../File/image/upgraded_sipanda/sipanda v.1 - yang lama/WhatsApp Image 2025-11-20 at 00.59.23.jpeg" alt="Sipanda v1 - 10">
+            <img src="../../File/image/upgraded_sipanda/sipanda v.1 - yang lama/WhatsApp Image 2025-11-20 at 00.59.24.jpeg" alt="Sipanda v1 - 11">
+            <img src="../../File/image/upgraded_sipanda/sipanda v.1 - yang lama/WhatsApp Image 2025-11-20 at 00.59.25 (1).jpeg" alt="Sipanda v1 - 12">
+            <img src="../../File/image/upgraded_sipanda/sipanda v.1 - yang lama/WhatsApp Image 2025-11-20 at 00.59.25.jpeg" alt="Sipanda v1 - 13">
+        </div>
+
+        <h3>Sipanda 2.0 Mobile (Versi Baru)</h3>
+        <div class="image-grid">
+            <img src="../../File/image/upgraded_sipanda/aplikasi sipandav2 mobile/WhatsApp Image 2025-11-20 at 01.05.05.jpeg" alt="Mobile App 1">
+            <img src="../../File/image/upgraded_sipanda/aplikasi sipandav2 mobile/WhatsApp Image 2025-11-20 at 01.05.07 (1).jpeg" alt="Mobile App 2">
+            <img src="../../File/image/upgraded_sipanda/aplikasi sipandav2 mobile/WhatsApp Image 2025-11-20 at 01.05.07 (2).jpeg" alt="Mobile App 3">
+            <img src="../../File/image/upgraded_sipanda/aplikasi sipandav2 mobile/WhatsApp Image 2025-11-20 at 01.05.07.jpeg" alt="Mobile App 4">
+            <img src="../../File/image/upgraded_sipanda/aplikasi sipandav2 mobile/WhatsApp Image 2025-11-20 at 01.05.08 (1).jpeg" alt="Mobile App 5">
+            <img src="../../File/image/upgraded_sipanda/aplikasi sipandav2 mobile/WhatsApp Image 2025-11-20 at 01.05.08.jpeg" alt="Mobile App 6">
+            <img src="../../File/image/upgraded_sipanda/aplikasi sipandav2 mobile/WhatsApp Image 2025-11-20 at 01.05.09 (1).jpeg" alt="Mobile App 7">
+            <img src="../../File/image/upgraded_sipanda/aplikasi sipandav2 mobile/WhatsApp Image 2025-11-20 at 01.05.09.jpeg" alt="Mobile App 8">
+            <img src="../../File/image/upgraded_sipanda/aplikasi sipandav2 mobile/WhatsApp Image 2025-11-20 at 01.05.12 (1).jpeg" alt="Mobile App 9">
+            <img src="../../File/image/upgraded_sipanda/aplikasi sipandav2 mobile/WhatsApp Image 2025-11-20 at 01.05.12.jpeg" alt="Mobile App 10">
+            <img src="../../File/image/upgraded_sipanda/aplikasi sipandav2 mobile/WhatsApp Image 2025-11-20 at 01.05.13 (1).jpeg" alt="Mobile App 11">
+            <img src="../../File/image/upgraded_sipanda/aplikasi sipandav2 mobile/WhatsApp Image 2025-11-20 at 01.05.13.jpeg" alt="Mobile App 12">
+            <img src="../../File/image/upgraded_sipanda/aplikasi sipandav2 mobile/WhatsApp Image 2025-11-20 at 01.05.14 (1).jpeg" alt="Mobile App 13">
+            <img src="../../File/image/upgraded_sipanda/aplikasi sipandav2 mobile/WhatsApp Image 2025-11-20 at 01.05.14 (2).jpeg" alt="Mobile App 14">
+            <img src="../../File/image/upgraded_sipanda/aplikasi sipandav2 mobile/WhatsApp Image 2025-11-20 at 01.05.14.jpeg" alt="Mobile App 15">
+            <img src="../../File/image/upgraded_sipanda/aplikasi sipandav2 mobile/WhatsApp Image 2025-11-20 at 01.05.15 (1).jpeg" alt="Mobile App 16">
+            <img src="../../File/image/upgraded_sipanda/aplikasi sipandav2 mobile/WhatsApp Image 2025-11-20 at 01.05.15 (2).jpeg" alt="Mobile App 17">
+            <img src="../../File/image/upgraded_sipanda/aplikasi sipandav2 mobile/WhatsApp Image 2025-11-20 at 01.05.15.jpeg" alt="Mobile App 18">
+            <img src="../../File/image/upgraded_sipanda/aplikasi sipandav2 mobile/WhatsApp Image 2025-11-20 at 01.05.16 (1).jpeg" alt="Mobile App 19">
+            <img src="../../File/image/upgraded_sipanda/aplikasi sipandav2 mobile/WhatsApp Image 2025-11-20 at 01.05.16.jpeg" alt="Mobile App 20">
+            <img src="../../File/image/upgraded_sipanda/aplikasi sipandav2 mobile/WhatsApp Image 2025-11-20 at 01.05.17 (1).jpeg" alt="Mobile App 21">
+            <img src="../../File/image/upgraded_sipanda/aplikasi sipandav2 mobile/WhatsApp Image 2025-11-20 at 01.05.17 (2).jpeg" alt="Mobile App 22">
+            <img src="../../File/image/upgraded_sipanda/aplikasi sipandav2 mobile/WhatsApp Image 2025-11-20 at 01.05.17.jpeg" alt="Mobile App 23">
+        </div>
+
+        <h3>Sipanda 2.0 Admin (Versi Baru)</h3>
+        <div class="image-grid">
+            <img src="../../File/image/upgraded_sipanda/admin sipanda v2/WhatsApp Image 2025-11-20 at 01.15.03 (1).jpeg" alt="Admin Dashboard 1">
+            <img src="../../File/image/upgraded_sipanda/admin sipanda v2/WhatsApp Image 2025-11-20 at 01.15.03 (2).jpeg" alt="Admin Dashboard 2">
+            <img src="../../File/image/upgraded_sipanda/admin sipanda v2/WhatsApp Image 2025-11-20 at 01.15.03 (3).jpeg" alt="Admin Dashboard 3">
+            <img src="../../File/image/upgraded_sipanda/admin sipanda v2/WhatsApp Image 2025-11-20 at 01.15.03 (4).jpeg" alt="Admin Dashboard 4">
+            <img src="../../File/image/upgraded_sipanda/admin sipanda v2/WhatsApp Image 2025-11-20 at 01.15.03 (5).jpeg" alt="Admin Dashboard 5">
+            <img src="../../File/image/upgraded_sipanda/admin sipanda v2/WhatsApp Image 2025-11-20 at 01.15.03 (6).jpeg" alt="Admin Dashboard 6">
+            <img src="../../File/image/upgraded_sipanda/admin sipanda v2/WhatsApp Image 2025-11-20 at 01.15.03 (7).jpeg" alt="Admin Dashboard 7">
+            <img src="../../File/image/upgraded_sipanda/admin sipanda v2/WhatsApp Image 2025-11-20 at 01.15.03 (8).jpeg" alt="Admin Dashboard 8">
+            <img src="../../File/image/upgraded_sipanda/admin sipanda v2/WhatsApp Image 2025-11-20 at 01.15.03 (9).jpeg" alt="Admin Dashboard 9">
+            <img src="../../File/image/upgraded_sipanda/admin sipanda v2/WhatsApp Image 2025-11-20 at 01.15.03.jpeg" alt="Admin Dashboard 10">
+        </div>
+        <div class="page-footer">Halaman 3</div>
+    </div>
+
+    <div class="print-fab" onclick="window.print()">
+        <i class="lni lni-printer"></i>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+      mermaid.initialize({ 
+        startOnLoad: true,
+        theme: 'base',
+        fontFamily: '"Roboto", sans-serif',
+        themeVariables: {
+            primaryColor: '#f0f2f5',
+            primaryTextColor: '#333',
+            primaryBorderColor: '#dfe3ee',
+            lineColor: '#8B9DC3',
+            secondaryColor: '#f0f2f5',
+            tertiaryColor: '#fff'
+        }
+    });
+    </script>
+</body>
+</html>
