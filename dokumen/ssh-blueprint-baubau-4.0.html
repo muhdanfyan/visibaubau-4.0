@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standar Satuan Harga (SSH) - Blue-Print Visi Baubau 4.0</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap-5.0.0-alpha-2.min.css" />
+    <link rel="stylesheet" href="../assets/css/LineIcons.2.0.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Garamond:wght@700&family=Times+New+Roman&display=swap" rel="stylesheet">
+    <style>
+        body { background: #e0e0e0; font-family: 'Times New Roman', Times, serif; color: #000; }
+        .page { width: 21cm; min-height: 29.7cm; padding: 1.5cm; margin: 1.5cm auto; background: white; box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); position: relative; }
+        .page-header-img, .page-footer-img { position: absolute; left: 0; width: 100%; }
+        .page-header-img { top: 0; }
+        .page-footer-img { bottom: 0; }
+        .content-container { padding-top: 2.5cm; padding-bottom: 2.5cm; }
+        h1, h2 { font-family: 'Roboto', sans-serif; font-weight: 700; color: #1a237e; margin-bottom: 10px; border-bottom: 2px solid #dfe3ee; padding-bottom: 6px; }
+        h1 { font-size: 20pt; }
+        h2 { font-size: 16pt; margin-top: 20px; }
+        .table thead th { background-color: #f8f9fa; vertical-align: middle; text-align: center; }
+        .table tbody td { vertical-align: middle; }
+        .table tfoot td { font-weight: bold; }
+        .category-row td { font-weight: bold; background-color: #f2f2f2; }
+        .total-row td { font-weight: bold; background-color: #e9ecef; }
+        .text-end { text-align: right; }
+        .print-fab { position: fixed; bottom: 40px; right: 40px; width: 60px; height: 60px; background-color: #3B5998; color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 28px; box-shadow: 0 5px 15px rgba(0,0,0,0.2); cursor: pointer; z-index: 1000; }
+        @media print {
+            body, .page { margin: 0; padding: 1cm; background: white; box-shadow: none; border: none; }
+            .print-fab { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="page">
+    <img src="header dan footer/header.png" class="page-header-img">
+    <div class="content-container">
+        <header class="mb-4 text-center">
+            <h1>Standar Satuan Harga (SSH)</h1>
+            <h2>Penyusunan Dokumen Blue-Print Visi Baubau 4.0</h2>
+        </header>
+
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Komponen Biaya</th>
+                        <th>Satuan</th>
+                        <th>Volume</th>
+                        <th>Harga Satuan (Rp)</th>
+                        <th>Jumlah Biaya (Rp)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Kategori 1 -->
+                    <tr class="category-row">
+                        <td><strong>1</strong></td>
+                        <td colspan="4"><strong>Sumber Daya Manusia (Internal)</strong></td>
+                        <td class="text-end"><strong>90.000.000</strong></td>
+                    </tr>
+                    <tr>
+                        <td>1.1</td>
+                        <td>Penanggung Jawab (Ahli Perencana SPBE)</td>
+                        <td>Orang/Bulan</td>
+                        <td>3</td>
+                        <td class="text-end">12.000.000</td>
+                        <td class="text-end">36.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>1.2</td>
+                        <td>Analis Sistem & Kebijakan Publik</td>
+                        <td>Orang/Bulan</td>
+                        <td>9</td>
+                        <td class="text-end">5.000.000</td>
+                        <td class="text-end">45.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>1.3</td>
+                        <td>Staf Pendukung/Administrasi</td>
+                        <td>Orang/Bulan</td>
+                        <td>3</td>
+                        <td class="text-end">3.000.000</td>
+                        <td class="text-end">9.000.000</td>
+                    </tr>
+
+                    <!-- Kategori 2 -->
+                    <tr class="category-row">
+                        <td><strong>2</strong></td>
+                        <td colspan="4"><strong>Workshop dan FGD</strong></td>
+                        <td class="text-end"><strong>11.250.000</strong></td>
+                    </tr>
+                    <tr>
+                        <td>2.1</td>
+                        <td>Sewa Tempat & Konsumsi</td>
+                        <td>Paket</td>
+                        <td>3</td>
+                        <td class="text-end">2.500.000</td>
+                        <td class="text-end">7.500.000</td>
+                    </tr>
+                    <tr>
+                        <td>2.2</td>
+                        <td>Honorarium Narasumber Eksternal</td>
+                        <td>Orang/Kegiatan</td>
+                        <td>3</td>
+                        <td class="text-end">1.000.000</td>
+                        <td class="text-end">3.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>2.3</td>
+                        <td>ATK & Materi Workshop</td>
+                        <td>Paket</td>
+                        <td>3</td>
+                        <td class="text-end">250.000</td>
+                        <td class="text-end">750.000</td>
+                    </tr>
+
+                    <!-- Kategori 3 -->
+                    <tr class="category-row">
+                        <td><strong>3</strong></td>
+                        <td colspan="4"><strong>Desain Grafis dan Tata Letak</strong></td>
+                        <td class="text-end"><strong>6.750.000</strong></td>
+                    </tr>
+                    <tr>
+                        <td>3.1</td>
+                        <td>Jasa Desain Grafis & Layout Dokumen Masterplan</td>
+                        <td>Lumpsum</td>
+                        <td>1</td>
+                        <td class="text-end">6.750.000</td>
+                        <td class="text-end">6.750.000</td>
+                    </tr>
+
+                    <!-- Kategori 4 -->
+                    <tr class="category-row">
+                        <td><strong>4</strong></td>
+                        <td colspan="4"><strong>Pembuatan Website Proyek</strong></td>
+                        <td class="text-end"><strong>13.500.000</strong></td>
+                    </tr>
+                    <tr>
+                        <td>4.1</td>
+                        <td>Pengembangan Website (CMS, Desain, Hosting, Domain)</td>
+                        <td>Lumpsum</td>
+                        <td>1</td>
+                        <td class="text-end">13.500.000</td>
+                        <td class="text-end">13.500.000</td>
+                    </tr>
+
+                    <!-- Kategori 5 -->
+                    <tr class="category-row">
+                        <td><strong>5</strong></td>
+                        <td colspan="4"><strong>Produksi Motion Graphic</strong></td>
+                        <td class="text-end"><strong>9.000.000</strong></td>
+                    </tr>
+                    <tr>
+                        <td>5.1</td>
+                        <td>Jasa Produksi Video Animasi (2-3 Menit)</td>
+                        <td>Lumpsum</td>
+                        <td>1</td>
+                        <td class="text-end">9.000.000</td>
+                        <td class="text-end">9.000.000</td>
+                    </tr>
+
+                    <!-- Kategori 6 -->
+                    <tr class="category-row">
+                        <td><strong>6</strong></td>
+                        <td colspan="4"><strong>Penyusunan Dokumen dan Elemen Penting Lainnya</strong></td>
+                        <td class="text-end"><strong>4.500.000</strong></td>
+                    </tr>
+                    <tr>
+                        <td>6.1</td>
+                        <td>Biaya Cetak & Penjilidan Dokumen (Hard copy)</td>
+                        <td>Buku</td>
+                        <td>50</td>
+                        <td class="text-end">70.000</td>
+                        <td class="text-end">3.500.000</td>
+                    </tr>
+                    <tr>
+                        <td>6.2</td>
+                        <td>Penyimpanan & Distribusi Digital</td>
+                        <td>Lumpsum</td>
+                        <td>1</td>
+                        <td class="text-end">1.000.000</td>
+                        <td class="text-end">1.000.000</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr class="total-row">
+                        <td colspan="5" class="text-end"><strong>Subtotal</strong></td>
+                        <td class="text-end"><strong>135.000.000</strong></td>
+                    </tr>
+                    <tr class="total-row">
+                        <td colspan="5" class="text-end">PPN (11%)</td>
+                        <td class="text-end">14.850.000</td>
+                    </tr>
+                    <tr class="total-row" style="font-size: 1.1em;">
+                        <td colspan="5" class="text-end"><strong>Total Biaya</strong></td>
+                        <td class="text-end"><strong>149.850.000</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+    <img src="header dan footer/footer.png" class="page-footer-img">
+</div>
+
+<div class="print-fab" onclick="window.print()">
+    <i class="lni lni-printer"></i>
+</div>
+
+</body>
+</html>
