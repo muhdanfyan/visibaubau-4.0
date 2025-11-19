@@ -1,5 +1,5 @@
 
-Berikut Rencana Anggaran Biaya (RAB) aplikasi E-Retribusi Kota Baubau dengan total anggaran **Rp 75.000.000**. RAB ini disusun secara realistis dengan mempertimbangkan kompleksitas aplikasi dan harga standar pengembangan software tahun 2025.
+Berikut Rencana Anggaran Biaya (RAB) aplikasi E-Retribusi Kota Baubau dengan total anggaran **Rp 74.900.000**. RAB ini disusun secara realistis dengan mempertimbangkan kompleksitas aplikasi dan harga standar pengembangan software tahun 2025.
 
 ### 💰 Rincian Rencana Anggaran Biaya (RAB)
 
@@ -7,12 +7,14 @@ Tabel berikut merinci alokasi anggaran untuk tahap pengembangan dan operasional 
 
 | Kategori                                         | Deskripsi & Alokasi                                                                                                                                                                                                                                                                  | Total Biaya              |
 | :----------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------- |
-| **1. Pengembangan Aplikasi (55%)**         | Biaya inti untuk tim developer membangun aplikasi (**Moderately Complex App**) mencakup:`<br>`• **Frontend & Backend**`<br>`• **Integrasi Payment Gateway Bank BPD Sultra**`<br>`• **Modul untuk 7 OPD terkait**`<br>`• **Database & API** | **Rp 41.250.000**  |
-| **2. Desain UI/UX (10%)**                  | Perancangan antarmuka pengguna yang intuitif dan mudah digunakan untuk masyarakat dan admin, termasuk desain alur kerja (workflow).                                                                                                                                                  | **Rp 7.500.000**  |
-| **3. Pengujian & QA (10%)**                | Pengujian fungsionalitas, keamanan, dan kompatibilitas di berbagai perangkat dan jaringan.                                                                                                                                                                                           | **Rp 7.500.000**  |
-| **4. Infrastruktur & Keamanan Awal (15%)** | Biaya**hosting, server, domain (.go.id)**, dan sertifikat SSL untuk tahun pertama, serta langkah keamanan dasar.                                                                                                                                                               | **Rp 11.250.000**  |
-| **5. Manajemen Proyek & Pelatihan (10%)**  | Koordinasi proyek, dokumentasi teknis, dan**pelatihan penggunaan aplikasi untuk admin di Bapenda dan OPD terkait**.                                                                                                                                                            | **Rp 7.500.000**  |
-| **Total Anggaran**                         |                                                                                                                                                                                                                                                                                      | **Rp 75.000.000** |
+| **1. Pengembangan Aplikasi (55%)**         | Biaya inti untuk tim developer membangun aplikasi (**Moderately Complex App**) mencakup:`<br>`• **Frontend & Backend**`<br>`• **Integrasi Payment Gateway Bank BPD Sultra**`<br>`• **Modul untuk 7 OPD terkait**`<br>`• **Database & API** | **Rp 36.781.250**  |
+| **2. Desain UI/UX (10%)**                  | Perancangan antarmuka pengguna yang intuitif dan mudah digunakan untuk masyarakat dan admin, termasuk desain alur kerja (workflow).                                                                                                                                                  | **Rp 6.687.500**  |
+| **3. Pengujian & QA (10%)**                | Pengujian fungsionalitas, keamanan, dan kompatibilitas di berbagai perangkat dan jaringan.                                                                                                                                                                                           | **Rp 6.687.500**  |
+| **4. Infrastruktur & Keamanan Awal (15%)** | Biaya**hosting, server, domain (.go.id)**, dan sertifikat SSL untuk tahun pertama, serta langkah keamanan dasar.                                                                                                                                                               | **Rp 10.031.250**  |
+| **5. Manajemen Proyek & Pelatihan (10%)**  | Koordinasi proyek, dokumentasi teknis, dan**pelatihan penggunaan aplikasi untuk admin di Bapenda dan OPD terkait**.                                                                                                                                                            | **Rp 6.687.500**  |
+| **Subtotal**                               |                                                                                                                                                                                                                                                                                      | **Rp 66.875.000** |
+| **PPN (12%)**                              |                                                                                                                                                                                                                                                                                      | **Rp 8.025.000** |
+| **Total Anggaran**                         |                                                                                                                                                                                                                                                                                      | **Rp 74.900.000** |
 
 ### 💡 Strategi Efisiensi dan Tahapan Pengembangan
 
@@ -25,7 +27,7 @@ Dengan anggaran yang tetap, langkah strategis berikut memastikan aplikasi dapat 
 
 ### 📅 Rencana Anggaran Tahunan Berikutnya
 
-Setelah aplikasi diluncurkan, perlu dialokasikan biaya operasional dan pemeliharaan tahunan sekitar **15-20%** dari total biaya pengembangan awal. Dengan anggaran Rp 75 juta, maka perlu disiapkan dana **Rp 11,25-15 juta per tahun** untuk biaya berikut:
+Setelah aplikasi diluncurkan, perlu dialokasikan biaya operasional dan pemeliharaan tahunan sekitar **15-20%** dari total biaya pengembangan awal. Dengan anggaran Rp 74,9 juta, maka perlu disiapkan dana **Rp 11,23-14,98 juta per tahun** untuk biaya berikut:
 
 - **Pemeliharaan Aplikasi**: Perbaikan bug, update untuk kompatibilitasi sistem operasi baru, dan peningkatan stabilitas.
 - **Biaya Hosting & Server Berlanjut**.
