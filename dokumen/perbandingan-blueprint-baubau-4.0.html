@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perbandingan Blueprint Baubau 4.0</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap-5.0.0-alpha-2.min.css" />
+    <link rel="stylesheet" href="../assets/css/LineIcons.2.0.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Garamond:wght@700&family=Times+New+Roman&display=swap" rel="stylesheet">
+    <style>
+        body { background: #e0e0e0; font-family: 'Times New Roman', Times, serif; color: #000; }
+        .page { width: 21cm; height: 29.7cm; padding: 1.5cm; margin: 1.5cm auto; background: white; box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); position: relative; page-break-after: always; overflow: hidden; }
+        .page:last-of-type { page-break-after: avoid; }
+        .page-header-img, .page-footer-img { position: absolute; left: 0; width: 100%; z-index: 1; }
+        .page-header-img { top: 0; }
+        .content-container { padding-top: 2cm; padding-bottom: 2.5cm; position: relative; z-index: 2; }
+        h1, h2 { font-family: 'Roboto', sans-serif; font-weight: 700; color: #1a237e; margin-bottom: 10px; border-bottom: 2px solid #dfe3ee; padding-bottom: 6px; text-align: center; }
+        h1 { font-size: 18pt; }
+        h2 { font-size: 16pt; margin-top: 20px; }
+        p { font-size: 12px; line-height: 1.3; }
+        .table tbody td { vertical-align: middle; font-size: 12px; line-height: 1.3; }
+        .table ul { padding-left: 1.2rem; margin-bottom: 0; }
+        .price { font-weight: bold; color: #007bff; }
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            margin-top: 2rem;
+            text-align: center;
+        }
+        .image-gallery img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .image-gallery figcaption {
+            margin-top: 0.5rem;
+            font-style: italic;
+            font-size: 11px;
+        }
+        .recommendation {
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background-color: #e9f7ef;
+            border-left: 5px solid #28a745;
+        }
+        .justification {
+            margin-top: 2rem;
+        }
+        .justification h2, .justification h3 {
+            text-align: left;
+        }
+        .justification p {
+            text-align: justify;
+            line-height: 1.3;
+        }
+        .justification h3 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            color: #000;
+            font-size: 14pt;
+            margin-top: 1rem;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+        .print-fab { position: fixed; bottom: 40px; right: 40px; width: 60px; height: 60px; background-color: #3B5998; color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 28px; box-shadow: 0 5px 15px rgba(0,0,0,0.2); cursor: pointer; z-index: 1000; }
+        @media print {
+            body { 
+                background: #e0e0e0 !important; 
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            .page {
+                /* Do not override screen styles, so the print looks like the web view */
+                border: none;
+            }
+            .print-fab { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Page 1 -->
+<div class="page">
+    <img src="header dan footer/header.png" class="page-header-img">
+    <div class="content-container">
+        <header class="mb-4 text-center">
+            <h1>Analisis Perbandingan Penyusunan Dokumen Blueprint</h1>
+            <h2>Visi Baubau 4.0 vs. Penyedia Eksternal</h2>
+        </header>
+
+        <p>Dokumen ini membandingkan antara penyusunan dokumen blueprint Visi Baubau 4.0 secara internal oleh tim Pemerintah Kota Baubau dengan penawaran dari dua penyedia jasa konsultan eksternal yang ditemukan di e-katalog.</p>
+
+        <table class="table table-bordered">
+            <tbody>
+                <tr>
+                    <td><strong>Nama Produk</strong></td>
+                    <td>Penyusunan Blueprint Visi Baubau 4.0</td>
+                    <td>Paket Lengkap Penyusunan Masterplan Smart City</td>
+                    <td>Penyusunan Masterplan Smart City Full Package</td>
+                </tr>
+                <tr>
+                    <td><strong>Nama Perusahaan</strong></td>
+                    <td>CV Sarjana Komputer Indonesia</td>
+                    <td>PT Nusantara Untung Sejahtera</td>
+                    <td>PT Citi Asia Internasional</td>
+                </tr>
+                <tr>
+                    <td><strong>Lokasi</strong></td>
+                    <td>Kota Baubau</td>
+                    <td>Kota Adm. Jakarta Utara</td>
+                    <td>Kota Adm. Jakarta Timur</td>
+                </tr>
+                <tr>
+                    <td><strong>Biaya</strong></td>
+                    <td class="price">Rp 179.984.000</td>
+                    <td class="price">Rp 449.000.000</td>
+                    <td class="price">Rp 250.000.000</td>
+                </tr>
+                <tr>
+                    <td><strong>Output Utama</strong></td>
+                    <td>
+                        <ul>
+                            <li>Dokumen Blueprint Komprehensif</li>
+                            <li>Workshop & FGD</li>
+                            <li>Website Proyek & Motion Graphic</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Buku 1: Analisis Kondisi Existing</li>
+                            <li>Buku 2: Masterplan Smart City</li>
+                            <li>Buku 3: Executive Summary</li>
+                            <li>Buku 4: Quickwin</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Buku 1: Analisis Strategi Daerah</li>
+                            <li>Buku 2: Masterplan Smart City</li>
+                            <li>Buku 3: Executive Summary</li>
+                            <li>Buku 4: Quickwin</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Kelebihan</strong></td>
+                    <td>Sangat efisien, konteks lokal kuat, membangun kapasitas SDM, & output berorientasi adopsi.</td>
+                    <td>Berpengalaman di berbagai daerah & struktur dokumen standar.</td>
+                    <td>Harga kompetitif (antar eksternal) & struktur standar.</td>
+                </tr>
+                <tr>
+                    <td><strong>Kekurangan</strong></td>
+                    <td>Membutuhkan komitmen waktu dari tim internal.</td>
+                    <td>Biaya 3x lebih mahal, output berisiko generik, & minim dukungan adopsi.</td>
+                    <td>Biaya 67% lebih mahal, pendekatan "template", & fokus pada penyerahan dokumen.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Page 2 -->
+<div class="page">
+    <img src="header dan footer/header.png" class="page-header-img">
+    <div class="content-container">
+        <h2>Lampiran Gambar</h2>
+        <div class="image-gallery">
+            <figure>
+                <img src="pembanding-blueprint/foto katalog blueprint.png" alt="Konsep Blueprint Baubau 4.0">
+                <figcaption>Konsep Blueprint Baubau 4.0 (Internal)</figcaption>
+            </figure>
+            <figure>
+                <img src="pembanding-blueprint/katalog1.png" alt="Katalog Nusantara Untung Sejahtera">
+                <figcaption>Penawaran 1: Nusantara Untung Sejahtera</figcaption>
+            </figure>
+            <figure>
+                <img src="pembanding-blueprint/katalog2.png" alt="Katalog Citi Asia Internasional">
+                <figcaption>Penawaran 2: Citi Asia Internasional</figcaption>
+            </figure>
+        </div>
+
+        <div class="recommendation">
+            <h2>Rekomendasi</h2>
+            <p>
+                Penyusunan dokumen blueprint <strong>Visi Baubau 4.0</strong> secara <strong>internal</strong> adalah pilihan yang paling strategis dan efisien. Dengan biaya yang jauh lebih rendah, tim internal dapat menghasilkan dokumen yang lebih sesuai dengan konteks dan kebutuhan unik Kota Baubau.
+            </p>
+            <p>
+                <strong>Kesimpulan:</strong> Disarankan untuk melanjutkan rencana penyusunan blueprint secara internal sesuai dengan proposal yang telah diajukan.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Page 3 -->
+<div class="page">
+    <img src="header dan footer/header.png" class="page-header-img">
+    <div class="content-container">
+        <div class="justification">
+            <h2>Justifikasi Pilihan & Analisis Penguatan</h2>
+            <p>Keputusan untuk merekomendasikan penyusunan blueprint secara internal didasarkan pada analisis mendalam terhadap nilai, risiko, dan dampak jangka panjang bagi Pemerintah Kota Baubau.</p>
+            
+            <h3>1. Efisiensi Anggaran Maksimal</h3>
+            <p>Dengan anggaran <strong>~Rp 180 juta</strong>, opsi internal secara dramatis lebih hemat dibandingkan penawaran eksternal (Rp 449 juta dan Rp 250 juta). Penghematan ini memungkinkan alokasi sumber daya ke area implementasi lain yang lebih mendesak. Biaya tinggi dari konsultan eksternal tidak memberikan jaminan hasil yang sepadan, terutama ketika solusi yang ditawarkan bersifat generik.</p>
+
+            <h3>2. Kepemilikan dan Kontekstualisasi (Tidak Ternilai)</h3>
+            <p>Tim internal memiliki pemahaman yang tidak dapat ditandingi mengenai dinamika sosial, budaya, birokrasi, dan tantangan spesifik di Kota Baubau. Blueprint yang dihasilkan akan "dari, oleh, dan untuk" Baubau, bukan adaptasi dari template kota lain. Hal ini memastikan relevansi dan meningkatkan kemungkinan keberhasilan implementasi karena adanya rasa kepemilikan (ownership) dari awal.</p>
+
+            <h3>3. Investasi Jangka Panjang pada SDM Aparatur</h3>
+            <p>Melibatkan tim internal adalah bentuk investasi pada sumber daya manusia. Keterampilan dan pengetahuan yang diperoleh selama proses penyusunan akan melekat pada aparatur pemerintah, menciptakan kapasitas internal yang berkelanjutan untuk mengelola, mengevaluasi, dan memperbarui blueprint di masa depan tanpa harus selalu bergantung pada konsultan luar.</p>
+
+            <h3>4. Analisis Kritis Terhadap Penawaran Eksternal</h3>
+            <p>Penawaran dari kedua penyedia eksternal menunjukkan struktur output yang sangat standar ("Buku 1, 2, 3, 4"). Ini mengindikasikan pendekatan "satu ukuran untuk semua" (one-size-fits-all) yang berisiko menghasilkan dokumen yang teoretis, sulit diimplementasikan, dan tidak sepenuhnya selaras dengan visi unik Baubau. Selain itu, tidak ada penawaran untuk materi sosialisasi seperti website atau video, yang menunjukkan fokus hanya pada penyerahan dokumen, bukan pada keberhasilan adopsi.</p>
+        </div>
+    </div>
+</div>
+
+<div class="print-fab" onclick="window.print()">
+    <i class="lni lni-printer"></i>
+</div>
+
+</body>
+</html>
