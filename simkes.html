@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html class="no-js" lang="id">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>SIMKES - Layanan Kesehatan Digital Terintegrasi | Baubau 4.0</title>
+    <meta name="description" content="Transformasi Digital Kesehatan Kota Baubau melalui SIMKES yang terintegrasi." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- ========== Open Graph/Facebook Meta Tags ========== -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://visibaubau4.netlify.app/simkes.html">
+    <meta property="og:title" content="SIMKES - Layanan Kesehatan Digital Terintegrasi">
+    <meta property="og:description"
+        content="Transformasi Digital Kesehatan Kota Baubau melalui SIMKES yang terintegrasi.">
+    <meta property="og:image" content="assets/img/satu-data-app-concept.png">
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap-5.0.0-alpha-2.min.css" />
+    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/lindy-uikit.css" />
+    <link rel="stylesheet" href="assets/css/custom-header.css" />
+    <link rel="icon" href="assets/img/logo/logobaubau4.0.png" type="image/png">
+    <style>
+        /* Custom Styles for SIMKES Page */
+        .page-title-overlay {
+            position: relative;
+            background-image: url('assets/img/city-aerial-view-with-network-overlay.png');
+            background-size: cover;
+            background-position: center;
+            padding: 150px 0 100px;
+            z-index: 1;
+        }
+
+        .page-title-overlay::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(rgba(47, 128, 237, 0.8), rgba(50, 52, 80, 0.9));
+            z-index: -1;
+        }
+
+        .page-title-content h2 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .page-title-content p {
+            font-size: 1.2rem;
+            color: rgba(255, 255, 255, 0.9);
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* Feature Cards */
+        .feature-card {
+            background: #fff;
+            padding: 40px 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            height: 100%;
+            border-bottom: 3px solid transparent;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(47, 128, 237, 0.15);
+            border-bottom: 3px solid #2F80ED;
+        }
+
+        .feature-card .icon {
+            width: 70px;
+            height: 70px;
+            line-height: 70px;
+            text-align: center;
+            background: rgba(47, 128, 237, 0.1);
+            color: #2F80ED;
+            font-size: 32px;
+            border-radius: 50%;
+            margin-bottom: 25px;
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover .icon {
+            background: #2F80ED;
+            color: #fff;
+        }
+
+        .feature-card h4 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .feature-card p {
+            color: #666;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        /* Process Timeline */
+        .process-step {
+            position: relative;
+            padding: 30px;
+            background: #fff;
+            border-radius: 10px;
+            border: 1px solid #eee;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .process-step:hover {
+            border-color: #2F80ED;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .step-number {
+            position: absolute;
+            top: -15px;
+            left: 20px;
+            background: #2F80ED;
+            color: #fff;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            border-radius: 50%;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        /* Module Grid */
+        .module-box {
+            background: #f9f9f9;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            height: 100%;
+        }
+
+        .module-box h5 {
+            color: #2F80ED;
+            font-weight: 700;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .module-box h5 i {
+            margin-right: 10px;
+            font-size: 24px;
+        }
+
+        .module-box ul {
+            padding-left: 0;
+            list-style: none;
+        }
+
+        .module-box ul li {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        .module-box ul li::before {
+            content: '\2713';
+            /* Checkmark */
+            position: absolute;
+            left: 0;
+            color: #2F80ED;
+            font-weight: bold;
+        }
+
+        /* Section Headers */
+        .section-title-left h3 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .section-title-left .line {
+            width: 60px;
+            height: 4px;
+            background: #2F80ED;
+            margin-bottom: 25px;
+            border-radius: 2px;
+        }
+
+        /* Benefit Box Styles */
+        .benefit-box {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            padding: 25px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            border: 1px solid #eee;
+        }
+
+        .benefit-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(47, 128, 237, 0.1);
+            border-color: #2F80ED;
+        }
+
+        .benefit-box .icon {
+            flex-shrink: 0;
+            width: 60px;
+            height: 60px;
+            background: rgba(47, 128, 237, 0.1);
+            color: #2F80ED;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            margin-right: 20px;
+        }
+
+        .benefit-box h5 {
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .benefit-box ul {
+            margin: 0;
+            padding-left: 15px;
+            font-size: 0.95rem;
+            color: #666;
+        }
+
+        .benefit-box ul li {
+            margin-bottom: 5px;
+        }
+    </style>
+
+<body>
+    <!-- ========================= preloader start ========================= -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="spinner">
+                <div class="spinner-container">
+                    <div class="spinner-rotator">
+                        <div class="spinner-left">
+                            <div class="spinner-circle"></div>
+                        </div>
+                        <div class="spinner-right">
+                            <div class="spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========================= preloader end ========================= -->
+
+    <!-- ========================= hero-section-wrapper-2 start ========================= -->
+    <section id="home" class="hero-section-wrapper-2">
+        <div id="header-placeholder"></div>
+    </section>
+    <!-- ========================= hero-section-wrapper-2 end ========================= -->
+
+    <!-- ========================= Page Title Section ========================= -->
+    <section class="page-title-section page-title-overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-10 mx-auto">
+                    <div class="page-title-content text-center wow fadeInUp" data-wow-delay=".2s">
+                        <h2 class="mb-15">SIMKES Terintegrasi</h2>
+                        <p>Sistem Informasi Manajemen Kesehatan yang menghubungkan Dinas Kesehatan, Puskesmas, dan Rumah
+                            Sakit dalam satu ekosistem digital untuk pelayanan yang lebih cepat, akurat, dan efisien.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================= Intro Section ========================= -->
+    <section class="about-section pt-100 pb-50">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-image wow fadeInLeft" data-wow-delay=".2s">
+                        <img src="assets/img/satu-data-app-concept.png" alt="SIMKES Dashboard Concept"
+                            class="img-fluid rounded shadow-lg">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content-wrapper wow fadeInRight" data-wow-delay=".4s">
+                        <div class="section-title-left">
+                            <h3>Transformasi Digital Kesehatan</h3>
+                            <div class="line"></div>
+                        </div>
+                        <p class="mb-20">
+                            SIMKES hadir sebagai solusi komprehensif untuk mengatasi fragmentasi data kesehatan. Dengan
+                            mengintegrasikan <strong>SIMGOS</strong> (Sistem Informasi Rumah Sakit) dan sistem
+                            Puskesmas, Dinas Kesehatan kini memiliki "Hub Logistik Data" yang real-time.
+                        </p>
+                        <p>
+                            Sistem ini tidak hanya sekadar aplikasi pencatatan, tetapi sebuah ekosistem yang mendukung
+                            pengambilan keputusan strategis, pemantauan stunting, hingga manajemen sumber daya kesehatan
+                            yang lebih transparan.
+                        </p>
+                        <a href="#fitur-utama" class="btn btn-primary mt-20"
+                            style="background: #2F80ED; border: none; padding: 12px 30px; border-radius: 30px;">Jelajahi
+                            Fitur</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================= 3 Pillars Integration ========================= -->
+    <section class="feature-section pt-50 pb-80" style="background-color: #f4f7fa;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center mb-50">
+                        <h3 class="wow fadeInUp" data-wow-delay=".2s">Ekosistem Terintegrasi</h3>
+                        <p class="wow fadeInUp" data-wow-delay=".4s">Tiga komponen utama yang saling terhubung membentuk
+                            fondasi kesehatan digital kota.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Card 1: Dinkes -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card wow fadeInUp" data-wow-delay=".2s">
+                        <div class="icon"><i class="lni lni-apartment"></i></div>
+                        <h4>Dinas Kesehatan (Pusat)</h4>
+                        <p>Sebagai pusat komando (Hub) yang menerima, merekap, dan menganalisis data dari seluruh faskes
+                            untuk kebijakan strategis.</p>
+                    </div>
+                </div>
+                <!-- Card 2: RS -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card wow fadeInUp" data-wow-delay=".4s">
+                        <div class="icon"><i class="lni lni-hospital"></i></div>
+                        <h4>Rumah Sakit (SIMGOS)</h4>
+                        <p>Mengelola layanan rujukan kompleks, rawat inap, dan operasi. Terintegrasi dengan Satu Sehat &
+                            BPJS.</p>
+                    </div>
+                </div>
+                <!-- Card 3: Puskesmas -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card wow fadeInUp" data-wow-delay=".6s">
+                        <div class="icon"><i class="lni lni-ambulance"></i></div>
+                        <h4>Puskesmas (Primer)</h4>
+                        <p>Garda terdepan pelayanan kesehatan masyarakat. Fokus pada pencegahan, promosi, dan penanganan
+                            dasar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="fitur-utama" class="feature-section pt-100 pb-100">
+        <div class="container">
+            <div class="row mb-50">
+                <div class="col-lg-12 text-center">
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp" data-wow-delay=".2s">4 Modul Utama Aplikasi</h3>
+                        <p class="wow fadeInUp" data-wow-delay=".4s">Cakupan fitur komprehensif untuk setiap aspek
+                            kesehatan.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Module 1 -->
+                <div class="col-md-6">
+                    <div class="module-box wow fadeInLeft" data-wow-delay=".2s">
+                        <h5><i class="lni lni-users"></i> Kesehatan Masyarakat</h5>
+                        <ul>
+                            <li>Promosi Kesehatan & Gizi</li>
+                            <li>Kesehatan Ibu dan Anak (KIA)</li>
+                            <li>Kesehatan Lingkungan</li>
+                            <li>E-Library & E-Learning untuk edukasi publik</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Module 2 -->
+                <div class="col-md-6">
+                    <div class="module-box wow fadeInRight" data-wow-delay=".3s">
+                        <h5><i class="lni lni-protection"></i> Pencegahan & Pengendalian (P2P)</h5>
+                        <ul>
+                            <li>Surveilans Epidemiologi Penyakit</li>
+                            <li><strong>Aplikasi Stunting Terpadu:</strong></li>
+                            <li>&nbsp;&nbsp;- Kalkulator Risiko & Pantau Tumbuh Kembang</li>
+                            <li>&nbsp;&nbsp;- Booking Layanan & Forum Diskusi</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Module 3 -->
+                <div class="col-md-6">
+                    <div class="module-box wow fadeInLeft" data-wow-delay=".4s">
+                        <h5><i class="lni lni-heart-monitor"></i> Pelayanan Kesehatan</h5>
+                        <ul>
+                            <li>Manajemen Pelayanan Primer & Rujukan</li>
+                            <li>Integrasi Data Laporan Faskes (XLSX/CSV/SQL)</li>
+                            <li>Rekapitulasi Data Satu Kabupaten</li>
+                            <li>Bridging dengan BPJS & Satu Sehat</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Module 4 -->
+                <div class="col-md-6">
+                    <div class="module-box wow fadeInRight" data-wow-delay=".5s">
+                        <h5><i class="lni lni-package"></i> Sumber Daya Kesehatan (SDK)</h5>
+                        <ul>
+                            <li>Manajemen Stok Obat & Farmasi</li>
+                            <li>Inventaris Alat Kesehatan (Alkes)</li>
+                            <li>Database Tenaga Kesehatan (Nakes)</li>
+                            <li>Monitoring Distribusi Logistik</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================= Data Flow Process ========================= -->
+    <section class="feature-section pt-80 pb-80" style="background-color: #f9f9f9;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="section-title text-center mb-50">
+                        <h3 class="wow fadeInUp" data-wow-delay=".2s">Alur Integrasi Data</h3>
+                        <p class="wow fadeInUp" data-wow-delay=".4s">Bagaimana data bergerak dari Faskes hingga
+                            menjadi
+                            keputusan di Dinkes.</p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="process-step wow fadeInUp" data-wow-delay=".2s">
+                                <div class="step-number">1</div>
+                                <h5 class="mb-10">Input & Ekspor</h5>
+                                <p class="text-sm">Faskes (RS/Puskesmas) menginput pelayanan pasien di SIMGOS/SIMPUS
+                                    dan
+                                    mengekspor laporan (Excel/CSV).</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="process-step wow fadeInUp" data-wow-delay=".4s">
+                                <div class="step-number">2</div>
+                                <h5 class="mb-10">Kirim & Unggah</h5>
+                                <p class="text-sm">File laporan dikirim ke Dinkes dan diunggah oleh operator ke
+                                    dalam
+                                    sistem pusat SIMKES.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="process-step wow fadeInUp" data-wow-delay=".6s">
+                                <div class="step-number">3</div>
+                                <h5 class="mb-10">Rekap & Analisa</h5>
+                                <p class="text-sm">Sistem secara otomatis merekapitulasi data menjadi dashboard
+                                    eksekutif untuk stakeholder.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================= SIMGOS Benefits Section ========================= -->
+    <section class="feature-section pt-80 pb-80" style="background-color: #fff;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="section-title text-center mb-60">
+                        <h3 class="wow fadeInUp" data-wow-delay=".2s">Kelebihan Integrasi dengan SIMGOS</h3>
+                        <p class="wow fadeInUp" data-wow-delay=".4s">Manfaat strategis penerapan SIMGOS yang
+                            terintegrasi untuk seluruh ekosistem kesehatan kota.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Benefit 1 -->
+                <div class="col-lg-6">
+                    <div class="benefit-box wow fadeInUp" data-wow-delay=".2s">
+                        <div class="icon"><i class="lni lni-users"></i></div>
+                        <div class="content">
+                            <h5>Manfaat bagi Pasien & Faskes</h5>
+                            <ul>
+                                <li><strong>Standardisasi Data:</strong> Nomor Rekam Medis yang seragam se-kota.</li>
+                                <li><strong>Akses Riwayat Lintas Faskes:</strong> Data medis dapat dibaca oleh semua
+                                    faskes.</li>
+                                <li><strong>Koordinasi Rujukan:</strong> Komunikasi antar fasyankes lebih efektif.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Benefit 2 -->
+                <div class="col-lg-6">
+                    <div class="benefit-box wow fadeInUp" data-wow-delay=".3s">
+                        <div class="icon"><i class="lni lni-hospital"></i></div>
+                        <div class="content">
+                            <h5>Manfaat Operasional Internal</h5>
+                            <ul>
+                                <li><strong>Pelayanan Komprehensif:</strong> Rawat Jalan, Inap, IGD, & Resume Medis.
+                                </li>
+                                <li><strong>Manajemen Kefarmasian:</strong> Stok real time & pengelolaan obat.</li>
+                                <li><strong>Pelaporan Akurat:</strong> Otomatisasi laporan rutin (RL 1.2, RL 2, dll).
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Benefit 3 -->
+                <div class="col-lg-6">
+                    <div class="benefit-box wow fadeInUp" data-wow-delay=".4s">
+                        <div class="icon"><i class="lni lni-network"></i></div>
+                        <div class="content">
+                            <h5>Integrasi Nasional & Regional</h5>
+                            <ul>
+                                <li><strong>Satu Sehat:</strong> Pengiriman data terjadwal ke Kemenkes.</li>
+                                <li><strong>BPJS V-Klaim:</strong> Penerbitan SEP, SPRI, & rujukan langsung.</li>
+                                <li><strong>Layanan JKN:</strong> Antrian Online/Onsite & Mobile JKN.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Benefit 4 -->
+                <div class="col-lg-6">
+                    <div class="benefit-box wow fadeInUp" data-wow-delay=".5s">
+                        <div class="icon"><i class="lni lni-stats-up"></i></div>
+                        <div class="content">
+                            <h5>Manfaat bagi Dinas Kesehatan</h5>
+                            <ul>
+                                <li><strong>Pemusatan Data:</strong> Sentralisasi data kesehatan kota.</li>
+                                <li><strong>Dukungan Keputusan:</strong> Data cepat untuk kebijakan strategis.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer-placeholder"></div>
+
+    <!-- ========================= JS here ========================= -->
+    <script src="assets/js/bootstrap.5.0.0.alpha-2-min.js"></script>
+    <script src="assets/js/count-up.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/templating.js"></script>
+</body>
+
+</html>

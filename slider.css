@@ -1,12 +1,14 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* display: flex; */ /* Removed to allow header/footer */
+    /* justify-content: center; */
+    /* align-items: center; */
     min-height: 100vh;
     background-color: #f0f2f5;
     color: #333;
+    padding-top: 120px; /* Add space for header */
+    padding-bottom: 50px;
 }
 
 .slider-container {

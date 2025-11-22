@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html class="no-js" lang="id">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Peta Lokasi Baubau - Transformasi Digital Kota Baubau 4.0</title>
-    <meta name="description" content="Peta Lokasi Aset Digital Pemerintah Kota Baubau" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- ========== Open Graph/Facebook Meta Tags ========== -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://visibaubau4.netlify.app/map.html">
-    <meta property="og:title" content="Peta Lokasi Baubau - Transformasi Digital Kota Baubau 4.0">
-    <meta property="og:description" content="Peta Lokasi Aset Digital Pemerintah Kota Baubau">
-    <meta property="og:image" content="https://visibaubau4.netlify.app/assets/img/thumbnail.png">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Peta Lokasi Baubau - Transformasi Digital Kota Baubau 4.0</title>
+  <meta name="description" content="Peta Lokasi Aset Digital Pemerintah Kota Baubau" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- ========== Twitter Meta Tags ========== -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://visibaubau4.netlify.app/map.html">
-    <meta property="twitter:title" content="Peta Lokasi Baubau - Transformasi Digital Kota Baubau 4.0">
-    <meta property="twitter:description" content="Peta Lokasi Aset Digital Pemerintah Kota Baubau">
-    <meta property="twitter:image" content="https://visibaubau4.netlify.app/assets/img/thumbnail.png">
+  <!-- ========== Open Graph/Facebook Meta Tags ========== -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://visibaubau4.netlify.app/map.html">
+  <meta property="og:title" content="Peta Lokasi Baubau - Transformasi Digital Kota Baubau 4.0">
+  <meta property="og:description" content="Peta Lokasi Aset Digital Pemerintah Kota Baubau">
+  <meta property="og:image" content="https://visibaubau4.netlify.app/assets/img/thumbnail.png">
 
-    <!-- ========== Rich Snippet/Schema Markup ========== -->
-    <script type="application/ld+json">
+  <!-- ========== Twitter Meta Tags ========== -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://visibaubau4.netlify.app/map.html">
+  <meta property="twitter:title" content="Peta Lokasi Baubau - Transformasi Digital Kota Baubau 4.0">
+  <meta property="twitter:description" content="Peta Lokasi Aset Digital Pemerintah Kota Baubau">
+  <meta property="twitter:image" content="https://visibaubau4.netlify.app/assets/img/thumbnail.png">
+
+  <!-- ========== Rich Snippet/Schema Markup ========== -->
+  <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Article",
@@ -49,137 +50,159 @@
     }
     </script>
 
-    <!-- ========================= CSS here ========================= -->
-    <link rel="stylesheet" href="assets/css/bootstrap-5.0.0-alpha-2.min.css" />
-    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css"/>
-    <link rel="stylesheet" href="assets/css/animate.css"/>
-    <link rel="stylesheet" href="assets/css/lindy-uikit.css"/>
-    <style>
-      .header.header-2 .navbar-brand {
-        padding: 0;
-      }
-      .header.header-2 .navbar-brand img {
-        height: 50px;
-        width: auto;
-      }
+  <!-- ========================= CSS here ========================= -->
+  <link rel="stylesheet" href="assets/css/bootstrap-5.0.0-alpha-2.min.css" />
+  <link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <link rel="stylesheet" href="assets/css/lindy-uikit.css" />
+  <style>
+    .header.header-2 .navbar-brand {
+      padding: 0;
+    }
 
-      /* Custom styles for 4 Pilar Utama dropdown */
-      .header.header-2 .navbar-nav .nav-item.dropdown .dropdown-menu {
-        margin-top: 0; /* Remove default Bootstrap margin-top */
-        border-radius: 0; /* Match existing sub-menu style */
-        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1); /* Match existing sub-menu style */
-        border: none; /* Remove default Bootstrap border */
-        padding: 10px 0; /* Add some vertical padding to the menu itself */
-      }
+    .header.header-2 .navbar-brand img {
+      height: 50px;
+      width: auto;
+    }
 
-      .header.header-2 .navbar-nav .nav-item.dropdown .dropdown-item {
-        padding: 8px 20px; /* Match existing sub-menu item padding */
-        color: #585978; /* Match existing nav-item color */
-        font-size: 16px; /* Match existing nav-item font size */
-        font-weight: 500; /* Match existing nav-item font weight */
-        transition: all 0.3s ease-out 0s;
-      }
+    /* Custom styles for 4 Pilar Utama dropdown */
+    .header.header-2 .navbar-nav .nav-item.dropdown .dropdown-menu {
+      margin-top: 0;
+      /* Remove default Bootstrap margin-top */
+      border-radius: 0;
+      /* Match existing sub-menu style */
+      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+      /* Match existing sub-menu style */
+      border: none;
+      /* Remove default Bootstrap border */
+      padding: 10px 0;
+      /* Add some vertical padding to the menu itself */
+    }
 
-      .header.header-2 .navbar-nav .nav-item.dropdown .dropdown-item:hover,
-      .header.header-2 .navbar-nav .nav-item.dropdown .dropdown-item.active {
-        background-color: transparent; /* Remove default Bootstrap hover background */
-        color: #2F80ED; /* Match existing nav-item hover color */
-        padding-left: 25px; /* Add slight indent on hover/active */
-      }
-    </style>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-        crossorigin=""/>
-    <style>
-        #map { height: 100vh; z-index: 1; }
-        #filter-buttons {
-            position: absolute;
-            top: 100px;
-            right: 20px;
-            background: rgba(255, 255, 255, 0.8);
-            padding: 10px;
-            z-index: 1000;
-            border-radius: 8px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.2);
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            max-width: 300px;
-        }
-        .filter-btn {
-            background-color: #fff;
-            border: 1px solid #ccc;
-            border-radius: 15px;
-            padding: 6px 12px;
-            cursor: pointer;
-            font-size: 12px;
-            outline: none;
-            transition: all 0.2s ease;
-        }
-        .filter-btn.active {
-            background-color: #3388ff;
-            color: white;
-            border-color: #3388ff;
-        }
-        .filter-btn:hover {
-            background-color: #f4f4f4;
-        }
-        .filter-btn.active:hover {
-            background-color: #2a78e8;
-        }
+    .header.header-2 .navbar-nav .nav-item.dropdown .dropdown-item {
+      padding: 8px 20px;
+      /* Match existing sub-menu item padding */
+      color: #585978;
+      /* Match existing nav-item color */
+      font-size: 16px;
+      /* Match existing nav-item font size */
+      font-weight: 500;
+      /* Match existing nav-item font weight */
+      transition: all 0.3s ease-out 0s;
+    }
 
-        .filter-btn img {
-            width: 20px;
-            height: 20px;
-            vertical-align: middle;
-            margin-right: 5px;
-        }
-    </style>
-  </head>
-  <body>
-    <!-- ========================= preloader start ========================= -->
-    <div class="preloader">
-      <div class="loader">
-        <div class="spinner">
-          <div class="spinner-container">
-            <div class="spinner-rotator">
-              <div class="spinner-left">
-                <div class="spinner-circle"></div>
-              </div>
-              <div class="spinner-right">
-                <div class="spinner-circle"></div>
-              </div>
+    .header.header-2 .navbar-nav .nav-item.dropdown .dropdown-item:hover,
+    .header.header-2 .navbar-nav .nav-item.dropdown .dropdown-item.active {
+      background-color: transparent;
+      /* Remove default Bootstrap hover background */
+      color: #2F80ED;
+      /* Match existing nav-item hover color */
+      padding-left: 25px;
+      /* Add slight indent on hover/active */
+    }
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
+  <style>
+    #map {
+      height: 100vh;
+      z-index: 1;
+    }
+
+    #filter-buttons {
+      position: absolute;
+      top: 100px;
+      right: 20px;
+      background: rgba(255, 255, 255, 0.8);
+      padding: 10px;
+      z-index: 1000;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      max-width: 300px;
+    }
+
+    .filter-btn {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 15px;
+      padding: 6px 12px;
+      cursor: pointer;
+      font-size: 12px;
+      outline: none;
+      transition: all 0.2s ease;
+    }
+
+    .filter-btn.active {
+      background-color: #3388ff;
+      color: white;
+      border-color: #3388ff;
+    }
+
+    .filter-btn:hover {
+      background-color: #f4f4f4;
+    }
+
+    .filter-btn.active:hover {
+      background-color: #2a78e8;
+    }
+
+    .filter-btn img {
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- ========================= preloader start ========================= -->
+  <div class="preloader">
+    <div class="loader">
+      <div class="spinner">
+        <div class="spinner-container">
+          <div class="spinner-rotator">
+            <div class="spinner-left">
+              <div class="spinner-circle"></div>
+            </div>
+            <div class="spinner-right">
+              <div class="spinner-circle"></div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- ========================= preloader end ========================= -->
+  </div>
+  <!-- ========================= preloader end ========================= -->
 
-    <div id="header-placeholder"></div>
+  <div id="header-placeholder"></div>
 
-    <section class="map-section">
-        <div id="map"></div>
-        <div id="filter-buttons"></div>
-    </section>
+  <section class="map-section">
+    <div id="map"></div>
+    <div id="filter-buttons"></div>
+  </section>
 
-    <div id="footer-placeholder"></div>
+  <div id="footer-placeholder"></div>
 
-    <!-- ========================= JS here ========================= -->
-    <script src="assets/js/bootstrap.5.0.0.alpha-2-min.js"></script>
-    <script src="assets/js/count-up.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-        crossorigin=""></script>
-    <script src="assets/js/templating.js"></script>
-    <script>
+  <!-- ========================= JS here ========================= -->
+  <script src="assets/js/bootstrap.5.0.0.alpha-2-min.js"></script>
+  <script src="assets/js/count-up.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+  <script src="assets/js/templating.js"></script>
+  <script>
     var map = L.map('map').setView([-5.47, 122.6], 13);
 
     // Use Esri World Imagery for satellite view
     L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-        attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+      attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
     }).addTo(map);
 
     var layersByCategory = {};
@@ -190,107 +213,111 @@
     const categoriesWithIcons = ['Badan', 'Dinas', 'Inspektorat', 'Kecamatan', 'Kelurahan', 'Kesehatan', 'Lembaga Lain', 'Pendidikan', 'Lainnya'];
     const iconMapping = {};
     categoriesWithIcons.forEach(cat => {
-        iconMapping[cat] = L.icon({
-            iconUrl: iconBasePath + cat + '.png',
-            iconSize: [32, 32],
-            iconAnchor: [16, 32],
-            popupAnchor: [0, -32]
-        });
+      iconMapping[cat] = L.icon({
+        iconUrl: iconBasePath + cat + '.png',
+        iconSize: [32, 32],
+        iconAnchor: [16, 32],
+        popupAnchor: [0, -32]
+      });
     });
 
     fetch('./File/kotabaubau.json')
-        .then(response => response.json())
-        .then(data => {
-            // Create all layer groups first
-            data.forEach(function(point) {
-                var category = point.kategori || 'Lainnya';
-                if (!layersByCategory[category]) {
-                    layersByCategory[category] = L.layerGroup();
-                }
-            });
+      .then(response => response.json())
+      .then(data => {
+        // Create all layer groups first
+        data.forEach(function (point) {
+          var category = point.kategori || 'Lainnya';
+          if (!layersByCategory[category]) {
+            layersByCategory[category] = L.layerGroup();
+          }
+        });
 
-            // Add markers with animation
-            data.forEach(function(point, index) {
-                if (point.Y && point.X) {
-                    setTimeout(function() {
-                        var category = point.kategori || 'Lainnya';
-                        var marker;
-                        if (iconMapping[category]) {
-                            marker = L.marker([point.Y, point.X], { icon: iconMapping[category] });
-                        } else {
-                            marker = L.marker([point.Y, point.X]);
-                        }
-                        marker.bindPopup("<b>" + point.Name + "</b><br>Kategori: " + category);
-                        
-                        // Add marker to the correct layer group
-                        if (layersByCategory[category]) {
-                            layersByCategory[category].addLayer(marker);
-                        }
-                    }, index * 50); // Staggered delay for animation
-                }
-            });
+        // Add markers with animation
+        data.forEach(function (point, index) {
+          if (point.Y && point.X) {
+            setTimeout(function () {
+              var category = point.kategori || 'Lainnya';
+              var marker;
+              if (iconMapping[category]) {
+                marker = L.marker([point.Y, point.X], { icon: iconMapping[category] });
+              } else {
+                marker = L.marker([point.Y, point.X]);
+              }
+              var googleMapsUrl = "https://www.google.com/maps?q=" + point.Y + "," + point.X;
+              var popupContent = "<b>" + point.Name + "</b><br>Kategori: " + category +
+                "<br><br><a href='" + googleMapsUrl + "' target='_blank' style='color: #2F80ED; text-decoration: none; font-weight: 500;'>Lihat di Google Maps <i class='lni lni-arrow-right'></i></a>";
+              marker.bindPopup(popupContent);
 
-            var filterButtons = document.getElementById('filter-buttons');
-            var categories = Object.keys(layersByCategory).sort();
+              // Add marker to the correct layer group
+              if (layersByCategory[category]) {
+                layersByCategory[category].addLayer(marker);
+              }
+            }, index * 50); // Staggered delay for animation
+          }
+        });
 
-            // Add "All" button
-            var allButton = document.createElement('button');
-            allButton.innerHTML = '<img src="assets/icon/Lainnya.png" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;"> Semua';
-            allButton.className = 'filter-btn active';
-            allButton.addEventListener('click', function() {
-                if (activeCategories.size === categories.length) {
-                    activeCategories.clear();
-                } else {
-                    categories.forEach(cat => activeCategories.add(cat));
-                }
-                updateMapAndButtons();
-            });
-            filterButtons.appendChild(allButton);
+        var filterButtons = document.getElementById('filter-buttons');
+        var categories = Object.keys(layersByCategory).sort();
 
-            // Add category buttons
-            categories.forEach(function(cat) {
-                var button = document.createElement('button');
-                var iconUrl = iconMapping[cat] ? iconMapping[cat].options.iconUrl : '';
-                if (iconUrl) {
-                    button.innerHTML = `<img src="${iconUrl}" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;"> ${cat}`;
-                } else {
-                    button.innerHTML = cat;
-                }
-                button.className = 'filter-btn';
-                button.dataset.category = cat;
-                button.addEventListener('click', function() {
-                    if (activeCategories.has(cat)) {
-                        activeCategories.delete(cat);
-                    } else {
-                        activeCategories.add(cat);
-                    }
-                    updateMapAndButtons();
-                });
-                filterButtons.appendChild(button);
-                activeCategories.add(cat); // Initially all active
-            });
+        // Add "All" button
+        var allButton = document.createElement('button');
+        allButton.innerHTML = '<img src="assets/icon/Lainnya.png" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;"> Semua';
+        allButton.className = 'filter-btn active';
+        allButton.addEventListener('click', function () {
+          if (activeCategories.size === categories.length) {
+            activeCategories.clear();
+          } else {
+            categories.forEach(cat => activeCategories.add(cat));
+          }
+          updateMapAndButtons();
+        });
+        filterButtons.appendChild(allButton);
 
-            updateMapAndButtons(); // Initial draw
-
-            function updateMapAndButtons() {
-                categories.forEach(function(cat) {
-                    var button = document.querySelector('.filter-btn[data-category="' + cat + '"]');
-                    if (activeCategories.has(cat)) {
-                        if (!map.hasLayer(layersByCategory[cat])) {
-                            map.addLayer(layersByCategory[cat]);
-                        }
-                        if(button) button.classList.add('active');
-                    } else {
-                        if (map.hasLayer(layersByCategory[cat])) {
-                            map.removeLayer(layersByCategory[cat]);
-                        }
-                        if(button) button.classList.remove('active');
-                    }
-                });
-                allButton.classList.toggle('active', activeCategories.size === categories.length);
+        // Add category buttons
+        categories.forEach(function (cat) {
+          var button = document.createElement('button');
+          var iconUrl = iconMapping[cat] ? iconMapping[cat].options.iconUrl : '';
+          if (iconUrl) {
+            button.innerHTML = `<img src="${iconUrl}" style="width: 20px; height: 20px; vertical-align: middle; margin-right: 5px;"> ${cat}`;
+          } else {
+            button.innerHTML = cat;
+          }
+          button.className = 'filter-btn';
+          button.dataset.category = cat;
+          button.addEventListener('click', function () {
+            if (activeCategories.has(cat)) {
+              activeCategories.delete(cat);
+            } else {
+              activeCategories.add(cat);
             }
-        })
-        .catch(error => console.error('Error loading the JSON file:', error));
-</script>
-  </body>
+            updateMapAndButtons();
+          });
+          filterButtons.appendChild(button);
+          activeCategories.add(cat); // Initially all active
+        });
+
+        updateMapAndButtons(); // Initial draw
+
+        function updateMapAndButtons() {
+          categories.forEach(function (cat) {
+            var button = document.querySelector('.filter-btn[data-category="' + cat + '"]');
+            if (activeCategories.has(cat)) {
+              if (!map.hasLayer(layersByCategory[cat])) {
+                map.addLayer(layersByCategory[cat]);
+              }
+              if (button) button.classList.add('active');
+            } else {
+              if (map.hasLayer(layersByCategory[cat])) {
+                map.removeLayer(layersByCategory[cat]);
+              }
+              if (button) button.classList.remove('active');
+            }
+          });
+          allButton.classList.toggle('active', activeCategories.size === categories.length);
+        }
+      })
+      .catch(error => console.error('Error loading the JSON file:', error));
+  </script>
+</body>
+
 </html>

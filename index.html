@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html class="no-js" lang="id">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Transformasi Digital Kota Baubau 4.0</title>
-    <meta name="description" content="Strategi Transformasi Digital Kota Baubau Menuju Kota 4.0 (2025-2035)" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- ========== Open Graph/Facebook Meta Tags ========== -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://visibaubau4.netlify.app">
-    <meta property="og:title" content="Transformasi Digital Kota Baubau 4.0">
-    <meta property="og:description" content="Strategi Transformasi Digital Kota Baubau Menuju Kota 4.0 (2025-2035)">
-    <meta property="og:image" content="https://visibaubau4.netlify.app/assets/img/thumbnail.png">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Transformasi Digital Kota Baubau 4.0</title>
+  <meta name="description" content="Strategi Transformasi Digital Kota Baubau Menuju Kota 4.0 (2025-2035)" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- ========== Twitter Meta Tags ========== -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://visibaubau4.netlify.app">
-    <meta property="twitter:title" content="Transformasi Digital Kota Baubau 4.0">
-    <meta property="twitter:description" content="Strategi Transformasi Digital Kota Baubau Menuju Kota 4.0 (2025-2035)">
-    <meta property="twitter:image" content="https://visibaubau4.netlify.app/assets/img/thumbnail.png">
+  <!-- ========== Open Graph/Facebook Meta Tags ========== -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://visibaubau4.netlify.app">
+  <meta property="og:title" content="Transformasi Digital Kota Baubau 4.0">
+  <meta property="og:description" content="Strategi Transformasi Digital Kota Baubau Menuju Kota 4.0 (2025-2035)">
+  <meta property="og:image" content="https://visibaubau4.netlify.app/assets/img/thumbnail.png">
 
-    <!-- ========== Rich Snippet/Schema Markup ========== -->
-    <script type="application/ld+json">
+  <!-- ========== Twitter Meta Tags ========== -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://visibaubau4.netlify.app">
+  <meta property="twitter:title" content="Transformasi Digital Kota Baubau 4.0">
+  <meta property="twitter:description" content="Strategi Transformasi Digital Kota Baubau Menuju Kota 4.0 (2025-2035)">
+  <meta property="twitter:image" content="https://visibaubau4.netlify.app/assets/img/thumbnail.png">
+
+  <!-- ========== Rich Snippet/Schema Markup ========== -->
+  <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Article",
@@ -49,440 +50,451 @@
     }
     </script>
 
-    <!-- ========================= CSS here ========================= -->
-    <link rel="stylesheet" href="assets/css/bootstrap-5.0.0-alpha-2.min.css" />
-    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css"/>
-    <link rel="stylesheet" href="assets/css/animate.css"/>
-    <link rel="stylesheet" href="assets/css/lindy-uikit.css"/>
-    <link rel="icon" href="assets/img/logo/logobaubau4.0.png" type="image/png">
-    <style>
-      .header.header-2 .navbar-brand {
-        padding: 0;
-      }
-      .header.header-2 .navbar-brand img {
-        height: 50px;
-        width: auto;
-      }
-      #pendahuluan {
-        background-image: linear-gradient(rgba(50, 52, 80, 0.7), rgba(50, 52, 80, 0.7)), url('assets/img/feature/pendahuluan.png');
-        background-size: cover;
-        background-attachment: fixed;
-        background-position: center center;
-        color: #ffffff; /* Make text white for better contrast */
-      }
-      #pendahuluan h3, #pendahuluan h5 {
-        color: #ffffff; /* Ensure headings are also white */
-      }
+  <!-- ========================= CSS here ========================= -->
+  <link rel="stylesheet" href="assets/css/bootstrap-5.0.0-alpha-2.min.css" />
+  <link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <link rel="stylesheet" href="assets/css/lindy-uikit.css" />
+  <link rel="stylesheet" href="assets/css/custom-header.css" />
+  <link rel="icon" href="assets/img/logo/logobaubau4.0.png" type="image/png">
+  <style>
+    /* .header.header-2 .navbar-brand styles moved to custom-header.css */
+    #pendahuluan {
+      background-image: linear-gradient(rgba(50, 52, 80, 0.7), rgba(50, 52, 80, 0.7)), url('assets/img/feature/pendahuluan.png');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center center;
+      color: #ffffff;
+      /* Make text white for better contrast */
+    }
 
-      /* Custom styles for 4 Pilar Utama dropdown */
-      .header.header-2 .navbar-nav .nav-item.dropdown .dropdown-menu {
-        margin-top: 0; /* Remove default Bootstrap margin-top */
-        border-radius: 0; /* Match existing sub-menu style */
-        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1); /* Match existing sub-menu style */
-        border: none; /* Remove default Bootstrap border */
-        padding: 10px 0; /* Add some vertical padding to the menu itself */
-      }
+    #pendahuluan h3,
+    #pendahuluan h5 {
+      color: #ffffff;
+      /* Ensure headings are also white */
+    }
 
-      .header.header-2 .navbar-nav .nav-item.dropdown .dropdown-item {
-        padding: 8px 20px; /* Match existing sub-menu item padding */
-        color: #585978; /* Match existing nav-item color */
-        font-size: 1rem; /* Match existing nav-item font size */
-        font-weight: 500; /* Match existing nav-item font weight */
-        transition: all 0.3s ease-out 0s;
-      }
+    /* Custom styles for 4 Pilar Utama dropdown */
+    /* Dropdown styles moved to custom-header.css */
 
-      .header.header-2 .navbar-nav .nav-item.dropdown .dropdown-item:hover,
-      .header.header-2 .navbar-nav .nav-item.dropdown .dropdown-item.active {
-        background-color: transparent; /* Remove default Bootstrap hover background */
-        color: #2F80ED; /* Match existing nav-item hover color */
-        padding-left: 25px; /* Add slight indent on hover/active */
-      }
+    /* Video Play Button Styles */
+    .hero-image {
+      position: relative;
+      /* overflow: hidden; */
+      /* Removed to prevent image cutoff */
+    }
 
-      /* Video Play Button Styles */
-      .hero-image {
-        position: relative;
-        /* overflow: hidden; */ /* Removed to prevent image cutoff */
-      }
-      .hero-image img {
-        transition: transform 0.4s ease;
-      }
-      .hero-image:hover img {
-        transform: scale(1.05);
-      }
-      .video-play-button {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-        background-color: rgba(47, 128, 237, 0.8);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        font-size: 1.875rem;
-        opacity: 0.7; /* Initial opacity */
-        transition: transform 0.3s ease, opacity 0.3s ease; /* Animate transform and opacity */
-        z-index: 20;
-      }
-      .hero-image:hover .video-play-button {
-        transform: translate(-50%, -50%) scale(1.1); /* Scale on hover */
-        opacity: 0.9; /* Opacity on hover */
-      }
-      .modal-video .modal-dialog {
-        max-width: 1140px;
-        margin: 1.75rem auto;
-      }
-      .modal-video .modal-content {
-        background-color: transparent;
-        border: none;
-      }
-      .modal-video .btn-close {
-        position: absolute;
-        top: -25px;
-        right: 0;
-        background-color: white;
-        border-radius: 50%;
-        opacity: 1;
-      }
-      .hero-section-wrapper-2 .hero-style-2 .hero-content-wrapper {
-        padding: 50px 0;
-      }
-      .hero-section-wrapper-2 .hero-style-2 .hero-image {
-        margin-bottom: 50px;
-      }
+    .hero-image img {
+      transition: transform 0.4s ease;
+    }
 
-      /* 4 Pilar Card Styles */
-      .pilar-card {
-        background-color: #fff;
-        border-radius: 10px;
-        padding: 35px;
-        margin-bottom: 30px;
-        border: 1px solid #eee;
-        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
-        transition: all 0.3s ease-out 0s;
-        text-align: center;
-        height: 100%;
-      }
+    .hero-image:hover img {
+      transform: scale(1.05);
+    }
 
-      .pilar-card:hover {
-        transform: translateY(-10px);
-        box-shadow: 0px 15px 40px rgba(47, 128, 237, 0.1);
-      }
+    .video-play-button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background-color: rgba(47, 128, 237, 0.8);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 1.875rem;
+      opacity: 0.7;
+      /* Initial opacity */
+      transition: transform 0.3s ease, opacity 0.3s ease;
+      /* Animate transform and opacity */
+      z-index: 20;
+    }
 
-      .pilar-card .icon {
-        width: 70px;
-        height: 70px;
-        border-radius: 50%;
-        background-color: rgba(47, 128, 237, 0.1);
-        color: #2F80ED;
-        font-size: 1.875rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto 25px;
-        transition: all 0.3s ease-out 0s;
-      }
+    .hero-image:hover .video-play-button {
+      transform: translate(-50%, -50%) scale(1.1);
+      /* Scale on hover */
+      opacity: 0.9;
+      /* Opacity on hover */
+    }
 
-      .pilar-card:hover .icon {
-        background-color: #2F80ED;
-        color: #fff;
-      }
+    .modal-video .modal-dialog {
+      max-width: 1140px;
+      margin: 1.75rem auto;
+    }
 
-      .pilar-card .content h5 {
-        font-size: 1.125rem;
-        font-weight: 600;
-      }
+    .modal-video .modal-content {
+      background-color: transparent;
+      border: none;
+    }
 
-      .pilar-card .content p {
-        color: #585978;
-        margin-bottom: 25px;
-      }
+    .modal-video .btn-close {
+      position: absolute;
+      top: -25px;
+      right: 0;
+      background-color: white;
+      border-radius: 50%;
+      opacity: 1;
+    }
 
-      #ringkasan .about-image img {
-        transition: transform 0.4s ease;
-      }
-      #ringkasan .about-image:hover img {
-        transform: scale(1.05);
-      }
-    </style>
-  </head>
-  <body>
-    <!-- ========================= preloader start ========================= -->
-    <div class="preloader">
-      <div class="loader">
-        <div class="spinner">
-          <div class="spinner-container">
-            <div class="spinner-rotator">
-              <div class="spinner-left">
-                <div class="spinner-circle"></div>
-              </div>
-              <div class="spinner-right">
-                <div class="spinner-circle"></div>
-              </div>
+    /* Hero section styles moved to custom-header.css */
+
+    /* 4 Pilar Card Styles */
+    .pilar-card {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 35px;
+      margin-bottom: 30px;
+      border: 1px solid #eee;
+      box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+      transition: all 0.3s ease-out 0s;
+      text-align: center;
+      height: 100%;
+    }
+
+    .pilar-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0px 15px 40px rgba(47, 128, 237, 0.1);
+    }
+
+    .pilar-card .icon {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      background-color: rgba(47, 128, 237, 0.1);
+      color: #2F80ED;
+      font-size: 1.875rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto 25px;
+      transition: all 0.3s ease-out 0s;
+    }
+
+    .pilar-card:hover .icon {
+      background-color: #2F80ED;
+      color: #fff;
+    }
+
+    .pilar-card .content h5 {
+      font-size: 1.125rem;
+      font-weight: 600;
+    }
+
+    .pilar-card .content p {
+      color: #585978;
+      margin-bottom: 25px;
+    }
+
+    #ringkasan .about-image img {
+      transition: transform 0.4s ease;
+    }
+
+    #ringkasan .about-image:hover img {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<body>
+  <!-- ========================= preloader start ========================= -->
+  <div class="preloader">
+    <div class="loader">
+      <div class="spinner">
+        <div class="spinner-container">
+          <div class="spinner-rotator">
+            <div class="spinner-left">
+              <div class="spinner-circle"></div>
+            </div>
+            <div class="spinner-right">
+              <div class="spinner-circle"></div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- ========================= preloader end ========================= -->
+  </div>
+  <!-- ========================= preloader end ========================= -->
 
-    <!-- ========================= hero-section-wrapper-2 start ========================= -->
-    <section id="home" class="hero-section-wrapper-2">
-      <div id="header-placeholder"></div>
+  <!-- ========================= hero-section-wrapper-2 start ========================= -->
+  <section id="home" class="hero-section-wrapper-2">
+    <div id="header-placeholder"></div>
 
-      <!-- ========================= hero-2 start ========================= -->
-      <div class="hero-section hero-style-2">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-10 mx-auto px-4 py-5">
-              <div class="hero-content-wrapper text-center" style="position: relative; z-index: 1;">
-                <div class="hero-image mb-30 wow fadeInDown" data-wow-delay=".2s" style="position: relative; cursor: pointer;" data-bs-toggle="modal" data-bs-target="#videoModal">
-                  <img src="assets/img/baubau-4.0-main-concept-graphic.png" alt="Konsep Utama Baubau 4.0" style="max-width: 100%; margin: auto; display: block;">
-                  <div class="video-play-button">
-                    <i class="lni lni-play"></i>
-                  </div>
-                </div>
-                <h4 class="wow fadeInUp" data-wow-delay=".2s">Visi Baubau Kota 4.0</h4>
-                <h2 class="mb-30 wow fadeInUp" data-wow-delay=".4s">Mewujudkan Ekosistem Kolaboratif Berbasis Data dan Inovasi</h2>
-                <p class="mb-50 wow fadeInUp" data-wow-delay=".6s">Evolusi dari “smart city” konvensional, dengan fokus yang diperluas dari sekadar teknologi menjadi pembangunan ekosistem kolaboratif yang didukung oleh data besar dan partisipasi aktif masyarakat.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- ========================= hero-2 end ========================= -->
-    </section>
-    <!-- ========================= hero-section-wrapper-2 end ========================= -->
-
-    <!-- ========================= 4 Pilar Utama Section Start ========================= -->
-    <section id="pilar-utama" class="feature-section pt-120 pb-90">
+    <!-- ========================= hero-2 start ========================= -->
+    <div class="hero-section hero-style-2">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="section-title text-center mb-60">
-              <h3 class="mb-15 wow fadeInUp" data-wow-delay=".2s">4 Pilar Utama Transformasi Digital</h3>
-              <p class="wow fadeInUp" data-wow-delay=".4s">Transformasi digital Kota Baubau didukung oleh empat pilar strategis yang saling terintegrasi, membentuk ekosistem digital yang kokoh untuk pelayanan publik dan tata kelola pemerintahan yang efisien.</p>
-            </div>
-          </div>
-        </div>
         <div class="row">
-          <div class="col-lg-3 col-md-6">
-            <div class="pilar-card wow fadeInUp" data-wow-delay=".2s">
-              <div class="icon"><i class="lni lni-world-alt"></i></div>
-              <div class="content">
-                <h5 class="mb-20">Internet Satu Kota</h5>
-                <p>Konektivitas terintegrasi yang menjadi tulang punggung digital.</p>
-                <a href="internet_satu_kota.html" class="button-sm border-button">Selengkapnya</a>
+          <div class="col-lg-10 mx-auto px-4 py-5">
+            <div class="hero-content-wrapper text-center" style="position: relative; z-index: 1;">
+              <div class="hero-image mb-30 wow fadeInDown" data-wow-delay=".2s"
+                style="position: relative; cursor: pointer;" data-bs-toggle="modal" data-bs-target="#videoModal">
+                <img src="assets/img/baubau-4.0-main-concept-graphic.png" alt="Konsep Utama Baubau 4.0"
+                  style="max-width: 100%; margin: auto; display: block;">
+                <div class="video-play-button">
+                  <i class="lni lni-play"></i>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="pilar-card wow fadeInUp" data-wow-delay=".4s">
-              <div class="icon"><i class="lni lni-display-alt"></i></div>
-              <div class="content">
-                <h5 class="mb-20">Command Center</h5>
-                <p>Pusat kendali terpadu untuk keputusan berbasis data yang cepat.</p>
-                <a href="command_center.html" class="button-sm border-button">Selengkapnya</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="pilar-card wow fadeInUp" data-wow-delay=".6s">
-              <div class="icon"><i class="lni lni-mobile"></i></div>
-              <div class="content">
-                <h5 class="mb-20">Aplikasi Satu Data</h5>
-                <p>Platform integrasi data untuk menjamin ketersediaan informasi akurat.</p>
-                <a href="aplikasi_satu_data.html" class="button-sm border-button">Selengkapnya</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="pilar-card wow fadeInUp" data-wow-delay=".8s">
-              <div class="icon"><i class="lni lni-database"></i></div>
-              <div class="content">
-                <h5 class="mb-20">Data Center</h5>
-                <p>Fasilitas penyimpanan terpusat sebagai fondasi utama ekosistem digital.</p>
-                <a href="data_center.html" class="button-sm border-button">Selengkapnya</a>
-              </div>
+              <h4 class="wow fadeInUp" data-wow-delay=".2s">Visi Baubau Kota 4.0</h4>
+              <h2 class="mb-30 wow fadeInUp" data-wow-delay=".4s">Mewujudkan Ekosistem Kolaboratif Berbasis Data dan
+                Inovasi</h2>
+              <p class="mb-50 wow fadeInUp" data-wow-delay=".6s">Evolusi dari “smart city” konvensional, dengan fokus
+                yang diperluas dari sekadar teknologi menjadi pembangunan ekosistem kolaboratif yang didukung oleh data
+                besar dan partisipasi aktif masyarakat.</p>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- ========================= 4 Pilar Utama Section End ========================= -->
+    </div>
+    <!-- ========================= hero-2 end ========================= -->
+  </section>
+  <!-- ========================= hero-section-wrapper-2 end ========================= -->
 
-    <div id="additional-sections-placeholder"></div>
-
-    <!-- ========================= about style-3 start ========================= -->
-    <section id="ringkasan" class="about-section about-style-3">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <div class="about-image wow fadeInLeft" data-wow-delay=".2s">
-              <img src="assets/img/smart-city-vision-with-officials.png" alt="Visi Smart City dengan Pejabat">
+  <!-- ========================= 4 Pilar Utama Section Start ========================= -->
+  <section id="pilar-utama" class="feature-section pt-120 pb-90">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center mb-60">
+            <h3 class="mb-15 wow fadeInUp" data-wow-delay=".2s">4 Pilar Utama Transformasi Digital</h3>
+            <p class="wow fadeInUp" data-wow-delay=".4s">Transformasi digital Kota Baubau didukung oleh empat pilar
+              strategis yang saling terintegrasi, membentuk ekosistem digital yang kokoh untuk pelayanan publik dan tata
+              kelola pemerintahan yang efisien.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="pilar-card wow fadeInUp" data-wow-delay=".2s">
+            <div class="icon"><i class="lni lni-world-alt"></i></div>
+            <div class="content">
+              <h5 class="mb-20">Internet Satu Kota</h5>
+              <p>Konektivitas terintegrasi yang menjadi tulang punggung digital.</p>
+              <a href="internet_satu_kota.html" class="button-sm border-button">Selengkapnya</a>
             </div>
           </div>
-          <div class="col-lg-6">
-            <div class="about-content-wrapper">
-              <div class="section-title mb-40">
-                <h3 class="mb-25 wow fadeInUp" data-wow-delay=".2s">Definisi dan Filosofi Kota 4.0</h3>
-                <p class="wow fadeInUp" data-wow-delay=".4s">Visi Baubau 4.0 adalah evolusi dari konsep 'smart city'. Tujuannya bukan sekadar mengimplementasikan teknologi, melainkan memberdayakan warga untuk menyelesaikan masalah kota melalui data besar dan kolaborasi.</p>
-              </div>
-              <div class="row">
-                <div class="col-md-6">
-                    <div class="single-feature wow fadeInUp" data-wow-delay=".5s">
-                        <div class="icon" style="font-size: 36px;"><i class="lni lni-layers"></i></div>
-                        <div class="content">
-                            <h6>Pemerintah Fasilitator</h6>
-                            <p>Bertransformasi dari penyedia layanan menjadi fasilitator inovasi.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
-                        <div class="icon" style="font-size: 36px;"><i class="lni lni-users"></i></div>
-                        <div class="content">
-                            <h6>Masyarakat Co-Creator</h6>
-                            <p>Warga didorong untuk berperan aktif dalam menyelesaikan masalah kota.</p>
-                        </div>
-                    </div>
-                </div>
-              </div>
-              <div class="counter-up-wrapper mt-30 wow fadeInUp" data-wow-delay=".7s">
-                  <div class="row">
-                      <div class="col-sm-4">
-                          <div class="single-counter">
-                              <h3 class="countup" count="4">4</h3>
-                              <p>Pilar Utama</p>
-                          </div>
-                      </div>
-                      <div class="col-sm-4">
-                          <div class="single-counter">
-                              <h3 class="countup" count="2">2</h3>
-                              <p>Tujuan Strategis</p>
-                          </div>
-                      </div>
-                      <div class="col-sm-4">
-                          <div class="single-counter">
-                              <h3 class="countup" count="10">10</h3>
-                              <p>Tahun Visi</p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="pilar-card wow fadeInUp" data-wow-delay=".4s">
+            <div class="icon"><i class="lni lni-display-alt"></i></div>
+            <div class="content">
+              <h5 class="mb-20">Command Center</h5>
+              <p>Pusat kendali terpadu untuk keputusan berbasis data yang cepat.</p>
+              <a href="command_center.html" class="button-sm border-button">Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="pilar-card wow fadeInUp" data-wow-delay=".6s">
+            <div class="icon"><i class="lni lni-mobile"></i></div>
+            <div class="content">
+              <h5 class="mb-20">Aplikasi Satu Data</h5>
+              <p>Platform integrasi data untuk menjamin ketersediaan informasi akurat.</p>
+              <a href="aplikasi_satu_data.html" class="button-sm border-button">Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="pilar-card wow fadeInUp" data-wow-delay=".8s">
+            <div class="icon"><i class="lni lni-database"></i></div>
+            <div class="content">
+              <h5 class="mb-20">Data Center</h5>
+              <p>Fasilitas penyimpanan terpusat sebagai fondasi utama ekosistem digital.</p>
+              <a href="data_center.html" class="button-sm border-button">Selengkapnya</a>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- ========================= about style-3 end ========================= -->
+    </div>
+  </section>
+  <!-- ========================= 4 Pilar Utama Section End ========================= -->
 
-    <!-- ========================= feature style-2 start ========================= -->
-    <section id="pendahuluan" class="feature-section feature-style-2">
-      <div class="container">
-        <div class="row align-items-center">
+  <div id="additional-sections-placeholder"></div>
+
+  <!-- ========================= about style-3 start ========================= -->
+  <section id="ringkasan" class="about-section about-style-3">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="about-image wow fadeInLeft" data-wow-delay=".2s">
+            <img src="assets/img/smart-city-vision-with-officials.png" alt="Visi Smart City dengan Pejabat">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="about-content-wrapper">
+            <div class="section-title mb-40">
+              <h3 class="mb-25 wow fadeInUp" data-wow-delay=".2s">Definisi dan Filosofi Kota 4.0</h3>
+              <p class="wow fadeInUp" data-wow-delay=".4s">Visi Baubau 4.0 adalah evolusi dari konsep 'smart city'.
+                Tujuannya bukan sekadar mengimplementasikan teknologi, melainkan memberdayakan warga untuk menyelesaikan
+                masalah kota melalui data besar dan kolaborasi.</p>
+            </div>
             <div class="row">
-              <div class="col-xl-12">
-                <div class="section-title mb-60 text-center">
-                  <h3 class="mb-15 wow fadeInUp" data-wow-delay=".2s">Landasan Filosofis Transformasi Digital</h3>
-                  <p class="wow fadeInUp" data-wow-delay=".4s">Visi strategis Kota 4.0 mewakili pergeseran paradigmatik dalam tata kelola perkotaan, berfokus pada kolaborasi, pemberdayaan masyarakat, dan inovasi berbasis data.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="row align-items-center">
               <div class="col-md-6">
-                <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
-                  <div class="icon">
-                    <i class="lni lni-vector"></i>
-                  </div>
+                <div class="single-feature wow fadeInUp" data-wow-delay=".5s">
+                  <div class="icon" style="font-size: 36px;"><i class="lni lni-layers"></i></div>
                   <div class="content">
-                    <h5 class="mb-25">Melampaui Paradigma Kota Pintar</h5>
-                    <p>Kota 4.0 adalah evolusi dari smart city, di mana fokusnya diperluas dari sekadar teknologi menjadi pembangunan ekosistem kolaboratif untuk memberdayakan warga.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
-                  <div class="icon">
-                    <i class="lni lni-layers"></i>
-                  </div>
-                  <div class="content">
-                    <h5 class="mb-25">Pemerintah sebagai Fasilitator</h5>
-                    <p>Peran pemerintah bertransformasi dari penyedia layanan menjadi fasilitator yang memungkinkan inovasi dan partisipasi publik dalam skala luas.</p>
+                    <h6>Pemerintah Fasilitator</h6>
+                    <p>Bertransformasi dari penyedia layanan menjadi fasilitator inovasi.</p>
                   </div>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
-                  <div class="icon">
-                    <i class="lni lni-users"></i>
-                  </div>
+                  <div class="icon" style="font-size: 36px;"><i class="lni lni-users"></i></div>
                   <div class="content">
-                    <h5 class="mb-25">Masyarakat sebagai Co-Creator</h5>
-                    <p>Warga didorong untuk mengambil peran aktif sebagai co-creator dalam mengidentifikasi dan menyelesaikan permasalahan kota secara bersama-sama.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="single-feature wow fadeInUp" data-wow-delay=".8s">
-                  <div class="icon">
-                    <i class="lni lni-target-arrow"></i>
-                  </div>
-                  <div class="content">
-                    <h5 class="mb-25">Tujuan Ganda</h5>
-                    <p>Menciptakan layanan publik yang lebih inovatif dan cerdas, sekaligus meningkatkan Pendapatan Asli Daerah (PAD) melalui digitalisasi yang efisien.</p>
+                    <h6>Masyarakat Co-Creator</h6>
+                    <p>Warga didorong untuk berperan aktif dalam menyelesaikan masalah kota.</p>
                   </div>
                 </div>
               </div>
             </div>
-          
-        </div>
-      </div>
-    </section>
-		<!-- ========================= Video Modal Start ========================= -->
-    <div class="modal fade modal-video" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-fullscreen">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <div class="ratio ratio-16x9">
-              <iframe id="youtubeVideo" src="https://www.youtube.com/embed/4S68eZGFue8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="counter-up-wrapper mt-30 wow fadeInUp" data-wow-delay=".7s">
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="single-counter">
+                    <h3 class="countup" count="4">4</h3>
+                    <p>Pilar Utama</p>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="single-counter">
+                    <h3 class="countup" count="2">2</h3>
+                    <p>Tujuan Strategis</p>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="single-counter">
+                    <h3 class="countup" count="10">10</h3>
+                    <p>Tahun Visi</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- ========================= Video Modal End ========================= -->
+  </section>
+  <!-- ========================= about style-3 end ========================= -->
 
-		<!-- ========================= feature style-2 end ========================= -->    <div id="footer-placeholder"></div>
+  <!-- ========================= feature style-2 start ========================= -->
+  <section id="pendahuluan" class="feature-section feature-style-2">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="row">
+          <div class="col-xl-12">
+            <div class="section-title mb-60 text-center">
+              <h3 class="mb-15 wow fadeInUp" data-wow-delay=".2s">Landasan Filosofis Transformasi Digital</h3>
+              <p class="wow fadeInUp" data-wow-delay=".4s">Visi strategis Kota 4.0 mewakili pergeseran paradigmatik
+                dalam tata kelola perkotaan, berfokus pada kolaborasi, pemberdayaan masyarakat, dan inovasi berbasis
+                data.</p>
+            </div>
+          </div>
+        </div>
 
-    <!-- ========================= JS here ========================= -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="assets/js/count-up.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/templating.js"></script>
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
+              <div class="icon">
+                <i class="lni lni-vector"></i>
+              </div>
+              <div class="content">
+                <h5 class="mb-25">Melampaui Paradigma Kota Pintar</h5>
+                <p>Kota 4.0 adalah evolusi dari smart city, di mana fokusnya diperluas dari sekadar teknologi menjadi
+                  pembangunan ekosistem kolaboratif untuk memberdayakan warga.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
+              <div class="icon">
+                <i class="lni lni-layers"></i>
+              </div>
+              <div class="content">
+                <h5 class="mb-25">Pemerintah sebagai Fasilitator</h5>
+                <p>Peran pemerintah bertransformasi dari penyedia layanan menjadi fasilitator yang memungkinkan inovasi
+                  dan partisipasi publik dalam skala luas.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
+              <div class="icon">
+                <i class="lni lni-users"></i>
+              </div>
+              <div class="content">
+                <h5 class="mb-25">Masyarakat sebagai Co-Creator</h5>
+                <p>Warga didorong untuk mengambil peran aktif sebagai co-creator dalam mengidentifikasi dan
+                  menyelesaikan permasalahan kota secara bersama-sama.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="single-feature wow fadeInUp" data-wow-delay=".8s">
+              <div class="icon">
+                <i class="lni lni-target-arrow"></i>
+              </div>
+              <div class="content">
+                <h5 class="mb-25">Tujuan Ganda</h5>
+                <p>Menciptakan layanan publik yang lebih inovatif dan cerdas, sekaligus meningkatkan Pendapatan Asli
+                  Daerah (PAD) melalui digitalisasi yang efisien.</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-    <script>
-      const videoModal = document.getElementById('videoModal');
-      const youtubeVideo = document.getElementById('youtubeVideo');
-      const originalVideoSrc = youtubeVideo.src;
+      </div>
+    </div>
+  </section>
+  <!-- ========================= Video Modal Start ========================= -->
+  <div class="modal fade modal-video" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ratio ratio-16x9">
+            <iframe id="youtubeVideo" src="https://www.youtube.com/embed/4S68eZGFue8" title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ========================= Video Modal End ========================= -->
 
-      videoModal.addEventListener('shown.bs.modal', () => {
-        // Append autoplay parameter when modal is shown
-        youtubeVideo.src = originalVideoSrc + "?autoplay=1";
-      });
+  <!-- ========================= feature style-2 end ========================= -->
+  <div id="footer-placeholder"></div>
 
-      videoModal.addEventListener('hide.bs.modal', () => {
-        // Remove autoplay parameter when modal is hidden to stop the video
-        youtubeVideo.src = originalVideoSrc;
-      });
-    </script>
-  </body>
+  <!-- ========================= JS here ========================= -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/count-up.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/templating.js"></script>
+
+  <script>
+    const videoModal = document.getElementById('videoModal');
+    const youtubeVideo = document.getElementById('youtubeVideo');
+    const originalVideoSrc = youtubeVideo.src;
+
+    videoModal.addEventListener('shown.bs.modal', () => {
+      // Append autoplay parameter when modal is shown
+      youtubeVideo.src = originalVideoSrc + "?autoplay=1";
+    });
+
+    videoModal.addEventListener('hide.bs.modal', () => {
+      // Remove autoplay parameter when modal is hidden to stop the video
+      youtubeVideo.src = originalVideoSrc;
+    });
+  </script>
+</body>
+
 </html>

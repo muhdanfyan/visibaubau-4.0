@@ -854,5 +854,141 @@
     "Name": "BKKBN",
     "field_5": "",
     "kategori": "Lembaga Lain"
+  },
+  {
+    "X": 122.6203142,
+    "Y": -5.466162973,
+    "Z": 0,
+    "Name": "Puskesmas Wolio",
+    "field_5": "",
+    "kategori": "Kesehatan"
+  },
+  {
+    "X": 122.5992843,
+    "Y": -5.465657579,
+    "Z": 0,
+    "Name": "Puskesmas Wajo",
+    "field_5": "",
+    "kategori": "Kesehatan"
+  },
+  {
+    "X": 122.5910537,
+    "Y": -5.505199074,
+    "Z": 0,
+    "Name": "Puskesmas Waborobo",
+    "field_5": "",
+    "kategori": "Kesehatan"
+  },
+  {
+    "X": 122.5668855,
+    "Y": -5.496308203,
+    "Z": 0,
+    "Name": "Puskemas Sulaa",
+    "field_5": "",
+    "kategori": "Kesehatan"
+  },
+  {
+    "X": 122.7002758,
+    "Y": -5.486065703,
+    "Z": 0,
+    "Name": "Puskesmas Sorawolio",
+    "field_5": "",
+    "kategori": "Kesehatan"
+  },
+  {
+    "X": 122.596914,
+    "Y": -5.457632883,
+    "Z": 0,
+    "Name": "Puskesmas Meo-Meo",
+    "field_5": "",
+    "kategori": "Kesehatan"
+  },
+  {
+    "X": 122.6035196,
+    "Y": -5.471381788,
+    "Z": 0,
+    "Name": "Puskesmas Melai",
+    "field_5": "",
+    "kategori": "Kesehatan"
+  },
+  {
+    "X": 122.6288391,
+    "Y": -5.407252742,
+    "Z": 0,
+    "Name": "Puskesmas Lowu-Lowu",
+    "field_5": "",
+    "kategori": "Kesehatan"
+  },
+  {
+    "X": 122.6273856,
+    "Y": -5.434245517,
+    "Z": 0,
+    "Name": "Puskesmas Liwuto",
+    "field_5": "",
+    "kategori": "Kesehatan"
+  },
+  {
+    "X": 122.651732,
+    "Y": -5.419354635,
+    "Z": 0,
+    "Name": "Puskesmas Lakologou",
+    "field_5": "",
+    "kategori": "Kesehatan"
+  },
+  {
+    "X": 122.5871496,
+    "Y": -5.472381973,
+    "Z": 0,
+    "Name": "Puskemas Katobengke",
+    "field_5": "",
+    "kategori": "Kesehatan"
+  },
+  {
+    "X": 122.6943865,
+    "Y": -5.340983083,
+    "Z": 0,
+    "Name": "Puskesmas Kampeonaho",
+    "field_5": "",
+    "kategori": "Kesehatan"
+  },
+  {
+    "X": 122.6244891,
+    "Y": -5.459237385,
+    "Z": 0,
+    "Name": "Puskesmas Kadolomoko",
+    "field_5": "",
+    "kategori": "Kesehatan"
+  },
+  {
+    "X": 122.6659595,
+    "Y": -5.400433759,
+    "Z": 0,
+    "Name": "Puskesmas Bungi",
+    "field_5": "",
+    "kategori": "Kesehatan"
+  },
+  {
+    "X": 122.6196009,
+    "Y": -5.47268173,
+    "Z": 0,
+    "Name": "Puskesmas Bukit Wolio Indah",
+    "field_5": "",
+    "kategori": "Kesehatan"
+  },
+  {
+    "X": 122.5892258,
+    "Y": -5.4636304,
+    "Z": 0,
+    "Name": "Puskesmas Betoambari",
+    "field_5": "",
+    "kategori": "Kesehatan"
+  },
+  {
+    "X": 122.6085675,
+    "Y": -5.464302205,
+    "Z": 0,
+    "Name": "Puskesmas Batara Guru",
+    "field_5": "",
+    "kategori": "Kesehatan"
   }
 ]
