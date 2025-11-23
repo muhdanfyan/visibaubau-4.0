@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposal Anggaran Pengembangan SIMKES - Visi Baubau 4.0</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap-5.0.0-alpha-2.min.css" />
+    <link rel="stylesheet" href="../assets/css/LineIcons.2.0.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Garamond:wght@700&family=Times+New+Roman&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: #e0e0e0;
+            font-family: 'Times New Roman', Times, serif;
+            color: #000;
+        }
+        .page {
+            width: 21cm;
+            min-height: 29.7cm;
+            padding: 1.5cm;
+            margin: 1.5cm auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+            position: relative;
+            page-break-after: always;
+        }
+        .page:last-of-type {
+            page-break-after: avoid;
+        }
+        .page-header-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+        .page-footer-img {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+        .page-footer {
+            position: absolute;
+            bottom: 1cm;
+            left: 1.5cm;
+            right: 1.5cm;
+            text-align: center;
+            font-size: 9pt;
+            color: #999;
+        }
+        .content-container {
+            padding-top: 1.8cm; 
+            padding-bottom: 2.5cm; 
+        }
+        h1, h2, h3, h4 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            color: #1a237e;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #dfe3ee;
+            padding-bottom: 6px;
+        }
+        h1 { font-size: 22pt; }
+        h2 { font-size: 18pt; }
+        h3 { font-size: 15pt; }
+        h4 { font-size: 13pt; border-bottom: 1px solid #eee; }
+        p, li {
+            font-size: 12pt;
+            line-height: 1.1;
+            text-align: justify;
+        }
+        .page-2 h1, .page-2 h2, .page-2 h3, .page-2 h4, .page-2 p, .page-2 th, .page-2 td {
+            font-size: 12px;
+        }
+        .page-2 .content-container {
+            padding-top: 10px;
+        }
+        .table thead th {
+            background-color: #f8f9fa;
+        }
+        .total-row td {
+            font-weight: bold;
+        }
+        .letter-header, .letter-body, .letter-footer {
+            padding-left: 1cm;
+            padding-right: 1cm;
+        }
+        .letter-body p {
+            margin-bottom: 1rem;
+        }
+        .signature-block {
+            margin-top: 10px;
+            text-align: right;
+        }
+        .signature-block .signature-image {
+            width: 220px; /* Enlarged image */
+            height: auto;
+        }
+        .signature-block .name {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        @media print {
+            body { background: white; }
+            .page {
+                width: auto;
+                min-height: 29.7cm; /* Ensure height for printing */
+                margin: 0;
+                padding: 1.5cm;
+                box-shadow: none;
+                border: none;
+                page-break-after: always;
+            }
+            .print-fab { display: none; }
+        }
+        .print-fab {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            width: 60px;
+            height: 60px;
+            background-color: #3B5998;
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            cursor: pointer;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+
+  <!-- Halaman 1: Surat Permohonan -->
+  <div class="page">
+    <img src="header dan footer/header.png" class="page-header-img">
+    <div class="content-container">
+        <div class="letter-header">
+            <div style="display: flex; justify-content: space-between;">
+                <div>
+                    <p id="dynamic-number">Nomor: 002/SKI/XI/2025<br>
+                    Lampiran: 1 (satu) Berkas<br>
+                    Perihal: <strong>Permohonan Anggaran Pengembangan Aplikasi SIMKES</strong></p>
+                </div>
+                <div style="white-space: nowrap;">
+                    <p id="dynamic-date">Baubau, 19 November 2025</p>
+                </div>
+            </div>
+        </div>
+        <div class="letter-body" style="margin-top: 30px;">
+            <p>Kepada Yth.,<br>
+            <strong>Kepala Dinas Kesehatan Kota Baubau</strong><br>
+            di-<br>
+            Tempat</p>
+
+            <p>Dengan hormat,</p>
+            <p>Dalam rangka mendukung Visi Baubau 4.0 dan percepatan transformasi digital layanan kesehatan, kami dari CV. Sarjana Komputer Indonesia mengajukan proposal pengembangan <strong>Aplikasi Sistem Informasi Manajemen Kesehatan (SIMKES)</strong>.</p>
+            <p>Aplikasi ini bertujuan untuk mengintegrasikan data dan layanan kesehatan di Kota Baubau, mulai dari manajemen data penyakit, pengelolaan stunting, hingga integrasi dengan sistem kepegawaian dan SIMGOS di puskesmas. SIMKES diharapkan dapat meningkatkan efisiensi dan efektivitas pelayanan kesehatan di Kota Baubau.</p>
+            <p>Sehubungan dengan hal tersebut, kami mengajukan permohonan dukungan anggaran sebesar <strong>Rp 140.000.000,- (Seratus Empat Puluh Juta Rupiah)</strong> untuk pengembangan aplikasi dan <strong>Rp 25.000.000,- (Dua Puluh Lima Juta Rupiah)</strong> per puskesmas untuk jasa instalasi SIMGOS. Rincian teknis dan justifikasi anggaran terlampir dalam dokumen ini.</p>
+            <p>Besar harapan kami, Bapak Kepala Dinas Kesehatan dapat menyetujui permohonan ini demi terwujudnya sistem informasi kesehatan yang terintegrasi dan modern. Atas perhatian dan dukungan Bapak, kami ucapkan terima kasih.</p>
+        </div>
+        <div class="letter-footer">
+            <p style="text-align: right;">Hormat kami,</p>
+            <div class="signature-block">
+                <img src="header dan footer/ttd+stempel+nama.png" class="signature-image" alt="Tanda Tangan dan Stempel">
+            </div>
+        </div>
+    </div>
+    <img src="header dan footer/footer.png" class="page-footer-img">
+    <div class="page-footer">Halaman 1</div>
+  </div>
+
+  <!-- Halaman 2: Rincian Anggaran -->
+  <div class="page page-2">
+    <img src="header dan footer/header.png" class="page-header-img">
+    <div class="content-container">
+        <header class="mb-4 text-center">
+            <h1>Rincian Anggaran Pengembangan SIMKES</h1>
+        </header>
+        <section id="pengembangan-aplikasi">
+            <h2>Pengembangan Aplikasi SIMKES</h2>
+            <h3 class="mt-3">💰 Total Anggaran: Rp 140.000.000</h3>
+            <p>Anggaran ini dialokasikan untuk analisis, perancangan, dan pengembangan modul-modul utama SIMKES serta integrasi dengan sistem yang sudah ada.</p>
+            <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <thead class="table-light">
+                <tr>
+                    <th scope="col">Kategori</th>
+                    <th scope="col">Deskripsi</th>
+                    <th scope="col">Total Biaya</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><strong>Analisis Sistem dan Prototype UI/UX</strong></td>
+                    <td>Perancangan alur sistem dan antarmuka pengguna</td>
+                    <td><strong>£10,000,000.00</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Modul Bidang KesMas</strong></td>
+                    <td>E-library, E-learning, Manajemen Konten Sosmed</td>
+                    <td><strong>£30,000,000.00</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Modul Pencegahan dan Pengendalian Penyakit</strong></td>
+                    <td>Manajemen data penyakit, Pengelolaan Stunting</td>
+                    <td><strong>£40,000,000.00</strong></td>
+                </tr>
+                 <tr>
+                    <td><strong>Modul Bidang Pelayanan Kesehatan</strong></td>
+                    <td>Integrasi ke SIMGOS (puskesmas)</td>
+                    <td><strong>£20,000,000.00</strong></td>
+                </tr>
+                 <tr>
+                    <td><strong>Modul Sumber Daya Kesehatan</strong></td>
+                    <td>Integrasi Obat & Alkes dari SIMGOS, Integrasi Nakes dari Kepegawaian</td>
+                    <td><strong>£25,000,000.00</strong></td>
+                </tr>
+                <tr class="table-light">
+                    <td colspan="2" class="text-end"><strong>Subtotal</strong></td>
+                    <td><strong>£125,000,000.00</strong></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-end">PPN (12%)</td>
+                    <td>£15,000,000.00</td>
+                </tr>
+                <tr class="total-row table-light">
+                    <td colspan="2" class="text-end"><strong>Total Anggaran</strong></td>
+                    <td><strong>£140,000,000.00</strong></td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+        </section>
+        
+        <section id="instalasi-simgos">
+            <h2>Jasa Instalasi SIMGOS per Puskesmas</h2>
+             <h3 class="mt-3">💰 Total Anggaran: Rp 25.000.000 / Puskesmas</h3>
+            <p>Anggaran ini untuk instalasi dan implementasi SIMGOS di setiap puskesmas untuk memastikan integrasi yang lancar dengan SIMKES.</p>
+            <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <thead class="table-light">
+                <tr>
+                    <th scope="col">Jasa</th>
+                    <th scope="col">Total Biaya</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Instalasi Server</td>
+                    <td>£5,000,000.00</td>
+                </tr>
+                <tr>
+                    <td>Instalasi Sistem</td>
+                    <td>£10,000,000.00</td>
+                </tr>
+                <tr>
+                    <td>Implementasi SIMGOS</td>
+                    <td>£10,000,000.00</td>
+                </tr>
+                <tr class="total-row table-light">
+                    <td class="text-end"><strong>Total Biaya per Puskesmas</strong></td>
+                    <td><strong>£25,000,000.00</strong></td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+        </section>
+
+    </div>
+    <img src="header dan footer/footer.png" class="page-footer-img">
+    <div class="page-footer">Halaman 2 - Lampiran Anggaran</div>
+  </div>
+
+  <div class="print-fab" onclick="window.print()">
+      <i class="lni lni-printer"></i>
+  </div>
+
+  <script src="../assets/js/bootstrap.5.0.0.alpha-2-min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const dateElement = document.getElementById('dynamic-date');
+        const numberElement = document.getElementById('dynamic-number');
+
+        if (dateElement) {
+            const today = new Date();
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            const formattedDate = today.toLocaleDateString('id-ID', options);
+            dateElement.innerHTML = `Baubau, ${formattedDate}`;
+        }
+
+        if (numberElement) {
+            const today = new Date();
+            const year = today.getFullYear();
+            const month = today.getMonth() + 1;
+            
+            const toRoman = (num) => {
+                const roman = { M: 1000, CM: 900, D: 500, CD: 400, C: 100, XC: 90, L: 50, XL: 40, X: 10, IX: 9, V: 5, IV: 4, I: 1 };
+                let str = '';
+                for (let i of Object.keys(roman)) {
+                    let q = Math.floor(num / roman[i]);
+                    num -= q * roman[i];
+                    str += i.repeat(q);
+                }
+                return str;
+            };
+
+            const romanMonth = toRoman(month);
+            numberElement.innerHTML = `Nomor: 002/SKI/${romanMonth}/${year}<br>Lampiran: 1 (satu) Berkas<br>Perihal: <strong>Permohonan Anggaran Pengembangan Aplikasi SIMKES</strong>`;
+        }
+    });
+  </script>
+</body>
+</html>

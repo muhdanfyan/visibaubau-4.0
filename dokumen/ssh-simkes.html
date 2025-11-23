@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standar Satuan Harga (SSH) - Pengembangan SIMKES</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap-5.0.0-alpha-2.min.css" />
+    <link rel="stylesheet" href="../assets/css/LineIcons.2.0.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Garamond:wght@700&family=Times+New+Roman&display=swap" rel="stylesheet">
+    <style>
+        body { background: #e0e0e0; font-family: 'Times New Roman', Times, serif; color: #000; }
+        .page { width: 21cm; min-height: 29.7cm; padding: 1.5cm; margin: 1.5cm auto; background: white; box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); position: relative; }
+        .page-header-img, .page-footer-img { position: absolute; left: 0; width: 100%; }
+        .page-header-img { top: 0; }
+        .page-footer-img { bottom: 0; }
+        .content-container { padding-top: 1.8cm; padding-bottom: 2.5cm; }
+        h1, h2 { font-family: 'Roboto', sans-serif; font-weight: 700; color: #1a237e; margin-bottom: 10px; border-bottom: 2px solid #dfe3ee; padding-bottom: 6px; }
+        h1 { font-size: 20pt; }
+        h2 { font-size: 16pt; margin-top: 20px; }
+        .table thead th { background-color: #f8f9fa; vertical-align: middle; text-align: center; }
+        .table tbody td { vertical-align: middle; }
+        .table tfoot td { font-weight: bold; }
+        .category-row td { font-weight: bold; background-color: #f2f2f2; }
+        .total-row td { font-weight: bold; background-color: #e9ecef; }
+        .text-end { text-align: right; }
+        .print-fab { position: fixed; bottom: 40px; right: 40px; width: 60px; height: 60px; background-color: #3B5998; color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 28px; box-shadow: 0 5px 15px rgba(0,0,0,0.2); cursor: pointer; z-index: 1000; }
+        @media print {
+            body, .page {
+                margin: 0;
+                padding: 0.5cm; /* Reduce page padding */
+                background: white;
+                box-shadow: none;
+                border: none;
+                font-size: 9pt; /* Reduce base font size */
+            }
+            .page {
+                width: 100%;
+                min-height: 0;
+                height: 29.7cm; /* A4 height */
+            }
+            .print-fab, .page-header-img, .page-footer-img {
+                display: none; /* Hide FAB and images */
+            }
+            .content-container {
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+            h1, h2 {
+                font-size: 14pt; /* Reduce header font sizes */
+                margin-top: 10px;
+                margin-bottom: 5px;
+                padding-bottom: 2px;
+            }
+            h2 {
+                font-size: 12pt;
+            }
+            .table {
+                font-size: 8pt; /* Reduce table font size */
+                margin-bottom: 10px;
+            }
+            .table th, .table td {
+                padding: 2px 4px; /* Reduce cell padding */
+            }
+            .mt-5 {
+                margin-top: 15px !important; /* Reduce margin top */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="page">
+    <img src="header dan footer/header.png" class="page-header-img">
+    <div class="content-container">
+        <header class="mb-4 text-center">
+            <h1>Standar Satuan Harga (SSH)</h1>
+            <h2>Pengembangan Aplikasi SIMKES</h2>
+        </header>
+
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Komponen Biaya</th>
+                        <th>Satuan</th>
+                        <th>Volume</th>
+                        <th>Harga Satuan (Rp)</th>
+                        <th>Jumlah Biaya (Rp)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Kategori 1 -->
+                    <tr class="category-row">
+                        <td><strong>1</strong></td>
+                        <td colspan="4"><strong>Analisis Sistem dan Prototype UI/UX</strong></td>
+                        <td class="text-end"><strong>10.000.000</strong></td>
+                    </tr>
+                    <tr>
+                        <td>1.1</td>
+                        <td>System Analyst</td>
+                        <td>Orang/Bulan</td>
+                        <td>1</td>
+                        <td class="text-end">5.000.000</td>
+                        <td class="text-end">5.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>1.2</td>
+                        <td>UI/UX Designer</td>
+                        <td>Orang/Bulan</td>
+                        <td>1</td>
+                        <td class="text-end">5.000.000</td>
+                        <td class="text-end">5.000.000</td>
+                    </tr>
+
+                    <!-- Kategori 2 -->
+                    <tr class="category-row">
+                        <td><strong>2</strong></td>
+                        <td colspan="4"><strong>Modul Bidang KesMas</strong></td>
+                        <td class="text-end"><strong>30.000.000</strong></td>
+                    </tr>
+                    <tr>
+                        <td>2.1</td>
+                        <td>Senior Developer</td>
+                        <td>Orang/Bulan</td>
+                        <td>3</td>
+                        <td class="text-end">7.000.000</td>
+                        <td class="text-end">21.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>2.2</td>
+                        <td>Junior Developer</td>
+                        <td>Orang/Bulan</td>
+                        <td>2</td>
+                        <td class="text-end">4.500.000</td>
+                        <td class="text-end">9.000.000</td>
+                    </tr>
+
+                    <!-- Kategori 3 -->
+                    <tr class="category-row">
+                        <td><strong>3</strong></td>
+                        <td colspan="4"><strong>Modul Pencegahan dan Pengendalian Penyakit</strong></td>
+                        <td class="text-end"><strong>40.000.000</strong></td>
+                    </tr>
+                    <tr>
+                        <td>3.1</td>
+                        <td>Senior Developer</td>
+                        <td>Orang/Bulan</td>
+                        <td>4</td>
+                        <td class="text-end">7.500.000</td>
+                        <td class="text-end">30.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>3.2</td>
+                        <td>QA Engineer</td>
+                        <td>Orang/Bulan</td>
+                        <td>2</td>
+                        <td class="text-end">5.000.000</td>
+                        <td class="text-end">10.000.000</td>
+                    </tr>
+
+                    <!-- Kategori 4 -->
+                    <tr class="category-row">
+                        <td><strong>4</strong></td>
+                        <td colspan="4"><strong>Modul Bidang Pelayanan Kesehatan</strong></td>
+                        <td class="text-end"><strong>20.000.000</strong></td>
+                    </tr>
+                     <tr>
+                        <td>4.1</td>
+                        <td>Integration Specialist</td>
+                        <td>Orang/Bulan</td>
+                        <td>2</td>
+                        <td class="text-end">10.000.000</td>
+                        <td class="text-end">20.000.000</td>
+                    </tr>
+
+                    <!-- Kategori 5 -->
+                    <tr class="category-row">
+                        <td><strong>5</strong></td>
+                        <td colspan="4"><strong>Modul Sumber Daya Kesehatan</strong></td>
+                        <td class="text-end"><strong>25.000.000</strong></td>
+                    </tr>
+                     <tr>
+                        <td>5.1</td>
+                        <td>Database Administrator</td>
+                        <td>Orang/Bulan</td>
+                        <td>2</td>
+                        <td class="text-end">7.500.000</td>
+                        <td class="text-end">15.000.000</td>
+                    </tr>
+                     <tr>
+                        <td>5.2</td>
+                        <td>Backend Developer</td>
+                        <td>Orang/Bulan</td>
+                        <td>1</td>
+                        <td class="text-end">10.000.000</td>
+                        <td class="text-end">10.000.000</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr class="total-row">
+                        <td colspan="5" class="text-end"><strong>Subtotal</strong></td>
+                        <td class="text-end"><strong>125.000.000</strong></td>
+                    </tr>
+                    <tr class="total-row">
+                        <td colspan="5" class="text-end">PPN (12%)</td>
+                        <td class="text-end">15.000.000</td>
+                    </tr>
+                    <tr class="total-row" style="font-size: 1.1em;">
+                        <td colspan="5" class="text-end"><strong>Total Anggaran Pengembangan</strong></td>
+                        <td class="text-end"><strong>140.000.000</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        
+        <h2 class="mt-5">Jasa Instalasi SIMGOS per Puskesmas</h2>
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Komponen Biaya</th>
+                        <th>Satuan</th>
+                        <th>Volume</th>
+                        <th>Harga Satuan (Rp)</th>
+                        <th>Jumlah Biaya (Rp)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Instalasi Server</td>
+                        <td>Unit</td>
+                        <td>1</td>
+                        <td class="text-end">5.000.000</td>
+                        <td class="text-end">5.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Instalasi Sistem</td>
+                        <td>Paket</td>
+                        <td>1</td>
+                        <td class="text-end">10.000.000</td>
+                        <td class="text-end">10.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Implementasi SIMGOS</td>
+                        <td>Paket</td>
+                        <td>1</td>
+                        <td class="text-end">10.000.000</td>
+                        <td class="text-end">10.000.000</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr class="total-row" style="font-size: 1.1em;">
+                        <td colspan="5" class="text-end"><strong>Total Biaya per Puskesmas</strong></td>
+                        <td class="text-end"><strong>25.000.000</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+    </div>
+    <img src="header dan footer/footer.png" class="page-footer-img">
+</div>
+
+<div class="print-fab" onclick="window.print()">
+    <i class="lni lni-printer"></i>
+</div>
+
+</body>
+</html>

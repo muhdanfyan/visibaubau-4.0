@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisis Perbandingan Biaya Pengembangan SIMKES</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap-5.0.0-alpha-2.min.css" />
+    <link rel="stylesheet" href="../assets/css/LineIcons.2.0.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Garamond:wght@700&family=Times+New+Roman&display=swap" rel="stylesheet">
+    <style>
+        body { background: #e0e0e0; font-family: 'Times New Roman', Times, serif; color: #000; }
+        .page { width: 21cm; min-height: 29.7cm; padding: 1.5cm; margin: 1.5cm auto; background: white; box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); position: relative; page-break-after: always; }
+        .page:last-of-type { page-break-after: avoid; }
+        .page-header-img { position: absolute; top: 0; left: 0; width: 100%; z-index: 1; }
+        .content-container { padding-top: 2cm; padding-bottom: 2.5cm; position: relative; z-index: 2; }
+        h1, h2 { font-family: 'Roboto', sans-serif; font-weight: 700; color: #1a237e; margin-bottom: 10px; border-bottom: 2px solid #dfe3ee; padding-bottom: 6px; text-align: center; }
+        h1 { font-size: 18pt; }
+        h2 { font-size: 16pt; margin-top: 20px; }
+        p { font-size: 12px; line-height: 1.3; }
+        .table tbody td { vertical-align: middle; font-size: 10px; line-height: 1.2; }
+        .table ul { padding-left: 1.2rem; margin-bottom: 0; }
+        .price { font-weight: bold; }
+        .chosen-option { background-color: #e9f7ef; }
+        .recommendation { margin-top: 2rem; padding: 1.5rem; background-color: #e9f7ef; border-left: 5px solid #28a745; }
+        .justification { margin-top: 1rem; }
+        .justification h3 { font-family: 'Roboto', sans-serif; font-weight: 700; color: #000; font-size: 14pt; margin-top: 1rem; border-bottom: 1px solid #ccc; padding-bottom: 5px; text-align: left; }
+        .justification p { text-align: justify; }
+        .print-fab { position: fixed; bottom: 40px; right: 40px; width: 60px; height: 60px; background-color: #3B5998; color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 28px; box-shadow: 0 5px 15px rgba(0,0,0,0.2); cursor: pointer; z-index: 1000; }
+        @media print {
+            body { background: white !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+            .page { margin: 0; padding: 1cm; box-shadow: none; border: none; min-height: 0; }
+            .print-fab { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Page 1 -->
+<div class="page">
+    <img src="header dan footer/header.png" class="page-header-img">
+    <div class="content-container">
+        <header class="mb-4 text-center">
+            <h1>Analisis Perbandingan Biaya Pengembangan SIMKES</h1>
+            <h2>3 Opsi Pengembangan: 2 E-Katalog vs 1 Proposal Internal</h2>
+        </header>
+
+        <p>Dokumen ini menyajikan perbandingan antara tiga opsi pengembangan <strong>Sistem Informasi Manajemen Kesehatan (SIMKES)</strong>: dua penawaran dari penyedia eksternal di E-Katalog LKPP dan satu proposal dari Tim Internal Visi Baubau 4.0.</p>
+
+        <table class="table table-bordered mt-3">
+            <tbody>
+                <tr>
+                    <td><strong>Komponen</strong></td>
+                    <td><strong>Penyedia Eksternal 1</strong></td>
+                    <td><strong>Penyedia Eksternal 2</strong></td>
+                    <td class="chosen-option"><strong>Proposal Tim Baubau 4.0 (Pilihan)</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Nama Produk</strong></td>
+                    <td>Pengembangan SIMKES (Manajemen Obat)</td>
+                    <td>Pengembangan SIMKES (Manajemen Obat)</td>
+                    <td class="chosen-option">Pengembangan Aplikasi SIMKES Komprehensif</td>
+                </tr>
+                <tr>
+                    <td><strong>Penyedia</strong></td>
+                    <td>CUBIESPOT PILAR TECH INDONESIA<br><small>https://katalog.inaproc.id/cvcubiespot-pilar-tech-indonesia/pengembangan-simkes-manajemen-obat</small></td>
+                    <td>SOLUSI KLIK TANJUNG PURA<br><small>https://katalog.inaproc.id/solusi-klik-tanjung-pura/pengembangan-simkes-manajemen-obat</small></td>
+                    <td class="chosen-option">CV Sarjana Komputer Indonesia</td>
+                </tr>
+                <tr>
+                    <td><strong>Biaya</strong></td>
+                    <td class="price">Rp 200.000.000</td>
+                    <td class="price">Rp 204.590.001</td>
+                    <td class="price chosen-option"><strong>Rp 140.000.000</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Lingkup & Output</strong></td>
+                    <td>Modul Tunggal (Manajemen Obat)</td>
+                    <td>Modul Tunggal (Manajemen Obat)</td>
+                    <td class="chosen-option">
+                        <ul>
+                            <li><strong>5 Modul Terintegrasi:</strong></li>
+                            <li>Kesehatan Masyarakat</li>
+                            <li>P2P (termasuk Stunting)</li>
+                            <li>Pelayanan Kesehatan</li>
+                            <li>Sumber Daya Kesehatan</li>
+                            <li>Analisis & Desain Sistem</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Kelebihan</strong></td>
+                    <td>Produk terdaftar di E-katalog.</td>
+                    <td>Produk terdaftar di E-katalog.</td>
+                    <td class="chosen-option">Biaya 30% lebih rendah, cakupan 5x lebih luas, konteks lokal kuat, transfer pengetahuan.</td>
+                </tr>
+                <tr>
+                    <td><strong>Kekurangan</strong></td>
+                    <td>Biaya 42% lebih mahal, lingkup sangat sempit, risiko solusi generik.</td>
+                    <td>Biaya 46% lebih mahal, lingkup sangat sempit, risiko solusi generik.</td>
+                    <td class="chosen-option">Membutuhkan komitmen & waktu dari tim internal.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Page 2 -->
+<div class="page">
+    <img src="header dan footer/header.png" class="page-header-img">
+    <div class="content-container">
+        <div class="justification">
+            <h2>Justifikasi Pemilihan Proposal Tim Baubau 4.0</h2>
+            
+            <h3>1. Efisiensi Anggaran Maksimal</h3>
+            <p>Proposal Tim Baubau 4.0 menawarkan pengembangan sistem komprehensif dengan biaya <strong>Rp 140 juta</strong>. Angka ini secara drastis lebih efisien dibandingkan penawaran dari dua penyedia eksternal, yang mematok harga <strong>Rp 200 juta</strong> dan <strong>Rp 204 juta</strong> hanya untuk satu modul tunggal (Manajemen Obat). Ini membuktikan bahwa proposal internal memberikan nilai terbaik dengan penghematan minimal <strong>Rp 60 juta</strong> sambil memberikan output yang jauh lebih besar.</p>
+
+            <h3>2. Cakupan Fungsional yang Jauh Lebih Unggul</h3>
+            <p>Opsi dari penyedia eksternal hanya menawarkan satu fungsi spesifik. Sebaliknya, proposal internal mencakup lima modul krusial yang saling terintegrasi, mulai dari kesehatan masyarakat, penanganan stunting, hingga manajemen sumber daya kesehatan. Dengan kata lain, Tim Baubau 4.0 menawarkan <strong>sistem yang 5 kali lebih lengkap dengan harga 30% lebih murah.</strong></p>
+
+            <h3>3. Solusi Kontekstual dan Berkelanjutan</h3>
+            <p>Pengembangan internal memastikan bahwa aplikasi yang dihasilkan benar-benar menjawab kebutuhan unik dan alur kerja di Kota Baubau. Ini berbeda dengan produk e-katalog yang bersifat generik dan mungkin memerlukan biaya tambahan untuk kustomisasi. Selain itu, pelibatan tim internal merupakan investasi jangka panjang untuk SDM aparatur, menciptakan kemandirian digital untuk pengelolaan dan pengembangan sistem di masa depan.</p>
+            
+            <div class="recommendation mt-4">
+                <h2>Kesimpulan & Rekomendasi Akhir</h2>
+                <p>
+                    Berdasarkan analisis perbandingan tiga opsi yang ada, proposal pengembangan SIMKES dari <strong>Tim Visi Baubau 4.0</strong> adalah pilihan yang paling logis, strategis, dan menguntungkan secara finansial. Direkomendasikan untuk melanjutkan proses sesuai dengan proposal yang telah diajukan.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Page 3: Image Appendix -->
+<div class="page">
+    <img src="header dan footer/header.png" class="page-header-img">
+    <div class="content-container">
+        <h2>Lampiran Gambar Penawaran</h2>
+        <style>
+            .image-gallery {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 1rem;
+                margin-top: 1.5rem;
+                text-align: center;
+            }
+            .image-gallery img {
+                width: 100%;
+                height: auto;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+            }
+            .image-gallery figcaption {
+                margin-top: 0.5rem;
+                font-style: italic;
+                font-size: 10px;
+            }
+        </style>
+        <div class="image-gallery">
+            <figure>
+                <img src="simkes/image/perbandingan-harga/CUBIESPOT PILAR TECH INDONESIA.png" alt="Penawaran CUBIESPOT">
+                <figcaption>Penawaran 1: CUBIESPOT PILAR TECH</figcaption>
+            </figure>
+            <figure>
+                <img src="simkes/image/perbandingan-harga/SOLUSI KLIK TANJUNG PURA.png" alt="Penawaran SOLUSI KLIK">
+                <figcaption>Penawaran 2: SOLUSI KLIK TANJUNG PURA</figcaption>
+            </figure>
+            <figure>
+                <img src="simkes/image/perbandingan-harga/SIMKES.png" alt="Konsep UI Proposal Internal">
+                <figcaption>Konsep UI Proposal Tim Baubau 4.0</figcaption>
+            </figure>
+        </div>
+        <div class="justification mt-4">
+             <p><strong>Catatan:</strong> Gambar untuk Penawaran 1 dan 2 diambil dari e-katalog. Gambar untuk proposal Tim Baubau 4.0 adalah representasi visual dari konsep antarmuka (UI) modern yang akan dikembangkan, menggunakan contoh dari proyek open-source 'OpenHealthDashboard'. Anda perlu menambahkan gambar yang relevan dengan nama file <code>proposal_simkes_ui.png</code> di folder <code>dokumen/simkes/image/perbandingan-harga/</code>.</p>
+        </div>
+    </div>
+</div>
+
+<div class="print-fab" onclick="window.print()">
+    <i class="lni lni-printer"></i>
+</div>
+
+</body>
+</html>
