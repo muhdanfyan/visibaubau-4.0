@@ -207,6 +207,7 @@
             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
             transition: all 0.3s ease;
             border: 1px solid #eee;
+            height: 100%;
         }
 
         .benefit-box:hover {
@@ -228,6 +229,17 @@
             font-size: 28px;
             margin-right: 20px;
         }
+        
+        .benefit-box .content {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            height: 100%;
+        }
+        
+        .benefit-box .content-main {
+            flex-grow: 1;
+        }
 
         .benefit-box h5 {
             font-weight: 700;
@@ -244,6 +256,93 @@
 
         .benefit-box ul li {
             margin-bottom: 5px;
+        }
+
+        .benefit-box a.btn-link {
+            text-decoration: none;
+            font-weight: 600;
+            padding: 0;
+            margin-top: 15px;
+            align-self: flex-start;
+        }
+
+        .benefit-box a.btn-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Custom styles for Accordion in Mindmap section */
+        .mindmap-content .accordion-item {
+            border: 1px solid #e0e0e0;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .mindmap-content .accordion-header {
+            background-color: #f8f9fa; /* Light gray background for header */
+        }
+
+        .mindmap-content .accordion-button {
+            color: #333;
+            font-weight: 600;
+            padding: 15px 20px;
+            font-size: 1.1rem;
+            background-color: #f8f9fa;
+            border: none;
+            text-align: left;
+            transition: all 0.3s ease;
+        }
+
+        .mindmap-content .accordion-button:not(.collapsed) {
+            color: #2F80ED; /* Blue color when expanded */
+            background-color: #e6f0ff; /* Lighter blue background when expanded */
+            box-shadow: inset 0 -1px 0 rgba(0,0,0,0.125);
+        }
+
+        .mindmap-content .accordion-button:focus {
+            box-shadow: none;
+            border-color: transparent;
+        }
+
+        .mindmap-content .accordion-button::after {
+            font-family: 'LineIcons'; /* Use LineIcons for custom chevron */
+            content: "\e017"; /* lni-chevron-down */
+            background-image: none;
+            transform: rotate(0deg);
+            transition: transform 0.3s ease;
+            font-size: 1rem;
+            margin-left: auto;
+        }
+
+        .mindmap-content .accordion-button:not(.collapsed)::after {
+            content: "\e014"; /* lni-chevron-up */
+            transform: rotate(180deg);
+        }
+
+        .mindmap-content .accordion-body {
+            padding: 20px;
+            background-color: #fff;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .mindmap-content h4, .mindmap-content h5 {
+            color: #2F80ED; /* Keep headings blue */
+        }
+
+        .mindmap-content ul {
+            list-style: disc; /* Ensure list style is visible */
+            padding-left: 20px;
+        }
+
+        /* Specific styling for Mermaid diagram pre tag */
+        .mindmap-content pre.mermaid {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto; /* Ensure horizontal scroll for large diagrams */
+            margin-top: 15px;
+            border: 1px solid #ddd;
         }
     </style>
 
@@ -480,6 +579,266 @@
         </div>
     </section>
 
+    <!-- ========================= Mindmap Konsep SIMKES ========================= -->
+    <section class="feature-section pt-80 pb-80" style="background-color: #fff;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="section-title text-center mb-50">
+                        <h3 class="wow fadeInUp" data-wow-delay=".2s">Mindmap Konsep Sistem Informasi Kesehatan (SIMKES)
+                            <button class="btn btn-link p-0 ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#mindmapCollapse" aria-expanded="true" aria-controls="mindmapCollapse">
+                                <i class="lni lni-chevron-down"></i>
+                            </button>
+                        </h3>
+                        <p class="wow fadeInUp" data-wow-delay=".4s">Struktur dan kerangka kerja SIMKES secara komprehensif.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="collapse show" id="mindmapCollapse">
+                        <div class="mindmap-content wow fadeInUp" data-wow-delay=".6s">
+                            <p><strong>Penjelasan Mindmap: Sistem Informasi Kesehatan (SIMKES)</strong></p>
+                            <p>Dokumen ini menguraikan kerangka kerja Sistem Informasi Kesehatan (SIMKES) berdasarkan mindmap yang tersedia. Struktur ini mencakup konsep dasar, komponen teknis, tantangan, manfaat, hingga aspek hukum dan etika.</p>
+                            <hr>
+                            <div class="accordion" id="mindmapAccordion">
+
+                                <!-- Accordion Item 1: Konsep Dasar Sistem Informasi -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                            1. Konsep Dasar Sistem Informasi
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#mindmapAccordion">
+                                        <div class="accordion-body">
+                                            <p>Bagian ini menjelaskan fondasi teoritis dari sistem informasi.</p>
+                                            <ul>
+                                                <li><strong>Data dan Informasi:</strong> Memahami transformasi data mentah menjadi informasi yang bermakna, dan akhirnya menjadi pengetahuan (knowledge).</li>
+                                                <li><strong>Sistem Informasi:</strong> Definisi sistem sebagai kumpulan komponen yang saling berinteraksi untuk mencapai tujuan tertentu.</li>
+                                                <li><strong>Teknologi Informasi:</strong> Peran perangkat keras (hardware) dan perangkat lunak (software) sebagai enabler.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Accordion Item 2: Komponen Sistem Informasi Kesehatan -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            2. Komponen Sistem Informasi Kesehatan
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#mindmapAccordion">
+                                        <div class="accordion-body">
+                                            <p>Mengadopsi pendekatan sistem (Input-Proses-Output).</p>
+                                            <h5>a. Input (Sumber Daya)</h5>
+                                            <p>Faktor-faktor yang dibutuhkan agar sistem dapat berjalan:</p>
+                                            <ul>
+                                                <li><strong>SDM (Sumber Daya Manusia):</strong> Tenaga ahli IT, tenaga kesehatan, dan administrator.</li>
+                                                <li><strong>Dana/Anggaran:</strong> Pembiayaan untuk infrastruktur dan operasional.</li>
+                                                <li><strong>Sarana Prasarana:</strong> Komputer, jaringan, server.</li>
+                                                <li><strong>Kebijakan & SOP:</strong> Aturan main dan prosedur standar operasional.</li>
+                                            </ul>
+                                            <h5>b. Proses (Manajemen Data)</h5>
+                                            <p>Siklus hidup data di dalam sistem:</p>
+                                            <ul>
+                                                <li><strong>Pengumpulan:</strong> Cara data diambil (sensus, survei, rekam medis).</li>
+                                                <li><strong>Pengolahan:</strong> Validasi dan kompilasi data.</li>
+                                                <li><strong>Analisis:</strong> Mengubah data menjadi tren atau statistik.</li>
+                                                <li><strong>Penyajian & Diseminasi:</strong> Menampilkan data dalam bentuk grafik/laporan untuk pengguna.</li>
+                                            </ul>
+                                            <h5>c. Output (Kualitas Informasi)</h5>
+                                            <p>Syarat informasi yang baik yang dihasilkan sistem:</p>
+                                            <ul>
+                                                <li><strong>Akurat:</strong> Bebas dari kesalahan.</li>
+                                                <li><strong>Tepat Waktu:</strong> Tersedia saat dibutuhkan.</li>
+                                                <li><strong>Relevan:</strong> Sesuai dengan kebutuhan pengguna.</li>
+                                                <li><strong>Lengkap:</strong> Mencakup seluruh variabel yang diperlukan.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Accordion Item 3: Tantangan & Hambatan -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            3. Tantangan & Hambatan
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#mindmapAccordion">
+                                        <div class="accordion-body">
+                                            <p>Kendala yang sering dihadapi dalam implementasi SIMKES di lapangan.</p>
+                                            <ul>
+                                                <li><strong>Aspek Teknis:</strong> Masalah infrastruktur (listrik/internet), interoperabilitas (sistem tidak saling bicara), dan keamanan siber.</li>
+                                                <li><strong>Aspek Manusia (SDM):</strong> Resistensi terhadap perubahan (menolak sistem baru), kurangnya literasi digital, dan budaya kerja manual.</li>
+                                                <li><strong>Aspek Organisasi:</strong> Kurangnya dukungan dari level manajerial/pimpinan, strategi yang tidak matang.</li>
+                                                <li><strong>Aspek Finansial:</strong> Biaya investasi awal dan perawatan (maintenance) yang tinggi.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Accordion Item 4: Manfaat SIMKES -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFour">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                            4. Manfaat SIMKES
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#mindmapAccordion">
+                                        <div class="accordion-body">
+                                            <p>Dampak positif yang diharapkan dari penerapan sistem.</p>
+                                            <ul>
+                                                <li><strong>Bagi Pasien:</strong> Peningkatan mutu layanan, waktu tunggu lebih singkat, keamanan data medis.</li>
+                                                <li><strong>Bagi Fasyankes (RS/Puskesmas):</strong> Efisiensi operasional, administrasi yang rapi, mencegah <em>human error</em>.</li>
+                                                <li><strong>Bagi Pemerintah:</strong> Dasar pengambilan kebijakan berbasis data (<em>evidence-based policy</em>), pemantauan wabah penyakit.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Accordion Item 5: Regulasi (Dasar Hukum) -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFive">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                            5. Regulasi (Dasar Hukum)
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#mindmapAccordion">
+                                        <div class="accordion-body">
+                                            <p>Payung hukum yang mengatur penerapan SIMKES di Indonesia.</p>
+                                            <ul>
+                                                <li><strong>UU ITE:</strong> Mengatur transaksi elektronik dan keamanan siber.</li>
+                                                <li><strong>UU Kesehatan:</strong> Landasan umum pelayanan kesehatan.</li>
+                                                <li><strong>Peraturan Menteri Kesehatan (Permenkes):</strong> Petunjuk teknis (Juknis) spesifik seperti Permenkes tentang Rekam Medis Elektronik atau SIMRS.</li>
+                                                <li><strong>Peraturan Pemerintah (PP):</strong> Turunan undang-undang terkait.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Accordion Item 6: Etika Penerapan -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingSix">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                            6. Etika Penerapan
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#mindmapAccordion">
+                                        <div class="accordion-body">
+                                            <p>Prinsip moral dalam mengelola data kesehatan.</p>
+                                            <ul>
+                                                <li><strong>Privasi (Privacy):</strong> Hak pasien untuk menentukan siapa yang boleh mengetahui data kesehatannya.</li>
+                                                <li><strong>Kerahasiaan (Confidentiality):</strong> Kewajiban tenaga kesehatan menjaga data agar tidak bocor.</li>
+                                                <li><strong>Keamanan (Security):</strong> Proteksi teknis terhadap akses ilegal.</li>
+                                                <li><strong>Integritas:</strong> Menjamin data tidak diubah oleh pihak yang tidak berwenang.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Accordion Item 7: Lampiran: Diagram Mermaid -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingSeven">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                            Lampiran: Diagram Mermaid
+                                        </button>
+                                    </h2>
+                                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#mindmapAccordion">
+                                        <div class="accordion-body">
+                                            <p>Berikut adalah kode diagram untuk memvisualisasikan struktur di atas. Kode ini dapat dirender menggunakan plugin Mermaid.</p>
+                                            <pre class="mermaid">
+mindmap
+  root((SISTEM INFORMASI<br/>KESEHATAN))
+    Konsep Dasar
+      Data & Informasi
+      Sistem & Teknologi
+    Komponen Utama
+      Input
+        SDM
+        Dana
+        Sarana
+        SOP
+      Proses
+        Pengumpulan
+        Pengolahan
+        Analisis
+        Diseminasi
+      Output
+        Akurat
+        Tepat Waktu
+        Relevan
+    Tantangan
+      Teknis
+        Infrastruktur
+        Interoperabilitas
+      Manusia
+        Resistensi
+        Kompetensi
+      Organisasi
+        Dukungan Manajemen
+      Finansial
+        Biaya Tinggi
+    Manfaat
+      Efisiensi
+      Efektivitas
+      Dasar Keputusan
+      Mutu Layanan
+    Regulasi
+      UU ITE
+      UU Kesehatan
+      Permenkes
+    Etika
+      Privasi
+      Kerahasiaan
+      Keamanan
+      Integritas Data
+</pre>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================= Demo App Link Section ========================= -->
+    <section class="demo-link-section pt-80 pb-80" style="background-color: #f4f7fa;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <div class="section-title mb-50">
+                        <h3 class="wow fadeInUp" data-wow-delay=".2s">Coba Langsung SIMKES</h3>
+                        <p class="wow fadeInUp" data-wow-delay=".4s">Jelajahi fitur dan rasakan kemudahan manajemen kesehatan terintegrasi melalui demo interaktif kami.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="benefit-box wow fadeInUp" data-wow-delay=".6s" style="box-shadow: 0 15px 40px rgba(47, 128, 237, 0.15); border-color: #2F80ED;">
+                        <div class="icon" style="background: #2F80ED; color: #fff;">
+                            <img src="https://simkes.netlify.app/logo.png" alt="Logo SIMKES" style="width: 40px; height: 40px; border-radius: 50%;">
+                        </div>
+                        <div class="content">
+                            <div class="content-main">
+                                <h5>Demo Aplikasi SIMKES</h5>
+                                <p class="mb-0" style="color: #555;">Coba langsung fitur-fitur unggulan SIMKES untuk melihat bagaimana data diolah menjadi dashboard yang informatif dan mendukung keputusan strategis.</p>
+                            </div>
+                            <a href="https://simkes.netlify.app/" class="btn btn-primary btn-sm mt-3" style="background-image: linear-gradient(to right, #2F80ED, #56CCF2); border: none; padding: 12px 25px; border-radius: 30px; align-self: flex-start; color: white; box-shadow: 0 5px 15px rgba(0,0,0,0.2); text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" target="_blank">
+                                Kunjungi Demo <i class="lni lni-pointer-right text-white"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- ========================= SIMGOS Benefits Section ========================= -->
     <section class="feature-section pt-80 pb-80" style="background-color: #fff;">
         <div class="container">
@@ -498,13 +857,15 @@
                     <div class="benefit-box wow fadeInUp" data-wow-delay=".2s">
                         <div class="icon"><i class="lni lni-users"></i></div>
                         <div class="content">
-                            <h5>Manfaat bagi Pasien & Faskes</h5>
-                            <ul>
-                                <li><strong>Standardisasi Data:</strong> Nomor Rekam Medis yang seragam se-kota.</li>
-                                <li><strong>Akses Riwayat Lintas Faskes:</strong> Data medis dapat dibaca oleh semua
-                                    faskes.</li>
-                                <li><strong>Koordinasi Rujukan:</strong> Komunikasi antar fasyankes lebih efektif.</li>
-                            </ul>
+                            <div class="content-main">
+                                <h5>Manfaat bagi Pasien & Faskes</h5>
+                                <ul>
+                                    <li><strong>Standardisasi Data:</strong> Nomor Rekam Medis yang seragam se-kota.</li>
+                                    <li><strong>Akses Riwayat Lintas Faskes:</strong> Data medis dapat dibaca oleh semua
+                                        faskes.</li>
+                                    <li><strong>Koordinasi Rujukan:</strong> Komunikasi antar fasyankes lebih efektif.</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -513,14 +874,16 @@
                     <div class="benefit-box wow fadeInUp" data-wow-delay=".3s">
                         <div class="icon"><i class="lni lni-hospital"></i></div>
                         <div class="content">
-                            <h5>Manfaat Operasional Internal</h5>
-                            <ul>
-                                <li><strong>Pelayanan Komprehensif:</strong> Rawat Jalan, Inap, IGD, & Resume Medis.
-                                </li>
-                                <li><strong>Manajemen Kefarmasian:</strong> Stok real time & pengelolaan obat.</li>
-                                <li><strong>Pelaporan Akurat:</strong> Otomatisasi laporan rutin (RL 1.2, RL 2, dll).
-                                </li>
-                            </ul>
+                            <div class="content-main">
+                                <h5>Manfaat Operasional Internal</h5>
+                                <ul>
+                                    <li><strong>Pelayanan Komprehensif:</strong> Rawat Jalan, Inap, IGD, & Resume Medis.
+                                    </li>
+                                    <li><strong>Manajemen Kefarmasian:</strong> Stok real time & pengelolaan obat.</li>
+                                    <li><strong>Pelaporan Akurat:</strong> Otomatisasi laporan rutin (RL 1.2, RL 2, dll).
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -529,12 +892,14 @@
                     <div class="benefit-box wow fadeInUp" data-wow-delay=".4s">
                         <div class="icon"><i class="lni lni-network"></i></div>
                         <div class="content">
-                            <h5>Integrasi Nasional & Regional</h5>
-                            <ul>
-                                <li><strong>Satu Sehat:</strong> Pengiriman data terjadwal ke Kemenkes.</li>
-                                <li><strong>BPJS V-Klaim:</strong> Penerbitan SEP, SPRI, & rujukan langsung.</li>
-                                <li><strong>Layanan JKN:</strong> Antrian Online/Onsite & Mobile JKN.</li>
-                            </ul>
+                            <div class="content-main">
+                                <h5>Integrasi Nasional & Regional</h5>
+                                <ul>
+                                    <li><strong>Satu Sehat:</strong> Pengiriman data terjadwal ke Kemenkes.</li>
+                                    <li><strong>BPJS V-Klaim:</strong> Penerbitan SEP, SPRI, & rujukan langsung.</li>
+                                    <li><strong>Layanan JKN:</strong> Antrian Online/Onsite & Mobile JKN.</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -543,14 +908,49 @@
                     <div class="benefit-box wow fadeInUp" data-wow-delay=".5s">
                         <div class="icon"><i class="lni lni-stats-up"></i></div>
                         <div class="content">
-                            <h5>Manfaat bagi Dinas Kesehatan</h5>
-                            <ul>
-                                <li><strong>Pemusatan Data:</strong> Sentralisasi data kesehatan kota.</li>
-                                <li><strong>Dukungan Keputusan:</strong> Data cepat untuk kebijakan strategis.</li>
-                            </ul>
+                            <div class="content-main">
+                                <h5>Manfaat bagi Dinas Kesehatan</h5>
+                                <ul>
+                                    <li><strong>Pemusatan Data:</strong> Sentralisasi data kesehatan kota.</li>
+                                    <li><strong>Dukungan Keputusan:</strong> Data cepat untuk kebijakan strategis.</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <!-- Benefit 5 -->
+                <div class="col-lg-6">
+                    <div class="benefit-box wow fadeInUp" data-wow-delay=".6s">
+                        <div class="icon"><i class="lni lni-users"></i></div>
+                        <div class="content">
+                            <div class="content-main">
+                                <h5>Telah Digunakan Luas</h5>
+                                <ul>
+                                    <li><strong>Dipercaya oleh Banyak Daerah:</strong> Telah diadopsi dan digunakan oleh berbagai pemerintah daerah di seluruh Indonesia, menunjukkan keandalan dan kematangan sistem.</li>
+                                    <li><strong>Komunitas Pengguna Aktif:</strong> Basis pengguna yang luas mendorong pengembangan dan berbagi praktik terbaik.</li>
+                                </ul>
+                            </div>
+                            <a href="https://docs.simgos2.simpel.web.id/docs/pengantar/pengguna-simgos/" class="btn btn-link btn-sm mt-2">Lihat Daftar Pengguna</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Benefit 6 -->
+                <div class="col-lg-6">
+                    <div class="benefit-box wow fadeInUp" data-wow-delay=".7s">
+                        <div class="icon"><i class="lni lni-library"></i></div>
+                        <div class="content">
+                            <div class="content-main">
+                                <h5>Sesuai Regulasi Pemerintah</h5>
+                                <ul>
+                                    <li><strong>Dasar Hukum Jelas:</strong> Dibangun berdasarkan Permenkes, PMK, dan regulasi pemerintah lainnya tentang Sistem Informasi RS dan Rekam Medis Elektronik.</li>
+                                    <li><strong>Mendukung SPBE:</strong> Sejalan dengan Sistem Pemerintahan Berbasis Elektronik (SPBE) bidang kesehatan.</li>
+                                </ul>
+                            </div>
+                            <a href="https://docs.simgos2.simpel.web.id/docs/pengantar/tentang/" class="btn btn-link btn-sm mt-2">Lihat Dasar Hukum</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -558,7 +958,9 @@
     <div id="footer-placeholder"></div>
 
     <!-- ========================= JS here ========================= -->
-    <script src="assets/js/bootstrap.5.0.0.alpha-2-min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.2.0/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({ startOnLoad: true });</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="assets/js/count-up.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
