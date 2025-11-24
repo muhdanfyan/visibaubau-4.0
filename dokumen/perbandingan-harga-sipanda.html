@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisis Perbandingan Biaya Pengembangan Aplikasi PAD</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap-5.0.0-alpha-2.min.css" />
+    <link rel="stylesheet" href="../assets/css/LineIcons.2.0.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Garamond:wght@700&family=Times+New+Roman&display=swap" rel="stylesheet">
+    <style>
+        body { background: #e0e0e0; font-family: 'Times New Roman', Times, serif; color: #000; }
+        .page { width: 21cm; min-height: 29.7cm; padding: 1.5cm; margin: 1.5cm auto; background: white; box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); position: relative; page-break-after: always; }
+        .page:last-of-type { page-break-after: avoid; }
+        .page-header-img { position: absolute; top: 0; left: 0; width: 100%; z-index: 1; }
+        .content-container { padding-top: 2cm; padding-bottom: 2.5cm; position: relative; z-index: 2; }
+        h1, h2 { font-family: 'Roboto', sans-serif; font-weight: 700; color: #1a237e; margin-bottom: 10px; border-bottom: 2px solid #dfe3ee; padding-bottom: 6px; text-align: center; }
+        h1 { font-size: 18pt; }
+        h2 { font-size: 16pt; margin-top: 20px; }
+        p { font-size: 12px; line-height: 1.3; }
+        .table tbody td { vertical-align: middle; font-size: 10px; line-height: 1.2; }
+        .table ul { padding-left: 1.2rem; margin-bottom: 0; }
+        .price { font-weight: bold; }
+        .chosen-option { background-color: #e9f7ef; }
+        .recommendation { margin-top: 2rem; padding: 1.5rem; background-color: #e9f7ef; border-left: 5px solid #28a745; }
+        .justification { margin-top: 1rem; }
+        .justification h3 { font-family: 'Roboto', sans-serif; font-weight: 700; color: #000; font-size: 14pt; margin-top: 1rem; border-bottom: 1px solid #ccc; padding-bottom: 5px; text-align: left; }
+        .justification p { text-align: justify; }
+        .print-fab { position: fixed; bottom: 40px; right: 40px; width: 60px; height: 60px; background-color: #3B5998; color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 28px; box-shadow: 0 5px 15px rgba(0,0,0,0.2); cursor: pointer; z-index: 1000; }
+        @media print {
+            body { background: white !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+            .page { margin: 0; padding: 1cm; box-shadow: none; border: none; min-height: 0; }
+            .print-fab { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Page 1 -->
+<div class="page">
+    <img src="header dan footer/header.png" class="page-header-img">
+    <div class="content-container">
+        <header class="mb-4 text-center">
+            <h1>Analisis Perbandingan Biaya: Pengembangan vs Upgrade Aplikasi PAD</h1>
+            <h2>2 Opsi E-Katalog vs 1 Opsi Upgrade Internal</h2>
+        </header>
+
+        <p>Dokumen ini menyajikan perbandingan antara tiga opsi untuk sistem aplikasi Pajak dan Retribusi Daerah (PAD): dua penawaran dari penyedia eksternal di E-Katalog dan satu proposal untuk melakukan upgrade pada sistem yang sudah ada (Sipanda).</p>
+
+        <table class="table table-bordered mt-3">
+            <tbody>
+                <tr>
+                    <td><strong>Komponen</strong></td>
+                    <td><strong>Penyedia Eksternal 1</strong></td>
+                    <td><strong>Penyedia Eksternal 2</strong></td>
+                    <td class="chosen-option"><strong>Upgrade Sipanda v2.0 (Pilihan)</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Nama Produk</strong></td>
+                    <td>Aplikasi Pajak dan Retribusi</td>
+                    <td>Aplikasi Pajak dan Retribusi</td>
+                    <td class="chosen-option">Upgrade Aplikasi Sipanda v2.0</td>
+                </tr>
+                <tr>
+                    <td><strong>Penyedia</strong></td>
+                    <td>Raharja Nusantara Sejahtera</td>
+                    <td>Mahaka Digital Indonesia</td>
+                    <td class="chosen-option">Tim Internal Visi Baubau 4.0</td>
+                </tr>
+                <tr>
+                    <td><strong>Biaya</strong></td>
+                    <td class="price">Rp 180.000.000</td>
+                    <td class="price">Rp 185.000.000</td>
+                    <td class="price chosen-option"><strong>Rp 74.900.000</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Lingkup & Output</strong></td>
+                    <td>Aplikasi jadi (COTS) dengan fitur standar untuk pajak dan retribusi.</td>
+                    <td>Aplikasi jadi (COTS) dengan fitur standar, termasuk lisensi.</td>
+                    <td class="chosen-option">
+                        <ul>
+                            <li>Refactoring & Penguatan Arsitektur</li>
+                            <li>Pengembangan Fitur Baru & UI/UX</li>
+                            <li>Integrasi & Pengujian Lanjutan</li>
+                            <li>Manajemen & Knowledge Transfer</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Kelebihan</strong></td>
+                    <td>Produk terdaftar di E-katalog, implementasi cepat.</td>
+                    <td>Produk terdaftar di E-katalog, implementasi cepat.</td>
+                    <td class="chosen-option">Biaya 58% lebih rendah, kustomisasi penuh, kepemilikan source code oleh Pemda.</td>
+                </tr>
+                <tr>
+                    <td><strong>Kekurangan</strong></td>
+                    <td>Biaya >2x lebih mahal, kustomisasi terbatas, potensi vendor lock-in.</td>
+                    <td>Biaya >2x lebih mahal, kustomisasi terbatas, potensi vendor lock-in.</td>
+                    <td class="chosen-option">Membutuhkan waktu pengembangan dan keterlibatan tim internal.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Page 2 -->
+<div class="page">
+    <img src="header dan footer/header.png" class="page-header-img">
+    <div class="content-container">
+        <div class="justification">
+            <h2>Justifikasi Pemilihan Opsi Upgrade Sipanda v2.0</h2>
+            
+            <h3>1. Efisiensi Anggaran Lebih dari 50%</h3>
+            <p>Opsi upgrade Sipanda v2.0 hanya memerlukan anggaran <strong>Rp 74,9 juta</strong>. Angka ini jauh lebih efisien dibandingkan membeli produk baru dari e-katalog yang harganya mencapai <strong>Rp 180 juta</strong> hingga <strong>Rp 185 juta</strong>. Ini berarti ada penghematan anggaran langsung lebih dari <strong>Rp 100 juta</strong> (lebih dari 58%).</p>
+
+            <h3>2. Fleksibilitas dan Kepemilikan Penuh</h3>
+            <p>Dengan melakukan upgrade, aplikasi yang dihasilkan akan 100% disesuaikan dengan proses bisnis dan kebutuhan spesifik Pemerintah Kota Baubau. Ini menghilangkan risiko solusi generik yang tidak sepenuhnya pas. Lebih penting lagi, aset digital berupa source code akan sepenuhnya menjadi milik Pemda, memberikan kemandirian untuk pengembangan lebih lanjut tanpa terikat pada satu vendor (vendor lock-in).</p>
+
+            <h3>3. Peningkatan Kualitas dan Modernisasi</h3>
+            <p>Proyek upgrade tidak hanya menambal sistem lama, tetapi melakukan perbaikan fundamental (refactoring), memperkuat arsitektur, dan mendesain ulang antarmuka (UI/UX). Hasilnya adalah aplikasi yang lebih modern, aman, cepat, dan mudah digunakan, setara dengan produk baru namun dengan biaya yang jauh lebih rendah.</p>
+            
+            <div class="recommendation mt-4">
+                <h2>Kesimpulan & Rekomendasi Akhir</h2>
+                <p>
+                    Berdasarkan analisis biaya, fleksibilitas, dan kepemilikan jangka panjang, opsi <strong>Upgrade Sipanda v2.0</strong> adalah pilihan yang paling strategis dan menguntungkan. Ini adalah investasi cerdas yang memaksimalkan nilai dari aset digital yang sudah ada. Direkomendasikan untuk melanjutkan proses upgrade sesuai proposal.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Page 3: Image Appendix -->
+<div class="page">
+    <img src="header dan footer/header.png" class="page-header-img">
+    <div class="content-container">
+        <h2>Lampiran Gambar: Penawaran E-Katalog vs Mockup Upgrade</h2>
+        <style>
+            .image-gallery {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 1rem;
+                margin-top: 1.5rem;
+                text-align: center;
+                align-items: start;
+            }
+            .image-gallery figure {
+                margin: 0;
+            }
+            .image-gallery img {
+                width: 100%;
+                height: auto;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+            }
+            .image-gallery figcaption {
+                margin-top: 0.5rem;
+                font-style: italic;
+                font-size: 9px;
+            }
+        </style>
+        <div class="image-gallery">
+            <figure>
+                <img src="sipanda/image/pembanding/1763944978247.png" alt="Penawaran Raharja Nusantara Sejahtera">
+                <figcaption>Penawaran 1: Raharja Nusantara Sejahtera (E-Katalog)</figcaption>
+            </figure>
+            <figure>
+                <img src="sipanda/image/pembanding/1763945058796.png" alt="Penawaran Mahaka Digital Indonesia">
+                <figcaption>Penawaran 2: Mahaka Digital Indonesia (E-Katalog)</figcaption>
+            </figure>
+            <figure>
+                <img src="../File/image/upgraded_sipanda/aplikasi sipandav2 mobile/WhatsApp Image 2025-11-20 at 01.05.07.jpeg" alt="Mockup Upgrade Sipanda v2.0 Mobile">
+                <figcaption>Pilihan 3: Mockup Upgrade Sipanda v2.0 (Internal)</figcaption>
+            </figure>
+        </div>
+        <div class="justification mt-4">
+             <p><strong>Catatan:</strong> Gambar 1 dan 2 adalah referensi penawaran dari E-Katalog. Gambar 3 adalah representasi visual dari hasil upgrade Sipanda v2.0 yang diusulkan.</p>
+        </div>
+    </div>
+</div>
+
+<div class="print-fab" onclick="window.print()">
+    <i class="lni lni-printer"></i>
+</div>
+
+</body>
+</html>
