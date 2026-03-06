@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html class="no-js" lang="id">
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>Evolusi Sipanda 2.0 - Visi Baubau 4.0</title>
-    <meta name="description" content="Proposal pengembangan Sipanda versi 2.0, evolusi sistem management retribusi digital Kota Baubau." />
+    <meta name="description"
+        content="Proposal pengembangan Sipanda versi 2.0, evolusi sistem management retribusi digital Kota Baubau." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="assets/img/logo/logobaubau4.0.png" type="image/png">
 
     <!-- ========================= CSS here ========================= -->
     <link rel="stylesheet" href="assets/css/bootstrap-5.0.0-alpha-2.min.css" />
-    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css"/>
-    <link rel="stylesheet" href="assets/css/animate.css"/>
-    <link rel="stylesheet" href="assets/css/lindy-uikit.css"/>
+    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/lindy-uikit.css" />
     <style>
         :root {
-            --primary-color: #3B5998; /* A deeper, more professional blue */
-            --secondary-color: #8B9DC3; /* A softer, complementary blue */
-            --accent-color: #dfe3ee; /* A light, subtle accent */
+            --primary-color: #3B5998;
+            /* A deeper, more professional blue */
+            --secondary-color: #8B9DC3;
+            /* A softer, complementary blue */
+            --accent-color: #dfe3ee;
+            /* A light, subtle accent */
             --light-gray: #f0f2f5;
             --dark-text: #333;
             --body-text: #555;
@@ -30,7 +35,12 @@
             color: var(--body-text);
         }
 
-        h1, h2, h3, h4, h5, h6 {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
             font-weight: 700;
             color: var(--dark-text);
         }
@@ -40,29 +50,36 @@
             color: white;
             background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
         }
+
         .hero-section-wrapper-3::before {
             content: '';
             position: absolute;
-            top: 0; left: 0; right: 0; bottom: 0;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
             background: url('assets/img/city-aerial-view-with-network-overlay.png') no-repeat center center;
             background-size: cover;
             opacity: 0.1;
         }
+
         .hero-section-wrapper-3 .hero-content {
             position: relative;
             z-index: 1;
             padding: 180px 0;
         }
+
         .hero-section-wrapper-3 .hero-content h1 {
             color: #fff !important;
-            text-shadow: 0 3px 8px rgba(0,0,0,0.4);
+            text-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
             font-size: 3.8rem;
             font-weight: 800;
         }
+
         .hero-section-wrapper-3 .hero-content h2 {
-             color: #fff !important;
-             font-weight: 400;
-             letter-spacing: 2px;
+            color: #fff !important;
+            font-weight: 400;
+            letter-spacing: 2px;
         }
 
         .section-title h2 {
@@ -70,12 +87,14 @@
             font-weight: 700;
             margin-bottom: 15px;
         }
+
         .section-title .text-primary {
             color: var(--primary-color) !important;
             font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 0.5px;
         }
+
         .section-title p {
             font-size: 1.1rem;
             color: #6c757d;
@@ -94,16 +113,19 @@
             text-align: center;
             height: 100%;
         }
+
         .icon-box:hover {
             transform: translateY(-8px);
-            box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
         }
+
         .icon-box .icon {
             font-size: 3.5rem;
             color: var(--primary-color);
             margin-bottom: 20px;
             display: inline-block;
         }
+
         .icon-box h4 {
             font-size: 1.25rem;
             margin-bottom: 10px;
@@ -115,6 +137,7 @@
             max-width: 900px;
             margin: 0 auto;
         }
+
         .timeline::before {
             content: '';
             position: absolute;
@@ -125,20 +148,24 @@
             background: var(--accent-color);
             transform: translateX(-50%);
         }
+
         .timeline-item {
             padding: 10px 40px;
             position: relative;
             width: 50%;
         }
+
         .timeline-item:nth-child(odd) {
             left: 0;
             padding-right: 50px;
             text-align: right;
         }
+
         .timeline-item:nth-child(even) {
             left: 50%;
             padding-left: 50px;
         }
+
         .timeline-item::after {
             content: '';
             position: absolute;
@@ -151,15 +178,19 @@
             z-index: 1;
             transition: transform 0.2s ease;
         }
+
         .timeline-item:hover::after {
             transform: scale(1.2);
         }
+
         .timeline-item:nth-child(odd)::after {
             right: -11px;
         }
+
         .timeline-item:nth-child(even)::after {
             left: -11px;
         }
+
         .timeline-content {
             background: #fff;
             padding: 25px;
@@ -167,6 +198,7 @@
             box-shadow: var(--box-shadow);
             position: relative;
         }
+
         .timeline-content h5 {
             color: var(--primary-color);
         }
@@ -177,6 +209,7 @@
             border-radius: var(--border-radius);
             box-shadow: var(--box-shadow);
         }
+
         .mermaid {
             text-align: center;
         }
@@ -188,17 +221,20 @@
             box-shadow: var(--box-shadow);
             height: 100%;
         }
+
         .feature-card h4 {
             color: var(--primary-color);
             border-bottom: 2px solid var(--accent-color);
             padding-bottom: 10px;
             margin-bottom: 20px;
         }
+
         .feature-list .list-item {
             display: flex;
             align-items: flex-start;
             margin-bottom: 20px;
         }
+
         .feature-list .icon {
             font-size: 1.8rem;
             color: var(--secondary-color);
@@ -206,6 +242,7 @@
             margin-top: 3px;
             width: 30px;
         }
+
         .btn-primary {
             background-color: var(--primary-color);
             border-color: var(--primary-color);
@@ -214,11 +251,13 @@
             border-radius: 50px;
             transition: all 0.3s ease;
         }
+
         .btn-primary:hover {
             background-color: #2c487d;
             border-color: #2c487d;
             transform: translateY(-2px);
         }
+
         .btn-outline-primary {
             border-color: var(--secondary-color);
             color: var(--primary-color);
@@ -227,6 +266,7 @@
             border-radius: 50px;
             transition: all 0.3s ease;
         }
+
         .btn-outline-primary:hover {
             background-color: var(--primary-color);
             color: #fff;
@@ -238,15 +278,17 @@
             border: 1px solid #e0e0e0;
             padding: 30px;
             border-radius: var(--border-radius);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
             height: 100%;
             width: 100%;
             transition: all 0.3s ease;
         }
+
         .problem-card:hover {
             border-color: var(--primary-color);
             transform: translateY(-5px);
         }
+
         .problem-header {
             display: flex;
             align-items: center;
@@ -254,27 +296,32 @@
             border-bottom: 2px solid var(--accent-color);
             padding-bottom: 15px;
         }
+
         .problem-header i {
             font-size: 2.5rem;
             color: var(--primary-color);
             margin-right: 15px;
         }
+
         .problem-header h4 {
             margin: 0;
             font-size: 1.1rem;
             color: var(--primary-color);
         }
+
         .problem-card ul {
             list-style: none;
             padding-left: 0;
             margin-bottom: 0;
         }
+
         .problem-card ul li {
             margin-bottom: 10px;
             position: relative;
             padding-left: 25px;
             font-size: 0.95rem;
         }
+
         .problem-card ul li::before {
             content: '❌';
             position: absolute;
@@ -289,6 +336,7 @@
                 left: 20px;
                 transform: translateX(-50%);
             }
+
             .timeline-item,
             .timeline-item:nth-child(even) {
                 width: 100%;
@@ -296,9 +344,11 @@
                 padding-left: 50px;
                 padding-right: 20px;
             }
+
             .timeline-item:nth-child(odd) {
                 text-align: left;
             }
+
             .timeline-item::after,
             .timeline-item:nth-child(odd)::after,
             .timeline-item:nth-child(even)::after {
@@ -307,9 +357,23 @@
         }
     </style>
 </head>
+
 <body>
     <div class="preloader">
-        <div class="loader"><div class="spinner"><div class="spinner-container"><div class="spinner-rotator"><div class="spinner-left"><div class="spinner-circle"></div></div><div class="spinner-right"><div class="spinner-circle"></div></div></div></div></div></div>
+        <div class="loader">
+            <div class="spinner">
+                <div class="spinner-container">
+                    <div class="spinner-rotator">
+                        <div class="spinner-left">
+                            <div class="spinner-circle"></div>
+                        </div>
+                        <div class="spinner-right">
+                            <div class="spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div id="header-placeholder"></div>
@@ -321,7 +385,8 @@
                     <div class="col-lg-10 text-center">
                         <h2 class="wow fadeInUp" data-wow-delay=".2s">PROPOSAL PENGEMBANGAN</h2>
                         <h1 class="wow fadeInUp" data-wow-delay=".3s">SIPANDA V2.0</h1>
-                        <p class="lead text-light wow fadeInUp" data-wow-delay=".4s">Evolusi Sistem Manajemen Retribusi Digital Menuju Baubau Smart City</p>
+                        <p class="lead text-light wow fadeInUp" data-wow-delay=".4s">Evolusi Sistem Manajemen Retribusi
+                            Digital Menuju Baubau Smart City</p>
                     </div>
                 </div>
             </div>
@@ -335,7 +400,8 @@
                     <div class="section-title">
                         <span class="text-primary">Tinjauan Kritis</span>
                         <h2>🔍 Peluang Peningkatan Sipanda 1.0</h2>
-                        <p>Evaluasi sistem yang ada mengidentifikasi beberapa area kunci untuk penyempurnaan, yang menjadi landasan bagi evolusi ke versi 2.0.</p>
+                        <p>Evaluasi sistem yang ada mengidentifikasi beberapa area kunci untuk penyempurnaan, yang
+                            menjadi landasan bagi evolusi ke versi 2.0.</p>
                     </div>
                 </div>
             </div>
@@ -345,7 +411,8 @@
                         <div>
                             <div class="icon"><i class="lni lni-website"></i></div>
                             <h4>Antarmuka & Fungsionalitas</h4>
-                            <p>Peningkatan UX/UI untuk kenyamanan dan adopsi yang lebih luas oleh masyarakat dan petugas.</p>
+                            <p>Peningkatan UX/UI untuk kenyamanan dan adopsi yang lebih luas oleh masyarakat dan
+                                petugas.</p>
                         </div>
                     </div>
                 </div>
@@ -354,7 +421,8 @@
                         <div>
                             <div class="icon"><i class="lni lni-protection"></i></div>
                             <h4>Kemandirian Sistem</h4>
-                            <p>Mengurangi ketergantungan pada pihak eksternal untuk fleksibilitas dan kontrol penuh atas sistem.</p>
+                            <p>Mengurangi ketergantungan pada pihak eksternal untuk fleksibilitas dan kontrol penuh atas
+                                sistem.</p>
                         </div>
                     </div>
                 </div>
@@ -363,7 +431,8 @@
                         <div>
                             <div class="icon"><i class="lni lni-layers"></i></div>
                             <h4>Arsitektur Teknis</h4>
-                            <p>Penguatan arsitektur untuk mendukung skalabilitas, keamanan, dan integrasi layanan di masa depan.</p>
+                            <p>Penguatan arsitektur untuk mendukung skalabilitas, keamanan, dan integrasi layanan di
+                                masa depan.</p>
                         </div>
                     </div>
                 </div>
@@ -378,7 +447,8 @@
                     <div class="section-title">
                         <span class="text-primary">Analisis Kondisi Existing</span>
                         <h2>🚨 Permasalahan Strategis Sipanda 1.0</h2>
-                        <p>Analisis mendalam terhadap versi awal Sipanda mengidentifikasi lima masalah utama yang menghambat efektivitas, adopsi, dan keberlanjutan sistem.</p>
+                        <p>Analisis mendalam terhadap versi awal Sipanda mengidentifikasi lima masalah utama yang
+                            menghambat efektivitas, adopsi, dan keberlanjutan sistem.</p>
                     </div>
                 </div>
             </div>
@@ -391,10 +461,14 @@
                             <h4>1. FITUR & TAMPILAN</h4>
                         </div>
                         <ul>
-                            <li><strong>Fitur Terbatas:</strong> Hanya pembayaran dasar tanpa integrasi komprehensif.</li>
-                            <li><strong>User Experience Buruk:</strong> Navigasi rumit, loading lambat, dan desain tidak responsif.</li>
-                            <li><strong>Fitur Hilang:</strong> Tidak ada dashboard analitik, pelaporan, atau pemantauan real-time.</li>
-                            <li><strong>Tidak Ramah Seluler:</strong> Tampilan tidak optimal untuk perangkat seluler.</li>
+                            <li><strong>Fitur Terbatas:</strong> Hanya pembayaran dasar tanpa integrasi komprehensif.
+                            </li>
+                            <li><strong>User Experience Buruk:</strong> Navigasi rumit, loading lambat, dan desain tidak
+                                responsif.</li>
+                            <li><strong>Fitur Hilang:</strong> Tidak ada dashboard analitik, pelaporan, atau pemantauan
+                                real-time.</li>
+                            <li><strong>Tidak Ramah Seluler:</strong> Tampilan tidak optimal untuk perangkat seluler.
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -406,10 +480,13 @@
                             <h4>2. AKSES & KEPEMILIKAN</h4>
                         </div>
                         <ul>
-                            <li><strong>Vendor Lock-in:</strong> Akses superadmin dikuasai vendor, pemerintah tidak punya kontrol.</li>
-                            <li><strong>Biaya Tidak Wajar:</strong> Beban biaya layanan administrasi yang tidak transparan.</li>
+                            <li><strong>Vendor Lock-in:</strong> Akses superadmin dikuasai vendor, pemerintah tidak
+                                punya kontrol.</li>
+                            <li><strong>Biaya Tidak Wajar:</strong> Beban biaya layanan administrasi yang tidak
+                                transparan.</li>
                             <!-- <li><strong>Ketergantungan Tinggi:</strong> Setiap perubahan harus melalui vendor dengan biaya tambahan.</li> -->
-                            <li><strong>Kurang Transparan:</strong> Pemerintah tidak bisa memonitor performa sistem secara independen.</li>
+                            <li><strong>Kurang Transparan:</strong> Pemerintah tidak bisa memonitor performa sistem
+                                secara independen.</li>
                         </ul>
                     </div>
                 </div>
@@ -421,10 +498,14 @@
                             <h4>3. FONDASI TEKNIS</h4>
                         </div>
                         <ul>
-                            <li><strong>Arsitektur Rapuh:</strong> Tidak dapat diskalakan untuk penambahan fitur baru di masa depan.</li>
-                            <li><strong>Database Terisolasi:</strong> Tidak terintegrasi dengan sistem OPD atau pemerintah lainnya.</li>
-                            <li><strong>API Terbatas:</strong> Tidak mendukung integrasi dengan bank dan sistem eksternal.</li>
-                            <li><strong>Keamanan Lemah:</strong> Keamanan data dan riwayat transaksi tidak terjamin.</li>
+                            <li><strong>Arsitektur Rapuh:</strong> Tidak dapat diskalakan untuk penambahan fitur baru di
+                                masa depan.</li>
+                            <li><strong>Database Terisolasi:</strong> Tidak terintegrasi dengan sistem OPD atau
+                                pemerintah lainnya.</li>
+                            <li><strong>API Terbatas:</strong> Tidak mendukung integrasi dengan bank dan sistem
+                                eksternal.</li>
+                            <li><strong>Keamanan Lemah:</strong> Keamanan data dan riwayat transaksi tidak terjamin.
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -436,10 +517,14 @@
                             <h4>4. MINAT MASYARAKAT</h4>
                         </div>
                         <ul>
-                            <li><strong>Manfaat Tidak Jelas:</strong> Tidak memberikan nilai tambah yang signifikan bagi pengguna.</li>
-                            <li><strong>Proses Rumit:</strong> Proses pembayaran terasa lebih sulit daripada membayar langsung.</li>
-                            <li><strong>Masalah Kepercayaan:</strong> Masyarakat masih ragu dengan keamanan sistem digital.</li>
-                            <li><strong>Sosialisasi Rendah:</strong> Kurangnya pengenalan dan edukasi kepada masyarakat.</li>
+                            <li><strong>Manfaat Tidak Jelas:</strong> Tidak memberikan nilai tambah yang signifikan bagi
+                                pengguna.</li>
+                            <li><strong>Proses Rumit:</strong> Proses pembayaran terasa lebih sulit daripada membayar
+                                langsung.</li>
+                            <li><strong>Masalah Kepercayaan:</strong> Masyarakat masih ragu dengan keamanan sistem
+                                digital.</li>
+                            <li><strong>Sosialisasi Rendah:</strong> Kurangnya pengenalan dan edukasi kepada masyarakat.
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -451,10 +536,13 @@
                             <h4>5. INFRASTRUKTUR</h4>
                         </div>
                         <ul>
-                            <li><strong>Tanpa Blueprint:</strong> Tidak ada arsitektur atau blueprint sistem yang komprehensif.</li>
-                            <li><strong>Celah Integrasi:</strong> Tidak terhubung dengan SIKD, BPKAD, dan sistem pemerintah lainnya.</li>
+                            <li><strong>Tanpa Blueprint:</strong> Tidak ada arsitektur atau blueprint sistem yang
+                                komprehensif.</li>
+                            <li><strong>Celah Integrasi:</strong> Tidak terhubung dengan SIKD, BPKAD, dan sistem
+                                pemerintah lainnya.</li>
                             <li><strong>Data Silo:</strong> Data terfragmentasi dan tidak terpusat antar OPD.</li>
-                            <li><strong>Tidak Future-Proof:</strong> Tidak ada roadmap pengembangan jangka panjang yang jelas.</li>
+                            <li><strong>Tidak Future-Proof:</strong> Tidak ada roadmap pengembangan jangka panjang yang
+                                jelas.</li>
                         </ul>
                     </div>
                 </div>
@@ -469,7 +557,8 @@
                     <div class="section-title">
                         <span class="text-primary">Visi Pengembangan</span>
                         <h2>🚀 Roadmap Evolusi Sistem</h2>
-                        <p>Sipanda 2.0 dirancang sebagai evolusi sistem melalui pendekatan bertahap untuk memastikan stabilitas, pengayaan fitur, dan inovasi berkelanjutan.</p>
+                        <p>Sipanda 2.0 dirancang sebagai evolusi sistem melalui pendekatan bertahap untuk memastikan
+                            stabilitas, pengayaan fitur, dan inovasi berkelanjutan.</p>
                     </div>
                 </div>
             </div>
@@ -479,25 +568,29 @@
                         <div class="timeline-item wow fadeInUp" data-wow-delay=".3s">
                             <div class="timeline-content">
                                 <h5>FASE 1: Konsolidasi & Stabilisasi (Bulan 1-3)</h5>
-                                <p>Memperkuat fondasi teknis, melakukan migrasi, dan menstabilkan sistem inti untuk operasional yang handal.</p>
+                                <p>Memperkuat fondasi teknis, melakukan migrasi, dan menstabilkan sistem inti untuk
+                                    operasional yang handal.</p>
                             </div>
                         </div>
                         <div class="timeline-item wow fadeInUp" data-wow-delay=".4s">
                             <div class="timeline-content">
                                 <h5>FASE 2: Pengayaan Fitur & Integrasi (Bulan 4-6)</h5>
-                                <p>Menambah fitur baru berdasarkan prioritas dan memulai integrasi dengan sistem eksternal seperti data kependudukan.</p>
+                                <p>Menambah fitur baru berdasarkan prioritas dan memulai integrasi dengan sistem
+                                    eksternal seperti data kependudukan.</p>
                             </div>
                         </div>
                         <div class="timeline-item wow fadeInUp" data-wow-delay=".5s">
                             <div class="timeline-content">
                                 <h5>FASE 3: Optimisasi & Skalabilitas (Bulan 7-9)</h5>
-                                <p>Meningkatkan performa, keamanan, dan mempersiapkan infrastruktur sistem untuk pertumbuhan pengguna.</p>
+                                <p>Meningkatkan performa, keamanan, dan mempersiapkan infrastruktur sistem untuk
+                                    pertumbuhan pengguna.</p>
                             </div>
                         </div>
                         <div class="timeline-item wow fadeInUp" data-wow-delay=".6s">
                             <div class="timeline-content">
                                 <h5>FASE 4: Inovasi & Ekspansi (Bulan 10-12)</h5>
-                                <p>Mengembangkan fitur inovatif seperti analitik prediktif dan memperluas cakupan layanan retribusi baru.</p>
+                                <p>Mengembangkan fitur inovatif seperti analitik prediktif dan memperluas cakupan
+                                    layanan retribusi baru.</p>
                             </div>
                         </div>
                     </div>
@@ -513,7 +606,8 @@
                     <div class="section-title">
                         <span class="text-primary">Arsitektur Sistem</span>
                         <h2>💡 Fondasi Teknis Sipanda 2.0</h2>
-                        <p>Mengusulkan arsitektur microservices yang modern, robust, dan skalabel untuk mendukung pertumbuhan jangka panjang dan integrasi yang mulus.</p>
+                        <p>Mengusulkan arsitektur microservices yang modern, robust, dan skalabel untuk mendukung
+                            pertumbuhan jangka panjang dan integrasi yang mulus.</p>
                     </div>
                 </div>
             </div>
@@ -521,60 +615,60 @@
                 <div class="col-lg-10 wow fadeInUp" data-wow-delay=".3s">
                     <div class="mermaid-container">
                         <div class="mermaid">
-graph LR
-    subgraph Frontend Channels
-        direction LR
-        WebApp([fa:fa-desktop Web App])
-        MobileApp([fa:fa-mobile-alt Mobile App])
-    end
+                            graph LR
+                            subgraph Frontend Channels
+                            direction LR
+                            WebApp([fa:fa-desktop Web App])
+                            MobileApp([fa:fa-mobile-alt Mobile App])
+                            end
 
-    subgraph Backend Services
-        direction TB
-        API_Gateway(fa:fa-door-open API Gateway)
+                            subgraph Backend Services
+                            direction TB
+                            API_Gateway(fa:fa-door-open API Gateway)
 
-        subgraph Core Microservices
-            direction LR
-            AuthService(fa:fa-user-shield Auth Service)
-            PaymentService(fa:fa-credit-card Payment Service)
-            NotificationService(fa:fa-bell Notification Service)
-        end
+                            subgraph Core Microservices
+                            direction LR
+                            AuthService(fa:fa-user-shield Auth Service)
+                            PaymentService(fa:fa-credit-card Payment Service)
+                            NotificationService(fa:fa-bell Notification Service)
+                            end
 
-        subgraph Data & Analytics
-            direction LR
-            ReportingService(fa:fa-chart-bar Reporting)
-            AnalyticsService(fa:fa-cogs Predictive Analytics)
-        end
-    end
+                            subgraph Data & Analytics
+                            direction LR
+                            ReportingService(fa:fa-chart-bar Reporting)
+                            AnalyticsService(fa:fa-cogs Predictive Analytics)
+                            end
+                            end
 
-    subgraph External Integrations
-        direction TB
-        Bank(fa:fa-university Bank BPD Sultra)
-        Dukcapil(fa:fa-id-card DUKCAPIL)
-        OPD(fa:fa-building Sistem OPD)
-    end
+                            subgraph External Integrations
+                            direction TB
+                            Bank(fa:fa-university Bank BPD Sultra)
+                            Dukcapil(fa:fa-id-card DUKCAPIL)
+                            OPD(fa:fa-building Sistem OPD)
+                            end
 
-    WebApp & MobileApp --> API_Gateway
-    API_Gateway --> AuthService
-    API_Gateway --> PaymentService
-    API_Gateway --> NotificationService
-    API_Gateway --> ReportingService
-    API_Gateway --> AnalyticsService
-    
-    PaymentService --> Bank
-    AuthService --> Dukcapil
-    API_Gateway --> OPD
+                            WebApp & MobileApp --> API_Gateway
+                            API_Gateway --> AuthService
+                            API_Gateway --> PaymentService
+                            API_Gateway --> NotificationService
+                            API_Gateway --> ReportingService
+                            API_Gateway --> AnalyticsService
 
-    classDef frontend fill:#8B9DC3,stroke:#fff,stroke-width:2px,color:#fff;
-    classDef backend fill:#3B5998,stroke:#fff,stroke-width:2px,color:#fff;
-    classDef services fill:#5e7ab8,stroke:#fff,stroke-width:2px,color:#fff;
-    classDef data fill:#7c99d4,stroke:#fff,stroke-width:2px,color:#fff;
-    classDef external fill:#dfe3ee,stroke:#fff,stroke-width:2px,color:#333;
+                            PaymentService --> Bank
+                            AuthService --> Dukcapil
+                            API_Gateway --> OPD
 
-    class WebApp,MobileApp frontend;
-    class API_Gateway backend;
-    class AuthService,PaymentService,NotificationService services;
-    class ReportingService,AnalyticsService data;
-    class Bank,Dukcapil,OPD external;
+                            classDef frontend fill:#8B9DC3,stroke:#fff,stroke-width:2px,color:#fff;
+                            classDef backend fill:#3B5998,stroke:#fff,stroke-width:2px,color:#fff;
+                            classDef services fill:#5e7ab8,stroke:#fff,stroke-width:2px,color:#fff;
+                            classDef data fill:#7c99d4,stroke:#fff,stroke-width:2px,color:#fff;
+                            classDef external fill:#dfe3ee,stroke:#fff,stroke-width:2px,color:#333;
+
+                            class WebApp,MobileApp frontend;
+                            class API_Gateway backend;
+                            class AuthService,PaymentService,NotificationService services;
+                            class ReportingService,AnalyticsService data;
+                            class Bank,Dukcapil,OPD external;
                         </div>
                     </div>
                 </div>
@@ -589,7 +683,8 @@ graph LR
                     <div class="section-title">
                         <span class="text-primary">Peningkatan Kapabilitas</span>
                         <h2>🎯 Fokus Pengembangan Sistem</h2>
-                        <p>Pengembangan berfokus pada penyempurnaan pengalaman pengguna dan penguatan fitur administrasi untuk efisiensi maksimal.</p>
+                        <p>Pengembangan berfokus pada penyempurnaan pengalaman pengguna dan penguatan fitur administrasi
+                            untuk efisiensi maksimal.</p>
                     </div>
                 </div>
             </div>
@@ -600,15 +695,18 @@ graph LR
                         <div class="feature-list">
                             <div class="list-item">
                                 <i class="lni lni-layout icon"></i>
-                                <div><strong>Unified Dashboard:</strong> Konsolidasi layanan retribusi dalam satu tampilan terintegrasi untuk kemudahan akses.</div>
+                                <div><strong>Unified Dashboard:</strong> Konsolidasi layanan retribusi dalam satu
+                                    tampilan terintegrasi untuk kemudahan akses.</div>
                             </div>
                             <div class="list-item">
                                 <i class="lni lni-direction-alt icon"></i>
-                                <div><strong>Simplified Navigation:</strong> Alur penggunaan yang lebih sederhana dan intuitif, dari cek tagihan hingga bayar.</div>
+                                <div><strong>Simplified Navigation:</strong> Alur penggunaan yang lebih sederhana dan
+                                    intuitif, dari cek tagihan hingga bayar.</div>
                             </div>
                             <div class="list-item">
                                 <i class="lni lni-arrow-up-circle icon"></i>
-                                <div><strong>Progressive Enhancement:</strong> Penambahan fitur baru secara bertahap berdasarkan feedback dari masyarakat dan OPD.</div>
+                                <div><strong>Progressive Enhancement:</strong> Penambahan fitur baru secara bertahap
+                                    berdasarkan feedback dari masyarakat dan OPD.</div>
                             </div>
                         </div>
                     </div>
@@ -619,15 +717,18 @@ graph LR
                         <div class="feature-list">
                             <div class="list-item">
                                 <i class="lni lni-display-alt icon"></i>
-                                <div><strong>Enhanced Management Console:</strong> Dashboard monitoring yang lebih komprehensif untuk pemantauan real-time.</div>
+                                <div><strong>Enhanced Management Console:</strong> Dashboard monitoring yang lebih
+                                    komprehensif untuk pemantauan real-time.</div>
                             </div>
                             <div class="list-item">
                                 <i class="lni lni-apartment icon"></i>
-                                <div><strong>Multi-tenant Architecture:</strong> Dukungan manajemen multi-OPD yang lebih lancar dalam satu platform terpusat.</div>
+                                <div><strong>Multi-tenant Architecture:</strong> Dukungan manajemen multi-OPD yang lebih
+                                    lancar dalam satu platform terpusat.</div>
                             </div>
                             <div class="list-item">
                                 <i class="lni lni-bar-chart icon"></i>
-                                <div><strong>Advanced Reporting:</strong> Kemampuan analisis data yang lebih mendalam untuk mendukung pengambilan keputusan strategis.</div>
+                                <div><strong>Advanced Reporting:</strong> Kemampuan analisis data yang lebih mendalam
+                                    untuk mendukung pengambilan keputusan strategis.</div>
                             </div>
                         </div>
                     </div>
@@ -635,7 +736,7 @@ graph LR
             </div>
         </div>
     </section>
-    
+
     <section id="ui-comparison" class="pt-120 pb-90">
         <div class="container">
             <div class="row justify-content-center">
@@ -643,7 +744,8 @@ graph LR
                     <div class="section-title">
                         <span class="text-primary">Perbandingan Antarmuka</span>
                         <h2>🎨 Evolusi Desain: Sipanda 1.0 vs 2.0</h2>
-                        <p>Perubahan signifikan pada desain antarmuka untuk meningkatkan pengalaman pengguna dan efisiensi kerja.</p>
+                        <p>Perubahan signifikan pada desain antarmuka untuk meningkatkan pengalaman pengguna dan
+                            efisiensi kerja.</p>
                     </div>
                 </div>
             </div>
@@ -651,22 +753,25 @@ graph LR
                 <div class="col-lg-6 wow fadeInLeft" data-wow-delay=".4s">
                     <div class="feature-card">
                         <h4 class="text-center">Sipanda 1.0 (Versi Lama)</h4>
-                        <img src="File/image/upgraded_sipanda/sipanda v.1 - yang lama/WhatsApp Image 2025-11-20 at 00.59.20.jpeg" class="img-fluid rounded" alt="Sipanda 1.0 Admin">
+                        <img src="File/image/upgraded_sipanda/sipanda v.1 - yang lama/WhatsApp Image 2025-11-20 at 00.59.20.jpeg"
+                            class="img-fluid rounded" alt="Sipanda 1.0 Admin">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInRight" data-wow-delay=".5s">
                     <div class="feature-card">
                         <h4 class="text-center">Sipanda 2.0 (Versi Baru)</h4>
                         <p><strong>Admin Dashboard:</strong></p>
-                        <img src="File/image/upgraded_sipanda/admin sipanda v2/WhatsApp Image 2025-11-20 at 01.15.03 (1).jpeg" class="img-fluid rounded mb-4" alt="Sipanda 2.0 Admin">
+                        <img src="File/image/upgraded_sipanda/admin sipanda v2/WhatsApp Image 2025-11-20 at 01.15.03 (1).jpeg"
+                            class="img-fluid rounded mb-4" alt="Sipanda 2.0 Admin">
                         <p><strong>Aplikasi Mobile:</strong></p>
-                        <img src="File/image/upgraded_sipanda/aplikasi sipandav2 mobile/WhatsApp Image 2025-11-20 at 01.05.07.jpeg" class="img-fluid rounded" alt="Sipanda 2.0 Mobile">
+                        <img src="File/image/upgraded_sipanda/aplikasi sipandav2 mobile/WhatsApp Image 2025-11-20 at 01.05.07.jpeg"
+                            class="img-fluid rounded" alt="Sipanda 2.0 Mobile">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
+
     <section id="sliders-combined-section" class="pt-120 pb-90">
         <div class="container">
             <div class="row">
@@ -701,21 +806,25 @@ graph LR
                     <div class="section-title">
                         <span class="text-primary">Galeri Lengkap</span>
                         <h2>💻 Tampilan Admin Sipanda 2.0</h2>
-                        <p>Lihat semua detail antarmuka admin Sipanda 2.0 dalam galeri terpisah dengan tampilan yang lebih besar dan jelas.</p>
-                        <a href="dokumen/admin-gallery.html" target="_blank" class="btn btn-primary mt-4">Lihat Galeri Admin Lengkap</a>
+                        <p>Lihat semua detail antarmuka admin Sipanda 2.0 dalam galeri terpisah dengan tampilan yang
+                            lebih besar dan jelas.</p>
+                        <a href="dokumen/admin-gallery.html" target="_blank" class="btn btn-primary mt-4">Lihat Galeri
+                            Admin Lengkap</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
+
     <section id="penutup" class="pt-120 pb-120 bg-light">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center wow fadeInUp" data-wow-delay=".3s">
-                     <div class="section-title">
+                    <div class="section-title">
                         <h2>🤝 Mari Berkolaborasi</h2>
-                        <p>Kami percaya pengembangan Sipanda 2.0 adalah langkah evolusioner yang krusial. Dengan semangat kemitraan, kami siap berdiskusi lebih lanjut untuk mewujudkan sistem yang andal, user-friendly, dan berkelanjutan bagi Kota Baubau.</p>
+                        <p>Kami percaya pengembangan Sipanda 2.0 adalah langkah evolusioner yang krusial. Dengan
+                            semangat kemitraan, kami siap berdiskusi lebih lanjut untuk mewujudkan sistem yang andal,
+                            user-friendly, dan berkelanjutan bagi Kota Baubau.</p>
                         <a href="mailto:info@pondokit.com" class="btn btn-primary mt-4">Hubungi Kami untuk Diskusi</a>
                     </div>
                 </div>
@@ -733,23 +842,24 @@ graph LR
     <script src="assets/js/templating.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
     <script>
-      mermaid.initialize({ 
-        startOnLoad: true,
-        theme: 'base',
-        fontFamily: '"Poppins", sans-serif',
-        themeVariables: {
-            primaryColor: '#f0f2f5',
-            primaryTextColor: '#333',
-            primaryBorderColor: '#dfe3ee',
-            lineColor: '#8B9DC3',
-            secondaryColor: '#f0f2f5',
-            tertiaryColor: '#fff'
-        }
-    });
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'base',
+            fontFamily: '"Poppins", sans-serif',
+            themeVariables: {
+                primaryColor: '#f0f2f5',
+                primaryTextColor: '#333',
+                primaryBorderColor: '#dfe3ee',
+                lineColor: '#8B9DC3',
+                secondaryColor: '#f0f2f5',
+                tertiaryColor: '#fff'
+            }
+        });
     </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
 </body>
-    </html>
+
+</html>

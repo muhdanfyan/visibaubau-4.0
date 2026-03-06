@@ -1,212 +1,245 @@
 <!DOCTYPE html>
 <html class="no-js" lang="id">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Presentasi - Transformasi Digital Kota Baubau 4.0</title>
-    <meta name="description" content="Presentasi Transformasi Digital Kota Baubau Menuju Kota 4.0 (2025-2035)" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- ========== Open Graph/Facebook Meta Tags ========== -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://visibaubau4.netlify.app/presentasi.html">
-    <meta property="og:title" content="Presentasi - Transformasi Digital Kota Baubau 4.0">
-    <meta property="og:description" content="Presentasi Transformasi Digital Kota Baubau Menuju Kota 4.0 (2025-2035)">
-    <meta property="og:image" content="https://visibaubau4.netlify.app/assets/img/thumbnail.png">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Presentasi - Transformasi Digital Kota Baubau 4.0</title>
+  <meta name="description" content="Presentasi Transformasi Digital Kota Baubau Menuju Kota 4.0 (2025-2035)" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- ========== Twitter Meta Tags ========== -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://visibaubau4.netlify.app/presentasi.html">
-    <meta property="twitter:title" content="Presentasi - Transformasi Digital Kota Baubau 4.0">
-    <meta property="twitter:description" content="Presentasi Transformasi Digital Kota Baubau Menuju Kota 4.0 (2025-2035)">
-    <meta property="twitter:image" content="https://visibaubau4.netlify.app/assets/img/thumbnail.png">
+  <!-- ========== Open Graph/Facebook Meta Tags ========== -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://visibaubau4.github.io/presentasi.html">
+  <meta property="og:title" content="Presentasi - Transformasi Digital Kota Baubau 4.0">
+  <meta property="og:description" content="Presentasi Transformasi Digital Kota Baubau Menuju Kota 4.0 (2025-2035)">
+  <meta property="og:image" content="https://visibaubau4.github.io/assets/img/thumbnail.png">
 
-    <!-- ========================= CSS here ========================= -->
-    <link rel="stylesheet" href="assets/css/bootstrap-5.0.0-alpha-2.min.css" />
-    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css"/>
-    <link rel="stylesheet" href="assets/css/animate.css"/>
-    <link rel="stylesheet" href="assets/css/lindy-uikit.css"/>
-    <link rel="icon" href="assets/img/logo/logobaubau4.0.png" type="image/png">
+  <!-- ========== Twitter Meta Tags ========== -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://visibaubau4.github.io/presentasi.html">
+  <meta property="twitter:title" content="Presentasi - Transformasi Digital Kota Baubau 4.0">
+  <meta property="twitter:description"
+    content="Presentasi Transformasi Digital Kota Baubau Menuju Kota 4.0 (2025-2035)">
+  <meta property="twitter:image" content="https://visibaubau4.github.io/assets/img/thumbnail.png">
+
+  <!-- ========================= CSS here ========================= -->
+  <link rel="stylesheet" href="assets/css/bootstrap-5.0.0-alpha-2.min.css" />
+  <link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <link rel="stylesheet" href="assets/css/lindy-uikit.css" />
+  <link rel="stylesheet" href="assets/css/custom-header.css" />
+  <link rel="icon" href="assets/img/logo/logobaubau4.0.png" type="image/png">
   <style>
-      /* Custom styles for 4 Pilar Utama dropdown */
-      .header.header-2 .navbar-nav .nav-item.dropdown .dropdown-menu {
-        margin-top: 0; /* Remove default Bootstrap margin-top */
-        border-radius: 0; /* Match existing sub-menu style */
-        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1); /* Match existing sub-menu style */
-        border: none; /* Remove default Bootstrap border */
-        padding: 10px 0; /* Add some vertical padding to the menu itself */
+    /* Custom styles for 4 Pilar Utama dropdown */
+    .header.header-2 .navbar-nav .nav-item.dropdown .dropdown-menu {
+      margin-top: 0;
+      /* Remove default Bootstrap margin-top */
+      border-radius: 0;
+      /* Match existing sub-menu style */
+      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+      /* Match existing sub-menu style */
+      border: none;
+      /* Remove default Bootstrap border */
+      padding: 10px 0;
+      /* Add some vertical padding to the menu itself */
+    }
+
+    .header.header-2 .navbar-nav .nav-item.dropdown .dropdown-item {
+      padding: 8px 20px;
+      /* Match existing sub-menu item padding */
+      color: #585978;
+      /* Match existing nav-item color */
+      font-size: 1rem;
+      /* Match existing nav-item font size */
+      font-weight: 500;
+      /* Match existing nav-item font weight */
+      transition: all 0.3s ease-out 0s;
+    }
+
+    .header.header-2 .navbar-nav .nav-item.dropdown .dropdown-item:hover,
+    .header.header-2 .navbar-nav .nav-item.dropdown .dropdown-item.active {
+      background-color: transparent;
+      /* Remove default Bootstrap hover background */
+      color: #2F80ED;
+      /* Match existing nav-item hover color */
+      padding-left: 25px;
+      /* Add slight indent on hover/active */
+    }
+
+    .page-title-overlay {
+      position: relative;
+      background-image: url('assets/img/about/aplikasi_satu_data.png');
+      background-size: cover;
+      background-position: center;
+      padding: 120px 0;
+      z-index: 1;
+    }
+
+    .page-title-overlay::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(50, 52, 80, 0.7);
+      z-index: -1;
+    }
+
+    .page-title-overlay .page-title-content h2,
+    .page-title-overlay .page-title-content p {
+      color: #ffffff;
+    }
+
+    @media (max-width: 576px) {
+      #download .content {
+        flex-direction: column;
+        align-items: flex-start !important;
       }
 
-      .header.header-2 .navbar-nav .nav-item.dropdown .dropdown-item {
-        padding: 8px 20px; /* Match existing sub-menu item padding */
-        color: #585978; /* Match existing nav-item color */
-        font-size: 1rem; /* Match existing nav-item font size */
-        font-weight: 500; /* Match existing nav-item font weight */
-        transition: all 0.3s ease-out 0s;
+      #download .content .file-info {
+        margin-bottom: 15px;
       }
 
-      .header.header-2 .navbar-nav .nav-item.dropdown .dropdown-item:hover,
-      .header.header-2 .navbar-nav .nav-item.dropdown .dropdown-item.active {
-        background-color: transparent; /* Remove default Bootstrap hover background */
-        color: #2F80ED; /* Match existing nav-item hover color */
-        padding-left: 25px; /* Add slight indent on hover/active */
+      #download .content .file-info h5 {
+        font-size: 1rem;
+        /* Slightly smaller font */
       }
-      .page-title-overlay {
-        position: relative;
-        background-image: url('assets/img/about/aplikasi_satu_data.png');
-        background-size: cover;
-        background-position: center;
-        padding: 120px 0;
-        z-index: 1;
-      }
-      .page-title-overlay::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
+
+      #download .content .button-group {
         width: 100%;
-        height: 100%;
-        background-color: rgba(50, 52, 80, 0.7);
-        z-index: -1;
+        text-align: right;
       }
-      .page-title-overlay .page-title-content h2,
-      .page-title-overlay .page-title-content p {
-        color: #ffffff;
-      }
+    }
+  </style>
+</head>
 
-      @media (max-width: 576px) {
-        #download .content {
-          flex-direction: column;
-          align-items: flex-start !important;
-        }
-        #download .content .file-info {
-          margin-bottom: 15px;
-        }
-        #download .content .file-info h5 {
-          font-size: 1rem; /* Slightly smaller font */
-        }
-        #download .content .button-group {
-          width: 100%;
-          text-align: right;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <!-- ========================= preloader start ========================= -->
-    <div class="preloader">
-      <div class="loader">
-        <div class="spinner">
-          <div class="spinner-container">
-            <div class="spinner-rotator">
-              <div class="spinner-left">
-                <div class="spinner-circle"></div>
-              </div>
-              <div class="spinner-right">
-                <div class="spinner-circle"></div>
-              </div>
+<body>
+  <!-- ========================= preloader start ========================= -->
+  <div class="preloader">
+    <div class="loader">
+      <div class="spinner">
+        <div class="spinner-container">
+          <div class="spinner-rotator">
+            <div class="spinner-left">
+              <div class="spinner-circle"></div>
+            </div>
+            <div class="spinner-right">
+              <div class="spinner-circle"></div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- ========================= preloader end ========================= -->
+  </div>
+  <!-- ========================= preloader end ========================= -->
 
-    <!-- ========================= hero-section-wrapper-2 start ========================= -->
-    <section id="home" class="hero-section-wrapper-2">
-      <div id="header-placeholder"></div>
-    </section>
-    <!-- ========================= hero-section-wrapper-2 end ========================= -->
+  <!-- ========================= hero-section-wrapper-2 start ========================= -->
+  <section id="home" class="hero-section-wrapper-2">
+    <div id="header-placeholder"></div>
+  </section>
+  <!-- ========================= hero-section-wrapper-2 end ========================= -->
 
-    <!-- ========================= Video Embed Section Start ========================= -->
-    <section id="video-embed" class="feature-section feature-style-2 pt-100 pb-20">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-8 mx-auto">
-            <div class="page-title-content text-center wow fadeInUp" data-wow-delay=".2s">
-              <h2 class="mb-15 mt-3">Video Baubau4.0</h2>
-              <p class="mb-30">Saksikan penjelasan mendalam mengenai visi, misi, dan pilar utama Transformasi Digital Kota Baubau menuju Kota 4.0.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-lg-10">
-            <div class="ratio ratio-16x9 mb-20 wow fadeInUp" data-wow-delay=".4s">
-              <iframe src="https://www.youtube.com/embed/4S68eZGFue8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+  <!-- ========================= Video Embed Section Start ========================= -->
+  <section id="video-embed" class="feature-section feature-style-2 pt-100 pb-20">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xl-8 mx-auto">
+          <div class="page-title-content text-center wow fadeInUp" data-wow-delay=".2s">
+            <h2 class="mb-15 mt-3">Video Baubau4.0</h2>
+            <p class="mb-30">Saksikan penjelasan mendalam mengenai visi, misi, dan pilar utama Transformasi Digital Kota
+              Baubau menuju Kota 4.0.</p>
           </div>
         </div>
       </div>
-    </section>
-    <!-- ========================= Video Embed Section End ========================= -->
-
-    <!-- ========================= page-title-section start ========================= -->
-    <section class="page-title-section page-title-overlay">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-8 mx-auto">
-                    <div class="page-title-content text-center wow fadeInUp" data-wow-delay=".2s">
-                        <h2 class="mb-15">Presentasi Baubau 4.0</h2>
-                        <p>Materi presentasi yang menjabarkan visi, pilar, dan strategi implementasi Transformasi Digital Kota Baubau.</p>
-                    </div>
-                </div>
-            </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="ratio ratio-16x9 mb-20 wow fadeInUp" data-wow-delay=".4s">
+            <iframe src="https://www.youtube.com/embed/4S68eZGFue8" title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
         </div>
-    </section>
-    <!-- ========================= page-title-section end ========================= -->
+      </div>
+    </div>
+  </section>
+  <!-- ========================= Video Embed Section End ========================= -->
 
-    <!-- ========================= Presentation Section start ========================= -->
-    <section id="presentation" class="about-section about-style-3 bg-white">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-12">
-            <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+  <!-- ========================= page-title-section start ========================= -->
+  <section class="page-title-section page-title-overlay">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-8 mx-auto">
+          <div class="page-title-content text-center wow fadeInUp" data-wow-delay=".2s">
+            <h2 class="mb-15">Presentasi Baubau 4.0</h2>
+            <p>Materi presentasi yang menjabarkan visi, pilar, dan strategi implementasi Transformasi Digital Kota
+              Baubau.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ========================= page-title-section end ========================= -->
+
+  <!-- ========================= Presentation Section start ========================= -->
+  <section id="presentation" class="about-section about-style-3 bg-white">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-12">
+          <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
              padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
              border-radius: 8px; will-change: transform;">
-              <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-                src="https://www.canva.com/design/DAGwHQeQhCs/k-vwwY3wMM2Wdy9jCn68bA/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-              </iframe>
-            </div>
-            <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGwHQeQhCs&#x2F;k-vwwY3wMM2Wdy9jCn68bA&#x2F;view?utm_content=DAGwHQeQhCs&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">baubau4.0</a> oleh Bisa Sarjana Komputer
+            <iframe loading="lazy"
+              style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+              src="https://www.canva.com/design/DAGwHQeQhCs/k-vwwY3wMM2Wdy9jCn68bA/view?embed"
+              allowfullscreen="allowfullscreen" allow="fullscreen">
+            </iframe>
+          </div>
+          <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGwHQeQhCs&#x2F;k-vwwY3wMM2Wdy9jCn68bA&#x2F;view?utm_content=DAGwHQeQhCs&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
+            target="_blank" rel="noopener">baubau4.0</a> oleh Bisa Sarjana Komputer
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ========================= Presentation Section end ========================= -->
+
+  <!-- ========================= Download Section start ========================= -->
+  <section id="download" class="feature-section feature-style-2 pt-100 pb-100">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="section-title text-center mb-60">
+            <h3 class="mb-15 wow fadeInUp" data-wow-delay=".2s">File Pendukung</h3>
+            <p class="wow fadeInUp" data-wow-delay=".4s">Lihat atau cetak dokumen-dokumen terkait rencana strategis
+              Transformasi Digital Kota Baubau.</p>
+            <a href="dokumen_pendukung.html" class="button button-lg wow fadeInUp" data-wow-delay=".6s">Lihat
+              Dokumen</a>
           </div>
         </div>
       </div>
-    </section>
-    <!-- ========================= Presentation Section end ========================= -->
+    </div>
+  </section>
+  <!-- ========================= Download Section End ========================= -->
 
-    <!-- ========================= Download Section start ========================= -->
-    <section id="download" class="feature-section feature-style-2 pt-100 pb-100">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="section-title text-center mb-60">
-              <h3 class="mb-15 wow fadeInUp" data-wow-delay=".2s">File Pendukung</h3>
-              <p class="wow fadeInUp" data-wow-delay=".4s">Lihat atau cetak dokumen-dokumen terkait rencana strategis Transformasi Digital Kota Baubau.</p>
-              <a href="dokumen_pendukung.html" class="button button-lg wow fadeInUp" data-wow-delay=".6s">Lihat Dokumen</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ========================= Download Section End ========================= -->
 
-    
 
-    <div id="footer-placeholder"></div>
+  <div id="footer-placeholder"></div>
 
-    <!-- ========================= JS here ========================= -->
-    <script src="assets/js/bootstrap.5.0.0.alpha-2-min.js"></script>
-    <script src="assets/js/count-up.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/templating.js"></script>
-    <script>
-      function printPage(pageUrl) {
-        var printWindow = window.open(pageUrl, '_blank');
-        printWindow.addEventListener('load', function() {
-            printWindow.print();
-        }, true);
-      }
-    </script>
-  </body>
+  <!-- ========================= JS here ========================= -->
+  <script src="assets/js/bootstrap.5.0.0.alpha-2-min.js"></script>
+  <script src="assets/js/count-up.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/templating.js"></script>
+  <script>
+    function printPage(pageUrl) {
+      var printWindow = window.open(pageUrl, '_blank');
+      printWindow.addEventListener('load', function () {
+        printWindow.print();
+      }, true);
+    }
+  </script>
+</body>
+
 </html>
