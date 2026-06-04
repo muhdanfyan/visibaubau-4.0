@@ -1,0 +1,72 @@
+--- new/components/header.html
++++ new/components/header.html
+@@ -43,6 +43,36 @@
+           </div>
+         </div>
+ 
++        <!-- Dropdown: App -->
++        <div class="relative" data-dropdown>
++          <button data-dropdown-trigger class="px-3 py-2 text-sm font-medium text-white/90 hover:text-white rounded-lg hover:bg-white/10 transition-all flex items-center gap-1">
++            App
++            <svg class="w-3.5 h-3.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
++          </button>
++          <div data-dropdown-menu class="absolute top-full left-0 mt-1 w-48 bg-white rounded-xl shadow-xl border border-gray-100 py-2 opacity-0 invisible scale-95 transition-all duration-200 origin-top-left">
++            <a href="{{BASE}}app/e-retribusi.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">E-Retribusi</a>
++            <a href="{{BASE}}app/surat-digital.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">Surat Digital</a>
++            <a href="{{BASE}}app/lapor-baubau.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">Lapor Baubau</a>
++            <a href="{{BASE}}app/portal-publik.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">Portal Publik</a>
++          </div>
++        </div>
++
++        <!-- Dropdown: Dokumen -->
++        <div class="relative" data-dropdown>
++          <button data-dropdown-trigger class="px-3 py-2 text-sm font-medium text-white/90 hover:text-white rounded-lg hover:bg-white/10 transition-all flex items-center gap-1">
++            Dokumen
++            <svg class="w-3.5 h-3.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
++          </button>
++          <div data-dropdown-menu class="absolute top-full right-0 mt-1 w-64 bg-white rounded-xl shadow-xl border border-gray-100 py-2 opacity-0 invisible scale-95 transition-all duration-200 origin-top-right max-h-96 overflow-y-auto">
++            <a href="{{BASE}}dokumen/blueprint-baubau-4.0.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">Blueprint Baubau 4.0</a>
++            <a href="{{BASE}}dokumen/laporan-lengkap.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">Laporan Lengkap</a>
++            <a href="{{BASE}}dokumen/infrastruktur.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">Laporan Infrastruktur</a>
++            <a href="{{BASE}}dokumen/keamanan-jaringan.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">Keamanan Jaringan</a>
++            <a href="{{BASE}}dokumen/studi-kelayakan.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">Studi Kelayakan E-Retribusi</a>
++            <a href="{{BASE}}dokumen/rab.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">RAB (Semua Dokumen)</a>
++          </div>
++        </div>
++
+         <!-- Dropdown: Lainnya -->
+         <div class="relative" data-dropdown>
+           <button data-dropdown-trigger class="px-3 py-2 text-sm font-medium text-white/90 hover:text-white rounded-lg hover:bg-white/10 transition-all flex items-center gap-1">
+@@ -95,6 +125,32 @@
+         </div>
+       </div>
+ 
++      <!-- Mobile Dropdown: App -->
++      <div>
++        <a href="#" data-mobile-dropdown-trigger class="flex items-center justify-between px-4 py-3 text-gray-700 hover:bg-blue-50 rounded-lg transition-colors font-medium">
++          App <svg class="dropdown-icon w-4 h-4 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
++        </a>
++        <div class="hidden pl-4 space-y-1">
++          <a href="{{BASE}}app/e-retribusi.html" class="block px-4 py-2.5 text-sm text-gray-600 hover:text-blue-600 rounded-lg">E-Retribusi</a>
++          <a href="{{BASE}}app/surat-digital.html" class="block px-4 py-2.5 text-sm text-gray-600 hover:text-blue-600 rounded-lg">Surat Digital</a>
++          <a href="{{BASE}}app/lapor-baubau.html" class="block px-4 py-2.5 text-sm text-gray-600 hover:text-blue-600 rounded-lg">Lapor Baubau</a>
++          <a href="{{BASE}}app/portal-publik.html" class="block px-4 py-2.5 text-sm text-gray-600 hover:text-blue-600 rounded-lg">Portal Publik</a>
++        </div>
++      </div>
++
++      <!-- Mobile Dropdown: Dokumen -->
++      <div>
++        <a href="#" data-mobile-dropdown-trigger class="flex items-center justify-between px-4 py-3 text-gray-700 hover:bg-blue-50 rounded-lg transition-colors font-medium">
++          Dokumen <svg class="dropdown-icon w-4 h-4 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
++        </a>
++        <div class="hidden pl-4 space-y-1">
++          <a href="{{BASE}}dokumen/blueprint-baubau-4.0.html" class="block px-4 py-2.5 text-sm text-gray-600 hover:text-blue-600 rounded-lg">Blueprint</a>
++          <a href="{{BASE}}dokumen/laporan-lengkap.html" class="block px-4 py-2.5 text-sm text-gray-600 hover:text-blue-600 rounded-lg">Laporan Lengkap</a>
++          <a href="{{BASE}}dokumen/infrastruktur.html" class="block px-4 py-2.5 text-sm text-gray-600 hover:text-blue-600 rounded-lg">Infrastruktur & Keamanan</a>
++          <a href="{{BASE}}dokumen/rab.html" class="block px-4 py-2.5 text-sm text-gray-600 hover:text-blue-600 rounded-lg">Kumpulan RAB</a>
++        </div>
++      </div>
++
+       <!-- Mobile Dropdown: Lainnya -->
+       <div>
+         <a href="#" data-mobile-dropdown-trigger class="flex items-center justify-between px-4 py-3 text-gray-700 hover:bg-blue-50 rounded-lg transition-colors font-medium">

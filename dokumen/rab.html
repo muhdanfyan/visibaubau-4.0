@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RAB Blueprint - Transformasi Digital Kota Baubau 4.0</title>
+  <link rel="icon" href="../../assets/img/logo/logobaubau4.0.png" type="image/png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{colors:{primary:{DEFAULT:'#2F80ED',dark:'#1e3a5f',light:'#4A9AF5'},accent:{DEFAULT:'#F59E0B',light:'#FCD34D'}},fontFamily:{sans:['Plus Jakarta Sans','system-ui','sans-serif']}}}}</script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    /* Legacy Document Styles */
+    .document-container { background: #e0e0e0; font-family: 'Times New Roman', serif; padding: 20px 0; color: #333; }
+    .document-container .page {
+        width: 21cm;
+        min-height: 29.7cm;
+        padding: 1.5cm;
+        margin: 0 auto 1.5cm;
+        background: white;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        position: relative;
+        box-sizing: border-box;
+    }
+    .document-container .page-cover { display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+    .document-container .page-cover .logo { width: 120px; margin-bottom: 30px; }
+    .document-container .page-cover h1 { font-family: 'Georgia', serif; font-size: 2.5rem; color: #1a237e; margin-bottom: 15px; font-weight:bold; border:none; }
+    .document-container .page-cover h2 { font-size: 1.4rem; color: #555; font-weight: 400; border:none; }
+    .document-container .page-footer { position: absolute; bottom: 1cm; left: 1.5cm; right: 1.5cm; text-align: center; font-size: 9pt; color: #999; }
+    .document-container h1, .document-container h2, .document-container h3, .document-container h4 { font-weight: 700; color: #1a237e; margin-top: 15px; margin-bottom: 10px; border-bottom: 2px solid #dfe3ee; padding-bottom: 6px; }
+    .document-container h1 { font-size: 18pt; }
+    .document-container h2 { font-size: 15pt; }
+    .document-container h3 { font-size: 13pt; }
+    .document-container p, .document-container li { font-size: 11pt; line-height: 1.6; text-align: justify; }
+    .document-container ul, .document-container ol { padding-left: 20px; margin-bottom: 10px; }
+    .document-container .content-img { max-width: 75%; margin: 15px auto; display: block; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+    .document-container .full-width-img { max-width: 100%; }
+    .document-container table { width: 100%; border-collapse: collapse; margin-bottom: 15px; font-size: 10pt; }
+    .document-container th, .document-container td { border: 1px solid #ddd; padding: 8px; }
+    .document-container th { background-color: #f2f2f2; font-weight: bold; text-align: left; }
+    .document-container .info-card { background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #3B5998; margin-bottom:15px; }
+    .document-container .info-card h5 { font-weight: 700; color: #3B5998; margin-bottom: 5px; font-size: 11pt; border:none; }
+    @media (max-width: 768px) {
+        .document-container .page { width: 100%; padding: 20px; margin-bottom: 20px; min-height:auto; }
+    }
+  </style>
+</head>
+<body class="font-sans antialiased bg-slate-50">
+  <div id="header-placeholder"></div>
+
+  <main class="pt-24 pb-20">
+    <div class="max-w-7xl mx-auto px-4 mb-8 flex justify-between items-end">
+      <div>
+        <h1 class="text-3xl font-bold text-slate-900 mb-2">RAB Blueprint</h1>
+        <p class="text-slate-500">Pratinjau Dokumen Resmi Baubau 4.0</p>
+      </div>
+      <button onclick="window.print()" class="hidden md:flex px-4 py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition-colors items-center gap-2">
+        <i data-lucide="printer" class="w-4 h-4"></i> Cetak Dokumen
+      </button>
+    </div>
+
+    <div class="document-container w-full overflow-x-auto">
+
+
+  <!-- Halaman 1: Surat Permohonan -->
+  <div class="page">
+    <img src="header dan footer/header.png" class="page-header-img">
+    <div class="content-container">
+        <div class="letter-header">
+            <div style="display: flex; justify-content: space-between;">
+                <div>
+                    <p id="dynamic-number">Nomor: 002/SKI/XI/2025<br>
+                    Lampiran: 1 (satu) Berkas<br>
+                    Perihal: <strong>Permohonan Anggaran Penyusunan Dokumen Blue-Print Visi Baubau 4.0</strong></p>
+                </div>
+                <div>
+                    <p id="dynamic-date">Baubau, 19 November 2025</p>
+                </div>
+            </div>
+        </div>
+        <div class="letter-body" style="margin-top: 30px;">
+            <p>Kepada Yth.,<br>
+            <strong>Wali Kota Baubau</strong><br>
+            c.q. Sekretaris Daerah Kota Baubau<br>
+            di-<br>
+            Tempat</p>
+
+            <p>Dengan hormat,</p>
+            <p>Dalam rangka mewujudkan tata kelola pemerintahan yang cerdas, transparan, dan berorientasi pada pelayanan publik sesuai amanat <strong>Visi Baubau 4.0</strong>, diperlukan sebuah dokumen perencanaan strategis yang komprehensif sebagai peta jalan transformasi digital Kota Baubau.</p>
+            <p>Dokumen blue-print ini akan menjadi landasan utama bagi seluruh Perangkat Daerah dalam merancang, mengimplementasikan, dan mengevaluasi program-program berbasis teknologi. Dokumen ini mencakup analisis kebutuhan, desain arsitektur SPBE, roadmap implementasi, hingga strategi keamanan siber.</p>
+            <p>Sehubungan dengan hal tersebut, kami mengajukan permohonan dukungan anggaran untuk penyusunan dokumen blue-print "Visi Baubau 4.0" sebesar <strong>Rp 179.984.000,- (Seratus Tujuh Puluh Sembilan Juta Sembilan Ratus Delapan Puluh Empat Ribu Rupiah)</strong>. Rincian alokasi anggaran terlampir bersama surat ini.</p>
+            <p>Besar harapan kami, Bapak Wali Kota dapat menyetujui permohonan ini demi terwujudnya akselerasi digital yang terencana dan berkelanjutan di Kota Baubau. Atas perhatian dan dukungan Bapak, kami ucapkan terima kasih.</p>
+        </div>
+        <div class="letter-footer">
+            <p style="text-align: right;">Hormat kami,</p>
+            <div class="signature-block">
+                <p style="margin: 2px 0; text-align: right;">Baubau, 19 Mei 2026</p>
+                <p style="margin: 0; text-align: right;">CV. Sarjana Komputer Indonesia</p>
+                <img src="header dan footer/ttd-stempel-baru.png" class="signature-image" alt="Tanda Tangan dan Stempel">
+                <span class="name">Muhdan Fyan Syah Sofian, S.Kom</span><br>
+                <span style="font-size: 9pt; margin-top: -14px; display: block;">Direktur</span>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <!-- Halaman 2: Rincian Anggaran -->
+  <div class="page">
+    <img src="header dan footer/header.png" class="page-header-img">
+    <div class="content-container">
+        <header class="text-center">
+            <h1 class="h1-lampiran">Rincian Anggaran Biaya Penyusunan Blue-Print Visi Baubau 4.0</h1>
+        </header>
+        <section id="rincian-rab" class="mb-4">
+            <p>Anggaran ini dialokasikan untuk seluruh proses penyusunan dokumen, mulai dari riset, analisis, perancangan, hingga produksi dokumen final beserta materi pendukungnya.</p>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped">
+                    <thead class="table-light">
+                        <tr>
+                            <th scope="col">Kategori</th>
+                            <th scope="col">Deskripsi & Asumsi</th>
+                            <th scope="col">Biaya</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>1. Sumber Daya Manusia (Internal)</strong></td>
+                            <td>Biaya gaji tim penyusun internal selama periode pengerjaan.<br>• <strong>Tim</strong>: 1 Penanggung Jawab, 3 Analis/Perumus, 1 Staf Pendukung.<br>• <strong>Waktu</strong>: Pengerjaan intensif selama 2-3 bulan.</td>
+                            <td><strong>Rp 108.750.000</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>2. Workshop dan FGD</strong></td>
+                            <td>Biaya penyelenggaraan rapat dan workshop dengan pemangku kepentingan untuk pengumpulan data dan validasi.<br>• <strong>Asumsi</strong>: 2-3 kali workshop skala sedang.</td>
+                            <td><strong>Rp 11.250.000</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>3. Desain Grafis dan Tata Letak</strong></td>
+                            <td>Biaya untuk desainer profesional guna menghasilkan dokumen yang representatif, infografis, dan elemen visual lainnya.</td>
+                            <td><strong>Rp 6.750.000</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>4. Pembuatan Website Proyek</strong></td>
+                            <td>Pengembangan situs web informatif untuk menyosialisasikan Visi Baubau 4.0.</td>
+                            <td><strong>Rp 20.450.000</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>5. Produksi Motion Graphic</strong></td>
+                            <td>Pembuatan video animasi singkat untuk menjelaskan konsep utama Visi Baubau 4.0.</td>
+                            <td><strong>Rp 9.000.000</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>6. Penyusunan Dokumen dan Elemen Penting Lainnya</strong></td>
+                            <td>Mencakup semua elemen penting dalam proyek ini, termasuk pembuatan beberapa dokumen.</td>
+                            <td><strong>Rp 4.500.000</strong></td>
+                        </tr>
+                        <tr class="table-light">
+                            <td colspan="2" class="text-end"><strong>Subtotal</strong></td>
+                            <td><strong>Rp 160.700.000</strong></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="text-end">PPN (12%)</td>
+                            <td>Rp 19.284.000</td>
+                        </tr>
+                        <tr class="total-row table-light">
+                            <td colspan="2" class="text-end"><strong>Total Biaya</strong></td>
+                            <td><strong>Rp 179.984.000</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+  </div>
+
+  
+
+  <script src="../../assets/js/bootstrap.5.0.0.alpha-2-min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const dateElement = document.getElementById('dynamic-date');
+        const numberElement = document.getElementById('dynamic-number');
+
+        if (dateElement) {
+            const today = new Date();
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            const formattedDate = today.toLocaleDateString('id-ID', options);
+            dateElement.innerHTML = `Baubau, ${formattedDate}`;
+        }
+
+        if (numberElement) {
+            const today = new Date();
+            const year = today.getFullYear();
+            const month = today.getMonth() + 1;
+            
+            const toRoman = (num) => {
+                const roman = { M: 1000, CM: 900, D: 500, CD: 400, C: 100, XC: 90, L: 50, XL: 40, X: 10, IX: 9, V: 5, IV: 4, I: 1 };
+                let str = '';
+                for (let i of Object.keys(roman)) {
+                    let q = Math.floor(num / roman[i]);
+                    num -= q * roman[i];
+                    str += i.repeat(q);
+                }
+                return str;
+            };
+
+            const romanMonth = toRoman(month);
+            // Using a different number to avoid conflict with the other document
+            numberElement.innerHTML = `Nomor: 002/SKI/${romanMonth}/${year}<br>Lampiran: 1 (satu) Berkas<br>Perihal: <strong>Permohonan Anggaran Penyusunan Dokumen Blue-Print Visi Baubau 4.0</strong>`;
+        }
+    });
+  </script>
+
+    </div>
+  </main>
+
+  <div id="footer-placeholder"></div>
+  <script src="../js/main.js"></script>
+  <script>lucide.createIcons();</script>
+</body>
+</html>

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposal Anggaran Aplikasi MPAD - Visi Baubau 4.0</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap-5.0.0-alpha-2.min.css" />
+    <link rel="stylesheet" href="../assets/css/LineIcons.2.0.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Garamond:wght@700&family=Times+New+Roman&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: #e0e0e0;
+            font-family: 'Times New Roman', Times, serif;
+            color: #000;
+        }
+        .page {
+            width: 21cm;
+            min-height: 29.7cm;
+            padding: 1.5cm;
+            margin: 1.5cm auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+            position: relative;
+            page-break-after: always;
+        }
+        .page:last-of-type {
+            page-break-after: avoid;
+        }
+        .page-header-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+        .page-footer-img {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+        .page-footer {
+            position: absolute;
+            bottom: 1cm;
+            left: 1.5cm;
+            right: 1.5cm;
+            text-align: center;
+            font-size: 9pt;
+            color: #999;
+        }
+        .content-container {
+            padding-top: 1.8cm; 
+            padding-bottom: 2.5cm; 
+        }
+        h1, h2, h3, h4 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            color: #1a237e;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #dfe3ee;
+            padding-bottom: 6px;
+        }
+        h1 { font-size: 22pt; }
+        h2 { font-size: 18pt; }
+        h3 { font-size: 15pt; }
+        h4 { font-size: 13pt; border-bottom: 1px solid #eee; }
+        p, li {
+            font-size: 12pt;
+            line-height: 1.1;
+            text-align: justify;
+        }
+        .page-2 h1, .page-2 h2, .page-2 h3, .page-2 h4, .page-2 p, .page-2 th, .page-2 td {
+            font-size: 12px;
+        }
+        .page-2 .content-container {
+            padding-top: 10px;
+        }
+        .table thead th {
+            background-color: #f8f9fa;
+        }
+        .total-row td {
+            font-weight: bold;
+        }
+        .letter-header, .letter-body, .letter-footer {
+            padding-left: 1cm;
+            padding-right: 1cm;
+        }
+        .letter-body p {
+            margin-bottom: 1rem;
+        }
+        .signature-block {
+            margin-top: 5px;
+            text-align: right;
+        }
+        .signature-block .signature-image {
+            width: 220px;
+            height: auto;
+            margin-top: -20px;
+        }
+        .signature-block .name {
+            font-weight: bold;
+            text-decoration: underline;
+            margin-top: -30px;
+            margin-bottom: -12px;
+            display: block;
+        }
+        @media print {
+            body { background: white; }
+            .page {
+                width: auto;
+                min-height: 29.7cm;
+                margin: 0;
+                padding: 1.5cm;
+                box-shadow: none;
+                border: none;
+                page-break-after: always;
+            }
+            .print-fab { display: none; }
+        }
+        .print-fab {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            width: 60px;
+            height: 60px;
+            background-color: #3B5998;
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            cursor: pointer;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+
+  <!-- Halaman 1: Surat Permohonan -->
+  <div class="page">
+    <img src="header dan footer/header.png" class="page-header-img">
+    <div class="content-container">
+        <div class="letter-header">
+            <div style="display: flex; justify-content: space-between;">
+                <div>
+                    <p id="dynamic-number">Nomor: 002/SKI/XI/2025<br>
+                    Lampiran: 1 (satu) Berkas<br>
+                    Perihal: <strong>Permohonan Anggaran Pengembangan Aplikasi MPAD</strong></p>
+                </div>
+                <div style="white-space: nowrap;">
+                    <p id="dynamic-date">Baubau, 19 Mei 2026</p>
+                </div>
+            </div>
+        </div>
+        <div class="letter-body" style="margin-top: 30px;">
+            <p>Kepada Yth.,<br>
+            <strong>Kepala Badan Pendapatan Daerah (BAPENDA) Kota Baubau</strong><br>
+            di-<br>
+            Tempat</p>
+
+            <p>Dengan hormat,</p>
+            <p>Dalam rangka mendukung Visi Baubau 4.0 dan optimalisasi Pendapatan Asli Daerah (PAD), kami dari CV. Sarjana Komputer Indonesia mengajukan proposal untuk pengembangan <strong>Aplikasi Manajemen Pendapatan Asli Daerah (MPAD)</strong>.</p>
+            <p>Aplikasi MPAD dirancang untuk digitalisasi proses pendataan, penagihan, pembayaran, hingga pelaporan pajak dan retribusi daerah. Dengan dukungan integrasi QRIS, Virtual Account, dan E-Wallet, aplikasi ini diharapkan dapat mempermudah wajib pajak dan meningkatkan transparansi PAD Kota Baubau.</p>
+            <p>Sehubungan dengan hal tersebut, kami mengajukan permohonan dukungan anggaran sebesar <strong>Rp 168.000.000,- (Seratus Enam Puluh Delapan Juta Rupiah)</strong> untuk seluruh proses pengembangan dan implementasi sistem MPAD. Rincian teknis dan justifikasi anggaran terlampir dalam dokumen ini.</p>
+            <p>Besar harapan kami, Bapak/Ibu Kepala BAPENDA dapat menyetujui permohonan ini demi terwujudnya sistem pendapatan daerah yang modern dan akuntabel. Atas perhatian dan dukungan Bapak/Ibu, kami ucapkan terima kasih.</p>
+        </div>
+        <div class="letter-footer" style="display: flex; flex-direction: column; align-items: flex-end;">
+            <p style="margin-bottom: 5px; width: 300px; text-align: center;">Hormat kami,</p>
+            <div class="signature-block" style="text-align: center; width: 300px;">
+                <p style="margin: 0; padding: 0;">Baubau, 19 Mei 2026</p>
+                <p style="margin: 0; padding: 0;">CV. Sarjana Komputer Indonesia</p>
+                <div style="position: relative; display: flex; justify-content: center;">
+                    <img src="header dan footer/ttd-stempel-baru.png" class="signature-image" alt="Tanda Tangan dan Stempel" style="width: 220px; margin-top: -25px; margin-bottom: -20px; position: relative; z-index: 1;">
+                </div>
+                <span class="name" style="font-weight: bold; text-decoration: underline; position: relative; z-index: 2;">Muhdan Fyan Syah Sofian, S.Kom</span><br>
+                <span style="font-size: 9pt;">Direktur</span>
+            </div>
+        </div>
+    </div>
+    <img src="header dan footer/footer.png" class="page-footer-img">
+    <div class="page-footer">Halaman 1</div>
+  </div>
+
+  <!-- Halaman 2: Rincian Anggaran -->
+  <div class="page page-2">
+    <img src="header dan footer/header.png" class="page-header-img">
+    <div class="content-container">
+        <header class="mb-4 text-center">
+            <h1 style="font-size: 18pt;">Rincian Anggaran Aplikasi MPAD</h1>
+        </header>
+        <section id="rincian">
+            <h3 class="mt-3">💰 Total Anggaran: Rp 168.000.000</h3>
+            <p>Anggaran ini dialokasikan untuk pengembangan 3 platform utama MPAD: Web Admin BAPENDA, Aplikasi Mobile Petugas, dan Aplikasi Mobile Masyarakat, serta integrasi pembayaran digital dan dokumentasi.</p>
+            <div class="table-responsive">
+            <table class="table table-bordered table-striped">
+                <thead class="table-light">
+                <tr>
+                    <th scope="col" width="5%">No</th>
+                    <th scope="col" width="65%">Uraian / Kegiatan</th>
+                    <th scope="col" width="30%">Biaya</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="table-secondary">
+                    <td colspan="3"><strong>🏛️ A. Platform Admin BAPENDA (Web Dashboard)</strong></td>
+                </tr>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td>Dashboard Manajemen Data & Pengguna</td>
+                    <td>Rp 25.000.000</td>
+                </tr>
+                <tr>
+                    <td class="text-center">2</td>
+                    <td>Modul Penetapan & Penagihan Pajak/Retribusi</td>
+                    <td>Rp 20.000.000</td>
+                </tr>
+                <tr>
+                    <td class="text-center">3</td>
+                    <td>Modul Laporan & Dashboard Monitoring PAD</td>
+                    <td>Rp 20.000.000</td>
+                </tr>
+                <tr class="table-secondary">
+                    <td colspan="3"><strong>👥 B. Platform Petugas (Aplikasi Mobile)</strong></td>
+                </tr>
+                <tr>
+                    <td class="text-center">4</td>
+                    <td>Aplikasi Petugas Lapangan (Pendataan & Verifikasi)</td>
+                    <td>Rp 30.000.000</td>
+                </tr>
+                <tr class="table-secondary">
+                    <td colspan="3"><strong>📱 C. Platform Masyarakat (Aplikasi Mobile)</strong></td>
+                </tr>
+                <tr>
+                    <td class="text-center">5</td>
+                    <td>Aplikasi Mobile Wajib Pajak (Pembayaran & Informasi)</td>
+                    <td>Rp 25.000.000</td>
+                </tr>
+                <tr>
+                    <td class="text-center">6</td>
+                    <td>Integrasi Pembayaran Digital (QRIS/VA/E-Wallet)</td>
+                    <td>Rp 15.000.000</td>
+                </tr>
+                <tr class="table-secondary">
+                    <td colspan="3"><strong>⚙️ D. Infrastruktur & Dokumentasi</strong></td>
+                </tr>
+                <tr>
+                    <td class="text-center">7</td>
+                    <td>Setup Server & Deployment</td>
+                    <td>Rp 15.000.000</td>
+                </tr>
+                <tr>
+                    <td class="text-center">8</td>
+                    <td>User Guide & Dokumentasi</td>
+                    <td>Rp 0</td>
+                </tr>
+                <tr class="table-light">
+                    <td colspan="2" class="text-end"><strong>Subtotal</strong></td>
+                    <td><strong>Rp 150.000.000</strong></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="text-end">PPN (12%)</td>
+                    <td>Rp 18.000.000</td>
+                </tr>
+                <tr class="total-row table-light">
+                    <td colspan="2" class="text-end"><strong>Total Biaya</strong></td>
+                    <td><strong style="color: #c0392b;">Rp 168.000.000</strong></td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+            
+            <p style="font-size: 8pt; color: #999; margin-top: 10px;">* Harga sudah termasuk Pajak Pertambahan Nilai (PPN) 12%</p>
+        </section>
+        
+    </div>
+  </div>
+
+  <div class="print-fab" onclick="window.print()">
+      <i class="lni lni-printer"></i>
+  </div>
+
+<script src="../assets/js/bootstrap.5.0.0.alpha-2-min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const dateElement = document.getElementById('dynamic-date');
+        const numberElement = document.getElementById('dynamic-number');
+
+        if (dateElement) {
+            const today = new Date();
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            const formattedDate = today.toLocaleDateString('id-ID', options);
+            dateElement.innerHTML = `Baubau, ${formattedDate}`;
+        }
+
+        if (numberElement) {
+            const today = new Date();
+            const year = today.getFullYear();
+            const month = today.getMonth() + 1;
+            
+            const toRoman = (num) => {
+                const roman = { M: 1000, CM: 900, D: 500, CD: 400, C: 100, XC: 90, L: 50, XL: 40, X: 10, IX: 9, V: 5, IV: 4, I: 1 };
+                let str = '';
+                for (let i of Object.keys(roman)) {
+                    let q = Math.floor(num / roman[i]);
+                    num -= q * roman[i];
+                    str += i.repeat(q);
+                }
+                return str;
+            };
+
+            const romanMonth = toRoman(month);
+            let currentText = numberElement.innerHTML;
+            let newText = currentText.replace(/002\/SKI\/XI\/2025/, `002/SKI/${romanMonth}/${year}`);
+            numberElement.innerHTML = newText;
+        }
+    });
+  </script>
+</body>
+</html>

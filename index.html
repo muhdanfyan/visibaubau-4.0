@@ -1,500 +1,381 @@
 <!DOCTYPE html>
-<html class="no-js" lang="id">
-
+<html lang="id">
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Transformasi Digital Kota Baubau 4.0</title>
-  <meta name="description" content="Strategi Transformasi Digital Kota Baubau Menuju Kota 4.0 (2025-2035)" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Strategi Transformasi Digital Kota Baubau Menuju Kota 4.0 — Mewujudkan Ekosistem Kolaboratif Berbasis Data dan Inovasi (2025-2035)">
 
-  <!-- ========== Open Graph/Facebook Meta Tags ========== -->
+  <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://visibaubau4.github.io">
+  <meta property="og:url" content="https://visibaubau4.github.io/new/">
   <meta property="og:title" content="Transformasi Digital Kota Baubau 4.0">
-  <meta property="og:description" content="Strategi Transformasi Digital Kota Baubau Menuju Kota 4.0 (2025-2035)">
+  <meta property="og:description" content="Mewujudkan Ekosistem Kolaboratif Berbasis Data dan Inovasi (2025-2035)">
   <meta property="og:image" content="https://visibaubau4.github.io/assets/img/thumbnail.png">
-
-  <!-- ========== Twitter Meta Tags ========== -->
   <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://visibaubau4.github.io">
-  <meta property="twitter:title" content="Transformasi Digital Kota Baubau 4.0">
-  <meta property="twitter:description" content="Strategi Transformasi Digital Kota Baubau Menuju Kota 4.0 (2025-2035)">
-  <meta property="twitter:image" content="https://visibaubau4.github.io/assets/img/thumbnail.png">
 
-  <!-- ========== Rich Snippet/Schema Markup ========== -->
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": "Transformasi Digital Kota Baubau 4.0",
-      "description": "Strategi Transformasi Digital Kota Baubau Menuju Kota 4.0 (2025-2035)",
-      "image": "https://visibaubau4.github.io/assets/img/thumbnail.png",
-      "author": {
-        "@type": "Organization",
-        "name": "Diskominfo Kota Baubau"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Pemerintah Kota Baubau",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://visibaubau4.github.io/assets/img/logo/logobaubau4.0.png"
+  <!-- Favicon -->
+  <link rel="icon" href="assets/img/logo/logobaubau4.0.png" type="image/png">
+
+  <!-- Tailwind CSS v3 CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: { DEFAULT: '#2F80ED', dark: '#1e3a5f', light: '#4A9AF5' },
+            accent: { DEFAULT: '#F59E0B', light: '#FCD34D' },
+          },
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'system-ui', 'sans-serif'],
+          },
         }
-      },
-      "datePublished": "2025-09-26",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://visibaubau4.github.io"
       }
     }
-    </script>
+  </script>
 
-  <!-- ========================= CSS here ========================= -->
-  <link rel="stylesheet" href="assets/css/bootstrap-5.0.0-alpha-2.min.css" />
-  <link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
-  <link rel="stylesheet" href="assets/css/animate.css" />
-  <link rel="stylesheet" href="assets/css/lindy-uikit.css" />
-  <link rel="stylesheet" href="assets/css/custom-header.css" />
-  <link rel="icon" href="assets/img/logo/logobaubau4.0.png" type="image/png">
-  <style>
-    /* .header.header-2 .navbar-brand styles moved to custom-header.css */
-    #pendahuluan {
-      background-image: linear-gradient(rgba(50, 52, 80, 0.7), rgba(50, 52, 80, 0.7)), url('assets/img/feature/pendahuluan.png');
-      background-size: cover;
-      background-attachment: fixed;
-      background-position: center center;
-      color: #ffffff;
-      /* Make text white for better contrast */
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Transformasi Digital Kota Baubau 4.0",
+    "description": "Strategi Transformasi Digital Kota Baubau Menuju Kota 4.0 (2025-2035)",
+    "url": "https://visibaubau4.github.io/new/",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Diskominfo Kota Baubau",
+      "logo": { "@type": "ImageObject", "url": "https://visibaubau4.github.io/assets/img/logo/logobaubau4.0.png" }
     }
-
-    #pendahuluan h3,
-    #pendahuluan h5 {
-      color: #ffffff;
-      /* Ensure headings are also white */
-    }
-
-    /* Custom styles for 4 Pilar Utama dropdown */
-    /* Dropdown styles moved to custom-header.css */
-
-    /* Video Play Button Styles */
-    .hero-image {
-      position: relative;
-      /* overflow: hidden; */
-      /* Removed to prevent image cutoff */
-    }
-
-    .hero-image img {
-      transition: transform 0.4s ease;
-    }
-
-    .hero-image:hover img {
-      transform: scale(1.05);
-    }
-
-    .video-play-button {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      background-color: rgba(47, 128, 237, 0.8);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      font-size: 1.875rem;
-      opacity: 0.7;
-      /* Initial opacity */
-      transition: transform 0.3s ease, opacity 0.3s ease;
-      /* Animate transform and opacity */
-      z-index: 20;
-    }
-
-    .hero-image:hover .video-play-button {
-      transform: translate(-50%, -50%) scale(1.1);
-      /* Scale on hover */
-      opacity: 0.9;
-      /* Opacity on hover */
-    }
-
-    .modal-video .modal-dialog {
-      max-width: 1140px;
-      margin: 1.75rem auto;
-    }
-
-    .modal-video .modal-content {
-      background-color: transparent;
-      border: none;
-    }
-
-    .modal-video .btn-close {
-      position: absolute;
-      top: -25px;
-      right: 0;
-      background-color: white;
-      border-radius: 50%;
-      opacity: 1;
-    }
-
-    /* Hero section styles moved to custom-header.css */
-
-    /* 4 Pilar Card Styles */
-    .pilar-card {
-      background-color: #fff;
-      border-radius: 10px;
-      padding: 35px;
-      margin-bottom: 30px;
-      border: 1px solid #eee;
-      box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
-      transition: all 0.3s ease-out 0s;
-      text-align: center;
-      height: 100%;
-    }
-
-    .pilar-card:hover {
-      transform: translateY(-10px);
-      box-shadow: 0px 15px 40px rgba(47, 128, 237, 0.1);
-    }
-
-    .pilar-card .icon {
-      width: 70px;
-      height: 70px;
-      border-radius: 50%;
-      background-color: rgba(47, 128, 237, 0.1);
-      color: #2F80ED;
-      font-size: 1.875rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0 auto 25px;
-      transition: all 0.3s ease-out 0s;
-    }
-
-    .pilar-card:hover .icon {
-      background-color: #2F80ED;
-      color: #fff;
-    }
-
-    .pilar-card .content h5 {
-      font-size: 1.125rem;
-      font-weight: 600;
-    }
-
-    .pilar-card .content p {
-      color: #585978;
-      margin-bottom: 25px;
-    }
-
-    #ringkasan .about-image img {
-      transition: transform 0.4s ease;
-    }
-
-    #ringkasan .about-image:hover img {
-      transform: scale(1.05);
-    }
-  </style>
+  }
+  </script>
 </head>
 
-<body>
-  <!-- ========================= preloader start ========================= -->
-  <div class="preloader">
-    <div class="loader">
-      <div class="spinner">
-        <div class="spinner-container">
-          <div class="spinner-rotator">
-            <div class="spinner-left">
-              <div class="spinner-circle"></div>
-            </div>
-            <div class="spinner-right">
-              <div class="spinner-circle"></div>
+<body class="font-sans antialiased">
+
+  <!-- ═══ Header ═══ -->
+  <div id="header-placeholder"></div>
+
+  <!-- ═══════════ HERO SECTION ═══════════ -->
+  <section id="hero" class="relative min-h-screen flex items-center overflow-hidden bg-slate-50">
+    <!-- Base Background Image with heavy lightening -->
+    <div class="absolute inset-0 z-0 bg-[url('assets/img/baubau-4.0-main-concept-graphic.png')] bg-cover bg-center bg-no-repeat opacity-20 mix-blend-luminosity"></div>
+    
+    <!-- Beautiful Bright Gradient Overlay -->
+    <div class="absolute inset-0 z-0 bg-gradient-to-br from-white/95 via-white/80 to-blue-50/90 backdrop-blur-[2px]"></div>
+
+    <!-- Animated Glowing Blobs -->
+    <div class="absolute inset-0 z-0 overflow-hidden pointer-events-none">
+      <div class="absolute -top-24 -left-24 w-[500px] h-[500px] bg-blue-300/40 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob"></div>
+      <div class="absolute top-1/4 -right-24 w-[600px] h-[600px] bg-sky-200/50 rounded-full mix-blend-multiply filter blur-3xl opacity-60 animate-blob animation-delay-2000"></div>
+      <div class="absolute -bottom-48 left-1/3 w-[700px] h-[700px] bg-amber-100/60 rounded-full mix-blend-multiply filter blur-3xl opacity-60 animate-blob animation-delay-4000"></div>
+    </div>
+
+    <!-- Decorative mesh grid -->
+    <div class="absolute inset-0 z-[1] opacity-[0.15]" style="background-image: radial-gradient(#2F80ED 1px, transparent 1px); background-size: 32px 32px;"></div>
+
+    <div class="relative z-[2] max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full h-full min-h-screen flex flex-col items-center justify-center pt-24 pb-32 text-center">
+      
+      <!-- Responsive Centered Illustration (Paling Atas) -->
+      <div class="w-full flex-grow flex items-center justify-center relative" data-animate="zoom-in" data-animate-delay="100">
+        <!-- Floating Animation Wrapper -->
+        <div class="relative w-full max-w-2xl mx-auto cursor-pointer group animate-[float_6s_ease-in-out_infinite]" data-open-video>
+          <img src="assets/img/baubau-4.0-hero-graphic-transparent-duplicate.png" alt="Ilustrasi Konsep Utama Baubau 4.0" class="w-full h-auto object-contain max-h-[40vh] transition-transform duration-700 group-hover:scale-105 drop-shadow-2xl mx-auto">
+          
+          <!-- Overlay Play Button -->
+          <div class="absolute inset-0 flex items-center justify-center transition-all duration-500 z-10 opacity-0 group-hover:opacity-100">
+            <div class="play-btn w-20 h-20 bg-blue-600/90 text-white shadow-2xl shadow-blue-500/50 flex items-center justify-center rounded-full transform scale-90 group-hover:scale-110 transition-transform duration-500 backdrop-blur-sm">
+              <svg class="w-8 h-8 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
             </div>
           </div>
         </div>
+      </div>
+
+      <!-- Text Content -->
+      <div class="w-full max-w-4xl mx-auto flex flex-col items-center justify-center mt-6">
+        <div data-animate data-animate-delay="200">
+          <span class="inline-flex items-center gap-2 px-5 py-2 bg-white/60 backdrop-blur-md border border-blue-100/50 rounded-full text-xs font-bold text-blue-700 tracking-widest uppercase mb-6 shadow-sm shadow-blue-500/5">
+            <span class="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></span>
+            Rencana Strategis 2025 — 2035
+          </span>
+        </div>
+
+        <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-[#112240] leading-[1.2] tracking-tight mb-4 sm:mb-6 drop-shadow-sm" data-animate data-animate-delay="300">
+          Transformasi Digital<br>
+          <span class="bg-gradient-to-r from-blue-600 via-blue-500 to-sky-400 bg-clip-text text-transparent">Kota Baubau 4.0</span>
+        </h1>
+
+        <p class="max-w-3xl mx-auto text-base sm:text-lg md:text-xl text-slate-600/90 leading-relaxed mb-6 sm:mb-8 font-medium px-4" data-animate data-animate-delay="400">
+          Evolusi menuju <span class="text-blue-700 font-semibold">ekosistem kolaboratif</span> berbasis data besar. Memberdayakan warga dan membangun kota cerdas yang inklusif serta inovatif.
+        </p>
+
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 w-full max-w-xl mx-auto" data-animate data-animate-delay="500">
+          <a href="#pilar-utama" class="btn-glow w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-bold rounded-2xl hover:scale-105 transition-transform duration-300 shadow-[0_10px_40px_-10px_rgba(47,128,237,0.5)]">
+            Jelajahi 4 Pilar Utama
+          </a>
+          <button data-open-video class="group w-full sm:w-auto flex items-center justify-center gap-3 px-6 py-4 bg-white/70 backdrop-blur-xl border border-white/60 text-[#1e3a5f] font-bold rounded-2xl hover:bg-white hover:scale-105 transition-all duration-300 shadow-xl shadow-blue-900/5 cursor-pointer">
+            <span class="flex items-center justify-center w-10 h-10 rounded-full bg-blue-50 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300 shadow-inner">
+              <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            </span>
+            Tonton Konsep Video
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="absolute bottom-6 left-1/2 -translate-x-1/2 z-[2] animate-bounce flex flex-col items-center gap-2 pointer-events-none">
+      <span class="text-[10px] font-semibold text-blue-400 uppercase tracking-widest">Scroll</span>
+      <svg class="w-4 h-4 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
+    </div>
+  </section>
+
+  <!-- ═══════════ 4 PILAR UTAMA ═══════════ -->
+  <section id="pilar-utama" class="py-20 lg:py-28 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="inline-block px-3 py-1 bg-blue-50 text-blue-600 text-xs font-semibold rounded-full tracking-wide mb-4" data-animate>FONDASI TRANSFORMASI</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4" data-animate data-animate-delay="100">
+          4 Pilar Utama <span class="gradient-text">Transformasi Digital</span>
+        </h2>
+        <p class="text-lg text-slate-500 leading-relaxed" data-animate data-animate-delay="200">
+          Empat pilar strategis yang saling terintegrasi, membentuk ekosistem digital yang kokoh untuk pelayanan publik dan tata kelola pemerintahan yang efisien.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Pilar 1: Internet Satu Kota -->
+        <a href="4-pilar/internet-satu-kota.html" class="glass-card p-8 text-center group" data-animate data-animate-delay="100">
+          <div class="w-16 h-16 mx-auto mb-5 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center shadow-lg shadow-blue-500/20 group-hover:shadow-blue-500/40 transition-shadow">
+            <i data-lucide="globe" class="w-7 h-7 text-white"></i>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">Internet Satu Kota</h3>
+          <p class="text-sm text-slate-500 mb-4 leading-relaxed">Konektivitas terintegrasi yang menjadi tulang punggung digital.</p>
+          <span class="text-sm font-semibold text-blue-500 group-hover:text-blue-600 flex items-center justify-center gap-1 transition-colors">
+            Selengkapnya <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+          </span>
+        </a>
+
+        <!-- Pilar 2: Command Center -->
+        <a href="4-pilar/command-center.html" class="glass-card p-8 text-center group" data-animate data-animate-delay="200">
+          <div class="w-16 h-16 mx-auto mb-5 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-2xl flex items-center justify-center shadow-lg shadow-emerald-500/20 group-hover:shadow-emerald-500/40 transition-shadow">
+            <i data-lucide="monitor" class="w-7 h-7 text-white"></i>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">Command Center</h3>
+          <p class="text-sm text-slate-500 mb-4 leading-relaxed">Pusat kendali terpadu untuk keputusan berbasis data yang cepat.</p>
+          <span class="text-sm font-semibold text-blue-500 group-hover:text-blue-600 flex items-center justify-center gap-1 transition-colors">
+            Selengkapnya <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+          </span>
+        </a>
+
+        <!-- Pilar 3: Aplikasi Satu Data -->
+        <a href="4-pilar/aplikasi-satu-data.html" class="glass-card p-8 text-center group" data-animate data-animate-delay="300">
+          <div class="w-16 h-16 mx-auto mb-5 bg-gradient-to-br from-violet-500 to-violet-600 rounded-2xl flex items-center justify-center shadow-lg shadow-violet-500/20 group-hover:shadow-violet-500/40 transition-shadow">
+            <i data-lucide="smartphone" class="w-7 h-7 text-white"></i>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">Aplikasi Satu Data</h3>
+          <p class="text-sm text-slate-500 mb-4 leading-relaxed">Platform integrasi data untuk menjamin ketersediaan informasi akurat.</p>
+          <span class="text-sm font-semibold text-blue-500 group-hover:text-blue-600 flex items-center justify-center gap-1 transition-colors">
+            Selengkapnya <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+          </span>
+        </a>
+
+        <!-- Pilar 4: Data Center -->
+        <a href="4-pilar/data-center.html" class="glass-card p-8 text-center group" data-animate data-animate-delay="400">
+          <div class="w-16 h-16 mx-auto mb-5 bg-gradient-to-br from-amber-500 to-amber-600 rounded-2xl flex items-center justify-center shadow-lg shadow-amber-500/20 group-hover:shadow-amber-500/40 transition-shadow">
+            <i data-lucide="database" class="w-7 h-7 text-white"></i>
+          </div>
+          <h3 class="text-lg font-bold text-slate-900 mb-2">Data Center</h3>
+          <p class="text-sm text-slate-500 mb-4 leading-relaxed">Fasilitas penyimpanan terpusat sebagai fondasi utama ekosistem digital.</p>
+          <span class="text-sm font-semibold text-blue-500 group-hover:text-blue-600 flex items-center justify-center gap-1 transition-colors">
+            Selengkapnya <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ FILOSOFI & RINGKASAN ═══════════ -->
+  <section id="ringkasan" class="py-20 lg:py-28 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+        <!-- Image -->
+        <div data-animate="fade-in-left">
+          <div class="relative rounded-2xl overflow-hidden shadow-2xl">
+            <img src="../assets/img/smart-city-vision-with-officials.png" alt="Visi Smart City" class="w-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-900/30 to-transparent"></div>
+          </div>
+        </div>
+
+        <!-- Content -->
+        <div>
+          <span class="inline-block px-3 py-1 bg-blue-50 text-blue-600 text-xs font-semibold rounded-full tracking-wide mb-4" data-animate>VISI KOTA 4.0</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-6" data-animate data-animate-delay="100">
+            Definisi dan Filosofi <span class="gradient-text">Kota 4.0</span>
+          </h2>
+          <p class="text-slate-500 leading-relaxed mb-8" data-animate data-animate-delay="200">
+            Visi Baubau 4.0 adalah evolusi dari konsep 'smart city'. Tujuannya bukan sekadar mengimplementasikan teknologi, melainkan memberdayakan warga untuk menyelesaikan masalah kota melalui data besar dan kolaborasi.
+          </p>
+
+          <!-- Feature boxes -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+            <div class="flex items-start gap-4 p-4 bg-white rounded-xl border border-slate-100 shadow-sm" data-animate data-animate-delay="300">
+              <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                <i data-lucide="layers" class="w-5 h-5 text-blue-600"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-slate-900 text-sm mb-1">Pemerintah Fasilitator</h4>
+                <p class="text-xs text-slate-500">Bertransformasi dari penyedia layanan menjadi fasilitator inovasi.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4 p-4 bg-white rounded-xl border border-slate-100 shadow-sm" data-animate data-animate-delay="400">
+              <div class="w-10 h-10 bg-amber-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                <i data-lucide="users" class="w-5 h-5 text-amber-600"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-slate-900 text-sm mb-1">Masyarakat Co-Creator</h4>
+                <p class="text-xs text-slate-500">Warga didorong berperan aktif menyelesaikan masalah kota.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Counter Stats -->
+          <div class="grid grid-cols-3 gap-4" data-animate data-animate-delay="500">
+            <div class="text-center p-4 bg-white rounded-xl border border-slate-100 shadow-sm">
+              <p class="text-3xl font-extrabold gradient-text counter-value" data-count="4">0</p>
+              <p class="text-xs text-slate-500 mt-1 font-medium">Pilar Utama</p>
+            </div>
+            <div class="text-center p-4 bg-white rounded-xl border border-slate-100 shadow-sm">
+              <p class="text-3xl font-extrabold gradient-text counter-value" data-count="2">0</p>
+              <p class="text-xs text-slate-500 mt-1 font-medium">Tujuan Strategis</p>
+            </div>
+            <div class="text-center p-4 bg-white rounded-xl border border-slate-100 shadow-sm">
+              <p class="text-3xl font-extrabold gradient-text counter-value" data-count="10">0</p>
+              <p class="text-xs text-slate-500 mt-1 font-medium">Tahun Visi</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ LANDASAN FILOSOFIS ═══════════ -->
+  <section id="pendahuluan" class="hero-overlay py-20 lg:py-28" style="background-image: url('../assets/img/city-aerial-view-with-network-overlay.png')">
+    <div class="absolute inset-0 bg-gradient-to-br from-[#0f172a]/90 via-[#1e3a5f]/85 to-[#2F80ED]/70 z-[1]"></div>
+    <div class="relative z-[2] max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="inline-block px-3 py-1 bg-white/10 backdrop-blur-sm border border-white/20 text-amber-300 text-xs font-semibold rounded-full tracking-wide mb-4" data-animate>LANDASAN FILOSOFIS</span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mb-4" data-animate data-animate-delay="100">
+          Landasan Filosofis Transformasi Digital
+        </h2>
+        <p class="text-blue-100/70 leading-relaxed" data-animate data-animate-delay="200">
+          Visi strategis Kota 4.0 mewakili pergeseran paradigmatik dalam tata kelola perkotaan, berfokus pada kolaborasi, pemberdayaan masyarakat, dan inovasi berbasis data.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div class="glass-card-dark p-8" data-animate data-animate-delay="100">
+          <div class="w-12 h-12 bg-blue-500/20 rounded-xl flex items-center justify-center mb-4">
+            <i data-lucide="zap" class="w-6 h-6 text-blue-400"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">Melampaui Paradigma Kota Pintar</h3>
+          <p class="text-sm text-blue-100/60 leading-relaxed">Kota 4.0 adalah evolusi dari smart city, di mana fokusnya diperluas dari sekadar teknologi menjadi pembangunan ekosistem kolaboratif untuk memberdayakan warga.</p>
+        </div>
+        <div class="glass-card-dark p-8" data-animate data-animate-delay="200">
+          <div class="w-12 h-12 bg-emerald-500/20 rounded-xl flex items-center justify-center mb-4">
+            <i data-lucide="hand-helping" class="w-6 h-6 text-emerald-400"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">Pemerintah sebagai Fasilitator</h3>
+          <p class="text-sm text-blue-100/60 leading-relaxed">Peran pemerintah bertransformasi dari penyedia layanan menjadi fasilitator yang memungkinkan inovasi dan partisipasi publik dalam skala luas.</p>
+        </div>
+        <div class="glass-card-dark p-8" data-animate data-animate-delay="300">
+          <div class="w-12 h-12 bg-violet-500/20 rounded-xl flex items-center justify-center mb-4">
+            <i data-lucide="users" class="w-6 h-6 text-violet-400"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">Masyarakat sebagai Co-Creator</h3>
+          <p class="text-sm text-blue-100/60 leading-relaxed">Warga didorong untuk mengambil peran aktif sebagai co-creator dalam mengidentifikasi dan menyelesaikan permasalahan kota secara bersama-sama.</p>
+        </div>
+        <div class="glass-card-dark p-8" data-animate data-animate-delay="400">
+          <div class="w-12 h-12 bg-amber-500/20 rounded-xl flex items-center justify-center mb-4">
+            <i data-lucide="target" class="w-6 h-6 text-amber-400"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">Tujuan Ganda</h3>
+          <p class="text-sm text-blue-100/60 leading-relaxed">Menciptakan layanan publik yang lebih inovatif dan cerdas, sekaligus meningkatkan Pendapatan Asli Daerah (PAD) melalui digitalisasi yang efisien.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ POTENSI PAD CTA ═══════════ -->
+  <section id="potensi-pad" class="py-20 lg:py-28 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+        <div>
+          <span class="inline-block px-3 py-1 bg-amber-50 text-amber-600 text-xs font-semibold rounded-full tracking-wide mb-4" data-animate>DAMPAK STRATEGIS</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-6" data-animate data-animate-delay="100">
+            Potensi Peningkatan <span class="gradient-text">PAD</span>
+          </h2>
+          <p class="text-slate-500 leading-relaxed mb-8" data-animate data-animate-delay="200">
+            Dengan digitalisasi retribusi, potensi peningkatan Pendapatan Asli Daerah (PAD) Kota Baubau sangat signifikan. Transparansi dan kemudahan pembayaran akan meningkatkan kepatuhan wajib retribusi.
+          </p>
+          <a href="lainnya/potensi-pad.html" class="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-amber-400 to-amber-500 text-slate-900 font-semibold rounded-xl hover:from-amber-300 hover:to-amber-400 transition-all shadow-lg shadow-amber-500/20" data-animate data-animate-delay="300">
+            Lihat Detail Potensi PAD
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+        <div data-animate="fade-in-right" data-animate-delay="200">
+          <div class="rounded-2xl overflow-hidden shadow-xl border border-slate-100">
+            <img src="../assets/img/case-studyapp.png" alt="Potensi PAD" class="w-full">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════ KOLABORASI CTA ═══════════ -->
+  <section id="kolaborasi" class="py-20 lg:py-24 bg-gradient-to-br from-slate-50 to-blue-50">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+      <div class="w-16 h-16 mx-auto mb-6 bg-gradient-to-br from-blue-500 to-violet-600 rounded-2xl flex items-center justify-center shadow-lg" data-animate>
+        <i data-lucide="handshake" class="w-8 h-8 text-white"></i>
+      </div>
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-4" data-animate data-animate-delay="100">
+        Kolaborasi <span class="gradient-text">Lintas Sektor</span>
+      </h2>
+      <p class="text-lg text-slate-500 leading-relaxed mb-8 max-w-2xl mx-auto" data-animate data-animate-delay="200">
+        Transformasi digital ini akan melibatkan kolaborasi antara pemerintah, akademisi, komunitas, dan sektor swasta untuk menciptakan ekosistem inovasi yang berkelanjutan.
+      </p>
+      <a href="lainnya/kolaborasi.html" class="inline-flex items-center gap-2 px-8 py-3.5 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold rounded-xl hover:from-blue-400 hover:to-blue-500 transition-all shadow-lg shadow-blue-500/20 hover:shadow-blue-500/40" data-animate data-animate-delay="300">
+        Selengkapnya tentang Kolaborasi
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ═══════════ VIDEO MODAL ═══════════ -->
+  <div id="video-modal" class="fixed inset-0 z-[100] hidden items-center justify-center bg-black/80 backdrop-blur-sm p-4">
+    <div class="relative w-full max-w-5xl">
+      <button data-close-video class="absolute -top-10 right-0 text-white/70 hover:text-white transition-colors cursor-pointer">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+      <div class="relative w-full" style="padding-bottom: 56.25%;">
+        <iframe id="yt-iframe" data-src="https://www.youtube.com/embed/4S68eZGFue8" class="absolute inset-0 w-full h-full rounded-2xl" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   </div>
-  <!-- ========================= preloader end ========================= -->
 
-  <!-- ========================= hero-section-wrapper-2 start ========================= -->
-  <section id="home" class="hero-section-wrapper-2">
-    <div id="header-placeholder"></div>
-
-    <!-- ========================= hero-2 start ========================= -->
-    <div class="hero-section hero-style-2">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10 mx-auto px-4 py-5">
-            <div class="hero-content-wrapper text-center" style="position: relative; z-index: 1;">
-              <div class="hero-image mb-30 wow fadeInDown" data-wow-delay=".2s"
-                style="position: relative; cursor: pointer;" data-bs-toggle="modal" data-bs-target="#videoModal">
-                <img src="assets/img/baubau-4.0-main-concept-graphic.png" alt="Konsep Utama Baubau 4.0"
-                  style="max-width: 100%; margin: auto; display: block;">
-                <div class="video-play-button">
-                  <i class="lni lni-play"></i>
-                </div>
-              </div>
-              <h4 class="wow fadeInUp" data-wow-delay=".2s">Visi Baubau Kota 4.0</h4>
-              <h2 class="mb-30 wow fadeInUp" data-wow-delay=".4s">Mewujudkan Ekosistem Kolaboratif Berbasis Data dan
-                Inovasi</h2>
-              <p class="mb-50 wow fadeInUp" data-wow-delay=".6s">Evolusi dari “smart city” konvensional, dengan fokus
-                yang diperluas dari sekadar teknologi menjadi pembangunan ekosistem kolaboratif yang didukung oleh data
-                besar dan partisipasi aktif masyarakat.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- ========================= hero-2 end ========================= -->
-  </section>
-  <!-- ========================= hero-section-wrapper-2 end ========================= -->
-
-  <!-- ========================= 4 Pilar Utama Section Start ========================= -->
-  <section id="pilar-utama" class="feature-section pt-120 pb-90">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8">
-          <div class="section-title text-center mb-60">
-            <h3 class="mb-15 wow fadeInUp" data-wow-delay=".2s">4 Pilar Utama Transformasi Digital</h3>
-            <p class="wow fadeInUp" data-wow-delay=".4s">Transformasi digital Kota Baubau didukung oleh empat pilar
-              strategis yang saling terintegrasi, membentuk ekosistem digital yang kokoh untuk pelayanan publik dan tata
-              kelola pemerintahan yang efisien.</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 col-md-6">
-          <div class="pilar-card wow fadeInUp" data-wow-delay=".2s">
-            <div class="icon"><i class="lni lni-world-alt"></i></div>
-            <div class="content">
-              <h5 class="mb-20">Internet Satu Kota</h5>
-              <p>Konektivitas terintegrasi yang menjadi tulang punggung digital.</p>
-              <a href="internet_satu_kota.html" class="button-sm border-button">Selengkapnya</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="pilar-card wow fadeInUp" data-wow-delay=".4s">
-            <div class="icon"><i class="lni lni-display-alt"></i></div>
-            <div class="content">
-              <h5 class="mb-20">Command Center</h5>
-              <p>Pusat kendali terpadu untuk keputusan berbasis data yang cepat.</p>
-              <a href="command_center.html" class="button-sm border-button">Selengkapnya</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="pilar-card wow fadeInUp" data-wow-delay=".6s">
-            <div class="icon"><i class="lni lni-mobile"></i></div>
-            <div class="content">
-              <h5 class="mb-20">Aplikasi Satu Data</h5>
-              <p>Platform integrasi data untuk menjamin ketersediaan informasi akurat.</p>
-              <a href="aplikasi_satu_data.html" class="button-sm border-button">Selengkapnya</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="pilar-card wow fadeInUp" data-wow-delay=".8s">
-            <div class="icon"><i class="lni lni-database"></i></div>
-            <div class="content">
-              <h5 class="mb-20">Data Center</h5>
-              <p>Fasilitas penyimpanan terpusat sebagai fondasi utama ekosistem digital.</p>
-              <a href="data_center.html" class="button-sm border-button">Selengkapnya</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- ========================= 4 Pilar Utama Section End ========================= -->
-
-  <div id="additional-sections-placeholder"></div>
-
-  <!-- ========================= about style-3 start ========================= -->
-  <section id="ringkasan" class="about-section about-style-3">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6">
-          <div class="about-image wow fadeInLeft" data-wow-delay=".2s">
-            <img src="assets/img/smart-city-vision-with-officials.png" alt="Visi Smart City dengan Pejabat">
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="about-content-wrapper">
-            <div class="section-title mb-40">
-              <h3 class="mb-25 wow fadeInUp" data-wow-delay=".2s">Definisi dan Filosofi Kota 4.0</h3>
-              <p class="wow fadeInUp" data-wow-delay=".4s">Visi Baubau 4.0 adalah evolusi dari konsep 'smart city'.
-                Tujuannya bukan sekadar mengimplementasikan teknologi, melainkan memberdayakan warga untuk menyelesaikan
-                masalah kota melalui data besar dan kolaborasi.</p>
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="single-feature wow fadeInUp" data-wow-delay=".5s">
-                  <div class="icon" style="font-size: 36px;"><i class="lni lni-layers"></i></div>
-                  <div class="content">
-                    <h6>Pemerintah Fasilitator</h6>
-                    <p>Bertransformasi dari penyedia layanan menjadi fasilitator inovasi.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
-                  <div class="icon" style="font-size: 36px;"><i class="lni lni-users"></i></div>
-                  <div class="content">
-                    <h6>Masyarakat Co-Creator</h6>
-                    <p>Warga didorong untuk berperan aktif dalam menyelesaikan masalah kota.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="counter-up-wrapper mt-30 wow fadeInUp" data-wow-delay=".7s">
-              <div class="row">
-                <div class="col-sm-4">
-                  <div class="single-counter">
-                    <h3 class="countup" count="4">4</h3>
-                    <p>Pilar Utama</p>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="single-counter">
-                    <h3 class="countup" count="2">2</h3>
-                    <p>Tujuan Strategis</p>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="single-counter">
-                    <h3 class="countup" count="10">10</h3>
-                    <p>Tahun Visi</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- ========================= about style-3 end ========================= -->
-
-  <!-- ========================= feature style-2 start ========================= -->
-  <section id="pendahuluan" class="feature-section feature-style-2">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="row">
-          <div class="col-xl-12">
-            <div class="section-title mb-60 text-center">
-              <h3 class="mb-15 wow fadeInUp" data-wow-delay=".2s">Landasan Filosofis Transformasi Digital</h3>
-              <p class="wow fadeInUp" data-wow-delay=".4s">Visi strategis Kota 4.0 mewakili pergeseran paradigmatik
-                dalam tata kelola perkotaan, berfokus pada kolaborasi, pemberdayaan masyarakat, dan inovasi berbasis
-                data.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row align-items-center">
-          <div class="col-md-6">
-            <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
-              <div class="icon">
-                <i class="lni lni-vector"></i>
-              </div>
-              <div class="content">
-                <h5 class="mb-25">Melampaui Paradigma Kota Pintar</h5>
-                <p>Kota 4.0 adalah evolusi dari smart city, di mana fokusnya diperluas dari sekadar teknologi menjadi
-                  pembangunan ekosistem kolaboratif untuk memberdayakan warga.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
-              <div class="icon">
-                <i class="lni lni-layers"></i>
-              </div>
-              <div class="content">
-                <h5 class="mb-25">Pemerintah sebagai Fasilitator</h5>
-                <p>Peran pemerintah bertransformasi dari penyedia layanan menjadi fasilitator yang memungkinkan inovasi
-                  dan partisipasi publik dalam skala luas.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
-              <div class="icon">
-                <i class="lni lni-users"></i>
-              </div>
-              <div class="content">
-                <h5 class="mb-25">Masyarakat sebagai Co-Creator</h5>
-                <p>Warga didorong untuk mengambil peran aktif sebagai co-creator dalam mengidentifikasi dan
-                  menyelesaikan permasalahan kota secara bersama-sama.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="single-feature wow fadeInUp" data-wow-delay=".8s">
-              <div class="icon">
-                <i class="lni lni-target-arrow"></i>
-              </div>
-              <div class="content">
-                <h5 class="mb-25">Tujuan Ganda</h5>
-                <p>Menciptakan layanan publik yang lebih inovatif dan cerdas, sekaligus meningkatkan Pendapatan Asli
-                  Daerah (PAD) melalui digitalisasi yang efisien.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-  <!-- ========================= Video Modal Start ========================= -->
-  <div class="modal fade modal-video" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-fullscreen">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <div class="ratio ratio-16x9">
-            <iframe id="youtubeVideo" src="https://www.youtube.com/embed/4S68eZGFue8" title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- ========================= Video Modal End ========================= -->
-
-  <!-- ========================= feature style-2 end ========================= -->
+  <!-- ═══ Footer ═══ -->
   <div id="footer-placeholder"></div>
 
-  <!-- ========================= JS here ========================= -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-  <script src="assets/js/count-up.min.js"></script>
-  <script src="assets/js/wow.min.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/templating.js"></script>
-
-  <script>
-    const videoModal = document.getElementById('videoModal');
-    const youtubeVideo = document.getElementById('youtubeVideo');
-    const originalVideoSrc = youtubeVideo.src;
-
-    videoModal.addEventListener('shown.bs.modal', () => {
-      // Append autoplay parameter when modal is shown
-      youtubeVideo.src = originalVideoSrc + "?autoplay=1";
-    });
-
-    videoModal.addEventListener('hide.bs.modal', () => {
-      // Remove autoplay parameter when modal is hidden to stop the video
-      youtubeVideo.src = originalVideoSrc;
-    });
-  </script>
+  <!-- ═══ Scripts ═══ -->
+  <script src="js/main.js"></script>
+  <script>lucide.createIcons();</script>
 </body>
-
 </html>

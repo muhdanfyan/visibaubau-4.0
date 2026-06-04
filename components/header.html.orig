@@ -1,0 +1,128 @@
+<!-- ═══════════════ Baubau 4.0 — Header Component ═══════════════ -->
+<header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16 lg:h-20">
+
+      <!-- Logo -->
+      <a href="{{BASE}}index.html" class="flex items-center gap-2.5 group" id="nav-logo">
+        <img src="{{ASSET}}img/logo/logobaubau4.0.png" alt="Logo Baubau 4.0" class="h-10 w-auto transition-transform group-hover:scale-105">
+        <span class="text-lg font-bold text-white header-logo-text transition-colors">Baubau<span class="text-amber-400">4.0</span></span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden lg:flex items-center gap-1" id="desktop-nav">
+        <a href="{{BASE}}index.html" class="px-3 py-2 text-sm font-medium text-white/90 hover:text-white rounded-lg hover:bg-white/10 transition-all">Beranda</a>
+
+        <!-- Dropdown: Peta -->
+        <div class="relative" data-dropdown>
+          <button data-dropdown-trigger class="px-3 py-2 text-sm font-medium text-white/90 hover:text-white rounded-lg hover:bg-white/10 transition-all flex items-center gap-1">
+            Peta
+            <svg class="w-3.5 h-3.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div data-dropdown-menu class="absolute top-full left-0 mt-1 w-48 bg-white rounded-xl shadow-xl border border-gray-100 py-2 opacity-0 invisible scale-95 transition-all duration-200 origin-top-left">
+            <a href="{{BASE}}lainnya/peta-aset.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">Peta Aset</a>
+            <a href="{{BASE}}lainnya/peta-cctv.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">Peta CCTV</a>
+          </div>
+        </div>
+
+        <a href="{{BASE}}presentasi/index.html" class="px-3 py-2 text-sm font-medium text-white/90 hover:text-white rounded-lg hover:bg-white/10 transition-all">Presentasi</a>
+
+        <!-- Dropdown: 4 Pilar Utama -->
+        <div class="relative" data-dropdown>
+          <button data-dropdown-trigger class="px-3 py-2 text-sm font-medium text-white/90 hover:text-white rounded-lg hover:bg-white/10 transition-all flex items-center gap-1">
+            4 Pilar Utama
+            <svg class="w-3.5 h-3.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div data-dropdown-menu class="absolute top-full left-0 mt-1 w-56 bg-white rounded-xl shadow-xl border border-gray-100 py-2 opacity-0 invisible scale-95 transition-all duration-200 origin-top-left">
+            <a href="{{BASE}}4-pilar/internet-satu-kota.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">Internet Satu Kota</a>
+            <a href="{{BASE}}4-pilar/command-center.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">Command Center</a>
+            <a href="{{BASE}}4-pilar/aplikasi-satu-data.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">Aplikasi Satu Data</a>
+            <a href="{{BASE}}4-pilar/data-center.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">Data Center</a>
+          </div>
+        </div>
+
+        <!-- Dropdown: Lainnya -->
+        <div class="relative" data-dropdown>
+          <button data-dropdown-trigger class="px-3 py-2 text-sm font-medium text-white/90 hover:text-white rounded-lg hover:bg-white/10 transition-all flex items-center gap-1">
+            Lainnya
+            <svg class="w-3.5 h-3.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div data-dropdown-menu class="absolute top-full right-0 mt-1 w-52 bg-white rounded-xl shadow-xl border border-gray-100 py-2 opacity-0 invisible scale-95 transition-all duration-200 origin-top-right">
+            <a href="{{BASE}}lainnya/kolaborasi.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">Kolaborasi</a>
+            <a href="{{BASE}}lainnya/potensi-pad.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">Potensi PAD</a>
+            <a href="{{BASE}}lainnya/visi-misi.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">Visi & Misi</a>
+            <a href="{{BASE}}lainnya/roadmap.html" class="block px-4 py-2.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">Roadmap</a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobile-menu-btn" class="lg:hidden flex flex-col gap-1.5 p-2 rounded-lg hover:bg-white/10 transition-colors" aria-label="Toggle menu" aria-expanded="false">
+        <span class="hamburger-bar block w-6 h-0.5 bg-white rounded transition-all duration-300"></span>
+        <span class="hamburger-bar block w-6 h-0.5 bg-white rounded transition-all duration-300"></span>
+        <span class="hamburger-bar block w-4 h-0.5 bg-white rounded transition-all duration-300 ml-auto"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden lg:hidden bg-white/95 backdrop-blur-xl border-t border-gray-100 shadow-xl">
+    <div class="max-w-7xl mx-auto px-4 py-4 space-y-1">
+      <a href="{{BASE}}index.html" class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors font-medium">Beranda</a>
+
+      <!-- Mobile Dropdown: Peta -->
+      <div>
+        <a href="#" data-mobile-dropdown-trigger class="flex items-center justify-between px-4 py-3 text-gray-700 hover:bg-blue-50 rounded-lg transition-colors font-medium">
+          Peta <svg class="dropdown-icon w-4 h-4 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </a>
+        <div class="hidden pl-4 space-y-1">
+          <a href="{{BASE}}lainnya/peta-aset.html" class="block px-4 py-2.5 text-sm text-gray-600 hover:text-blue-600 rounded-lg">Peta Aset</a>
+          <a href="{{BASE}}lainnya/peta-cctv.html" class="block px-4 py-2.5 text-sm text-gray-600 hover:text-blue-600 rounded-lg">Peta CCTV</a>
+        </div>
+      </div>
+
+      <a href="{{BASE}}presentasi/index.html" class="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors font-medium">Presentasi</a>
+
+      <!-- Mobile Dropdown: 4 Pilar -->
+      <div>
+        <a href="#" data-mobile-dropdown-trigger class="flex items-center justify-between px-4 py-3 text-gray-700 hover:bg-blue-50 rounded-lg transition-colors font-medium">
+          4 Pilar Utama <svg class="dropdown-icon w-4 h-4 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </a>
+        <div class="hidden pl-4 space-y-1">
+          <a href="{{BASE}}4-pilar/internet-satu-kota.html" class="block px-4 py-2.5 text-sm text-gray-600 hover:text-blue-600 rounded-lg">Internet Satu Kota</a>
+          <a href="{{BASE}}4-pilar/command-center.html" class="block px-4 py-2.5 text-sm text-gray-600 hover:text-blue-600 rounded-lg">Command Center</a>
+          <a href="{{BASE}}4-pilar/aplikasi-satu-data.html" class="block px-4 py-2.5 text-sm text-gray-600 hover:text-blue-600 rounded-lg">Aplikasi Satu Data</a>
+          <a href="{{BASE}}4-pilar/data-center.html" class="block px-4 py-2.5 text-sm text-gray-600 hover:text-blue-600 rounded-lg">Data Center</a>
+        </div>
+      </div>
+
+      <!-- Mobile Dropdown: Lainnya -->
+      <div>
+        <a href="#" data-mobile-dropdown-trigger class="flex items-center justify-between px-4 py-3 text-gray-700 hover:bg-blue-50 rounded-lg transition-colors font-medium">
+          Lainnya <svg class="dropdown-icon w-4 h-4 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+        </a>
+        <div class="hidden pl-4 space-y-1">
+          <a href="{{BASE}}lainnya/kolaborasi.html" class="block px-4 py-2.5 text-sm text-gray-600 hover:text-blue-600 rounded-lg">Kolaborasi</a>
+          <a href="{{BASE}}lainnya/potensi-pad.html" class="block px-4 py-2.5 text-sm text-gray-600 hover:text-blue-600 rounded-lg">Potensi PAD</a>
+          <a href="{{BASE}}lainnya/visi-misi.html" class="block px-4 py-2.5 text-sm text-gray-600 hover:text-blue-600 rounded-lg">Visi & Misi</a>
+          <a href="{{BASE}}lainnya/roadmap.html" class="block px-4 py-2.5 text-sm text-gray-600 hover:text-blue-600 rounded-lg">Roadmap</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<style>
+  /* Header text color changes when scrolled */
+  .header-scrolled .header-logo-text { color: #1e3a5f !important; }
+  .header-scrolled #desktop-nav a,
+  .header-scrolled #desktop-nav button { color: rgba(30,58,95,0.8) !important; }
+  .header-scrolled #desktop-nav a:hover,
+  .header-scrolled #desktop-nav button:hover { color: #2F80ED !important; background: rgba(47,128,237,0.06) !important; }
+  .header-scrolled .hamburger-bar { background: #1e3a5f !important; }
+  .header-scrolled .header-logo-text span { color: #F59E0B !important; }
+  /* Hamburger active animation */
+  .hamburger-bar.active:nth-child(1) { transform: translateY(4px) rotate(45deg); }
+  .hamburger-bar.active:nth-child(2) { opacity: 0; }
+  .hamburger-bar.active:nth-child(3) { width: 1.5rem; transform: translateY(-4px) rotate(-45deg); }
+</style>

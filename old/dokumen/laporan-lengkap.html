@@ -1,70 +1,247 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Laporan Lengkap - Transformasi Digital Kota Baubau 4.0</title>
-  <link rel="icon" href="../../assets/img/logo/logobaubau4.0.png" type="image/png">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>tailwind.config={theme:{extend:{colors:{primary:{DEFAULT:'#2F80ED',dark:'#1e3a5f',light:'#4A9AF5'},accent:{DEFAULT:'#F59E0B',light:'#FCD34D'}},fontFamily:{sans:['Plus Jakarta Sans','system-ui','sans-serif']}}}}</script>
-  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
-  <link rel="stylesheet" href="../css/style.css">
-  <style>
-    /* Legacy Document Styles */
-    .document-container { background: #e0e0e0; font-family: 'Times New Roman', serif; padding: 20px 0; color: #333; }
-    .document-container .page {
-        width: 21cm;
-        min-height: 29.7cm;
-        padding: 1.5cm;
-        margin: 0 auto 1.5cm;
-        background: white;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        position: relative;
-        box-sizing: border-box;
-    }
-    .document-container .page-cover { display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
-    .document-container .page-cover .logo { width: 120px; margin-bottom: 30px; }
-    .document-container .page-cover h1 { font-family: 'Georgia', serif; font-size: 2.5rem; color: #1a237e; margin-bottom: 15px; font-weight:bold; border:none; }
-    .document-container .page-cover h2 { font-size: 1.4rem; color: #555; font-weight: 400; border:none; }
-    .document-container .page-footer { position: absolute; bottom: 1cm; left: 1.5cm; right: 1.5cm; text-align: center; font-size: 9pt; color: #999; }
-    .document-container h1, .document-container h2, .document-container h3, .document-container h4 { font-weight: 700; color: #1a237e; margin-top: 15px; margin-bottom: 10px; border-bottom: 2px solid #dfe3ee; padding-bottom: 6px; }
-    .document-container h1 { font-size: 18pt; }
-    .document-container h2 { font-size: 15pt; }
-    .document-container h3 { font-size: 13pt; }
-    .document-container p, .document-container li { font-size: 11pt; line-height: 1.6; text-align: justify; }
-    .document-container ul, .document-container ol { padding-left: 20px; margin-bottom: 10px; }
-    .document-container .content-img { max-width: 75%; margin: 15px auto; display: block; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
-    .document-container .full-width-img { max-width: 100%; }
-    .document-container table { width: 100%; border-collapse: collapse; margin-bottom: 15px; font-size: 10pt; }
-    .document-container th, .document-container td { border: 1px solid #ddd; padding: 8px; }
-    .document-container th { background-color: #f2f2f2; font-weight: bold; text-align: left; }
-    .document-container .info-card { background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #3B5998; margin-bottom:15px; }
-    .document-container .info-card h5 { font-weight: 700; color: #3B5998; margin-bottom: 5px; font-size: 11pt; border:none; }
-    @media (max-width: 768px) {
-        .document-container .page { width: 100%; padding: 20px; margin-bottom: 20px; min-height:auto; }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Lengkap - Transformasi Digital Kota Baubau</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap-5.0.0-alpha-2.min.css" />
+    <link rel="stylesheet" href="../assets/css/LineIcons.2.0.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Garamond:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: #e0e0e0;
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+        }
+        .page {
+            width: 21cm;
+            min-height: 29.7cm;
+            padding: 1.5cm;
+            margin: 1.5cm auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+            position: relative;
+            page-break-after: always;
+        }
+        .page-cover {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .page-cover .logo {
+            width: 120px;
+            margin-bottom: 30px;
+        }
+        .page-cover h1 {
+            font-family: 'Garamond', serif;
+            font-size: 2.8rem;
+            color: #1a237e;
+            margin-bottom: 15px;
+        }
+        .page-cover h2 {
+            font-size: 1.4rem;
+            color: #555;
+            font-weight: 400;
+        }
+        .page-footer {
+            position: absolute;
+            bottom: 1cm;
+            left: 1.5cm;
+            right: 1.5cm;
+            text-align: center;
+            font-size: 9pt;
+            color: #999;
+        }
+        h1, h2, h3, h4 {
+            font-weight: 700;
+            color: #1a237e;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #dfe3ee;
+            padding-bottom: 6px;
+        }
+        h1 { font-size: 22pt; }
+        h2 { font-size: 18pt; }
+        h3 { font-size: 15pt; }
+        h4 { font-size: 13pt; border-bottom: 1px solid #eee; }
+        p, li {
+            font-size: 11pt;
+            line-height: 1.5;
+            text-align: justify;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 10px;
+        }
+        .content-img {
+            max-width: 75%;
+            margin: 15px auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .full-width-img {
+            max-width: 100%;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .info-card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #3B5998;
+            display: flex;
+            align-items: center;
+        }
+        .info-card .icon {
+            font-size: 2rem;
+            color: #3B5998;
+            margin-right: 12px;
+        }
+        .info-card h5 {
+            font-weight: 700;
+            color: #3B5998;
+            margin-bottom: 5px;
+            font-size: 11pt;
+            border-bottom: none;
+        }
+        .info-card p {
+            font-size: 10pt;
+            margin-bottom: 0;
+        }
+        .problem-list li {
+            position: relative;
+            padding-left: 22px;
+            margin-bottom: 8px;
+        }
+        .problem-list li::before {
+            content: '❌';
+            position: absolute;
+            left: 0;
+            color: #E53935;
+            font-size: 12px;
+        }
+
+        .strategy-card {
+            background: #fff;
+            border: 1px solid #dfe3ee;
+            padding: 20px;
+            border-radius: 8px;
+            height: 100%;
+        }
+        .strategy-card h5 {
+            display: flex;
+            align-items: center;
+            font-size: 13pt;
+            color: #1a237e;
+            border-bottom: none;
+            margin-bottom: 10px;
+        }
+        .strategy-card .icon {
+            font-size: 1.8rem;
+            margin-right: 12px;
+            color: #3B5998;
+        }
+        .strategy-card ul {
+            margin-top: 10px;
+            padding-left: 18px;
+            text-align: left;
+        }
+        .card-grid-3-col {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .feature-box {
+            text-align: center;
+            padding: 15px;
+        }
+        .feature-box .icon {
+            font-size: 2.5rem;
+            color: #3B5998;
+            margin-bottom: 10px;
+            display: block;
+        }
+        .feature-box h5 {
+            font-size: 12pt;
+            color: #1a237e;
+            margin-bottom: 5px;
+            border-bottom: none;
+        }
+        .feature-box p {
+            font-size: 9pt;
+            line-height: 1.4;
+            text-align: center;
+        }
+
+        .two-column-layout {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            align-items: center;
+            margin-top: 15px;
+        }
+
+        @media print {
+            body {
+                background: white;
+            }
+            .page {
+                width: auto;
+                min-height: auto;
+                margin: 0;
+                padding: 1.5cm;
+                box-shadow: none;
+                border: none;
+                page-break-after: always;
+            }
+            .page-footer {
+                position: fixed;
+            }
+            .print-fab {
+                display: none;
+            }
+        }
+
+        .print-fab {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            width: 60px;
+            height: 60px;
+            background-color: #3B5998;
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+        .print-fab:hover {
+            background-color: #2c487d;
+            transform: scale(1.05);
+        }
+    </style>
 </head>
-<body class="font-sans antialiased bg-slate-50">
-  <div id="header-placeholder"></div>
-
-  <main class="pt-24 pb-20">
-    <div class="max-w-7xl mx-auto px-4 mb-8 flex justify-between items-end">
-      <div>
-        <h1 class="text-3xl font-bold text-slate-900 mb-2">Laporan Lengkap</h1>
-        <p class="text-slate-500">Pratinjau Dokumen Resmi Baubau 4.0</p>
-      </div>
-      <button onclick="window.print()" class="hidden md:flex px-4 py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition-colors items-center gap-2">
-        <i data-lucide="printer" class="w-4 h-4"></i> Cetak Dokumen
-      </button>
-    </div>
-
-    <div class="document-container w-full overflow-x-auto">
-
+<body>
 
     <!-- Cover Page -->
     <div class="page page-cover">
-        <img src="../../assets/img/logo/logobaubau4.0.png" alt="Logo Baubau 4.0" class="logo">
+        <img src="../assets/img/logo/logobaubau4.0.png" alt="Logo Baubau 4.0" class="logo">
         <h1>Proposal Strategis: Optimalisasi PAD Melalui Transformasi Digital Retribusi</h1>
         <h2>Studi Kasus: Evolusi Sistem E-Retribusi Sipanda 2.0 Kota Baubau</h2>
         <div class="page-footer">Transformasi Digital Retribusi Daerah Kota Baubau</div>
@@ -80,7 +257,7 @@
                 <p>Dengan digitalisasi retribusi, potensi peningkatan Pendapatan Asli Daerah (PAD) Kota Baubau sangat signifikan. Transparansi dan kemudahan pembayaran akan meningkatkan kepatuhan wajib retribusi, mengurangi kebocoran, dan membuka sumber pendapatan baru. Langkah ini adalah fondasi untuk kemandirian fiskal daerah.</p>
             </div>
             <div>
-                <img src="../../assets/img/case-studyapp.png" alt="Potensi PAD" class="content-img">
+                <img src="../assets/img/case-studyapp.png" alt="Potensi PAD" class="content-img">
             </div>
         </div>
 
@@ -115,7 +292,7 @@
                 <p>Visi Baubau 4.0 ditopang oleh empat pilar utama yang menjadi akselerator peningkatan PAD dan layanan publik. Keempat pilar ini bekerja secara sinergis untuk menciptakan ekosistem digital yang komprehensif.</p>
             </div>
             <div>
-                <img src="../../assets/img/four-pillars-infographic.png" alt="4 Pilar Transformasi" class="content-img full-width-img">
+                <img src="../assets/img/four-pillars-infographic.png" alt="4 Pilar Transformasi" class="content-img full-width-img">
             </div>
         </div>
 
@@ -148,7 +325,7 @@
         <h2>2.1. Latar Belakang dan Tujuan</h2>
         <p>Pengelolaan retribusi daerah di Kota Baubau menghadapi tantangan seperti sistem manual yang rentan kesalahan dan kurangnya transparansi. Menjawab tantangan tersebut dan didukung oleh Perda No 1 Tahun 2024, aplikasi E-Retribusi diusulkan sebagai langkah transformasi digital mendasar.</p>
         <p>Tujuannya adalah membangun sistem terintegrasi untuk mengoptimalkan penerimaan retribusi, meningkatkan kepatuhan wajib retribusi melalui kemudahan pembayaran, dan menciptakan tata kelola yang transparan serta akuntabel, sejalan dengan visi Baubau Smart City.</p>
-        <img src="../../assets/img/baubau-4.0-hero-graphic-transparent-duplicate.png" alt="Konsep Aplikasi E-Retribusi" class="content-img">
+        <img src="../assets/img/baubau-4.0-hero-graphic-transparent-duplicate.png" alt="Konsep Aplikasi E-Retribusi" class="content-img">
         <div class="page-footer">Halaman 3</div>
     </div>
 
@@ -243,14 +420,9 @@
         <div class="page-footer">Halaman 6</div>
     </div>
 
-    
-
-
+    <div class="print-fab" onclick="window.print()">
+        <i class="lni lni-printer"></i>
     </div>
-  </main>
 
-  <div id="footer-placeholder"></div>
-  <script src="../js/main.js"></script>
-  <script>lucide.createIcons();</script>
 </body>
 </html>

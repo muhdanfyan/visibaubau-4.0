@@ -1,0 +1,27 @@
+--- new/js/main.js
++++ new/js/main.js
+@@ -4,15 +4,11 @@
+ document.addEventListener('DOMContentLoaded', () => {
+   // ─── Detect base path from current page depth ───
+   const getBasePath = () => {
+-    const path = window.location.pathname;
+-    const depth = (path.match(/\//g) || []).length - 1;
+-    // For local file:// and for deployed paths
+-    const segments = path.split('/').filter(Boolean);
+-    const newIndex = segments.indexOf('new');
+-    if (newIndex === -1) return './';
+-    const afterNew = segments.slice(newIndex + 1);
+-    // Remove the filename from count
+-    const dirs = afterNew.length > 0 && afterNew[afterNew.length - 1].includes('.') 
+-      ? afterNew.length - 1 
+-      : afterNew.length;
+-    if (dirs === 0) return './';
+-    return '../'.repeat(dirs);
++    const script = document.querySelector('script[src$="js/main.js"]');
++    if (script) {
++      const src = script.getAttribute('src');
++      const base = src.replace('js/main.js', '');
++      return base === '' ? './' : base;
++    }
++    return './';
+   };
