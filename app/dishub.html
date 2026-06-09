@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dishub — Ekosistem Transportasi & Retribusi Digital | Baubau 4.0</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+    }
+    .glass {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .glass-card {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      transition: all 0.3s ease;
+    }
+    .glass-card:hover {
+      transform: translateY(-4px);
+      background: rgba(255, 255, 255, 0.12);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    }
+    .gold {
+      color: #C9A96E;
+    }
+    .gold-bg {
+      background: #C9A96E;
+    }
+    .gold-border {
+      border-color: #C9A96E;
+    }
+    .primary {
+      color: #1A5276;
+    }
+    section {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.8s ease;
+    }
+    section.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #1e293b;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #C9A96E;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #b8944a;
+    }
+    .badge {
+      display: inline-block;
+      padding: 2px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    .badge-green {
+      background: rgba(16, 185, 129, 0.2);
+      color: #10B981;
+    }
+    .badge-yellow {
+      background: rgba(245, 158, 11, 0.2);
+      color: #F59E0B;
+    }
+    .badge-blue {
+      background: rgba(59, 130, 246, 0.2);
+      color: #3B82F6;
+    }
+    .badge-red {
+      background: rgba(239, 68, 68, 0.2);
+      color: #EF4444;
+    }
+  </style>
+</head>
+
+<body class="text-white min-h-screen">
+  <!-- NAV -->
+  <nav class="glass fixed w-full z-50 top-0 border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16 items-center">
+        <a href="/" class="flex items-center gap-2">
+          <span class="text-xl font-bold gold">Baubau<span class="text-white">4.0</span></span>
+        </a>
+        <div class="hidden md:flex items-center gap-6 text-sm text-gray-300">
+          <a href="/" class="hover:text-white transition">Beranda</a>
+          <a href="/4-pilar/internet-satu-kota.html" class="hover:text-white transition">4 Pilar</a>
+          <a href="#" class="gold font-semibold">Dishub</a>
+          <a href="/lainnya/kolaborasi.html" class="hover:text-white transition">Kolaborasi</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="min-h-screen flex items-center pt-16 pb-20 px-4" id="hero">
+    <div class="max-w-7xl mx-auto w-full">
+      <div class="flex flex-col lg:flex-row items-center gap-12">
+        <div class="flex-1">
+          <div class="badge badge-blue mb-4">Dinas Perhubungan</div>
+          <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
+            Ekosistem Digital <span class="gold">Dishub</span>
+            <br>Kota Baubau
+          </h1>
+          <p class="text-lg text-gray-300 mb-8 max-w-2xl">
+            Transformasi digital layanan transportasi dan retribusi daerah di bawah
+            Dinas Perhubungan Kota Baubau — dari manajemen parkir, terminal, hingga
+            pengujian kendaraan bermotor dalam satu ekosistem terpadu.
+          </p>
+          <div class="flex flex-wrap gap-4">
+            <a href="#ekosistem" class="inline-flex items-center gap-2 gold-bg text-gray-900 font-semibold px-6 py-3 rounded-xl hover:bg-yellow-400 transition">
+              Jelajahi Ekosistem
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+              </svg>
+            </a>
+            <a href="#data" class="inline-flex items-center gap-2 glass-card text-white px-6 py-3 rounded-xl hover:bg-white/10 transition">
+              Lihat Data
+            </a>
+          </div>
+        </div>
+        <div class="flex-1 flex justify-center">
+          <div class="glass-card rounded-2xl p-8 w-full max-w-md text-center">
+            <div class="text-7xl mb-4">🚗</div>
+            <div class="text-3xl font-bold gold">2</div>
+            <div class="text-gray-400">OPD ID di MPAD</div>
+            <div class="grid grid-cols-2 gap-4 mt-6">
+              <div>
+                <div class="text-2xl font-bold text-white">4</div>
+                <div class="text-xs text-gray-400">Jenis Retribusi</div>
+              </div>
+              <div>
+                <div class="text-2xl font-bold text-white">3</div>
+                <div class="text-xs text-gray-400">Aplikasi Terkait</div>
+              </div>
+              <div>
+                <div class="text-2xl font-bold text-white">1</div>
+                <div class="text-xs text-gray-400">Repo Aktif</div>
+              </div>
+              <div>
+                <div class="text-2xl font-bold text-white">∞</div>
+                <div class="text-xs text-gray-400">Potensi PAD</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EKOSISTEM -->
+  <section class="py-20 px-4" id="ekosistem">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-16">
+        <span class="badge badge-yellow mb-2">Ekosistem</span>
+        <h2 class="text-3xl md:text-5xl font-bold mb-4">Layanan Dishub dalam <span class="gold">SPLP</span></h2>
+        <p class="text-gray-400 max-w-2xl mx-auto">
+          Empat layanan utama Dishub yang terintegrasi dalam Sistem Penghubung Layanan Pemerintah (SPLP)
+          melalui infrastruktur Internet Satu Kota.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="glass-card rounded-2xl p-6">
+          <div class="flex items-start gap-4">
+            <div class="text-4xl">🅿️</div>
+            <div>
+              <h3 class="text-xl font-bold gold mb-2">Retribusi Parkir Tepi Jalan Umum</h3>
+              <p class="text-gray-400 text-sm mb-3">Digitalisasi pungutan parkir di tepi jalan umum Kota Baubau dengan sistem pembayaran non-tunai terintegrasi.</p>
+              <div class="flex flex-wrap gap-2">
+                <span class="badge badge-green">SIPANDA 2.0</span>
+                <span class="badge badge-blue">E-Retribusi</span>
+                <span class="badge badge-yellow">Non-Tunai</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card rounded-2xl p-6">
+          <div class="flex items-start gap-4">
+            <div class="text-4xl">🏢</div>
+            <div>
+              <h3 class="text-xl font-bold gold mb-2">Retribusi Terminal</h3>
+              <p class="text-gray-400 text-sm mb-3">Pengelolaan terminal penumpang dan angkutan umum — retribusi masuk, parkir kendaraan umum, dan izin operasional terminal.</p>
+              <div class="flex flex-wrap gap-2">
+                <span class="badge badge-green">SIPANDA 2.0</span>
+                <span class="badge badge-blue">Petugas App</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card rounded-2xl p-6">
+          <div class="flex items-start gap-4">
+            <div class="text-4xl">🔧</div>
+            <div>
+              <h3 class="text-xl font-bold gold mb-2">Pengujian Kendaraan Bermotor (KIR)</h3>
+              <p class="text-gray-400 text-sm mb-3">Layanan uji KIR angkutan umum dan barang secara digital — jadwal, pembayaran, dan sertifikat elektronik.</p>
+              <div class="flex flex-wrap gap-2">
+                <span class="badge badge-green">Online</span>
+                <span class="badge badge-blue">Terintegrasi</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card rounded-2xl p-6">
+          <div class="flex items-start gap-4">
+            <div class="text-4xl">📋</div>
+            <div>
+              <h3 class="text-xl font-bold gold mb-2">Izin Trayek & Operasional</h3>
+              <p class="text-gray-400 text-sm mb-3">Perizinan trayek angkutan umum, izin penyelenggaraan parkir, dan rekomendasi teknis transportasi.</p>
+              <div class="flex flex-wrap gap-2">
+                <span class="badge badge-green">SIPANDA 2.0</span>
+                <span class="badge badge-yellow">Perizinan</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- POSISI DI 4 PILAR -->
+  <section class="py-20 px-4">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-16">
+        <span class="badge badge-blue mb-2">Arsitektur</span>
+        <h2 class="text-3xl md:text-5xl font-bold mb-4">Posisi Dishub dalam <span class="gold">4 Pilar</span></h2>
+      </div>
+
+      <div class="relative">
+        <div class="glass rounded-2xl p-8 mb-4 text-center">
+          <div class="text-2xl font-bold gold">🟢 SPLP — Layanan ke Publik</div>
+          <div class="text-gray-400 mt-2">Sistem Penghubung Layanan Pemerintah</div>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-4 mb-4">
+          <div class="glass-card rounded-2xl p-6 text-center">
+            <div class="text-xl mb-2">🖥️</div>
+            <div class="font-semibold gold">Aplikasi Dishub</div>
+            <div class="text-xs text-gray-400">Pilar 3 — Aplikasi Satu Data</div>
+            <div class="mt-2 text-sm text-gray-300">SIPANDA 2.0, E-Retribusi, Petugas App</div>
+          </div>
+          <div class="glass-card rounded-2xl p-6 text-center">
+            <div class="text-xl mb-2">📡</div>
+            <div class="font-semibold gold">Command Center</div>
+            <div class="text-xs text-gray-400">Pilar 2 — Pusat Kendali</div>
+            <div class="mt-2 text-sm text-gray-300">Monitoring parkir & terminal real-time</div>
+          </div>
+          <div class="glass-card rounded-2xl p-6 text-center">
+            <div class="text-xl mb-2">🌐</div>
+            <div class="font-semibold gold">Internet Satu Kota</div>
+            <div class="text-xs text-gray-400">Pilar 1 — Jaringan Terpadu</div>
+            <div class="mt-2 text-sm text-gray-300">Konektivitas Dishub ke seluruh OPD</div>
+          </div>
+        </div>
+
+        <div class="glass rounded-2xl p-6 text-center">
+          <div class="text-lg font-semibold">💾 Data Center — Pilar 4 (Fondasi)</div>
+          <div class="text-gray-400 text-sm">Penyimpanan & pengamanan data retribusi Dishub</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REPO & TEKNIS -->
+  <section class="py-20 px-4" id="data">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-16">
+        <span class="badge badge-green mb-2">Repository</span>
+        <h2 class="text-3xl md:text-5xl font-bold mb-4">Implementasi <span class="gold">Teknis</span></h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="glass-card rounded-2xl p-6">
+          <h3 class="text-lg font-bold gold mb-4">📦 Repositori Terkait</h3>
+          <div class="space-y-3">
+            <div class="flex items-center justify-between p-3 bg-white/5 rounded-xl">
+              <div>
+                <div class="font-medium">retribusi-api</div>
+                <div class="text-xs text-gray-400">Laravel 11 — Backend retribusi Dishub</div>
+              </div>
+              <span class="badge badge-green">Active</span>
+            </div>
+            <div class="flex items-center justify-between p-3 bg-white/5 rounded-xl">
+              <div>
+                <div class="font-medium">retribusi-mobile</div>
+                <div class="text-xs text-gray-400">React PWA — Mobile WP Dishub</div>
+              </div>
+              <span class="badge badge-green">Active</span>
+            </div>
+            <div class="flex items-center justify-between p-3 bg-white/5 rounded-xl">
+              <div>
+                <div class="font-medium">retribusi-petugas</div>
+                <div class="text-xs text-gray-400">React PWA — Petugas lapangan Dishub</div>
+              </div>
+              <span class="badge badge-green">Active</span>
+            </div>
+            <div class="flex items-center justify-between p-3 bg-white/5 rounded-xl">
+              <div>
+                <div class="font-medium">retribusi-admin</div>
+                <div class="text-xs text-gray-400">React — Admin dashboard Dishub</div>
+              </div>
+              <span class="badge badge-green">Active</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card rounded-2xl p-6">
+          <h3 class="text-lg font-bold gold mb-4">📊 Database MPAD</h3>
+          <div class="space-y-3">
+            <div class="flex justify-between p-3 bg-white/5 rounded-xl">
+              <span class="text-gray-300">OPD ID</span>
+              <span class="font-semibold">2 (DISHUB)</span>
+            </div>
+            <div class="flex justify-between p-3 bg-white/5 rounded-xl">
+              <span class="text-gray-300">Kode OPD</span>
+              <span class="font-semibold">DISHUB</span>
+            </div>
+            <div class="flex justify-between p-3 bg-white/5 rounded-xl">
+              <span class="text-gray-300">Database</span>
+              <span class="font-semibold">retribusi (MySQL)</span>
+            </div>
+            <div class="flex justify-between p-3 bg-white/5 rounded-xl">
+              <span class="text-gray-300">Server</span>
+              <span class="font-semibold">sipanda.online</span>
+            </div>
+            <div class="flex justify-between p-3 bg-white/5 rounded-xl">
+              <span class="text-gray-300">Status Data</span>
+              <span class="badge badge-yellow">Menunggu Input</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="glass-card rounded-2xl p-6 mt-6">
+        <h3 class="text-lg font-bold gold mb-4">📋 Catatan Implementasi</h3>
+        <ul class="space-y-2 text-gray-300">
+          <li class="flex items-start gap-2">
+            <span class="text-green-400 mt-1">✓</span>
+            <span>OPD Dishub sudah terdaftar di sistem MPAD (id=2)</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-yellow-400 mt-1">○</span>
+            <span>Data retribusi Dishub belum diinput — perlu identifikasi jenis retribusi spesifik</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-yellow-400 mt-1">○</span>
+            <span>Integrasi dengan data DUKCAPIL untuk validasi NIK wajib retribusi</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-yellow-400 mt-1">○</span>
+            <span>Bank Sultra H2H sudah aktif — tinggal perluas ke Dishub</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOKUMEN -->
+  <section class="py-20 px-4">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-12">
+        <span class="badge badge-yellow mb-2">Referensi</span>
+        <h2 class="text-3xl font-bold">Dokumen <span class="gold">Pendukung</span></h2>
+      </div>
+      <div class="grid md:grid-cols-3 gap-4">
+        <a href="/old/dokumen/upgrade-sipanda.html" class="glass-card rounded-xl p-5 hover:bg-white/10 transition">
+          <div class="text-2xl mb-2">📄</div>
+          <div class="font-medium">Upgrade SIPANDA 2.0</div>
+          <div class="text-xs text-gray-400 mt-1">Proposal upgrade sistem retribusi digital</div>
+        </a>
+        <a href="/old/dokumen/panduan-layanan-publik-digital.html" class="glass-card rounded-xl p-5 hover:bg-white/10 transition">
+          <div class="text-2xl mb-2">📄</div>
+          <div class="font-medium">Panduan Layanan Digital</div>
+          <div class="text-xs text-gray-400 mt-1">Panduan layanan publik digital Baubau</div>
+        </a>
+        <a href="/old/dokumen/rab-sipanda-upgrade.html" class="glass-card rounded-xl p-5 hover:bg-white/10 transition">
+          <div class="text-2xl mb-2">📄</div>
+          <div class="font-medium">RAB SIPANDA Upgrade</div>
+          <div class="text-xs text-gray-400 mt-1">Rencana Anggaran Biaya upgrade</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-white/10 py-12 px-4">
+    <div class="max-w-7xl mx-auto text-center">
+      <div class="text-sm text-gray-400">
+        © 2025-2026 Pemerintah Kota Baubau — Dinas Komunikasi dan Informatika
+        bersama CV Sarjana Komputer Indonesia
+      </div>
+      <div class="flex justify-center gap-4 mt-4 text-xs text-gray-500">
+        <a href="/" class="hover:text-white transition">Beranda</a>
+        <a href="/4-pilar/internet-satu-kota.html" class="hover:text-white transition">4 Pilar</a>
+        <a href="#" class="hover:text-white transition">Dishub</a>
+        <a href="/lainnya/kolaborasi.html" class="hover:text-white transition">Kolaborasi</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Intersection Observer untuk animasi scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('section').forEach(s => observer.observe(s));
+    // Hero langsung visible
+    document.getElementById('hero').classList.add('visible');
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PUPR — Ekosistem Aset & Infrastruktur Digital | Baubau 4.0</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+    }
+    .glass {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .glass-card {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      transition: all 0.3s ease;
+    }
+    .glass-card:hover {
+      transform: translateY(-4px);
+      background: rgba(255, 255, 255, 0.12);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    }
+    .gold {
+      color: #C9A96E;
+    }
+    .gold-bg {
+      background: #C9A96E;
+    }
+    .badge {
+      display: inline-block;
+      padding: 2px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    .badge-green {
+      background: rgba(16, 185, 129, 0.2);
+      color: #10B981;
+    }
+    .badge-yellow {
+      background: rgba(245, 158, 11, 0.2);
+      color: #F59E0B;
+    }
+    .badge-blue {
+      background: rgba(59, 130, 246, 0.2);
+      color: #3B82F6;
+    }
+    .badge-red {
+      background: rgba(239, 68, 68, 0.2);
+      color: #EF4444;
+    }
+    section {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.8s ease;
+    }
+    section.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #1e293b;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #C9A96E;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+
+<body class="text-white min-h-screen">
+  <!-- NAV -->
+  <nav class="glass fixed w-full z-50 top-0 border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16 items-center">
+        <a href="/" class="flex items-center gap-2">
+          <span class="text-xl font-bold gold">Baubau<span class="text-white">4.0</span></span>
+        </a>
+        <div class="hidden md:flex items-center gap-6 text-sm text-gray-300">
+          <a href="/" class="hover:text-white transition">Beranda</a>
+          <a href="/4-pilar/" class="hover:text-white transition">4 Pilar</a>
+          <a href="#" class="gold font-semibold">PUPR</a>
+          <a href="/lainnya/kolaborasi.html" class="hover:text-white transition">Kolaborasi</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="min-h-screen flex items-center pt-16 pb-20 px-4">
+    <div class="max-w-7xl mx-auto w-full">
+      <div class="flex flex-col lg:flex-row items-center gap-12">
+        <div class="flex-1">
+          <div class="badge badge-blue mb-4">PUPR — Dinas Pekerjaan Umum & Penataan Ruang</div>
+          <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
+            Ekosistem Digital <span class="gold">PUPR</span>
+            <br>Kota Baubau
+          </h1>
+          <p class="text-lg text-gray-300 mb-8 max-w-2xl">
+            Pengelolaan aset kendaraan daerah, infrastruktur publik, dan perizinan
+            bangunan dalam satu ekosistem digital terintegrasi — mendukung tata kelola
+            Pekerjaan Umum dan Penataan Ruang yang transparan dan efisien.
+          </p>
+          <div class="flex flex-wrap gap-4">
+            <a href="#ekosistem" class="inline-flex items-center gap-2 gold-bg text-gray-900 font-semibold px-6 py-3 rounded-xl hover:bg-yellow-400 transition">
+              Jelajahi Ekosistem
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+              </svg>
+            </a>
+            <a href="#data" class="inline-flex items-center gap-2 glass-card text-white px-6 py-3 rounded-xl hover:bg-white/10 transition">
+              Lihat Data
+            </a>
+          </div>
+        </div>
+        <div class="flex-1 flex justify-center">
+          <div class="glass-card rounded-2xl p-8 w-full max-w-md text-center">
+            <div class="text-7xl mb-4">🏗️</div>
+            <div class="text-3xl font-bold gold">9</div>
+            <div class="text-gray-400">OPD ID di MPAD</div>
+            <div class="grid grid-cols-2 gap-4 mt-6">
+              <div>
+                <div class="text-2xl font-bold text-white">3</div>
+                <div class="text-xs text-gray-400">Layanan Utama</div>
+              </div>
+              <div>
+                <div class="text-2xl font-bold text-white">1</div>
+                <div class="text-xs text-gray-400">Aplikasi Kunci</div>
+              </div>
+              <div>
+                <div class="text-2xl font-bold text-white">8</div>
+                <div class="text-xs text-gray-400">Jenis Alat Berat</div>
+              </div>
+              <div>
+                <div class="text-2xl font-bold text-white">9</div>
+                <div class="text-xs text-gray-400">Role Pengguna</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EKOSISTEM -->
+  <section class="py-20 px-4" id="ekosistem">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-16">
+        <span class="badge badge-yellow mb-2">Ekosistem</span>
+        <h2 class="text-3xl md:text-5xl font-bold mb-4">Layanan PUPR dalam <span class="gold">SPLP</span></h2>
+        <p class="text-gray-400 max-w-2xl mx-auto">
+          Tiga layanan utama PUPR yang terintegrasi dalam Sistem Penghubung Layanan Pemerintah.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="glass-card rounded-2xl p-6">
+          <div class="flex items-start gap-4">
+            <div class="text-4xl">🚛</div>
+            <div>
+              <h3 class="text-xl font-bold gold mb-2">SIMAKA-D</h3>
+              <p class="text-gray-400 text-sm mb-3">Sistem Informasi Manajemen Aset Kendaraan & Alat Daerah. 100+ kendaraan, 8 alat berat, 15 OPD terkelola.</p>
+              <div class="flex flex-wrap gap-2">
+                <span class="badge badge-green">React 19</span>
+                <span class="badge badge-blue">Ant Design</span>
+                <span class="badge badge-yellow">9 Role</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card rounded-2xl p-6">
+          <div class="flex items-start gap-4">
+            <div class="text-4xl">🏛️</div>
+            <div>
+              <h3 class="text-xl font-bold gold mb-2">IMB / PBG Online</h3>
+              <p class="text-gray-400 text-sm mb-3">Izin Mendirikan Bangunan & Persetujuan Bangunan Gedung secara digital — dari pengajuan hingga terbit dokumen TTE.</p>
+              <div class="flex flex-wrap gap-2">
+                <span class="badge badge-green">Online</span>
+                <span class="badge badge-blue">TTE</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card rounded-2xl p-6">
+          <div class="flex items-start gap-4">
+            <div class="text-4xl">🛣️</div>
+            <div>
+              <h3 class="text-xl font-bold gold mb-2">Infrastruktur & Aset</h3>
+              <p class="text-gray-400 text-sm mb-3">Manajemen jalan, jembatan, drainase, dan aset tetap daerah — data spasial dalam format KML/KMZ terintegrasi.</p>
+              <div class="flex flex-wrap gap-2">
+                <span class="badge badge-green">GIS</span>
+                <span class="badge badge-blue">KML/KMZ</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SIMAKA-D DETAIL -->
+  <section class="py-20 px-4">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-16">
+        <span class="badge badge-blue mb-2">Aplikasi Kunci</span>
+        <h2 class="text-3xl md:text-5xl font-bold mb-4">SIMAKA-D — <span class="gold">Sistem Informasi</span> Manajemen Aset</h2>
+        <p class="text-gray-400 max-w-2xl mx-auto">
+          Aplikasi frontend modern untuk pengelolaan aset kendaraan dan alat berat di lingkungan Pemerintah Kota Baubau.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-4 text-center">
+        <div class="glass-card rounded-xl p-6">
+          <div class="text-3xl mb-2">👥</div>
+          <div class="font-semibold gold">9 Role</div>
+          <div class="text-xs text-gray-400 mt-1">Super Admin, Walikota, Kepala OPD, Admin OPD, Pemohon, Operator, Bendahara, Mekanik, Auditor</div>
+        </div>
+        <div class="glass-card rounded-xl p-6">
+          <div class="text-3xl mb-2">📦</div>
+          <div class="font-semibold gold">100+ Aset</div>
+          <div class="text-xs text-gray-400 mt-1">Kendaraan (sedan, SUV, MPV, pickup, bus, truck, motor) + 8 jenis alat berat</div>
+        </div>
+        <div class="glass-card rounded-xl p-6">
+          <div class="text-3xl mb-2">🏗️</div>
+          <div class="font-semibold gold">React 19</div>
+          <div class="text-xs text-gray-400 mt-1">TypeScript + Ant Design 6 + Zustand + Vite — mobile-first</div>
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-4 mt-6">
+        <div class="glass-card rounded-xl p-5">
+          <div class="font-semibold mb-2">📋 Modul Tersedia</div>
+          <ul class="space-y-1 text-sm text-gray-300">
+            <li>• Dashboard — widget berbeda per role</li>
+            <li>• Assets — daftar, detail, form aset</li>
+            <li>• Borrowing — peminjaman kendaraan</li>
+            <li>• Maintenance — jadwal & riwayat service</li>
+            <li>• Tracking — pelacakan kendaraan</li>
+            <li>• Reports — laporan aset</li>
+            <li>• Users — manajemen pengguna</li>
+            <li>• Notifications — notifikasi real-time</li>
+          </ul>
+        </div>
+        <div class="glass-card rounded-xl p-5">
+          <div class="font-semibold mb-2">🔧 Fitur Teknis</div>
+          <ul class="space-y-1 text-sm text-gray-300">
+            <li>• QR Code identifikasi aset (SOP-01)</li>
+            <li>• Pelacakan kilometer & jam operasi</li>
+            <li>• Riwayat perawatan & perbaikan</li>
+            <li>• Multi-approval peminjaman</li>
+            <li>• Integrasi dengan Aplikasi Satu Data</li>
+            <li>• Dark mode & glassmorphism UI</li>
+            <li>• Responsive desktop & tablet</li>
+            <li>• Repository: muhdanfyan/asetkendaraandaerah</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- POSISI DI 4 PILAR -->
+  <section class="py-20 px-4" id="data">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center mb-16">
+        <span class="badge badge-yellow mb-2">Arsitektur</span>
+        <h2 class="text-3xl md:text-5xl font-bold mb-4">Posisi PUPR dalam <span class="gold">4 Pilar</span></h2>
+      </div>
+      <div class="glass-card rounded-2xl p-8 text-center max-w-2xl mx-auto">
+        <div class="grid grid-cols-2 gap-4">
+          <div class="p-4 bg-white/5 rounded-xl">
+            <div class="font-bold gold">Pilar 3</div>
+            <div class="text-sm text-gray-400">Aplikasi Satu Data — SIMAKA-D, IMB Online</div>
+          </div>
+          <div class="p-4 bg-white/5 rounded-xl">
+            <div class="font-bold gold">Pilar 4</div>
+            <div class="text-sm text-gray-400">Data Center — penyimpanan aset & infrastruktur</div>
+          </div>
+          <div class="p-4 bg-white/5 rounded-xl">
+            <div class="font-bold gold">Pilar 1</div>
+            <div class="text-sm text-gray-400">Internet Satu Kota — konektivitas OPD PUPR</div>
+          </div>
+          <div class="p-4 bg-white/5 rounded-xl">
+            <div class="font-bold gold">Pilar 2</div>
+            <div class="text-sm text-gray-400">Command Center — monitoring aset real-time</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-white/10 py-12 px-4">
+    <div class="max-w-7xl mx-auto text-center">
+      <div class="text-sm text-gray-400">
+        © 2025-2026 Pemerintah Kota Baubau — Dinas Komunikasi dan Informatika
+        bersama CV Sarjana Komputer Indonesia
+      </div>
+      <div class="flex justify-center gap-4 mt-4 text-xs text-gray-500">
+        <a href="/" class="hover:text-white transition">Beranda</a>
+        <a href="/4-pilar/" class="hover:text-white transition">4 Pilar</a>
+        <a href="#" class="hover:text-white transition">PUPR</a>
+        <a href="/lainnya/kolaborasi.html" class="hover:text-white transition">Kolaborasi</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('section').forEach(s => observer.observe(s));
+    document.querySelector('section').classList.add('visible');
+  </script>
+</body>
+
+</html>
