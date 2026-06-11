@@ -9,179 +9,39 @@
   <script>tailwind.config={theme:{extend:{colors:{primary:{DEFAULT:'#2F80ED',dark:'#1e3a5f',light:'#4A9AF5'},accent:{DEFAULT:'#F59E0B',light:'#FCD34D'}},fontFamily:{sans:['Plus Jakarta Sans','system-ui','sans-serif']}}}}</script>
   <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
   <link rel="stylesheet" href="../css/style.css">
-  <style>
-    body { background-color: #0f172a; color: white; }
-    #presentation-slider { min-height: 100vh; width: 100vw; position: relative; }
-    .slide-item {
-      position: absolute; top: 0; left: 0; width: 100%; height: 100%;
-      opacity: 0; transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-      transform: scale(0.95); display: flex; align-items: center; justify-content: center;
-      padding: 2rem; pointer-events: none; z-index: 1;
-    }
-    .slide-item.active { opacity: 1; transform: scale(1); pointer-events: auto; z-index: 10; }
-    .slide-content {
-      max-width: 1200px; width: 100%; max-height: 90vh;
-      background: rgba(30, 58, 95, 0.6); backdrop-filter: blur(16px);
-      border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 24px;
-      padding: 3rem; display: flex; flex-direction: column; overflow-y: auto;
-      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
-    }
-    .slide-controls {
-      position: fixed; bottom: 2rem; left: 50%; transform: translateX(-50%);
-      display: flex; items-center; gap: 1rem; z-index: 50;
-      background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(8px);
-      padding: 0.5rem 1rem; border-radius: 9999px; border: 1px solid rgba(255,255,255,0.1);
-    }
-    .slide-btn {
-      p-2; rounded-full; transition: all 0.2s; cursor: pointer;
-      color: rgba(255,255,255,0.7);
-    }
-    .slide-btn:hover { color: white; background: rgba(255,255,255,0.1); }
-  </style>
 </head>
-<body class="font-sans antialiased">
-  
+<body class="font-sans antialiased bg-[#0f172a]">
+
+  <!-- Back button -->
   <a href="../index.html" class="fixed top-6 left-6 z-50 flex items-center gap-2 px-4 py-2 bg-white/10 hover:bg-white/20 backdrop-blur-md rounded-full text-white/90 hover:text-white transition-all text-sm font-medium border border-white/10">
     <i data-lucide="arrow-left" class="w-4 h-4"></i> Kembali ke Beranda
   </a>
 
-  <div id="presentation-slider">
-    <!-- Slide 1: Judul -->
-    <div class="slide-item active">
-      <div class="slide-content text-center justify-center">
-        <div class="w-24 h-24 mx-auto mb-8"><img src="../../assets/img/logo/logobaubau4.0.png" alt="Logo" class="w-full h-full object-contain"></div>
-        <span class="inline-block px-4 py-1.5 bg-blue-500/20 text-blue-300 text-sm font-semibold rounded-full tracking-wide mb-6">VISI STRATEGIS 2027-2036</span>
-        <h1 class="text-5xl lg:text-7xl font-extrabold text-white mb-6 leading-tight">Transformasi Digital<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-amber-400">Kota Baubau 4.0</span></h1>
-        <p class="text-xl text-blue-200/80 max-w-2xl mx-auto">Dari Smart City Konvensional Menuju Ekosistem Kolaboratif Berbasis Data dan Inovasi.</p>
-      </div>
-    </div>
-
-    <!-- Slide 2: Latar Belakang -->
-    <div class="slide-item">
-      <div class="slide-content">
-        <h2 class="text-3xl font-extrabold text-amber-400 mb-8 border-b border-white/10 pb-4">Mengapa Transformasi Digital?</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 flex-1 items-center">
-          <div>
-            <ul class="space-y-6">
-              <li class="flex items-start gap-4">
-                <div class="w-12 h-12 rounded-xl bg-blue-500/20 flex items-center justify-center flex-shrink-0"><i data-lucide="alert-circle" class="text-blue-400"></i></div>
-                <div>
-                  <h3 class="text-xl font-bold text-white mb-1">Infrastruktur Terpecah</h3>
-                  <p class="text-blue-200/70 text-sm">Internet dan aplikasi di tiap OPD berdiri sendiri, tidak saling terintegrasi.</p>
-                </div>
-              </li>
-              <li class="flex items-start gap-4">
-                <div class="w-12 h-12 rounded-xl bg-blue-500/20 flex items-center justify-center flex-shrink-0"><i data-lucide="trending-down" class="text-blue-400"></i></div>
-                <div>
-                  <h3 class="text-xl font-bold text-white mb-1">Kebocoran PAD</h3>
-                  <p class="text-blue-200/70 text-sm">Sistem retribusi manual (parkir, pasar, wisata) rentan kebocoran dan tidak transparan.</p>
-                </div>
-              </li>
-              <li class="flex items-start gap-4">
-                <div class="w-12 h-12 rounded-xl bg-blue-500/20 flex items-center justify-center flex-shrink-0"><i data-lucide="users" class="text-blue-400"></i></div>
-                <div>
-                  <h3 class="text-xl font-bold text-white mb-1">Pelayanan Publik Lambat</h3>
-                  <p class="text-blue-200/70 text-sm">Birokrasi manual menyulitkan masyarakat mengakses layanan dasar.</p>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
-            <img src="../../assets/img/about/aplikasi_satu_data.png" alt="Ilustrasi" class="w-full object-cover">
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Slide 3: Empat Pilar -->
-    <div class="slide-item">
-      <div class="slide-content">
-        <h2 class="text-3xl font-extrabold text-amber-400 mb-8 border-b border-white/10 pb-4">Empat Pilar Utama Baubau 4.0</h2>
-        <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
-          <div class="bg-white/5 border border-white/10 rounded-2xl p-6 text-center hover:bg-white/10 transition-colors">
-            <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center"><i data-lucide="globe" class="w-8 h-8 text-white"></i></div>
-            <h3 class="text-lg font-bold text-white mb-2">Internet Satu Kota</h3>
-            <p class="text-xs text-blue-200/70">Jaringan Fiber Optik Terpadu.</p>
-          </div>
-          <div class="bg-white/5 border border-white/10 rounded-2xl p-6 text-center hover:bg-white/10 transition-colors">
-            <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-2xl flex items-center justify-center"><i data-lucide="monitor" class="w-8 h-8 text-white"></i></div>
-            <h3 class="text-lg font-bold text-white mb-2">Command Center</h3>
-            <p class="text-xs text-blue-200/70">Pusat Kendali Data Real-time.</p>
-          </div>
-          <div class="bg-white/5 border border-white/10 rounded-2xl p-6 text-center hover:bg-white/10 transition-colors">
-            <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-violet-500 to-violet-600 rounded-2xl flex items-center justify-center"><i data-lucide="smartphone" class="w-8 h-8 text-white"></i></div>
-            <h3 class="text-lg font-bold text-white mb-2">Aplikasi Satu Data</h3>
-            <p class="text-xs text-blue-200/70">Super Apps Layanan Publik.</p>
-          </div>
-          <div class="bg-white/5 border border-white/10 rounded-2xl p-6 text-center hover:bg-white/10 transition-colors">
-            <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-amber-500 to-amber-600 rounded-2xl flex items-center justify-center"><i data-lucide="database" class="w-8 h-8 text-white"></i></div>
-            <h3 class="text-lg font-bold text-white mb-2">Data Center</h3>
-            <p class="text-xs text-blue-200/70">Fondasi Penyimpanan & Keamanan.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Slide 4: Target & Output -->
-    <div class="slide-item">
-      <div class="slide-content text-center justify-center">
-        <h2 class="text-3xl font-extrabold text-amber-400 mb-8">Target Pencapaian (2027-2036)</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div>
-            <div class="text-5xl font-extrabold text-white mb-2">100%</div>
-            <p class="text-lg text-blue-300 font-semibold mb-2">Integrasi OPD</p>
-            <p class="text-sm text-blue-200/70">Seluruh dinas terhubung dalam satu jaringan tertutup yang aman.</p>
-          </div>
-          <div>
-            <div class="text-5xl font-extrabold text-emerald-400 mb-2">+40%</div>
-            <p class="text-lg text-emerald-300 font-semibold mb-2">Peningkatan PAD</p>
-            <p class="text-sm text-blue-200/70">Melalui e-Retribusi dan digitalisasi layanan pajak.</p>
-          </div>
-          <div>
-            <div class="text-5xl font-extrabold text-amber-400 mb-2">24/7</div>
-            <p class="text-lg text-amber-300 font-semibold mb-2">Layanan Publik</p>
-            <p class="text-sm text-blue-200/70">Akses layanan administrasi kapanpun dan dimanapun via Super Apps.</p>
-          </div>
-        </div>
-        <div class="mt-12 pt-8 border-t border-white/10">
-          <p class="text-xl text-white font-semibold">"Kota Baubau yang Cerdas, Sejahtera, & Bermartabat."</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="slide-controls">
-    <button id="slide-prev" class="p-2 text-slate-400 hover:text-white transition-colors" title="Sebelumnya"><i data-lucide="chevron-left"></i></button>
-    <div id="slide-indicator" class="text-sm font-semibold text-slate-300 min-w-[3rem] text-center"><span id="slide-current">1</span> / <span id="slide-total">4</span></div>
-    <button id="slide-next" class="p-2 text-slate-400 hover:text-white transition-colors" title="Selanjutnya"><i data-lucide="chevron-right"></i></button>
-  </div>
-
-    <!-- Note: The main.js file contains the initSlider() function which auto-initializes if it sees #presentation-slider -->
-  <script src="../js/main.js"></script>
-  <script>lucide.createIcons();</script>
-
-  <!-- ═══════════ Canva Presentation Section ═══════════ -->
-  <section id="canva-presentation" style="min-height:100vh; padding-top:5rem; padding-bottom:5rem; background-color:#0f172a; display:flex; align-items:center; justify-content:center;">
-    <div style="max-width:1200px; width:100%; padding:0 1.5rem;">
-      <div style="text-align:center; margin-bottom:3rem;">
+  <!-- ═══ CANVA PRESENTATION (Full Page) ═══ -->
+  <section id="canva-presentation" style="min-height:100vh; display:flex; align-items:center; justify-content:center;">
+    <div style="max-width:1200px; width:100%; padding:6rem 1.5rem 4rem;">
+      <div style="text-align:center; margin-bottom:2rem;">
         <span style="display:inline-block; padding:0.25rem 1rem; background:rgba(245,158,11,0.2); color:#FCD34D; font-size:0.75rem; font-weight:700; border-radius:9999px; letter-spacing:0.05em; margin-bottom:1rem;">PRESENTASI CANVA</span>
-        <h2 style="font-size:2.25rem; font-weight:800; color:white; margin-bottom:0.75rem;">Lihat Presentasi di Canva</h2>
-        <p style="color:rgba(191,219,254,0.7); font-size:1rem; max-width:32rem; margin:0 auto;">Jelajahi presentasi interaktif Transformasi Digital Kota Baubau 4.0 langsung di Canva.</p>
+        <h2 style="font-size:2.25rem; font-weight:800; color:white; margin-bottom:0.75rem;">Transformasi Digital Kota Baubau 4.0</h2>
+        <p style="color:rgba(191,219,254,0.7); font-size:1rem; max-width:32rem; margin:0 auto;">Jelajahi presentasi interaktif langsung di Canva. Gunakan tombol navigasi atau buka di tab baru untuk tampilan lebih besar.</p>
       </div>
       <div style="position:relative; width:100%; padding-bottom:56.25%; border-radius:1rem; overflow:hidden; box-shadow:0 25px 50px -12px rgba(0,0,0,0.5); border:1px solid rgba(255,255,255,0.1); margin-bottom:2rem;">
         <iframe loading="lazy" src="https://www.canva.com/design/DAGwHQeQhCs/k-vwwY3wMM2Wdy9jCn68bA/view?embed" style="position:absolute; top:0; left:0; width:100%; height:100%; border:none;" allowfullscreen></iframe>
       </div>
       <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:1rem;">
-        <a href="https://www.canva.com/design/DAGwHQeQhCs/k-vwwY3wMM2Wdy9jCn68bA/view" target="_blank" rel="noopener" style="display:inline-flex; align-items:center; gap:0.5rem; padding:0.75rem 1.5rem; background:linear-gradient(135deg,#2F80ED,#1e3a5f); color:white; font-weight:700; border-radius:0.75rem; text-decoration:none; transition:transform 0.2s; box-shadow:0 10px 30px -5px rgba(47,128,237,0.4);" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+        <a href="https://www.canva.com/design/DAGwHQeQhCs/k-vwwY3wMM2Wdy9jCn68bA/view" target="_blank" rel="noopener" style="display:inline-flex; align-items:center; gap:0.5rem; padding:0.75rem 1.5rem; background:linear-gradient(135deg,#2F80ED,#1e3a5f); color:white; font-weight:700; border-radius:0.75rem; text-decoration:none; transition:transform 0.2s; box-shadow:0 10px 30px -5px rgba(47,128,237,0.4);">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
           Buka di Canva
         </a>
-        <a href="../../old/dokumen/Doc%20Baubau4.0_compressed.pdf" target="_blank" style="display:inline-flex; align-items:center; gap:0.5rem; padding:0.75rem 1.5rem; background:rgba(255,255,255,0.1); backdrop-filter:blur(8px); color:white; font-weight:600; border-radius:0.75rem; text-decoration:none; border:1px solid rgba(255,255,255,0.15); transition:all 0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.2)'" onmouseout="this.style.background='rgba(255,255,255,0.1)'">
+        <a href="../../old/dokumen/Doc%20Baubau4.0_compressed.pdf" target="_blank" style="display:inline-flex; align-items:center; gap:0.5rem; padding:0.75rem 1.5rem; background:rgba(255,255,255,0.1); backdrop-filter:blur(8px); color:white; font-weight:600; border-radius:0.75rem; text-decoration:none; border:1px solid rgba(255,255,255,0.15); transition:all 0.2s;">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
           Download PDF Presentasi
         </a>
       </div>
     </div>
   </section>
+
+  <script src="../js/main.js"></script>
+  <script>lucide.createIcons();</script>
 </body>
 </html>
