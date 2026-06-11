@@ -1,0 +1,72 @@
+[
+  {
+    "Name": "CCTV Kantor Walikota",
+    "X": 122.6001,
+    "Y": -5.4612,
+    "kategori": "Pemerintahan",
+    "status": "Aktif"
+  },
+  {
+    "Name": "CCTV Taman Merdeka",
+    "X": 122.5995,
+    "Y": -5.4605,
+    "kategori": "Publik",
+    "status": "Aktif"
+  },
+  {
+    "Name": "CCTV Pasar Sentral",
+    "X": 122.5975,
+    "Y": -5.4622,
+    "kategori": "Publik",
+    "status": "Aktif"
+  },
+  {
+    "Name": "CCTV Simpang Lima",
+    "X": 122.5988,
+    "Y": -5.463,
+    "kategori": "Lalu Lintas",
+    "status": "Aktif"
+  },
+  {
+    "Name": "CCTV Terminal Bus",
+    "X": 122.5968,
+    "Y": -5.4685,
+    "kategori": "Transportasi",
+    "status": "Aktif"
+  },
+  {
+    "Name": "CCTV RSUD Baubau",
+    "X": 122.6088,
+    "Y": -5.4705,
+    "kategori": "Kesehatan",
+    "status": "Aktif"
+  },
+  {
+    "Name": "CCTV Pelabuhan",
+    "X": 122.592,
+    "Y": -5.4588,
+    "kategori": "Transportasi",
+    "status": "Aktif"
+  },
+  {
+    "Name": "CCTV Disdikbud",
+    "X": 122.5995,
+    "Y": -5.4608,
+    "kategori": "Pendidikan",
+    "status": "Aktif"
+  },
+  {
+    "Name": "CCTV Bundaran Wolio",
+    "X": 122.601,
+    "Y": -5.4595,
+    "kategori": "Lalu Lintas",
+    "status": "Aktif"
+  },
+  {
+    "Name": "CCTV Kecamatan Batupoaro",
+    "X": 122.5948,
+    "Y": -5.4763,
+    "kategori": "Pemerintahan",
+    "status": "Aktif"
+  }
+]
