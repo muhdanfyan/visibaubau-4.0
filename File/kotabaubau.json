@@ -1,0 +1,86 @@
+[
+  {
+    "Name": "Kantor Walikota Baubau",
+    "X": -5.4612,
+    "Y": 122.6001,
+    "kategori": "Pemerintahan"
+  },
+  {
+    "Name": "Dinas Komunikasi dan Informatika (Diskominfo)",
+    "X": -5.4625,
+    "Y": 122.6015,
+    "kategori": "OPD"
+  },
+  {
+    "Name": "Dinas Pendidikan dan Kebudayaan",
+    "X": -5.4608,
+    "Y": 122.5995,
+    "kategori": "OPD"
+  },
+  {
+    "Name": "Dinas Kesehatan (RSUD Baubau)",
+    "X": -5.4705,
+    "Y": 122.6088,
+    "kategori": "Kesehatan"
+  },
+  {
+    "Name": "Dinas Pekerjaan Umum dan Penataan Ruang",
+    "X": -5.4632,
+    "Y": 122.6028,
+    "kategori": "OPD"
+  },
+  {
+    "Name": "Dinas Perhubungan (Dishub)",
+    "X": -5.4595,
+    "Y": 122.5982,
+    "kategori": "OPD"
+  },
+  {
+    "Name": "Dinas Perindustrian dan Perdagangan (Disperindag)",
+    "X": -5.4589,
+    "Y": 122.5975,
+    "kategori": "OPD"
+  },
+  {
+    "Name": "Dinas Lingkungan Hidup (DLH)",
+    "X": -5.4648,
+    "Y": 122.6035,
+    "kategori": "OPD"
+  },
+  {
+    "Name": "Dinas Pariwisata dan Ekonomi Kreatif",
+    "X": -5.4655,
+    "Y": 122.6042,
+    "kategori": "Pariwisata"
+  },
+  {
+    "Name": "Kecamatan Batupoaro",
+    "X": -5.4763,
+    "Y": 122.5948,
+    "kategori": "Kecamatan"
+  },
+  {
+    "Name": "Kecamatan Wolio",
+    "X": -5.4602,
+    "Y": 122.6008,
+    "kategori": "Kecamatan"
+  },
+  {
+    "Name": "Kecamatan Sorawolio",
+    "X": -5.4498,
+    "Y": 122.6123,
+    "kategori": "Kecamatan"
+  },
+  {
+    "Name": "Pasar Sentral Baubau",
+    "X": -5.4622,
+    "Y": 122.5975,
+    "kategori": "Publik"
+  },
+  {
+    "Name": "Terminal Bus Baubau",
+    "X": -5.4685,
+    "Y": 122.5968,
+    "kategori": "Publik"
+  }
+]

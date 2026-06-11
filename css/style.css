@@ -379,6 +379,21 @@ a:hover {
   }
 }
 
+/* ---------- Hamburger Menu Animation ---------- */
+.hamburger-bar {
+  transition: all 0.3s ease-in-out;
+}
+.hamburger-bar.active:nth-child(1) {
+  transform: rotate(45deg) translate(4px, 4px);
+}
+.hamburger-bar.active:nth-child(2) {
+  opacity: 0;
+}
+.hamburger-bar.active:nth-child(3) {
+  transform: rotate(-45deg) translate(4px, -4px);
+  width: 6px;
+}
+
 /* ---------- Loading Shimmer ---------- */
 .shimmer {
   background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
