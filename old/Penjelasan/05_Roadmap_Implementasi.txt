@@ -1,8 +1,8 @@
-# Roadmap Implementasi Menuju Smart City (2025-2035)
+# Roadmap Implementasi Menuju Smart City (2027-2036)
 
 Strategi implementasi Visi Baubau 4.0 akan dilaksanakan dalam tiga tahap utama, berfokus pada pembangunan bertahap dan berkelanjutan untuk memastikan setiap pilar terbangun dengan fondasi yang kuat.
 
-## 9.1 Tahap I (2025-2028): Fondasi Digital
+## 9.1 Tahap I (2027-2030): Fondasi Digital
 
 Tahap ini berfokus pada pembangunan infrastruktur dasar dan peletakan fondasi digital yang kuat untuk mendukung keseluruhan ekosistem.
 
@@ -16,7 +16,7 @@ Tahap ini berfokus pada pembangunan infrastruktur dasar dan peletakan fondasi di
     -   Minimal 70% kantor OPD, sekolah, dan puskesmas terhubung dengan jaringan fiber optik.
     -   Minimal 50% layanan administrasi internal didigitalisasi.
 
-## 9.2 Tahap II (2029-2032): Integrasi dan Layanan Publik
+## 9.2 Tahap II (2031-2033): Integrasi dan Layanan Publik
 
 Setelah fondasi digital terbentuk, tahap ini berfokus pada integrasi sistem dan perluasan layanan digital untuk masyarakat.
 
@@ -30,7 +30,7 @@ Setelah fondasi digital terbentuk, tahap ini berfokus pada integrasi sistem dan 
     -   Tercapainya *interoperabilitas* data antar-OPD.
     -   Minimal 50% layanan publik esensial tersedia secara *online*.
 
-## 9.3 Tahap III (2033-2035): Transformasi Menyeluruh dan Inovasi
+## 9.3 Tahap III (2034-2036): Transformasi Menyeluruh dan Inovasi
 
 Tahap akhir ini bertujuan untuk mewujudkan visi *smart city* secara menyeluruh melalui pemanfaatan teknologi canggih dan mendorong inovasi.
 

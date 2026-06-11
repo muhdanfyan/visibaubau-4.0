@@ -7,7 +7,7 @@
 
 **Transformasi Digital Kota Baubau 4.0**
 Mewujudkan Ekosistem Kolaboratif Berbasis Data dan Inovasi
-(2025-2035)
+(2027-2036)
 
 ---
 
@@ -78,17 +78,17 @@ Evolusi dari “smart city” konvensional, dengan fokus yang diperluas dari sek
 
 ---
 
-## Slide 9: Roadmap Implementasi (2025-2035)
+## Slide 9: Roadmap Implementasi (2027-2036)
 
-*   **Tahap I (2025-2028): Fondasi Digital**
+*   **Tahap I (2027-2030): Fondasi Digital**
     *   Pembangunan infrastruktur jaringan.
     *   Penyusunan regulasi SPBE.
     *   Pengembangan aplikasi pilot project.
-*   **Tahap II (2029-2032): Integrasi dan Layanan Publik**
+*   **Tahap II (2031-2033): Integrasi dan Layanan Publik**
     *   Pembangunan Command Center dan Data Center.
     *   Integrasi data ke Aplikasi Satu Data.
     *   Peluncuran aplikasi layanan publik digital.
-*   **Tahap III (2033-2035): Transformasi & Inovasi**
+*   **Tahap III (2034-2036): Transformasi & Inovasi**
     *   Pemanfaatan Big Data dan AI.
     *   Pengembangan layanan berbasis IoT.
     *   Penguatan kemitraan untuk inovasi.
