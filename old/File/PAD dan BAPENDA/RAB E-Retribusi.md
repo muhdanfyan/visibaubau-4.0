@@ -1,5 +1,5 @@
 
-Berikut Rencana Anggaran Biaya (RAB) aplikasi E-Retribusi Kota Baubau dengan total anggaran **Rp 74.900.000**. RAB ini disusun secara realistis dengan mempertimbangkan kompleksitas aplikasi dan harga standar pengembangan software tahun 2025.
+Berikut Rencana Anggaran Biaya (RAB) aplikasi E-Retribusi Kota Baubau dengan total anggaran **Rp 74.900.000**. RAB ini disusun secara realistis dengan mempertimbangkan kompleksitas aplikasi dan harga standar pengembangan software tahun 2027.
 
 ### 💰 Rincian Rencana Anggaran Biaya (RAB)
 
