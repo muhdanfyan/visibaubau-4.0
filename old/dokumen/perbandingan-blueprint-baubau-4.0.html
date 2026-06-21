@@ -11,18 +11,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Garamond:wght@700&family=Times+New+Roman&display=swap" rel="stylesheet">
     <style>
         body { background: #e0e0e0; font-family: 'Times New Roman', Times, serif; color: #000; }
-        .page { width: 21cm; height: 29.7cm; padding: 1.5cm; margin: 1.5cm auto; background: white; box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); position: relative; page-break-after: always; overflow: hidden; }
+        .page { width: 21cm; min-height: 29.7cm; padding: 1.5cm; margin: 1.5cm auto; background: white; box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); position: relative; page-break-after: always; box-sizing: border-box; }
         .page:last-of-type { page-break-after: avoid; }
         .page-header-img, .page-footer-img { position: absolute; left: 0; width: 100%; z-index: 1; }
         .page-header-img { top: 0; }
         .content-container { padding-top: 2cm; padding-bottom: 2.5cm; position: relative; z-index: 2; }
-        h1, h2 { font-family: 'Roboto', sans-serif; font-weight: 700; color: #1a237e; margin-bottom: 10px; border-bottom: 2px solid #dfe3ee; padding-bottom: 6px; text-align: center; }
-        h1 { font-size: 18pt; }
-        h2 { font-size: 16pt; margin-top: 20px; }
-        p { font-size: 12px; line-height: 1.3; }
-        .table tbody td { vertical-align: middle; font-size: 12px; line-height: 1.3; }
-        .table ul { padding-left: 1.2rem; margin-bottom: 0; }
-        .price { font-weight: bold; color: #007bff; }
+        h1, h2 { font-family: 'Roboto', sans-serif; font-weight: 700; color: #1a237e; margin-bottom: 15px; border-bottom: 2px solid #dfe3ee; padding-bottom: 8px; text-align: center; }
+        h1 { font-size: 22pt; line-height: 1.3; }
+        h2 { font-size: 18pt; margin-top: 25px; line-height: 1.3; }
+        p { font-size: 14pt; line-height: 1.5; text-align: justify; margin-bottom: 1rem; }
+        .table { margin-top: 1.5rem; margin-bottom: 2rem; }
+        .table tbody td { vertical-align: top; font-size: 13pt; line-height: 1.4; padding: 12px; }
+        .table ul { padding-left: 1.5rem; margin-bottom: 0; }
+        .table ul li { margin-bottom: 6px; }
+        .price { font-weight: bold; color: #007bff; font-size: 14pt; }
         .image-gallery {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -34,18 +36,22 @@
             width: 100%;
             height: auto;
             border: 1px solid #ddd;
-            border-radius: 4px;
+            border-radius: 6px;
         }
         .image-gallery figcaption {
-            margin-top: 0.5rem;
+            margin-top: 0.75rem;
             font-style: italic;
-            font-size: 11px;
+            font-size: 12pt;
         }
         .recommendation {
-            margin-top: 2rem;
-            padding: 1.5rem;
+            margin-top: 2.5rem;
+            padding: 1.5rem 2rem;
             background-color: #e9f7ef;
-            border-left: 5px solid #28a745;
+            border-left: 6px solid #28a745;
+            border-radius: 4px;
+        }
+        .recommendation p {
+            margin-bottom: 0.5rem;
         }
         .justification {
             margin-top: 2rem;
@@ -55,27 +61,31 @@
         }
         .justification p {
             text-align: justify;
-            line-height: 1.3;
+            line-height: 1.5;
+            font-size: 14pt;
         }
         .justification h3 {
             font-family: 'Roboto', sans-serif;
             font-weight: 700;
             color: #000;
-            font-size: 14pt;
-            margin-top: 1rem;
+            font-size: 16pt;
+            margin-top: 1.5rem;
             border-bottom: 1px solid #ccc;
-            padding-bottom: 5px;
+            padding-bottom: 6px;
         }
         .print-fab { position: fixed; bottom: 40px; right: 40px; width: 60px; height: 60px; background-color: #3B5998; color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 28px; box-shadow: 0 5px 15px rgba(0,0,0,0.2); cursor: pointer; z-index: 1000; }
         @media print {
             body { 
-                background: #e0e0e0 !important; 
+                background: white !important; 
                 -webkit-print-color-adjust: exact;
                 print-color-adjust: exact;
             }
             .page {
-                /* Do not override screen styles, so the print looks like the web view */
-                border: none;
+                margin: 0;
+                padding: 1.5cm;
+                box-shadow: none;
+                width: 100%;
+                min-height: 100vh;
             }
             .print-fab { display: none; }
         }
