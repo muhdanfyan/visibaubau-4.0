@@ -142,6 +142,30 @@
 *   Peraturan Wali Kota Baubau No. 58 Tahun 2024 tentang Tata Cara Pemungutan PDRD.</p>
 <h2>BAB II: ARSITEKTUR &amp; EKOSISTEM SISTEM</h2>
 
+<div class="mermaid">
+graph TD
+    Client[BNI Gateway] -->|HTTPS / TLS 1.2+| WAF[Web Application Firewall / Load Balancer]
+    WAF -->|Port 443| Server[VPS Neo Cloud Bapenda]
+    
+    subgraph Neo Cloud VPS
+        Server --> App[M-PAD Laravel Backend]
+        App --> DB[(Database Master)]
+    end
+</div>
+
+
+<div class="mermaid">
+graph TD
+    Client[BNI Gateway] -->|HTTPS / TLS 1.2+| WAF[Web Application Firewall / Load Balancer]
+    WAF -->|Port 443| Server[VPS Neo Cloud Bapenda]
+    
+    subgraph Neo Cloud VPS
+        Server --> App[M-PAD Laravel Backend]
+        App --> DB[(Database Master)]
+    end
+</div>
+
+
 <div class="mermaid" style="width: 50%; margin: 0 auto;">
 graph TD
     Client[BNI Gateway] -->|HTTPS / TLS 1.2+| WAF[Web Application Firewall / Load Balancer]
@@ -198,11 +222,109 @@ graph TD
     BS --> FPS
 </div>
 
+
+<div class="mermaid">
+graph TD
+    subgraph "CORE API ENGINE (Laravel Backend)"
+        BS[Billing Service - JIT Engine]
+        FPS[Formula Parser - Tariff Logic]
+        PCS[Penalty Engine - 1-2% Calc]
+        DS[Dunning Engine - Teguran 1 & 2]
+    end
+
+    subgraph "ADMIN DASHBOARD (Web)"
+        A_VER[Verifikasi Objek & Laporan]
+        A_AUDIT[Audit Anomali & Piutang]
+        A_DUN[Approve/Kirim Teguran 1 & 2]
+    end
+
+    subgraph "PETUGAS APP (Mobile)"
+        P_SCAN[QR Scanner Penagihan]
+        P_SURV[Daftar Surveillance WP Bandel]
+        P_PAY[Record Pembayaran Lapangan]
+    end
+    
+    A_VER --> BS
+    P_SCAN --> BS
+    BS --> FPS
+</div>
+
+
+<div class="mermaid">
+graph TD
+    subgraph "CORE API ENGINE (Laravel Backend)"
+        BS[Billing Service - JIT Engine]
+        FPS[Formula Parser - Tariff Logic]
+        PCS[Penalty Engine - 1-2% Calc]
+        DS[Dunning Engine - Teguran 1 & 2]
+    end
+
+    subgraph "ADMIN DASHBOARD (Web)"
+        A_VER[Verifikasi Objek & Laporan]
+        A_AUDIT[Audit Anomali & Piutang]
+        A_DUN[Approve/Kirim Teguran 1 & 2]
+    end
+
+    subgraph "PETUGAS APP (Mobile)"
+        P_SCAN[QR Scanner Penagihan]
+        P_SURV[Daftar Surveillance WP Bandel]
+        P_PAY[Record Pembayaran Lapangan]
+    end
+    
+    A_VER --> BS
+    P_SCAN --> BS
+    BS --> FPS
+</div>
+
 <ul>
 <li><strong>JIT (Just-In-Time) Billing:</strong> Tagihan dikalkulasi secara dinamis saat sistem melakukan inquiry. Dilengkapi Penalty Engine yang otomatis menyematkan denda 2% per bulan untuk keterlambatan pembayaran.</li>
 <li><strong>E-Document ber-TTE:</strong> Penerbitan berkas resmi seperti SKPD, SKRD, SSPD, dan Surat Paksa dalam bentuk PDF yang disahkan menggunakan QR Code Tanda Tangan Elektronik (TTE) tersertifikasi dari BSrE.</li>
 </ul>
 <h3>4. Pembayaran (Payment Gateway H2H) &amp; Penagihan</h3>
+
+<div class="mermaid">
+sequenceDiagram
+    participant Nasabah
+    participant Bank as Sistem Bank
+    participant mPaD as Sistem mPaD (Bapenda)
+
+    Note over Nasabah,mPaD: 1. Proses Inquiry (Cek Tagihan)
+    Nasabah->>Bank: Input Nomor Bayar/Tagihan
+    Bank->>mPaD: POST /api/v1/bank/inquiry
+    mPaD-->>Bank: Response: Detail Tagihan & Nominal
+    Bank-->>Nasabah: Tampilkan Rincian Tagihan
+
+    Note over Nasabah,mPaD: 2. Proses Payment (Pelunasan)
+    Nasabah->>Bank: Konfirmasi Pembayaran & PIN
+    Bank->>Bank: Debet Saldo Nasabah
+    Bank->>mPaD: POST /api/v1/bank/payment
+    mPaD->>mPaD: Update Status "LUNAS" & Generate NTPD
+    mPaD-->>Bank: Response: Sukses + NTPD
+    Bank-->>Nasabah: Cetak Struk / Resi Pembayaran
+</div>
+
+
+<div class="mermaid">
+sequenceDiagram
+    participant Nasabah
+    participant Bank as Sistem Bank
+    participant mPaD as Sistem mPaD (Bapenda)
+
+    Note over Nasabah,mPaD: 1. Proses Inquiry (Cek Tagihan)
+    Nasabah->>Bank: Input Nomor Bayar/Tagihan
+    Bank->>mPaD: POST /api/v1/bank/inquiry
+    mPaD-->>Bank: Response: Detail Tagihan & Nominal
+    Bank-->>Nasabah: Tampilkan Rincian Tagihan
+
+    Note over Nasabah,mPaD: 2. Proses Payment (Pelunasan)
+    Nasabah->>Bank: Konfirmasi Pembayaran & PIN
+    Bank->>Bank: Debet Saldo Nasabah
+    Bank->>mPaD: POST /api/v1/bank/payment
+    mPaD->>mPaD: Update Status "LUNAS" & Generate NTPD
+    mPaD-->>Bank: Response: Sukses + NTPD
+    Bank-->>Nasabah: Cetak Struk / Resi Pembayaran
+</div>
+
 
 <div class="mermaid">
 sequenceDiagram
