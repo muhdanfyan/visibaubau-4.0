@@ -57,227 +57,115 @@
 <hr />
 <h2>BAB I: PENDAHULUAN</h2>
 <h3>1.1 Latar Belakang</h3>
-<p>Pengembangan sistem layanan pemerintah yang efisien, transparan, dan terintegrasi menjadi prioritas absolut bagi Pemerintah Kota Baubau, khususnya dalam ranah krusial pengelolaan Pendapatan Asli Daerah (PAD). Dalam rangka meningkatkan kualitas layanan publik, mencegah kebocoran kas daerah, dan mengakselerasi proses birokrasi, perencanaan arsitektur digital yang matang dan terkoordinasi sangat diperlukan. </p>
-<p>Pada tahun 2023 dan 2024, audit internal dan evaluasi digitalisasi mengidentifikasi bahwa ekosistem lama sudah tidak mampu lagi menampung beban transaksi dinamis dan tuntutan pembayaran digital warga. Kondisi ini mengharuskan adanya perombakan total dari sistem monolitik menuju arsitektur berorientasi layanan (<em>Service-Oriented Architecture</em>) yang gesit, menggunakan teknologi <em>Unified Database</em> dan konektivitas API tingkat perbankan.</p>
+<p>Pengembangan sistem layanan pemerintah yang efisien, transparan, dan terintegrasi menjadi prioritas absolut bagi Pemerintah Kota Baubau, khususnya dalam ranah krusial pengelolaan Pendapatan Asli Daerah (PAD). Pada tahun 2023 dan 2024, audit internal dan evaluasi digitalisasi mengidentifikasi bahwa ekosistem lama sudah tidak mampu lagi menampung beban transaksi dinamis dan tuntutan pembayaran digital warga. Kondisi ini mengharuskan adanya perombakan total dari sistem monolitik menuju arsitektur berorientasi layanan (<em>Service-Oriented Architecture</em>) yang gesit, menggunakan teknologi <em>Unified Database</em> dan konektivitas API tingkat perbankan.</p>
 <h3>1.2 Rencana Kerja Perencanaan</h3>
-<p>Ruang lingkup pekerjaan perencanaan kegiatan ini dipecah ke dalam 3 tahap fundamental untuk menjamin transisi digital yang terukur:</p>
-<p><strong>A. Tahap 1: Studi dan Analisis Kelayakan</strong>
-1. Menganalisis kondisi basis data SIMPAD lama, mengekstraksi skema tabel, dan mengidentifikasi anomali data (pembersihan data).
-2. Melakukan survei lapangan terhadap perangkat keras (<em>server eksisting</em>), kapasitas jaringan internet di kantor Bapenda, serta kesiapan literasi digital SDM operasional.
-3. Menganalisis kebutuhan layanan antara Bapenda dengan Bank Mitra (Bank Sultra, BNI, Mandiri) untuk sinkronisasi format <em>Host-to-Host</em> (H2H).</p>
-<p><strong>B. Tahap 2: Perencanaan Teknis &amp; Arsitektur</strong>
-1. Merancang desain topologi <em>cloud server</em> (VPS) dan <em>Virtual Private Network</em> (VPN) yang sesuai dengan protokol keamanan transaksi finansial.
-2. Menentukan tumpukan teknologi (<em>Tech-Stack</em>) baik dari sisi <em>Framework</em> aplikasi (Laravel 11, React), pangkalan data (MySQL, Redis), maupun perangkat keamanan (Web Application Firewall).
-3. Menyusun rencana tahapan <em>deployment</em>, dari versi <em>Alpha, Beta</em>, hingga penyebaran masif (Gelar Peluncuran).</p>
-<p><strong>C. Tahap 3: Pelaporan dan Dokumentasi</strong>
-1. Menyusun Dokumen Laporan Akhir (Cetak Biru) ini sebagai panduan teknis bagi seluruh <em>developer</em> dan <em>stakeholders</em>.
-2. Mempresentasikan hasil perancangan topologi kepada Kepala Badan Pendapatan Daerah dan tim teknis Diskominfo Kota Baubau guna mencapai persetujuan eksekusi.</p>
+<p>Ruang lingkup pekerjaan perencanaan kegiatan ini dipecah ke dalam 3 tahap fundamental untuk menjamin transisi digital yang terukur:
+1. <strong>Tahap 1: Studi dan Analisis Kelayakan:</strong> Menganalisis kondisi basis data SIMPAD lama, mengekstraksi skema tabel, dan mengidentifikasi anomali data (pembersihan data).
+2. <strong>Tahap 2: Perencanaan Teknis &amp; Arsitektur:</strong> Merancang desain topologi <em>cloud server</em> (VPS) dan <em>Virtual Private Network</em> (VPN) yang sesuai dengan protokol keamanan transaksi finansial.
+3. <strong>Tahap 3: Pelaporan dan Dokumentasi:</strong> Menyusun Dokumen Laporan Akhir (Cetak Biru) ini sebagai panduan teknis bagi seluruh <em>developer</em> dan <em>stakeholders</em>.</p>
 <h3>1.3 Dasar Hukum</h3>
 <p>Penyelenggaraan perancangan arsitektur sistem pengelolaan uang negara/daerah wajib dilandasi kepatuhan hukum (<em>legal compliance</em>) yang ketat:
-1.  <strong>Undang-Undang Nomor 11 Tahun 2008</strong> tentang Informasi dan Transaksi Elektronik, sebagaimana telah diubah dengan Undang-Undang Nomor 1 Tahun 2024.
-2.  <strong>Undang-Undang Nomor 1 Tahun 2022</strong> tentang Hubungan Keuangan Antara Pemerintah Pusat dan Pemerintahan Daerah (HKPD).
-3.  <strong>Undang-Undang Nomor 14 Tahun 2008</strong> tentang Keterbukaan Informasi Publik.
-4.  <strong>Peraturan Pemerintah Nomor 71 Tahun 2019</strong> tentang Penyelenggaraan Sistem dan Transaksi Elektronik.
-5.  <strong>Peraturan Daerah (Perda) Kota Baubau Nomor 1 Tahun 2024</strong> tentang Pajak Daerah dan Retribusi Daerah (PDRD).
-6.  <strong>Peraturan Wali Kota Baubau Nomor 58 Tahun 2024</strong> tentang Tata Cara Pemungutan Pajak Daerah dan Retribusi Daerah.
-7.  Pedoman Standar Nasional Open API Pembayaran (SNAP) Bank Indonesia.</p>
+1. Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik.
+2. Undang-Undang Nomor 1 Tahun 2022 tentang Hubungan Keuangan Antara Pemerintah Pusat dan Pemerintahan Daerah.
+3. Peraturan Daerah (Perda) Kota Baubau Nomor 1 Tahun 2024 tentang Pajak Daerah dan Retribusi Daerah (PDRD).
+4. Pedoman Standar Nasional Open API Pembayaran (SNAP) Bank Indonesia.</p>
 <h3>1.4 Ruang Lingkup</h3>
-<p><strong>1.4.1 Ruang Lingkup Lokasi</strong>
-Penyelenggaraan sistem ini difokuskan di <strong>Kantor Badan Pendapatan Daerah Kota Baubau</strong> sebagai pusat kendali (<em>Command Center</em>). Namun demikian, jangkauan layanan aplikasi akan mengikat seluruh:
-*   Tempat Usaha (Hotel, Restoran, Tambang MBLB, dll) di seluruh kecamatan dan kelurahan di wilayah administratif Kota Baubau untuk keperluan perpajakan.
-*   Infrastruktur Perbankan (Bank Pembangunan Daerah / BPD Sultra) selaku penyedia kas daerah.
-*   Perangkat bergerak (<em>smartphone</em>) milik warga untuk pendaftaran E-SPOPD dari mana saja.</p>
-<p><strong>1.4.2 Ruang Lingkup Substansi</strong>
-Sistem ini meliputi pendaftaran subjek dan objek pajak, penetapan nilai pungutan (<em>billing</em>), kalkulasi denda keterlambatan secara matematis, validasi pembayaran nirsentuh lewat API, serta penerbitan ketetapan hukum berupa SKPD berbasis Tanda Tangan Elektronik Tersertifikasi BSrE BSSN.</p>
+<p>Penyelenggaraan sistem ini difokuskan di <strong>Kantor Badan Pendapatan Daerah Kota Baubau</strong>. Sistem ini meliputi pendaftaran subjek dan objek pajak, penetapan nilai pungutan (<em>billing</em>), kalkulasi denda keterlambatan, validasi pembayaran nirsentuh, serta penerbitan ketetapan hukum berbasis Tanda Tangan Elektronik.</p>
+<h3>1.5 Pendekatan dan Metodologi</h3>
+<p>Pendekatan yang digunakan adalah <strong>Agile System Development Life Cycle (SDLC)</strong> dengan metode partisipatif. Metode <em>Agile</em> memungkinkan umpan balik berkelanjutan (<em>continuous feedback</em>) dari pimpinan Bapenda pada setiap iterasi (<em>sprint</em>) pengembangan.</p>
 <hr />
 <h2>BAB II: KAJIAN TEORI</h2>
 <h3>2.1 Teori Arsitektur Sistem Informasi</h3>
-<p>A. <strong>N-Tier Architecture (Arsitektur Multi-Lapis):</strong> Memisahkan sistem ke dalam lapisan terisolasi. Lapisan Presentasi (<em>Front-end</em>), Lapisan Aplikasi (<em>Backend/Logic</em>), dan Lapisan Data (<em>Database</em>). Keunggulannya adalah fleksibilitas skalabilitas; bila pengguna membludak, beban <em>frontend</em> dapat diperbesar tanpa harus menyentuh <em>database</em>.
-B. <strong>Service-Oriented Architecture (SOA):</strong> Menggunakan API (Antarmuka Pemrograman Aplikasi) berarsitektur RESTful. Setiap fungsi bisnis (cek tagihan, bayar tagihan, daftar warga) diubah menjadi sebuah layanan mikro yang dapat dipanggil oleh aplikasi web, aplikasi <em>mobile</em>, hingga aplikasi pihak ketiga (Bank).</p>
+<ul>
+<li><strong>N-Tier Architecture:</strong> Memisahkan sistem ke dalam lapisan terisolasi (Presentasi, Aplikasi, dan Data) yang memberikan fleksibilitas skalabilitas tinggi.</li>
+<li><strong>Service-Oriented Architecture (SOA):</strong> Menggunakan API RESTful di mana setiap fungsi bisnis diubah menjadi sebuah layanan mikro.</li>
+</ul>
 <h3>2.2 Teori Basis Data Modern</h3>
-<p>A. <strong>Unified Database &amp; JSON Schema-less:</strong> Relasi antar tabel yang terlalu banyak (puluhan tabel spesifik untuk tiap jenis pajak) akan memperlambat waktu pemanggilan (<em>query time</em>) secara signifikan. Teori JSON Metadata dalam Relational Database memungkinkan sistem menyimpan variabel bebas tanpa batas di dalam satu <em>field</em> tunggal. Restoran menyimpan <code>jumlah_kursi</code>, sementara PBB menyimpan <code>luas_tanah</code> dalam format <em>key-value</em> di satu entitas tabel <em>Objek_Pajak</em>.
-B. <strong>In-Memory Caching (Redis):</strong> Operasi pencarian data ke <em>Harddisk/SSD</em> pada MySQL/PostgreSQL memakan waktu beberapa milidetik. Dalam frekuensi jutaan permintaan, ini akan menghancurkan CPU peladen. Redis menampung data yang sering dicari secara temporer langsung ke dalam RAM, mengubah latensi dari hitungan milidetik menjadi mikrodetik.</p>
+<ul>
+<li><strong>Unified Database:</strong> Teori JSON Metadata dalam Relational Database memungkinkan sistem menyimpan variabel bebas tanpa batas di dalam satu <em>field</em> tunggal, memangkas beban pemanggilan kueri tabel yang berlebihan.</li>
+<li><strong>In-Memory Caching (Redis):</strong> Menampung data yang sering dicari secara temporer langsung ke dalam RAM, mengubah latensi menjadi mikrodek.</li>
+</ul>
 <h3>2.3 Teori Kriptografi dan Keamanan Siber</h3>
-<p>A. <strong>Asymmetric Encryption (RSA-2048):</strong> Kriptografi kunci publik/privat memastikan data finansial <em>payload</em> transaksi hanya bisa dibongkar oleh server pemerintah kota, mencegah intersepsi dari agen <em>man-in-the-middle</em>.
-B. <strong>Hash-based Message Authentication Code (HMAC-SHA256):</strong> Algoritma <em>hashing</em> yang meleburkan kombinasi <em>payload</em> data dengan <em>Secret Key</em>. HMAC menempel pada <em>Header Request</em>. Jika ada satu bit karakter (misal angka tagihan dari Rp1.000.000 diubah menjadi Rp10.000 oleh <em>hacker</em>), HMAC akan rusak dan server akan menolak permintaan pembayaran.
-C. <strong>Distributed Denial of Service (DDoS) Mitigation &amp; WAF:</strong> Web Application Firewall memfilter pola <em>request</em> yang mencurigakan (seperti percobaan <em>login</em> massal dari bot). Pola trafik disaring berdasarkan heuristik <em>IP Intelligence</em>.</p>
+<ul>
+<li><strong>Asymmetric Encryption (RSA-2048):</strong> Kriptografi kunci publik/privat memastikan data finansial hanya bisa dibongkar oleh peladen tujuan.</li>
+<li><strong>Hash-based Message Authentication Code (HMAC-SHA256):</strong> Algoritma yang menjamin integritas paket data agar mustahil untuk dimanipulasi (<em>Man-in-the-Middle Attack</em>).</li>
+</ul>
 <hr />
-<h2>BAB III: ANALISIS STUDI SISTEM SEBELUMNYA</h2>
-<p>Sebelum melangkah pada arsitektur baru, perancangan blueprint ini dilandasi oleh studi mendalam (<em>Reverse Engineering</em>) terhadap sistem warisan (<em>legacy system</em>) yang selama bertahun-tahun digunakan oleh Bapenda Kota Baubau. Observasi pada <em>source code</em> dan struktur direktori aplikasi lama mengungkapkan sejumlah temuan kritis yang menjadi landasan filosofis perombakan sistem.</p>
+<h2>BAB III: GAMBARAN SISTEM EKSISTING (STUDI SEBELUMNYA)</h2>
+<p>Sebelum melangkah pada arsitektur baru, perancangan blueprint ini dilandasi oleh studi mendalam terhadap sistem warisan (<em>legacy system</em>) yang selama bertahun-tahun digunakan oleh Bapenda Kota Baubau. Observasi pada struktur direktori aplikasi lama (/old) mengungkapkan temuan kritis:</p>
 <h3>3.1 Arsitektur Monolitik dan Keterpecahan Kode (Silo)</h3>
-<p>Pemeriksaan pada struktur sistem lama (<code>/old</code>) memperlihatkan bahwa aplikasi dibangun tidak menggunakan kerangka kerja MVC (<em>Model-View-Controller</em>) modern, melainkan menggunakan fondasi <strong>PHP Native</strong> murni (<code>index.php</code>, <code>main.php</code>, <code>login.php</code>). Lebih memprihatinkan lagi, manajemen jenis pajak dipisahkan secara fisik ke dalam direktori aplikasi yang sama sekali berbeda:
+<p>Sistem lama dibangun menggunakan fondasi <strong>PHP Native</strong> murni tanpa MVC. Manajemen jenis pajak dipisahkan secara fisik ke dalam dua direktori yang sama sekali berbeda:
 1. <strong>Direktori <code>/9pajak</code>:</strong> Menangani 9 jenis Pajak Daerah secara eksklusif.
-2. <strong>Direktori <code>/bphtb</code>:</strong> Menangani Bea Perolehan Hak atas Tanah dan Bangunan pada antarmuka dan pangkalan data yang terpisah.</p>
-<p>Keterpecahan fisik (<em>silo</em>) ini bermuara pada mimpi buruk administratif: bila Wajib Pajak A memiliki restoran (Pajak Restoran) dan baru saja membeli ruko (BPHTB), data Wajib Pajak A akan dientri berulang kali di dua <em>database</em> berbeda, menciptakan <em>Redudansi Data Massal</em>.</p>
+2. <strong>Direktori <code>/bphtb</code>:</strong> Menangani BPHTB pada antarmuka dan pangkalan data yang terpisah.
+Kondisi silo ini menciptakan Redudansi Data Massal di mana satu entitas warga wajib diinput berulang kali.</p>
 <h3>3.2 Tumpukan Teknologi Usang (Tech-Stack Obsolescence)</h3>
-<p>Dari hasil bedah kode, sistem antarmuka (<em>front-end</em>) lama mengandalkan pustaka (<em>library</em>) yang sangat kuno:
-* Penggunaan <strong>jQuery versi 1.4.2</strong> (dirilis tahun 2010) dan <strong>Ext-Core JS</strong>. Pustaka usang ini tidak lagi mendapatkan pembaruan keamanan, menjadikannya sarang kerentanan eksploitasi peretas tingkat pemula.
-* Antarmuka sama sekali tidak <em>responsive</em> (tidak ramah pengguna <em>smartphone</em>), sehingga menyulitkan wajib pajak maupun pimpinan yang ingin memantau <em>dashboard</em> dari gawai.</p>
+<p>Sistem antarmuka lama mengandalkan pustaka kuno seperti <strong>jQuery versi 1.4.2</strong> dan <strong>Ext-Core JS</strong>. Pustaka ini tidak lagi mendapatkan pembaruan keamanan, menjadikannya sarang kerentanan eksploitasi, serta tidak ramah pengguna layar gawai (<em>non-responsive</em>).</p>
 <h3>3.3 Bom Waktu Basis Data (<em>Monolithic Bottleneck</em>)</h3>
-<p>Analisis terhadap fail ekstraksi basis data (<code>sw_patda_backup.sql</code>) berukuran 108 Megabytes memperlihatkan desain relasional yang kaku. Seluruh histori, log, dan ketetapan dimasukkan tanpa teknik pemisahan arsip (<em>archiving</em>) maupun <em>caching</em>. Pada saat jatuh tempo pembayaran massal, antrean <em>query SQL</em> pada mesin aplikasi tunggal akan menyebabkan peladen lumpuh sementara (<em>timeout</em>), yang sering disalahartikan sebagai "jaringan bank yang lambat".</p>
-<p>Berdasarkan studi sistem sebelumnya inilah, arsitektur baru didesain menggunakan <strong>Laravel 11, React.js</strong>, <strong>Unified Database</strong>, dan teknologi <strong>Redis In-Memory Cache</strong> untuk memastikan sejarah kelam infrastruktur IT Bapenda Baubau dikubur secara permanen.</p>
+<p>Basis data relasional yang kaku menyebabkan antrean kueri menumpuk pada satu peladen saat jatuh tempo massal, berujung pada kelumpuhan sistem (<em>timeout</em>). Fakta ini menjadi landasan migrasi ke teknologi <em>Unified Database</em> dan <em>Laravel 11</em>.</p>
 <hr />
-<h2>BAB IV: ARSITEKTUR DAN TOPOLOGI INFRASTRUKTUR</h2>
-<p>Arsitektur jaringan internet dan peladen (<em>server</em>) memegang peranan vital untuk menjamin waktu aktif (<em>uptime</em>) aplikasi pemerintahan mencapai 99.9%.</p>
+<h2>BAB IV: ANALISIS KEBUTUHAN DAN ARSITEKTUR SISTEM</h2>
 <h3>4.1 Skema Topologi Infrastruktur Cloud</h3>
 <div class="mermaid">
 flowchart TD
-    %% Styling
     classDef cloud fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,color:#0d47a1,rx:5px,ry:5px
     classDef server fill:#fff3e0,stroke:#e65100,stroke-width:2px,color:#e65100,rx:5px,ry:5px
     classDef db fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#1b5e20,rx:5px,ry:5px
     classDef firewall fill:#ffebee,stroke:#c62828,stroke-width:2px,color:#b71c1c,rx:5px,ry:5px
     classDef network fill:#f3e5f5,stroke:#303f9f,stroke-width:2px,color:#1a237e,rx:5px,ry:5px
 
-    style AreaPublik fill:#fafafa,stroke:#999,stroke-width:2px,stroke-dasharray: 5 5
-    style AreaKeamanan fill:#fce4ec,stroke:#880e4f,stroke-width:2px,stroke-dasharray: 5 5
-    style AreaVPS fill:#fff8e1,stroke:#f57f17,stroke-width:2px,stroke-dasharray: 5 5
-    style AreaDB fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,stroke-dasharray: 5 5
-
-    subgraph AreaPublik ["🌐 KANAL INTERNET PUBLIK & INTRANET"]
-        Warga["📱 Wajib Pajak (Browser/Mobile)"]:::cloud
-        Perbankan["🏦 Sistem Bank Mitra (BPD, Himbara)"]:::cloud
-        Petugas["💻 Intranet Bapenda & Pemkot"]:::cloud
+    subgraph AreaPublik ["🌐 KANAL INTERNET PUBLIK"]
+        Warga["📱 Wajib Pajak"]:::cloud
+        Perbankan["🏦 Sistem Bank"]:::cloud
     end
 
-    subgraph AreaKeamanan ["🛡️ PERIMETER KEAMANAN SIBER"]
-        WAF["🧱 Web Application Firewall (WAF) <br> Anti-DDoS & SSL Termination"]:::firewall
-        LB["⚖️ API Load Balancer (Nginx/HAProxy)"]:::network
+    subgraph AreaKeamanan ["🛡️ PERIMETER KEAMANAN"]
+        WAF["🧱 Web App Firewall (WAF)"]:::firewall
+        LB["⚖️ Load Balancer"]:::network
     end
 
-    subgraph AreaVPS ["☁️ KLASTER APLIKASI (NEO CLOUD VPS)"]
-        Node1["⚙️ App Server Node 01 <br> (Laravel 11, PHP 8.3)"]:::server
-        Node2["⚙️ App Server Node 02 <br> (Standby / Auto-Scaling)"]:::server
+    subgraph AreaVPS ["☁️ KLASTER APLIKASI (VPS)"]
+        Node1["⚙️ App Server Node 01"]:::server
+        Node2["⚙️ App Server Node 02"]:::server
     end
 
-    subgraph AreaDB ["💾 DATA CENTER & PERSISTENSI"]
-        DBMaster["🗄️ Database Master <br> (MySQL/PostgreSQL)"]:::db
-        DBReplica["🗄️ Database Replikasi <br> (Read-Only & Backup)"]:::db
-        Redis["⚡ Redis Cache Server <br> (Session & Query Cache)"]:::db
-        ObjectStorage["📁 S3 Object Storage <br> (Penyimpanan Dokumen PDF TTE)"]:::db
+    subgraph AreaDB ["💾 DATA CENTER"]
+        DBMaster["🗄️ Database Master"]:::db
+        Redis["⚡ Redis Cache"]:::db
     end
 
-    Warga -->|HTTPS TLS 1.3| WAF
-    Perbankan -->|IPSEC VPN / mTLS| WAF
-    Petugas -->|HTTPS| WAF
-
+    Warga -->|HTTPS| WAF
+    Perbankan -->|IPSEC VPN| WAF
     WAF --> LB
-    LB -->|Traffic 50%| Node1
-    LB -->|Traffic 50%| Node2
-
-    Node1 <-->|Write| DBMaster
-    Node1 <-->|Read| DBReplica
+    LB --> Node1
+    LB --> Node2
+    Node1 <--> DBMaster
     Node1 <--> Redis
-    Node1 <--> ObjectStorage
-
-    Node2 <-->|Write| DBMaster
-    Node2 <-->|Read| DBReplica
+    Node2 <--> DBMaster
     Node2 <--> Redis
-    Node2 <--> ObjectStorage
-
-    DBMaster -.->|Sync Real-time| DBReplica
 </div>
 
-<h3>4.2 Analisis Arsitektur Topologi</h3>
-<p>Topologi di atas dirancang untuk memberikan Ketersediaan Tinggi (<em>High Availability</em>) dengan mereduksi <em>Single Point of Failure</em> (Titik Kegagalan Tunggal):
-1. <strong>Pemutusan Koneksi Langsung:</strong> Wajib pajak maupun perbankan <em>tidak pernah</em> diizinkan menyentuh server aplikasi secara langsung. Semua sambungan di-intersepsi oleh WAF yang melakukan inspeksi paket data (<em>Deep Packet Inspection</em>). Paket yang mengandung kode injeksi SQL (<em>SQL Injection payload</em>) langsung dihancurkan.
-2. <strong>Horizontal Scaling:</strong> Di dalam klaster komputasi, beban kerja aplikasi didistribusikan oleh <em>Load Balancer</em> ke beberapa <em>node</em> server aplikasi. Apabila terjadi fenomena <em>traffic spike</em> di tenggat waktu pembayaran pajak, sistem dapat menduplikasi <em>node</em> secara horizontal untuk mengimbangi beban pemrosesan (<em>Auto-Scaling</em>).
-3. <strong>Replikasi Basis Data:</strong> Penulisan data (pelunasan bayar, daftar akun) diarahkan pada <em>Database Master</em>, sementara pembacaan laporan eksekutif atau cetak struk diarahkan ke <em>Database Replikasi</em>. Hal ini mengamankan integritas transaksional dari beban <em>query report</em> yang berat.</p>
+<h3>4.2 Spesifikasi Proses Bisnis</h3>
+<ol>
+<li><strong>Modul Registrasi E-SPOPD:</strong> Wajib Pajak menginput NIK, NPWP, dan Titik Koordinat Usaha secara mandiri lewat gawai tanpa formulir kertas.</li>
+<li><strong>Modul Penetapan JIT (Just-In-Time):</strong> Algoritma dinamis mengeksekusi perhitungan denda 2% per bulan secara kumulatif langsung saat Wajib Pajak meminta nomor tagihan (<em>inquiry</em>), memangkas <em>cache</em> data statis bulanan.</li>
+<li><strong>Tanda Tangan Elektronik (TTE):</strong> Sistem mencetak berkas Ketetapan PDF yang dibubuhi sertifikat digital BSrE BSSN secara otomatis.</li>
+<li><strong>Integrasi Host-to-Host (H2H):</strong> Menerapkan standar asinkron T+0 BI SNAP. Uang yang dipotong di Bank tereskalasi dalam milidetik ke <em>dashboard</em> kas Bapenda tanpa campur tangan rekapitulasi manual staf.</li>
+</ol>
+<h3>4.3 Standar Keamanan Sistem</h3>
+<ul>
+<li><strong>Geo-Blocking &amp; IP Whitelisting:</strong> Titik akses pembayaran dikunci hanya untuk IP milik Bank Sultra/Mandiri, mencegah injeksi bot anonim.</li>
+<li><strong>Otorisasi Sesi JWT:</strong> Sesi admin dikunci menggunakan JSON Web Token (<em>stateless</em>) bertenaga pendek, mengeliminasi risiko pembajakan sesi persisten.</li>
+</ul>
 <hr />
-<h2>BAB V: ANALISIS SPESIFIKASI PROSES BISNIS</h2>
-<p>Agar selaras dengan tata tertib administrasi daerah, sistem memecah alur birokrasi menjadi beberapa subsistem elektronik otomatis.</p>
-<h3>5.1 Modul Registrasi Wajib Pajak Elektronik (E-SPOPD)</h3>
-<p>Mengakhiri era formulir kertas, layanan <em>Electronic - Surat Pemberitahuan Objek Pajak Daerah</em> (E-SPOPD) memberikan otonomi bagi warga.
-*   Wajib Pajak menginput NIK, NPWP, Titik Koordinat Usaha, serta mengunggah swafoto lokasi kedai/restoran/hotel dari gawai mereka.
-*   Dokumen tersimpan di <em>Cloud Object Storage</em> sebagai aset digital tanpa memberatkan memori <em>database</em> utama.
-*   Admin Verifikator memeriksa silang (<em>cross-checking</em>) foto dan koordinat dengan peta <em>Google Maps API</em>. Jika sah, algoritma memproduksi Nomor Pokok Wajib Pajak Daerah (NPWPD) terenkripsi secara serentak.</p>
-<h3>5.2 Modul Pengawasan Geospasial (Surveillance / Uji Petik)</h3>
-<p>Kelemahan terbesar Bapenda daerah adalah kurangnya instrumen penegakan pelaporan omzet.
-*   <strong>Mobile Tracking:</strong> Aplikasi android petugas pajak dilengkapi limitasi pagar maya (<em>Geo-Fencing</em>). Petugas tidak dapat mengirimkan laporan 'Uji Petik' omzet restoran A bila GPS <em>smartphone</em>-nya terdeteksi berada di restoran B atau di rumah. Fitur ini menghilangkan fenomena laporan fiktif aparat lapangan.
-*   <strong>Executive Dashboard Heatmap:</strong> Setiap wilayah kecamatan dilukiskan di layar monitor pimpinan menggunakan saturasi gradasi warna (Panas/Dingin). Wilayah yang kontribusi pajaknya stagnan, namun data PLN/PDAM menunjukkan aktivitas tinggi, akan ditandai berisiko kebocoran tinggi (Merah).</p>
-<h3>5.3 Modul Penetapan Pajak JIT &amp; Integrasi Tanda Tangan Elektronik (TTE)</h3>
-<div class="mermaid">
-graph TD
-    %% Styling
-    classDef logic fill:#e0f2f1,stroke:#1565c0,stroke-width:2px,color:#004d40,rx:5px,ry:5px
-    classDef engine fill:#fff8e1,stroke:#ff8f00,stroke-width:2px,color:#bf360c,rx:5px,ry:5px
-    classDef output fill:#fce4ec,stroke:#c2185b,stroke-width:2px,color:#880e4f,rx:5px,ry:5px
-
-    A[Permintaan Inquiry dari Bank / Wajib Pajak]:::logic --> B(Just-In-Time Billing Engine):::engine
-    B --> C{Pengecekan Variabel Metadata JSON}:::logic
-    C -->|Tarif Restoran 10%| D[Kalkulator Pokok Restoran]:::engine
-    C -->|Tarif Hotel 10%| E[Kalkulator Pokok Hotel]:::engine
-    C -->|Tarif Reklame per Meter| F[Kalkulator Pokok Reklame]:::engine
-
-    D & E & F --> G(Penalty Engine / Denda Keterlambatan):::engine
-    G --> H{Apakah Jatuh Tempo Terlewat?}:::logic
-    H -->|Ya| I[Hitung Denda 2% Per Bulan Kumulatif]:::engine
-    H -->|Tidak| J[Denda Rp0]:::engine
-
-    I & J --> K(Total Tagihan Terkunci):::output
-    K --> L[Generate Berkas SKPD PDF]:::output
-    L --> M[Lempar ke BSrE untuk Pembubuhan TTE Stempel QR Code]:::output
-</div>
-
-<p>Sistem meninggalkan metodologi warisan yang menghitung dan mencetak tagihan SPPT secara kaku di awal tahun kalender.
-*   <strong>Just-In-Time (JIT) Engine:</strong> Mesin komputasi beroperasi dinamis. Ketika ada inisiasi permintaan besaran tagihan, barulah algoritma menjalankan fungsi pemangkasan masa aktif <em>range</em> pajak dan menghasilkan nilai. Ini mereduksi ukuran basis data dari puluhan <em>gigabytes</em> perhitungan <em>cache</em> statis menjadi kalkulasi langsung.
-*   <strong>Penalty Engine:</strong> Keterlambatan pelunasan akan dievaluasi secara otomatis setiap bulan, menyuntikkan denda komulatif sebesar 2% per bulan sesuai Perda tanpa perlu sentuhan <em>admin</em>.
-*   <strong>Penerbitan SKPD &amp; TTE:</strong> Setelah angka dikunci, server membuat fail PDF (Surat Ketetapan Pajak Daerah) dan berkomunikasi dengan server BSrE BSSN untuk membubuhkan stempel Tanda Tangan Elektronik (Sertifikat Digital) berbentuk QR Code. Dokumen ini sah dan memiliki kekuatan hukum penuh di mata pengadilan pajak.</p>
-<h3>5.4 Modul Integrasi Gateway Pembayaran (Host-to-Host)</h3>
-<p>Arus transaksi ditangani melalui protokol asinkron berstandar SNAP (<em>Standar Nasional Open API Pembayaran</em>).</p>
-<div class="mermaid">
-sequenceDiagram
-    autonumber
-    participant WP as Nasabah / Wajib Pajak
-    participant Bank as Core Banking System
-    participant WAF as Perimeter Bapenda (WAF)
-    participant API as API Core Backend (Laravel)
-
-    WP->>Bank: Input ID Billing (NPWPD) di Kanal M-Banking/Teller
-    Bank->>WAF: POST /v1/inquiry (Kirim Payload JSON + HMAC)
-    WAF->>API: Forward Payload Valid
-    API->>API: Eksekusi JIT Billing Engine
-    API-->>Bank: Response 200 OK (Nama WP, Rincian, Denda, Total)
-    Bank-->>WP: Display Konfirmasi Pembayaran di Layar Gawai
-
-    WP->>Bank: Otorisasi PIN / Passcode
-    Bank->>Bank: Debet Mutasi Rekening Nasabah
-    Bank->>WAF: POST /v1/payment (Webhook Pelunasan + HMAC Baru)
-    WAF->>API: Forward Webhook Payment
-    API->>API: Validasi Nominal Sinkron
-    API->>API: Update Status Transaksi -> "LUNAS"
-    API->>API: Generate Nomor Tanda Penerimaan Daerah (NTPD)
-    API-->>Bank: Response 200 OK (NTPD Konfirmasi Sukses)
-    Bank-->>WP: Cetak Struk Bukti Bayar / Resi Digital yang Mengandung NTPD
-</div>
-
-<p><strong>Konsep Asinkron T+0:</strong> Uang yang dipotong oleh <em>Core Banking System</em> tereskalasi dalam milidetik dan terekam di layar komputer admin penagihan Bapenda pada saat yang bersamaan (H+0). Modul rekonsiliasi secara ajaib mempertemukan angka pada mutasi rekening koran pemerintah daerah dengan catatan di sistem, tanpa perlu rekapitulasi data lembur mingguan oleh <em>teller</em> kantor.</p>
-<hr />
-<h2>BAB VI: STANDAR KEAMANAN SISTEM</h2>
-<p>Sistem perpajakan daerah mengelola pangkalan data privasi jutaan entitas demografis, sekaligus menjadi muara perputaran agregat finansial puluhan miliar rupiah per tahun. Kepatuhan terhadap kaidah ketahanan siber (<em>cyber resilience</em>) bukan sekadar opsi, melainkan keharusan absolut.</p>
-<h3>6.1 Kriptografi Transaksi Bank (HMAC &amp; Asymmetric)</h3>
-<p>Sebagai garis pertahanan utama dalam menjaga legitimasi data transaksi <em>Host-to-Host</em>, setiap <em>payload</em> JSON yang dipertukarkan antara <em>Payment Gateway</em> Bank dan server BAPENDA diproteksi dengan tanda tangan digital berlapis:
-1.  <strong>HMAC-SHA256:</strong> String otentikasi dihasilkan dari gabungan parameter khusus (Tanggal, Nominal, Kode Bank) yang di-<em>hash</em> menggunakan <em>Secret Key</em>. Algoritma ini menjamin integritas paket data agar mustahil untuk dimanipulasi di tengah jalan (<em>Man-in-the-Middle Attack</em>).
-2.  <strong>RSA-2048 Encryption:</strong> Dalam skenario pertukaran data yang sangat krusial, kunci asimetris digunakan. Bank menyandikan (<em>encrypt</em>) data dengan <em>Public Key</em> Pemkot Baubau, sehingga secara matematis hanya <em>Private Key</em> Bapenda yang bisa membuka gembok data tersebut.</p>
-<h3>6.2 Kendali Akses Berbasis Geografi (Geo-Blocking &amp; IP Whitelisting)</h3>
-<p>Titik akses administratif (<em>Admin Dashboard</em>) dan jalur penyelesaian setoran API dikonfigurasi dalam lingkungan kedap udara:
-*   Mekanisme <em>IP Whitelisting</em> memastikan <em>Router Firewall</em> hanya menerima instruksi pembayaran dari deretan alamat IP terdaftar milik Bank Mitra. Akses dari IP anonim, apalagi yang berasal dari teritori luar Indonesia (Geo-IP Blocking), akan langsung dilempar ke keranjang sampah jaringan (<em>Drop</em> / <em>Blackhole</em>).</p>
-<h3>6.3 Otorisasi Sesi Pengguna Berbasis Token (JWT)</h3>
-<p>Untuk memitigasi pencurian identitas dan <em>Session Hijacking</em>, arsitektur penanganan sesi tidak menggunakan metode usang berupa tabel persisten di basis data. Sistem mengadopsi JSON Web Tokens (JWT) bersertifikasi:
-*   Setiap petugas/admin yang masuk (<em>login</em>) dibekali sepotong Token yang telah dienkripsi dengan <em>secret base64</em>. Token ini <em>stateless</em>, artinya server tidak perlu menanyakan ke <em>database</em> berulang kali. 
-*   Token dilengkapi dengan <em>Time-To-Live</em> (TTL) atau umur pendek (misal: kadaluarsa tiap 1 jam), memaksa mekanisme <em>Silent Refresh</em> di latar belakang. Bila gawai pengguna diretas, token akan basi dengan sendirinya, menetralisir bahaya serangan lanjutan.</p>
-<hr />
-<h2>BAB VII: RENCANA KERJA, JADWAL &amp; TIM PENGEMBANG</h2>
-<p>Keberhasilan penjahitan ekosistem berskala kolosal ini bergantung mutlak pada orkestrasi sumber daya manusia (SDM) dan pemilihan peralatan operasional yang solid.</p>
-<h3>7.1 Spesifikasi Susunan Personil Inti</h3>
-<p>Pengembangan arsitektur digital ini wajib diserahkan kepada tim ahli dengan klasifikasi jam terbang <em>Enterprise Level</em>.
-A. <strong>Project Manager (1 Orang):</strong> Memegang sertifikasi manajemen proyek (misal: PMP atau setara). Bertanggung jawab menjembatani iterasi (<em>sprint</em>) teknis dengan kebutuhan birokrasi regulasi pimpinan Bapenda. Minimal 5 tahun pengalaman pengadaan <em>e-government</em>.
-B. <strong>System Analyst &amp; Database Architect (1 Orang):</strong> Merancang skema relasional antar entitas, menentukan formula Normalisasi <em>Database</em>, serta memetakan matriks struktur <em>Unified Metadata</em>. Mengawasi rancangan DFD (<em>Data Flow Diagram</em>) dan mitigasi asinkron H2H.
-C. <strong>Senior Backend Engineer (2 Orang):</strong> Spesialis <em>framework</em> PHP modern (Laravel 11). Menulis blok kode fungsional, membuat abstraksi API RESTful, mengintegrasikan JWT dan Kriptografi Asimetris. Penguasaan bahasa struktural dan kontrol versi (<em>Git</em>) tingkat lanjut.
-D. <strong>Frontend &amp; Mobile App Developer (2 Orang):</strong> Spesialis kerangka antarmuka (React.js/Vue.js untuk Web, Flutter/React Native untuk <em>Mobile</em>). Menerjemahkan <em>wireframe</em> menjadi tampilan (<em>User Interface</em>) fungsional yang responsif terhadap ukuran gawai dan layar monitor besar.
-E. <strong>Quality Assurance / Security Auditor (1 Orang):</strong> Petugas khusus yang akan mencoba menembus celah sistem (Pen-Test), meretas <em>endpoint</em> API (memastikan WAF bekerja), dan membuat instrumen pengujian beban otomatis (menggunakan <em>JMeter/Locust</em>) membanjiri sistem dengan 10.000 <em>request</em> per detik untuk menguji kejatuhan peladen.</p>
-<h3>7.2 Spesifikasi Kebutuhan Perangkat / Infrastruktur (Server)</h3>
-<p>Berbeda dengan proyek jaringan fisik yang membutuhkan kabel optik <em>fusion splicer</em>, proyek <em>software e-government</em> membutuhkan kapabilitas komputasi Awan (Cloud Computing) dengan ketangguhan tingkat menengah-atas.</p>
+<h2>BAB V: RENCANA KERJA DAN TIM PENGEMBANG</h2>
+<h3>5.1 Susunan Personil Inti</h3>
+<p>Pengembangan arsitektur digital diserahkan kepada tim ahli <em>Enterprise Level</em>:
+1.  <strong>Project Manager (1 Orang):</strong> Menjembatani <em>sprint</em> teknis dengan kebutuhan birokrasi regulasi pimpinan Bapenda.
+2.  <strong>System Analyst &amp; Database Architect (1 Orang):</strong> Merancang skema relasional entitas, Normalisasi, serta memetakan matriks struktur <em>Unified Metadata</em>.
+3.  <strong>Senior Backend Engineer (2 Orang):</strong> Spesialis <em>framework</em> Laravel 11. Mengintegrasikan abstraksi API RESTful, JWT, dan Kriptografi Asimetris.
+4.  <strong>Frontend/Mobile Developer (2 Orang):</strong> Spesialis kerangka antarmuka (React.js/Flutter).
+5.  <strong>Quality Assurance (1 Orang):</strong> Petugas khusus pengujian beban otomatis (JMeter) dan pencari celah kerentanan (Pen-Test).</p>
+<h3>5.2 Spesifikasi Kebutuhan Infrastruktur (Server)</h3>
 <table>
 <thead>
 <tr>
@@ -289,33 +177,34 @@ E. <strong>Quality Assurance / Security Auditor (1 Orang):</strong> Petugas khus
 <tbody>
 <tr>
 <td style="text-align: left;"><strong>Virtual Private Server (VPS)</strong></td>
-<td style="text-align: left;">Neo Cloud / GCP / AWS. vCPU: 8 Cores, RAM: 16 GB, SSD/NVMe: 250 GB. Sistem Operasi: Ubuntu 24.04 LTS Server.</td>
-<td style="text-align: left;">Menjalankan <em>Web Server</em> Nginx, PHP-FPM, Supervisor untuk pemrosesan tugas latar belakang (<em>Queue/Jobs</em>), dan Daemon API.</td>
+<td style="text-align: left;">Neo Cloud / GCP / AWS. vCPU: 8 Cores, RAM: 16 GB, SSD: 250 GB.</td>
+<td style="text-align: left;">Menjalankan <em>Web Server</em> Nginx, PHP 8.3, dan Daemon API.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Database Server (Managed)</strong></td>
-<td style="text-align: left;">Dedicated Instance (vCPU: 4 Core, RAM 8GB), MySQL 8.0+ atau PostgreSQL 16+. Storage 100 GB.</td>
-<td style="text-align: left;">Mesin relasional. Disarankan terpisah (<em>decoupled</em>) dari mesin aplikasi VPS demi jaminan integritas penulisan dan replikasi data.</td>
+<td style="text-align: left;"><strong>Database Server</strong></td>
+<td style="text-align: left;">Dedicated Instance (vCPU: 4 Core, RAM 8GB), MySQL 8.0+.</td>
+<td style="text-align: left;">Disarankan terpisah (<em>decoupled</em>) dari mesin VPS aplikasi.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Cache Server</strong></td>
 <td style="text-align: left;">Redis In-Memory Datastore.</td>
-<td style="text-align: left;">Mengatur JSON Web Token (<em>session states</em>) pengguna, dan menyimpan perhitungan tagihan statis dalam memori kilat untuk efisiensi latensi.</td>
+<td style="text-align: left;">Menyimpan data sesi (<em>tokens</em>) demi efisiensi latensi.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Keamanan Perimeter</strong></td>
-<td style="text-align: left;">Web Application Firewall (WAF) dari Cloudflare Enterprise / F5 Networks.</td>
-<td style="text-align: left;">Menyediakan sertifikat SSL/TLS Otomatis, pencegahan DDoS, <em>bot-protection</em>, serta inspeksi injeksi sintaks basis data berbahaya.</td>
+<td style="text-align: left;">Web Application Firewall (WAF).</td>
+<td style="text-align: left;">Pencegahan DDoS dan <em>bot-protection</em>.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Cloud Object Storage</strong></td>
-<td style="text-align: left;">S3-Compatible Storage (AWS S3, MinIO). Kapasitas awal 500GB, <em>Auto-scaling</em>.</td>
-<td style="text-align: left;">Gudang file tak berbatas untuk menyimpan jepretan foto objek dari aplikasi <em>mobile</em> petugas dan arsip file SKPD PDF ber-TTE tanpa menghabiskan disk VPS.</td>
+<td style="text-align: left;"><strong>Object Storage</strong></td>
+<td style="text-align: left;">S3-Compatible Storage (AWS S3/MinIO).</td>
+<td style="text-align: left;">Menyimpan foto objek dan PDF SKPD ber-TTE.</td>
 </tr>
 </tbody>
 </table>
-<h3>7.3 Tabel Jadwal Pelaksanaan Konstruksi (Timeline)</h3>
-<p>Siklus hidup pengembangan (SDLC) dikalibrasi ketat ke dalam termin waktu triwulanan (<em>Quarterly</em>). Implementasi diurai berbasis pencapaian tenggat waktu terukur.</p>
+<hr />
+<h2>BAB VI: INDIKASI PROGRAM</h2>
+<h3>6.1 Jadwal Pelaksanaan Konstruksi (Timeline)</h3>
 <table>
 <thead>
 <tr>
@@ -324,7 +213,6 @@ E. <strong>Quality Assurance / Security Auditor (1 Orang):</strong> Petugas khus
 <th style="text-align: center;">Bulan 2</th>
 <th style="text-align: center;">Bulan 3</th>
 <th style="text-align: center;">Bulan 4</th>
-<th style="text-align: center;">Bulan 5</th>
 </tr>
 </thead>
 <tbody>
@@ -334,29 +222,18 @@ E. <strong>Quality Assurance / Security Auditor (1 Orang):</strong> Petugas khus
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
 </tr>
 <tr>
-<td style="text-align: left;">1. <em>Requirement Gathering</em> &amp; Reverse Engineering Legacy</td>
-<td style="text-align: center;">▉</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">2. Pembuatan Desain UI/UX &amp; <em>Mockup</em></td>
+<td style="text-align: left;">1. <em>Reverse Engineering Legacy</em> &amp; Desain UI</td>
 <td style="text-align: center;">▉</td>
 <td style="text-align: center;">▉</td>
-<td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 </tr>
 <tr>
-<td style="text-align: left;">3. Normalisasi <em>Unified Database</em> &amp; Topologi Server</td>
+<td style="text-align: left;">2. Normalisasi <em>Unified Database</em></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;">▉</td>
-<td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 </tr>
@@ -366,91 +243,37 @@ E. <strong>Quality Assurance / Security Auditor (1 Orang):</strong> Petugas khus
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
 </tr>
 <tr>
-<td style="text-align: left;">1. Modul Registrasi E-SPOPD &amp; Autentikasi JWT</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">▉</td>
-<td style="text-align: center;">▉</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">2. Perakitan <em>JIT Billing Engine</em> &amp; <em>Penalty Logic</em></td>
-<td style="text-align: center;"></td>
+<td style="text-align: left;">1. Modul JIT Billing, Denda &amp; Autentikasi</td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;">▉</td>
 <td style="text-align: center;">▉</td>
 <td style="text-align: center;"></td>
 </tr>
 <tr>
-<td style="text-align: left;">3. Rekayasa <em>Endpoint API</em> H2H Kriptografi SNAP BI</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">▉</td>
-<td style="text-align: center;">▉</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>FASE C: INTEGRASI EKSTERNAL &amp; PENGUJIAN</strong></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">1. <em>Sandbox Testing</em> Perbankan (Bank Sultra/Mandiri)</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">▉</td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">2. Integrasi Gateway TTE BSrE (Pembuatan PDF Stempel)</td>
-<td style="text-align: center;"></td>
+<td style="text-align: left;">2. <em>Endpoint API</em> H2H Kriptografi SNAP BI</td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;">▉</td>
 <td style="text-align: center;">▉</td>
 </tr>
 <tr>
-<td style="text-align: left;">3. Uji Penetrasi (<em>Pen-Test</em>) &amp; Uji Beban (<em>Stress-Test</em>)</td>
+<td style="text-align: left;"><strong>FASE C: PENGUJIAN &amp; PELUNCURAN</strong></td>
 <td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">1. <em>Sandbox Testing</em> Perbankan &amp; Uji Beban</td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;">▉</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>FASE D: UAT &amp; PELUNCURAN (GO-LIVE)</strong></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td style="text-align: left;">1. <em>User Acceptance Testing</em> (Simulasi Internal Bapenda)</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">▉</td>
-</tr>
-<tr>
-<td style="text-align: left;">2. Serah Terima (<em>Handover</em>), Bimbingan Teknis SDM</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">▉</td>
-</tr>
-<tr>
-<td style="text-align: left;">3. Pelepasan ke Publik (<em>Phased Rollout Soft-Launch</em>)</td>
-<td style="text-align: center;"></td>
+<td style="text-align: left;">2. <em>User Acceptance Testing</em> &amp; <em>Soft Launch</em></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
@@ -458,18 +281,16 @@ E. <strong>Quality Assurance / Security Auditor (1 Orang):</strong> Petugas khus
 </tr>
 </tbody>
 </table>
-<h3>7.4 Indikasi Perawatan Berkelanjutan (Maintanance)</h3>
-<p>Platform perangkat lunak setara organisme hidup yang memerlukan monitor berkelanjutan. Siklus perawatan rutin melibatkan:
-*   <strong>Harian:</strong> Pengecekan stabilitas koneksi API H2H Bank, inspeksi log kesalahan HTTP 500, dan pemantauan utilisasi CPU VPS.
-*   <strong>Mingguan:</strong> <em>Backup</em> basis data ke lokasi geografis sekunder (<em>off-site disaster recovery</em>), <em>flushing cache</em> memori usang.
-*   <strong>Bulanan:</strong> <em>Patching</em> (tambalan) pembaruan modul <em>library open-source</em> Laravel untuk menangkal <em>Zero-Day Exploit</em>, validasi masa aktif sertifikat TTE BSrE dan lisensi Domain/WAF.</p>
+<h3>6.2 Indikasi Perawatan Berkelanjutan (Maintenance)</h3>
+<ul>
+<li><strong>Harian:</strong> Pengecekan stabilitas koneksi API H2H Bank, pemantauan utilisasi CPU VPS.</li>
+<li><strong>Mingguan:</strong> <em>Backup</em> basis data ke lokasi geografis sekunder (<em>off-site disaster recovery</em>).</li>
+<li><strong>Bulanan:</strong> <em>Patching</em> pembaruan Laravel untuk menangkal <em>Zero-Day Exploit</em>, validasi masa aktif sertifikat SSL dan WAF.</li>
+</ul>
 <hr />
-<h2>BAB VIII: KESIMPULAN</h2>
-<p>Dokumen Perencanaan (Blueprint) Arsitektur Sistem Informasi Pendapatan Daerah ini dihidupkan dengan roh fundamental birokrasi cerdas (<em>smart-governance</em>). Ini bukan perihal modernisasi visual aplikasi semata, melainkan sebuah restrukturisasi absolut instrumen pemerintahan dari hierarki komputasi primitif menuju berkaliber korporasi modern (<em>Enterprise-Grade Platform</em>).</p>
-<p><strong>Kebutuhan Mendasar Sistem:</strong> Ketiadaan ekosistem yang terajut rapi membuat Pendapatan Asli Daerah (PAD) rentan mengalami stagnasi pelaporan dan inefisiensi pengawasan (<em>surveillance</em>). Melalui <em>Reverse Engineering</em> pada sistem <em>legacy</em> (SIMPAD PHP Native lama), ditemukan banyak redudansi entri data dan celah keamanan pustaka kuno. Dibutuhkan infrastruktur digital yang mampu menjahit modul Pendaftaran, Penetapan JIT, hingga Pembayaran Nirsentuh dalam satu helaan napas pangkalan data tunggal (<em>Unified Single Source of Truth</em>).</p>
-<p><strong>Solusi Teknologis Canggih:</strong> Aplikasi dirakit dengan fondasi <em>Agile</em>, didukung kekuatan N-Tier Architecture, kehebatan algoritma pemecah beban (<em>Load Balancing</em>), serta jembatan koneksi kriptografis kelas perbankan (HMAC Asymmetric RSA-2048) mengacu pada standar SNAP Bank Indonesia. Modul pengawasan lapangan dipersenjatai peta radar spasial (<em>GIS Heatmap</em>) untuk mereduksi pelaporan omzet ilegal secara geografis.</p>
-<p><strong>Dampak Positif &amp; Rekomendasi:</strong> 
-Dengan meminggirkan campur tangan manusia dalam proses sinkronisasi angka pelunasan bayar, rekonsiliasi manual berhari-hari kini terpotong drastis menjadi seperseribu detik (<em>Real-Time T+0</em>). Desain infrastruktur anti-roboh (<em>High Availability</em>) ini meminimalisir celah hilangnya integritas fiskal di tingkatan paling dini. Pemerintah Kota Baubau, khususnya Bapenda, sangat disarankan untuk menetapkan standarisasi kompetensi SDM (melalui <em>Transfer of Knowledge</em>) guna mendampingi ekosistem baru ini. Ekosistem revolusioner ini secara sadar dibangun sebagai infrastruktur mesin masa depan (<em>Future-Proof</em>), yang menopang fondasi transparansi perbendaharaan, merevolusi peningkatan kapasitas fiskal, dan memahat nama Kota Baubau di barisan terdepan konstelasi pelayanan <em>Smart City</em> nasional.</p>
+<h2>BAB VII: KESIMPULAN</h2>
+<p>Dokumen Perencanaan (Blueprint) Arsitektur Sistem Informasi Pendapatan Daerah ini merupakan fondasi restrukturisasi absolut instrumen pemerintahan dari komputasi warisan (<em>PHP Native</em>) menuju <em>Enterprise-Grade Platform</em>. Melalui <em>Reverse Engineering</em> pada sistem <em>legacy</em> (SIMPAD lama di direktori <code>/old</code>), terbukti bahwa inkonsistensi data massal yang ditimbulkan dari desain <em>silo</em> antara Pajak dan BPHTB harus segera ditangani menggunakan <em>Unified Database</em>.</p>
+<p>Penyediaan arsitektur N-Tier dengan penyaring <em>Web Application Firewall</em> (WAF) akan menggaransi ketersediaan tinggi (<em>High Availability</em>). Keterlibatan kalkulator dinamis <em>Just-In-Time</em> (JIT) dan protokol Asinkron H2H menihilkan kebutuhan rekapitulasi data lembur bulanan. Ekosistem revolusioner ini secara sadar dibangun sebagai infrastruktur mesin masa depan (<em>Future-Proof</em>), yang menopang fondasi transparansi perbendaharaan, memblokir celah kebocoran fiskal, dan memahat nama Kota Baubau di barisan terdepan pelayanan <em>Smart City</em> nasional.</p>
         <div class="page-footer">Blueprint Teknis Sistem Informasi Pendapatan Daerah Kota Baubau | Halaman Dokumen Laporan Akhir</div>
     </div>
     
