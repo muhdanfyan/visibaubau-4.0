@@ -71,11 +71,20 @@
             line-height: 1.1;
             text-align: justify;
         }
-        .page-2 h1, .page-2 h2, .page-2 h3, .page-2 h4, .page-2 p, .page-2 th, .page-2 td {
-            font-size: 12px;
+        .table {
+            width: 100%;
+            font-size: 12pt;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+            color: #000;
+        }
+        .table th, .table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            vertical-align: middle;
         }
         .page-2 .content-container {
-            padding-top: 10px;
+            padding-top: 20px;
         }
         .table thead th {
             background-color: #f8f9fa;
@@ -165,7 +174,7 @@
             <p>Dengan hormat,</p>
             <p>Dalam rangka mendukung Visi Baubau 4.0 dan optimalisasi Pendapatan Asli Daerah (PAD), kami dari CV. Sarjana Komputer Indonesia mengajukan proposal untuk pengembangan <strong>Aplikasi Manajemen Pendapatan Asli Daerah (MPAD)</strong>.</p>
             <p>Aplikasi MPAD dirancang untuk digitalisasi proses pendataan, penagihan, pembayaran, hingga pelaporan pajak dan retribusi daerah. Dengan dukungan integrasi QRIS, Virtual Account, dan E-Wallet, aplikasi ini diharapkan dapat mempermudah wajib pajak dan meningkatkan transparansi PAD Kota Baubau.</p>
-            <p>Sehubungan dengan hal tersebut, kami mengajukan permohonan dukungan anggaran sebesar <strong>Rp 168.000.000,- (Seratus Enam Puluh Delapan Juta Rupiah)</strong> untuk seluruh proses pengembangan dan implementasi sistem MPAD. Rincian teknis dan justifikasi anggaran terlampir dalam dokumen ini.</p>
+            <p>Sehubungan dengan hal tersebut, kami mengajukan permohonan dukungan anggaran sebesar <strong>Rp 191.520.000,- (Seratus Sembilan Puluh Satu Juta Lima Ratus Dua Puluh Ribu Rupiah)</strong> untuk seluruh proses pengembangan dan implementasi sistem MPAD. Rincian teknis dan justifikasi anggaran terlampir dalam dokumen ini.</p>
             <p>Besar harapan kami, Bapak/Ibu Kepala BAPENDA dapat menyetujui permohonan ini demi terwujudnya sistem pendapatan daerah yang modern dan akuntabel. Atas perhatian dan dukungan Bapak/Ibu, kami ucapkan terima kasih.</p>
         </div>
         <div class="letter-footer" style="display: flex; flex-direction: column; align-items: flex-end;">
@@ -193,15 +202,15 @@
             <h1 style="font-size: 18pt;">Rincian Anggaran Aplikasi MPAD</h1>
         </header>
         <section id="rincian">
-            <h3 class="mt-3">💰 Total Anggaran: Rp 168.000.000</h3>
+            <h3 class="mt-3">💰 Total Anggaran: Rp 191.520.000</h3>
             <p>Anggaran ini dialokasikan untuk pengembangan 3 platform utama MPAD: Web Admin BAPENDA, Aplikasi Mobile Petugas, dan Aplikasi Mobile Masyarakat, serta integrasi pembayaran digital dan dokumentasi.</p>
             <div class="table-responsive">
             <table class="table table-bordered table-striped">
                 <thead class="table-light">
                 <tr>
-                    <th scope="col" width="5%">No</th>
-                    <th scope="col" width="65%">Uraian / Kegiatan</th>
-                    <th scope="col" width="30%">Biaya</th>
+                    <th scope="col" class="text-center">No</th>
+                    <th scope="col">Uraian / Kegiatan</th>
+                    <th scope="col">Biaya</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -211,17 +220,17 @@
                 <tr>
                     <td class="text-center">1</td>
                     <td>Dashboard Manajemen Data & Pengguna</td>
-                    <td>Rp 25.000.000</td>
+                    <td><strong>Rp 28.000.000</strong></td>
                 </tr>
                 <tr>
                     <td class="text-center">2</td>
                     <td>Modul Penetapan & Penagihan Pajak/Retribusi</td>
-                    <td>Rp 20.000.000</td>
+                    <td><strong>Rp 25.000.000</strong></td>
                 </tr>
                 <tr>
                     <td class="text-center">3</td>
                     <td>Modul Laporan & Dashboard Monitoring PAD</td>
-                    <td>Rp 20.000.000</td>
+                    <td><strong>Rp 22.000.000</strong></td>
                 </tr>
                 <tr class="table-secondary">
                     <td colspan="3"><strong>👥 B. Platform Petugas (Aplikasi Mobile)</strong></td>
@@ -229,7 +238,7 @@
                 <tr>
                     <td class="text-center">4</td>
                     <td>Aplikasi Petugas Lapangan (Pendataan & Verifikasi)</td>
-                    <td>Rp 30.000.000</td>
+                    <td><strong>Rp 33.000.000</strong></td>
                 </tr>
                 <tr class="table-secondary">
                     <td colspan="3"><strong>📱 C. Platform Masyarakat (Aplikasi Mobile)</strong></td>
@@ -237,12 +246,12 @@
                 <tr>
                     <td class="text-center">5</td>
                     <td>Aplikasi Mobile Wajib Pajak (Pembayaran & Informasi)</td>
-                    <td>Rp 25.000.000</td>
+                    <td><strong>Rp 28.000.000</strong></td>
                 </tr>
                 <tr>
                     <td class="text-center">6</td>
                     <td>Integrasi Pembayaran Digital (QRIS/VA/E-Wallet)</td>
-                    <td>Rp 15.000.000</td>
+                    <td><strong>Rp 20.000.000</strong></td>
                 </tr>
                 <tr class="table-secondary">
                     <td colspan="3"><strong>⚙️ D. Infrastruktur & Dokumentasi</strong></td>
@@ -250,24 +259,24 @@
                 <tr>
                     <td class="text-center">7</td>
                     <td>Setup Server & Deployment</td>
-                    <td>Rp 15.000.000</td>
+                    <td><strong>Rp 15.000.000</strong></td>
                 </tr>
                 <tr>
                     <td class="text-center">8</td>
                     <td>User Guide & Dokumentasi</td>
-                    <td>Rp 0</td>
+                    <td><strong>Rp 0</strong></td>
                 </tr>
                 <tr class="table-light">
                     <td colspan="2" class="text-end"><strong>Subtotal</strong></td>
-                    <td><strong>Rp 150.000.000</strong></td>
+                    <td><strong>Rp 171.000.000</strong></td>
                 </tr>
                 <tr>
                     <td colspan="2" class="text-end">PPN (12%)</td>
-                    <td>Rp 18.000.000</td>
+                    <td>Rp 20.520.000</td>
                 </tr>
                 <tr class="total-row table-light">
                     <td colspan="2" class="text-end"><strong>Total Biaya</strong></td>
-                    <td><strong style="color: #c0392b;">Rp 168.000.000</strong></td>
+                    <td><strong style="color: #c0392b;">Rp 191.520.000</strong></td>
                 </tr>
                 </tbody>
             </table>
