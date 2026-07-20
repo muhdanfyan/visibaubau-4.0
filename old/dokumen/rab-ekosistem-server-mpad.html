@@ -171,7 +171,7 @@
         <div class="letter-header">
             <div style="display: flex; justify-content: space-between;">
                 <div>
-                    <p id="dynamic-number">Nomor: 002/SKI/XI/2027<br>
+                    <p id="dynamic-number">Nomor: <span id="nomor-surat">001</span>/SKI/<span id="bulan-romawi">VII</span>/<span id="tahun-surat">2026</span><br>
                     Lampiran: 1 (satu) Berkas<br>
                     Perihal: <strong>Permohonan Anggaran Ekosistem Server MPAD</strong></p>
                 </div>
@@ -351,9 +351,14 @@
 
 <script src="../assets/js/bootstrap.5.0.0.alpha-2-min.js"></script>
   <script>
+    // === Anti-duplikasi nomor surat ===
+    // Nomor urut disimpan di localStorage berdasarkan tanggal
+    // Format: 001/SKI/VII/2026 (berubah otomatis tiap hari baru)
     document.addEventListener('DOMContentLoaded', function() {
         const dateElement = document.getElementById('dynamic-date');
-        const numberElement = document.getElementById('dynamic-number');
+        const nomorSpan = document.getElementById('nomor-surat');
+        const bulanSpan = document.getElementById('bulan-romawi');
+        const tahunSpan = document.getElementById('tahun-surat');
 
         if (dateElement) {
             const today = new Date();
@@ -362,11 +367,12 @@
             dateElement.innerHTML = `Baubau, ${formattedDate}`;
         }
 
-        if (numberElement) {
+        if (nomorSpan && bulanSpan && tahunSpan) {
             const today = new Date();
             const year = today.getFullYear();
             const month = today.getMonth() + 1;
-            
+            const day = today.getDate();
+
             const toRoman = (num) => {
                 const roman = { M: 1000, CM: 900, D: 500, CD: 400, C: 100, XC: 90, L: 50, XL: 40, X: 10, IX: 9, V: 5, IV: 4, I: 1 };
                 let str = '';
@@ -379,9 +385,32 @@
             };
 
             const romanMonth = toRoman(month);
-            let currentText = numberElement.innerHTML;
-            let newText = currentText.replace(/002\/SKI\/XI\/2025/, `002/SKI/${romanMonth}/${year}`);
-            numberElement.innerHTML = newText;
+            const dateKey = `${year}-${month}-${day}`;
+            const storageKey = 'mpad-rab-nomor-counter';
+
+            // Ambil counter dari localStorage
+            let counterData = {};
+            try {
+                counterData = JSON.parse(localStorage.getItem(storageKey)) || {};
+            } catch(e) { counterData = {}; }
+
+            // Reset counter jika hari berbeda
+            if (counterData.date !== dateKey) {
+                counterData = { date: dateKey, counter: 1 };
+            } else {
+                counterData.counter += 1;
+            }
+
+            // Simpan kembali
+            localStorage.setItem(storageKey, JSON.stringify(counterData));
+
+            // Format nomor 3 digit
+            const nomorStr = String(counterData.counter).padStart(3, '0');
+
+            // Update semua span
+            nomorSpan.textContent = nomorStr;
+            bulanSpan.textContent = romanMonth;
+            tahunSpan.textContent = year;
         }
     });
   </script>
