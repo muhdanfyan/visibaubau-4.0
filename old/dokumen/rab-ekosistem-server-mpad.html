@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proposal Anggaran Ekosistem Server MPAD - Visi Baubau 4.0</title>
+    <title>RAB Ekosistem Server MPAD - Visi Baubau 4.0</title>
     <link rel="stylesheet" href="../assets/css/bootstrap-5.0.0-alpha-2.min.css" />
     <link rel="stylesheet" href="../assets/css/LineIcons.2.0.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -106,6 +106,9 @@
             margin-bottom: -12px;
             display: block;
         }
+        .sub-item td {
+            padding-left: 30px !important;
+        }
         @media print {
             body { background: white; }
             .page {
@@ -163,10 +166,10 @@
             Tempat</p>
 
             <p>Dengan hormat,</p>
-            <p>Menindaklanjuti rencana pengembangan Aplikasi Manajemen Pendapatan Asli Daerah (MPAD), diperlukan infrastruktur server yang tangguh dan aman untuk menjamin kelancaran operasional sistem secara keseluruhan.</p>
-            <p>Oleh karena itu, kami dari CV. Sarjana Komputer Indonesia mengajukan proposal untuk pengadaan <strong>Ekosistem Server Aplikasi MPAD</strong>. Ekosistem ini mencakup infrastruktur server VPS performa tinggi, langganan AI untuk coding, dan penyimpanan cloud terintegrasi.</p>
-            <p>Sehubungan dengan hal tersebut, kami mengajukan permohonan dukungan anggaran sebesar <strong>Rp 20.048.000,- (Dua Puluh Juta Empat Puluh Delapan Ribu Rupiah)</strong> untuk penyediaan ekosistem server tersebut sesuai rincian anggaran terlampir. Rincian teknis anggaran terlampir dalam dokumen ini.</p>
-            <p>Besar harapan kami agar Bapak/Ibu Kepala BAPENDA berkenan menyetujui permohonan ini untuk menjamin stabilitas dan keamanan data pendapatan daerah. Atas perhatian dan dukungan Bapak/Ibu, kami ucapkan terima kasih.</p>
+            <p>Menindaklanjuti rencana pengembangan Aplikasi Manajemen Pendapatan Asli Daerah (MPAD) dan kebutuhan peningkatan kapasitas infrastruktur server untuk menjamin kelancaran operasional sistem selama 1 (satu) tahun ke depan, diperlukan penguatan ekosistem server yang tangguh, aman, dan memiliki sistem pemulihan bencana (disaster recovery) yang andal.</p>
+            <p>Oleh karena itu, kami dari CV. Sarjana Komputer Indonesia mengajukan proposal pengadaan <strong>Ekosistem Server Aplikasi MPAD (1 Tahun)</strong>. Ekosistem ini mencakup VPS Production performa tinggi, VPS Backup/DR, domain & SSL, penyimpanan cloud 5TB, sistem monitoring, serta keamanan dan maintenance selama 1 tahun.</p>
+            <p>Sehubungan dengan hal tersebut, kami mengajukan permohonan dukungan anggaran sebesar <strong>Rp 40.200.000,- (Empat Puluh Juta Dua Ratus Ribu Rupiah)</strong> untuk penyediaan ekosistem server tersebut sesuai rincian anggaran terlampir. Rincian teknis anggaran terlampir dalam dokumen ini.</p>
+            <p>Besar harapan kami agar Bapak/Ibu Kepala BAPENDA berkenan menyetujui permohonan ini untuk menjamin stabilitas, keamanan data pendapatan daerah, dan kesinambungan layanan M-PAD kepada masyarakat. Atas perhatian dan dukungan Bapak/Ibu, kami ucapkan terima kasih.</p>
         </div>
         <div class="letter-footer">
             <p style="text-align: right;">Hormat kami,</p>
@@ -189,10 +192,11 @@
     <div class="content-container">
         <header class="mb-4 text-center">
             <h1 style="font-size: 18pt;">Rincian Anggaran Ekosistem Server MPAD</h1>
+            <h4 style="border: none; color: #555; font-weight: normal;">Periode 1 Tahun — Rp 40.200.000</h4>
         </header>
         <section id="rincian">
-            <h3 class="mt-3">💰 Total Anggaran: Rp 20.048.000</h3>
-            <p>Anggaran ini dialokasikan untuk sewa VPS performa tinggi, langganan AI untuk coding & analisis, serta penyimpanan cloud untuk backup data retribusi selama 1 tahun.</p>
+            <h3 class="mt-3">💰 Total Anggaran: Rp 40.200.000</h3>
+            <p>Anggaran ini dialokasikan untuk pengadaan dan operasional ekosistem server M-PAD selama 1 (satu) tahun, mencakup VPS Production utama, VPS Backup/Disaster Recovery, domain & SSL, penyimpanan cloud 5TB, infrastruktur pendukung (load balancer, monitoring), serta keamanan dan maintenance.</p>
             <div class="table-responsive">
             <table class="table table-bordered table-striped">
                 <thead class="table-light">
@@ -208,70 +212,113 @@
                 </tr>
                 <tr>
                     <td class="text-center">1</td>
-                    <td>VPS NEO Lite LL 16.16 (16 vCPU, 16GB RAM, 160GB SSD) - 12 Bulan</td>
-                    <td>Rp 6.700.000</td>
-                </tr>
-                <tr class="table-secondary">
-                    <td colspan="3"><strong>🤖 B. Layanan AI & API</strong></td>
+                    <td><strong>VPS Production</strong> — 16 vCPU, 32 GB RAM, 320 GB NVMe (12 Bulan @ Rp 1.250.000)</td>
+                    <td>Rp 15.000.000</td>
                 </tr>
                 <tr>
                     <td class="text-center">2</td>
-                    <td>Claude API (Sonnet 4.0) - Kuota Pemakaian 12 Bulan</td>
-                    <td>Rp 2.600.000</td>
+                    <td><strong>VPS Backup/Disaster Recovery</strong> — 8 vCPU, 16 GB RAM, 100 GB SSD (12 Bulan @ Rp 500.000)</td>
+                    <td>Rp 6.000.000</td>
+                </tr>
+                <tr class="table-secondary">
+                    <td colspan="3"><strong>🌐 B. Domain, SSL & Cloud Storage</strong></td>
                 </tr>
                 <tr>
                     <td class="text-center">3</td>
-                    <td>DeepSeek API (V3/R1) - Kuota Pemakaian 12 Bulan</td>
+                    <td>Domain & SSL — mpad.baubaukota.go.id + subdomain (1 Tahun)</td>
                     <td>Rp 1.500.000</td>
                 </tr>
                 <tr>
                     <td class="text-center">4</td>
-                    <td>Google AI Pro (Gemini Advanced + 5TB Cloud) - 12 Bulan</td>
-                    <td>Rp 3.700.000</td>
+                    <td>Google Cloud Storage 5TB — Backup database & file retribusi (12 Bulan @ Rp 350.000)</td>
+                    <td>Rp 4.200.000</td>
                 </tr>
                 <tr class="table-secondary">
-                    <td colspan="3"><strong>⚡ C. Automasi & Keamanan</strong></td>
+                    <td colspan="3"><strong>⚙️ C. Infrastruktur Pendukung</strong></td>
                 </tr>
                 <tr>
                     <td class="text-center">5</td>
-                    <td>OpenClaw - Automasi & AI Orchestrasi</td>
-                    <td>Rp 500.000</td>
-                </tr>
-                <tr class="table-secondary">
-                    <td colspan="3"><strong>🌐 D. Storage & App Distribution</strong></td>
+                    <td>Load Balancer & Reverse Proxy — Distribusi trafik, SSL termination, caching (Setup sekali)</td>
+                    <td>Rp 1.200.000</td>
                 </tr>
                 <tr>
                     <td class="text-center">6</td>
-                    <td>Cloud Backup Storage Tambahan (5TB) - 12 Bulan</td>
-                    <td>Rp 1.000.000</td>
+                    <td>Monitoring & Logging System — Grafana + Prometheus, alerting 24/7 via Telegram (Setup + 1 Tahun hosting)</td>
+                    <td>Rp 2.000.000</td>
+                </tr>
+                <tr class="table-secondary">
+                    <td colspan="3"><strong>🔒 D. Keamanan & Maintenance</strong></td>
                 </tr>
                 <tr>
                     <td class="text-center">7</td>
-                    <td>Google Play Store Developer Account (one-time)</td>
-                    <td>Rp 400.000</td>
+                    <td>Backup Otomatis — Rclone + GDrive, backup harian database jam 02.00 WITA, retensi 30 hari</td>
+                    <td>Rp 1.000.000</td>
                 </tr>
                 <tr>
                     <td class="text-center">8</td>
-                    <td>Apple App Store Developer Account - 1 Tahun</td>
+                    <td>Firewall & Security Hardening — Fail2ban, WAF Cloudflare, hardening OS, audit keamanan</td>
                     <td>Rp 1.500.000</td>
+                </tr>
+                <tr>
+                    <td class="text-center">9</td>
+                    <td>SLA Support & Maintenance — Pendampingan teknis, update sistem, perbaikan, konsultasi (12 Bulan @ Rp 500.000)</td>
+                    <td>Rp 6.000.000</td>
                 </tr>
                 <tr class="table-light">
                     <td colspan="2" class="text-end"><strong>Subtotal</strong></td>
-                    <td><strong>Rp 17.900.000</strong></td>
+                    <td><strong>Rp 38.400.000</strong></td>
                 </tr>
                 <tr>
                     <td colspan="2" class="text-end">PPN (12%)</td>
-                    <td>Rp 2.148.000</td>
+                    <td>Rp 1.800.000</td>
                 </tr>
                 <tr class="total-row table-light">
                     <td colspan="2" class="text-end"><strong>Total Biaya</strong></td>
-                    <td><strong style="color: #c0392b;">Rp 20.048.000</strong></td>
+                    <td><strong style="color: #c0392b;">Rp 40.200.000</strong></td>
                 </tr>
                 </tbody>
             </table>
             </div>
             
             <p style="font-size: 8pt; color: #999; margin-top: 10px;">* Harga sudah termasuk Pajak Pertambahan Nilai (PPN) 12%</p>
+            
+            <h4 style="margin-top: 20px;">Ringkasan Per Kategori</h4>
+            <table class="table table-bordered" style="max-width: 500px;">
+                <tr>
+                    <td><strong>A. Infrastruktur Server</strong></td>
+                    <td><strong>Rp 21.000.000</strong></td>
+                </tr>
+                <tr>
+                    <td>B. Domain, SSL & Cloud Storage</td>
+                    <td>Rp 5.700.000</td>
+                </tr>
+                <tr>
+                    <td>C. Infrastruktur Pendukung</td>
+                    <td>Rp 3.200.000</td>
+                </tr>
+                <tr>
+                    <td>D. Keamanan & Maintenance</td>
+                    <td>Rp 8.500.000</td>
+                </tr>
+                <tr class="table-light">
+                    <td><strong>Total DPP</strong></td>
+                    <td><strong>Rp 38.400.000</strong></td>
+                </tr>
+                <tr>
+                    <td>PPN 12%</td>
+                    <td>Rp 1.800.000</td>
+                </tr>
+                <tr class="total-row table-light">
+                    <td><strong>GRAND TOTAL</strong></td>
+                    <td><strong style="color: #c0392b;">Rp 40.200.000</strong></td>
+                </tr>
+            </table>
+            
+            <p style="font-style: italic; margin-top: 15px;">
+                <strong>Catatan:</strong> Biaya operasional rata-rata Rp 3.350.000/bulan. 
+                VPS Production untuk layanan utama (portal wajib pajak, admin, petugas, API). 
+                VPS Backup/DR untuk failover otomatis jika server utama mengalami gangguan.
+            </p>
         </section>
         
     </div>
