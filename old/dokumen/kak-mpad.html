@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAK - Kerangka Acuan Kerja Aplikasi MPAD - Visi Baubau 4.0</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap-5.0.0-alpha-2.min.css" />
+    <link rel="stylesheet" href="../assets/css/LineIcons.2.0.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Garamond:wght@700&family=Times+New+Roman&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: #e0e0e0;
+            font-family: 'Times New Roman', Times, serif;
+            color: #000;
+        }
+        .page {
+            width: 21cm;
+            min-height: 29.7cm;
+            padding: 1.5cm;
+            margin: 1.5cm auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+            position: relative;
+            page-break-after: always;
+        }
+        .page:last-of-type { page-break-after: avoid; }
+        .page-header-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+        .page-footer-img {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+        .page-footer {
+            position: absolute;
+            bottom: 1cm;
+            left: 1.5cm;
+            right: 1.5cm;
+            text-align: center;
+            font-size: 9pt;
+            color: #999;
+        }
+        .content-container {
+            padding-top: 1.8cm;
+            padding-bottom: 2.5cm;
+        }
+        h1, h2, h3, h4 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            color: #1a237e;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #dfe3ee;
+            padding-bottom: 6px;
+        }
+        h1 { font-size: 22pt; }
+        h2 { font-size: 18pt; }
+        h3 { font-size: 15pt; }
+        h4 { font-size: 13pt; border-bottom: 1px solid #eee; }
+        p, li {
+            font-size: 12pt;
+            line-height: 1.3;
+            text-align: justify;
+        }
+        .table {
+            width: 100%;
+            font-size: 11pt;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+        }
+        .table th, .table td {
+            border: 1px solid #ddd;
+            padding: 6px 8px;
+            vertical-align: top;
+        }
+        .table thead th {
+            background-color: #f0f2f5;
+        }
+        .total-row td {
+            font-weight: bold;
+        }
+        .letter-header, .letter-body, .letter-footer {
+            padding-left: 1cm;
+            padding-right: 1cm;
+        }
+        .letter-body p { margin-bottom: 0.8rem; }
+        .signature-block { margin-top: 5px; text-align: right; }
+        .signature-block .signature-image { width: 180px; height: auto; margin-top: -15px; }
+        .signature-block .name {
+            font-weight: bold;
+            text-decoration: underline;
+            margin-top: -25px;
+            margin-bottom: -12px;
+            display: block;
+        }
+        .section-title {
+            font-family: 'Roboto', sans-serif;
+            font-size: 11pt;
+            font-weight: 700;
+            color: #1a237e;
+            margin-top: 18px;
+            margin-bottom: 8px;
+            border-bottom: 1px solid #ccd;
+            padding-bottom: 4px;
+        }
+        .sub-section {
+            font-weight: 600;
+            margin-top: 12px;
+            margin-bottom: 4px;
+        }
+        ul, ol {
+            font-size: 11pt;
+            text-align: justify;
+        }
+        @media print {
+            body { background: white; }
+            .page { width: auto; min-height: 29.7cm; margin: 0; padding: 1.5cm; box-shadow: none; border: none; page-break-after: always; }
+            .print-fab { display: none; }
+        }
+        .print-fab {
+            position: fixed; bottom: 40px; right: 40px;
+            width: 60px; height: 60px;
+            background-color: #1a237e; color: #fff;
+            border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 28px; box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            cursor: pointer; z-index: 1000;
+        }
+        .bab-number {
+            display: inline-block;
+            background: #1a237e;
+            color: white;
+            padding: 2px 10px;
+            border-radius: 4px;
+            font-size: 10pt;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- ========== Halaman 1: Cover + Pendahuluan ========== -->
+<div class="page">
+    <img src="header dan footer/header.png" class="page-header-img">
+    <div class="content-container">
+        <div class="letter-header">
+            <div style="display: flex; justify-content: space-between;">
+                <div>
+                    <p id="dynamic-number">Nomor: 003/KAK/SKI/VI/2026<br>
+                    Lampiran: 1 (satu) Berkas<br>
+                    Perihal: <strong>Kerangka Acuan Kerja Aplikasi MPAD</strong></p>
+                </div>
+                <div style="white-space: nowrap;">
+                    <p id="dynamic-date">Baubau, Juni 2026</p>
+                </div>
+            </div>
+        </div>
+        <div class="letter-body" style="margin-top: 20px;">
+            <p>Kepada Yth.,<br>
+            <strong>Kepala Badan Pendapatan Daerah (BAPENDA) Kota Baubau</strong><br>
+            di-<br>
+            Tempat</p>
+
+            <p><strong>Dengan hormat,</strong></p>
+            <p>Bersama ini kami sampaikan Kerangka Acuan Kerja (KAK) untuk Pengembangan dan Implementasi Aplikasi <strong>Manajemen Pendapatan Asli Daerah (MPAD)</strong> Kota Baubau. Dokumen ini disusun sebagai acuan teknis dan administrasi dalam pelaksanaan pekerjaan pengembangan sistem informasi manajemen pendapatan daerah yang terintegrasi.</p>
+
+            <p><strong>I. LATAR BELAKANG</strong></p>
+            <p>Pendapatan Asli Daerah (PAD) merupakan sumber pembiayaan utama pembangunan Kota Baubau. Optimalisasi PAD memerlukan sistem informasi yang terintegrasi, akurat, dan real-time. CV. Sarjana Komputer Indonesia telah mengembangkan M-PAD sejak 2024 dengan hasil: <strong>138.840 objek pajak</strong>, <strong>1.738 wajib pajak</strong>, <strong>60.334 dokumen SPTPD</strong>, <strong>140.223 audit trail</strong>, dan <strong>208 transaksi pembayaran</strong> — berjalan di infrastruktur production.</p>
+            <p>Berdasarkan Peraturan Wali Kota Baubau tentang digitalisasi pelayanan publik dan cetak biru <strong>Visi Baubau 4.0</strong>, M-PAD merupakan aplikasi flagship yang perlu diperkuat, diperluas, dan diintegrasikan dengan sistem pembayaran digital multi-bank.</p>
+
+            <p><strong>II. DASAR HUKUM</strong></p>
+            <ol>
+                <li>Undang-Undang No. 23 Tahun 2014 tentang Pemerintahan Daerah</li>
+                <li>Undang-Undang No. 1 Tahun 2022 tentang Hubungan Keuangan Pusat dan Daerah</li>
+                <li>Peraturan Presiden No. 95 Tahun 2018 tentang SPBE</li>
+                <li>Peraturan Daerah Kota Baubau tentang Retribusi Daerah</li>
+                <li>Peraturan Wali Kota Baubau tentang Pelaksanaan SPBE</li>
+                <li>Perjanjian Kerja Sama BAPENDA-BRI No. 0326.01.0 BRI (20 Nov 2025)</li>
+                <li>Cetak Biru Visi Baubau 4.0 — Transformasi Digital Kota Baubau</li>
+            </ol>
+
+            <p><strong>III. MAKSUD DAN TUJUAN</strong></p>
+            <p><strong>Maksud:</strong> Menyediakan kerangka acuan yang jelas untuk pengembangan, implementasi, dan pemeliharaan M-PAD.</p>
+            <p><strong>Tujuan:</strong></p>
+            <ol>
+                <li>Meningkatkan PAD melalui digitalisasi siklus retribusi</li>
+                <li>Memberikan kemudahan wajib pajak membayar retribusi secara online</li>
+                <li>Meningkatkan transparansi dan akuntabilitas pengelolaan PAD</li>
+                <li>Menyediakan dashboard real-time monitoring kinerja PAD</li>
+                <li>Mengintegrasikan pembayaran multi-bank (BRI, Mandiri, BNI, BSI, Bank Sultra)</li>
+            </ol>
+
+            <p><strong>IV. NAMA DAN ORGANISASI PENGUNA ANGGARAN</strong></p>
+            <table class="table">
+                <tr><td width="30%">PPK</td><td>Kepala BAPENDA Kota Baubau</td></tr>
+                <tr><td>Satuan Kerja</td><td>BAPENDA Kota Baubau</td></tr>
+                <tr><td>Pelaksana</td><td>CV. Sarjana Komputer Indonesia</td></tr>
+                <tr><td>PIC Teknis</td><td>Muhdan Fyan Syah Sofian, S.Kom (083134086899)</td></tr>
+                <tr><td>PIC Bisnis</td><td>Fauziah (081241277576)</td></tr>
+            </table>
+        </div>
+    </div>
+    <img src="header dan footer/footer.png" class="page-footer-img">
+    <div class="page-footer">Halaman 1</div>
+</div>
+
+<!-- ========== Halaman 2: Ruang Lingkup Pekerjaan ========== -->
+<div class="page page-2">
+    <img src="header dan footer/header.png" class="page-header-img">
+    <div class="content-container">
+        <h1>BAB II — RUANG LINGKUP PEKERJAAN</h1>
+
+        <h3>A. Platform Admin BAPENDA (Web Dashboard)</h3>
+        <p>Dashboard web untuk admin BAPENDA mengelola data, memonitor kepatuhan, dan menghasilkan laporan PAD.</p>
+        <p><strong>Fitur Existing (Production):</strong></p>
+        <ul>
+            <li>Dashboard Monitoring — revenue trend, heatmap, performa penagihan</li>
+            <li>Manajemen Wajib Pajak — CRUD 1.738 wajib pajak, generate NPWPD, QR code</li>
+            <li>Manajemen Objek Pajak — 138.840 objek, zona geografis, verifikasi fisik</li>
+            <li>Manajemen Retribusi — 17 klasifikasi, tarif dinamis, formula parser</li>
+            <li>Billing & Tagihan — generate bill otomatis, denda (277 bills)</li>
+            <li>Manajemen Pembayaran — 208 transaksi, verifikasi, SSPD auto-generate</li>
+            <li>Pengawasan — audit trail (140.223 log), spot check, enforcement notice</li>
+        </ul>
+        <p><strong>Pengembangan Tambahan:</strong></p>
+        <ul>
+            <li>H2H Reconciliation Dashboard — merge branch <code>feat/h2h-reconciliation-dashboard</code></li>
+            <li>Laporan realisasi PAD real-time dengan visualisasi interaktif</li>
+            <li>Notifikasi WA Gateway (tunggakan, jatuh tempo)</li>
+            <li>Dashboard target dan capaian per OPD</li>
+        </ul>
+
+        <h3>B. Platform Petugas (Aplikasi Mobile PWA)</h3>
+        <p><strong>Fitur Existing:</strong> Field scanner, inspection, payment confirmation, verification, billing, peta lapangan, PBB Bapenda, daftar tugas (70 tasks).</p>
+        <p><strong>Pengembangan:</strong> Routing optimal, real-time sync, offline-first, dashboard performa petugas.</p>
+
+        <h3>C. Platform Masyarakat (Portal Wajib Pajak)</h3>
+        <p><strong>Fitur Existing:</strong> Login OTP via WA, 12 layanan retribusi, tagihan & histori, SPTPD self-assessment (60.334 laporan), kalkulator pajak, pengaduan, PWA.</p>
+        <p><strong>Pengembangan:</strong> Multi-bank payment (BRI QRIS/BRIVA, Mandiri VA, BNI VA, BSI VA), notifikasi push tagihan, e-retribusi recurring, face recognition untuk verifikasi.</p>
+        
+        <h3>D. Integrasi Multi-Bank H2H</h3>
+        <table class="table">
+            <tr><th>Bank</th><th>Status</th><th>Keterangan</th></tr>
+            <tr><td>Bank Sultra</td><td>✅ Production</td><td>Driver sudah live</td></tr>
+            <tr><td>BRI (BRIVA + QRIS MPM)</td><td>🟡 Integrasi</td><td>Formulir lengkap, PKS ditandatangani</td></tr>
+            <tr><td>Mandiri</td><td>🟡 Stub</td><td>Driver siap, sandbox test</td></tr>
+            <tr><td>BNI</td><td>🟡 Stub</td><td>Form integrasi tersedia</td></tr>
+            <tr><td>BTN/BSI</td><td>🟡 Stub</td><td>Driver siap</td></tr>
+        </table>
+        <p><strong>Pengembangan:</strong> BRI BRIVA + QRIS MPM (create VA, inquiry, report, webhook), Mandiri VA, BNI VA, reconciliation dashboard, webhook endpoint real, VA generation, rekonsiliasi harian otomatis.</p>
+    </div>
+    <img src="header dan footer/footer.png" class="page-footer-img">
+    <div class="page-footer">Halaman 2</div>
+</div>
+
+<!-- ========== Halaman 3: Metodologi & Jadwal ========== -->
+<div class="page page-2">
+    <img src="header dan footer/header.png" class="page-header-img">
+    <div class="content-container">
+        <h1>BAB III — METODOLOGI & TAHAPAN</h1>
+
+        <h3>3.1 Metodologi</h3>
+        <p>Agile-Scrum dengan sprint 2 mingguan — sprint planning, daily standup via WA, sprint review (demo ke BAPENDA), retrospective.</p>
+
+        <h3>3.2 Tahapan</h3>
+        <table class="table">
+            <tr><th>Fase</th><th>Bulan</th><th>Kegiatan</th><th>Output</th></tr>
+            <tr><td>1. Stabilisasi & Security</td><td>1-2</td><td>Audit keamanan, hardening server, upgrade WA Gateway</td><td>Laporan keamanan, server standar KOMDIGI</td></tr>
+            <tr><td>2. Multi-Bank H2H</td><td>2-4</td><td>BRI BRIVA/QRIS, Mandiri VA, BNI VA, reconciliation dashboard</td><td>3 bank live, UAT</td></tr>
+            <tr><td>3. Pengembangan Fitur</td><td>3-5</td><td>Dashboard target per OPD, notifikasi WA, e-retribusi</td><td>Fitur live</td></tr>
+            <tr><td>4. Dokumentasi & Pelatihan</td><td>5-6</td><td>User guide, video tutorial, pelatihan admin & petugas</td><td>Dokumentasi + sertifikat</td></tr>
+        </table>
+
+        <h3>3.3 Jadwal Pelaksanaan</h3>
+        <table class="table">
+            <tr><th>Bulan</th><th>Milestone</th></tr>
+            <tr><td>1</td><td>Laporan keamanan + WA Gateway upgrade</td></tr>
+            <tr><td>2</td><td>BRI BRIVA/QRIS live</td></tr>
+            <tr><td>3</td><td>Mandiri VA live + Dashboard PAD</td></tr>
+            <tr><td>4</td><td>BNI/BSI VA + E-Retribusi</td></tr>
+            <tr><td>5</td><td>Dokumentasi selesai</td></tr>
+            <tr><td>6</td><td>Pelatihan + Serah Terima</td></tr>
+        </table>
+
+        <h1>BAB IV — RENCANA ANGGARAN BIAYA</h1>
+
+        <h3>4.1 Rincian Anggaran Aplikasi</h3>
+        <table class="table table-bordered">
+            <thead>
+                <tr><th class="text-center">No</th><th>Uraian / Kegiatan</th><th>Biaya</th></tr>
+            </thead>
+            <tbody>
+                <tr style="background:#f0f2f5"><td colspan="3"><strong>🏛️ A. Platform Admin BAPENDA</strong></td></tr>
+                <tr><td class="text-center">1</td><td>Dashboard Monitoring & Laporan PAD Real-Time</td><td><strong>Rp 28.000.000</strong></td></tr>
+                <tr><td class="text-center">2</td><td>Modul Penetapan & Penagihan (enhancement)</td><td><strong>Rp 25.000.000</strong></td></tr>
+                <tr><td class="text-center">3</td><td>Modul Laporan & Dashboard Target OPD</td><td><strong>Rp 22.000.000</strong></td></tr>
+                <tr style="background:#f0f2f5"><td colspan="3"><strong>👥 B. Platform Petugas (Mobile)</strong></td></tr>
+                <tr><td class="text-center">4</td><td>Aplikasi Petugas Lapangan (enhancement)</td><td><strong>Rp 33.000.000</strong></td></tr>
+                <tr style="background:#f0f2f5"><td colspan="3"><strong>📱 C. Platform Masyarakat (Mobile)</strong></td></tr>
+                <tr><td class="text-center">5</td><td>Aplikasi Mobile Wajib Pajak (enhancement)</td><td><strong>Rp 28.000.000</strong></td></tr>
+                <tr><td class="text-center">6</td><td>Integrasi Pembayaran Digital Multi-Bank</td><td><strong>Rp 20.000.000</strong></td></tr>
+                <tr style="background:#f0f2f5"><td colspan="3"><strong>⚙️ D. Infrastruktur & Dokumentasi</strong></td></tr>
+                <tr><td class="text-center">7</td><td>Setup Server & Security Hardening</td><td><strong>Rp 14.500.000</strong></td></tr>
+                <tr><td class="text-center">8</td><td>User Guide & Dokumentasi</td><td><strong>Rp 0</strong></td></tr>
+                <tr style="background:#e8eaf6"><td colspan="2" class="text-end"><strong>Subtotal</strong></td><td><strong>Rp 170.500.000</strong></td></tr>
+                <tr><td colspan="2" class="text-end">PPN (12%)</td><td>Rp 20.460.000</td></tr>
+                <tr style="background:#e8eaf6"><td colspan="2" class="text-end"><strong>Total Biaya Aplikasi</strong></td><td><strong style="color:#c0392b;">Rp 190.960.000</strong></td></tr>
+            </tbody>
+        </table>
+    </div>
+    <img src="header dan footer/footer.png" class="page-footer-img">
+    <div class="page-footer">Halaman 3</div>
+</div>
+
+<!-- ========== Halaman 4: RAB Infrastruktur Server ========== -->
+<div class="page page-2">
+    <img src="header dan footer/header.png" class="page-header-img">
+    <div class="content-container">
+        <h3>4.2 Biaya Infrastruktur Server (Tahunan)</h3>
+        <table class="table table-bordered">
+            <thead>
+                <tr><th class="text-center">No</th><th>Komponen</th><th>Biaya/Tahun</th></tr>
+            </thead>
+            <tbody>
+                <tr><td class="text-center">1</td><td>VPS Production — 16vCPU, 32GB, 480GB NVMe</td><td><strong>Rp 16.000.000</strong></td></tr>
+                <tr><td class="text-center">2</td><td>VPS Backup/DR — 8vCPU, 16GB, 100GB SSD</td><td><strong>Rp 6.000.000</strong></td></tr>
+                <tr><td class="text-center">3</td><td>Google Cloud Storage 5TB — backup & file</td><td><strong>Rp 4.200.000</strong></td></tr>
+                <tr><td class="text-center">4</td><td>Load Balancer & Reverse Proxy</td><td><strong>Rp 1.200.000</strong></td></tr>
+                <tr><td class="text-center">5</td><td>Monitoring & Logging (Grafana + Prometheus)</td><td><strong>Rp 2.000.000</strong></td></tr>
+                <tr><td class="text-center">6</td><td>Backup Otomatis (Rclone + GDrive)</td><td><strong>Rp 1.000.000</strong></td></tr>
+                <tr><td class="text-center">7</td><td>Firewall & Security Hardening</td><td><strong>Rp 1.500.000</strong></td></tr>
+                <tr><td class="text-center">8</td><td>SLA Support & Maintenance (1 Tahun)</td><td><strong>Rp 6.000.000</strong></td></tr>
+                <tr style="background:#e8eaf6"><td colspan="2" class="text-end"><strong>Total Infrastruktur/Tahun</strong></td><td><strong style="color:#c0392b;">Rp 40.200.000</strong></td></tr>
+            </tbody>
+        </table>
+
+        <h3>4.3 Rekapitulasi Total Anggaran</h3>
+        <table class="table table-bordered">
+            <tr><th>Komponen</th><th>Jumlah</th></tr>
+            <tr><td>Pengembangan Aplikasi MPAD (termasuk PPN 12%)</td><td><strong>Rp 190.960.000</strong></td></tr>
+            <tr><td>Infrastruktur Server (1 Tahun)</td><td><strong>Rp 40.200.000</strong></td></tr>
+            <tr style="background:#e8eaf6"><td><strong>TOTAL KESELURUHAN</strong></td><td><strong style="color:#c0392b;">Rp 231.160.000</strong></td></tr>
+        </table>
+
+        <h1>BAB V — SPESIFIKASI TEKNIS</h1>
+
+        <h3>5.1 Stack Teknologi</h3>
+        <table class="table">
+            <tr><th>Layer</th><th>Teknologi</th></tr>
+            <tr><td>Backend API</td><td>Laravel 11 + PHP 8.4</td></tr>
+            <tr><td>Frontend Mobile</td><td>React 18 + Vite + TypeScript (PWA)</td></tr>
+            <tr><td>Frontend Admin</td><td>React 18 + Vite + TypeScript</td></tr>
+            <tr><td>Database</td><td>MySQL 8.x — 42 tables, 300K+ records</td></tr>
+            <tr><td>API Auth</td><td>Laravel Sanctum</td></tr>
+            <tr><td>Payment Gateway</td><td>Manager Pattern + 6 bank drivers</td></tr>
+            <tr><td>WA Gateway</td><td>Node.js (localhost:3001 → upgrade)</td></tr>
+            <tr><td>PDF & TTE</td><td>DomPDF + QR Code + Digital Signature</td></tr>
+            <tr><td>Deployment</td><td>VPS Ubuntu + Nginx + Let's Encrypt</td></tr>
+            <tr><td>Backup</td><td>Rclone + Google Drive (harian 02.00 WITA)</td></tr>
+        </table>
+    </div>
+    <img src="header dan footer/footer.png" class="page-footer-img">
+    <div class="page-footer">Halaman 4</div>
+</div>
+
+<!-- ========== Halaman 5: Output & Penutup ========== -->
+<div class="page page-2">
+    <img src="header dan footer/header.png" class="page-header-img">
+    <div class="content-container">
+        <h1>BAB VI — OUTPUT DAN LUARAN</h1>
+
+        <table class="table table-bordered">
+            <tr><th>No</th><th>Output</th><th>Format</th></tr>
+            <tr><td>1</td><td>Aplikasi Admin BAPENDA (Web Dashboard)</td><td>Live di admin.mpad.online</td></tr>
+            <tr><td>2</td><td>Aplikasi Petugas (Mobile PWA)</td><td>Live di petugas.mpad.online</td></tr>
+            <tr><td>3</td><td>Portal Wajib Pajak (Web + PWA)</td><td>Live di mpad.online</td></tr>
+            <tr><td>4</td><td>Integrasi BRI BRIVA + QRIS MPM</td><td>Transaksi H2H live</td></tr>
+            <tr><td>5</td><td>Integrasi Mandiri VA</td><td>Transaksi H2H live</td></tr>
+            <tr><td>6</td><td>Integrasi BNI VA</td><td>Transaksi H2H live</td></tr>
+            <tr><td>7</td><td>Dashboard Laporan Real-Time</td><td>Live di admin dashboard</td></tr>
+            <tr><td>8</td><td>Penguatan Keamanan Sistem</td><td>Laporan penetration test</td></tr>
+            <tr><td>9</td><td>User Guide & Dokumentasi</td><td>PDF + Video tutorial</td></tr>
+        </table>
+
+        <h3>Kriteria Penerimaan</h3>
+        <ul>
+            <li>Seluruh endpoint API merespon dalam waktu &lt;500ms</li>
+            <li>Toleransi downtime maksimal 0.5%</li>
+            <li>Semua fitur lolos User Acceptance Test (UAT)</li>
+            <li>Integrasi H2H berhasil untuk minimal 3 bank</li>
+            <li>Audit trail tercatat untuk setiap transaksi</li>
+            <li>Backup berjalan otomatis setiap pukul 02.00 WITA</li>
+            <li>Dokumentasi lengkap dan siap pakai</li>
+        </ul>
+
+        <h3>Dokumen Terkait</h3>
+        <ol>
+            <li><a href="rab-mpad.html">RAB Aplikasi MPAD — Rp 190.960.000</a></li>
+            <li><a href="rab-ekosistem-server-mpad.html">RAB Ekosistem Server MPAD — Rp 40.200.000</a></li>
+            <li>SSH Blueprint Baubau 4.0</li>
+            <li>Perjanjian Kerja Sama BAPENDA-BRI (20 November 2025)</li>
+            <li>Cetak Biru Visi Baubau 4.0</li>
+            <li><a href="../lainnya/potensi-pad.html">Laporan Potensi PAD Kota Baubau</a></li>
+        </ol>
+
+        <div class="letter-body" style="margin-top: 30px;">
+            <p>Demikian Kerangka Acuan Kerja ini disusun sebagai acuan dalam pelaksanaan pengembangan dan implementasi Aplikasi M-PAD Kota Baubau. Hal-hal yang belum diatur akan diatur kemudian melalui addendum.</p>
+        </div>
+        
+        <div class="letter-footer" style="display: flex; flex-direction: column; align-items: flex-end; margin-top: 20px;">
+            <p style="margin-bottom: 5px; width: 300px; text-align: center;">Hormat kami,</p>
+            <div class="signature-block" style="text-align: center; width: 300px;">
+                <p style="margin: 0; padding: 0;">CV. Sarjana Komputer Indonesia</p>
+                <div style="position: relative; display: flex; justify-content: center;">
+                    <img src="header dan footer/ttd-stempel-baru.png" class="signature-image" alt="Tanda Tangan dan Stempel" style="width: 200px; margin-top: -20px; margin-bottom: -15px; position: relative; z-index: 1;">
+                </div>
+                <span class="name" style="font-weight: bold; text-decoration: underline; position: relative; z-index: 2;">Muhdan Fyan Syah Sofian, S.Kom</span><br>
+                <span style="font-size: 9pt;">Direktur</span>
+            </div>
+        </div>
+    </div>
+    <img src="header dan footer/footer.png" class="page-footer-img">
+    <div class="page-footer">Halaman 5</div>
+</div>
+
+<div class="print-fab" onclick="window.print()">
+    <i class="lni lni-printer"></i>
+</div>
+
+<script src="../assets/js/bootstrap.5.0.0.alpha-2-min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const dateElement = document.getElementById('dynamic-date');
+        const numberElement = document.getElementById('dynamic-number');
+        if (dateElement) {
+            const today = new Date();
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            const formattedDate = today.toLocaleDateString('id-ID', options);
+            dateElement.innerHTML = `Baubau, ${formattedDate}`;
+        }
+        if (numberElement) {
+            const today = new Date();
+            const year = today.getFullYear();
+            const month = today.getMonth() + 1;
+            const toRoman = (num) => {
+                const roman = { M: 1000, CM: 900, D: 500, CD: 400, C: 100, XC: 90, L: 50, XL: 40, X: 10, IX: 9, V: 5, IV: 4, I: 1 };
+                let str = '';
+                for (let i of Object.keys(roman)) { let q = Math.floor(num / roman[i]); num -= q * roman[i]; str += i.repeat(q); }
+                return str;
+            };
+            const romanMonth = toRoman(month);
+            let currentText = numberElement.innerHTML;
+            let newText = currentText.replace(/003\\/KAK\\/SKI\\/VI\\/2026/, `003/KAK/SKI/${romanMonth}/${year}`);
+            numberElement.innerHTML = newText;
+        }
+    });
+</script>
+</body>
+</html>
