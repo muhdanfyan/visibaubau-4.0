@@ -91,8 +91,7 @@
             padding-right: 1cm;
         }
         .letter-body p { margin-bottom: 0.8rem; }
-        .signature-block { margin-top: 5px; text-align: right; }
-        .signature-block .signature-image { width: 180px; height: auto; margin-top: -15px; }
+        .signature-block { margin-top: 5px; text-align: center; }
         .signature-block .name {
             font-weight: bold;
             text-decoration: underline;
@@ -142,27 +141,87 @@
             font-size: 10pt;
             margin-right: 8px;
         }
+        .kop-surat {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            margin-bottom: 20px;
+        }
+        .kop-surat h2 {
+            font-size: 16pt;
+            font-weight: bold;
+            margin: 0;
+            padding: 0;
+            border: none;
+            letter-spacing: 2px;
+            color: #000;
+        }
+        .kop-surat h3 {
+            font-size: 14pt;
+            font-weight: bold;
+            margin: 2px 0;
+            padding: 0;
+            border: none;
+            color: #000;
+        }
+        .kop-surat p {
+            font-size: 10pt;
+            margin: 2px 0;
+            text-align: center;
+        }
+        .kop-surat hr {
+            border: 0;
+            border-top: 3px solid #000;
+            margin: 6px 0;
+        }
+        .kop-surat hr.thin {
+            border-top: 1px solid #000;
+        }
+        .info-table {
+            width: 100%;
+            font-size: 11pt;
+        }
+        .info-table td {
+            padding: 3px 8px;
+            vertical-align: top;
+        }
+        .info-table .label {
+            width: 30%;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
 
-<!-- ========== Halaman 1: Cover + Pendahuluan + Dasar Hukum + Maksud & Tujuan + Nama Organisasi ========== -->
+<!-- ========== HALAMAN 1: KOP + ISI ========== -->
 <div class="page">
     <img src="header%20dan%20footer/header.png" class="page-header-img">
     <div class="content-container">
-        <div class="letter-header">
-            <div style="display: flex; justify-content: space-between;">
-                <div>
-                    <p id="dynamic-number">Nomor: 012/KAK/BAPENDA/VII/2026<br>
-                    Lampiran: 1 (satu) Berkas<br>
-                    Perihal: <strong>Kerangka Acuan Kerja Jasa Pendampingan Digitalisasi Pengelolaan Pembayaran PAD Terintegrasi</strong></p>
-                </div>
-                <div style="white-space: nowrap;">
-                    <p id="dynamic-date">Baubau, Juli 2026</p>
-                </div>
-            </div>
+        <div class="kop-surat">
+            <h2>PEMERINTAH KOTA BAUBAU</h2>
+            <h3>BADAN PENDAPATAN DAERAH (BAPENDA)</h3>
+            <p>Jalan ... Kel. ... Kec. ..., Baubau, Sulawesi Tenggara ...</p>
+            <p>Laman bapenda.baubaukota.go.id, Pos-el bapenda@baubaukota.go.id</p>
+            <hr>
+            <hr class="thin">
         </div>
-        <div class="letter-body" style="margin-top: 20px;">
+
+        <div class="letter-body">
+            <p style="text-align: center; font-size: 14pt; font-weight: bold;">KERANGKA ACUAN KERJA (KAK)</p>
+            <p style="text-align: center; font-size: 13pt; font-weight: bold;">JASA PENDAMPINGAN DIGITALISASI PENGELOLAAN PEMBAYARAN PENDAPATAN ASLI DAERAH (PAD) TERINTEGRASI</p>
+            <p style="text-align: center; font-size: 12pt; font-weight: bold;">BADAN PENDAPATAN DAERAH (BAPENDA) KOTA BAUBAU</p>
+            <p style="text-align: center; font-size: 12pt;">TAHUN ANGGARAN 2026</p>
+
+            <br>
+
+            <table class="info-table">
+                <tr><td class="label">SATUAN KERJA</td><td>: Badan Pendapatan Daerah (BAPENDA) Kota Baubau</td></tr>
+                <tr><td class="label">TAHUN ANGGARAN</td><td>: 2026</td></tr>
+                <tr><td class="label">SUMBER DANA</td><td>: Anggaran Pendapatan dan Belanja Daerah (APBD) Kota Baubau, dibebankan atas DPA Badan Pendapatan Daerah (BAPENDA) Kota Baubau Tahun Anggaran 2026</td></tr>
+                <tr><td class="label">KODE REKENING</td><td>: [Kode Rekening]</td></tr>
+            </table>
+
+            <br>
+
             <p><strong>I. PENDAHULUAN</strong></p>
 
             <p><strong>A. Latar Belakang</strong></p>
@@ -170,216 +229,234 @@
             <p>Digitalisasi pembayaran PAD bertujuan untuk meningkatkan transparansi, akuntabilitas, efisiensi, dan efektivitas pengelolaan penerimaan daerah. Oleh karena itu, diperlukan jasa pendampingan yang komprehensif untuk:</p>
             <ol>
                 <li>Melakukan pemetaan potensi PAD secara menyeluruh di seluruh Organisasi Perangkat Daerah (OPD) penghasil PAD;</li>
-                <li>Merencanakan sistem pembayaran digital yang terintegrasi dengan berbagai kanal pembayaran (multi-bank);</li>
+                <li>Merencanakan arsitektur sistem pembayaran digital yang terintegrasi dengan berbagai kanal pembayaran (multi-bank);</li>
                 <li>Menyusun peta jalan (roadmap) implementasi digitalisasi pembayaran PAD;</li>
                 <li>Melakukan pendampingan aspek kelembagaan dan regulasi yang mendukung digitalisasi PAD.</li>
             </ol>
 
             <p><strong>B. Dasar Hukum</strong></p>
             <ol>
-                <li>Undang-Undang No. 23 Tahun 2014 tentang Pemerintahan Daerah;</li>
-                <li>Undang-Undang No. 1 Tahun 2022 tentang Hubungan Keuangan Pemerintah Pusat dan Pemerintahan Daerah (HKPD);</li>
-                <li>Peraturan Presiden No. 95 Tahun 2018 tentang Sistem Pemerintahan Berbasis Elektronik (SPBE);</li>
+                <li>Undang-Undang Nomor 23 Tahun 2014 tentang Pemerintahan Daerah;</li>
+                <li>Undang-Undang Nomor 1 Tahun 2022 tentang Hubungan Keuangan Pemerintah Pusat dan Pemerintahan Daerah (HKPD);</li>
+                <li>Peraturan Presiden Nomor 95 Tahun 2018 tentang Sistem Pemerintahan Berbasis Elektronik (SPBE);</li>
                 <li>Peraturan Daerah Kota Baubau tentang Retribusi Daerah;</li>
                 <li>Peraturan Wali Kota Baubau tentang Pelaksanaan Sistem Pemerintahan Berbasis Elektronik (SPBE);</li>
-                <li>Peraturan Wali Kota Baubau tentang Digitalisasi Pelayanan Publik;</li>
-                <li>Cetak Biru Visi Baubau 4.0 — Transformasi Digital Kota Baubau.</li>
+                <li>Peraturan Wali Kota Baubau tentang Digitalisasi Pelayanan Publik.</li>
             </ol>
 
             <p><strong>C. Maksud dan Tujuan</strong></p>
-            <p><strong>Maksud:</strong> Menyediakan kerangka acuan yang jelas dan komprehensif untuk pelaksanaan jasa pendampingan digitalisasi pengelolaan pembayaran PAD terintegrasi di lingkungan BAPENDA Kota Baubau.</p>
-            <p><strong>Tujuan:</strong></p>
+            <p><strong>Maksud</strong> dari Jasa Pendampingan Digitalisasi Pengelolaan Pembayaran PAD Terintegrasi adalah untuk menyediakan pendampingan teknis dan non-teknis yang komprehensif bagi BAPENDA Kota Baubau dalam mempersiapkan, merencanakan, dan merumuskan langkah-langkah strategis menuju digitalisasi pengelolaan pembayaran PAD yang terintegrasi.</p>
+            <p><strong>Tujuan</strong> dari pendampingan ini adalah:</p>
             <ol>
-                <li>Mengoptimalkan potensi PAD melalui identifikasi, pemetaan, dan digitalisasi siklus penerimaan daerah;</li>
-                <li>Menyediakan sistem pembayaran digital yang terintegrasi dengan berbagai kanal pembayaran multi-bank dan non-tunai;</li>
-                <li>Meningkatkan transparansi, akuntabilitas, dan efisiensi pengelolaan PAD;</li>
-                <li>Memperkuat kapasitas kelembagaan dan sumber daya manusia BAPENDA dalam mengelola sistem pembayaran digital;</li>
-                <li>Menghasilkan dokumen perencanaan teknis (KAK Teknis) yang siap digunakan untuk pembangunan aplikasi pembayaran PAD terintegrasi.</li>
+                <li>Terpetakannya potensi PAD secara menyeluruh di seluruh OPD penghasil PAD;</li>
+                <li>Tersusunnya arsitektur sistem pembayaran digital terintegrasi yang sesuai dengan kebutuhan;</li>
+                <li>Tersusunnya peta jalan (roadmap) implementasi digitalisasi pembayaran PAD;</li>
+                <li>Tersusunnya rancangan regulasi dan kelembagaan yang mendukung digitalisasi PAD;</li>
+                <li>Meningkatnya kapasitas SDM BAPENDA dalam pengelolaan pembayaran digital;</li>
+                <li>Tersusunnya Kerangka Acuan Kerja (KAK) teknis pembangunan/pengembangan aplikasi sebagai output akhir.</li>
             </ol>
-
-            <p><strong>II. NAMA DAN ORGANISASI PENGADAAN</strong></p>
-            <table class="table">
-                <tr><td width="30%">PPK</td><td>Kepala BAPENDA Kota Baubau</td></tr>
-                <tr><td>Satuan Kerja / OPD</td><td>Badan Pendapatan Daerah (BAPENDA) Kota Baubau</td></tr>
-                <tr><td>Instansi</td><td>Pemerintah Daerah Kota Baubau</td></tr>
-                <tr><td>Jenis Pengadaan</td><td>Jasa Konsultansi — Pendampingan Digitalisasi</td></tr>
-                <tr><td>Sumber Dana</td><td>APBD Kota Baubau Tahun Anggaran 2026</td></tr>
-            </table>
         </div>
     </div>
     <img src="header%20dan%20footer/footer12121.png" class="page-footer-img">
     <div class="page-footer">Halaman 1</div>
 </div>
 
-<!-- ========== Halaman 2: Ruang Lingkup Pekerjaan ========== -->
-<div class="page page-2">
+<!-- ========== HALAMAN 2: RUANG LINGKUP + METODOLOGI ========== -->
+<div class="page">
     <img src="header%20dan%20footer/header.png" class="page-header-img">
     <div class="content-container">
-        <h1>BAB III — RUANG LINGKUP PEKERJAAN</h1>
+        <div class="letter-body">
+            <h1>II. RUANG LINGKUP PEKERJAAN</h1>
+            <p>Ruang lingkup pekerjaan Jasa Pendampingan Digitalisasi Pengelolaan Pembayaran PAD Terintegrasi meliputi:</p>
 
-        <p><strong>III. RUANG LINGKUP PEKERJAAN</strong></p>
-        <p>Ruang lingkup jasa pendampingan digitalisasi pengelolaan pembayaran PAD terintegrasi meliputi 6 (enam) lingkup kegiatan sebagai berikut:</p>
+            <p><strong>A. Pemetaan dan Inventarisasi Potensi PAD</strong></p>
+            <ol>
+                <li>Identifikasi dan inventarisasi seluruh sumber PAD di lingkungan Pemerintah Kota Baubau;</li>
+                <li>Pemetaan potensi penerimaan, klasifikasi, dan target PAD;</li>
+                <li>Analisis data historis penerimaan PAD dan tren pertumbuhan;</li>
+                <li>Identifikasi permasalahan dan hambatan dalam pengelolaan PAD saat ini.</li>
+            </ol>
 
-        <h3>1. Pemetaan dan Inventarisasi Potensi PAD</h3>
-        <ul>
-            <li>Melakukan inventarisasi seluruh sumber dan jenis PAD di seluruh OPD penghasil PAD di lingkungan Pemerintah Kota Baubau;</li>
-            <li>Memetakan potensi penerimaan PAD berdasarkan data historis, regulasi, dan potensi ekonomi daerah;</li>
-            <li>Mengidentifikasi titik-titik kebocoran (leakage) dan hambatan dalam pengelolaan PAD eksisting;</li>
-            <li>Menyusun laporan profil potensi PAD yang lengkap dan komprehensif.</li>
-        </ul>
+            <p><strong>B. Perancangan Arsitektur Sistem Pembayaran Digital Terintegrasi</strong></p>
+            <ol>
+                <li>Perancangan arsitektur sistem pembayaran digital yang terintegrasi multi-bank;</li>
+                <li>Perancangan alur bisnis (business process) pengelolaan pembayaran PAD;</li>
+                <li>Identifikasi kebutuhan infrastruktur teknologi informasi;</li>
+                <li>Perancangan model integrasi dengan sistem existing.</li>
+            </ol>
 
-        <h3>2. Perancangan Arsitektur Sistem Pembayaran Digital Terintegrasi</h3>
-        <ul>
-            <li>Merancang arsitektur sistem pembayaran digital yang terintegrasi dengan kanal pembayaran multi-bank (QRIS, Virtual Account, Host-to-Host, dan kanal non-tunai lainnya);</li>
-            <li>Menyusun spesifikasi teknis sistem yang meliputi arsitektur data, integrasi antar sistem, keamanan siber, dan infrastruktur pendukung;</li>
-            <li>Melakukan analisis kesiapan infrastruktur teknologi informasi eksisting BAPENDA dan OPD terkait;</li>
-            <li>Merancang skema interoperabilitas dan pertukaran data antar sistem pembayaran.</li>
-        </ul>
+            <p><strong>C. Penyusunan Peta Jalan (Roadmap) Implementasi</strong></p>
+            <ol>
+                <li>Penyusunan peta jalan digitalisasi pembayaran PAD jangka pendek, menengah, dan panjang;</li>
+                <li>Penentuan prioritas dan tahapan implementasi;</li>
+                <li>Identifikasi kebutuhan sumber daya dan anggaran;</li>
+                <li>Perancangan indikator keberhasilan (Key Performance Indicators).</li>
+            </ol>
 
-        <h3>3. Penyusunan Peta Jalan (Roadmap) Implementasi</h3>
-        <ul>
-            <li>Menyusun peta jalan implementasi digitalisasi pembayaran PAD dengan pendekatan bertahap (fase-fase);</li>
-            <li>Menetapkan prioritas kegiatan, jadwal pelaksanaan, dan milestone capaian;</li>
-            <li>Mengidentifikasi kebutuhan sumber daya, anggaran, dan mitra strategis untuk setiap fase;</li>
-            <li>Menyusun rencana mitigasi risiko implementasi.</li>
-        </ul>
+            <p><strong>D. Pendampingan Regulasi dan Kelembagaan</strong></p>
+            <ol>
+                <li>Penyusunan draf rancangan regulasi (Peraturan Wali Kota, Keputusan Kepala Daerah, atau Keputusan Kepala BAPENDA) terkait digitalisasi pembayaran PAD;</li>
+                <li>Pendampingan penyusunan Standar Operasional Prosedur (SOP) pengelolaan pembayaran digital;</li>
+                <li>Pendampingan penguatan kelembagaan pengelola PAD.</li>
+            </ol>
 
-        <h3>4. Pendampingan Regulasi dan Kelembagaan</h3>
-        <ul>
-            <li>Melakukan review regulasi daerah terkait pengelolaan PAD dan memberikan rekomendasi penyempurnaan;</li>
-            <li>Menyusun naskah akademik dan rancangan peraturan (Perda/Perwal) yang mendukung digitalisasi PAD;</li>
-            <li>Menyusun pola tata kelola kelembagaan pengelolaan sistem pembayaran digital PAD;</li>
-            <li>Menyusun standar operasional prosedur (SOP) pengelolaan pembayaran PAD digital.</li>
-        </ul>
+            <p><strong>E. Pendampingan Teknis dan Kapasitas SDM</strong></p>
+            <ol>
+                <li>Pelatihan dan bimbingan teknis kepada SDM BAPENDA terkait digitalisasi pembayaran;</li>
+                <li>Pendampingan dalam pengelolaan data dan informasi PAD.</li>
+            </ol>
 
-        <h3>5. Pendampingan Teknis dan Kapasitas SDM</h3>
-        <ul>
-            <li>Melaksanakan pelatihan dan bimbingan teknis bagi operator dan admin BAPENDA serta OPD terkait;</li>
-            <li>Menyusun modul dan materi pelatihan pengelolaan sistem pembayaran digital;</li>
-            <li>Melaksanakan pendampingan teknis pasca-implementasi (coaching dan konsultasi);</li>
-            <li>Menyusun rekomendasi pengembangan kapasitas SDM berkelanjutan.</li>
-        </ul>
+            <p><strong>F. Penyusunan Dokumen KAK Teknis</strong></p>
+            <ol>
+                <li>Penyusunan Kerangka Acuan Kerja (KAK) teknis untuk pembangunan/pengembangan aplikasi sistem pembayaran digital PAD;</li>
+                <li>Penyusunan spesifikasi teknis sistem;</li>
+                <li>Penyusunan rencana anggaran biaya (RAB) teknis pembangunan aplikasi.</li>
+            </ol>
 
-        <h3>6. Penyusunan Dokumen Kerangka Acuan Kerja (KAK) Teknis Pembangunan Aplikasi</h3>
-        <ul>
-            <li>Menyusun dokumen KAK teknis yang lengkap untuk pembangunan dan pengembangan aplikasi sistem pembayaran PAD terintegrasi;</li>
-            <li>Dokumen KAK teknis mencakup spesifikasi fungsional, arsitektur sistem, kebutuhan integrasi, keamanan, dan rencana anggaran biaya pembangunan aplikasi;</li>
-            <li>Dokumen ini menjadi output final yang siap digunakan sebagai dasar pengadaan pembangunan aplikasi pada tahap berikutnya.</li>
-        </ul>
+            <h1>III. METODOLOGI DAN TAHAPAN PELAKSANAAN</h1>
 
-        <h1>BAB IV — METODOLOGI</h1>
+            <p><strong>3.1 Metodologi</strong></p>
+            <p>Pekerjaan dilaksanakan dengan menggunakan pendekatan partisipatif dan kolaboratif melalui metode sebagai berikut:</p>
+            <ol>
+                <li>Studi dokumen dan data sekunder;</li>
+                <li>Observasi lapangan dan wawancara mendalam;</li>
+                <li>Focus Group Discussion (FGD) dan workshop;</li>
+                <li>Analisis dan perumusan strategi;</li>
+                <li>Penyusunan laporan dan dokumentasi.</li>
+            </ol>
 
-        <p><strong>IV. METODOLOGI PELAKSANAAN</strong></p>
-        <p>Jasa pendampingan dilaksanakan selama <strong>6 (enam) bulan</strong> dalam 4 (empat) fase sebagai berikut:</p>
+            <p><strong>3.2 Tahapan Pelaksanaan</strong></p>
+            <p>Pekerjaan dilaksanakan selama <strong>6 (enam) bulan</strong>, terbagi dalam tahapan sebagai berikut:</p>
 
-        <table class="table">
-            <tr><th>Fase</th><th>Periode</th><th>Kegiatan</th><th>Output</th></tr>
-            <tr><td>1. Discovery & Assessment</td><td>Bulan 1</td><td>Pemetaan potensi PAD, inventarisasi sistem eksisting, wawancara pemangku kepentingan, analisis regulasi</td><td>Laporan Potensi PAD & Kesiapan Digital</td></tr>
-            <tr><td>2. Perancangan</td><td>Bulan 2</td><td>Perancangan arsitektur sistem, penyusunan spesifikasi teknis, perancangan skema integrasi multi-bank</td><td>Dokumen Arsitektur & Spesifikasi Teknis</td></tr>
-            <tr><td>3. Pendampingan Implementasi</td><td>Bulan 3-5</td><td>Pendampingan regulasi/kelembagaan, pendampingan teknis, pelatihan SDM, penyusunan SOP</td><td>Draf Regulasi, SOP, Modul Pelatihan</td></tr>
-            <tr><td>4. Finalisasi & Serah Terima</td><td>Bulan 6</td><td>Finalisasi dokumen, penyusunan KAK teknis aplikasi, evaluasi dan rekomendasi</td><td>KAK Teknis Pembangunan Aplikasi + Laporan Final</td></tr>
-        </table>
+            <table class="table">
+                <thead>
+                    <tr><th>Fase</th><th>Bulan ke-</th><th>Kegiatan</th><th>Output</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>I</strong></td><td>1 &ndash; 2</td><td>Pemetaan potensi PAD, studi dokumen, survei lapangan</td><td>Laporan pemetaan potensi PAD</td></tr>
+                    <tr><td><strong>II</strong></td><td>3 &ndash; 4</td><td>Perancangan arsitektur sistem, FGD, penyusunan roadmap</td><td>Dokumen arsitektur dan roadmap</td></tr>
+                    <tr><td><strong>III</strong></td><td>5</td><td>Pendampingan regulasi/kelembagaan, pelatihan SDM</td><td>Draf regulasi, SOP, modul pelatihan</td></tr>
+                    <tr><td><strong>IV</strong></td><td>6</td><td>Penyusunan KAK teknis aplikasi, finalisasi laporan</td><td>KAK teknis, laporan akhir</td></tr>
+                </tbody>
+            </table>
+        </div>
     </div>
     <img src="header%20dan%20footer/footer12121.png" class="page-footer-img">
     <div class="page-footer">Halaman 2</div>
 </div>
 
-<!-- ========== Halaman 3: RAB + Jadwal ========== -->
-<div class="page page-2">
+<!-- ========== HALAMAN 3: RAB + JANGKA WAKTU + KELUARAN + TENAGA AHLI ========== -->
+<div class="page">
     <img src="header%20dan%20footer/header.png" class="page-header-img">
     <div class="content-container">
-        <h1>BAB V — RENCANA ANGGARAN BIAYA</h1>
+        <div class="letter-body">
+            <h1>IV. TENAGA AHLI YANG DIPERLUKAN</h1>
+            <table class="table">
+                <thead>
+                    <tr><th>No</th><th>Posisi</th><th>Kualifikasi</th><th>Jumlah</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>Team Leader / Ahli Perencanaan</td><td>S1 Teknik Informatika/Sistem Informasi/Manajemen, pengalaman minimal 3 tahun</td><td>1 orang</td></tr>
+                    <tr><td>2</td><td>Analis Sistem dan Kelembagaan</td><td>S1 semua jurusan, pengalaman minimal 2 tahun</td><td>1 orang</td></tr>
+                    <tr><td>3</td><td>Tenaga Pendukung / Admin</td><td>D3 semua jurusan</td><td>1 orang</td></tr>
+                </tbody>
+            </table>
 
-        <p><strong>V. RENCANA ANGGARAN BIAYA</strong></p>
-        <table class="table table-bordered">
-            <thead>
-                <tr><th class="text-center">No</th><th>Uraian Pekerjaan</th><th>Volume</th><th>Satuan</th><th class="text-end">Jumlah (Rp)</th></tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="text-center">1</td>
-                    <td>Jasa Pendampingan Digitalisasi Pengelolaan Pembayaran PAD Terintegrasi BAPENDA Kota Baubau</td>
-                    <td class="text-center">1</td>
-                    <td class="text-center">Paket</td>
-                    <td class="text-end"><strong>150.000.000</strong></td>
-                </tr>
-                <tr style="background:#e8eaf6">
-                    <td colspan="4" class="text-end"><strong>Jumlah Total</strong></td>
-                    <td class="text-end"><strong style="color:#c0392b;">Rp 150.000.000</strong></td>
-                </tr>
-                <tr>
-                    <td colspan="4" class="text-end">Terbilang :</td>
-                    <td class="text-end"><em>Seratus Lima Puluh Juta Rupiah</em></td>
-                </tr>
-            </tbody>
-        </table>
+            <h1>V. RENCANA ANGGARAN BIAYA (RAB)</h1>
+            <p>Biaya untuk kegiatan Jasa Pendampingan Digitalisasi Pengelolaan Pembayaran PAD Terintegrasi BAPENDA Kota Baubau sebesar <strong>Rp150.000.000</strong> (Seratus Lima Puluh Juta Rupiah) dibebankan pada DPA Badan Pendapatan Daerah (BAPENDA) Kota Baubau Tahun Anggaran 2026, dengan rincian sebagai berikut:</p>
 
-        <h1>BAB VI — JANGKA WAKTU PELAKSANAAN</h1>
+            <table class="table">
+                <thead>
+                    <tr><th>No</th><th>Uraian Pekerjaan</th><th>Volume</th><th>Satuan</th><th>Harga Satuan (Rp)</th><th>Jumlah (Rp)</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>Honorarium Tim Tenaga Ahli (Team Leader, Analis, Tenaga Pendukung &mdash; 6 bulan)</td><td>1</td><td>Paket</td><td>105.000.000</td><td>105.000.000</td></tr>
+                    <tr><td>2</td><td>Biaya Survei dan FGD (transportasi, akomodasi, konsumsi &mdash; 4 kali kegiatan)</td><td>1</td><td>Paket</td><td>20.000.000</td><td>20.000.000</td></tr>
+                    <tr><td>3</td><td>Biaya Penyusunan Dokumen (regulasi, SOP, KAK teknis, laporan)</td><td>1</td><td>Paket</td><td>10.000.000</td><td>10.000.000</td></tr>
+                    <tr><td>4</td><td>Biaya Pelatihan dan Sosialisasi SDM</td><td>1</td><td>Paket</td><td>8.930.000</td><td>8.930.000</td></tr>
+                    <tr><td>5</td><td>Biaya Administrasi dan Dokumentasi</td><td>1</td><td>Paket</td><td>6.070.000</td><td>6.070.000</td></tr>
+                    <tr class="total-row"><td colspan="5" style="text-align: right;">Subtotal</td><td><strong>150.000.000</strong></td></tr>
+                </tbody>
+            </table>
 
-        <p><strong>VI. JANGKA WAKTU PELAKSANAAN</strong></p>
-        <p>Pekerjaan jasa pendampingan digitalisasi pengelolaan pembayaran PAD terintegrasi dilaksanakan dalam jangka waktu <strong>6 (enam) bulan</strong> kalender sejak tanggal ditandatanganinya kontrak/Surat Perintah Mulai Kerja (SPMK).</p>
+            <p>Jenis Kontrak: <strong>Lumsum</strong></p>
+            <p>Sistem Pembayaran: Pembayaran dilakukan secara sekaligus (100%) setelah pekerjaan selesai dan Berita Acara Serah Terima ditandatangani.</p>
 
-        <table class="table">
-            <tr><th>Bulan Ke-</th><th>Kegiatan</th><th>Milestone</th></tr>
-            <tr><td class="text-center">1</td><td>Discovery & Assessment</td><td>Laporan Potensi PAD</td></tr>
-            <tr><td class="text-center">2</td><td>Perancangan Arsitektur</td><td>Dokumen Spesifikasi Teknis</td></tr>
-            <tr><td class="text-center">3</td><td>Pendampingan Implementasi (Fase 1)</td><td>Draf Regulasi & SOP</td></tr>
-            <tr><td class="text-center">4</td><td>Pendampingan Implementasi (Fase 2)</td><td>Pelatihan SDM</td></tr>
-            <tr><td class="text-center">5</td><td>Pendampingan Implementasi (Fase 3)</td><td>Pendampingan Teknis</td></tr>
-            <tr><td class="text-center">6</td><td>Finalisasi & Serah Terima</td><td>KAK Teknis Aplikasi + Laporan Final</td></tr>
-        </table>
+            <h1>VI. JANGKA WAKTU PELAKSANAAN</h1>
+            <p>Adapun jangka waktu pelaksanaan pekerjaan adalah selama <strong>6 (enam) bulan</strong> atau <strong>180 (seratus delapan puluh) hari kalender</strong>, dimulai sejak diterbitkannya Surat Perintah Mulai Kerja (SPMK).</p>
 
-        <h1>BAB VII — KELUARAN (OUTPUT)</h1>
-
-        <p><strong>VII. KELUARAN PEKERJAAN</strong></p>
-        <table class="table table-bordered">
-            <tr><th>No</th><th>Keluaran (Output)</th><th>Keterangan</th></tr>
-            <tr><td>1</td><td>Laporan Pemetaan dan Inventarisasi Potensi PAD Kota Baubau</td><td>Dokumen PDF</td></tr>
-            <tr><td>2</td><td>Dokumen Arsitektur dan Spesifikasi Teknis Sistem Pembayaran Digital Terintegrasi</td><td>Dokumen PDF</td></tr>
-            <tr><td>3</td><td>Peta Jalan (Roadmap) Implementasi Digitalisasi Pembayaran PAD</td><td>Dokumen PDF + Presentasi</td></tr>
-            <tr><td>4</td><td>Naskah Akademik dan Rancangan Regulasi Pendukung Digitalisasi PAD</td><td>Dokumen PDF</td></tr>
-            <tr><td>5</td><td>Standar Operasional Prosedur (SOP) Pengelolaan Pembayaran PAD Digital</td><td>Dokumen PDF</td></tr>
-            <tr><td>6</td><td>Modul dan Materi Pelatihan Digitalisasi PAD</td><td>Dokumen PDF + Media</td></tr>
-            <tr><td>7</td><td>Dokumen Kerangka Acuan Kerja (KAK) Teknis Pembangunan Aplikasi Sistem Pembayaran PAD Terintegrasi</td><td>Dokumen PDF</td></tr>
-            <tr><td>8</td><td>Laporan Akhir Pelaksanaan Pekerjaan</td><td>Dokumen PDF</td></tr>
-        </table>
+            <table class="table">
+                <thead>
+                    <tr><th>No</th><th>Kegiatan</th><th>Bulan ke-1</th><th>Bulan ke-2</th><th>Bulan ke-3</th><th>Bulan ke-4</th><th>Bulan ke-5</th><th>Bulan ke-6</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>Pemetaan Potensi PAD</td><td style="text-align: center;">&#10003;</td><td style="text-align: center;">&#10003;</td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td>2</td><td>Perancangan Arsitektur Sistem & Roadmap</td><td></td><td></td><td style="text-align: center;">&#10003;</td><td style="text-align: center;">&#10003;</td><td></td><td></td></tr>
+                    <tr><td>3</td><td>Pendampingan Regulasi & Pelatihan SDM</td><td></td><td></td><td></td><td></td><td style="text-align: center;">&#10003;</td><td></td></tr>
+                    <tr><td>4</td><td>Penyusunan KAK Teknis & Laporan Akhir</td><td></td><td></td><td></td><td></td><td></td><td style="text-align: center;">&#10003;</td></tr>
+                </tbody>
+            </table>
+        </div>
     </div>
     <img src="header%20dan%20footer/footer12121.png" class="page-footer-img">
     <div class="page-footer">Halaman 3</div>
 </div>
 
-<!-- ========== Halaman 4: Penutup & Tanda Tangan ========== -->
-<div class="page page-2">
+<!-- ========== HALAMAN 4: KELUARAN + PENUTUP + TTD ========== -->
+<div class="page">
     <img src="header%20dan%20footer/header.png" class="page-header-img">
     <div class="content-container">
-        <h1>BAB VIII — PENUTUP</h1>
+        <div class="letter-body">
+            <h1>VII. KELUARAN (OUTPUT)</h1>
+            <table class="table">
+                <thead>
+                    <tr><th>No</th><th>Output/Luaran</th><th>Bentuk</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>Laporan Pemetaan Potensi PAD Kota Baubau</td><td>Dokumen PDF</td></tr>
+                    <tr><td>2</td><td>Dokumen Arsitektur Sistem Pembayaran Digital Terintegrasi</td><td>Dokumen PDF</td></tr>
+                    <tr><td>3</td><td>Peta Jalan (Roadmap) Implementasi Digitalisasi Pembayaran PAD</td><td>Dokumen PDF</td></tr>
+                    <tr><td>4</td><td>Draf Rancangan Regulasi Digitalisasi Pembayaran PAD</td><td>Draf Perwali/SK Kadis</td></tr>
+                    <tr><td>5</td><td>Standar Operasional Prosedur (SOP) Pengelolaan Pembayaran Digital</td><td>Dokumen PDF</td></tr>
+                    <tr><td>6</td><td>Modul dan Bahan Pelatihan SDM</td><td>Modul PDF</td></tr>
+                    <tr><td>7</td><td>Kerangka Acuan Kerja (KAK) Teknis Pembangunan Aplikasi</td><td>Dokumen PDF</td></tr>
+                    <tr><td>8</td><td>Laporan Akhir Pendampingan</td><td>Dokumen PDF</td></tr>
+                </tbody>
+            </table>
 
-        <p><strong>VIII. PENUTUP</strong></p>
+            <p><strong>Kriteria Penerimaan:</strong></p>
+            <ol>
+                <li>Seluruh output diserahkan tepat waktu sesuai jadwal yang ditentukan;</li>
+                <li>Dokumen disusun dengan bahasa Indonesia yang baik dan benar;</li>
+                <li>Data dan informasi yang disajikan akurat dan dapat dipertanggungjawabkan;</li>
+                <li>Seluruh dokumen disetujui oleh Pejabat Pembuat Komitmen (PPK) BAPENDA Kota Baubau.</li>
+            </ol>
 
-        <p>Demikian Kerangka Acuan Kerja (KAK) untuk <strong>Jasa Pendampingan Digitalisasi Pengelolaan Pembayaran PAD Terintegrasi BAPENDA Kota Baubau</strong> ini disusun sebagai acuan teknis, administratif, dan keuangan dalam pelaksanaan pekerjaan.</p>
+            <h1>VIII. LAPORAN HASIL PEKERJAAN</h1>
+            <p>Laporan hasil pekerjaan disusun secara periodik meliputi:</p>
+            <ol>
+                <li>Laporan Pendahuluan (awal pekerjaan);</li>
+                <li>Laporan Bulanan (kemajuan pekerjaan);</li>
+                <li>Laporan Akhir (hasil keseluruhan pekerjaan).</li>
+            </ol>
 
-        <p>Setiap perubahan dan/atau penambahan terhadap ruang lingkup pekerjaan yang tercantum dalam KAK ini akan diatur melalui addendum yang merupakan bagian yang tidak terpisahkan dari kontrak pekerjaan.</p>
+            <h1>IX. PENUTUP</h1>
+            <p>Demikian Kerangka Acuan Kerja (KAK) ini disusun untuk menjadi acuan dalam pelaksanaan Jasa Pendampingan Digitalisasi Pengelolaan Pembayaran Pendapatan Asli Daerah (PAD) Terintegrasi di lingkungan Badan Pendapatan Daerah (BAPENDA) Kota Baubau Tahun Anggaran 2026. Hal-hal yang belum diatur secara jelas dalam KAK ini akan diatur kemudian melalui addendum yang merupakan bagian tidak terpisahkan dari dokumen ini.</p>
 
-        <p>Hal-hal yang belum diatur dalam KAK ini akan ditentukan kemudian secara bersama-sama antara Pemberi Tugas (PPK) dan Pelaksana Pekerjaan untuk mencapai hasil yang optimal sesuai dengan ketentuan peraturan perundang-undangan yang berlaku.</p>
+            <br>
 
-        <div class="letter-footer" style="display: flex; flex-direction: column; align-items: flex-end; margin-top: 30px;">
-            <p style="margin-bottom: 5px; width: 300px; text-align: center;">Ditetapkan di : Baubau<br>
-            Pada tanggal  : <span id="signature-date">Juli 2026</span></p>
-            <p style="margin-bottom: 5px; width: 300px; text-align: center;">&nbsp;</p>
-            <p style="margin-bottom: 2px; width: 300px; text-align: center; font-weight: bold;">PEMERINTAH DAERAH KOTA BAUBAU</p>
-            <p style="margin-bottom: 5px; width: 300px; text-align: center; font-weight: bold;">BADAN PENDAPATAN DAERAH (BAPENDA)</p>
-            <p style="margin-bottom: 2px; width: 300px; text-align: center;">&nbsp;</p>
-             <p style="margin-bottom: 2px; width: 300px; text-align: center;"><strong>KEPALA BADAN PENDAPATAN DAERAH (BAPENDA)</strong></p>
-             <p style="margin-bottom: 2px; width: 300px; text-align: center;"><strong>KOTA BAUBAU</strong></p>
-             <div class="signature-block" style="text-align: center; width: 300px;">
-                 <br><br><br><br>
-                 <span class="name" style="font-weight: bold; text-decoration: underline; position: relative; z-index: 2;">(................................................)</span><br>
-                 <span style="font-size: 9pt;">NIP. ................................................</span>
-             </div>
-        </div>
-
-        <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #ddd;">
-            <p style="font-size: 10pt; font-style: italic;">Dokumen ini telah ditandatangani secara elektronik oleh Kepala BAPENDA Kota Baubau sesuai dengan ketentuan peraturan perundang-undangan yang berlaku.</p>
+            <div class="letter-footer" style="display: flex; flex-direction: column; align-items: flex-end; margin-top: 30px;">
+                <p style="margin-bottom: 5px; width: 350px; text-align: center;">Ditetapkan di : Baubau<br>
+                Pada tanggal  : <span id="signature-date">Juli 2026</span></p>
+                <p style="margin-bottom: 2px; width: 350px; text-align: center; font-weight: bold;">PEJABAT PEMBUAT KOMITMEN</p>
+                <p style="margin-bottom: 2px; width: 350px; text-align: center; font-weight: bold;">BADAN PENDAPATAN DAERAH (BAPENDA)</p>
+                <p style="margin-bottom: 2px; width: 350px; text-align: center; font-weight: bold;">KOTA BAUBAU</p>
+                <p style="margin-bottom: 2px; width: 350px; text-align: center;">&nbsp;</p>
+                <p style="margin-bottom: 2px; width: 350px; text-align: center;">&nbsp;</p>
+                <p style="margin-bottom: 2px; width: 350px; text-align: center;">&nbsp;</p>
+                <p style="margin-bottom: 2px; width: 350px; text-align: center;"><strong>H. ANDI HAMZAH MACHMUD, S.Sos., M.Si</strong></p>
+                <p style="margin-bottom: 2px; width: 350px; text-align: center;">NIP. 19731231 199402 1 006</p>
+            </div>
         </div>
     </div>
     <img src="header%20dan%20footer/footer12121.png" class="page-footer-img">
@@ -393,35 +470,12 @@
 <script src="../assets/js/bootstrap.5.0.0.alpha-2-min.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        const dateElement = document.getElementById('dynamic-date');
-        const signatureDate = document.getElementById('signature-date');
-        const numberElement = document.getElementById('dynamic-number');
+        const dateElement = document.getElementById('signature-date');
         if (dateElement) {
             const today = new Date();
             const options = { year: 'numeric', month: 'long', day: 'numeric' };
             const formattedDate = today.toLocaleDateString('id-ID', options);
-            dateElement.innerHTML = `Baubau, ${formattedDate}`;
-        }
-        if (signatureDate) {
-            const today = new Date();
-            const options = { year: 'numeric', month: 'long' };
-            const formattedDate = today.toLocaleDateString('id-ID', options);
-            signatureDate.innerHTML = formattedDate;
-        }
-        if (numberElement) {
-            const today = new Date();
-            const year = today.getFullYear();
-            const month = today.getMonth() + 1;
-            const toRoman = (num) => {
-                const roman = { M: 1000, CM: 900, D: 500, CD: 400, C: 100, XC: 90, L: 50, XL: 40, X: 10, IX: 9, V: 5, IV: 4, I: 1 };
-                let str = '';
-                for (let i of Object.keys(roman)) { let q = Math.floor(num / roman[i]); num -= q * roman[i]; str += i.repeat(q); }
-                return str;
-            };
-            const romanMonth = toRoman(month);
-            let currentText = numberElement.innerHTML;
-            let newText = currentText.replace(/012\\/KAK\\/BAPENDA\\/VII\\/2026/, `012/KAK/BAPENDA/${romanMonth}/${year}`);
-            numberElement.innerHTML = newText;
+            dateElement.innerHTML = formattedDate;
         }
     });
 </script>
