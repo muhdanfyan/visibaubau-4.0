@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Peta CCTV Baubau - Transformasi Digital Kota Baubau 4.0</title>
   <meta name="description" content="Peta Lokasi CCTV dan Jaringan Wifi Pemerintah Kota Baubau">
-  <link rel="icon" href="../../assets/img/logo/logobaubau4.0.png" type="image/png">
+  <link rel="icon" href="../assets/img/logo/logobaubau4.0.png" type="image/png">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>tailwind.config={theme:{extend:{colors:{primary:{DEFAULT:'#2F80ED',dark:'#1e3a5f',light:'#4A9AF5'},accent:{DEFAULT:'#F59E0B',light:'#FCD34D'}},fontFamily:{sans:['Plus Jakarta Sans','system-ui','sans-serif']}}}}</script>
   <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
@@ -56,7 +56,7 @@
       var activeCategories = new Set();
       
       const cctvIcon = L.icon({
-        iconUrl: '../../assets/icon/cctv.png',
+        iconUrl: '../assets/icon/cctv.png',
         iconSize: [32, 32], iconAnchor: [16, 32], popupAnchor: [0, -32]
       });
 
@@ -89,7 +89,7 @@
 
           // "All" button
           var allButton = document.createElement('button');
-          allButton.innerHTML = `<img src="../../assets/icon/cctv.png"> Semua`;
+          allButton.innerHTML = `<img src="../assets/icon/cctv.png"> Semua`;
           allButton.className = 'filter-btn active';
           allButton.addEventListener('click', function () {
             if (activeCategories.size === categories.length) activeCategories.clear();
@@ -101,7 +101,7 @@
           // Category buttons
           categories.forEach(function (cat) {
             var button = document.createElement('button');
-            button.innerHTML = `<img src="../../assets/icon/cctv.png"> ${cat}`;
+            button.innerHTML = `<img src="../assets/icon/cctv.png"> ${cat}`;
             button.className = 'filter-btn';
             button.dataset.category = cat;
             button.addEventListener('click', function () {

@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Replace {{BASE}} placeholders with actual base path
         html = html.replace(/\{\{BASE\}\}/g, BASE);
         // Replace {{ASSET}} with path to root assets folder
-        const assetPath = BASE + '../assets/';
+        const assetPath = BASE + 'assets/';
         html = html.replace(/\{\{ASSET\}\}/g, assetPath);
         el.innerHTML = html;
         return el;
