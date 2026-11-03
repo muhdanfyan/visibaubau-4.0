@@ -1,0 +1,84 @@
+MONITORING, PELAPORAN, EVALUASI PELAKSANAAN PROGRAM/KEGIATAN/SUB KEGIATAN
+DINAS TENAGA KERJA KOTA BAUBAU
+SAMPAI DENGAN 30 JUNI 2025
+Anggaran	Fisik
+Persentase Persentase
+Persentase Persentase
+Realisasi	Realisasi
+Realisasi	Realisasi
+Kode	Program / Kegiatan / Subkegiatan	Target Pagu 1
+Tahun (Rp.)	Target Kas s/d
+Bulan ini (Rp.)	Realisasi (Rp.)	Terhadap	Terhadap
+Indikator	Target Fisik 1 Tahun
+Target Kas	Target
+Target Fisik s/d
+Bulan ini	Realisasi Fisik	Terhadap	Terhadap
+Penanggung Jawab
+(jabatan & nama)
+Bulan	Pagu 1
+Target	Fisik Bulan
+Target
+ini(%)	Tahun(%)
+ini(%)	Fisik 1
+Tahun(%)
+2.07.0.00.0.00.01.0000	DINAS TENAGA KERJA
+2.07.01	PROGRAM PENUNJANG URUSAN PEMERINTAHAN DAERAH KABUPATEN/KOTA
+2.07.01.2.01	Perencanaan, Penganggaran, dan Evaluasi Kinerja Perangkat Daerah
+2.07.01.2.01.0001	Penyusunan Dokumen Perencanaan Perangkat
+Daerah	20.018.000	12.373.000	4.892.000	39,54	24,44	Jumlah Dokumen Perencanaan Perangkat Daerah	2
+Dokumen	0
+Dokumen	0
+Dokumen	0,00	0,00	Sekretaris
+2.07.01.2.01.0002	Koordinasi dan Penyusunan Dokumen RKA
+SKPD	6.301.500	0	0	0,00	0,00	Jumlah Dokumen RKA-SKPD dan Laporan Hasil
+Koordinasi Penyusunan Dokumen RKA-SKPD	1
+Dokumen	0 Dokumen	0 Dokumen	0,00	0,00	Sekretaris
+2.07.01.2.01.0003	Koordinasi dan Penyusunan Dokumen Perubahan
+RKA SKPD	6.655.000	0	0	0,00	0,00	Jumlah Dokumen Perubahan RKA-SKPD dan
+Laporan Hasil Koordinasi Penyusunan Dokumen
+Perubahan RKA-SKPD	1
+Dokumen	0 Dokumen	0 Dokumen	0,00	0,00	Sekretaris
+2.07.01.2.01.0004	Koordinasi dan Penyusunan DPA SKPD	6.844.000	6.844.000	0	0,00	0,00	Jumlah Dokumen DPA-SKPD dan Laporan Hasil
+Koordinasi Penyusunan Dokumen DPA-SKPD	1
+Dokumen	0 Dokumen	0 Dokumen	0,00	0,00	Sekretaris
+2.07.01.2.01.0005	Koordinasi dan Penyusunan Perubahan DPA
+SKPD	6.490.000	0	0	0,00	0,00	Jumlah Dokumen Perubahan DPA-SKPD dan
+Laporan Hasil Koordinasi Penyusunan Dokumen
+Perubahan DPA-SKPD	1
+Dokumen	0 Dokumen	0 Dokumen	0,00	0,00	Sekretaris
+2.07.01.2.01.0006	Koordinasi dan Penyusunan Laporan Capaian
+Kinerja dan Ikhtisar Realisasi Kinerja SKPD	6.441.700	6.441.700	6.391.700	99,22	99,22	Jumlah Laporan Capaian Kinerja dan Ikhtisar
+Realisasi Kinerja SKPD dan Laporan Hasil
+1
+Laporan	0 Laporan
+Koordinasi Penyusunan Laporan Capaian Kinerja
+dan Ikhtisar Realisasi Kinerja SKPD	0 Laporan	0,00	0,00	Sekretaris
+2.07.01.2.01.0007	Evaluasi Kinerja Perangkat Daerah	11.770.500	4.024.500	0	0,00	0,00	Jumlah Laporan Evaluasi Kinerja Perangkat
+Daerah	1
+Laporan	0 Laporan	0 Laporan	0,00	0,00	Sekretaris
+2.07.01.2.02	Administrasi Keuangan Perangkat Daerah
+2.07.01.2.02.0001	Penyediaan Gaji dan Tunjangan ASN	2.226.609.000	1.328.638.666	831.488.442	62,58	Jumlah Orang yang Menerima Gaji dan Tunjangan
+37,34	19
+Orang/bulan	0 Orang/bulan	0 Orang/bulan	0,00	0,00	Sekretaris
+ASN
+2.07.01.2.02.0002	Penyediaan Administrasi Pelaksanaan Tugas ASN	35.336.000	15.000.000	7.750.000	51,67	21,93	Jumlah Dokumen Hasil Penyediaan Administrasi
+Pelaksanaan Tugas ASN	12
+Dokumen	0 Dokumen	0 Dokumen	0,00	0,00	Sekretaris
+2.07.01.2.02.0005	Koordinasi dan Penyusunan Laporan Keuangan
+Akhir Tahun SKPD	4.920.000	0	0	0,00	0,00	Jumlah Laporan Keuangan Akhir Tahun SKPD
+dan Laporan Hasil Koordinasi Penyusunan
+Laporan Keuangan Akhir Tahun SKPD	7
+Laporan	0 Laporan	0 Laporan	0,00	0,00	Sekretaris
+2.07.01.2.02.0007	Koordinasi dan Penyusunan Laporan Keuangan
+Bulanan/Triwulanan/Semesteran SKPD	31.115.500	14.887.000	8.401.000	56,43	27,00	Jumlah Laporan Keuangan Bulanan/Triwulanan/
+Semesteran SKPD dan Laporan Koordinasi
+Penyusunan Laporan Keuangan
+Bulanan/Triwulanan/Semesteran SKPD	12 Laporan	0 Laporan	0 Laporan	0,00	0,00	Sekretaris
+2.07.01.2.02.0008	Penyusunan Pelaporan dan Analisis Prognosis
+Realisasi Anggaran	4.183.000	0	0	0,00	0,00	Jumlah Dokumen Pelaporan dan Analisis
+Prognosis Realisasi Anggaran	1
+Dokumen	0 Dokumen	0 Dokumen	0,00	0,00	Sekretaris
+2.07.01.2.03	Administrasi Barang Milik Daerah pada Perangkat Daerah
+2.07.01.2.03.0006	Penatausahaan Barang Milik Daerah pada SKPD	10.210.000	6.121.000	4.661.000	76,15	45,65	Jumlah Laporan Penatausahaan Barang Milik
+Daerah pada SKPD	12 Laporan	0 Laporan	0 Laporan	0,00	0,00	Sekretaris
+2.07.01.2.05	Administrasi Kepegawaian Perangkat Daerah

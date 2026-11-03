@@ -1,0 +1,42 @@
+# Analisis dan Efisiensi Anggaran
+
+Berdasarkan analisis terhadap Dokumen Baubau 4.0 dan Laporan Realisasi Anggaran IT (Bulan 5-12), dilakukan pemetaan untuk mengidentifikasi potensi efisiensi jika 4 pilar Baubau 4.0 dieksekusi.
+
+## Kesimpulan Analisis Anggaran IT Saat Ini (Tahun 2024)
+
+1.  **Dominasi Infrastruktur:** Anggaran IT didominasi oleh belanja infrastruktur komunikasi dan listrik (≈85% dari total), yang mencakup internet, listrik, dan layanan pendukung operasional.
+2.  **Minim Pengembangan Aplikasi:** Kegiatan pengembangan aplikasi atau perangkat lunak tidak disebutkan secara eksplisit. Anggaran lebih banyak dialokasikan untuk pemeliharaan sistem yang sudah ada.
+3.  **Kendala Implementasi:** Realisasi fisik banyak yang rendah meski realisasi keuangan sudah tinggi, menunjukkan adanya kendala di lapangan.
+4.  **Fokus pada Operasional:** Tidak ada anggaran khusus untuk pengembangan aplikasi baru, mengindikasikan bahwa fokus masih pada operasional dan pemeliharaan yang ada.
+
+## Bentuk Efisiensi Anggaran jika 4 Pilar Dikerjakan
+
+1.  **Penghapusan Duplikasi Anggaran:**
+    -   **Saat Ini:** Setiap OPD menganggarkan sendiri untuk internet, sistem informasi, dan pelatihan.
+    -   **Setelah 4 Pilar:** Internet Satu Kota menggantikan belanja internet tersebar, menghemat **± 30–40%** dari total anggaran komunikasi.
+
+2.  **Integrasi Sistem dan Aplikasi:**
+    -   **Saat Ini:** Dinas Kesehatan, Pendidikan, dll., membangun sistem informasi sendiri-sendiri.
+    -   **Setelah 4 Pilar:** Aplikasi Satu Data menjadi platform tunggal, menghilangkan kebutuhan pengembangan aplikasi terpisah dan menghemat **± Rp 500–700 juta/tahun**.
+
+3.  **Pemusatan Infrastruktur TI:**
+    -   **Saat Ini:** Server dan penyimpanan data tersebar di masing-masing OPD.
+    -   **Setelah 4 Pilar:** Data Center terpusat mengurangi biaya pemeliharaan, listrik, dan keamanan, menghemat **± Rp 200–300 juta/tahun**.
+
+4.  **Optimisasi Pemantauan dan Respons:**
+    -   **Saat Ini:** Command Center belum ada, pemantauan dilakukan secara parsial.
+    -   **Setelah 4 Pilar:** Command Center terintegrasi dengan CCTV, sensor IoT, dan sistem darurat, meningkatkan efisiensi respons dan mengurangi biaya operasional **± Rp 100–150 juta/tahun**.
+
+---
+
+### Total Estimasi Penghematan Tahunan
+
+| Jenis Penghematan                      | Perkiraan Penghematan per Tahun (Rp) |
+| -------------------------------------- | ------------------------------------ |
+| Penghematan Internet Terpusat          | 3 – 4 Miliar                         |
+| Penghematan Pengembangan Aplikasi      | 500 – 700 juta                       |
+| Penghematan Pemeliharaan Server        | 200 – 300 juta                       |
+| Penghematan Operasional Pemantauan     | 100 – 150 juta                       |
+| **Total Estimasi Penghematan**         | **± Rp 3,8 – 5,15 Miliar/tahun**     |
+
+Dengan menerapkan 4 Pilar Baubau 4.0, efisiensi anggaran yang signifikan dapat dicapai melalui konsolidasi infrastruktur, integrasi sistem, dan penghapusan duplikasi.
