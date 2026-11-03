@@ -60,7 +60,7 @@
         iconSize: [32, 32], iconAnchor: [16, 32], popupAnchor: [0, -32]
       });
 
-      fetch('../../File/cctv-kotabaubau.json')
+      fetch('../File/cctv-kotabaubau.json')
         .then(response => response.json())
         .then(data => {
           data.forEach(function (point) {
