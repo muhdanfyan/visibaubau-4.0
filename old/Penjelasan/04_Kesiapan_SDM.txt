@@ -21,6 +21,9 @@ Keahlian individual dari para praktisi memberikan dukungan teknis dan manajerial
 -   **Hermawan Safrin:** Seorang Backend Developer dengan lebih dari 5 tahun pengalaman membangun Scalable RESTful APIs, dengan pengalaman di perusahaan internasional.
 -   **Ahmad Dahsan:** Seorang Frontend Developer dengan pengalaman dalam pengembangan aplikasi dan juga penanggung jawab akademik di Pondok Informatika.
 -   **Arif Rizal:** Seorang Backend Developer dengan pengalaman dalam pengembangan aplikasi berbasis RESTful API, serta pengguna teknologi seperti Node.js, Express.js, dan MongoDB.
+-   **Muhammad Risal, S.Pd., M.Si.:** Strategic Researcher (UX, Organization & Market) dengan pengalaman >10 tahun menjembatani perilaku pengguna dengan keputusan bisnis, memimpin transformasi organisasi dan riset human-centered innovation. Managing Partner di Humannext dan Direktur PT Riset Hub Indonesia.
+-   **Andi Rifqial Nur, S.Tr.T.:** Tenaga Ahli Pengembang Backend dan DevOps / Mobile & Full-Stack Developer dengan spesialisasi lintas platform mobile (Flutter, React Native) dan web (React, Next.js, tRPC, Prisma, PostgreSQL) serta integrasi API dan deployment real-time.
+-   **La Ode Ian Harisman, OSCP, OSWE, CRTO, CRTE, eWPTX, CCEP, CRTOM:** Tenaga Ahli Penjaminan Mutu dan Uji Keamanan (Quality Assurance & Security Specialist) bersertifikasi internasional dalam bidang offensive security, ethical hacking, VAPT arsitektur web/API/mobile, audit kode, dan kepatuhan IT Governance SPBE.
 
 
 ### 5. Akademisi

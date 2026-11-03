@@ -181,6 +181,60 @@
           <p class="text-emerald-600 text-xs font-bold uppercase tracking-wider mb-3">Backend Developer</p>
           <p class="text-slate-500 text-sm">Pengembang backend yang handal, fokus pada perancangan, database, dan API yang kuat dan skalabel.</p>
         </div>
+
+        <!-- Ahli 9 — Muhammad Risal, S.Pd., M.Si. -->
+        <div class="bg-slate-50 rounded-2xl p-6 text-center hover:bg-white shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 border border-slate-100 flex flex-col justify-between group">
+          <div>
+            <div class="w-32 h-32 mx-auto rounded-full p-1 bg-gradient-to-br from-emerald-500 to-teal-400 mb-6 group-hover:scale-105 transition-transform">
+              <img src="../../assets/img/sdm/Muhammad Risal.png" alt="Muhammad Risal, S.Pd., M.Si." class="w-full h-full object-cover rounded-full border-4 border-white">
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 mb-1">Muhammad Risal, S.Pd., M.Si.</h3>
+            <p class="text-emerald-600 text-xs font-bold uppercase tracking-wider mb-3">Strategic & UX Researcher</p>
+            <p class="text-slate-500 text-sm">Strategic Researcher (UX, Organization & Market) dengan pengalaman >10 tahun menjembatani perilaku pengguna dengan keputusan bisnis dan inovasi.</p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-slate-100">
+            <button onclick="openModal('modal-risal')" class="w-full inline-flex items-center justify-center gap-1.5 px-3 py-2 bg-emerald-50 hover:bg-emerald-100 text-emerald-700 text-xs font-semibold rounded-xl transition-colors">
+              <i data-lucide="user-check" class="w-4 h-4"></i>
+              Lihat Profil Lengkap
+            </button>
+          </div>
+        </div>
+
+        <!-- Ahli 10 — Andi Rifqial Nur, S.Tr.T. -->
+        <div class="bg-slate-50 rounded-2xl p-6 text-center hover:bg-white shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 border border-slate-100 flex flex-col justify-between group">
+          <div>
+            <div class="w-32 h-32 mx-auto rounded-full p-1 bg-gradient-to-br from-emerald-500 to-teal-400 mb-6 group-hover:scale-105 transition-transform">
+              <img src="../../assets/img/sdm/Andi Rifqial Nur.png" alt="Andi Rifqial Nur, S.Tr.T." class="w-full h-full object-cover rounded-full border-4 border-white">
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 mb-1">Andi Rifqial Nur, S.Tr.T.</h3>
+            <p class="text-emerald-600 text-xs font-bold uppercase tracking-wider mb-3">Full-Stack & DevOps Engineer</p>
+            <p class="text-slate-500 text-sm">Tenaga ahli pengembang backend, DevOps, integrasi API, serta pengembangan aplikasi mobile dan web modern lintas platform.</p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-slate-100">
+            <button onclick="openModal('modal-rifqial')" class="w-full inline-flex items-center justify-center gap-1.5 px-3 py-2 bg-emerald-50 hover:bg-emerald-100 text-emerald-700 text-xs font-semibold rounded-xl transition-colors">
+              <i data-lucide="user-check" class="w-4 h-4"></i>
+              Lihat Profil Lengkap
+            </button>
+          </div>
+        </div>
+
+        <!-- Ahli 11 — La Ode Ian Harisman -->
+        <div class="bg-slate-50 rounded-2xl p-6 text-center hover:bg-white shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all duration-300 border border-slate-100 flex flex-col justify-between group">
+          <div>
+            <div class="w-32 h-32 mx-auto rounded-full p-1 bg-gradient-to-br from-emerald-500 to-teal-400 mb-6 group-hover:scale-105 transition-transform">
+              <img src="../../assets/img/sdm/La Ode Ian Harisman.png" alt="La Ode Ian Harisman" class="w-full h-full object-cover rounded-full border-4 border-white">
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 mb-1">La Ode Ian Harisman</h3>
+            <p class="text-emerald-600 text-xs font-bold uppercase tracking-wider mb-3">QA & Security Specialist</p>
+            <p class="text-slate-500 text-sm">Praktisi penjaminan mutu dan uji keamanan siber bersertifikasi internasional (OSCP, OSWE, CRTE, CRTOM) untuk penetration testing dan IT governance.</p>
+          </div>
+          <div class="mt-5 pt-4 border-t border-slate-100">
+            <button onclick="openModal('modal-ian')" class="w-full inline-flex items-center justify-center gap-1.5 px-3 py-2 bg-emerald-50 hover:bg-emerald-100 text-emerald-700 text-xs font-semibold rounded-xl transition-colors">
+              <i data-lucide="user-check" class="w-4 h-4"></i>
+              Lihat Profil Lengkap
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -234,7 +288,369 @@
   </section>
 
   <div id="footer-placeholder"></div>
+
+  <!-- ==================== MODAL PROFIL DETAIL ==================== -->
+
+  <!-- Modal 1: Muhammad Risal, S.Pd., M.Si. -->
+  <div id="modal-risal" class="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-sm hidden items-center justify-center p-4 overflow-y-auto">
+    <div class="bg-white rounded-3xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 sm:p-8 relative my-8 animate-in fade-in zoom-in-95 duration-200">
+      <button onclick="closeModal('modal-risal')" class="absolute top-5 right-5 w-9 h-9 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-500 hover:text-slate-700 flex items-center justify-center transition-colors">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <!-- Header Profil -->
+      <div class="flex flex-col sm:flex-row items-center sm:items-start gap-5 pb-6 border-b border-slate-100">
+        <div class="w-24 h-24 rounded-2xl p-1 bg-gradient-to-br from-emerald-500 to-teal-400 shrink-0">
+          <img src="../../assets/img/sdm/Muhammad Risal.png" alt="Muhammad Risal" class="w-full h-full object-cover rounded-xl border-2 border-white">
+        </div>
+        <div class="text-center sm:text-left">
+          <span class="inline-block px-3 py-1 bg-emerald-100 text-emerald-700 text-xs font-bold rounded-full mb-2">STRATEGIC & UX RESEARCHER</span>
+          <h3 class="text-2xl font-bold text-slate-900">Muhammad Risal, S.Pd., M.Si.</h3>
+          <p class="text-slate-600 text-sm mt-1">Strategic Researcher (UX, Organization & Market) & Human-AI Workflow Specialist</p>
+          <div class="flex flex-wrap gap-2 justify-center sm:justify-start mt-3">
+            <a href="mailto:muhammadrisal294@gmail.com" class="inline-flex items-center gap-1.5 px-3 py-1 bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium rounded-lg transition-colors">
+              <i data-lucide="mail" class="w-3.5 h-3.5 text-blue-600"></i> muhammadrisal294@gmail.com
+            </a>
+            <a href="tel:+6282349970673" class="inline-flex items-center gap-1.5 px-3 py-1 bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium rounded-lg transition-colors">
+              <i data-lucide="phone" class="w-3.5 h-3.5 text-emerald-600"></i> +62 823-4997-0673
+            </a>
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 bg-slate-100 text-slate-600 text-xs font-medium rounded-lg">
+              <i data-lucide="map-pin" class="w-3.5 h-3.5 text-amber-600"></i> Bulukumba (Domisili Makassar)
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ringkasan Kompetensi -->
+      <div class="mt-6 space-y-6">
+        <div>
+          <h4 class="text-sm font-bold text-slate-900 uppercase tracking-wider mb-2 flex items-center gap-2">
+            <i data-lucide="sparkles" class="w-4 h-4 text-emerald-600"></i> Profil & Ringkasan Keahlian
+          </h4>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Strategic Researcher (UX, Organization & Market) dengan pengalaman lebih dari 10 tahun menjembatani perilaku pengguna (human behavior) dengan keputusan bisnis, serta memimpin transformasi organisasi dan produk berskala besar melalui riset yang berpusat pada manusia (human-centered innovation).
+          </p>
+        </div>
+
+        <!-- Pendidikan -->
+        <div>
+          <h4 class="text-sm font-bold text-slate-900 uppercase tracking-wider mb-3 flex items-center gap-2">
+            <i data-lucide="graduation-cap" class="w-4 h-4 text-emerald-600"></i> Pendidikan Formal
+          </h4>
+          <div class="space-y-2">
+            <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
+              <p class="text-sm font-semibold text-slate-800">S2 Magister Sains (M.Si.) — Perencanaan dan Pengembangan Wilayah</p>
+              <p class="text-xs text-slate-500">Konsentrasi Youth Management, Universitas Hasanuddin (Lulus 2019)</p>
+            </div>
+            <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
+              <p class="text-sm font-semibold text-slate-800">S1 Sarjana Pendidikan (S.Pd.) — Pendidikan Teknik Informatika dan Komputer</p>
+              <p class="text-xs text-slate-500">Universitas Negeri Makassar (Lulus 2015)</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pengalaman Profesional -->
+        <div>
+          <h4 class="text-sm font-bold text-slate-900 uppercase tracking-wider mb-3 flex items-center gap-2">
+            <i data-lucide="briefcase" class="w-4 h-4 text-emerald-600"></i> Pengalaman Profesional
+          </h4>
+          <div class="space-y-2 text-sm">
+            <div class="flex items-start gap-2.5 bg-slate-50 p-3 rounded-xl border border-slate-100">
+              <span class="w-2 h-2 rounded-full bg-emerald-500 mt-1.5 shrink-0"></span>
+              <div>
+                <p class="font-semibold text-slate-800">Managing Partner & Director, Human-AI Workflow & Transformation</p>
+                <p class="text-xs text-slate-500">Humannext (2025 – Sekarang)</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-2.5 bg-slate-50 p-3 rounded-xl border border-slate-100">
+              <span class="w-2 h-2 rounded-full bg-emerald-500 mt-1.5 shrink-0"></span>
+              <div>
+                <p class="font-semibold text-slate-800">Director</p>
+                <p class="text-xs text-slate-500">PT Riset Hub Indonesia (2024 – Sekarang)</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-2.5 bg-slate-50 p-3 rounded-xl border border-slate-100">
+              <span class="w-2 h-2 rounded-full bg-emerald-500 mt-1.5 shrink-0"></span>
+              <div>
+                <p class="font-semibold text-slate-800">Founding Partner</p>
+                <p class="text-xs text-slate-500">Yayasan Menang Ekosistem Indonesia (2026 – Sekarang)</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-2.5 bg-slate-50 p-3 rounded-xl border border-slate-100">
+              <span class="w-2 h-2 rounded-full bg-slate-400 mt-1.5 shrink-0"></span>
+              <div>
+                <p class="font-semibold text-slate-800">User Experience Researcher</p>
+                <p class="text-xs text-slate-500">Evermos (2022 – 2024), Telkom Indonesia (2021 – 2022), RedDoorz (2020 – 2021), Tokopedia (2019 – 2020)</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-2.5 bg-slate-50 p-3 rounded-xl border border-slate-100">
+              <span class="w-2 h-2 rounded-full bg-slate-400 mt-1.5 shrink-0"></span>
+              <div>
+                <p class="font-semibold text-slate-800">Market Researcher</p>
+                <p class="text-xs text-slate-500">PT Nielsen Company Indonesia (2016)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Organisasi & Penghargaan -->
+        <div>
+          <h4 class="text-sm font-bold text-slate-900 uppercase tracking-wider mb-3 flex items-center gap-2">
+            <i data-lucide="award" class="w-4 h-4 text-emerald-600"></i> Organisasi & Penghargaan
+          </h4>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+            <div class="p-2.5 bg-slate-50 rounded-lg border border-slate-100 font-medium text-slate-700">Academic Director – IMA Chapter Makassar (2024 – Sekarang)</div>
+            <div class="p-2.5 bg-slate-50 rounded-lg border border-slate-100 font-medium text-slate-700">Sulawesi Regional Chairman – Forum Negarawan Muda (2015 – 2019)</div>
+            <div class="p-2.5 bg-slate-50 rounded-lg border border-slate-100 font-medium text-slate-700">Chairman – SINTALARAS UNM (2013 – 2014)</div>
+            <div class="p-2.5 bg-slate-50 rounded-lg border border-slate-100 font-medium text-slate-700">Member – Youth Co:Lab (UNDP & Citi Foundation, 2019 – 2020)</div>
+            <div class="p-2.5 bg-slate-50 rounded-lg border border-slate-100 font-medium text-slate-700">Awardee Beasiswa Pemuda & Aktivis Berprestasi – Kemenpora (2017 – 2019)</div>
+            <div class="p-2.5 bg-slate-50 rounded-lg border border-slate-100 font-medium text-slate-700">Fasilitator Kelas Teknologi – The Floating School (2017)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: Andi Rifqial Nur, S.Tr.T. -->
+  <div id="modal-rifqial" class="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-sm hidden items-center justify-center p-4 overflow-y-auto">
+    <div class="bg-white rounded-3xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 sm:p-8 relative my-8 animate-in fade-in zoom-in-95 duration-200">
+      <button onclick="closeModal('modal-rifqial')" class="absolute top-5 right-5 w-9 h-9 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-500 hover:text-slate-700 flex items-center justify-center transition-colors">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <!-- Header Profil -->
+      <div class="flex flex-col sm:flex-row items-center sm:items-start gap-5 pb-6 border-b border-slate-100">
+        <div class="w-24 h-24 rounded-2xl p-1 bg-gradient-to-br from-emerald-500 to-teal-400 shrink-0">
+          <img src="../../assets/img/sdm/Andi Rifqial Nur.png" alt="Andi Rifqial Nur" class="w-full h-full object-cover rounded-xl border-2 border-white">
+        </div>
+        <div class="text-center sm:text-left">
+          <span class="inline-block px-3 py-1 bg-emerald-100 text-emerald-700 text-xs font-bold rounded-full mb-2">BACKEND & DEVOPS / MOBILE DEVELOPER</span>
+          <h3 class="text-2xl font-bold text-slate-900">Andi Rifqial Nur, S.Tr.T.</h3>
+          <p class="text-slate-600 text-sm mt-1">Tenaga Ahli Pengembang Backend, DevOps & Cross-Platform Mobile Engineer</p>
+          <div class="flex flex-wrap gap-2 justify-center sm:justify-start mt-3">
+            <a href="mailto:andirifqialnur276@gmail.com" class="inline-flex items-center gap-1.5 px-3 py-1 bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium rounded-lg transition-colors">
+              <i data-lucide="mail" class="w-3.5 h-3.5 text-blue-600"></i> andirifqialnur276@gmail.com
+            </a>
+            <a href="tel:+6285263563381" class="inline-flex items-center gap-1.5 px-3 py-1 bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium rounded-lg transition-colors">
+              <i data-lucide="phone" class="w-3.5 h-3.5 text-emerald-600"></i> +62 852-6356-3381
+            </a>
+            <a href="https://github.com/andirifqialnurr" target="_blank" class="inline-flex items-center gap-1.5 px-3 py-1 bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium rounded-lg transition-colors">
+              <i data-lucide="github" class="w-3.5 h-3.5 text-slate-800"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/andirifqialnur" target="_blank" class="inline-flex items-center gap-1.5 px-3 py-1 bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium rounded-lg transition-colors">
+              <i data-lucide="linkedin" class="w-3.5 h-3.5 text-blue-700"></i> LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ringkasan Kompetensi -->
+      <div class="mt-6 space-y-6">
+        <div>
+          <h4 class="text-sm font-bold text-slate-900 uppercase tracking-wider mb-2 flex items-center gap-2">
+            <i data-lucide="cpu" class="w-4 h-4 text-emerald-600"></i> Peran & Keahlian Utama
+          </h4>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Bertanggung jawab atas pengembangan layanan backend, integrasi API, serta deployment DevOps. Memiliki spesialisasi lintas platform mobile (Flutter, React Native) dan aplikasi web (React, Next.js) mulai dari perancangan arsitektur hingga rilis produksi.
+          </p>
+        </div>
+
+        <!-- Pendidikan -->
+        <div>
+          <h4 class="text-sm font-bold text-slate-900 uppercase tracking-wider mb-2 flex items-center gap-2">
+            <i data-lucide="graduation-cap" class="w-4 h-4 text-emerald-600"></i> Pendidikan Formal
+          </h4>
+          <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
+            <p class="text-sm font-semibold text-slate-800">Sarjana Terapan Teknik (S.Tr.T.)</p>
+            <p class="text-xs text-slate-500">Bidang Teknik Komputer dan Jaringan</p>
+          </div>
+        </div>
+
+        <!-- Pengalaman & Portofolio Proyek -->
+        <div>
+          <h4 class="text-sm font-bold text-slate-900 uppercase tracking-wider mb-3 flex items-center gap-2">
+            <i data-lucide="layers" class="w-4 h-4 text-emerald-600"></i> Portofolio Proyek Terpilih (PT Aistech Global Solution)
+          </h4>
+          <div class="space-y-3 text-sm">
+            <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-100">
+              <div class="flex items-center justify-between mb-1">
+                <span class="font-bold text-slate-900">Smart School Banggai</span>
+                <span class="text-[11px] font-semibold px-2 py-0.5 bg-blue-100 text-blue-700 rounded-md">Mobile App</span>
+              </div>
+              <p class="text-xs text-slate-600">Pengembangan aplikasi mobile cross-platform (React Native) Android & iOS, autentikasi WhatsApp OTP & Google Sign-In, real-time location tracking (MapLibre/OpenFreeMap & WebSocket), rilis DeployGate & Play Store.</p>
+            </div>
+            <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-100">
+              <div class="flex items-center justify-between mb-1">
+                <span class="font-bold text-slate-900">Asset Inventory Website (asset-unkhair.aistech.id)</span>
+                <span class="text-[11px] font-semibold px-2 py-0.5 bg-emerald-100 text-emerald-700 rounded-md">Web Platform</span>
+              </div>
+              <p class="text-xs text-slate-600">Aplikasi web inventaris berbasis Next.js, React, Prisma ORM; pemetaan aset, upload dokumen/foto Cloudflare storage, generator laporan PDF resmi, dan ekspor/impor Excel massal.</p>
+            </div>
+            <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-100">
+              <div class="flex items-center justify-between mb-1">
+                <span class="font-bold text-slate-900">Enterprise Resource Planning (ERP) System</span>
+                <span class="text-[11px] font-semibold px-2 py-0.5 bg-violet-100 text-violet-700 rounded-md">Enterprise</span>
+              </div>
+              <p class="text-xs text-slate-600">Arsitektur modular monolith Next.js App Router, TypeScript, tRPC, Prisma ORM, PostgreSQL mengelola modul approvals, keuangan, akuntansi, inventaris, pengadaan, HR/HC, CRM, dan penjualan.</p>
+            </div>
+            <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-100">
+              <div class="flex items-center justify-between mb-1">
+                <span class="font-bold text-slate-900">E-Procurement Website (proc-dev.aistech.id)</span>
+                <span class="text-[11px] font-semibold px-2 py-0.5 bg-amber-100 text-amber-700 rounded-md">Procurement</span>
+              </div>
+              <p class="text-xs text-slate-600">Implementasi antarmuka/tata letak berbasis desain Figma dan orkestrasi database menggunakan Prisma ORM.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3: La Ode Ian Harisman -->
+  <div id="modal-ian" class="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-sm hidden items-center justify-center p-4 overflow-y-auto">
+    <div class="bg-white rounded-3xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 sm:p-8 relative my-8 animate-in fade-in zoom-in-95 duration-200">
+      <button onclick="closeModal('modal-ian')" class="absolute top-5 right-5 w-9 h-9 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-500 hover:text-slate-700 flex items-center justify-center transition-colors">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <!-- Header Profil -->
+      <div class="flex flex-col sm:flex-row items-center sm:items-start gap-5 pb-6 border-b border-slate-100">
+        <div class="w-24 h-24 rounded-2xl p-1 bg-gradient-to-br from-emerald-500 to-teal-400 shrink-0">
+          <img src="../../assets/img/sdm/La Ode Ian Harisman.png" alt="La Ode Ian Harisman" class="w-full h-full object-cover rounded-xl border-2 border-white">
+        </div>
+        <div class="text-center sm:text-left">
+          <span class="inline-block px-3 py-1 bg-emerald-100 text-emerald-700 text-xs font-bold rounded-full mb-2">QUALITY ASSURANCE & SECURITY SPECIALIST</span>
+          <h3 class="text-2xl font-bold text-slate-900">La Ode Ian Harisman</h3>
+          <p class="text-slate-600 text-xs font-mono font-medium mt-1">OSCP • OSWE • CRTO • CRTE • eWPTX • CCEP • CRTOM</p>
+          <div class="flex flex-wrap gap-2 justify-center sm:justify-start mt-3">
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded-lg">
+              <i data-lucide="shield-check" class="w-3.5 h-3.5 text-emerald-600"></i> Penetration Tester (PENTESTING.ID)
+            </span>
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded-lg">
+              <i data-lucide="map-pin" class="w-3.5 h-3.5 text-amber-600"></i> Katilombu, Buton Selatan
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ringkasan Kompetensi -->
+      <div class="mt-6 space-y-6">
+        <div>
+          <h4 class="text-sm font-bold text-slate-900 uppercase tracking-wider mb-2 flex items-center gap-2">
+            <i data-lucide="shield-alert" class="w-4 h-4 text-emerald-600"></i> Penugasan Teknis (M-PAD Kota Baubau)
+          </h4>
+          <p class="text-slate-600 text-sm leading-relaxed mb-3">
+            Tenaga Ahli Penjaminan Mutu dan Uji Keamanan (Quality Assurance & Security Specialist) yang mengawal ketahanan sistem, audit celah keamanan, dan kepatuhan regulasi transaksi pendapatan daerah Kota Baubau.
+          </p>
+          <ul class="space-y-1.5 text-xs text-slate-600">
+            <li class="flex items-start gap-2">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i>
+              <span>Melakukan uji penetrasi (penetration testing / ethical hacking) terhadap arsitektur web, API, dan aplikasi mobile.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i>
+              <span>Melaksanakan audit serta pengujian keamanan basis data dan infrastruktur server secara berkala.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i>
+              <span>Mengawal software quality assurance guna memastikan fungsionalitas dan ketahanan sebelum rilis produksi.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500 shrink-0 mt-0.5"></i>
+              <span>Verifikasi kepatuhan sistem (compliance) terhadap regulasi SPBE dan standar transaksi digital perbankan (SNAP BI).</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Sertifikasi Profesi -->
+        <div>
+          <h4 class="text-sm font-bold text-slate-900 uppercase tracking-wider mb-3 flex items-center gap-2">
+            <i data-lucide="award" class="w-4 h-4 text-emerald-600"></i> Kredensial & Sertifikasi Internasional
+          </h4>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+            <div class="p-2.5 bg-slate-50 rounded-xl border border-slate-100">
+              <p class="font-bold text-slate-800">OSCP</p>
+              <p class="text-[11px] text-slate-500">Offensive Security Certified Professional (Penetration Testing)</p>
+            </div>
+            <div class="p-2.5 bg-slate-50 rounded-xl border border-slate-100">
+              <p class="font-bold text-slate-800">OSWE</p>
+              <p class="text-[11px] text-slate-500">Offensive Security Web Expert (White-box App Pentesting & Code Review)</p>
+            </div>
+            <div class="p-2.5 bg-slate-50 rounded-xl border border-slate-100">
+              <p class="font-bold text-slate-800">CRTO & CRTOM</p>
+              <p class="text-[11px] text-slate-500">Certified Red Team Operator & Operational Master (Zero-Point Security)</p>
+            </div>
+            <div class="p-2.5 bg-slate-50 rounded-xl border border-slate-100">
+              <p class="font-bold text-slate-800">CRTE</p>
+              <p class="text-[11px] text-slate-500">Certified Red Team Expert (Altered Security - Enterprise Multi-forest)</p>
+            </div>
+            <div class="p-2.5 bg-slate-50 rounded-xl border border-slate-100">
+              <p class="font-bold text-slate-800">eWPTX / eWPTXv2</p>
+              <p class="text-[11px] text-slate-500">eLearnSecurity Web App Penetration Tester eXtreme (API & Logic Flaws)</p>
+            </div>
+            <div class="p-2.5 bg-slate-50 rounded-xl border border-slate-100">
+              <p class="font-bold text-slate-800">CCEP</p>
+              <p class="text-[11px] text-slate-500">Certified Cybersecurity & Ethical Professional (Compliance & Ethics)</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pemetaan Kompetensi Lanjutan -->
+        <div>
+          <h4 class="text-sm font-bold text-slate-900 uppercase tracking-wider mb-2 flex items-center gap-2">
+            <i data-lucide="check-square" class="w-4 h-4 text-emerald-600"></i> Pemetaan Kompetensi Lanjutan
+          </h4>
+          <div class="space-y-2 text-xs">
+            <div class="p-3 bg-slate-50 rounded-xl border border-slate-100">
+              <p class="font-semibold text-slate-800 mb-1">Cybersecurity & Offensive Security:</p>
+              <p class="text-slate-600">VAPT sistem informasi keuangan, web portal pemerintah, REST API, Source Code Security Review (OWASP Top 10), mitigasi DoS/DDoS, serta hardening peladen Cloud/VPS.</p>
+            </div>
+            <div class="p-3 bg-slate-50 rounded-xl border border-slate-100">
+              <p class="font-semibold text-slate-800 mb-1">IT Governance & Quality Assurance:</p>
+              <p class="text-slate-600">Penyelarasan standar SPBE, keamanan kanal perbankan (SNAP BI/Open Banking), Risk Management & Assessment, skenario uji integrasi, dan stress testing beban transaksi.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script src="../js/main.js"></script>
-  <script>lucide.createIcons();</script>
+  <script>
+    lucide.createIcons();
+
+    function openModal(id) {
+      const modal = document.getElementById(id);
+      if (modal) {
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+        document.body.style.overflow = 'hidden';
+      }
+    }
+    function closeModal(id) {
+      const modal = document.getElementById(id);
+      if (modal) {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+        document.body.style.overflow = '';
+      }
+    }
+    document.querySelectorAll('[id^="modal-"]').forEach(modal => {
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+          closeModal(modal.id);
+        }
+      });
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        document.querySelectorAll('[id^="modal-"]').forEach(modal => {
+          if (!modal.classList.contains('hidden')) {
+            closeModal(modal.id);
+          }
+        });
+      }
+    });
+  </script>
 </body>
 </html>
