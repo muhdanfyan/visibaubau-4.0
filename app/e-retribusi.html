@@ -3,168 +3,595 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Aplikasi E-Retribusi - Transformasi Digital Kota Baubau 4.0</title>
-  <meta name="description" content="Solusi Terintegrasi untuk Optimalisasi Penerimaan Daerah dan Peningkatan Pelayanan Publik.">
+  <title>E-Retribusi & MPAD - Transformasi Digital Pendapatan Daerah Kota Baubau 4.0</title>
+  <meta name="description" content="Ekosistem Digital Terintegrasi E-Retribusi & MPAD (Manajemen Pendapatan Asli Daerah) Kota Baubau untuk Optimalisasi PAD, Transparansi, dan Pelayanan Publik Modern.">
   <link rel="icon" href="../../assets/img/logo/logobaubau4.0.png" type="image/png">
   <script src="https://cdn.tailwindcss.com"></script>
-  <script>tailwind.config={theme:{extend:{colors:{primary:{DEFAULT:'#2F80ED',dark:'#1e3a5f',light:'#4A9AF5'},accent:{DEFAULT:'#F59E0B',light:'#FCD34D'}},fontFamily:{sans:['Plus Jakarta Sans','system-ui','sans-serif']}}}}</script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: { DEFAULT: '#2F80ED', dark: '#1e3a5f', light: '#4A9AF5' },
+            accent: { DEFAULT: '#F59E0B', light: '#FCD34D' },
+            gold: { DEFAULT: '#C9A96E', light: '#DFCA9E', dark: '#9A7B42' }
+          },
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
   <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
   <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .gold-gradient {
+      background: linear-gradient(135deg, #DFCA9E 0%, #C9A96E 50%, #9A7B42 100%);
+    }
+    .badge-gold {
+      background: rgba(201, 169, 110, 0.15);
+      color: #B48C48;
+      border: 1px solid rgba(201, 169, 110, 0.3);
+    }
+  </style>
 </head>
-<body class="font-sans antialiased bg-slate-50">
+<body class="font-sans antialiased bg-slate-50 text-slate-800">
   <div id="header-placeholder"></div>
 
-  <!-- Hero -->
-  <section class="hero-overlay relative pt-32 pb-20 lg:pt-40 lg:pb-28" style="background-image: url('../../assets/img/satu-data-app-promo-collage.png')">
-    <div class="absolute inset-0 bg-gradient-to-br from-[#1e3a5f]/90 via-[#1e3a5f]/80 to-[#2F80ED]/60 z-[1]"></div>
-    <div class="relative z-[2] max-w-4xl mx-auto px-4 sm:px-6 text-center">
-      <span class="inline-block px-3 py-1 bg-white/10 backdrop-blur-sm border border-white/20 text-amber-300 text-xs font-semibold rounded-full tracking-wide mb-4" data-animate>APLIKASI UNGGULAN</span>
-      <h1 class="text-4xl sm:text-5xl font-extrabold text-white tracking-tight mb-4" data-animate data-animate-delay="100">E-Retribusi Kota Baubau</h1>
-      <p class="text-lg text-blue-100/80 leading-relaxed max-w-2xl mx-auto mb-8" data-animate data-animate-delay="200">Solusi terintegrasi untuk optimalisasi penerimaan daerah dan peningkatan pelayanan publik yang transparan dan akuntabel.</p>
-      <div class="flex flex-wrap justify-center gap-4" data-animate data-animate-delay="300">
-        <a href="https://e-retribusi.netlify.app/" target="_blank" class="px-6 py-3 bg-white text-blue-600 font-bold rounded-xl shadow-lg hover:bg-blue-50 transition-colors flex items-center gap-2">
-          <i data-lucide="smartphone" class="w-5 h-5"></i> Demo Warga
+  <!-- Hero Section -->
+  <section class="hero-overlay relative pt-32 pb-20 lg:pt-40 lg:pb-32" style="background-image: url('../../assets/img/satu-data-app-promo-collage.png')">
+    <div class="absolute inset-0 bg-gradient-to-br from-[#0f172a]/95 via-[#1e3a5f]/90 to-[#2F80ED]/70 z-[1]"></div>
+    <div class="relative z-[2] max-w-5xl mx-auto px-4 sm:px-6 text-center">
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 bg-white/10 backdrop-blur-md border border-white/20 rounded-full mb-6" data-animate>
+        <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+        <span class="text-amber-300 text-xs font-bold tracking-wide uppercase">BAPENDA KOTA BAUBAU • FLAGSHIP SISTEM PAD</span>
+      </div>
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-tight mb-6" data-animate data-animate-delay="100">
+        E-Retribusi & <span class="bg-gradient-to-r from-amber-300 via-yellow-400 to-emerald-400 bg-clip-text text-transparent">MPAD</span>
+      </h1>
+      <p class="text-lg sm:text-xl text-blue-100/90 leading-relaxed max-w-3xl mx-auto mb-10" data-animate data-animate-delay="200">
+        Transformasi holistik penerimaan daerah melalui integrasi kanal layanan retribusi publik (<strong class="text-white">E-Retribusi</strong>) dengan mesin orkestrasi kas daerah (<strong class="text-white">M-PAD</strong>), menghadirkan pembayaran multi-bank H2H, rekonsiliasi T+0 instan, serta tata kelola akuntabel.
+      </p>
+
+      <!-- Action Buttons -->
+      <div class="flex flex-wrap justify-center gap-3 sm:gap-4" data-animate data-animate-delay="300">
+        <a href="https://mpad.online" target="_blank" class="px-6 py-3.5 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-white font-bold rounded-xl shadow-lg shadow-amber-500/25 hover:shadow-xl hover:-translate-y-0.5 transition-all flex items-center gap-2.5">
+          <i data-lucide="smartphone" class="w-5 h-5"></i>
+          <span>Portal Warga (mpad.online)</span>
         </a>
-        <a href="https://retribusi-admin.netlify.app/" target="_blank" class="px-6 py-3 bg-blue-600 border border-blue-500 text-white font-bold rounded-xl shadow-lg hover:bg-blue-700 transition-colors flex items-center gap-2">
-          <i data-lucide="layout-dashboard" class="w-5 h-5"></i> Demo Admin
+        <a href="https://admin.mpad.online" target="_blank" class="px-6 py-3.5 bg-white/10 hover:bg-white/20 text-white font-bold rounded-xl border border-white/20 backdrop-blur-md hover:-translate-y-0.5 transition-all flex items-center gap-2.5">
+          <i data-lucide="layout-dashboard" class="w-5 h-5 text-amber-300"></i>
+          <span>Admin BAPENDA</span>
+        </a>
+        <a href="https://petugas.mpad.online" target="_blank" class="px-6 py-3.5 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-xl shadow-lg shadow-blue-600/25 hover:-translate-y-0.5 transition-all flex items-center gap-2.5">
+          <i data-lucide="map-pin" class="w-5 h-5"></i>
+          <span>App Petugas Lapangan</span>
+        </a>
+        <a href="#pembahasan-mpad" class="px-6 py-3.5 bg-slate-800/80 hover:bg-slate-800 text-slate-200 font-bold rounded-xl border border-slate-700 hover:-translate-y-0.5 transition-all flex items-center gap-2.5">
+          <i data-lucide="book-open" class="w-5 h-5 text-emerald-400"></i>
+          <span>Pelajari Ekosistem</span>
         </a>
       </div>
     </div>
   </section>
 
-  <!-- Latar Belakang -->
-  <section class="py-20 bg-white">
+  <!-- ==================== MPAD SHOWCASE & LOGO ==================== -->
+  <section class="py-20 bg-white relative -mt-8 z-10 rounded-t-3xl border-t border-slate-200 shadow-xl" id="pembahasan-mpad">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Logo & Introduction Card -->
+      <div class="bg-gradient-to-br from-slate-900 via-slate-800 to-blue-950 rounded-3xl p-8 sm:p-12 text-white shadow-2xl relative overflow-hidden mb-16 border border-slate-700/60" data-animate>
+        <!-- Background Decorative Elements -->
+        <div class="absolute -right-20 -bottom-20 w-80 h-80 rounded-full bg-amber-500/10 blur-3xl pointer-events-none"></div>
+        <div class="absolute -left-20 -top-20 w-80 h-80 rounded-full bg-blue-500/15 blur-3xl pointer-events-none"></div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center relative z-10">
+          
+          <!-- Logo Display Column -->
+          <div class="lg:col-span-5 flex flex-col items-center text-center">
+            <div class="p-6 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-md shadow-inner w-full max-w-sm hover:scale-105 transition-transform duration-300">
+              <img src="../../assets/img/logo/mpad-logo-white.svg" alt="Logo Resmi MPAD Kota Baubau" class="w-full h-auto drop-shadow-md">
+            </div>
+            <div class="mt-4 flex items-center gap-2 text-xs text-amber-300 font-medium">
+              <i data-lucide="shield-check" class="w-4 h-4"></i>
+              <span>Hak Cipta & Implementasi Resmi BAPENDA Kota Baubau</span>
+            </div>
+          </div>
+
+          <!-- Narrative Overview Column -->
+          <div class="lg:col-span-7">
+            <div class="inline-block px-3 py-1 bg-amber-400/20 text-amber-300 border border-amber-400/30 text-xs font-bold rounded-full mb-3">
+              FLAGSHIP ECOSYSTEM
+            </div>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-4 leading-tight">
+              M-PAD: Core Engine Manajemen Pendapatan Asli Daerah
+            </h2>
+            <p class="text-slate-300 text-sm sm:text-base leading-relaxed mb-6 text-justify">
+              <strong>M-PAD (Manajemen Pendapatan Asli Daerah)</strong> merupakan platform digital komprehensif yang dirancang sebagai tulang punggung tata kelola fiskal daerah Kota Baubau. Menggantikan proses manual yang terfragmentasi, M-PAD mengintegrasikan seluruh daur hidup pendapatan: dari pendaftaran objek dan subjek retribusi, kalkulasi otomatis berbasis regulasi Perda, notifikasi jatuh tempo via WhatsApp Gateway, hingga penerbitan Surat Ketetapan (SKRD/SPTPD) dengan Tanda Tangan Elektronik (TTE).
+            </p>
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-4 border-t border-white/10">
+              <div class="bg-white/5 p-3 rounded-xl border border-white/5">
+                <p class="text-amber-400 font-bold text-xs uppercase tracking-wider">Arsitektur</p>
+                <p class="text-white text-sm font-semibold mt-0.5">N-Tier Enterprise</p>
+              </div>
+              <div class="bg-white/5 p-3 rounded-xl border border-white/5">
+                <p class="text-emerald-400 font-bold text-xs uppercase tracking-wider">Perbankan</p>
+                <p class="text-white text-sm font-semibold mt-0.5">Multi-Bank H2H</p>
+              </div>
+              <div class="bg-white/5 p-3 rounded-xl border border-white/5 col-span-2 sm:col-span-1">
+                <p class="text-blue-400 font-bold text-xs uppercase tracking-wider">Regulasi</p>
+                <p class="text-white text-sm font-semibold mt-0.5">UU HKPD & SPBE</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Live Production Stats (Data Riil) -->
+      <div class="mb-20">
+        <div class="text-center max-w-2xl mx-auto mb-10">
+          <span class="inline-block px-3 py-1 bg-blue-100 text-blue-700 text-xs font-bold rounded-full mb-2">METRIK SISTEM PRODUKSI</span>
+          <h3 class="text-2xl sm:text-3xl font-extrabold text-slate-900">Pencapaian Data Riil M-PAD</h3>
+          <p class="text-slate-500 text-sm mt-1">Data produksi yang telah tercatat dan berjalan aktif pada infrastruktur peladen BAPENDA Kota Baubau.</p>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+          <div class="bg-slate-50 rounded-2xl p-5 text-center border border-slate-200/80 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all">
+            <div class="text-2xl sm:text-3xl font-extrabold text-blue-600 mb-1">138.840</div>
+            <div class="text-xs font-bold text-slate-700 uppercase tracking-wide">Objek Pajak</div>
+            <div class="text-[11px] text-slate-400 mt-1">Terpetakan spasial</div>
+          </div>
+          <div class="bg-slate-50 rounded-2xl p-5 text-center border border-slate-200/80 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all">
+            <div class="text-2xl sm:text-3xl font-extrabold text-emerald-600 mb-1">1.738</div>
+            <div class="text-xs font-bold text-slate-700 uppercase tracking-wide">Wajib Pajak</div>
+            <div class="text-[11px] text-slate-400 mt-1">Terverifikasi NIK</div>
+          </div>
+          <div class="bg-slate-50 rounded-2xl p-5 text-center border border-slate-200/80 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all">
+            <div class="text-2xl sm:text-3xl font-extrabold text-amber-600 mb-1">60.334</div>
+            <div class="text-xs font-bold text-slate-700 uppercase tracking-wide">SPTPD Mandiri</div>
+            <div class="text-[11px] text-slate-400 mt-1">Self-assessment</div>
+          </div>
+          <div class="bg-slate-50 rounded-2xl p-5 text-center border border-slate-200/80 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all">
+            <div class="text-2xl sm:text-3xl font-extrabold text-indigo-600 mb-1">140.223</div>
+            <div class="text-xs font-bold text-slate-700 uppercase tracking-wide">Audit Trail</div>
+            <div class="text-[11px] text-slate-400 mt-1">Log aktivitas aman</div>
+          </div>
+          <div class="bg-slate-50 rounded-2xl p-5 text-center border border-slate-200/80 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all">
+            <div class="text-2xl sm:text-3xl font-extrabold text-violet-600 mb-1">42</div>
+            <div class="text-xs font-bold text-slate-700 uppercase tracking-wide">Tabel Relasional</div>
+            <div class="text-[11px] text-slate-400 mt-1">Skema MySQL Terpadu</div>
+          </div>
+          <div class="bg-slate-50 rounded-2xl p-5 text-center border border-slate-200/80 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all">
+            <div class="text-2xl sm:text-3xl font-extrabold text-teal-600 mb-1">208+</div>
+            <div class="text-xs font-bold text-slate-700 uppercase tracking-wide">Transaksi Riil</div>
+            <div class="text-[11px] text-slate-400 mt-1">Kas daerah masuk</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sinergi E-Retribusi & MPAD -->
+      <div class="bg-blue-50/70 rounded-3xl p-8 sm:p-10 border border-blue-100 mb-20">
+        <div class="max-w-3xl mb-8">
+          <span class="inline-block px-3 py-1 bg-blue-600 text-white text-xs font-bold rounded-full mb-3">SINERGI STRATEGIS</span>
+          <h3 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-3">Bagaimana E-Retribusi dan MPAD Berkolaborasi?</h3>
+          <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+            E-Retribusi dan M-PAD bukanlah dua sistem yang bersaing, melainkan kesatuan dwitunggal arsitektur pendapatan digital Kota Baubau:
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200/60">
+            <div class="w-12 h-12 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center mb-4">
+              <i data-lucide="layers" class="w-6 h-6"></i>
+            </div>
+            <h4 class="text-lg font-bold text-slate-900 mb-2">E-Retribusi: Front-Facing Portal</h4>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Berperan sebagai antarmuka ramah pengguna bagi masyarakat dan OPD penghasil retribusi (Dishub, Disperindag, DPMPTSP, DLH, Pariwisata). Memfasilitasi pendaftaran layanan, simulasi perhitungan tarif, pengaduan kepuasan retribusi, serta cetak bukti pembayaran retribusi.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200/60">
+            <div class="w-12 h-12 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center mb-4">
+              <i data-lucide="cpu" class="w-6 h-6"></i>
+            </div>
+            <h4 class="text-lg font-bold text-slate-900 mb-2">M-PAD: Central Revenue Engine</h4>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Berperan sebagai komputasi pusat di markas BAPENDA: menangani <em>billing engine</em>, sinkronisasi data piutang/denda, integrasi gateway perbankan (Host-to-Host), verifikasi dokumen resmi ber-TTE, pemetaan GIS objek pajak, dan audit kepatuhan terpadu.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ==================== 4 PILAR APLIKASI MPAD ==================== -->
+      <div class="mb-16">
+        <div class="text-center max-w-3xl mx-auto mb-14">
+          <span class="inline-block px-3 py-1 bg-amber-100 text-amber-800 text-xs font-bold rounded-full mb-3">ARSITEKTUR EKOSISTEM</span>
+          <h3 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mb-4">4 Pilar Aplikasi Ekosistem M-PAD</h3>
+          <p class="text-slate-500 text-sm sm:text-base">Ekosistem perangkat lunak multi-kanal yang menghubungkan wajib pajak, aparatur pengawas, dan perbankan secara terpadu.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          
+          <!-- Pilar 1 -->
+          <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200/80 hover:bg-white hover:shadow-xl hover:-translate-y-1.5 transition-all flex flex-col justify-between group">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-500 to-yellow-400 text-white flex items-center justify-center mb-4 shadow-md shadow-amber-500/20 group-hover:scale-110 transition-transform">
+                <i data-lucide="smartphone" class="w-6 h-6"></i>
+              </div>
+              <div class="flex items-center justify-between mb-2">
+                <h4 class="text-lg font-bold text-slate-900">MPAD Mobile</h4>
+                <span class="px-2 py-0.5 bg-amber-100 text-amber-700 text-[11px] font-bold rounded-md">Warga</span>
+              </div>
+              <p class="text-xs text-slate-500 leading-relaxed mb-4">
+                Portal Wajib Pajak & Retribusi berbasis PWA. Cek tagihan multi-layanan, login aman WhatsApp OTP, kalkulator pajak mandiri, dan pelaporan SPTPD tanpa antre ke loket.
+              </p>
+              <ul class="text-xs text-slate-600 space-y-1.5 pt-3 border-t border-slate-200">
+                <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-600"></i> Bayar QRIS & Virtual Account</li>
+                <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-600"></i> Bukti SSPD Digital ber-QR</li>
+                <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-600"></i> Histori transaksi transparan</li>
+              </ul>
+            </div>
+            <a href="https://mpad.online" target="_blank" class="mt-6 inline-flex items-center justify-between w-full px-3 py-2 bg-white hover:bg-amber-50 text-amber-700 text-xs font-bold rounded-xl border border-slate-200 hover:border-amber-300 transition-colors">
+              <span>Buka mpad.online</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+
+          <!-- Pilar 2 -->
+          <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200/80 hover:bg-white hover:shadow-xl hover:-translate-y-1.5 transition-all flex flex-col justify-between group">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-600 to-indigo-500 text-white flex items-center justify-center mb-4 shadow-md shadow-blue-500/20 group-hover:scale-110 transition-transform">
+                <i data-lucide="layout-dashboard" class="w-6 h-6"></i>
+              </div>
+              <div class="flex items-center justify-between mb-2">
+                <h4 class="text-lg font-bold text-slate-900">MPAD Admin</h4>
+                <span class="px-2 py-0.5 bg-blue-100 text-blue-700 text-[11px] font-bold rounded-md">BAPENDA</span>
+              </div>
+              <p class="text-xs text-slate-500 leading-relaxed mb-4">
+                Pusat Komando BAPENDA untuk penetapan SKRD/SPTPD, verifikasi berkas, formula tarif otomatis, rekonsiliasi kas H2H perbankan, dan Tanda Tangan Elektronik (TTE).
+              </p>
+              <ul class="text-xs text-slate-600 space-y-1.5 pt-3 border-t border-slate-200">
+                <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-600"></i> Manajemen 138K Objek Pajak</li>
+                <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-600"></i> Rekonsiliasi Kas Harian T+0</li>
+                <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-600"></i> Denda & Penagihan Otomatis</li>
+              </ul>
+            </div>
+            <a href="https://admin.mpad.online" target="_blank" class="mt-6 inline-flex items-center justify-between w-full px-3 py-2 bg-white hover:bg-blue-50 text-blue-700 text-xs font-bold rounded-xl border border-slate-200 hover:border-blue-300 transition-colors">
+              <span>Buka admin.mpad.online</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+
+          <!-- Pilar 3 -->
+          <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200/80 hover:bg-white hover:shadow-xl hover:-translate-y-1.5 transition-all flex flex-col justify-between group">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-emerald-600 to-teal-500 text-white flex items-center justify-center mb-4 shadow-md shadow-emerald-500/20 group-hover:scale-110 transition-transform">
+                <i data-lucide="clipboard-check" class="w-6 h-6"></i>
+              </div>
+              <div class="flex items-center justify-between mb-2">
+                <h4 class="text-lg font-bold text-slate-900">MPAD Petugas</h4>
+                <span class="px-2 py-0.5 bg-emerald-100 text-emerald-700 text-[11px] font-bold rounded-md">Lapangan</span>
+              </div>
+              <p class="text-xs text-slate-500 leading-relaxed mb-4">
+                Aplikasi mobile operasional petugas penagihan dan pengawasan. Fitur mobile QR scanner, audit lapangan reklame/pasar/parkir, live tracking lokasi, dan penagihan on-the-spot.
+              </p>
+              <ul class="text-xs text-slate-600 space-y-1.5 pt-3 border-t border-slate-200">
+                <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-600"></i> GIS Peta Objek Lapangan</li>
+                <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-600"></i> Spot Check & Enforcement</li>
+                <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-600"></i> Sinkronisasi Offline-First</li>
+              </ul>
+            </div>
+            <a href="https://petugas.mpad.online" target="_blank" class="mt-6 inline-flex items-center justify-between w-full px-3 py-2 bg-white hover:bg-emerald-50 text-emerald-700 text-xs font-bold rounded-xl border border-slate-200 hover:border-emerald-300 transition-colors">
+              <span>Buka petugas.mpad.online</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+
+          <!-- Pilar 4 -->
+          <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200/80 hover:bg-white hover:shadow-xl hover:-translate-y-1.5 transition-all flex flex-col justify-between group">
+            <div>
+              <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-violet-600 to-purple-500 text-white flex items-center justify-center mb-4 shadow-md shadow-violet-500/20 group-hover:scale-110 transition-transform">
+                <i data-lucide="server" class="w-6 h-6"></i>
+              </div>
+              <div class="flex items-center justify-between mb-2">
+                <h4 class="text-lg font-bold text-slate-900">Core API & H2H</h4>
+                <span class="px-2 py-0.5 bg-violet-100 text-violet-700 text-[11px] font-bold rounded-md">Backend</span>
+              </div>
+              <p class="text-xs text-slate-500 leading-relaxed mb-4">
+                Mesin pusat berkinerja tinggi penghubung perbankan nasional. Driver Host-to-Host (H2H) Bank Sultra, BRI (BRIVA + QRIS Dinamis), Mandiri VA, BNI VA, serta webhook settlement instan.
+              </p>
+              <ul class="text-xs text-slate-600 space-y-1.5 pt-3 border-t border-slate-200">
+                <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-600"></i> Multi-Bank Payment Gateway</li>
+                <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-600"></i> Enkripsi RSA-2048 & HMAC</li>
+                <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-600"></i> SLA Uptime 99.9%</li>
+              </ul>
+            </div>
+            <a href="https://api.mpad.online" target="_blank" class="mt-6 inline-flex items-center justify-between w-full px-3 py-2 bg-white hover:bg-violet-50 text-violet-700 text-xs font-bold rounded-xl border border-slate-200 hover:border-violet-300 transition-colors">
+              <span>Buka api.mpad.online</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ==================== INTEGRASI MULTI-BANK H2H ==================== -->
+      <div class="bg-gradient-to-r from-slate-900 to-[#1e3a5f] rounded-3xl p-8 sm:p-10 text-white shadow-xl mb-20 border border-slate-800">
+        <div class="max-w-3xl mb-8">
+          <span class="inline-block px-3 py-1 bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-xs font-bold rounded-full mb-2">JARINGAN FINANSIAL TERPADU</span>
+          <h3 class="text-2xl sm:text-3xl font-extrabold text-white">Integrasi Perbankan Multi-Bank Host-to-Host (H2H)</h3>
+          <p class="text-slate-300 text-sm mt-2">Menghilangkan transmisi file manual (*flat-file*) akhir hari. Seluruh transaksi pembayaran langsung diakui dan tercatat di kas daerah secara <em>real-time</em> (T+0).</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-5 backdrop-blur-md">
+            <div class="flex items-center justify-between mb-3">
+              <span class="font-bold text-white text-base">Bank Sultra</span>
+              <span class="px-2.5 py-0.5 bg-emerald-500/20 text-emerald-400 text-[11px] font-bold rounded-full border border-emerald-500/30">Live Production</span>
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">Mitra utama kas daerah, driver H2H aktif melayani pembayaran loket, teller, dan ATM.</p>
+          </div>
+
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-5 backdrop-blur-md">
+            <div class="flex items-center justify-between mb-3">
+              <span class="font-bold text-white text-base">Bank BRI</span>
+              <span class="px-2.5 py-0.5 bg-blue-500/20 text-blue-300 text-[11px] font-bold rounded-full border border-blue-500/30">PKS & BRIVA</span>
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">PKS BAPENDA-BRI No. 0326.01.0 BRI, integrasi BRIVA otomatis serta QRIS Dinamis MPM.</p>
+          </div>
+
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-5 backdrop-blur-md">
+            <div class="flex items-center justify-between mb-3">
+              <span class="font-bold text-white text-base">Bank Mandiri</span>
+              <span class="px-2.5 py-0.5 bg-amber-500/20 text-amber-300 text-[11px] font-bold rounded-full border border-amber-500/30">Mandiri VA</span>
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">Integrasi Virtual Account korporasi dan wajib pajak usaha melalui saluran Livin' by Mandiri.</p>
+          </div>
+
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-5 backdrop-blur-md">
+            <div class="flex items-center justify-between mb-3">
+              <span class="font-bold text-white text-base">BNI & BSI</span>
+              <span class="px-2.5 py-0.5 bg-purple-500/20 text-purple-300 text-[11px] font-bold rounded-full border border-purple-500/30">Ekspansi Kanal</span>
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed">Kesiapan modul pembayaran syariah (BSI) dan BNI VA untuk kemudahan seluruh lapisan masyarakat.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Latar Belakang & Tujuan E-Retribusi -->
+  <section class="py-20 bg-slate-50 border-t border-slate-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div data-animate="fade-in-left">
-          <h2 class="text-3xl font-extrabold text-slate-900 mb-6">Latar Belakang & Tujuan</h2>
-          <p class="text-slate-500 leading-relaxed mb-4">Pengelolaan retribusi daerah di Kota Baubau menghadapi tantangan seperti sistem manual yang rentan kesalahan dan kurangnya transparansi. Menjawab tantangan tersebut dan didukung oleh Perda No 1 Tahun 2024, aplikasi E-Retribusi diusulkan sebagai langkah transformasi digital mendasar.</p>
-          <p class="text-slate-500 leading-relaxed">Tujuannya adalah membangun sistem terintegrasi untuk mengoptimalkan penerimaan retribusi, meningkatkan kepatuhan wajib retribusi melalui kemudahan pembayaran, dan menciptakan tata kelola yang transparan serta akuntabel.</p>
+          <span class="inline-block px-3 py-1 bg-blue-100 text-blue-700 text-xs font-bold rounded-full mb-3">URGENSI REFORMASI RETRIBUSI</span>
+          <h2 class="text-3xl font-extrabold text-slate-900 mb-6">Latar Belakang & Tujuan Pembentukan</h2>
+          <p class="text-slate-600 leading-relaxed mb-4 text-justify">
+            Pengelolaan retribusi daerah di Kota Baubau sebelumnya menghadapi tantangan klasik seperti sistem pungutan tunai manual yang rentan kebocoran, kelambanan pencocokan data bank mitra, dan minimnya transparansi kepada publik.
+          </p>
+          <p class="text-slate-600 leading-relaxed mb-4 text-justify">
+            Menjawab amanat <strong>Peraturan Daerah Kota Baubau No. 1 Tahun 2024</strong> serta Undang-Undang No. 1 Tahun 2022 (HKPD), inisiatif E-Retribusi diintegrasikan dengan M-PAD untuk menciptakan satu pintu penerimaan retribusi daerah yang modern, menjamin setiap rupiah yang disetorkan wajib pajak langsung masuk ke Kas Daerah (RKUD) tanpa perantara.
+          </p>
+          <div class="flex items-center gap-4 mt-6">
+            <div class="flex items-center gap-2 text-sm font-semibold text-slate-700">
+              <i data-lucide="check-circle" class="w-5 h-5 text-emerald-500"></i>
+              Nol Kebocoran (Zero Leakage)
+            </div>
+            <div class="flex items-center gap-2 text-sm font-semibold text-slate-700">
+              <i data-lucide="check-circle" class="w-5 h-5 text-emerald-500"></i>
+              Efisiensi Biaya Operasional
+            </div>
+          </div>
         </div>
         <div data-animate="fade-in-right">
-          <div class="rounded-2xl overflow-hidden shadow-xl"><img src="../../assets/img/baubau-4.0-hero-graphic-transparent-duplicate.png" alt="Konsep E-Retribusi" class="w-full bg-slate-100"></div>
+          <div class="rounded-2xl overflow-hidden shadow-2xl border border-slate-200 bg-white p-3">
+            <img src="../../assets/img/baubau-4.0-hero-graphic-transparent-duplicate.png" alt="Konsep E-Retribusi & MPAD" class="w-full rounded-xl bg-slate-100">
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Fitur Utama -->
-  <section class="py-20 bg-slate-50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center max-w-3xl mx-auto mb-16">
-        <h2 class="text-3xl font-extrabold text-slate-900 mb-4" data-animate>Fitur Utama Aplikasi</h2>
-        <p class="text-slate-500" data-animate data-animate-delay="100">Dirancang dengan berbagai fitur untuk kemudahan pengguna dan optimalisasi pengelolaan oleh pemerintah daerah.</p>
-      </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div class="glass-card p-8 hover:bg-blue-600 group transition-all duration-300" data-animate data-animate-delay="100">
-          <i data-lucide="user" class="w-10 h-10 text-blue-500 group-hover:text-white mb-4 transition-colors"></i>
-          <h4 class="font-bold text-slate-900 group-hover:text-white mb-2 transition-colors">Profil & Autentikasi</h4>
-          <p class="text-sm text-slate-500 group-hover:text-blue-100 transition-colors">Login aman via NIK, dan halaman profil untuk mengelola data pribadi pengguna.</p>
-        </div>
-        <div class="glass-card p-8 hover:bg-blue-600 group transition-all duration-300" data-animate data-animate-delay="200">
-          <i data-lucide="layout-grid" class="w-10 h-10 text-blue-500 group-hover:text-white mb-4 transition-colors"></i>
-          <h4 class="font-bold text-slate-900 group-hover:text-white mb-2 transition-colors">Dashboard Terpusat</h4>
-          <p class="text-sm text-slate-500 group-hover:text-blue-100 transition-colors">Menampilkan info saldo, akses cepat pembayaran, daftar layanan, dan tunggakan tagihan.</p>
-        </div>
-        <div class="glass-card p-8 hover:bg-blue-600 group transition-all duration-300" data-animate data-animate-delay="300">
-          <i data-lucide="credit-card" class="w-10 h-10 text-blue-500 group-hover:text-white mb-4 transition-colors"></i>
-          <h4 class="font-bold text-slate-900 group-hover:text-white mb-2 transition-colors">Multi-Metode Pembayaran</h4>
-          <p class="text-sm text-slate-500 group-hover:text-blue-100 transition-colors">Mendukung pembayaran via Virtual Account Bank Sultra, QRIS, dan metode digital lainnya.</p>
-        </div>
-        <div class="glass-card p-8 hover:bg-blue-600 group transition-all duration-300" data-animate data-animate-delay="400">
-          <i data-lucide="receipt" class="w-10 h-10 text-blue-500 group-hover:text-white mb-4 transition-colors"></i>
-          <h4 class="font-bold text-slate-900 group-hover:text-white mb-2 transition-colors">Manajemen Tagihan</h4>
-          <p class="text-sm text-slate-500 group-hover:text-blue-100 transition-colors">Melihat riwayat tagihan dan membayar beberapa tagihan sekaligus.</p>
-        </div>
-        <div class="glass-card p-8 hover:bg-blue-600 group transition-all duration-300" data-animate data-animate-delay="500">
-          <i data-lucide="message-square" class="w-10 h-10 text-blue-500 group-hover:text-white mb-4 transition-colors"></i>
-          <h4 class="font-bold text-slate-900 group-hover:text-white mb-2 transition-colors">Pengaduan & Ulasan</h4>
-          <p class="text-sm text-slate-500 group-hover:text-blue-100 transition-colors">Kirim masukan, kritik, saran, dan menilai kepuasan layanan retribusi.</p>
-        </div>
-        <div class="glass-card p-8 hover:bg-blue-600 group transition-all duration-300" data-animate data-animate-delay="600">
-          <i data-lucide="bar-chart-2" class="w-10 h-10 text-blue-500 group-hover:text-white mb-4 transition-colors"></i>
-          <h4 class="font-bold text-slate-900 group-hover:text-white mb-2 transition-colors">Laporan & Analitik</h4>
-          <p class="text-sm text-slate-500 group-hover:text-blue-100 transition-colors">Dashboard real-time bagi pemerintah untuk memonitor penerimaan tiap OPD.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Ruang Lingkup -->
+  <!-- Fitur Utama Aplikasi E-Retribusi -->
   <section class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center max-w-3xl mx-auto mb-16">
-        <h2 class="text-3xl font-extrabold text-slate-900 mb-4" data-animate>Ruang Lingkup Retribusi</h2>
-        <p class="text-slate-500" data-animate data-animate-delay="100">Aplikasi akan mengintegrasikan berbagai jenis retribusi dari OPD terkait di Kota Baubau.</p>
+        <span class="inline-block px-3 py-1 bg-emerald-100 text-emerald-700 text-xs font-bold rounded-full mb-3">FITUR APLIKASI</span>
+        <h2 class="text-3xl font-extrabold text-slate-900 mb-4" data-animate>Fitur Unggulan E-Retribusi</h2>
+        <p class="text-slate-500" data-animate data-animate-delay="100">Dirancang dengan berbagai modul canggih untuk kemudahan wajib pajak dan kemudahan monitoring oleh BAPENDA.</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="glass-card p-8 hover:bg-blue-600 group transition-all duration-300 rounded-2xl border border-slate-200/80 shadow-sm" data-animate data-animate-delay="100">
+          <i data-lucide="user-check" class="w-10 h-10 text-blue-500 group-hover:text-white mb-4 transition-colors"></i>
+          <h4 class="font-bold text-slate-900 group-hover:text-white mb-2 transition-colors">Profil & NIK Terverifikasi</h4>
+          <p class="text-sm text-slate-500 group-hover:text-blue-100 transition-colors">Autentikasi aman terhubung data kependudukan (NIK) dan validasi nomor WhatsApp untuk penagihan instan.</p>
+        </div>
+        <div class="glass-card p-8 hover:bg-blue-600 group transition-all duration-300 rounded-2xl border border-slate-200/80 shadow-sm" data-animate data-animate-delay="200">
+          <i data-lucide="layout-grid" class="w-10 h-10 text-blue-500 group-hover:text-white mb-4 transition-colors"></i>
+          <h4 class="font-bold text-slate-900 group-hover:text-white mb-2 transition-colors">Dashboard Terpusat</h4>
+          <p class="text-sm text-slate-500 group-hover:text-blue-100 transition-colors">Menampilkan ringkasan tagihan aktif, status tunggakan, notifikasi jatuh tempo, dan riwayat pembayaran.</p>
+        </div>
+        <div class="glass-card p-8 hover:bg-blue-600 group transition-all duration-300 rounded-2xl border border-slate-200/80 shadow-sm" data-animate data-animate-delay="300">
+          <i data-lucide="credit-card" class="w-10 h-10 text-blue-500 group-hover:text-white mb-4 transition-colors"></i>
+          <h4 class="font-bold text-slate-900 group-hover:text-white mb-2 transition-colors">Multi-Metode Pembayaran</h4>
+          <p class="text-sm text-slate-500 group-hover:text-blue-100 transition-colors">Mendukung Virtual Account Bank Sultra, BRIVA, Mandiri VA, QRIS Dinamis nasional, dan dompet digital.</p>
+        </div>
+        <div class="glass-card p-8 hover:bg-blue-600 group transition-all duration-300 rounded-2xl border border-slate-200/80 shadow-sm" data-animate data-animate-delay="400">
+          <i data-lucide="receipt" class="w-10 h-10 text-blue-500 group-hover:text-white mb-4 transition-colors"></i>
+          <h4 class="font-bold text-slate-900 group-hover:text-white mb-2 transition-colors">Bukti Setor Sah (SSPD)</h4>
+          <p class="text-sm text-slate-500 group-hover:text-blue-100 transition-colors">Penerbitan Surat Setoran Pajak Daerah otomatis ber-QR Code dengan verifikasi keabsahan digital.</p>
+        </div>
+        <div class="glass-card p-8 hover:bg-blue-600 group transition-all duration-300 rounded-2xl border border-slate-200/80 shadow-sm" data-animate data-animate-delay="500">
+          <i data-lucide="message-square" class="w-10 h-10 text-blue-500 group-hover:text-white mb-4 transition-colors"></i>
+          <h4 class="font-bold text-slate-900 group-hover:text-white mb-2 transition-colors">Kanal Pengaduan & Ulasan</h4>
+          <p class="text-sm text-slate-500 group-hover:text-blue-100 transition-colors">Wadah umpan balik warga untuk melaporkan kendala layanan retribusi dan transparansi pungutan lapangan.</p>
+        </div>
+        <div class="glass-card p-8 hover:bg-blue-600 group transition-all duration-300 rounded-2xl border border-slate-200/80 shadow-sm" data-animate data-animate-delay="600">
+          <i data-lucide="bar-chart-3" class="w-10 h-10 text-blue-500 group-hover:text-white mb-4 transition-colors"></i>
+          <h4 class="font-bold text-slate-900 group-hover:text-white mb-2 transition-colors">Analitik & Heatmap OPD</h4>
+          <p class="text-sm text-slate-500 group-hover:text-blue-100 transition-colors">Dashboard eksekutif bagi Walikota & Bapenda untuk memantau capaian target per sektor dan per zona wilayah.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ruang Lingkup Retribusi 6 OPD -->
+  <section class="py-20 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="inline-block px-3 py-1 bg-violet-100 text-violet-700 text-xs font-bold rounded-full mb-3">INTEGRASI SEKTORAL</span>
+        <h2 class="text-3xl font-extrabold text-slate-900 mb-4" data-animate>Ruang Lingkup Retribusi Lintas OPD</h2>
+        <p class="text-slate-500" data-animate data-animate-delay="100">Ekosistem E-Retribusi & MPAD mengonsolidasikan seluruh pungutan resmi dari 6 Organisasi Perangkat Daerah pengampu.</p>
       </div>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        <div class="p-6 border border-slate-100 rounded-xl shadow-sm hover:shadow-md transition-shadow" data-animate>
+        <div class="p-6 bg-white border border-slate-200/80 rounded-2xl shadow-sm hover:shadow-md transition-shadow" data-animate>
           <div class="flex items-center gap-3 mb-3">
-            <div class="p-2 bg-blue-50 rounded-lg"><i data-lucide="stamp" class="w-6 h-6 text-blue-600"></i></div>
-            <h5 class="font-bold text-slate-900">DPMPTSP</h5>
+            <div class="p-2.5 bg-blue-50 text-blue-600 rounded-xl"><i data-lucide="stamp" class="w-6 h-6"></i></div>
+            <div>
+              <h5 class="font-bold text-slate-900">DPMPTSP</h5>
+              <p class="text-[11px] text-slate-400">Penanaman Modal & PTSP</p>
+            </div>
           </div>
-          <p class="text-sm text-slate-500">Retribusi IMB/PBG dan Reklame.</p>
+          <p class="text-sm text-slate-600">Retribusi Persetujuan Bangunan Gedung (PBG/IMB) dan Penggunaan Ruang Reklame komersial.</p>
         </div>
-        <div class="p-6 border border-slate-100 rounded-xl shadow-sm hover:shadow-md transition-shadow" data-animate>
+        <div class="p-6 bg-white border border-slate-200/80 rounded-2xl shadow-sm hover:shadow-md transition-shadow" data-animate>
           <div class="flex items-center gap-3 mb-3">
-            <div class="p-2 bg-blue-50 rounded-lg"><i data-lucide="car" class="w-6 h-6 text-blue-600"></i></div>
-            <h5 class="font-bold text-slate-900">Dishub</h5>
+            <div class="p-2.5 bg-blue-50 text-blue-600 rounded-xl"><i data-lucide="car" class="w-6 h-6"></i></div>
+            <div>
+              <h5 class="font-bold text-slate-900">Dinas Perhubungan</h5>
+              <p class="text-[11px] text-slate-400">Sektor Transportasi</p>
+            </div>
           </div>
-          <p class="text-sm text-slate-500">Retribusi Parkir, Kepelabuhanan, dan Terminal.</p>
+          <p class="text-sm text-slate-600">Retribusi Parkir Tepi Jalan Umum, Kawasan Parkir Khusus, Terminal, dan Pelayanan Kepelabuhanan.</p>
         </div>
-        <div class="p-6 border border-slate-100 rounded-xl shadow-sm hover:shadow-md transition-shadow" data-animate>
+        <div class="p-6 bg-white border border-slate-200/80 rounded-2xl shadow-sm hover:shadow-md transition-shadow" data-animate>
           <div class="flex items-center gap-3 mb-3">
-            <div class="p-2 bg-blue-50 rounded-lg"><i data-lucide="shopping-bag" class="w-6 h-6 text-blue-600"></i></div>
-            <h5 class="font-bold text-slate-900">Disperindag</h5>
+            <div class="p-2.5 bg-blue-50 text-blue-600 rounded-xl"><i data-lucide="shopping-bag" class="w-6 h-6"></i></div>
+            <div>
+              <h5 class="font-bold text-slate-900">Disperindag</h5>
+              <p class="text-[11px] text-slate-400">Perdagangan & Industri</p>
+            </div>
           </div>
-          <p class="text-sm text-slate-500">Retribusi Pelayanan Pasar (Los, Kios).</p>
+          <p class="text-sm text-slate-600">Retribusi Pelayanan Pasar Tradisional, Sewa Kios, Los Pasar, serta Tera/Tera Ulang timbangan.</p>
         </div>
-        <div class="p-6 border border-slate-100 rounded-xl shadow-sm hover:shadow-md transition-shadow" data-animate>
+        <div class="p-6 bg-white border border-slate-200/80 rounded-2xl shadow-sm hover:shadow-md transition-shadow" data-animate>
           <div class="flex items-center gap-3 mb-3">
-            <div class="p-2 bg-blue-50 rounded-lg"><i data-lucide="hammer" class="w-6 h-6 text-blue-600"></i></div>
-            <h5 class="font-bold text-slate-900">Dinas PUPR</h5>
+            <div class="p-2.5 bg-blue-50 text-blue-600 rounded-xl"><i data-lucide="hammer" class="w-6 h-6"></i></div>
+            <div>
+              <h5 class="font-bold text-slate-900">Dinas PUPR</h5>
+              <p class="text-[11px] text-slate-400">Pekerjaan Umum</p>
+            </div>
           </div>
-          <p class="text-sm text-slate-500">Retribusi IMB/PBG dan Sewa Alat Berat.</p>
+          <p class="text-sm text-slate-600">Retribusi Pemakaian Kekayaan Daerah, Sewa Alat Berat Konstruksi, dan Laboratorium Konstruksi.</p>
         </div>
-        <div class="p-6 border border-slate-100 rounded-xl shadow-sm hover:shadow-md transition-shadow" data-animate>
+        <div class="p-6 bg-white border border-slate-200/80 rounded-2xl shadow-sm hover:shadow-md transition-shadow" data-animate>
           <div class="flex items-center gap-3 mb-3">
-            <div class="p-2 bg-blue-50 rounded-lg"><i data-lucide="leaf" class="w-6 h-6 text-blue-600"></i></div>
-            <h5 class="font-bold text-slate-900">DLH</h5>
+            <div class="p-2.5 bg-blue-50 text-blue-600 rounded-xl"><i data-lucide="leaf" class="w-6 h-6"></i></div>
+            <div>
+              <h5 class="font-bold text-slate-900">Dinas Lingkungan Hidup</h5>
+              <p class="text-[11px] text-slate-400">Kebersihan & Sanitasi</p>
+            </div>
           </div>
-          <p class="text-sm text-slate-500">Retribusi Pelayanan Persampahan/Kebersihan.</p>
+          <p class="text-sm text-slate-600">Retribusi Pelayanan Kebersihan/Persampahan perumahan & niaga, serta penyedotan kakus/tinja.</p>
         </div>
-        <div class="p-6 border border-slate-100 rounded-xl shadow-sm hover:shadow-md transition-shadow" data-animate>
+        <div class="p-6 bg-white border border-slate-200/80 rounded-2xl shadow-sm hover:shadow-md transition-shadow" data-animate>
           <div class="flex items-center gap-3 mb-3">
-            <div class="p-2 bg-blue-50 rounded-lg"><i data-lucide="map-pin" class="w-6 h-6 text-blue-600"></i></div>
-            <h5 class="font-bold text-slate-900">Disparekraf</h5>
+            <div class="p-2.5 bg-blue-50 text-blue-600 rounded-xl"><i data-lucide="compass" class="w-6 h-6"></i></div>
+            <div>
+              <h5 class="font-bold text-slate-900">Disparekraf</h5>
+              <p class="text-[11px] text-slate-400">Pariwisata & Olahraga</p>
+            </div>
           </div>
-          <p class="text-sm text-slate-500">Retribusi Tempat Rekreasi dan Olahraga.</p>
+          <p class="text-sm text-slate-600">Retribusi Tempat Rekreasi, Objek Wisata Cagar Budaya, dan Pemanfaatan Fasilitas Gedung Olahraga.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Fondasi Arsitektur -->
-  <section class="py-20 bg-slate-50">
+  <!-- Fondasi Arsitektur & Keamanan Siber -->
+  <section class="py-20 bg-white border-t border-slate-200">
     <div class="max-w-5xl mx-auto px-4 sm:px-6">
       <div class="text-center mb-12">
-        <h2 class="text-3xl font-extrabold text-slate-900 mb-4" data-animate>Fondasi Arsitektur Aplikasi</h2>
-        <p class="text-slate-500" data-animate data-animate-delay="100">Infrastruktur dan teknologi yang mendukung keandalan serta keamanan sistem E-Retribusi.</p>
+        <span class="inline-block px-3 py-1 bg-blue-100 text-blue-700 text-xs font-bold rounded-full mb-3">KEANDALAN SISTEM</span>
+        <h2 class="text-3xl font-extrabold text-slate-900 mb-4" data-animate>Fondasi Arsitektur & Keamanan Siber</h2>
+        <p class="text-slate-500 max-w-2xl mx-auto" data-animate data-animate-delay="100">Dirancang menggunakan arsitektur N-Tier terisolasi dengan proteksi keamanan berlapis sesuai standar regulasi SPBE dan SNAP BI.</p>
       </div>
-      <div class="rounded-2xl overflow-hidden shadow-2xl" data-animate="zoom-in">
-        <img src="../../File/PAD%20dan%20BAPENDA/Fondasi%20Aplikasi%20E-Retribusi.png" alt="Fondasi Aplikasi E-Retribusi" class="w-full">
+
+      <div class="rounded-2xl overflow-hidden shadow-2xl border border-slate-200 mb-10" data-animate="zoom-in">
+        <img src="../../File/PAD%20dan%20BAPENDA/Fondasi%20Aplikasi%20E-Retribusi.png" alt="Fondasi Arsitektur E-Retribusi & MPAD" class="w-full">
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
+        <div class="bg-slate-50 p-5 rounded-xl border border-slate-200">
+          <div class="flex items-center gap-2 font-bold text-slate-900 mb-2">
+            <i data-lucide="shield-check" class="w-5 h-5 text-emerald-600"></i>
+            Kriptografi Asimetris
+          </div>
+          <p class="text-xs text-slate-600 leading-relaxed">Pengamanan komunikasi payload transaksi dengan RSA-2048 dan signature HMAC SHA-256 untuk memblokir mitigasi serangan Man-in-the-Middle.</p>
+        </div>
+
+        <div class="bg-slate-50 p-5 rounded-xl border border-slate-200">
+          <div class="flex items-center gap-2 font-bold text-slate-900 mb-2">
+            <i data-lucide="zap" class="w-5 h-5 text-amber-600"></i>
+            In-Memory Caching (Redis)
+          </div>
+          <p class="text-xs text-slate-600 leading-relaxed">Memangkas latensi query data objek dan tagihan dari skala milidetik ke mikrodetik, menjamin kelancaran akses ribuan transaksi serentak.</p>
+        </div>
+
+        <div class="bg-slate-50 p-5 rounded-xl border border-slate-200">
+          <div class="flex items-center gap-2 font-bold text-slate-900 mb-2">
+            <i data-lucide="lock" class="w-5 h-5 text-blue-600"></i>
+            Audit Mutu & VAPT Berkala
+          </div>
+          <p class="text-xs text-slate-600 leading-relaxed">Pengujian penetrasi berkala oleh tenaga ahli bersertifikasi OSCP/OSWE untuk menutup celah OWASP Top 10 sebelum rilis produksi.</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- CTA -->
+  <!-- Dokumen Acuan & KAK Terkait -->
+  <section class="py-16 bg-slate-50 border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-sm flex flex-col md:flex-row items-center justify-between gap-6">
+        <div>
+          <span class="text-xs font-bold text-blue-600 uppercase tracking-wider">DOKUMEN RESMI</span>
+          <h4 class="text-xl font-bold text-slate-900 mt-1">Dokumen Kerangka Acuan Kerja (KAK) & Perencanaan MPAD</h4>
+          <p class="text-sm text-slate-500 mt-1">Akses dokumen KAK MPAD resmi BAPENDA, Rencana Anggaran Biaya (RAB), dan laporan analisis kelayakan.</p>
+        </div>
+        <div class="flex flex-wrap gap-3 shrink-0">
+          <a href="../dokumen/kak-pendampingan-bapenda.html" class="px-4 py-2.5 bg-blue-50 hover:bg-blue-100 text-blue-700 text-xs font-bold rounded-xl transition-colors flex items-center gap-2">
+            <i data-lucide="file-text" class="w-4 h-4"></i> KAK MPAD BAPENDA
+          </a>
+          <a href="../dokumen/rab.html" class="px-4 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold rounded-xl transition-colors flex items-center gap-2">
+            <i data-lucide="calculator" class="w-4 h-4"></i> Rencana Anggaran (RAB)
+          </a>
+          <a href="../dokumen/studi-kelayakan.html" class="px-4 py-2.5 bg-emerald-50 hover:bg-emerald-100 text-emerald-700 text-xs font-bold rounded-xl transition-colors flex items-center gap-2">
+            <i data-lucide="check-circle" class="w-4 h-4"></i> Studi Kelayakan
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
   <section class="py-20 bg-white border-t border-slate-200">
     <div class="max-w-4xl mx-auto text-center px-4" data-animate>
-      <h2 class="text-2xl font-bold text-slate-900 mb-4">Siap Mengoptimalkan Penerimaan Daerah?</h2>
-      <p class="text-slate-500 mb-8">E-Retribusi adalah solusi digital untuk mengelola retribusi parkir, pasar, wisata, dan layanan OPD lainnya secara transparan, real-time, dan terintegrasi dengan sistem pembayaran digital serta dashboard analitik untuk pemantauan PAD secara langsung.</p>
-      <a href="../index.html" class="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-800 transition-colors">
-        <i data-lucide="arrow-left" class="w-4 h-4"></i> Kembali ke Beranda
-      </a>
+      <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-4">Siap Mewujudkan Kemandirian Fiskal Kota Baubau?</h2>
+      <p class="text-slate-500 mb-8 max-w-2xl mx-auto text-sm sm:text-base leading-relaxed">
+        Integrasi E-Retribusi & M-PAD menjadi pilar fundamental menuju perwujudan Visi Baubau 4.0: pelayanan publik yang mudah, penerimaan kas daerah yang transparan, dan pembangunan berkelanjutan yang berkeadilan.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="https://mpad.online" target="_blank" class="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl shadow-lg shadow-blue-500/20 transition-all flex items-center gap-2">
+          <i data-lucide="external-link" class="w-4 h-4"></i> Kunjungi Portal mpad.online
+        </a>
+        <a href="../index.html" class="px-6 py-3 bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold rounded-xl transition-colors flex items-center gap-2">
+          <i data-lucide="arrow-left" class="w-4 h-4"></i> Kembali ke Beranda
+        </a>
+      </div>
     </div>
   </section>
 
